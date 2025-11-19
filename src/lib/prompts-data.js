@@ -3843,6 +3843,107 @@ export const imagePrompts = [
     prompt: `Fotografía de un escenario con luces azules y púrpuras, una persona de pie dando una charla con micrófono, público desenfocado en primer plano o al fondo, pantalla grande detrás con formas y gráficos abstractos (sin texto legible), ambiente de conferencia moderna, sensación de energía y profesionalismo.`,
     thumbnail: "/images/evento-escenario-luces.png",
   },
+    // 🔽 Nuevas categorías extra (IMÁGENES)
+
+  {
+    id: "img-agencia-equipo-creativo",
+    title: "Equipo creativo de agencia en acción",
+    category: "Agencias",
+    summary:
+      "Escena de agencia creativa con equipo trabajando en ideas y campañas.",
+    prompt: `Fotografía de una mesa grande en una agencia creativa, varias personas alrededor con laptops, post-its de colores, bocetos de anuncios y moodboards sobre la mesa, una persona señalando algo en la pantalla, fondo con pizarra y logos desenfocados, luz natural combinada con luces cálidas, estilo dinámico y profesional.`,
+    thumbnail: "/images/agencia-equipo-creativo.png",
+  },
+
+  {
+    id: "img-consultor-presentando-cliente",
+    title: "Consultor presentando estrategia a cliente",
+    category: "Consultoría",
+    summary:
+      "Escena de consultor mostrando un plan en pantalla a un cliente.",
+    prompt: `Fotografía de un consultor de pie junto a una pantalla grande con gráficos y diagramas abstractos (sin texto legible), señalando con un puntero o mano, cliente sentado escuchando frente a una mesa de reuniones, ventanales al fondo con ciudad desenfocada, estilo corporativo moderno, sensación de claridad y liderazgo.`,
+    thumbnail: "/images/consultor-presentando-cliente.png",
+  },
+
+  {
+    id: "img-programador-codigo-multipantalla",
+    title: "Programador frente a múltiples pantallas",
+    category: "Programación",
+    summary:
+      "Setup de programador con varias pantallas y código visible (no legible).",
+    prompt: `Fotografía de un programador sentado frente a dos o tres monitores, pantallas mostrando código y gráficos abstractos sin texto legible, teclado mecánico iluminado, luz de ambiente azul y morada, algunos gadgets sobre el escritorio, estilo tech gamer/programador, sensación de foco profundo y trabajo en proyectos digitales.`,
+    thumbnail: "/images/programador-codigo-multipantalla.png",
+  },
+
+  {
+    id: "img-gamer-setup-streamer",
+    title: "Setup de gamer/streamer con luces",
+    category: "Gamers",
+    summary:
+      "Habitación gamer con luces RGB, pantallas y silla tipo streaming.",
+    prompt: `Escena de habitación gamer con escritorio, doble monitor, silla ergonómica tipo gaming, luces LED RGB en tonos morados y cian, auriculares colgados, micrófono y cámara en el monitor, fondo con estantería y figuras decorativas, estilo setup de streamer profesional, ambiente energético y moderno.`,
+    thumbnail: "/images/gamer-setup-streamer.png",
+  },
+
+  {
+    id: "img-impacto-social-voluntariado-digital",
+    title: "Voluntariado e impacto social digital",
+    category: "Impacto social",
+    summary:
+      "Personas colaborando en proyectos de impacto social apoyados en tecnología.",
+    prompt: `Fotografía de varias personas reunidas alrededor de una mesa con laptops y documentos, mapas o gráficos abstractos sobre proyectos sociales, ambiente de ONG moderna, carteles genéricos en la pared (sin texto legible), luz natural, sensación de colaboración, ayuda y uso de tecnología para impacto positivo.`,
+    thumbnail: "/images/impacto-social-voluntariado-digital.png",
+  },
+
+  {
+    id: "img-inmobiliario-visita-departamento-moderno",
+    title: "Visita a departamento moderno",
+    category: "Inmobiliario",
+    summary:
+      "Agente mostrando un departamento luminoso y moderno a un cliente.",
+    prompt: `Fotografía de un agente inmobiliario enseñando un departamento moderno a una persona o pareja, sala de estar con sofá claro, ventanal grande con vista a la ciudad o naturaleza, decoración minimalista y elegante, luz abundante, sensación de espacio amplio y aspiracional, estilo real estate premium.`,
+    thumbnail: "/images/inmobiliario-visita-departamento-moderno.png",
+  },
+
+  {
+    id: "img-salud-bienestar-escritorio-equilibrio",
+    title: "Equilibrio entre trabajo y bienestar",
+    category: "Salud y bienestar",
+    summary:
+      "Mesa con laptop, infusión y elementos de autocuidado en equilibrio.",
+    prompt: `Fotografía de un escritorio limpio con laptop cerrada, taza de té herbal, vela encendida, planta pequeña y un cuaderno de gratitud o diario (sin texto legible), luz natural suave entrando por una ventana, tonos cálidos y verdes, sensación de calma, equilibrio y cuidado personal mientras se trabaja con tecnología.`,
+    thumbnail: "/images/salud-bienestar-escritorio-equilibrio.png",
+  },
+
+  {
+    id: "img-fitness-creador-hablando-camara-gym",
+    title: "Creador fitness grabando en gimnasio",
+    category: "Fitness",
+    summary:
+      "Entrenador grabando contenido frente a cámara en un gimnasio moderno.",
+    prompt: `Fotografía de un entrenador o creador fitness en un gimnasio moderno, cámara en trípode frente a él, pesas y máquinas al fondo desenfocado, luz blanca limpia, el entrenador hablando con energía y señalando hacia la cámara, estilo contenido de redes sobre entrenamiento y salud física.`,
+    thumbnail: "/images/fitness-creador-hablandocamara-gym.png",
+  },
+
+  {
+    id: "img-finanzas-personales-escritorio-graficos",
+    title: "Organización de finanzas personales",
+    category: "Finanzas",
+    summary:
+      "Escena de persona organizando finanzas con laptop, calculadora y gráficos.",
+    prompt: `Fotografía de un escritorio con laptop mostrando gráficos abstractos de finanzas, calculadora, libreta con columnas y números borrosos, taza de café, manos sosteniendo un bolígrafo o revisando un recibo, luz neutra, estilo ordenado pero cotidiano, sensación de tomar control de las finanzas personales.`,
+    thumbnail: "/images/finanzas-personales-escritorio-graficos.png",
+  },
+
+  {
+    id: "img-espiritualidad-meditacion-digital",
+    title: "Meditación y foco en entorno digital",
+    category: "Espiritualidad",
+    summary:
+      "Persona meditando junto a laptop apagada en un espacio minimalista.",
+    prompt: `Fotografía de una persona sentada en postura cómoda de meditación en el suelo o sobre un mat, laptop cerrada a un lado, vela encendida y planta cerca, pared clara de fondo, luz suave natural, estilo minimal zen, sensación de pausa, conexión interna y equilibrio entre mundo digital y bienestar espiritual.`,
+    thumbnail: "/images/espiritualidad-meditacion-digital.png",
+  },
 ];
 
 // 🎬 Prompts de VÍDEO
