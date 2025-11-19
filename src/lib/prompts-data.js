@@ -3745,6 +3745,104 @@ export const imagePrompts = [
     prompt: `Escena de evento de networking en un salón moderno, varias personas de pie conversando en grupos pequeños, todas con credenciales colgando, mesas altas con bebidas, pantallas al fondo mostrando gráficos o logotipos, iluminación cálida, ambiente profesional pero relajado, estilo fotografía corporativa de evento.`,
     thumbnail: "/images/evento-networking.png",
   },
+  // 🔽 Nuevas categorías para el anuncio (IMÁGENES)
+
+  {
+    id: "img-negocios-reunion-vidrio",
+    title: "Reunión estratégica en oficina moderna",
+    category: "Negocios",
+    summary:
+      "Escena de equipo en reunión estratégica con vibe de empresa moderna y digital.",
+    prompt: `Fotografía de una sala de reuniones con mesa de madera clara y 4 personas alrededor, laptops abiertos, gráficos en una pantalla grande de fondo (sin texto legible), ventanales de vidrio con ciudad desenfocada, luz natural entrando, estilo corporativo moderno, sensación de enfoque y estrategia.`,
+    thumbnail: "/images/negocios-reunion-vidrio.png",
+  },
+
+  {
+    id: "img-educacion-estudiante-ia",
+    title: "Estudio con apoyo de IA",
+    category: "Educación",
+    summary:
+      "Escena de estudiante usando IA para aprender, ideal para cursos y formación.",
+    prompt: `Fotografía de un estudiante sentado en escritorio con laptop, libreta abierta y resaltador, auriculares sobre la mesa, pantalla con diagramas y bloques de contenido abstracto, fondo de estantería con libros, luz suave, estilo estudio en casa moderno, sensación de concentración y aprendizaje con ayuda de la tecnología.`,
+    thumbnail: "/images/educacion-estudiante-ia.png",
+  },
+
+  {
+    id: "img-emprendedor-whiteboard-ideas",
+    title: "Emprendedor llenando pizarra de ideas",
+    category: "Emprendedores",
+    summary:
+      "Escena tipo startup con pizarra llena de flechas e ideas visuales.",
+    prompt: `Fotografía de un emprendedor de pie frente a una pizarra blanca grande, escribiendo o dibujando flechas, círculos y diagramas (sin texto legible), post-its de colores pegados alrededor, ambiente de oficina creativa, luz natural, estilo startup, sensación de energía y construcción de proyecto.`,
+    thumbnail: "/images/emprendedor-whiteboard-ideas.png",
+  },
+
+  {
+    id: "img-freelancer-cafeteria-movil",
+    title: "Freelancer trabajando desde cafetería",
+    category: "Freelancers",
+    summary:
+      "Imagen estilo nómada digital con laptop, café y ambiente relajado.",
+    prompt: `Fotografía de un freelancer sentado junto a una ventana en una cafetería moderna, laptop abierta, taza de café con espuma al lado, fondo con luces cálidas y decoración minimalista, expresión tranquila mientras mira la pantalla, estilo lifestyle productivo, sensación de libertad geográfica.`,
+    thumbnail: "/images/freelancer-cafeteria-movil.png",
+  },
+
+  {
+    id: "img-coaching-silla-frente-a-silla",
+    title: "Sesión de coaching uno a uno",
+    category: "Coaching",
+    summary:
+      "Dos personas conversando en sillones cómodos en un ambiente acogedor.",
+    prompt: `Fotografía de dos sillones enfrentados en una sala acogedora, dos personas conversando de forma relajada, una escucha atentamente con postura abierta, mesa pequeña en medio con libreta y vaso de agua, plantas y lámpara cálida en el fondo, estilo coaching/terapia moderno, sensación de confianza y enfoque en la persona.`,
+    thumbnail: "/images/coaching-sesion-uno-a-uno.png",
+  },
+
+  {
+    id: "img-lanzamiento-cohete-digital",
+    title: "Lanzamiento digital estilo cohete",
+    category: "Lanzamientos",
+    summary:
+      "Visual metafórico de un lanzamiento con cohete y pantallas digitales.",
+    prompt: `Ilustración semi-realista de un cohete despegando desde una plataforma hecha de pantallas y dispositivos digitales (laptops, móviles, tablets), chispas de luz cian y naranja alrededor, fondo oscuro con nubes iluminadas, estilo moderno y aspiracional, sensación de inicio de proyecto o lanzamiento potente.`,
+    thumbnail: "/images/lanzamiento-cohete-digital.png",
+  },
+
+  {
+    id: "img-comunidad-circulo-personas",
+    title: "Comunidad conectada en círculo",
+    category: "Comunidad",
+    summary:
+      "Personas en círculo con dispositivos, simbolizando comunidad y apoyo.",
+    prompt: `Ilustración de varias personas sentadas en círculo vista desde arriba, cada una con un portátil o móvil, líneas de luz conectando los dispositivos entre sí, fondo suave en tonos azul y violeta, iconos pequeños de mensajes y burbujas de chat flotando, estilo limpio y moderno, sensación de comunidad y colaboración online.`,
+    thumbnail: "/images/comunidad-circulo-personas.png",
+  },
+
+  {
+    id: "img-productividad-calendario-escritorio",
+    title: "Escritorio con calendario de productividad",
+    category: "Productividad",
+    summary: "Calendario, tareas y laptop en un setup ordenado y minimal.",
+    prompt: `Fotografía de escritorio organizado con calendario de pared o de mesa, lista de tareas en una hoja o bloc (sin texto legible), laptop cerrada o semiabierta, bolígrafo y pequeña planta decorativa, luz natural lateral, estilo minimalista, sensación de claridad mental y buena organización del tiempo.`,
+    thumbnail: "/images/productividad-calendario-escritorio.png",
+  },
+
+  {
+    id: "img-branding-moodboard-mesa",
+    title: "Moodboard de branding en mesa",
+    category: "Branding",
+    summary: "Tablero de inspiración con colores, logos y tipografías.",
+    prompt: `Vista cenital de una mesa con un moodboard de marca: muestras de colores impresos, recortes de tipografías, bocetos de logotipos, fotografías de referencia, todo organizado de forma estética, manos moviendo una tarjeta de color, estilo estudio de diseño, tonos cálidos y neutros, sensación creativa y profesional.`,
+    thumbnail: "/images/branding-moodboard-mesa.png",
+  },
+
+  {
+    id: "img-evento-escenario-luces",
+    title: "Evento en escenario con luces",
+    category: "Eventos",
+    summary: "Escenario iluminado con speaker y público desenfocado.",
+    prompt: `Fotografía de un escenario con luces azules y púrpuras, una persona de pie dando una charla con micrófono, público desenfocado en primer plano o al fondo, pantalla grande detrás con formas y gráficos abstractos (sin texto legible), ambiente de conferencia moderna, sensación de energía y profesionalismo.`,
+    thumbnail: "/images/evento-escenario-luces.png",
+  },
 ];
 
 // 🎬 Prompts de VÍDEO
@@ -4163,7 +4261,7 @@ La cámara permanece fija, sin texto ni gráficos en pantalla.
 No generes texto legible en el vídeo, sólo la escena de entrevista limpia.`,
     thumbnail: "",
   },
-    // 🔽 Nuevas categorías para el anuncio (VIDEO)
+  // 🔽 Nuevas categorías para el anuncio (VIDEO)
 
   {
     id: "vid-negocio-reunion-estrategica",
