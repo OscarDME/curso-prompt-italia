@@ -1,6 +1,6 @@
 // src/app/curso/prompts/imagen/page.jsx
 import { PromptLibrary } from "@/components/course/prompt-library";
-import { imagePrompts } from "@/lib/prompts-data";
+import { imagePrompts } from "@/lib/prompts/image";
 
 export default function PromptsImagenPage() {
   return (
