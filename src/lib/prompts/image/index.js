@@ -8,6 +8,7 @@ import { imagePromptsFotoProductoEnManoUGC } from "./foto-producto-en-mano-ugc";
 import { imagePromptsFotoGastronomia } from "./foto-gastronomia";
 import { imagePromptsFotoFitnessDeporte } from "./foto-fitness-deporte";
 import { imagePromptsFotoViajesLugares } from "./foto-viajes-lugares";
+import { imagePromptsCaricaturaBrandMascotas } from "./caricatura-brand-mascotas";
 
 export const imagePrompts = [
   ...imagePromptsFotoRetratoEstudio,
@@ -18,4 +19,5 @@ export const imagePrompts = [
   ...imagePromptsFotoGastronomia,
   ...imagePromptsFotoFitnessDeporte,
   ...imagePromptsFotoViajesLugares,
+  // ...imagePromptsCaricaturaBrandMascotas,
 ];

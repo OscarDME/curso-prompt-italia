@@ -267,7 +267,7 @@ export const bonusesSectionCopy = {
       imageSrc: "/bonuses/bonus-8.webp",
       imageAlt:
         "Empresario trabajando junto a un robot con gráficos financieros",
-      href: "/curso/bonos/mega-prompt-millonario", // 👈 nueva ruta
+      href: "/curso/mega-prompt-millonario", // 👈 nueva ruta
       locked: true,
     },
   ],
