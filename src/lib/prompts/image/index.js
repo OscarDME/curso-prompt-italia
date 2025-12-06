@@ -8,6 +8,7 @@ import { imagePromptsFotoProductoEnManoUGC } from "./foto-producto-en-mano-ugc";
 import { imagePromptsFotoGastronomia } from "./foto-gastronomia";
 import { imagePromptsFotoFitnessDeporte } from "./foto-fitness-deporte";
 import { imagePromptsFotoViajesLugares } from "./foto-viajes-lugares";
+import { imagePromptsAvatarsIAVSL } from "./avatars-ia-vsl";
 import { imagePromptsCaricaturaBrandMascotas } from "./caricatura-brand-mascotas";
 
 export const imagePrompts = [
@@ -19,5 +20,6 @@ export const imagePrompts = [
   ...imagePromptsFotoGastronomia,
   ...imagePromptsFotoFitnessDeporte,
   ...imagePromptsFotoViajesLugares,
+  ...imagePromptsAvatarsIAVSL,
   // ...imagePromptsCaricaturaBrandMascotas,
 ];
