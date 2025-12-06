@@ -48,6 +48,23 @@ import { textPromptsMarketingObjetivos } from "./marketing-objetivos";
 import { textPromptsMarketingNurturing } from "./marketing-nurturing";
 import { textPromptsMarketingSegmentacion } from "./marketing-segmentacion";
 import { textPromptsMarketingMensajesRapidos } from "./marketing-mensajes-rapidos";
+import { textPromptsSaludClinicaEducacionYAdherencia } from "./salud-clinica-educacion-del-paciente-y-adherencia";
+import { textPromptsSaludClinicaExplicacionAlPaciente } from "./salud-clinica-explicacion-al-paciente";
+import { textPromptsSaludClinicaHistoriaClinicaTriage } from "./salud-clinica-historia-clinica-triage";
+import { textPromptsSaludClinicaTriageYAnamnesis } from "./salud-clinica-triage-y-anamnesis";
+import { textPromptsSaludClinicaOtros } from "./salud-clinica-otros";
+import { textPromptsAbogadoLegalContratos } from "./abogado-legal-contratos";
+import { textPromptsAbogadoLegalCumplimiento } from "./abogado-legal-cumplimiento";
+import { textPromptsAbogadoLegalLitigioResolucionConflictos } from "./abogado-legal-litigio-resolucion-conflictos";
+import { textPromptsAbogadoLegalOtros } from "./abogado-legal-otros";
+import { textPromptsFinanzasContabilidadImpuestosCumplimiento } from "./finanzas-contabilidad-impuestos-cumplimiento";
+import { textPromptsFinanzasContabilidadPresupuestoPlanificacion } from "./finanzas-contabilidad-presupuesto-planificacion";
+import { textPromptsFinanzasContabilidadOtros } from "./finanzas-contabilidad-otros";
+import { textPromptsProgramacionTiApisBackend } from "./programacion-ti-apis-backend";
+import { textPromptsProgramacionTiAutomatizacionScripts } from "./programacion-ti-automatizacion-scripts";
+import { textPromptsProgramacionTiDebuggingTroubleshooting } from "./programacion-ti-debugging-troubleshooting";
+import { textPromptsProgramacionTiDesarrolloSoftware } from "./programacion-ti-desarrollo-software";
+import { textPromptsProgramacionTiOtros } from "./programacion-ti-otros";
 
 export const textPrompts = [
   ...textPromptsMarketingIdeasCampana,
@@ -98,6 +115,23 @@ export const textPrompts = [
   ...textPromptsMarketingNurturing,
   ...textPromptsMarketingSegmentacion,
   ...textPromptsMarketingMensajesRapidos,
+  ...textPromptsSaludClinicaEducacionYAdherencia,
+  ...textPromptsSaludClinicaExplicacionAlPaciente,
+  ...textPromptsSaludClinicaHistoriaClinicaTriage,
+  ...textPromptsSaludClinicaTriageYAnamnesis,
+  ...textPromptsSaludClinicaOtros,
+  ...textPromptsAbogadoLegalContratos,
+  ...textPromptsAbogadoLegalCumplimiento,
+  ...textPromptsAbogadoLegalLitigioResolucionConflictos,
+  ...textPromptsAbogadoLegalOtros,
+  ...textPromptsFinanzasContabilidadImpuestosCumplimiento,
+  ...textPromptsFinanzasContabilidadPresupuestoPlanificacion,
+  ...textPromptsFinanzasContabilidadOtros,
+  ...textPromptsProgramacionTiApisBackend,
+  ...textPromptsProgramacionTiAutomatizacionScripts,
+  ...textPromptsProgramacionTiDebuggingTroubleshooting,
+  ...textPromptsProgramacionTiDesarrolloSoftware,
+  ...textPromptsProgramacionTiOtros,
   // más adelante iremos añadiendo:
   // ...textPromptsMarketingEmbudos,
   // ...textPromptsMarketingCopyAnuncios,
