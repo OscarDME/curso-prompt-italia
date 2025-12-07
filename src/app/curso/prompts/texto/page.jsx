@@ -9,6 +9,7 @@ export default function PromptsTextoPage() {
       subtitle="Biblioteca completa de prompts profesionales de texto para educación, marketing, ventas y más."
       items={textPrompts}
       type="text"
+      tutorialUrl="https://youtu.be/q4ZWUl1YE-w"
     />
   );
 }

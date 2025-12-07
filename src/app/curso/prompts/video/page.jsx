@@ -9,6 +9,7 @@ export default function PromptsVideoPage() {
       subtitle="Guiones y estructuras para vídeos virales, anuncios y contenido corto usando IA."
       items={videoPrompts}
       type="video"
+      tutorialUrl="https://youtu.be/KCxUEFW3-nU"
     />
   );
 }

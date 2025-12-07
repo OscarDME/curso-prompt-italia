@@ -1,3 +1,4 @@
+// src/components/course/prompt-library.jsx
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
@@ -12,7 +13,9 @@ import {
   ImageIcon,
   Clapperboard,
   ArrowLeft,
+  HelpCircle,
 } from "lucide-react";
+
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
@@ -25,7 +28,29 @@ function getIconForType(type) {
   return FileText;
 }
 
-export function PromptLibrary({ title, subtitle, items, type }) {
+function toYouTubeEmbed(url) {
+  try {
+    const u = new URL(url);
+
+    // youtu.be/ID
+    if (u.hostname === "youtu.be") {
+      const id = u.pathname.replace("/", "");
+      return `https://www.youtube.com/embed/${id}`;
+    }
+
+    // youtube.com/watch?v=ID
+    if (u.hostname.includes("youtube.com")) {
+      const id = u.searchParams.get("v");
+      if (id) return `https://www.youtube.com/embed/${id}`;
+
+      // youtube.com/embed/ID (ya viene listo)
+      if (u.pathname.startsWith("/embed/")) return url;
+    }
+  } catch {}
+  return url;
+}
+
+export function PromptLibrary({ title, subtitle, items, type, tutorialUrl }) {
   const [search, setSearch] = useState("");
   const [area, setArea] = useState("Todas"); // macro categoría (solo texto/imagen)
   const [category, setCategory] = useState("Todas"); // subcategoría
@@ -38,7 +63,34 @@ export function PromptLibrary({ title, subtitle, items, type }) {
   const Icon = getIconForType(type);
   const isVideo = type === "video";
 
-  // 👇 NUEVO: en texto/imagen solo mostramos categorías cuando el usuario elige un área específica
+  // ✅ Tutorial desplegable (persistente por tipo)
+  const tutorialKey = `bsp:tutorial:dismissed:${type}`;
+  const [tutorialOpen, setTutorialOpen] = useState(false);
+  const [tutorialDismissed, setTutorialDismissed] = useState(false);
+
+  const embedUrl = useMemo(
+    () => (tutorialUrl ? toYouTubeEmbed(tutorialUrl) : null),
+    [tutorialUrl]
+  );
+
+  useEffect(() => {
+    if (!tutorialUrl) return;
+    try {
+      const dismissed = localStorage.getItem(tutorialKey) === "1";
+      setTutorialDismissed(dismissed);
+      setTutorialOpen(false); // por defecto cerrado (no estorba)
+    } catch {}
+  }, [tutorialUrl, tutorialKey]);
+
+  const dismissTutorial = () => {
+    try {
+      localStorage.setItem(tutorialKey, "1");
+    } catch {}
+    setTutorialDismissed(true);
+    setTutorialOpen(false);
+  };
+
+  // 👇 en texto/imagen solo mostramos categorías cuando el usuario elige un área específica
   const showCategories = isVideo ? true : area !== "Todas";
 
   // ÁREAS (macro categorías) — solo para texto/imagen
@@ -104,7 +156,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
     if (page > totalPages) setPage(totalPages);
   }, [page, totalPages]);
 
-  // 👇 NUEVO: si vuelves a "Todas" en área, también reseteamos categoría (evita estados raros)
+  // si vuelves a "Todas" en área, también reseteamos categoría (evita estados raros)
   useEffect(() => {
     if (!isVideo && area === "Todas" && category !== "Todas") {
       setCategory("Todas");
@@ -141,6 +193,77 @@ export function PromptLibrary({ title, subtitle, items, type }) {
           </Link>
         </Button>
       </div>
+
+      {/* 🎥 Tutorial desplegable */}
+      {tutorialUrl && (
+        <div className="rounded-2xl border border-white/10 bg-white/5">
+          <div className="flex items-center justify-between gap-3 p-3">
+            {!tutorialDismissed ? (
+              <p className="text-xs text-slate-200">
+                Para aprender a usar los prompts,{" "}
+                <span className="font-semibold text-teal-200">
+                  haz clic aquí
+                </span>
+                .
+              </p>
+            ) : (
+              <p className="text-[11px] text-slate-400">
+                ¿Necesitas ayuda para usar estos prompts?
+              </p>
+            )}
+
+            <div className="flex items-center gap-2">
+              <Button
+                size="sm"
+                variant="ghost"
+                type="button"
+                onClick={() => setTutorialOpen((v) => !v)}
+                className="rounded-full border border-white/10 bg-white/5 px-3 text-xs text-slate-100 hover:bg-white/10"
+              >
+                <HelpCircle className="mr-1 h-3.5 w-3.5" />
+                {tutorialOpen ? "Ocultar" : "Ver tutorial"}
+              </Button>
+
+              {!tutorialDismissed && (
+                <Button
+                  size="sm"
+                  variant="ghost"
+                  type="button"
+                  onClick={dismissTutorial}
+                  className="rounded-full px-3 text-xs text-slate-300 hover:bg-white/10"
+                >
+                  No mostrar más
+                </Button>
+              )}
+            </div>
+          </div>
+
+          {tutorialOpen && embedUrl && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              transition={{ duration: 0.25 }}
+              className="px-3 pb-3"
+            >
+              <div className="relative aspect-video w-full overflow-hidden rounded-xl border border-white/10 bg-black">
+                <iframe
+                  className="absolute inset-0 h-full w-full"
+                  src={embedUrl}
+                  title={`Tutorial ${title}`}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+
+              <p className="mt-2 text-[11px] text-slate-400">
+                Tip: Puedes cerrarlo y quedará el botón “Ver tutorial” para
+                abrirlo cuando lo necesites.
+              </p>
+            </motion.div>
+          )}
+        </div>
+      )}
 
       {/* encabezado */}
       <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
@@ -181,7 +304,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   ))}
                 </div>
 
-                {/* 👇 NUEVO: solo renderiza categorías cuando se eligió un área */}
+                {/* categorías solo cuando se eligió un área */}
                 {showCategories && (
                   <div className="flex flex-wrap gap-2">
                     {categories.map((cat) => (
@@ -202,7 +325,6 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   </div>
                 )}
 
-                {/* (Opcional) mensajito guía cuando no hay área seleccionada */}
                 {!showCategories && (
                   <p className="text-[11px] text-slate-400">
                     Selecciona un área para ver sus categorías.
@@ -211,7 +333,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
               </>
             )}
 
-            {/* 🔹 Vídeo: solo categoría (IGUAL que antes) */}
+            {/* 🔹 Vídeo: solo categoría */}
             {isVideo && (
               <div className="flex flex-wrap gap-2">
                 {categories.map((cat) => (
@@ -372,7 +494,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                 Mostrando{" "}
                 <span className="font-semibold text-teal-200">
                   {showingFrom}–{showingTo}
-                </span>{" "}
+                </span>
               </p>
 
               <div className="inline-flex items-center gap-2">

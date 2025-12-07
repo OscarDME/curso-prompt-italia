@@ -9,6 +9,7 @@ export default function PromptsImagenPage() {
       subtitle="Prompts listos para generar fotos, portadas y creatividades visuales de alto impacto."
       items={imagePrompts}
       type="image"
+      tutorialUrl="https://youtu.be/MQotT4Eg6N0"
     />
   );
 }

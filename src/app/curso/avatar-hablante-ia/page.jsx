@@ -2,7 +2,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, PlayCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { bonus07AvatarHablante } from "@/lib/bonus-07-avatar-hablante-content";
@@ -15,8 +15,51 @@ function formatRichText(text) {
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 }
 
+function toYouTubeEmbed(url) {
+  try {
+    const u = new URL(url);
+
+    // youtu.be/ID
+    if (u.hostname === "youtu.be") {
+      const id = u.pathname.replace("/", "");
+      return `https://www.youtube.com/embed/${id}`;
+    }
+
+    // youtube.com/watch?v=ID
+    if (u.hostname.includes("youtube.com")) {
+      const id = u.searchParams.get("v");
+      if (id) return `https://www.youtube.com/embed/${id}`;
+
+      // youtube.com/embed/ID (ya viene listo)
+      if (u.pathname.startsWith("/embed/")) return url;
+    }
+  } catch {}
+  return url;
+}
+
 export default function BonusAvatarHablantePage() {
   const { title, subtitle, heroText, sections } = bonus07AvatarHablante;
+
+  const videos = [
+    {
+      id: "facil",
+      title: "Método fácil (rápido) — Avatar hablante",
+      subtitle: "Ideal si quieres resultado rápido sin complicarte.",
+      url: "https://youtu.be/b1ewMMYUqTQ",
+    },
+    {
+      id: "intermedio-1",
+      title: "Método intermedio — Paso 1",
+      subtitle: "Creamos la base / referencia para mantener consistencia.",
+      url: "https://youtu.be/T-CMz0Y3DA8",
+    },
+    {
+      id: "intermedio-2",
+      title: "Método intermedio — Paso 2",
+      subtitle: "Generación del video y armado final.",
+      url: "https://youtu.be/Tz2Cn7S_vgM",
+    },
+  ];
 
   return (
     <div className="space-y-6 py-6">
@@ -51,6 +94,46 @@ export default function BonusAvatarHablantePage() {
         />
       )}
 
+      {/* ✅ VIDEOS ARRIBA */}
+      <div className="space-y-3">
+        <h2 className="text-base md:text-lg font-semibold text-slate-50">
+          Videos (3 métodos / pasos)
+        </h2>
+
+        <div className="grid gap-4 md:grid-cols-3">
+          {videos.map((v) => (
+            <Card
+              key={v.id}
+              className="border-white/10 bg-slate-950/80 p-3 md:p-4"
+            >
+              <div className="flex items-start gap-2">
+                <PlayCircle className="mt-0.5 h-4 w-4 text-teal-300" />
+                <div className="space-y-1">
+                  <p className="text-sm font-semibold text-slate-50">
+                    {v.title}
+                  </p>
+                  {v.subtitle && (
+                    <p className="text-xs text-slate-300">{v.subtitle}</p>
+                  )}
+                </div>
+              </div>
+
+              <div className="mt-3 relative aspect-video w-full overflow-hidden rounded-xl border border-white/10 bg-black">
+                <iframe
+                  className="absolute inset-0 h-full w-full"
+                  src={toYouTubeEmbed(v.url)}
+                  title={v.title}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </Card>
+          ))}
+        </div>
+      </div>
+
+      {/* CONTENIDO */}
       <div className="space-y-8">
         {sections.map((section) => (
           <Card
