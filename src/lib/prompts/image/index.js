@@ -10,6 +10,8 @@ import { imagePromptsFotoFitnessDeporte } from "./foto-fitness-deporte";
 import { imagePromptsFotoViajesLugares } from "./foto-viajes-lugares";
 import { imagePromptsAvatarsIAVSL } from "./avatars-ia-vsl";
 import { imagePromptsCaricaturaBrandMascotas } from "./caricatura-brand-mascotas";
+import { imagePromptsSelfieSesionProMujer } from "./foto-selfie-sesion-pro-mujer";
+import { imagePromptsSelfieSesionProHombre } from "./foto-selfie-sesion-pro-hombre";
 
 export const imagePrompts = [
   ...imagePromptsFotoRetratoEstudio,
@@ -21,5 +23,7 @@ export const imagePrompts = [
   ...imagePromptsFotoFitnessDeporte,
   ...imagePromptsFotoViajesLugares,
   ...imagePromptsAvatarsIAVSL,
+  ...imagePromptsSelfieSesionProMujer,
+  ...imagePromptsSelfieSesionProHombre,
   // ...imagePromptsCaricaturaBrandMascotas,
 ];
