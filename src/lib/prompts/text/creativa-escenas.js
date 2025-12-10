@@ -1,1083 +1,1082 @@
 // src/lib/prompts/text/creativa-escenas.js
 
 export const textPromptsCreativaEscenas = [
-  {
-    id: "crea-esc-001",
-    title: "Escena de apertura: gancho inmediato + promesa de historia",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Crea una escena inicial que atrape en la primera página, establezca tono y plantee una promesa narrativa.",
-    prompt: `Dame estos datos (si no los tengo, propón 2 opciones por cada punto y elige una):
-1) Género y tono (ej. thriller, realismo mágico, comedia negra).
-2) Persona y tiempo verbal (1ª/3ª, pasado/presente).
-3) Protagonista (objetivo inmediato + miedo secreto).
-4) Ubicación (microdetalles + clima + hora).
-5) Elemento disruptivo (incidente incitador en miniatura).
-6) Promesa central de la historia (en 1 frase).
-
-Escribe una escena de apertura de 900–1400 palabras cumpliendo:
-- Primer párrafo con gancho sensorial + pregunta implícita.
-- Presenta al protagonista en acción (no descripción estática).
-- Inserta 3 detalles visuales memorables y 2 auditivos.
-- Incluye un “objeto significativo” que reaparecerá luego.
-- Subtexto: algo no dicho que el lector percibe.
-- Cierra la escena con una elección difícil o revelación parcial.
-- Mantén ritmo alto: frases variando longitud, sin relleno.
-
-Al final agrega:
-A) 5 frases alternativas de apertura (más potentes).
-B) 3 posibles títulos para el capítulo.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-002",
-    title: "Escena íntima: tensión silenciosa en un lugar cotidiano",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Construye una escena en apariencia simple donde el conflicto real se siente sin decirse.",
-    prompt: `Dame:
-- 2 personajes (relación exacta, herida previa).
-- Lugar cotidiano (cocina, autobús, lavandería, etc.).
-- Tema emocional (culpa, deseo, celos, miedo).
-- Un secreto que uno sabe y el otro no.
-- Un “gesto” recurrente (morder uñas, alisar camisa, etc.).
-
-Escribe una escena de 900–1500 palabras donde:
-- El conflicto sea principalmente subtexto.
-- Cada línea de diálogo tenga una intención (evitar, presionar, probar, confesar).
-- Usa objetos del lugar como metáforas (3 mínimo).
-- Inserta microacciones (miradas, manos, respiración) para construir tensión.
-- Incluye 1 momento de humor involuntario para humanizar.
-- Termina con un cambio de estado: “antes” vs “después” (clarísimo).
-
-Añade al final:
-1) Qué quería cada personaje (objetivo visible + objetivo real).
-2) Qué cambió en la relación en una sola frase.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-003",
-    title: "Escena de persecución: claridad espacial + adrenalina",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Persecución cinematográfica con bloques de acción claros, obstáculos y decisiones visibles.",
-    prompt: `Dame:
-- Quién persigue a quién y por qué (motivo real).
-- Escenario (mercado, azoteas, bosque, metro, festival).
-- 3 obstáculos físicos del lugar.
-- 1 limitación del protagonista (lesión, miedo, carga, tiempo).
-- Qué se arriesga a perder si lo atrapan.
-
-Escribe una escena de 900–1600 palabras con:
-- Geografía clara: marca posiciones (izquierda/derecha, arriba/abajo, distancia).
-- 7 beats de acción (numerados internamente mientras escribes, sin mostrarlos al lector).
-- Incluye 2 “falsas salidas” (parece que escapa, pero no).
-- Un detalle sensorial por párrafo (olor, textura, sonido, temperatura).
-- Un giro creativo usando un objeto del entorno (improvisación).
-- Cierra con cliffhanger: el perseguidor “casi” logra su objetivo o se revela algo del perseguidor.
-
-Después agrega:
-- Lista corta de 5 verbos fuertes que dominen la escena.
-- 3 frases de cierre alternativas (más tensas).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-004",
-    title: "Escena de terror: amenaza invisible + crescendo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Horror atmosférico basado en lo que no se ve, con escalada y pago final.",
-    prompt: `Dame:
-- Tipo de horror (psicológico, sobrenatural, corporal, folk).
-- Ubicación cerrada y opresiva.
-- Regla del lugar (algo que “no se debe hacer”).
-- Protagonista: trauma o culpa que lo vuelve vulnerable.
-- “Evidencia” de la amenaza (sonido, rastro, señal).
-
-Escribe 1000–1700 palabras:
-- Comienza con normalidad inquietante.
-- Usa repetición con variación (un sonido/patrón que vuelve distinto).
-- No muestres el monstruo al inicio: sugiérelo con 5 pistas graduales.
-- Incluye 1 escena corta dentro de la escena (recuerdo/flash sensorial).
-- El miedo debe provenir tanto del lugar como del interior del protagonista.
-- Final: revelación parcial + decisión desesperada.
-
-Al final:
-A) 10 ideas de “pistas” alternativas (para otros capítulos).
-B) 1 frase que defina la amenaza sin nombrarla.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-005",
-    title: "Escena de romance: primer encuentro con química real",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Meet-cute con tensión, humor y señales tempranas de compatibilidad y conflicto.",
-    prompt: `Dame:
-- Personaje A y B (edad, ocupación, defecto encantador).
-- Contexto del encuentro (evento, accidente, favor).
-- Lo que cada uno busca evitar emocionalmente.
-- Un “detalle” que el otro nota y nadie más.
-- Un obstáculo inmediato (tiempo, terceros, vergüenza, trabajo).
-
-Escribe 900–1500 palabras:
-- Diálogo ágil, con interrupciones naturales.
-- Química basada en observación y valores, no solo físico.
-- Al menos 1 microgesto que delate atracción.
-- Un malentendido pequeño pero significativo.
-- Cierra con: intercambio de algo (objeto, información, promesa) que obligue a verse otra vez.
-
-Incluye al final:
-- 5 líneas de diálogo mejores (las más cargadas).
-- 3 maneras alternativas de reencuentro.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-006",
-    title: "Escena de discusión: pelea con subtexto y consecuencias",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una pelea donde ambos tengan razón en algo, y el daño sea concreto.",
-    prompt: `Dame:
-- Relación (pareja, hermanos, socios, maestro/alumno).
-- Origen real del conflicto (no el tema superficial).
-- Límite que no deberían cruzar (insulto, tema tabú).
-- Lugar (con algo que pueda romperse/caerse).
-- Qué necesita uno escuchar y el otro no puede decir.
-
-Escribe 1000–1800 palabras:
-- Empieza suave y escala en 3 olas.
-- Cada personaje usa una “estrategia” distinta (ironía, silencio, ataque, lógica).
-- Inserta acciones físicas que acompañen la emoción (no solo diálogo).
-- Debe ocurrir 1 daño irreversible (palabra/acto) que cambie la relación.
-- Termina con silencio o salida (pero cargado).
-
-Después:
-1) Resume en 2 líneas el subtexto de cada personaje.
-2) Propón 2 escenas posteriores posibles (una reconciliación, una ruptura).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-007",
-    title: "Escena de revelación: secreto que reconfigura todo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Un reveal que cambia la interpretación del lector y obliga a actuar.",
-    prompt: `Dame:
-- Secreto (qué es exactamente y quién lo ocultó).
-- Quién lo descubre.
-- Lugar y momento (condiciones: noche/ruido/lluvia, etc.).
-- Qué está en juego si se sabe.
-- Un símbolo/objeto ligado al secreto.
-
-Escribe 900–1600 palabras:
-- Construye expectativa con señales previas.
-- Revela el secreto en una acción, no en una explicación larga.
-- Muestra 2 reacciones: inmediata (física) y secundaria (mental).
-- Incluye un mini-monólogo interior de 6–10 líneas (contenido emocional, no exposición).
-- Termina con una decisión forzada.
-
-Al final:
-- 3 versiones del mismo reveal con tonos distintos (trágico, irónico, épico).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-008",
-    title: "Escena de negociación: poder, riesgos y concesiones",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Negociación tensa con capas de poder, amenazas veladas y un intercambio real.",
-    prompt: `Dame:
-- Quién negocia con quién (jerarquía/poder).
-- Qué quiere cada uno (demanda inicial y deseo real).
-- Qué “moneda” se intercambia (dinero, info, protección, favor).
-- Restricción de tiempo.
-- Un tercero que observa o influye.
-
-Escribe 900–1700 palabras:
-- Debe haber 5 movimientos de poder (ceder, presionar, cambiar tema, silencio, una prueba).
-- Usa detalles del ambiente como metáfora de tensión (luz, vaso, humo, reloj).
-- Inserta un “anzuelo”: algo que uno usa para atrapar al otro.
-- Termina con acuerdo imperfecto o ruptura peligrosa.
-
-Al final:
-- Tabla breve (en texto) de concesiones: quién dio qué, quién ganó qué.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-009",
-    title: "Escena de misterio: pista importante sin que se note",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Escena detectivesca donde una pista clave se ve natural, pero es decisiva.",
-    prompt: `Dame:
-- Crimen o enigma.
-- Investigador/a (defecto + habilidad).
-- Lugar donde se recaba información.
-- Sospechoso o testigo (qué oculta).
-- Pista real (objeto, frase, contradicción).
-
-Escribe 1000–1800 palabras:
-- Muestra el método del investigador con acciones observables.
-- Introduce la pista en medio de algo cotidiano (no la subrayes).
-- Incluye 1 distracción (pista falsa creíble).
-- Diálogo con tensión: el testigo dice verdad mezclada con mentira.
-- Termina con el investigador saliendo con una hipótesis incompleta pero peligrosa.
-
-Después:
-- Señala (sin spoilers obvios) dónde quedó escondida la pista y por qué funciona.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-010",
-    title: "Escena de entrenamiento: progreso real + fricción",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Escena donde un personaje aprende, falla, y el aprendizaje cambia su carácter.",
-    prompt: `Dame:
-- Habilidad a entrenar (física, mágica, social, mental).
-- Mentor o sistema (quién enseña, o qué regla guía).
-- Miedo/bloqueo del aprendiz.
-- Prueba concreta del entrenamiento.
-- Consecuencia si no aprende.
-
-Escribe 900–1600 palabras:
-- Incluye 3 intentos: 1 fallo feo, 1 casi, 1 logro parcial.
-- El mentor debe tener agenda propia o método incómodo.
-- Sensaciones del cuerpo/mente durante el esfuerzo (mínimo 6 detalles).
-- Termina con una frase o gesto que muestre que el aprendiz cambió.
-
-Al final:
-- 5 “ejercicios” adicionales que podrías usar en escenas futuras.`,
-    thumbnail: "",
-  },
-
-  // 40 prompts más (variando géneros, ritmo, POV, objetivos, y técnicas de escena)
-
-  {
-    id: "crea-esc-011",
-    title: "Escena de calma tensa: el silencio antes del desastre",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una escena quieta que aumenta la ansiedad del lector con presagios sutiles.",
-    prompt: `Dame:
-- Qué desastre se aproxima (sin mostrarlo aún).
-- 2 personajes presentes y qué evitan hablar.
-- Lugar (con sonidos constantes: ventilador, lluvia, cables, etc.).
-- Un detalle que funciona como presagio.
-- Un objeto que “no debería estar ahí”.
-
-Escribe 900–1500 palabras:
-- Ritmo lento pero hipnótico.
-- Presagio en capas: 1 leve, 1 medio, 1 inevitable.
-- El diálogo debe ser banal por fuera, grave por dentro.
-- Termina en un microcorte: algo cambia (luz se va, mensaje llega, golpe suena).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-012",
-    title: "Escena en un solo plano: continuidad visual y tensión",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Escribe una escena como si fuera un plano secuencia: fluida, sin cortes, muy visual.",
-    prompt: `Dame:
-- Ubicación amplia con recorrido (hotel, hospital, feria, mansión).
-- Objetivo urgente del protagonista.
-- Obstáculo humano principal.
-- Un detalle repetido en el recorrido (señal, música, color).
-- Tono (thriller, comedia, drama).
-
-Escribe 1000–1800 palabras como “plano secuencia”:
-- Transiciones suaves entre espacios (puertas, pasillos, escaleras).
-- Mantén continuidad de acciones (si toma un objeto, debe seguir ahí).
-- Inserta 3 momentos de tensión y 2 de respiro.
-- Cierra con un punto de no retorno.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-013",
-    title: "Escena con narrador poco fiable: grietas y pistas",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una escena donde el narrador engaña, pero el lector lo nota por inconsistencias elegantes.",
-    prompt: `Dame:
-- Qué hecho está distorsionando el narrador.
-- Motivo del autoengaño (culpa, miedo, orgullo).
-- Escenario.
-- Un personaje secundario que lo contradice sin querer.
-- 3 detalles que el narrador “olvida”.
-
-Escribe 900–1600 palabras:
-- El narrador insiste en una versión.
-- Inserta contradicciones sutiles (tiempos, colores, posiciones).
-- Usa un objeto como “prueba” que desmienta.
-- Final: una frase que, sin confesar, revela que miente.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-014",
-    title: "Escena de descubrimiento: hallazgo extraño en un lugar normal",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Un hallazgo inesperado altera la realidad cotidiana y abre misterio o fantasía.",
-    prompt: `Dame:
-- Lugar cotidiano.
-- Hallazgo (objeto/entrada/nota/puerta).
-- Quién lo encuentra y qué problema trae hoy.
-- Regla extraña del hallazgo.
-- Riesgo por tocarlo o ignorarlo.
-
-Escribe 900–1500 palabras:
-- Normalidad al inicio, extrañeza gradualmente.
-- Al menos 5 detalles sensoriales.
-- El hallazgo debe “responder” de algún modo (ruido, calor, memoria, visión).
-- Termina con un acto impulsivo que no se pueda deshacer.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-015",
-    title: "Escena de despedida: emoción contenida + objeto simbólico",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una despedida que duele sin melodrama, usando acciones pequeñas y símbolo.",
-    prompt: `Dame:
-- Quién se va y quién se queda (por qué).
-- Lugar de despedida.
-- Lo que no se pueden decir.
-- Objeto simbólico que cambia de manos.
-- Tono (esperanza, rabia, resignación).
-
-Escribe 900–1500 palabras:
-- Evita frases obvias; muestra con gestos.
-- Usa el entorno para reflejar el estado emocional.
-- Incluye 1 mentira piadosa.
-- Final: un detalle que se queda “vibrando” en el aire.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-016",
-    title: "Escena de juicio/tribunal: retórica + tensión moral",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Confrontación verbal con reglas, estrategias, testimonio y giro emocional.",
-    prompt: `Dame:
-- Acusación.
-- Quién defiende y quién acusa (intereses ocultos).
-- Testigo clave y su debilidad.
-- Evidencia principal.
-- Qué verdad terrible está a punto de salir.
-
-Escribe 1100–1900 palabras:
-- Alterna preguntas cortas con respuestas tensas.
-- Inserta reacciones del público/jurado como termómetro emocional.
-- Construye un giro: una frase del testigo cambia el rumbo.
-- Final: veredicto parcial o interrupción dramática.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-017",
-    title: "Escena de heist (robo): planificación + ejecución imperfecta",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Robo con estrategia clara, roles definidos y un error que vuelve todo vivo.",
-    prompt: `Dame:
-- Qué se roba y por qué importa.
-- Equipo (3 roles).
-- Sistema de seguridad.
-- Lugar.
-- El error humano que arruina el plan.
-
-Escribe 1000–1800 palabras:
-- Abre con tensión (ya están dentro).
-- Intercala mini flashes del plan solo cuando haga falta (no infodump).
-- 6 obstáculos crecientes.
-- Final: escape a medias o pérdida que cuesta caro.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-018",
-    title: "Escena de supervivencia: frío, hambre y decisiones duras",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una escena física donde el cuerpo manda y cada decisión tiene costo.",
-    prompt: `Dame:
-- Entorno hostil (desierto, nieve, mar).
-- Inventario del personaje (3 cosas).
-- Herida o limitación.
-- Objetivo inmediato.
-- Amenaza secundaria (animal, gente, clima).
-
-Escribe 900–1700 palabras:
-- Sensaciones corporales constantes (piel, respiración, dolor).
-- Pensamiento fragmentado por cansancio.
-- 3 decisiones: 1 buena, 1 dudosa, 1 desesperada.
-- Final: una pequeña victoria con precio.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-019",
-    title: "Escena de fiesta: caos social + microconflictos",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Fiesta con capas: conversaciones cruzadas, tensión romántica y peligro latente.",
-    prompt: `Dame:
-- Tipo de fiesta.
-- Protagonista: objetivo social.
-- Antagonista social (alguien que sabe algo).
-- Música/ambiente.
-- Un evento que detone (brindis, anuncio, pelea).
-
-Escribe 1000–1800 palabras:
-- Muestra 5 microescenas dentro de la fiesta (grupitos).
-- Diálogo con subtexto y dobles sentidos.
-- Un detalle sensorial por bloque (olor a alcohol, luces, calor).
-- Final: el protagonista queda expuesto o atrapado.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-020",
-    title: "Escena de confesión: verdad a destiempo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una confesión que llega tarde y cambia el futuro de la relación.",
-    prompt: `Dame:
-- Qué se confiesa.
-- Por qué se oculta hasta ahora.
-- Relación entre ambos.
-- Lugar con un elemento sonoro (tránsito, mar, reloj).
-- Consecuencia si la confesión falla.
-
-Escribe 900–1600 palabras:
-- La confesión no debe salir perfecta; debe trabarse.
-- Reacción realista (negación, silencio, pregunta cortante).
-- Inserta recuerdos breves que expliquen la carga, sin exposición.
-- Final: respuesta ambigua y un gesto que dice más.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "crea-esc-021",
-    title: "Escena de ruptura de alianza: traición con lógica",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Traición donde el traidor tiene razones comprensibles y el golpe duele más.",
-    prompt: `Dame:
-- Alianza (qué pactaron).
-- Punto de quiebre.
-- Qué gana el traidor.
-- Qué pierde el traicionado.
-- Lugar y objeto simbólico del pacto.
-
-Escribe 1000–1800 palabras:
-- Presagio leve al inicio (algo raro).
-- La traición ocurre en una acción concreta.
-- Ambos hablan: uno justifica, otro acusa.
-- Final: nueva dinámica de poder establecida.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-022",
-    title: "Escena de rescate: urgencia + dilema moral",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Rescate con obstáculos y dilema: salvar a uno implica perder algo importante.",
-    prompt: `Dame:
-- A quién rescatan y de qué.
-- Lugar del rescate.
-- Tiempo límite.
-- Obstáculo principal.
-- Dilema moral (dos opciones malas).
-
-Escribe 900–1700 palabras:
-- Acción clara por beats.
-- Incluye coordinación entre personajes (o caos si están solos).
-- Final: el rescate se logra pero el dilema deja una herida.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-023",
-    title: "Escena en lluvia: atmósfera + revelación emocional",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una escena intensa bajo lluvia donde el clima es parte del conflicto.",
-    prompt: `Dame:
-- Personajes presentes.
-- Qué se discute o decide.
-- Ubicación (calle, azotea, parada de bus).
-- Un objeto que se moja/arruina.
-- Tono (romántico, trágico, furioso).
-
-Escribe 900–1500 palabras:
-- La lluvia afecta movimientos y diálogo (ahoga, interrumpe).
-- Usa metáforas físicas (ropa pegada, manos frías).
-- Final: frase corta que remate el cambio emocional.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-024",
-    title: "Escena de viaje: movimiento + transformación interior",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Viaje en tren/carretera/barco donde lo externo refleja un cambio interno.",
-    prompt: `Dame:
-- Medio de transporte.
-- Motivo del viaje.
-- Qué deja atrás el protagonista.
-- 2 encuentros breves (extraños).
-- Un símbolo del destino.
-
-Escribe 1000–1700 palabras:
-- Alterna paisaje con pensamiento y microacciones.
-- Incluye 1 conversación corta que cambie algo.
-- Final: llegada o decisión de no llegar.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-025",
-    title: "Escena de primer uso de poder/habilidad (fantasía o sci-fi)",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Descubrimiento de poder con costo, reglas y emoción convincente.",
-    prompt: `Dame:
-- Poder/habilidad y reglas (2 límites).
-- Situación que lo despierta.
-- Precio o consecuencia.
-- Testigo (si lo hay).
-- Objetivo inmediato.
-
-Escribe 900–1700 palabras:
-- Describe el poder con sensaciones, no solo “se ve cool”.
-- Muestra error inicial y aprendizaje instantáneo por necesidad.
-- Final: el costo se paga o se anticipa con claridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-026",
-    title: "Escena con reloj en contra: cuenta regresiva real",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Escena con tensión matemática: el tiempo es un personaje.",
-    prompt: `Dame:
-- Tiempo exacto disponible.
-- Qué pasa si falla.
-- Lugar.
-- Obstáculos.
-- Herramientas/recursos limitados.
-
-Escribe 900–1600 palabras:
-- Menciona el tiempo de forma orgánica (pitidos, reloj, mensajes).
-- 3 mini fallos que comen tiempo.
-- Final: éxito por segundos o fracaso por poco.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-027",
-    title: "Escena de sueño/pesadilla: simbólica pero narrativa",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una pesadilla con símbolos claros y vínculo directo al conflicto real.",
-    prompt: `Dame:
-- Miedo central del personaje.
-- 3 símbolos (objeto, lugar, persona).
-- Un recuerdo enterrado.
-- Tono (surreal, terror, melancólico).
-- Despertar: qué lo detona.
-
-Escribe 900–1500 palabras:
-- Lógica onírica con coherencia emocional.
-- Repetición de símbolo con variación.
-- Final: despertar con detalle físico y una decisión inmediata.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-028",
-    title: "Escena con narración en segunda persona (inmersiva)",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Escribe una escena intensa en 2ª persona que se sienta íntima, no gimmick.",
-    prompt: `Dame:
-- Situación (riesgo, amor, culpa, duelo).
-- Lugar.
-- Sensación dominante (frío, vértigo, calor).
-- Qué persigue o evita “tú”.
-- Final deseado (shock, ternura, ambigüedad).
-
-Escribe 900–1500 palabras:
-- 2ª persona constante.
-- Frases sensoriales precisas.
-- Final: una frase corta que golpee.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-029",
-    title: "Escena con regla formal: solo diálogos + acotaciones mínimas",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Escena casi teatral: diálogo domina y el subtexto carga el peso.",
-    prompt: `Dame:
-- Personajes (2–3).
-- Conflicto.
-- Lugar.
-- Lo que cada uno oculta.
-- Giro final.
-
-Escribe 800–1400 palabras:
-- 90% diálogo, 10% acotaciones (máximo 1 línea por intervención).
-- El subtexto debe ser evidente por contradicciones y evasivas.
-- Final: frase que rompa el equilibrio.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-030",
-    title: "Escena de carta/mensaje leído en voz alta y sus reacciones",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Combina texto dentro del texto con reacción inmediata del personaje oyente/lector.",
-    prompt: `Dame:
-- Quién escribe y quién recibe.
-- Motivo de la carta/mensaje.
-- Lugar donde se lee.
-- Tono del texto (amor, amenaza, disculpa).
-- Consecuencia de leerlo.
-
-Escribe 900–1600 palabras:
-- Inserta el mensaje completo (400–700 palabras).
-- Intercala reacciones físicas durante la lectura (sin cortar demasiado).
-- Final: el receptor toma una acción inmediata.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "crea-esc-031",
-    title: "Escena de reencuentro: nostalgia + incomodidad",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Reencuentro de personajes con pasado compartido, lleno de capas.",
-    prompt: `Dame:
-- Quiénes se reencuentran y cuánto tiempo pasó.
-- Qué pasó la última vez (herida).
-- Lugar del reencuentro.
-- Un objeto del pasado.
-- Qué desea cada uno ahora.
-
-Escribe 900–1600 palabras:
-- Mezcla memoria con presente, sin perder la escena.
-- Diálogo con cortes y silencios reales.
-- Final: promesa, amenaza o invitación a continuar.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-032",
-    title: "Escena de humillación pública: control de tono y dignidad",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una escena dura donde el protagonista es expuesto, con consecuencias internas.",
-    prompt: `Dame:
-- Qué se expone (vergüenza).
-- Quién lo provoca.
-- Público (quién está mirando).
-- Lugar.
-- Cómo el protagonista intenta salvarse.
-
-Escribe 900–1600 palabras:
-- Mantén empatía con el protagonista.
-- Usa detalles sensoriales para el shock (oídos, calor, manos).
-- Final: un nuevo juramento o una grieta emocional.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-033",
-    title: "Escena de alianza inesperada: enemigos cooperan",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Dos personajes opuestos se ven obligados a colaborar frente a un tercero o un peligro.",
-    prompt: `Dame:
-- Enemigos: motivos de odio/rechazo.
-- Peligro externo.
-- Condición para sobrevivir/ganar (necesitan cooperar).
-- Lugar.
-- Qué línea moral no cruzarán.
-
-Escribe 900–1700 palabras:
-- Disputa constante + cooperación funcional.
-- Momentos de respeto involuntario.
-- Final: alianza temporal sellada con condición.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-034",
-    title: "Escena de infiltración: tensión silenciosa + detección casi",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Entrar sin ser visto: sonidos, sombras y casi errores.",
-    prompt: `Dame:
-- Qué intenta lograr el infiltrado.
-- Lugar (seguridad, guardias, cámaras o equivalentes).
-- Disfraz/estrategia.
-- Un fallo potencial.
-- Qué pasa si lo ven.
-
-Escribe 900–1600 palabras:
-- Usa silencio y microsonidos como tensión.
-- 3 casi-errores (cerca de ser descubierto).
-- Final: logra entrar pero deja una pista.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-035",
-    title: "Escena de cocina/mesa: familia + conflicto antiguo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Drama familiar durante una comida: tensión que hierve bajo lo cotidiano.",
-    prompt: `Dame:
-- Familia (roles).
-- Conflicto antiguo.
-- Tema detonante (política, dinero, pareja, herencia).
-- Un personaje mediador.
-- Un objeto/platillo simbólico.
-
-Escribe 1000–1800 palabras:
-- Conversación normal que se tuerce.
-- Detalles de comida/sonidos para marcar ritmo.
-- Final: algo se rompe (literal o metafórico).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-036",
-    title: "Escena de primer día en un lugar nuevo: extrañeza y reglas",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "El protagonista entra a un entorno nuevo y aprende reglas por fricción.",
-    prompt: `Dame:
-- Lugar nuevo (escuela, ciudad, secta, empresa, nave).
-- Regla social que nadie explica.
-- Persona que guía (pero no del todo).
-- Humillación o error inicial.
-- Objetivo del protagonista.
-
-Escribe 900–1600 palabras:
-- Mostrar reglas por consecuencias, no exposición.
-- 3 detalles que hagan el lugar único.
-- Final: el protagonista entiende algo inquietante.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-037",
-    title: "Escena de duelo: pérdida sin melodrama",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Duelo realista: cuerpo, rutina rota y memoria como golpe.",
-    prompt: `Dame:
-- A quién se perdió.
-- Qué quedó pendiente.
-- Lugar donde ocurre la escena (casa, cementerio, hospital).
-- Un objeto del muerto.
-- Etapa del duelo (negación, rabia, aceptación parcial).
-
-Escribe 900–1700 palabras:
-- Evita clichés; muestra rutina y detalle.
-- Inserta 1 recuerdo sensorial breve.
-- Final: gesto pequeño de seguir o caer.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-038",
-    title: "Escena de humor: caos controlado con remate",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Comedia basada en malentendidos, ritmo y un remate que cierre perfecto.",
-    prompt: `Dame:
-- Situación cómica (boda, entrevista, cita, entrega).
-- Personaje torpe (pero querible).
-- Objeto que complica todo.
-- Persona seria que choca con lo absurdo.
-- Final deseado (remate).
-
-Escribe 900–1500 palabras:
-- Ritmo ágil, visual.
-- 3 escaladas (cada cosa empeora).
-- Remate final inevitable y sorprendente.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-039",
-    title: "Escena de confrontación con el yo: espejo/recuerdo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "El personaje se enfrenta a sí mismo (metafórico o literal) y cambia.",
-    prompt: `Dame:
-- Conflicto interno.
-- Disparador (espejo, foto, voz, lugar).
-- Qué teme admitir.
-- Un símbolo.
-- Final: cambio deseado.
-
-Escribe 900–1600 palabras:
-- Monólogo interior + acciones.
-- El símbolo aparece 3 veces con significado distinto.
-- Final: decisión que rompa el patrón.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-040",
-    title: "Escena de interrogatorio: presión psicológica",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Interrogatorio con juego de poder, silencios y una grieta emocional.",
-    prompt: `Dame:
-- Interrogador y sospechoso (qué ocultan).
-- Qué se busca obtener.
-- Lugar (opresivo o engañosamente amable).
-- Técnica (amable, agresiva, confusión).
-- Giro final.
-
-Escribe 1000–1800 palabras:
-- Cambios de estrategia visibles.
-- Silencio como arma (describe su efecto).
-- Final: confesión parcial o acusación inesperada.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "crea-esc-041",
-    title: "Escena de batalla pequeña: táctica clara, emoción grande",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Combate limitado (no guerra masiva) con táctica, geografía y costo emocional.",
-    prompt: `Dame:
-- Quién pelea y por qué.
-- Lugar con elementos que se puedan usar tácticamente.
-- Ventaja y desventaja del protagonista.
-- Qué no puede perder.
-- Resultado deseado (victoria cara/derrota digna).
-
-Escribe 1000–1800 palabras:
-- Geografía clara.
-- Daño realista (cansancio, miedo, dolor).
-- Final: resultado con costo emocional explícito.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-042",
-    title: "Escena de pacto: promesa peligrosa sellada por ritual",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Dos partes sellan un acuerdo (mágico o simbólico) con precio latente.",
-    prompt: `Dame:
-- Quién pacta con quién.
-- Qué pide cada uno.
-- Ritual o símbolo del pacto.
-- Condición oculta.
-- Lugar.
-
-Escribe 900–1600 palabras:
-- Tensión moral: ¿deberían hacerlo?
-- El ritual debe ser sensorial y específico.
-- Final: el pacto se sella y algo “se nota” que cambió.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-043",
-    title: "Escena de descubrimiento científico: asombro + miedo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Hallazgo científico que maravilla pero tiene implicaciones inquietantes.",
-    prompt: `Dame:
-- Qué se descubre.
-- Quién lo descubre (y su ética).
-- Lugar (laboratorio/campo).
-- Síntoma extraño del hallazgo.
-- Riesgo inmediato.
-
-Escribe 900–1700 palabras:
-- Asombro técnico explicado con claridad, sin infodump.
-- Reacción humana creíble.
-- Final: decisión de ocultar o revelar.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-044",
-    title: "Escena de confesión en voz rota: perdón imposible",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Confesión cruda donde el perdón no está garantizado.",
-    prompt: `Dame:
-- Qué se confiesa.
-- Víctima o afectado.
-- Lugar íntimo.
-- Qué está a punto de perder el confesor.
-- Final deseado (rechazo/ambigüedad).
-
-Escribe 900–1600 palabras:
-- Lenguaje concreto, emocional sin melodrama.
-- Reacciones físicas fuertes pero realistas.
-- Final: el perdón no se da ‘gratis’.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-045",
-    title: "Escena de hallazgo de mapa/archivo: pista que abre mundo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Encuentran un mapa o archivo que cambia el objetivo de la historia.",
-    prompt: `Dame:
-- Qué es el mapa/archivo.
-- Dónde estaba escondido.
-- Qué peligro trae.
-- Quién lo quiere también.
-- Un símbolo en el mapa.
-
-Escribe 900–1500 palabras:
-- Descubrimiento con tensión (riesgo de ser vistos).
-- Lectura del mapa/archivo con interpretación (no exposición pura).
-- Final: nueva misión definida.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-046",
-    title: "Escena de despedida antes de misión: promesa y miedo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Antes de irse a algo peligroso, dos personajes se dicen poco pero todo.",
-    prompt: `Dame:
-- Quién se va a la misión y por qué.
-- Quién se queda.
-- Qué promesa hacen (explícita o implícita).
-- Lugar (puerto, estación, puerta de casa).
-- Objeto que queda.
-
-Escribe 900–1500 palabras:
-- Emoción contenida, detalles físicos.
-- Diálogo con subtexto.
-- Final: gesto final inolvidable.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-047",
-    title: "Escena de “casi final feliz” que se rompe (twist)",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Construye alivio y luego rompe la expectativa con un giro limpio.",
-    prompt: `Dame:
-- Qué creen haber logrado.
-- Qué amenaza sigue viva.
-- Lugar donde celebran o descansan.
-- Señal mínima del giro.
-- Consecuencia del giro.
-
-Escribe 900–1600 palabras:
-- Primera mitad: alivio, luz, humor mínimo.
-- Inserta señales casi invisibles.
-- Giro final contundente y lógico.
-- Cierra con imagen fuerte.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-048",
-    title: "Escena de negociación romántica: límites y deseo",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Romance adulto: dos personajes hablan de límites, miedo y deseo sin cursilería.",
-    prompt: `Dame:
-- Personajes (qué arriesgan si se acercan).
-- Contexto (después de un beso / antes de una decisión).
-- Límite central.
-- Deseo central.
-- Lugar.
-
-Escribe 900–1500 palabras:
-- Conversación honesta + tensión.
-- Subtexto: ambos quieren, ambos temen.
-- Final: acuerdo, pausa o beso, pero con consecuencia.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-049",
-    title: "Escena de ritual cotidiano con significado oculto (folk/realismo mágico)",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Una acción cotidiana revela reglas secretas del mundo (sin explicarlas del todo).",
-    prompt: `Dame:
-- Comunidad o familia.
-- Ritual cotidiano (pan, sal, agua, velas, canciones).
-- Qué protege o invoca.
-- Qué pasa si se hace mal.
-- Protagonista: duda o rebeldía.
-
-Escribe 900–1600 palabras:
-- Detalles sensoriales ricos.
-- La regla se entiende por miedo y acciones.
-- Final: el protagonista rompe o perfecciona el ritual.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-esc-050",
-    title: "Escena de clímax emocional: decisión que define al protagonista",
-    area: "Escritura Creativa",
-    category: "Escenas",
-    summary:
-      "Un clímax donde el protagonista elige quién es, con pérdida o victoria real.",
-    prompt: `Dame:
-- Dilema final (dos caminos).
-- Qué pierde en cada opción.
-- Quién/qué representa cada opción (persona, valor, objeto).
-- Lugar y clima.
-- Tono final.
-
-Escribe 1200–2000 palabras:
-- Escala emocional en 3 oleadas.
-- Usa acciones concretas para mostrar decisión.
-- Final: consecuencia inmediata + eco emocional.
-- Última línea: frase memorable (sin cliché).`,
-    thumbnail: "",
-  },
-];
+{
+  id: "crea-esc-001",
+  title: "Scena di apertura: gancio immediato + promessa di storia",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Crea una scena iniziale che cattura la prima pagina, stabilisce tono e alza una promessa narrativa.",
+  prompt: `Dammi questi dati (se non li ho, proponga 2 opzioni per ogni punto e ne scelga uno):
+1) Genere e tono (ad esempio thriller, realismo magico, commedia nera).
+2) Persona e tempo verbale (1st / 3rd, passato / presente).
+3) Protagonisti (obiettivo immediato + paura segreta).
+4) Posizione (microdettagli + clima + ora).
+5) Elemento dirompente (incidente incitatore miniatura).
+6) Promessa centrale della storia (in 1 frase).
+
+Scrivere una scena di apertura di 900-1400 parole che soddisfano:
+- Primo comma con gancio sensoriale + domanda implicita.
+- No. Presenta il protagonista in azione (non descrizione statica).
+- inserire 3 dettagli visivi memorabili e 2 uditivi.
+- No. Include un "oggetto significativo" che poi riapparirà.
+- Sottotesto: qualcosa non detto che il lettore percepisce.
+- Chiudi la scena con una scelta difficile o rivelazione parziale.
+- Tenere il passo alto: frasi che variano lunghezza, senza riempimento.
+
+Alla fine aggiunge:
+A) 5 frasi di apertura alternative (più potenti).
+(B) 3 titoli possibili per il capitolo.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-002",
+  title: "Scena intima: tensione silenziosa in un luogo quotidiano",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Costruisce una scena in un aspetto semplice in cui il vero conflitto non si sente soddisfatto.",
+  prompt: `Dammi...
+- 2 caratteri (relazione esatta, ferita precedente).
+- Posto giornaliero (cucina, bus, lavanderia, ecc.).
+- Tema emotivo (colpe, desiderio, gelosia, paura).
+- No. Un segreto lo sa e l'altro no.
+- Una "gestura" ricorrente (chiodi mordente, camicia lisciante, ecc.).
+
+Scrivere una scena di 900-1500 parole dove:
+- No. Il conflitto è principalmente sottotesto.
+- Ogni linea di dialogo ha un'intenzione (evitare, premere, provare, confessare).
+- Utilizzare oggetti locali come metafore (3 minimo).
+- Inserire microazioni (guardi, mani, respiro) per costruire tensione.
+- No. Include 1 momento di umorismo involontario per umanizzare.
+- No. Si conclude con un cambiamento di stato: "prima" vs "dopo" (molto chiaro).
+
+Aggiungi alla fine:
+1) Quello che ogni personaggio voleva (visibile + obiettivo reale).
+2) Che cosa è cambiato nel rapporto in una sola frase.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-003",
+  title: "Scena di persecuzione: chiarezza spaziale + adrenalina",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Inseguimento cinematografico con blocchi di azione chiari, ostacoli e decisioni visibili.",
+  prompt: `Dammi...
+- Chi segue chi e perché (vera ragione).
+- Scenario (mercato, tetti, foresta, metropolitana, festival).
+- 3 ostacoli fisici al sito.
+- 1 limitazione del protagonista (lesioni, paura, carico, tempo).
+- No. Quello che rischi di perdere se ti beccano.
+
+Scrivi una scena di 900-1600 parole con:
+- Geografia chiara: segna posizioni (sinistra / destra, su / giù, distanza).
+- 7 battiti di azione (internalmente numerati durante la scrittura, senza mostrarli al lettore).
+- No. Include 2 "false uscite" (sembra scappare, ma non).
+- Un dettaglio sensoriale per paragrafo (smell, texture, suono, temperatura).
+- Una svolta creativa utilizzando un oggetto dell'ambiente (miglioramento).
+- Chiudere con cliffhanger: il persecutore "quasi" raggiunge il suo obiettivo o rivela qualcosa del persecutore.
+
+Poi aggiunge:
+- Breve lista di 5 verbi forti che dominano la scena.
+- 3 frasi di chiusura alternative (più tesi).`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-004",
+  title: "Scena del terrore: minaccia invisibile + crescendo",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Orrore atmosferico basato su ciò che non è visto, con arrampicata e pagamento finale.",
+  prompt: `Dammi...
+- Tipo di orrore (psicologico, soprannaturale, corpo, folk).
+- Posizione chiusa e opprimente.
+- La regola del luogo (qualcosa che "non deve essere fatto").
+- Staragonista: trauma o colpa che lo rende vulnerabile.
+- "Evidence" della minaccia (suono, traccia, segnale).
+
+Scrive 1000-1700 parole:
+- No. Comincia con una normalità inquietante.
+- Utilizzare replay con variazione (un suono / modello che restituisce diverso).
+- No. Non mostrare il mostro all'inizio: suggerirlo con 5 tracce graduali.
+- No. Include 1 breve scena all'interno della scena (memoria / flash sensoriale).
+- La paura deve venire sia dal luogo che dall'interno del protagonista.
+- Finale: divulgazione parziale + decisione disperata.
+
+Alla fine:
+A) 10 idee alternative "track" (per altri capitoli).
+(B) 1 frase che definisce la minaccia senza nominarlo.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-005",
+  title: "Scena Romance: primo incontro con la vera chimica",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Incontrarsi con tensione, umorismo e primi segni di compatibilità e conflitto.",
+  prompt: `Dammi...
+- Carattere A e B (età, occupazione, difetto affascinante).
+- Contesto dell'incontro (evento, incidente, favore).
+- No. Quello che ognuno cerca di evitare emotivamente.
+- Un "dettaglio" che l'altra nota e nessun altro.
+- No. Un ostacolo immediato (tempo, terzi, vergogna, lavoro).
+
+Scrivi 900-1500 parole:
+- Dialogo Agile, con interruzioni naturali.
+- Chimica basata sull'osservazione e sui valori, non solo fisici.
+- No. Almeno 1 microthis che dà via l'attrazione.
+- Un piccolo ma significativo malinteso.
+- Chiudere con: scambio di qualcosa (oggetto, informazione, promessa) che costringe a essere visto di nuovo.
+
+Esso comprende alla fine:
+- 5 migliori linee di dialogo (il più carico).
+- 3 modi alternativi di incontro.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-006",
+  title: "Scena di discussione: lotta con sottotesto e conseguenze",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Una lotta dove entrambi avete ragione su qualcosa, e il danno è concreto.",
+  prompt: `Dammi...
+- Rapporto (couple, fratelli, partner, insegnante / studente).
+- La vera origine del conflitto (non il tema della superficie).
+- Limitare che non devono attraversare (insulto, tema tabù).
+- Luogo (con qualcosa che può rompere / cadere).
+- No. Quello che si deve sentire e l'altro non può dire.
+
+Scrive 1000-1800 parole:
+- No. Inizia morbido e scalabile in 3 onde.
+- Ogni personaggio utilizza una diversa "strategia" (ironia, silenzio, attacco, logica).
+- Inserire azioni fisiche che accompagnano l'emozione (non solo il dialogo).
+- No. Un danno irreversibile (parola / atto) che cambia il rapporto deve verificarsi.
+- No. Finisce con silenzio o uscita (ma caricato).
+
+Dopo:
+1) Sommarizzare in 2 righe il sottotesto di ogni carattere.
+2) Propon 2 possibili scene successive (una riconciliazione, una pausa).`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-007",
+  title: "Rivelazione scena: segreto che riconfigura tutto",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Un viaggio che cambia l'interpretazione del lettore e lo costringe ad agire.",
+  prompt: `Dammi...
+- Segreto (che cosa è esattamente e chi l'ha nascosto).
+- Chi lo scopre.
+- Luogo e tempo (condizioni: notte / rumore / pioggia, ecc.).
+- No. Cosa c'e' in gioco se lo sai.
+- Un simbolo / oggetto legato al segreto.
+
+Scrivi 900-1600 parole:
+- No. Costruisce l'aspettativa con segnali precedenti.
+- No. Essa rivela il segreto in un'azione, non in una lunga spiegazione.
+- No. Essa mostra 2 reazioni: immediate (fisiche) e secondarie (mentali).
+- No. Include un mini-monologa interno di 6-10 linee (contenuti emotivi, non espositivi).
+- No. Finisce con una decisione forzata.
+
+Alla fine:
+- 3 versioni dello stesso revial con toni diversi (tragici, ironici, epici).`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-008",
+  title: "Scena negoziante: potere, rischi e concessioni",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Tensa negoziazione con strati di potere, minacce velate e uno scambio reale.",
+  prompt: `Dammi...
+- Chi negozia con chi ( gerarchia / potere).
+- No. Ciò che ognuno vuole (la domanda iniziale e il vero desiderio).
+- No. Che "valuta" è scambiato (money, info, protezione, favore).
+- Limite di tempo.
+- Un terzo che guarda o influenza.
+
+Scrivi 900-1700 parole:
+- No. Ci devono essere 5 movimenti di potenza (sinistra, stampa, cambiamento tema, silenzio, un test).
+- Utilizzare i dettagli ambientali come metafora di tensione (luce, vetro, fumo, orologio).
+- Inserire un "hook": qualcosa che si usa per catturare l'altro.
+- Finisci con accordo imperfetto o rottura pericolosa.
+
+Alla fine:
+- Tavola corta (in testo) di concessioni: chi ha dato quello che, chi ha vinto cosa.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-009",
+  title: "La scena del mistero: traccia importante senza farsi notare",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Scena detective dove una traccia chiave sembra naturale, ma è decisivo.",
+  prompt: `Dammi...
+- Crimine o enigma.
+- Ricercatore (difetto + abilità).
+- No. Dove vengono raccolte le informazioni.
+- Sospetto o testimone (cosa c'è nascosto).
+- Real track (oggetto, frase, contraddizione).
+
+Scrive 1000-1800 parole:
+- No. Mostra il metodo del ricercatore con azioni osservabili.
+- Inserire la pista in mezzo a qualcosa di quotidiano (non stressarla).
+- Include 1 distrazione (credible false track).
+- Dialogo talente: la testimonianza dice verità mescolata alla menzogna.
+- No. Si conclude con l'investigatore uscire con un'ipotesi incompleta ma pericolosa.
+
+Dopo:
+- No. Indica (senza spoiler ovvio) dove la pista era nascosta e perché funziona.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-010",
+  title: "Scena di allenamento: progresso reale + attrito",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Scena dove un personaggio impara, fallisce e l'apprendimento cambia il suo carattere.",
+  prompt: `Dammi...
+- Capacità di allenarsi (fisico, magico, sociale, mentale).
+- Mentore o sistema (che insegna, o quale guida regola).
+- Paura / blocco dell'apprendista.
+- Test concreto di formazione.
+- Conseguenze se non impari.
+
+Scrivi 900-1600 parole:
+- No. Include 3 tentativi: 1 brutto fallimento, 1 quasi, 1 parziale risultato.
+- No. Il mentore deve avere una propria agenda o un metodo scomodo.
+- Sentimenti del corpo / mente durante lo sforzo (minimo 6 dettagli).
+- No. Si conclude con una frase o un gesto che mostra che l'apprendista è cambiato.
+
+Alla fine:
+- 5 ulteriori "esercitazioni" che potresti usare nelle scene future.`,
+  thumbnail: ""
+},
+
+// 40 prompts más (variando géneros, ritmo, POV, objetivos, y técnicas de escena)
+
+{
+  id: "crea-esc-011",
+  title: "Stress scena calma: il silenzio prima del disastro",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Una scena tranquilla che aumenta l'ansia del lettore con precauzioni sottili.",
+  prompt: `Dammi...
+- No. Che disastro sta arrivando (non ancora mostrato).
+- 2 caratteri presenti e ciò che evitano di parlare.
+- Luogo (con suoni costanti: ventola, pioggia, cavi, ecc.).
+- Un dettaglio che funziona come un presagio.
+- No. Un oggetto che "non dovrebbe esserci".
+
+Scrivi 900-1500 parole:
+- ritmo lento ma ipnotico.
+- Pressione del livello: 1 mite, 1 media, 1 inevitabile.
+- Il dialogo deve essere banale all'esterno, serio all'interno.
+- No. Si conclude in un microchip: qualcosa cambia (la luce va, il messaggio arriva, suoni di colpo).`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-012",
+  title: "Scena monoplano: continuità visiva e tensione",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Scrive una scena come se fosse un piano di sequenza: fluido, senza tagli, molto visivo.",
+  prompt: `Dammi...
+- Ampia posizione con tour (hotel, ospedale, fiera, palazzo).
+- L'obiettivo urgente del protagonista.
+- Ostacolo umano principale.
+- Un dettaglio ripetuto sul percorso (segno, musica, colore).
+- Tono (giornale, commedia, dramma).
+
+Scrivere 1000-1800 parole come "aereo di sequenza":
+- Morbide transizioni tra spazi (porte, corridoi, scale).
+- Mantenere la continuità delle azioni (se si prende un oggetto, si deve continuare lì).
+- Inserti 3 momenti di tensione e 2 momenti di respirazione.
+- Chiudere con un punto di svolta.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-013",
+  title: "Scena con narratore inaffidabile: crepe e tracce",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Una scena in cui il narratore inganna, ma il lettore lo nota per eleganti incongruenze.",
+  prompt: `Dammi...
+- No. Che fatto il narratore sta distorcendo.
+- Motivo di auto-inganno (colpe, paura, orgoglio).
+- Scenario.
+- Un personaggio secondario che lo contraddice involontariamente.
+- 3 dettagli il narratore "dimentica".
+
+Scrivi 900-1600 parole:
+- No. Il narratore insiste su una versione.
+- Inserisce contraddizioni sottili (tempi, colori, posizioni).
+- Usa un oggetto come "test" che rifiuti.
+- Finale: una frase che, senza confessare, rivela che sta.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-014",
+  title: "Scena scoperta: strano ritrovamento in un luogo normale",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Un ritrovamento inaspettato altera la realtà quotidiana e apre mistero o fantasia.",
+  prompt: `Dammi...
+- Posto giornaliero.
+- Trovare (oggetto / voce / nota / porta).
+- Chi lo trova e che problema porta oggi.
+Strana regola del ritrovamento.
+- Rischio di toccare o ignorare.
+
+Scrivi 900-1500 parole:
+- Normale all'inizio, gradualmente manca.
+- No. Almeno 5 dettagli sensoriali.
+- No. Il ritrovamento deve "rispondere" in qualche modo (rumore, calore, memoria, visione).
+- No. Si conclude con un atto impulsivo che non può essere annullato.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-015",
+  title: "Scena di addio: emozione contenuta + oggetto simbolico",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Un addio che fa male senza melodramma, utilizzando piccole azioni e simbolo.",
+  prompt: `Dammi...
+- Chi parte e chi rimane (perché).
+- Addio.
+- No. Quello che non puoi dire.
+- Oggetto simbolico che cambia le mani.
+- Tono (hope, rabbia, dimissioni).
+
+Scrivi 900-1500 parole:
+- Evitare frasi ovvie; mostrare con gesti.
+- Usa l'ambiente per riflettere lo stato emotivo.
+- No. Esso comprende 1 bugia pia.
+- Finale: un dettaglio che rimane "vibrante" nell'aria.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-016",
+  title: "Trial / scena di corte: retorica + tensione morale",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Orale confronto con regole, strategie, testimonianza e svolta emotiva.",
+  prompt: `Dammi...
+- Accusazione.
+- Chi difende e accusa (interessi nascosti).
+- Testimonianza chiave e debolezza.
+- Prove principali.
+- No. Che terribile verità sta per uscire.
+
+Scrivi 1100-1900 parole:
+- Altre domande brevi con risposte tesi.
+- Inserire reazioni pubbliche / giurie come termometro emotivo.
+- No. Costruisce una svolta: la frase di un testimone cambia il corso.
+- Finale: verdetto parziale o interruzione drammatica.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-017",
+  title: "Scena dell'aria (furto): pianificazione + esecuzione imperfetta",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Furto con chiara strategia, ruoli definiti e un errore che rende tutto vivo.",
+  prompt: `Dammi...
+- No. Quello che rubi e perche' importa.
+- Team (3 ruoli).
+- Sistema di sicurezza.
+- Posto.
+- No. L'errore umano che rovina il piano.
+
+Scrive 1000-1800 parole:
+- Aperto con tensione (già dentro).
+- Intercale mini flash del piano solo quando necessario (non infodump).
+- 6 ostacoli in crescita.
+- Finale: mezza fuga o perdita economica.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-018",
+  title: "Scena di sopravvivenza: freddo, fame e decisioni dure",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Una scena fisica in cui il corpo comanda e ogni decisione costa.",
+  prompt: `Dammi...
+- Ambiente ostile (deserto, neve, mare).
+- Inventario del personaggio (3 cose).
+- Guai o limitati.
+- Obiettivo immediato.
+- minaccia secondaria (animale, persone, clima).
+
+Scrivi 900-1700 parole:
+- Protezioni corporee costanti (pelle, respirazione, dolore).
+- Pensieri frammentati dalla stanchezza.
+- 3 decisioni: 1 buono, 1 dubbio, 1 disperato.
+- Finale: una piccola vittoria con il prezzo.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-019",
+  title: "Scena del partito: caos sociale + microconflitti",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Partito con strati: trasversale, tensione romantica e pericolo latente.",
+  prompt: `Dammi...
+- Tipo di festa.
+- Protagonisti: obiettivo sociale.
+- Antagonista sociale (qualcuno che sa qualcosa).
+- Musica / ambiente.
+- No. Un evento che detona (toast, annuncio, lotta).
+
+Scrive 1000-1800 parole:
+- No. Mostra 5 microsceni all'interno del partito (gruppi).
+- Dialogo con sottotesto e doppio senso.
+- Un dettaglio sensoriale per blocco (odore di alcol, luci, calore).
+- Finale: il protagonista è esposto o catturato.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-020",
+  title: "La scena della confessione: la verità in breve preavviso",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Una confessione che arriva tardi e cambia il futuro della relazione.",
+  prompt: `Dammi...
+- Lascialo confessare.
+- Perché si sta nascondendo finora.
+- Rapporto tra i due.
+- Posizionare con un elemento sonoro (trasporto, mare, orologio).
+- Conseguenze se la confessione fallisce.
+
+Scrivi 900-1600 parole:
+- La confessione non deve uscire perfetta; deve essere fatta.
+- Reazione realistica (negazione, silenzio, questione di taglio).
+- Inserisci brevi ricordi che spiegano il carico, senza esposizione.
+- Finale: risposta ambigua e un gesto che dice di più.`,
+  thumbnail: ""
+},
+
+{
+  id: "crea-esc-021",
+  title: "Scena di rottura dell'alleanza: tradimento con logica",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Tradizione dove il traditore ha ragioni comprensibili e il colpo fa più male.",
+  prompt: `Dammi...
+- Alleanza (cosa hanno concordato).
+- Punto di rottura.
+- No. Quello che vince il traditore.
+- No. Che perde il tradimento.
+- Luogo e oggetto simbolico del patto.
+
+Scrive 1000-1800 parole:
+- Mild avvertimento precoce (qualcosa di raro).
+- Il tradimento avviene in un'azione concreta.
+- No. Entrambi parlano: uno giustifica, un altro accusa.
+- Finale: nuove dinamiche di potenza stabilite.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-022",
+  title: "Scena di salvataggio: urgenza + dilemma morale",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Salvataggio con ostacoli e dilemma: salvare uno significa perdere qualcosa di importante.",
+  prompt: `Dammi...
+- Chi salvano e cosa?
+- Soccorso.
+- Limite di tempo.
+- Ostacolo principale.
+- Dilema morale (due opzioni sbagliate).
+
+Scrivi 900-1700 parole:
+- Libera azione da battiti.
+- No. Include il coordinamento tra i personaggi (o il caos se sono soli).
+- Finale: il salvataggio è raggiunto ma il dilemma lascia una ferita.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-023",
+  title: "Scena di pioggia: atmosfera + rivelazione emotiva",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Una scena intensa sotto la pioggia dove il clima fa parte del conflitto.",
+  prompt: `Dammi...
+- Personaggi presenti.
+- No. Lasciate che sia discusso o deciso.
+- Posizione (strada, tetto, fermata bus).
+- No. Un oggetto che viene bagnato / rugoso.
+- Tono (romantico, tragico, furioso).
+
+Scrivi 900-1500 parole:
+- No. La pioggia colpisce i movimenti e il dialogo (danni, interrotti).
+- Utilizzare metafore fisiche (vestimenti incollati, mani fredde).
+- Finale: breve frase per superare il cambiamento emotivo.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-024",
+  title: "Scena di viaggio: movimento + trasformazione interiore",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Viaggia in treno / strada / barca dove l'esterno riflette un cambiamento interno.",
+  prompt: `Dammi...
+- Mezzi di trasporto.
+- Motivo del viaggio.
+- No. Quello che lascia il protagonista.
+- 2 brevi (strani) incontri.
+- Un simbolo del destino.
+
+Scrive 1000-1700 parole:
+- Paesaggio alternativo con pensiero e microazioni.
+- No. Include 1 breve conversazione che cambia qualcosa.
+- Finale: arrivo o decisione di non arrivare.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-025",
+  title: "Primo uso di potere / scena di abilità (fantasia o sci-fi)",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Scoperta del potere con costi, regole e emozioni convincenti.",
+  prompt: `Dammi...
+- Potenza / abilità e regole (2 limiti).
+- Situazione che lo sveglia.
+- Prezzo o conseguenza.
+- Testimonianza (se presente).
+- Obiettivo immediato.
+
+Scrivi 900-1700 parole:
+- No. Descrive il potere con sensazioni, non solo "guarda bene".
+- No. Mostra l'errore iniziale e l'apprendimento immediato per necessità.
+- Finale: il costo è pagato o anticipato chiaramente.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-026",
+  title: "Scena con orologio contro: conto alla rovescia reale",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Scena con tensione matematica: il tempo è un carattere.",
+  prompt: `Dammi...
+- Tempo esatto disponibile.
+- No. E se fallisse.
+- Posto.
+- Ostacoli.
+- Strumenti / risorse limitate.
+
+Scrivi 900-1600 parole:
+- No. Cita il tempo in modo organico (beep, orologio, messaggi).
+- 3 mini crash che mangiano tempo.
+- Finale: successo dopo pochi secondi o guasto.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-027",
+  title: "Sogno / scena incubo: simbolico ma narrativo",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Un incubo con simboli chiari e un collegamento diretto al vero conflitto.",
+  prompt: `Dammi...
+- La paura centrale del personaggio.
+- 3 simboli (oggetto, luogo, persona).
+- No. Un ricordo sepolto.
+- Tono (surreale, terrore, malinconia).
+- Svegliati.
+
+Scrivi 900-1500 parole:
+- Log onírica con coerenza emotiva.
+- Replica di simbolo con variazione.
+- Finale: svegliarsi nei dettagli fisici e una decisione immediata.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-028",
+  title: "Scena con narrazione di seconda persona (immersive)",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Scrive una scena intensa in seconda persona che si sente intimo, non gimmick.",
+  prompt: `Dammi...
+- Situazione (rischio, amore, colpa, duello).
+- Posto.
+- sensazione dominante (freddo, vertigini, calore).
+- No. Cosa segue o evita "tu".
+- No. La fine desiderata (shock, tenerezza, ambiguità).
+
+Scrivi 900-1500 parole:
+- Seconda persona costante.
+- Precise bottiglie sensoriali.
+- Finale: una breve frase che colpisce.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-029",
+  title: "Scena di regola formale: solo dialoghi + acitazioni minime",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Scena quasi teatrale: il dialogo domina e il sottotesto porta peso.",
+  prompt: `Dammi...
+- Personaggi (2-3).
+- Conflitto.
+- Posto.
+- No. Quello che ognuno nasconde.
+- Rivolta finale.
+
+Scrive 800-1400 parole:
+- 90% dialogo, 10% acitazioni (massimo 1 linea per intervento).
+- No. Il sottotesto deve essere evidente da contraddizioni ed evasivi.
+- Finale: frase che rompe l'equilibrio.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-030",
+  title: "Lettera / scena del messaggio leggere ad alta voce e le loro reazioni",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Combina il testo all'interno del testo con la reazione immediata dell'ascoltatore / lettore.",
+  prompt: `Dammi...
+- Chi scrive e chi riceve.
+- Motivo della lettera / messaggio.
+- Dove hai letto.
+- Tono di testo (amore, minaccia, scuse).
+- La conseguenza della lettura.
+
+Scrivi 900-1600 parole:
+- Inserisci il messaggio completo (400-700 parole).
+- Reazioni fisiche intermedie durante la lettura (senza tagliare troppo).
+- Finale: il ricevitore prende azione immediata.`,
+  thumbnail: ""
+},
+
+{
+  id: "crea-esc-031",
+  title: "Scena racconta: nostalgia + disagio",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Incontro di personaggi con passato condiviso, pieno di strati.",
+  prompt: `Dammi...
+- No. Quelli che si incontrano di nuovo e quanto tempo era.
+- No. Quello che è successo l'ultima volta (wound).
+- Riunione.
+- No. Un oggetto del passato.
+- No. Quello che ognuno vuole ora.
+
+Scrivi 900-1600 parole:
+- Mescolare la memoria con il presente, senza perdere la scena.
+- Dialogo con veri tagli e silenzi.
+- Finale: promessa, minaccia o invito a continuare.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-032",
+  title: "Scena di umiliazione pubblica: controllo del tono e della dignità",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Una scena difficile dove il protagonista è esposto, con conseguenze interne.",
+  prompt: `Dammi...
+- No. Ciò che è esposto (shame).
+- Chi lo sta causando.
+- Pubblico (che sta guardando).
+- Posto.
+- Come il protagonista cerca di salvarsi.
+
+Scrivi 900-1600 parole:
+- Tenere l'empatia con il protagonista.
+- Utilizzare i dettagli sensoriali per lo shock (orecchie, calore, mani).
+- Finale: un nuovo giuramento o una crepa emotiva.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-033",
+  title: "Scena di alleanza inaspettata: i nemici cooperano",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Due personaggi avversari sono costretti a collaborare di fronte a un terzo o un pericolo.",
+  prompt: `Dammi...
+- Enemies: motivo di odio / rifiuto.
+- Un pericolo esterno.
+- Condizione per sopravvivere / vincere (necessario collaborare).
+- Posto.
+- No. Che linea morale che non attraversano.
+
+Scrivi 900-1700 parole:
+- Ammortizzatore costante + cooperazione funzionale.
+- Momenti di rispetto involontario.
+- Finale: alleanza temporanea sigillata a condizione.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-034",
+  title: "Scena di infiltrazione: tensione silenziosa + quasi rilevamento",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Entra senza essere visto: suoni, ombre e quasi errori.",
+  prompt: `Dammi...
+- No. Quello che l'infiltratore sta cercando di raggiungere.
+- Luogo (sicurezza, guardie, telecamere o equivalenti).
+- Disguise / strategia.
+- Un potenziale fallimento.
+- No. E se lo vedessero.
+
+Scrivi 900-1600 parole:
+- Utilizzare il silenzio e i microsonidi come tensione.
+- 3 casi--errori (vicino ad essere scoperti).
+- Finale: entra ma lascia una pista.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-035",
+  title: "Cucina / scena del tavolo: famiglia + vecchio conflitto",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Dramma familiare durante un pasto: tensione che bolle sotto il quotidiano.",
+  prompt: `Dammi...
+- Famiglia (roli).
+- Vecchio conflitto.
+- Dire tema (politica, denaro, coppia, eredità).
+- Un personaggio mediatore.
+- Un oggetto simbolico / piatto.
+
+Scrive 1000-1800 parole:
+- Conversazione normale.
+- Dettagli di cibo / suoni per segnare il ritmo.
+- Finale: qualcosa è rotto (letterale o metaforico).`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-036",
+  title: "La scena del primo giorno in un nuovo luogo: disparità e regole",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Il protagonista entra in un nuovo ambiente e impara regole per attrito.",
+  prompt: `Dammi...
+- Nuovo posto (scuola, città, setta, compagnia, nave).
+- Regola sociale che nessuno spiega.
+- Persona che guida (ma non affatto).
+- Umiliazione o errore iniziale.
+- Obiettivo del protagonista.
+
+Scrivi 900-1600 parole:
+- Mostrare regole per conseguenze, non esposizione.
+- 3 dettagli che rendono il posto unico.
+- Finale: il protagonista capisce qualcosa di inquietante.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-037",
+  title: "Scena di tintura: perdita senza melodramma",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Capelli realistici: corpo, routine rotta e memoria come un colpo.",
+  prompt: `Dammi...
+- Chi è stato perso.
+- No. Quello che e' rimasto.
+- Luogo in cui si verifica la scena (casa, cimitero, ospedale).
+- No. Un oggetto dei morti.
+- Fase di duello (denial, rabbia, accettazione parziale).
+
+Scrivi 900-1700 parole:
+- Evitare i cliché; mostrare routine e dettagli.
+- Inserire 1 breve memoria sensoriale.
+- Finale: piccolo gesto da seguire o cadere.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-038",
+  title: "La scena dell'umorismo: il caos controllato con l'outage",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Commedia basata su incomprensioni, ritmo e fine perfetta.",
+  prompt: `Dammi...
+- Situazione comica (noleggio, intervista, appuntamento, consegna).
+- carattere goffo (ma utile).
+- Un oggetto che complica tutto.
+- Una persona che sarebbe nei guai con l'assurdo.
+- La fine desiderata (row).
+
+Scrivi 900-1500 parole:
+- Agile, ritmo visivo.
+- 3 passi (ogni cosa peggiora).
+- Inevitabilmente e sorprendente finale.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-039",
+  title: "Scena di confronto con sé: specchio / memoria",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Il personaggio affronta se stesso (metodorico o letterale) e cambia.",
+  prompt: `Dammi...
+- conflitto interno.
+- Shot (mirrore, foto, voce, posto).
+- No. Cosa hai paura di ammettere?
+- Un simbolo.
+- Finale: cambiamento desiderato.
+
+Scrivi 900-1600 parole:
+- Monologo interno + azioni.
+- No. Il simbolo appare 3 volte con un significato diverso.
+- Finale: decisione di rompere il modello.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-040",
+  title: "Scena di interrogazione: pressione psicologica",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Interrogatorio con gioco di potere, silenzi e una crepa emotiva.",
+  prompt: `Dammi...
+- Interrogatore e sospetto (cosa nascondono).
+- No. Cosa stai cercando?
+- Luogo (oppressivo o ingannevole).
+- Tecnica (genere, aggressivo, confusione).
+- Rivolta finale.
+
+Scrive 1000-1800 parole:
+- Cambiamenti di strategia visibili.
+- Silenzio come arma (descrive il suo effetto).
+- Finale: confessione parziale o accusa inaspettata.`,
+  thumbnail: ""
+},
+
+{
+  id: "crea-esc-041",
+  title: "Piccola scena di battaglia: tattica chiara, grande emozione",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Combattimento limitato (non guerra di massa) con tattica, geografia e costo emotivo.",
+  prompt: `Dammi...
+- Chi combatte e perché.
+- Posizionare con elementi che possono essere utilizzati tattiticamente.
+- Vantaggio e svantaggio del protagonista.
+- No. Non può perdere.
+- Il risultato desiderato (degno volto / vittoria sconfitta).
+
+Scrive 1000-1800 parole:
+- Una geografia chiara.
+- Danni realistici (tirezza, paura, dolore).
+- Finale: risultato con costo emotivo esplicito.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-042",
+  title: "Scena compatta: promessa pericolosa sigillata dal rituale",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Due parti sigillano un accordo (magico o simbolico) con il prezzo latente.",
+  prompt: `Dammi...
+- Chi accetta chi.
+- No. Cosa chiedono tutti?
+- Rituale o simbolo del patto.
+- Condizione nascosta.
+- Posto.
+
+Scrivi 900-1600 parole:
+- Tensione morale?
+- Il rituale deve essere sensoriale e specifico.
+- Finale: il patto è sigillato e qualcosa "si può notare" che è cambiato.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-043",
+  title: "Scena della scoperta scientifica: stupore + paura",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "La ricerca scientifica che si meraviglia ma ha implicazioni inquietanti.",
+  prompt: `Dammi...
+- No. Che succede?
+- Chi lo scopre (e la sua etica).
+- Luogo (laboratorio / campo).
+- Strano sintomo del ritrovamento.
+- Rischio immediato.
+
+Scrivi 900-1700 parole:
+- Tecnica stark spiegato chiaramente, senza infodump.
+- Reazione umana credibile.
+- Finale: decisione di nascondere o rivelare.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-044",
+  title: "Scena di confessione rotta: perdono impossibile",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Confessione cruda dove il perdono non è garantito.",
+  prompt: `Dammi...
+- Lascialo confessare.
+- Vittima o affetta.
+- Un posto intimo.
+- No. Cosa sta per perdere il confessore.
+- L'estremità desiderata (reiezione / ambiguità).
+
+Scrivi 900-1600 parole:
+- Lingua concreta, emotiva senza melodramma.
+- Reazioni fisiche forti ma realistiche.
+- Finale: il perdono non è dato "libero".`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-045",
+  title: "Mappa / scena di ricerca di file: traccia di apertura del mondo",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Trovano una mappa o un file che cambia l'obiettivo della storia.",
+  prompt: `Dammi...
+- No. Qual è la mappa / file.
+- No. Dove si nascondeva.
+- No. Che pericolo porta.
+- Anche chi lo vuole.
+- Un simbolo sulla mappa.
+
+Scrivi 900-1500 parole:
+- Alla scoperta della tensione (rischio di essere visto).
+- Mappa / lettura file con interpretazione (senza esposizione pura).
+- Finale: nuova missione definita.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-046",
+  title: "Scena di addio prima della missione: promessa e paura",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Prima di andare a qualcosa di pericoloso, due personaggi sono detti poco ma tutto.",
+  prompt: `Dammi...
+- Chi va alla missione e perché.
+- Chi resta.
+- No. Quale promessa fanno (esplicita o implicita).
+- Luogo (porto, stazione, porta di casa).
+- No. Quello che e' rimasto.
+
+Scrivi 900-1500 parole:
+- Emozione contenuta, dettagli fisici.
+- Dialogo con sottotesto.
+- Finale: gesto finale indimenticabile.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-047",
+  title: "\"Quasi lieto fine\" scena che si rompe (twist)",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Costruire sollievo e poi rompere l'attesa con una svolta pulita.",
+  prompt: `Dammi...
+- No. Cosa pensi di aver raggiunto?
+- No. Che minaccia e' ancora viva.
+- Dove festeggiano o riposano.
+- Segnale minimo del giro.
+- Il risultato della svolta.
+
+Scrivi 900-1600 parole:
+- Prima metà: sollievo, luce, minimo umorismo.
+- Inserisce segnali quasi invisibili.
+- Vestito e logico turno finale.
+- Chiudi con un'immagine forte.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-048",
+  title: "Scena di negoziazione romantica: limiti e desiderio",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Adult Romance: due personaggi parlano di limiti, paura e desiderio senza cursilery.",
+  prompt: `Dammi...
+- Personaggi (che rischiano se si avvicinano).
+- Contesto (dopo un bacio / prima di una decisione).
+- Limite centrale.
+- Desiderio centrale.
+- Posto.
+
+Scrivi 900-1500 parole:
+- Onesta conversazione + tensione.
+Entrambi vogliono, entrambi paura.
+- Finale: accordo, pausa o bacio, ma con conseguenza.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-049",
+  title: "Scena rituale quotidiana con significato nascosto (folk / realismo magico)",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Un'azione quotidiana rivela regole segrete del mondo (senza spiegarle completamente).",
+  prompt: `Dammi...
+- Comunità o famiglia.
+- rituale giornaliero (pane, sale, acqua, candele, canzoni).
+- No. Protegge o invoca.
+- No. E se andasse storto.
+- Protagonista: dubbio o ribellione.
+
+Scrivi 900-1600 parole:
+- Ricchi dettagli sensoriali.
+- No. La regola è compresa dalla paura e dalle azioni.
+- Finale: il protagonista rompe o perfeziona il rituale.`,
+  thumbnail: ""
+},
+{
+  id: "crea-esc-050",
+  title: "Emozionale scena culminante: decisione che definisce il protagonista",
+  area: "Scrittura creativa",
+  category: "Scene",
+  summary:
+  "Un culmine dove il protagonista sceglie chi è, con vera perdita o vittoria.",
+  prompt: `Dammi...
+- Dilema finale (due strade).
+- No. Quello che perdi in ogni opzione.
+- Chi / che ogni opzione rappresenta (persona, valore, oggetto).
+- Luogo e clima.
+- Tono finale.
+
+Scrivere 1200-2000 parole:
+- Scala emotiva in 3 onde.
+- Utilizzare azioni concrete per mostrare la decisione.
+- Finale: immediata conseguenza + eco emotivo.
+- Ultima riga: frase memorabile (senza cliché).`,
+  thumbnail: ""
+}];

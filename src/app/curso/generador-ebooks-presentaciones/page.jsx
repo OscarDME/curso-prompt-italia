@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { bonus04EbooksPresentaciones } from "@/lib/bonus-04-ebooks-presentaciones-content";
 
-// Helper para formato simple (negritas + saltos de línea)
+// Helper per formattazione semplice (grassetto + a capo)
 function formatRichText(text) {
   if (!text) return "";
   return text
@@ -15,23 +15,22 @@ function formatRichText(text) {
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 }
 
-export default function BonusEbooksPresentacionesPage() {
+export default function BonusEbooksPresentazioniPage() {
   const {
     title,
     subtitle,
     heroText,
-    youtubeId,
-    videoTitle,
     gammaUrl,
     gammaButtonLabel,
     gammaButtonSecondaryLabel,
     backToCourseLabel,
-    videoBlock
+    videoBlock,
+    sections,
   } = bonus04EbooksPresentaciones;
 
   return (
     <div className="space-y-6 py-6">
-      {/* 🔙 Botón volver al curso */}
+      {/* 🔙 Pulsante torna al corso */}
       <div className="flex items-center justify-between gap-3">
         <Button
           variant="ghost"
@@ -46,28 +45,15 @@ export default function BonusEbooksPresentacionesPage() {
         </Button>
       </div>
 
-      {/* Título + subtítulo */}
+      {/* Titolo + sottotitolo */}
       <div className="space-y-2">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-50">
-          {title}
-        </h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-50">{title}</h1>
         {subtitle && (
           <p className="text-sm md:text-base text-slate-300">{subtitle}</p>
         )}
       </div>
 
-      {/* 🎥 Video de YouTube (arriba de todo el contenido) */}
-      <div className="relative w-full overflow-hidden rounded-2xl border border-white/10 bg-black/40 aspect-video">
-        <iframe
-          src={`https://www.youtube.com/embed/${youtubeId}`}
-          title={videoTitle || title}
-          className="h-full w-full"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        />
-      </div>
-
-      {/* Link directo a Gamma + texto corto */}
+      {/* Link diretto a Gamma + testo breve */}
       <div className="space-y-3">
         <Button
           asChild
@@ -91,7 +77,7 @@ export default function BonusEbooksPresentacionesPage() {
         )}
       </div>
 
-      {/* Bloque mini de contexto (también viene del content file) */}
+      {/* Mini blocco contesto */}
       {videoBlock && (
         <Card className="border-white/10 bg-slate-950/80 px-4 py-4 md:px-6 md:py-5">
           {videoBlock.title && (
@@ -108,6 +94,61 @@ export default function BonusEbooksPresentacionesPage() {
             </ul>
           )}
         </Card>
+      )}
+
+      {/* Manuale scritto (sezioni) */}
+      {Array.isArray(sections) && sections.length > 0 && (
+        <div className="space-y-6">
+          {sections.map((section) => (
+            <Card
+              key={section.id}
+              className="space-y-3 border-white/10 bg-slate-950/80 px-4 py-4 md:px-6 md:py-5"
+            >
+              <h2 className="text-lg font-semibold text-slate-50">
+                {section.title}
+              </h2>
+
+              {section.body?.map((p, i) => (
+                <p
+                  key={i}
+                  className="text-sm text-slate-300"
+                  dangerouslySetInnerHTML={{ __html: formatRichText(p) }}
+                />
+              ))}
+
+              {section.bullets && (
+                <ul className="mt-2 space-y-2 text-sm text-slate-200">
+                  {section.bullets.map((item, idx) => (
+                    <li key={idx}>
+                      <span className="font-semibold text-teal-300">
+                        {item.label}:{" "}
+                      </span>
+                      <span>{item.description}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {section.highlight && (
+                <p
+                  className="mt-2 rounded-lg border border-teal-500/30 bg-teal-500/5 px-3 py-2 text-xs text-teal-100"
+                  dangerouslySetInnerHTML={{
+                    __html: formatRichText(section.highlight),
+                  }}
+                />
+              )}
+
+              {section.extra &&
+                section.extra.map((p, i) => (
+                  <p
+                    key={`extra-${i}`}
+                    className="text-xs text-slate-400"
+                    dangerouslySetInnerHTML={{ __html: formatRichText(p) }}
+                  />
+                ))}
+            </Card>
+          ))}
+        </div>
       )}
     </div>
   );

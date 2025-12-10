@@ -3,642 +3,642 @@
 export const imagePromptsSelfieSesionProHombre = [
   {
     id: "img-selfie-pro-hombre-001",
-    title: "De selfie a retrato de estudio limpio (fondo liso)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Da selfie a ritratto da studio pulito (sfondo uniforme)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Convierte una selfie masculina en un retrato de estudio limpio y profesional usando una foto de referencia de él u otra persona.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. Mantén exactamente el rostro, rasgos, tono de piel y estilo general del hombre de la foto, sin cambiar su identidad.
+      "Trasforma una selfie maschile in un ritratto da studio pulito e professionale usando una foto di riferimento di lui o di un’altra persona.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. Mantieni esattamente il volto, i tratti, il tono della pelle e lo stile generale dell’uomo nella foto, senza cambiarne l’identità.
 
-TRANSFORMACIÓN:
-- Convierte la selfie en un retrato profesional de estudio con fondo liso gris medio o beige suave.
-- El hombre aparece ligeramente girado 3/4 hacia la cámara, con expresión segura y relajada.
+TRASFORMAZIONE:
+- Trasforma la selfie in un ritratto professionale da studio con sfondo uniforme grigio medio o beige morbido.
+- L’uomo è leggermente ruotato di 3/4 verso la camera, con espressione sicura e rilassata.
 
-VESTUARIO:
-- Camisa o playera lisa en tonos neutros (blanco, negro, gris), sin logos ni texto.
-- Barba y cabello respetando el estilo de la referencia (solo pulido ligeramente si es necesario).
+ABBIGLIAMENTO:
+- Camicia o t-shirt tinta unita in toni neutri (bianco, nero, grigio), senza loghi né testo.
+- Barba e capelli rispettando lo stile della reference (solo leggermente rifiniti se necessario).
 
-ILUMINACIÓN:
-- Iluminación tipo estudio con softbox frontal + relleno suave.
-- Sombras suaves y agradables en el rostro, sin zonas quemadas.
+ILLUMINAZIONE:
+- Illuminazione da studio con softbox frontale + riempimento morbido.
+- Ombre morbide e piacevoli sul volto, senza zone bruciate.
 
-CÁMARA / COMPOSICIÓN:
-- Estilo fotográfico realista tipo sesión de retrato.
-- Lente 50mm equivalente, apertura f/2.2, fondo suave.
-- Plano medio-corto (pecho a cabeza), formato vertical 9:16.
+FOTOCAMERA / COMPOSIZIONE:
+- Stile fotografico realistico tipo sessione ritratto.
+- Lente equivalente 50mm, apertura f/2.2, sfondo morbido.
+- Inquadratura medio-corta (petto a testa), formato verticale 9:16.
 
-RESTRICCIONES:
-- Mantener la identidad del hombre de la referencia.
-- Sin texto en la imagen, sin marcas de agua, sin elementos escritos.
-- Genera solo una imagen, formato vertical 9:16, retrato profesional.`,
+RESTRIZIONI:
+- Mantenere l’identità dell’uomo della reference.
+- Niente testo nell’immagine, niente watermark, nessun elemento scritto.
+- Genera solo un’immagine, formato verticale 9:16, ritratto professionale.`,
     thumbnail: "/images/selfie-pro/hombre01.webp",
   },
   {
     id: "img-selfie-pro-hombre-002",
-    title: "Retrato corporativo elegante (oficina moderna)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Ritratto corporate elegante (ufficio moderno)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Usa una foto de referencia para convertirla en un retrato corporativo masculino profesional en oficina moderna.",
-    prompt: `Usa [IMG_REF] como foto de referencia. Conserva la identidad, proporciones del rostro y tono de piel del hombre.
+      "Usa una foto di riferimento per trasformarla in un ritratto corporate maschile professionale in un ufficio moderno.",
+    prompt: `Usa [IMG_REF] come foto di riferimento. Conserva l’identità, le proporzioni del volto e il tono della pelle dell’uomo.
 
-ESCENA:
-- Retrato corporativo en una oficina moderna, luminosa, con ventanal desenfocado detrás.
-- Ambiente profesional, limpio, minimalista.
+SCENA:
+- Ritratto corporate in un ufficio moderno e luminoso, con una grande finestra sfocata sullo sfondo.
+- Ambiente professionale, pulito, minimalista.
 
-VESTUARIO:
-- Camisa clara y saco/blazer (azul marino, negro o gris) sin corbata, sin logos.
-- Reloj discreto opcional.
+ABBIGLIAMENTO:
+- Camicia chiara e giacca/blazer (blu navy, nero o grigio) senza cravatta, senza loghi.
+- Orologio discreto opzionale.
 
-POSE / EXPRESIÓN:
-- Plano medio (de la cintura hacia arriba), postura recta pero relajada.
-- Mirada directa a la cámara, expresión profesional y confiada.
+POSA / ESPRESSIONE:
+- Piano medio (dalla vita in su), postura dritta ma rilassata.
+- Sguardo diretto in camera, espressione professionale e sicura.
 
-ILUMINACIÓN:
-- Luz natural suave entrando por el ventanal + relleno suave frontal.
-- Piel con textura real, sin aspecto de plástico.
+ILLUMINAZIONE:
+- Luce naturale morbida dalla finestra + riempimento morbido frontale.
+- Pelle con texture reale, senza effetto plastica.
 
-CÁMARA / COMPOSICIÓN:
-- Estilo foto LinkedIn/página corporativa de alta calidad.
-- Fondo ligeramente desenfocado (bokeh suave), formato vertical 9:16.
+FOTOCAMERA / COMPOSIZIONE:
+- Stile foto LinkedIn/pagina corporate di alta qualità.
+- Sfondo leggermente sfocato (bokeh morbido), formato verticale 9:16.
 
-RESTRICCIONES:
-- Mantener el rostro y rasgos de la referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato corporativo premium.`,
+RESTRIZIONI:
+- Mantenere volto e tratti della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto corporate premium.`,
     thumbnail: "/images/selfie-pro/hombre02.webp",
   },
   {
     id: "img-selfie-pro-hombre-003",
-    title: "Sesión lifestyle en naturaleza (luz golden hour)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Sessione lifestyle nella natura (luce golden hour)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "A partir de una foto de referencia, crea una sesión lifestyle masculina profesional en naturaleza con luz golden hour.",
-    prompt: `Usa [IMG_REF] como referencia, manteniendo el rostro, expresión y rasgos del hombre.
+      "Partendo da una foto di riferimento, crea una sessione lifestyle maschile professionale nella natura con luce golden hour.",
+    prompt: `Usa [IMG_REF] come riferimento, mantenendo il volto, l’espressione e i tratti dell’uomo.
 
-ESCENA:
-- Exterior, rodeado de naturaleza (campo, sendero con árboles o pradera).
-- Luz de golden hour (atardecer) cálida y envolvente.
+SCENA:
+- Esterno, circondato dalla natura (campagna, sentiero tra alberi o prato).
+- Luce golden hour (tramonto) calda e avvolgente.
 
-VESTUARIO:
-- Camisa casual, camiseta básica + chaqueta ligera o suéter, en tonos neutros.
-- Estilo relajado, tipo sesión lifestyle premium.
+ABBIGLIAMENTO:
+- Camicia casual, t-shirt basic + giacca leggera o maglione, in toni neutri.
+- Stile rilassato, tipo sessione lifestyle premium.
 
-POSE / EXPRESIÓN:
-- Caminando o de pie, mirando a la cámara o hacia un lado.
-- Expresión tranquila, ligera sonrisa o gesto relajado, manos en bolsillos o a los lados.
+POSA / ESPRESSIONE:
+- Camminando o in piedi, guardando la camera o di lato.
+- Espressione tranquilla, leggero sorriso o gesto rilassato, mani in tasca o lungo i fianchi.
 
-ILUMINACIÓN / CÁMARA:
-- Luz cálida lateral que crea halo suave en el cabello/barba.
-- Lente 85mm equivalente, f/1.8, bokeh fuerte en el fondo.
-- Plano medio o 3/4 (rodillas hacia arriba), formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce calda laterale che crea un alone morbido su capelli/barba.
+- Lente equivalente 85mm, f/1.8, bokeh forte sullo sfondo.
+- Piano medio o 3/4 (dalle ginocchia in su), formato verticale 9:16.
 
-RESTRICCIONES:
-- No cambiar la identidad del hombre.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, estilo lifestyle profesional.`,
+RESTRIZIONI:
+- Non cambiare l’identità dell’uomo.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, stile lifestyle professionale.`,
     thumbnail: "/images/selfie-pro/hombre03.webp",
   },
   {
     id: "img-selfie-pro-hombre-004",
-    title: "Retrato editorial tipo revista (fondo de color sólido)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Ritratto editoriale tipo rivista (sfondo a colore pieno)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Convierte la foto de referencia en un retrato editorial masculino tipo revista usando la misma identidad.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. Respeta el rostro y rasgos del hombre, sin cambiar su identidad.
+      "Trasforma la foto di riferimento in un ritratto editoriale maschile tipo rivista mantenendo la stessa identità.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. Rispetta volto e tratti dell’uomo, senza cambiarne l’identità.
 
-ESCENA:
-- Retrato editorial tipo portada de revista, con fondo de color sólido (azul petróleo, arena, oliva oscuro, etc.).
-- Estética minimal pero muy estética, estilo fashion editorial.
+SCENA:
+- Ritratto editoriale tipo copertina di rivista, con sfondo a colore pieno (blu petrolio, sabbia, oliva scuro, ecc.).
+- Estetica minimal ma molto curata, stile fashion editoriale.
 
-VESTUARIO:
-- Saco, chaqueta o suéter con textura interesante, sin logos marcados.
-- Se puede jugar con capas (camiseta + chaqueta, camisa + saco).
+ABBIGLIAMENTO:
+- Giacca, cappotto o maglione con texture interessante, senza loghi evidenti.
+- Possibile layering (t-shirt + giacca, camicia + blazer).
 
-POSE:
-- Plano medio-corto (pecho a cabeza), hombros un poco girados, rostro hacia la cámara.
-- Mirada intensa o confiada, barbilla ligeramente elevada.
+POSA:
+- Piano medio-corto (petto a testa), spalle leggermente ruotate, volto verso la camera.
+- Sguardo intenso o sicuro, mento leggermente sollevato.
 
-ILUMINACIÓN / CÁMARA:
-- Luz de estudio dirigida, con sombras suaves que den volumen al rostro.
-- Lente 50mm o 85mm equivalente, f/2.8, nitidez alta en ojos.
-- Formato vertical 9:16, estilo foto editorial realista.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce da studio direzionale, con ombre morbide per dare volume al volto.
+- Lente equivalente 50mm o 85mm, f/2.8, alta nitidezza sugli occhi.
+- Formato verticale 9:16, stile foto editoriale realistico.
 
-RESTRICCIONES:
-- Mantener la identidad del modelo de referencia.
-- Sin texto, sin logos, sin marcas de agua ni tipografías.
-- Genera solo una imagen, formato vertical 9:16, estilo editorial de revista.`,
+RESTRIZIONI:
+- Mantenere l’identità del modello di riferimento.
+- Niente testo, niente loghi, niente watermark né tipografie.
+- Genera solo un’immagine, formato verticale 9:16, stile editoriale da rivista.`,
     thumbnail: "/images/selfie-pro/hombre04.webp",
   },
   {
     id: "img-selfie-pro-hombre-005",
-    title: "Foto profesional para marca personal (background neutro)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Foto professionale per personal branding (sfondo neutro)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Usa una selfie como referencia y conviértela en foto profesional masculina para marca personal o redes.",
-    prompt: `Usa [IMG_REF] como referencia. El hombre debe seguir siendo la misma persona (mismos rasgos, facciones, tono de piel).
+      "Usa una selfie come riferimento e trasformala in una foto professionale maschile per personal branding o social.",
+    prompt: `Usa [IMG_REF] come riferimento. L’uomo deve restare la stessa persona (stessi tratti, lineamenti, tono della pelle).
 
-ESCENA:
-- Retrato para marca personal/branding en fondo neutro (beige claro, gris claro o blanco roto).
-- Estética limpia, moderna y profesional.
+SCENA:
+- Ritratto per personal branding/branding su sfondo neutro (beige chiaro, grigio chiaro o bianco sporco).
+- Estetica pulita, moderna e professionale.
 
-VESTUARIO:
-- Outfit smart casual (camiseta lisa + blazer, camisa simple, suéter sobrio).
-- Colores neutros o suaves, sin estampados fuertes ni logos.
+ABBIGLIAMENTO:
+- Outfit smart casual (t-shirt tinta unita + blazer, camicia semplice, maglione sobrio).
+- Colori neutri o morbidi, senza stampe forti né loghi.
 
-POSE / EXPRESIÓN:
-- Plano medio, mirada directa a cámara, ligera sonrisa confiada.
-- Postura abierta, hombros relajados.
+POSA / ESPRESSIONE:
+- Piano medio, sguardo diretto in camera, leggero sorriso sicuro.
+- Postura aperta, spalle rilassate.
 
-ILUMINACIÓN / CÁMARA:
-- Luz suave frontal con relleno, sin sombras duras.
-- Lente 50mm, f/2.5, nitidez en ojos, fondo ligeramente desenfocado.
-- Formato vertical 9:16, apto para foto de perfil y portada.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce frontale morbida con riempimento, senza ombre dure.
+- Lente 50mm, f/2.5, nitidezza sugli occhi, sfondo leggermente sfocato.
+- Formato verticale 9:16, adatto a foto profilo e copertina.
 
-RESTRICCIONES:
-- No modificar la identidad del hombre de referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, estilo marca personal premium.`,
+RESTRIZIONI:
+- Non modificare l’identità dell’uomo della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, stile personal branding premium.`,
     thumbnail: "/images/selfie-pro/hombre05.webp",
   },
   {
     id: "img-selfie-pro-hombre-006",
-    title: "Sesión elegante de noche (saco oscuro, evento)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Sessione elegante di notte (giacca scura, evento)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Transforma la referencia en una sesión nocturna elegante con saco oscuro, tipo evento o gala masculina.",
-    prompt: `Usa [IMG_REF] como referencia principal. Mantén el rostro, expresión y proporciones del hombre, sin cambiar su identidad.
+      "Trasforma la reference in una sessione notturna elegante con giacca scura, tipo evento o gala maschile.",
+    prompt: `Usa [IMG_REF] come riferimento principale. Mantieni il volto, l’espressione e le proporzioni dell’uomo, senza cambiarne l’identità.
 
-ESCENA:
-- Fotografía nocturna elegante en interior (salón, hotel o evento lujoso) con luces cálidas al fondo.
-- Ambiente sofisticado, tipo evento, gala o cóctel.
+SCENA:
+- Fotografia notturna elegante in interno (salone, hotel o evento di lusso) con luci calde sullo sfondo.
+- Ambiente sofisticato, tipo evento, gala o cocktail.
 
-VESTUARIO:
-- Saco oscuro (negro, azul marino o gris carbón) + camisa clara.
-- Sin logos ni texto, corbata o sin corbata según prefieras.
+ABBIGLIAMENTO:
+- Giacca scura (nero, blu navy o grigio carbone) + camicia chiara.
+- Senza loghi né testo, con o senza cravatta (a scelta).
 
-POSE:
-- De pie, en plano 3/4 (rodillas hacia arriba).
-- Una mano dentro del bolsillo del pantalón o ajustando el saco, gesto natural.
+POSA:
+- In piedi, in piano 3/4 (dalle ginocchia in su).
+- Una mano in tasca o mentre sistema la giacca, gesto naturale.
 
-ILUMINACIÓN / CÁMARA:
-- Luz principal suave desde un lateral + bokeh cálido de luces detrás.
-- Lente 85mm, f/1.8, fondo muy desenfocado.
-- Formato vertical 9:16, estética fotográfica realista, tipo editorial de moda masculina.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce principale morbida laterale + bokeh caldo di luci dietro.
+- Lente 85mm, f/1.8, sfondo molto sfocato.
+- Formato verticale 9:16, estetica fotografica realistica, tipo editoriale di moda maschile.
 
-RESTRICCIONES:
-- La cara y rasgos deben ser los mismos del hombre de referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto de noche elegante.`,
+RESTRIZIONI:
+- Viso e tratti devono essere gli stessi dell’uomo di riferimento.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto notturna elegante.`,
     thumbnail: "/images/selfie-pro/hombre06.webp",
   },
   {
     id: "img-selfie-pro-hombre-007",
-    title: "Foto estilo influencer en café (luz natural)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Foto stile influencer in caffè (luce naturale)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Convierte la foto de referencia en una imagen profesional estilo influencer masculino en cafetería con luz natural.",
-    prompt: `Usa [IMG_REF] como referencia. Conserva la identidad del hombre: mismos rasgos, facciones, tono de piel y estilo general.
+      "Trasforma la reference in un’immagine professionale stile influencer maschile in caffetteria con luce naturale.",
+    prompt: `Usa [IMG_REF] come riferimento. Conserva l’identità dell’uomo: stessi tratti, lineamenti, tono della pelle e stile generale.
 
-ESCENA:
-- Cafetería moderna y luminosa, mesa de madera, fondo desenfocado con plantas o decoración minimalista.
-- Estética lifestyle tipo influencer.
+SCENA:
+- Caffetteria moderna e luminosa, tavolo in legno, sfondo sfocato con piante o decor minimal.
+- Estetica lifestyle tipo influencer.
 
-VESTUARIO:
-- Outfit casual chic (playera lisa, camisa abierta, suéter ligero, etc.) sin logos visibles.
-- Tono de colores neutros o cálidos.
+ABBIGLIAMENTO:
+- Outfit casual chic (t-shirt tinta unita, camicia aperta, maglione leggero, ecc.) senza loghi visibili.
+- Colori neutri o caldi.
 
-POSE / ACCESORIOS:
-- Sentado junto a la mesa, mano cerca de una taza de café o apoyada sobre la mesa.
-- Mirada a la cámara o ligeramente hacia un lado, expresión cercana y amigable.
+POSA / ACCESSORI:
+- Seduto al tavolo, mano vicino a una tazza di caffè o appoggiata sul tavolo.
+- Sguardo in camera o leggermente di lato, espressione amichevole e vicina.
 
-ILUMINACIÓN / CÁMARA:
-- Luz natural suave desde una ventana lateral.
-- Lente 35mm o 50mm, f/2.0, fondo con bokeh suave.
-- Plano medio (de cintura a cabeza), formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce naturale morbida da una finestra laterale.
+- Lente 35mm o 50mm, f/2.0, sfondo con bokeh morbido.
+- Piano medio (dalla vita alla testa), formato verticale 9:16.
 
-RESTRICCIONES:
-- No cambiar la identidad del hombre de referencia.
-- Sin texto ni logos visibles en tazas, paredes o ropa.
-- Genera solo una imagen, formato vertical 9:16, foto lifestyle de cafetería profesional.`,
+RESTRIZIONI:
+- Non cambiare l’identità dell’uomo di riferimento.
+- Niente testo né loghi visibili su tazze, pareti o abiti.
+- Genera solo un’immagine, formato verticale 9:16, foto lifestyle in caffè professionale.`,
     thumbnail: "/images/selfie-pro/hombre07.webp",
   },
   {
     id: "img-selfie-pro-hombre-008",
-    title: "Retrato en blanco y negro dramático",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Ritratto drammatico in bianco e nero",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Usando una foto de referencia, crea un retrato masculino profesional en blanco y negro con iluminación dramática.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. Mantén la identidad del hombre (facciones, proporciones, expresión base).
+      "Usando una foto di riferimento, crea un ritratto maschile professionale in bianco e nero con illuminazione drammatica.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. Mantieni l’identità dell’uomo (lineamenti, proporzioni, espressione di base).
 
-ESCENA:
-- Retrato artístico en blanco y negro, fondo oscuro o neutro.
-- Iluminación dramática tipo Rembrandt o luz lateral intensa.
+SCENA:
+- Ritratto artistico in bianco e nero, sfondo scuro o neutro.
+- Illuminazione drammatica stile Rembrandt o luce laterale intensa.
 
-VESTUARIO:
-- Camisa o camiseta lisa, sin distracciones, en tono neutro (se verá en escala de grises).
-- Sin logos, sin texto.
+ABBIGLIAMENTO:
+- Camicia o t-shirt tinta unita, senza distrazioni, in tono neutro (apparirà in scala di grigi).
+- Senza loghi, senza testo.
 
-POSE / EXPRESIÓN:
-- Plano medio-corto, rostro ligeramente girado, mirada intensa a cámara o hacia un lado.
-- Expresión fuerte, elegante, sin sonrisa exagerada.
+POSA / ESPRESSIONE:
+- Piano medio-corto, volto leggermente ruotato, sguardo intenso in camera o di lato.
+- Espressione forte, elegante, senza sorriso eccessivo.
 
-ILUMINACIÓN / CÁMARA:
-- Luz lateral fuerte que cree sombras marcadas pero agradables.
-- Lente 85mm equivalente, f/2.2, fondo muy desenfocado.
-- Imagen final en blanco y negro, alto contraste, textura de piel natural.
-- Formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce laterale forte che crei ombre marcate ma gradevoli.
+- Lente equivalente 85mm, f/2.2, sfondo molto sfocato.
+- Immagine finale in bianco e nero, alto contrasto, texture della pelle naturale.
+- Formato verticale 9:16.
 
-RESTRICCIONES:
-- Misma identidad que la referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato B/N dramático profesional.`,
+RESTRIZIONI:
+- Stessa identità della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto B/N drammatico professionale.`,
     thumbnail: "/images/selfie-pro/hombre08.webp",
   },
   {
     id: "img-selfie-pro-hombre-009",
-    title: "Sesión fitness en gimnasio (look atlético)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Sessione fitness in palestra (look atletico)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "A partir de la foto de referencia, genera una sesión fotográfica fitness masculina profesional en gimnasio.",
-    prompt: `Usa [IMG_REF] como referencia. Respeta el rostro, la identidad y los rasgos del hombre.
+      "Partendo dalla reference, genera una sessione fotografica fitness maschile professionale in palestra.",
+    prompt: `Usa [IMG_REF] come riferimento. Rispetta volto, identità e tratti dell’uomo.
 
-ESCENA:
-- Gimnasio moderno con equipo desenfocado al fondo (pesas, máquinas).
-- Ambiente deportivo profesional, limpio, sin marcas reconocibles.
+SCENA:
+- Palestra moderna con attrezzi sfocati sullo sfondo (pesi, macchine).
+- Ambiente sportivo professionale, pulito, senza marchi riconoscibili.
 
-VESTUARIO:
-- Playera o tank top deportivo + shorts o joggers, en colores sólidos (negro, gris, azul, etc.).
-- Sin logos ni texto visible en la ropa.
+ABBIGLIAMENTO:
+- T-shirt o canotta sportiva + shorts o joggers, in colori pieni (nero, grigio, blu, ecc.).
+- Senza loghi né testo visibile sugli abiti.
 
-POSE:
-- De pie o apoyado en una barra/máquina, cuerpo ligeramente girado.
-- Mirada decidida hacia la cámara, expresión motivada y segura.
+POSA:
+- In piedi o appoggiato a una barra/macchina, corpo leggermente ruotato.
+- Sguardo deciso verso la camera, espressione motivata e sicura.
 
-ILUMINACIÓN / CÁMARA:
-- Luz lateral ligera para marcar volúmenes musculares, manteniendo aspecto realista.
-- Lente 35mm o 50mm, f/2.0, fondo con bokeh suave.
-- Plano 3/4 (rodillas hacia arriba), formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce laterale leggera per evidenziare i volumi muscolari, mantenendo realismo.
+- Lente 35mm o 50mm, f/2.0, sfondo con bokeh morbido.
+- Piano 3/4 (dalle ginocchia in su), formato verticale 9:16.
 
-RESTRICCIONES:
-- No cambiar radicalmente el cuerpo; mantener proporciones realistas.
-- Sin logos, sin texto, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, sesión fitness profesional.`,
+RESTRIZIONI:
+- Non cambiare radicalmente il corpo; mantenere proporzioni realistiche.
+- Niente loghi, niente testo, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, sessione fitness professionale.`,
     thumbnail: "/images/selfie-pro/hombre09.webp",
   },
   {
     id: "img-selfie-pro-hombre-010",
-    title: "Foto profesional en playa (editorial masculina)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Foto professionale in spiaggia (editoriale maschile)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Convierte una selfie en una foto profesional masculina en playa con estética editorial suave usando la referencia.",
-    prompt: `Usa [IMG_REF] como imagen de referencia para mantener la identidad, rostro y rasgos del hombre.
+      "Trasforma una selfie in una foto professionale maschile in spiaggia con estetica editoriale morbida usando la reference.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento per mantenere identità, volto e tratti dell’uomo.
 
-ESCENA:
-- Playa al atardecer, arena y mar desenfocados al fondo.
-- Estética editorial masculina, limpia y aspiracional.
+SCENA:
+- Spiaggia al tramonto, sabbia e mare sfocati sullo sfondo.
+- Estetica editoriale maschile, pulita e aspirazionale.
 
-VESTUARIO:
-- Camisa de lino ligera, camiseta básica o camisa abierta sobre playera.
-- Pantalón ligero o short estilizado, sin logos.
+ABBIGLIAMENTO:
+- Camicia di lino leggera, t-shirt basic o camicia aperta sopra la t-shirt.
+- Pantalone leggero o shorts curati, senza loghi.
 
-POSE / EXPRESIÓN:
-- Caminando o de pie cerca de la orilla, mirada serena, ligera sonrisa o gesto contemplativo.
-- Manos en bolsillos o sueltas a los lados, postura relajada.
+POSA / ESPRESSIONE:
+- Camminando o in piedi vicino alla riva, sguardo sereno, lieve sorriso o gesto contemplativo.
+- Mani in tasca o lungo i fianchi, postura rilassata.
 
-ILUMINACIÓN / CÁMARA:
-- Luz de golden hour cálida, sombras suaves.
-- Lente 50mm o 85mm, f/1.8, fondo muy desenfocado.
-- Plano 3/4 (rodillas hacia arriba), formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce golden hour calda, ombre morbide.
+- Lente 50mm o 85mm, f/1.8, sfondo molto sfocato.
+- Piano 3/4 (dalle ginocchia in su), formato verticale 9:16.
 
-RESTRICCIONES:
-- Debe seguir siendo el mismo hombre de la referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto de playa editorial profesional.`,
+RESTRIZIONI:
+- Deve restare lo stesso uomo della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto da spiaggia editoriale professionale.`,
     thumbnail: "/images/selfie-pro/hombre10.webp",
   },
   {
     id: "img-selfie-pro-hombre-011",
-    title: "Retrato close-up masculino (piel realista)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Ritratto close-up maschile (pelle realistica)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Usa la foto de referencia para crear un retrato masculino de primer plano con piel realista y profesional.",
-    prompt: `Usa [IMG_REF] como referencia. Conserva exactamente el rostro y la identidad del hombre (facciones, proporciones, tono de piel).
+      "Usa la foto di riferimento per creare un ritratto maschile in primo piano con pelle realistica e look professionale.",
+    prompt: `Usa [IMG_REF] come riferimento. Conserva esattamente il volto e l’identità dell’uomo (lineamenti, proporzioni, tono della pelle).
 
-ESCENA:
-- Retrato de close-up (primerísimo primer plano) enfocado en rostro y expresión.
-- Fondo liso y suave (tono neutro).
+SCENA:
+- Ritratto close-up (primissimo piano) focalizzato su volto ed espressione.
+- Sfondo uniforme e morbido (tono neutro).
 
-DETALLE:
-- Barba y vello facial respetando el estilo original (si tiene), ligeramente ordenados si es necesario.
-- Textura de piel visible, sin exceso de retoque.
+DETTAGLIO:
+- Barba e peli del viso rispettando lo stile originale (se presenti), leggermente ordinati se necessario.
+- Texture della pelle visibile, senza ritocco eccessivo.
 
-ILUMINACIÓN / CÁMARA:
-- Luz frontal suave que minimice sombras duras pero deje textura de piel visible.
-- Lente macro o equivalente 85mm, apertura f/4 para buena nitidez.
-- Formato vertical 9:16, rostro ocupa gran parte del encuadre.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce frontale morbida che minimizzi ombre dure ma lasci visibile la texture della pelle.
+- Lente macro o equivalente 85mm, apertura f/4 per buona nitidezza.
+- Formato verticale 9:16, il volto occupa gran parte dell’inquadratura.
 
-RESTRICCIONES:
-- Mantener pequeñas imperfecciones para que la piel se vea real (no plástico).
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato close-up profesional.`,
+RESTRIZIONI:
+- Mantenere piccole imperfezioni per far sembrare la pelle reale (non plastica).
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto close-up professionale.`,
     thumbnail: "/images/selfie-pro/hombre11.webp",
   },
   {
     id: "img-selfie-pro-hombre-012",
-    title: "Sesión urbana de noche (luces ciudad, street fashion)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Sessione urbana notturna (luci città, street fashion)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "A partir de una referencia, crea una sesión urbana nocturna profesional con estética masculina street fashion.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. Mantén la identidad, rostro y expresión base del hombre.
+      "Partendo da una reference, crea una sessione urbana notturna professionale con estetica street fashion maschile.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. Mantieni identità, volto ed espressione base dell’uomo.
 
-ESCENA:
-- Calle urbana de noche con luces de ciudad y neones desenfocados al fondo.
-- Suelo con reflejos como si hubiera llovido, estilo cinematográfico.
+SCENA:
+- Strada urbana di notte con luci cittadine e neon sfocati sullo sfondo.
+- Suolo con riflessi come se avesse piovuto, stile cinematografico.
 
-VESTUARIO:
-- Outfit street fashion (chaqueta de cuero, denim o bomber + playera lisa), sin logos visibles.
-- Colores que destaquen con las luces (negro, blanco, rojo, etc.).
+ABBIGLIAMENTO:
+- Outfit street fashion (giacca di pelle, denim o bomber + t-shirt tinta unita), senza loghi visibili.
+- Colori che risaltino con le luci (nero, bianco, rosso, ecc.).
 
-POSE / EXPRESIÓN:
-- De pie en la calle, una mano en el bolsillo o sujetando la chaqueta.
-- Mirada fuerte y segura a cámara, vibra cool.
+POSA / ESPRESSIONE:
+- In piedi in strada, una mano in tasca o che tiene la giacca.
+- Sguardo forte e sicuro in camera, vibe cool.
 
-ILUMINACIÓN / CÁMARA:
-- Luces urbanas como iluminación principal, creando bokeh intenso detrás.
-- Lente 35mm o 50mm, f/1.8, ISO alto (ambiente nocturno).
-- Plano 3/4, formato vertical 9:16, estilo foto de campaña urbana.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luci urbane come illuminazione principale, creando bokeh intenso dietro.
+- Lente 35mm o 50mm, f/1.8, ISO alto (ambiente notturno).
+- Piano 3/4, formato verticale 9:16, stile foto da campagna urbana.
 
-RESTRICCIONES:
-- No cambiar la identidad del hombre.
-- Sin texto, sin logos, sin marcas de agua visibles.
-- Genera solo una imagen, formato vertical 9:16, sesión urbana nocturna profesional.`,
+RESTRIZIONI:
+- Non cambiare l’identità dell’uomo.
+- Niente testo, niente loghi, niente watermark visibili.
+- Genera solo un’immagine, formato verticale 9:16, sessione urbana notturna professionale.`,
     thumbnail: "/images/selfie-pro/hombre12.webp",
   },
   {
     id: "img-selfie-pro-hombre-013",
-    title: "Foto tipo catálogo de moda masculina (fondo blanco)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Foto tipo catalogo moda maschile (sfondo bianco)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Convierte la referencia en una foto tipo catálogo de moda masculina profesional con fondo blanco.",
-    prompt: `Usa [IMG_REF] como referencia. El modelo debe seguir siendo el mismo hombre, con la misma cara y rasgos.
+      "Trasforma la reference in una foto tipo catalogo di moda maschile professionale su sfondo bianco.",
+    prompt: `Usa [IMG_REF] come riferimento. Il modello deve restare lo stesso uomo, con lo stesso volto e tratti.
 
-ESCENA:
-- Fondo completamente blanco tipo estudio catálogo.
-- Estética limpia y comercial, perfecta para e-commerce o catálogo.
+SCENA:
+- Sfondo completamente bianco, tipo studio catalogo.
+- Estetica pulita e commerciale, perfetta per e-commerce o catalogo.
 
-VESTUARIO:
-- Outfit de moda definido por el usuario [describir aquí si se desea: camisa, traje, chamarra, etc.].
-- Sin logos ni texto visible en la ropa.
+ABBIGLIAMENTO:
+- Outfit di moda definito dall’utente [descrivere qui se desiderato: camicia, completo, giacca, ecc.].
+- Senza loghi né testo visibile sugli abiti.
 
-POSE:
-- De pie, pose simple pero estética, ligeramente girado, mirada a la cámara.
-- Brazos relajados, postura recta pero natural.
+POSA:
+- In piedi, posa semplice ma curata, leggermente ruotato, sguardo in camera.
+- Braccia rilassate, postura dritta ma naturale.
 
-ILUMINACIÓN / CÁMARA:
-- Luz uniforme, sin sombras fuertes (estilo catálogo).
-- Lente 50mm, f/5.6, nitidez en todo el cuerpo visible.
-- Plano completo o 3/4, formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce uniforme, senza ombre forti (stile catalogo).
+- Lente 50mm, f/5.6, nitidezza su tutto il corpo visibile.
+- Piano intero o 3/4, formato verticale 9:16.
 
-RESTRICCIONES:
-- Mantener la identidad real del hombre.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto catálogo profesional.`,
+RESTRIZIONI:
+- Mantenere l’identità reale dell’uomo.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto catalogo professionale.`,
     thumbnail: "/images/selfie-pro/hombre13.webp",
   },
   {
     id: "img-selfie-pro-hombre-014",
-    title: "Retrato creativo con luz lateral (interior artístico)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Ritratto creativo con luce laterale (interno artistico)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Usa una foto de referencia para crear un retrato masculino creativo profesional con luz lateral artística.",
-    prompt: `Usa [IMG_REF] como referencia principal. Mantén la identidad del hombre: mismas facciones, tono de piel, expresión natural.
+      "Usa una foto di riferimento per creare un ritratto maschile creativo professionale con luce laterale artistica.",
+    prompt: `Usa [IMG_REF] come riferimento principale. Mantieni l’identità dell’uomo: stessi lineamenti, tono della pelle, espressione naturale.
 
-ESCENA:
-- Interior con pared lisa o ligeramente texturizada.
-- Luz lateral marcada que crea contraste interesante en el rostro.
+SCENA:
+- Interno con parete uniforme o leggermente texturizzata.
+- Luce laterale marcata che crea un contrasto interessante sul volto.
 
-VESTUARIO:
-- Camiseta o camisa lisa, tonos neutros u oscuros, sin logos.
-- Estilo minimalista y artístico.
+ABBIGLIAMENTO:
+- T-shirt o camicia tinta unita, toni neutri o scuri, senza loghi.
+- Stile minimalista e artistico.
 
-POSE / EXPRESIÓN:
-- Plano medio-corto, cabeza ligeramente girada hacia la luz.
-- Mirada profunda a la cámara o hacia un punto fuera de cuadro, expresión pensativa.
+POSA / ESPRESSIONE:
+- Piano medio-corto, testa leggermente ruotata verso la luce.
+- Sguardo profondo in camera o verso un punto fuori campo, espressione pensierosa.
 
-ILUMINACIÓN / CÁMARA:
-- Luz lateral intensa pero controlada, sombras definidas.
-- Lente 50mm o 85mm, f/2.0, fondo desenfocado suave.
-- Formato vertical 9:16, foto tipo retrato artístico profesional.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce laterale intensa ma controllata, ombre definite.
+- Lente 50mm o 85mm, f/2.0, sfondo leggermente sfocato.
+- Formato verticale 9:16, foto tipo ritratto artistico professionale.
 
-RESTRICCIONES:
-- No cambiar la identidad del modelo.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato creativo con luz lateral.`,
+RESTRIZIONI:
+- Non cambiare l’identità del modello.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto creativo con luce laterale.`,
     thumbnail: "/images/selfie-pro/hombre14.webp",
   },
   {
     id: "img-selfie-pro-hombre-015",
-    title: "Foto tipo autor de libro / experto",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Foto tipo autore di libro / esperto",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "A partir de la referencia, genera una foto profesional masculina tipo autor de libro o experto para portada y prensa.",
-    prompt: `Usa [IMG_REF] como foto de referencia. Conserva completamente la identidad del hombre (rostro, facciones, tono de piel).
+      "Partendo dalla reference, genera una foto professionale maschile tipo autore di libro o esperto per copertina e stampa.",
+    prompt: `Usa [IMG_REF] come foto di riferimento. Conserva completamente l’identità dell’uomo (volto, lineamenti, tono della pelle).
 
-ESCENA:
-- Fondo suave y sobrio, puede ser un set interior con librero muy desenfocado o pared neutra.
-- Estética seria pero cercana, tipo autor de libro o experto.
+SCENA:
+- Sfondo morbido e sobrio: set interno con libreria molto sfocata oppure parete neutra.
+- Estetica seria ma vicina, tipo autore di libro o esperto.
 
-VESTUARIO:
-- Camisa formal o suéter + saco/blazer sobrio.
-- Colores neutros (azul marino, gris, blanco, beige), sin estampados llamativos, sin logos.
+ABBIGLIAMENTO:
+- Camicia formale o maglione + giacca/blazer sobrio.
+- Colori neutri (blu navy, grigio, bianco, beige), senza stampe vistose, senza loghi.
 
-POSE / EXPRESIÓN:
-- Plano medio-corto, brazos cruzados ligeros o manos juntas.
-- Mirada directa a la cámara, expresión confiada y profesional.
+POSA / ESPRESSIONE:
+- Piano medio-corto, braccia leggermente incrociate oppure mani unite.
+- Sguardo diretto in camera, espressione sicura e professionale.
 
-ILUMINACIÓN / CÁMARA:
-- Luz suave frontal con ligera dirección lateral, sin sombras duras.
-- Lente 50mm, f/2.8, fondo con bokeh suave.
-- Formato vertical 9:16, apto para portada de libro o notas de prensa.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce frontale morbida con leggera direzione laterale, senza ombre dure.
+- Lente 50mm, f/2.8, sfondo con bokeh morbido.
+- Formato verticale 9:16, adatto a copertina libro o comunicati stampa.
 
-RESTRICCIONES:
-- No cambiar quién es la persona de la foto.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto tipo autor profesional.`,
+RESTRIZIONI:
+- Non cambiare chi è la persona nella foto.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto tipo autore professionale.`,
     thumbnail: "/images/selfie-pro/hombre15.webp",
   },
   {
     id: "img-selfie-pro-hombre-016",
-    title: "Sesión soft office home (trabajando desde casa)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Sessione soft home office (lavoro da casa)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Convierte la referencia en una sesión profesional masculina estilo home office usando su foto.",
-    prompt: `Usa [IMG_REF] como referencia. El hombre debe conservar la misma cara, rasgos y tono de piel.
+      "Trasforma la reference in una sessione professionale maschile stile home office usando la sua foto.",
+    prompt: `Usa [IMG_REF] come riferimento. L’uomo deve conservare lo stesso volto, tratti e tono della pelle.
 
-ESCENA:
-- Ambiente de home office: escritorio, laptop, taza de café, decoración minimalista.
-- Fondo ordenado, con luz natural de ventana.
+SCENA:
+- Ambiente home office: scrivania, laptop, tazza di caffè, decor minimal.
+- Sfondo ordinato, con luce naturale da finestra.
 
-VESTUARIO:
-- Ropa cómoda pero cuidada (playera lisa, camisa casual, suéter ligero), sin logos.
-- Colores suaves (beige, blanco, gris, azul suave).
+ABBIGLIAMENTO:
+- Abbigliamento comodo ma curato (t-shirt tinta unita, camicia casual, maglione leggero), senza loghi.
+- Colori morbidi (beige, bianco, grigio, azzurro tenue).
 
-POSE:
-- Sentado frente a la laptop, ligero giro hacia la cámara.
-- Una mano en el teclado o sobre la mesa, mirada a la cámara o hacia la pantalla.
+POSA:
+- Seduto davanti al laptop, leggero giro verso la camera.
+- Una mano sulla tastiera o sul tavolo, sguardo verso la camera o verso lo schermo.
 
-ILUMINACIÓN / CÁMARA:
-- Luz natural suave de ventana + relleno ligero.
-- Lente 35mm o 50mm, f/2.2, fondo con bokeh suave.
-- Plano medio, formato vertical 9:16, estilo foto de emprendedor digital.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce naturale morbida da finestra + riempimento leggero.
+- Lente 35mm o 50mm, f/2.2, sfondo con bokeh morbido.
+- Piano medio, formato verticale 9:16, stile foto da imprenditore digitale.
 
-RESTRICCIONES:
-- Mantener identidad del hombre.
-- Nada de texto ni logos en laptop, taza o decoración.
-- Genera solo una imagen, formato vertical 9:16, sesión home office profesional.`,
+RESTRIZIONI:
+- Mantenere l’identità dell’uomo.
+- Niente testo né loghi su laptop, tazza o decor.
+- Genera solo un’immagine, formato verticale 9:16, sessione home office professionale.`,
     thumbnail: "/images/selfie-pro/hombre16.webp",
   },
   {
     id: "img-selfie-pro-hombre-017",
-    title: "Retrato urbano minimal (pared de concreto)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Ritratto urbano minimal (parete in cemento)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Usa la referencia para crear un retrato masculino profesional con fondo urbano minimalista de concreto.",
-    prompt: `Usa [IMG_REF] como referencia. Respeta la identidad del hombre: mismos rasgos, facciones y tono de piel.
+      "Usa la reference per creare un ritratto maschile professionale con sfondo urbano minimal in cemento.",
+    prompt: `Usa [IMG_REF] come riferimento. Rispetta l’identità dell’uomo: stessi tratti, lineamenti e tono della pelle.
 
-ESCENA:
-- Fondo urbano minimal: pared de concreto liso o pared clara ligeramente texturizada.
-- Estética moderna, limpia y profesional.
+SCENA:
+- Sfondo urbano minimal: parete di cemento liscia o parete chiara leggermente texturizzata.
+- Estetica moderna, pulita e professionale.
 
-VESTUARIO:
-- Outfit sencillo pero estiloso (camiseta lisa + chaqueta, camisa minimal, etc.).
-- Colores que contrasten con el fondo, sin logos ni texto.
+ABBIGLIAMENTO:
+- Outfit semplice ma curato (t-shirt tinta unita + giacca, camicia minimal, ecc.).
+- Colori che contrastino con lo sfondo, senza loghi né testo.
 
-POSE / EXPRESIÓN:
-- De pie, plano medio o 3/4.
-- Mirada directa o ligeramente hacia un lado, expresión segura pero relajada.
+POSA / ESPRESSIONE:
+- In piedi, piano medio o 3/4.
+- Sguardo diretto o leggermente di lato, espressione sicura ma rilassata.
 
-ILUMINACIÓN / CÁMARA:
-- Luz natural suave o luz de estudio que imite exterior.
-- Lente 50mm, f/2.0, fondo con desenfoque ligero.
-- Formato vertical 9:16, look fotográfico realista.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce naturale morbida o luce da studio che simula esterno.
+- Lente 50mm, f/2.0, sfondo con leggero sfocato.
+- Formato verticale 9:16, look fotografico realistico.
 
-RESTRICCIONES:
-- No cambiar quién es la persona de la foto.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato urbano minimal profesional.`,
+RESTRIZIONI:
+- Non cambiare chi è la persona nella foto.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto urbano minimal professionale.`,
     thumbnail: "/images/selfie-pro/hombre17.webp",
   },
   {
     id: "img-selfie-pro-hombre-018",
-    title: "Sesión creativa en interior cozy con luz de ventana",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Sessione creativa indoor cozy con luce da finestra",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "A partir de una referencia, crea una sesión creativa masculina profesional con luz de ventana en interior acogedor.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. El hombre debe mantener exactamente su rostro, rasgos y tono de piel.
+      "Partendo da una reference, crea una sessione creativa maschile professionale con luce da finestra in un interno accogliente.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. L’uomo deve mantenere esattamente il suo volto, i tratti e il tono della pelle.
 
-ESCENA:
-- Interior cozy (sofá, cojines, plantas, decoración suave).
-- Luz principal entrando por una ventana lateral, visible o sugerida.
+SCENA:
+- Interno cozy (divano, cuscini, piante, decor morbido).
+- Luce principale che entra da una finestra laterale, visibile o suggerita.
 
-VESTUARIO:
-- Ropa cómoda pero estilizada (suéter, camisa casual), sin logos.
-- Tonos cálidos o neutros.
+ABBIGLIAMENTO:
+- Abbigliamento comodo ma curato (maglione, camicia casual), senza loghi.
+- Toni caldi o neutri.
 
-POSE / EXPRESIÓN:
-- Sentado en el sofá, cuerpo orientado hacia la ventana.
-- Mirada hacia la ventana o hacia la cámara, expresión serena y pensativa.
+POSA / ESPRESSIONE:
+- Seduto sul divano, corpo orientato verso la finestra.
+- Sguardo verso la finestra o verso la camera, espressione serena e pensierosa.
 
-ILUMINACIÓN / CÁMARA:
-- Luz suave lateral que crea sombras delicadas.
-- Lente 35mm o 50mm, f/2.2, fondo con desenfoque suave.
-- Formato vertical 9:16, estética fotográfica cálida, tipo editorial de lifestyle masculino.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce laterale morbida che crea ombre delicate.
+- Lente 35mm o 50mm, f/2.2, sfondo con sfocato morbido.
+- Formato verticale 9:16, estetica fotografica calda, tipo editoriale lifestyle maschile.
 
-RESTRICCIONES:
-- Mantener identidad del hombre de referencia.
-- Sin texto, sin logos visibles, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, sesión cozy profesional.`,
+RESTRIZIONI:
+- Mantenere l’identità dell’uomo di riferimento.
+- Niente testo, niente loghi visibili, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, sessione cozy professionale.`,
     thumbnail: "/images/selfie-pro/hombre18.webp",
   },
   {
     id: "img-selfie-pro-hombre-019",
-    title: "Retrato formal tipo foto de CV premium",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Ritratto formale tipo foto CV premium",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Usa una foto de referencia para convertirla en una foto formal masculina tipo CV premium profesional.",
-    prompt: `Usa [IMG_REF] como referencia. Conserva el rostro, proporciones, rasgos y tono de piel del hombre.
+      "Usa una foto di riferimento per trasformarla in una foto formale maschile tipo CV premium professionale.",
+    prompt: `Usa [IMG_REF] come riferimento. Conserva il volto, le proporzioni, i tratti e il tono della pelle dell’uomo.
 
-ESCENA:
-- Fondo neutro (blanco roto, gris claro o azul muy suave).
-- Estética formal y seria, tipo foto CV de alta calidad.
+SCENA:
+- Sfondo neutro (bianco sporco, grigio chiaro o azzurro molto tenue).
+- Estetica formale e seria, tipo foto CV di alta qualità.
 
-VESTUARIO:
-- Camisa formal, opcionalmente con saco o solo camisa bien planchada.
-- Colores sobrios (blanco, azul claro, gris), sin estampados llamativos, sin logos.
+ABBIGLIAMENTO:
+- Camicia formale, opzionalmente con giacca oppure solo camicia ben stirata.
+- Colori sobri (bianco, azzurro chiaro, grigio), senza stampe vistose, senza loghi.
 
-POSE / EXPRESIÓN:
-- Plano medio-corto (hombros a cabeza).
-- Mirada directa a cámara, expresión profesional y agradable (ligera sonrisa).
+POSA / ESPRESSIONE:
+- Piano medio-corto (spalle a testa).
+- Sguardo diretto in camera, espressione professionale e gradevole (leggero sorriso).
 
-ILUMINACIÓN / CÁMARA:
-- Luz uniforme que ilumine todo el rostro sin sombras fuertes.
-- Lente 50mm, f/4, alta nitidez, fondo ligeramente desenfocado.
-- Formato vertical 9:16, recorte centrado en la cara.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce uniforme che illumini tutto il volto senza ombre forti.
+- Lente 50mm, f/4, alta nitidezza, sfondo leggermente sfocato.
+- Formato verticale 9:16, crop centrato sul volto.
 
-RESTRICCIONES:
-- Debe seguir siendo la misma persona de la referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto tipo CV premium.`,
+RESTRIZIONI:
+- Deve restare la stessa persona della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto tipo CV premium.`,
     thumbnail: "/images/selfie-pro/hombre19.webp",
   },
   {
     id: "img-selfie-pro-hombre-020",
-    title: "Sesión tipo campaña de perfume masculino (retrato elegante)",
-    area: "Sesión fotografía pro",
-    category: "Hombre",
+    title: "Sessione tipo campagna profumo maschile (ritratto elegante)",
+    area: "Sessione fotografia pro",
+    category: "Uomo",
     summary:
-      "Convierte la referencia en una foto elegante masculina tipo campaña de perfume, usando su misma identidad.",
-    prompt: `Usa [IMG_REF] como referencia absoluta. Mantén la identidad del hombre sin cambios de rostro ni facciones.
+      "Trasforma la reference in una foto elegante maschile tipo campagna profumo, mantenendo la stessa identità.",
+    prompt: `Usa [IMG_REF] come riferimento assoluto. Mantieni l’identità dell’uomo senza cambiamenti a volto o lineamenti.
 
-ESCENA:
-- Fondo oscuro o degradado suave, ambiente elegante y misterioso.
-- Estética tipo campaña de perfume masculino de lujo.
+SCENA:
+- Sfondo scuro o sfumato morbido, ambiente elegante e misterioso.
+- Estetica tipo campagna di profumo maschile di lusso.
 
-VESTUARIO:
-- Saco o abrigo elegante (negro, azul marino, gris oscuro), camisa discreta debajo.
-- Sin logos visibles, joyería mínima (reloj o anillo discreto).
+ABBIGLIAMENTO:
+- Blazer o cappotto elegante (nero, blu navy, grigio scuro), camicia discreta sotto.
+- Senza loghi visibili, gioielli minimi (orologio o anello discreto).
 
-POSE / EXPRESIÓN:
-- Plano medio-corto, cabeza ligeramente inclinada, mirada intensa hacia la cámara o hacia un lado.
-- Expresión elegante, segura, ligeramente enigmática.
+POSA / ESPRESSIONE:
+- Piano medio-corto, testa leggermente inclinata, sguardo intenso in camera o di lato.
+- Espressione elegante, sicura, leggermente enigmatica.
 
-ILUMINACIÓN / CÁMARA:
-- Luz dirigida, con contraste medio-alto y reflejos controlados en rostro y ropa.
-- Lente 85mm, f/2, fondo muy desenfocado.
-- Formato vertical 9:16, estilo fotográfico realista y lujoso.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce direzionata con contrasto medio-alto e riflessi controllati su volto e abiti.
+- Lente 85mm, f/2, sfondo molto sfocato.
+- Formato verticale 9:16, stile fotografico realistico e lussuoso.
 
-RESTRICCIONES:
-- Debe ser claramente el mismo hombre que en la foto de referencia.
-- Sin texto, sin logos, sin marcas de agua ni productos visibles.
-- Genera solo una imagen, formato vertical 9:16, estilo campaña de perfume profesional.`,
+RESTRIZIONI:
+- Deve essere chiaramente lo stesso uomo della foto di riferimento.
+- Niente testo, niente loghi, niente watermark né prodotti visibili.
+- Genera solo un’immagine, formato verticale 9:16, stile campagna profumo professionale.`,
     thumbnail: "/images/selfie-pro/hombre20.webp",
   },
 ];

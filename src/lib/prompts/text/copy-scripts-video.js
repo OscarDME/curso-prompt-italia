@@ -1,732 +1,731 @@
 export const textPromptsCopyScriptsVideo = [
-  {
-    id: "copy-scripts-video-001",
-    title: "Script de video estilo AIDA para venta directa",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Guion completo con estructura AIDA optimizada para retención.",
-    prompt: `Dame:
-- Producto.
-- Dolor del cliente.
-- Beneficio principal.
+{
+  id: "copy-scripts-video-001",
+  title: "Script video in stile AIDA in vendita diretta",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Lo script completo con la struttura AIDA ottimizzato per la ritenzione.",
+  prompt: `Dammi...
+- Prodotto.
+- Dolore al cliente.
+- Principale vantaggio.
 
-Genera un guion AIDA para video:
-1) Hook visual + frase de impacto.
-2) Diagnóstico del problema.
-3) Mecanismo único explicado simple.
-4) CTA final fuerte.
-5) Versión corta de 15 segundos.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-002",
-    title: "Script estilo PAS para videos cortos",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Problema–Agitación–Solución para microvideos de alta conversión.",
-    prompt: `Dame:
-- Problema urgente.
-- Consecuencias reales.
-- Producto.
-
-Genera:
-1) Script PAS de 30s.
-2) Versión de 15s.
-3) Versión ultra corta (7s).`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-003",
-    title: "Script estilo Storyselling emocional",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Historia personal breve que conecta directamente con la oferta.",
-    prompt: `Dame:
-- Historia base.
-- Punto de quiebre emocional.
-- Producto que transformó.
+Genera uno script video AIDA:
+1) Visual Hook + frase di impatto.
+2) diagnosi del problema.
+3) Semplice singolo meccanismo spiegato.
+4) Forte CTA finale.
+5) Versione corta di 15 secondi.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-002",
+  title: "Script in stile PAS per brevi video",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Problema -Agitazione -Soluzione per microvideo ad alta conversione.",
+  prompt: `Dammi...
+- Problemi urgenti.
+- Conseguenze reali.
+- Prodotto.
 
 Genera:
-1) Storyselling con conflicto.
-2) Momento de revelación emocional.
-3) Conexión natural con el producto.
-4) CTA suave y emocional.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-004",
-    title: "Script estilo TikTok con cortes rápidos",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Frases rápidas, ritmo energético y visuales fuertes para retención.",
-    prompt: `Dame:
-- Tema.
-- Beneficio clave.
-- Acción visual llamativa.
+1) 30s PAS script.
+2) Versione di 15.
+3) Versione ultra corta (7s).`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-003",
+  title: "Emotional Storyselling style script",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Breve storia personale che si collega direttamente all'offerta.",
+  prompt: `Dammi...
+- Storia di base.
+- Punto di pausa emotivo.
+- Prodotto che ha trasformato.
 
 Genera:
-1) Hook de 1 segundo.
-2) Secuencia de 8–10 frases cortas.
-3) CTA inmediata.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-005",
-    title: "Script estilo YouTube Ads para evitar el botón ‘Saltar anuncio’",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Hook poderoso + promesa clara para los primeros 5 segundos.",
-    prompt: `Dame:
-- Problema específico.
-- Solución.
-- Promesa principal.
+1) Storyselling con conflitto.
+2) Momento di rivelazione emotiva.
+3) Collegamento naturale al prodotto.
+4) CTA morbido ed emotivo.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-004",
+  title: "Scritto in stile TikTok con tagli rapidi",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Bottiglie veloci, forte energia e ritmo visivo per ritenzione.",
+  prompt: `Dammi...
+- Soggetto.
+- Beneficio chiave.
+- Llamative visual action.
 
 Genera:
-1) Hook de 5 segundos imposible de ignorar.
-2) Desarrollo claro del beneficio.
-3) Prueba o demostración breve.
-4) CTA fuerte.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-006",
-    title: "Script estilo UGC conversacional",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Guion natural tipo testimonio espontáneo que vende sin vender.",
-    prompt: `Dame:
-- Producto.
-- Experiencia real o ficticia.
-- Transformación lograda.
+1) Uncino di 1 secondo.
+2) Sequenza di 8-10 frasi brevi.
+3) CTA immediata.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-005",
+  title: "YouTube Ads stile script per evitare il pulsante 'Jump ad'",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Uncino potente + chiara promessa per i primi 5 secondi.",
+  prompt: `Dammi...
+- Problemi specifici.
+- Soluzione.
+- Promesso principale.
 
 Genera:
-1) Testimonio conversacional tipo UGC.
-2) Versión estilo selfie.
-3) CTA natural al final.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-007",
-    title: "Script estilo anuncio emocional tipo testimonial real",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Testimonio estructurado para provocar identificación emocional.",
-    prompt: `Dame:
-- Problema inicial.
-- Desesperación o frustración.
-- Solución mediante el producto.
+1) Uncino di 5 secondi impossibile ignorare.
+2) Sviluppo chiaro del beneficio.
+(3) Breve prova o dimostrazione.
+4) Forte CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-006",
+  title: "Script di stile UGC conversazionale",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Tipo di scrittura naturale testimonianza spontanea che vende senza vendere.",
+  prompt: `Dammi...
+- Prodotto.
+- Esperienza reale o fittizio.
+- Trasformazione raggiunta.
 
 Genera:
-1) Testimonio emocional.
-2) Momento exacto del cambio.
-3) Cierre con validación emocional.
-4) CTA suave.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-008",
-    title: "Script estilo comercial cinematográfico",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Narración cinematográfica con atmósfera y simbolismos visuales.",
-    prompt: `Dame:
-- Producto.
-- Emoción que quieres transmitir.
-- Transformación final.
+1) Testimonianza trasversale tipo UGC.
+2) versione di stile selfie.
+3) CTA naturale alla fine.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-007",
+  title: "Script stile reale testimonial",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Testimonianza strutturata per causare identificazione emotiva.",
+  prompt: `Dammi...
+- Problema iniziale.
+- Disperazione o frustrazione.
+- Soluzione del prodotto.
 
 Genera:
-1) Narración tipo cine.
-2) Imágenes sugeridas escena por escena.
-3) Cierre memorable + CTA épica.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-009",
-    title: "Script educativo estilo ‘explicación clara en 30 segundos’",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Desglosa un concepto complejo de forma simple y vendible.",
-    prompt: `Dame:
-- Concepto.
+1) Testimonianza emotiva.
+2) Il momento esatto del cambiamento.
+3) Chiudere con validazione emotiva.
+4) Soft CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-008",
+  title: "Scrittura di stile commerciale di film",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Narrazione cinematografica con atmosfera e simbolismi visivi.",
+  prompt: `Dammi...
+- Prodotto.
+- Emozione che vuoi trasmettere.
+- Trasformazione finale.
+
+Genera:
+1) narrazione di tipo cinematografico.
+2) Immagini suggerite scena per scena.
+3) Chiusura rimovibile + epica CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-009",
+  title: "Stile di scrittura educativo 'Spiegazione chiara in 30 secondi '",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Visualizza un concetto complesso in modo semplice e venable.",
+  prompt: `Dammi...
+- Concetto.
 - Problema.
-- Producto que ayuda.
+- Prodotto che aiuta.
 
 Genera:
-1) Hook educativo.
-2) Explicación en lenguaje simple.
-3) Relación con el producto.
+(1) gancio educativo.
+2) Spiegazione in lingua semplice.
+3) Rapporto di prodotto.
 4) CTA educativa.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-010",
-    title: "Script estilo narración humorística",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Narración divertida que expone un problema cotidiano.",
-    prompt: `Dame:
-- Situación graciosa.
-- Problema detrás del chiste.
-- Producto.
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-010",
+  title: "Script stile narrazione umoristica",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Divertente narrazione che espone un problema quotidiano.",
+  prompt: `Dammi...
+- Situazione divertente.
+- Problema dietro la battuta.
+- Prodotto.
 
 Genera:
-1) Introducción cómica.
-2) Exageración humorística.
-3) Solución presentada con gracia.
-4) CTA humorístico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-011",
-    title: "Script estilo dueto TikTok (dos personajes con conflicto)",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Dos voces contrastan problemas y soluciones de forma dinámica.",
-    prompt: `Dame:
+1) Introduzione comica.
+2) Esagerazione emozionale.
+3) Soluzione presentata con grazia.
+4) Humorous CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-011",
+  title: "Duetto stile script TikTok (due caratteri con conflitto)",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Due voci contrastano i problemi e le soluzioni dinamicamente.",
+  prompt: `Dammi...
 - Problema.
-- Dos personalidades diferentes.
-- Producto.
+- Due personalità diverse.
+- Prodotto.
 
 Genera:
-1) Conversación divertida entre los dos.
-2) Contraposición de puntos de vista.
-3) Cierre unificado con CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-012",
-    title: "Script estilo VSL corta (Video Sales Letter)",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Mini VSL de alta conversión en menos de 60 segundos.",
-    prompt: `Dame:
+1) Divertente conversazione tra i due.
+2) Contrainposizione delle opinioni.
+3) Chiusura CTA unificata.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-012",
+  title: "Short VSL style script (Video Sales Letter)",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Alta conversione Mini VSL in meno di 60 secondi.",
+  prompt: `Dammi...
 - Avatar.
-- Dolor principal.
-- Oferta.
+- Dolore principale.
+- Offerta.
 
 Genera:
-1) Llamada directa al avatar.
-2) Dolor → agitación → solución.
-3) Presentación del producto.
-4) CTA fuerte.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-013",
-    title: "Script estilo entrevista real",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Diálogo tipo entrevista con preguntas potentes y respuestas breves.",
-    prompt: `Dame:
-- Producto.
-- Dolor.
-- Resultado obtenido.
+1) Chiamata diretta all'avatar.
+2) Dolore → agitazione → soluzione.
+3) Presentazione del prodotto.
+4) Forte CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-013",
+  title: "Real intervista stile script",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Intervista dialogo con domande potenti e risposte brevi.",
+  prompt: `Dammi...
+- Prodotto.
+- Dolore.
+- Risultato ottenuto.
 
 Genera:
-1) Preguntas del entrevistador.
-2) Respuestas convincentes.
-3) Cierre con CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-014",
-    title: "Script estilo guía rápida paso a paso",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Guion directo que enseña un proceso simple y vende al final.",
-    prompt: `Dame:
-- Tema.
-- 3 pasos clave.
-- Producto que ayuda.
+1) Domande dell'intervistatore.
+2) Concorso risposte.
+3) Chiudi con CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-014",
+  title: "Guida rapida in stile Script passo dopo passo",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Scrittura diretta che insegna un semplice processo e vende alla fine.",
+  prompt: `Dammi...
+- Soggetto.
+- 3 passi chiave.
+- Prodotto che aiuta.
 
 Genera:
-1) Hook tipo tutorial.
-2) Explicación de los 3 pasos.
-3) Conexión con el producto.
-4) CTA tutorial.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-015",
-    title: "Script estilo storytelling con giro final",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Historia breve con un twist que sorprende al final.",
-    prompt: `Dame:
-- Personaje.
-- Conflicto.
-- Producto.
+1) Tipo di tutorial gancio.
+2) Spiegazione dei 3 passi.
+3) Collegamento al prodotto.
+4) tutorial CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-015",
+  title: "Storytelling style script con giro finale",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Breve storia con un tocco che sorprende alla fine.",
+  prompt: `Dammi...
+- Carattere.
+- Conflitto.
+- Prodotto.
 
 Genera:
-1) Inicio estable.
-2) Problema inesperado.
-3) Giro final.
-4) CTA ingeniosa.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-016",
-    title: "Script estilo sketch cómico de 20 segundos",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Escena absurda que muestra el dolor del cliente.",
-    prompt: `Dame:
-- Dolor.
-- Situación graciosa.
-- Producto.
+1) Inizio stabile.
+2) Un problema inaspettato.
+3) Rivolta finale.
+4) CTA ingegnoso.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-016",
+  title: "20 secondi comic sketch style script",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Una scena assurda che mostra il dolore del cliente.",
+  prompt: `Dammi...
+- Dolore.
+- Situazione divertente.
+- Prodotto.
 
 Genera:
-1) Escena absurda.
-2) Reacción cómica.
-3) Solución del producto.
-4) CTA divertida.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-017",
-    title: "Script estilo comparativa ‘lo que crees vs lo que es’",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Comparación humorística para romper creencias.",
-    prompt: `Dame:
-- Creencia falsa.
-- Realidad.
-- Producto.
+1) scena assurda.
+2) reazione comica.
+3) Soluzione di prodotto.
+4) Funny CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-017",
+  title: "Lo script di stile comparativo 'quello che pensi contro quello che è'",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Confronto emozionante per rompere le convinzioni.",
+  prompt: `Dammi...
+- Falsa credenza.
+- La realtà.
+- Prodotto.
 
 Genera:
-1) Parte 1: Expectativa humorística.
-2) Parte 2: Realidad.
-3) Cierre con CTA contundente.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-018",
-    title: "Script estilo motivación poderosa de 30 segundos",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Tono fuerte, directo y emocional.",
-    prompt: `Dame:
+1) Parte 1: Previsione emozionale.
+2) Parte 2: Realtà.
+3) Chiudere con CTA sfocato.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-018",
+  title: "30 secondi potente script stile motivazione",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Tono forte, diretto ed emotivo.",
+  prompt: `Dammi...
 - Meta.
-- Obstáculo.
-- Producto.
+- Ostacolo.
+- Prodotto.
 
 Genera:
-1) Confrontación inicial.
-2) Mensaje motivacional.
-3) Presentación del producto.
-4) CTA inspiradora.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-019",
-    title: "Script estilo narración en primera persona (POV)",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Perspectiva del usuario experimentando la transformación.",
-    prompt: `Dame:
-- Punto de dolor.
-- Momento de quiebre.
-- Producto.
+1) Confronto iniziale.
+2) Messaggio motivazionale.
+3) Presentazione del prodotto.
+4) Ispirare CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-019",
+  title: "Script di stile narrativo di prima persona (POV)",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Prospettive utente che sperimentano la trasformazione.",
+  prompt: `Dammi...
+- Punto di dolore.
+- Tempo di pausa.
+- Prodotto.
 
 Genera:
-1) Escena POV antes.
+1) scena POV prima.
 2) POV durante.
-3) POV después.
+3) POV dopo.
 4) CTA POV.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-020",
-    title: "Script estilo anuncio aspiracional elegante",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Guion premium enfocado en estilo, estética y deseo aspiracional.",
-    prompt: `Dame:
-- Producto premium.
-- Sensación deseada.
-- Beneficio transformador.
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-020",
+  title: "Elegante script di stile ad aspirazione",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Lo script Premium si è concentrato sullo stile, l'estetica e il desiderio aspirante.",
+  prompt: `Dammi...
+- Prodotto Premium.
+- Sensazione desiderata.
+- Beneficio del trasformatore.
 
 Genera:
-1) Narración estética.
-2) Visuales sugeridos.
-3) Beneficio emocional.
-4) CTA minimalista premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-021",
-    title:
-      "Script de video estilo 'documental dramático' sobre el problema del cliente",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Narrativa estilo documental + dramatización emocional del antes y después.",
-    prompt: `Dame:
-- Producto.
-- Problema profundo del cliente.
-- Consecuencias reales de ignorarlo.
+1) narrazione estetica.
+2) Visivi consigliati.
+3) beneficio emotivo.
+4) Premium minimalista CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-021",
+  title:
+  "Sceneggiatura video in stile documentario sul problema del cliente",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Narrativo stile documentario + drammatizzazione emotiva del prima e dopo.",
+  prompt: `Dammi...
+- Prodotto.
+- Un problema profondo.
+- Reali conseguenze di ignorarlo.
 
 Genera:
-1) Guion estilo documental narrado por locutor serio.
-2) Momentos de dramatización tipo docuserie.
-3) Testimonio ficticio emocional.
-4) Cierre con CTA inspiradora.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-022",
-    title:
-      "Script de video estilo sátira social para exponer dolores del mercado",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Humor satírico para exponer contradicciones, malas prácticas y dolores.",
-    prompt: `Dame:
+1) Lo script di stile documentario narrato da un annunciatore serio.
+2) Il tempo di drammatizzazione documentale.
+3) Testimonianza emotiva.
+4) Chiudi con CTA ispiratore.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-022",
+  title:
+  "Social satire stile video script per esporre i dolori di mercato",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "L'umorismo satirico per esporre contraddizioni, cattive pratiche e dolori.",
+  prompt: `Dammi...
 - Industria.
-- Dolor colectivo del cliente.
-- Solución que tu producto ofrece.
+- Dolore collettivo al cliente.
+- Soluzione delle offerte del prodotto.
 
 Genera:
-1) Introducción satírica.
-2) Escena exagerada estilo sketch.
-3) Exposición del problema real detrás del humor.
-4) CTA fuerte con remate humorístico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-023",
-    title: "Script de video estilo ‘revelación científica’ del producto",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Explica el producto como si se tratara de un descubrimiento científico revolucionario.",
-    prompt: `Dame:
-- Producto.
-- Mecanismo único.
-- Beneficio clave.
+1) Introduzione satirica.
+2) Eccessiva scena di stile di schizzo.
+3) Esposizione del vero problema dietro l'umore.
+4) Forte CTA con outage divertente.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-023",
+  title: "Video script 'divulgazione scientifica' del prodotto",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Spiega il prodotto come se fosse una scoperta scientifica rivoluzionaria.",
+  prompt: `Dammi...
+- Prodotto.
+- Un unico meccanismo.
+- Beneficio chiave.
 
 Genera:
-1) Introducción estilo laboratorio secreto.
-2) “Descubrimiento” explicado con humor y claridad.
-3) Resultados medidos en forma exagerada.
-4) Cierre con CTA estilo “ensayo clínico para humanos comunes”.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-024",
-    title: "Script estilo ‘coach directo’ con energía motivacional alta",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Guion poderoso, directo, sin rodeos, estilo coach de alto rendimiento.",
-    prompt: `Dame:
-- Meta del cliente.
-- Obstáculo actual.
-- Producto como herramienta clave.
+1) Introduzione stile di laboratorio segreto.
+2) "Discovery" spiegato con umorismo e chiarezza.
+3) Risultati misurati eccessivamente.
+4) Chiusura in stile CTA "prova ciclica per gli esseri umani comuni".`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-024",
+  title: "Scritto in stile allenatore diretto con alta energia motivazionale",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Stile di coach potente, diretto, rotondo e ad alte prestazioni.",
+  prompt: `Dammi...
+- L'obiettivo del cliente.
+- Obstacolo presente.
+- Prodotto come strumento chiave.
 
 Genera:
-1) Apertura fuerte de confrontación.
-2) Discurso motivacional enérgico.
-3) Presentación del producto como catalizador.
-4) CTA con urgencia emocional + racional.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-025",
-    title: "Script estilo ‘comedia de oficina’ para mostrar el dolor actual",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Sketch corto de humor laboral para exponer el dolor real.",
-    prompt: `Dame:
-- Dolor laboral del cliente.
-- Personaje principal.
-- Producto.
+1) Forte apertura del confronto.
+2) Forte discorso motivazionale.
+3) Presentazione del prodotto come catalizzatore.
+4) CTA con urgenza emotiva + razionale.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-025",
+  title: "Script style 'office comdy' per mostrare il dolore corrente",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Breve schizzo da lavoro per esporre il vero dolore.",
+  prompt: `Dammi...
+- Il dolore al lavoro del cliente.
+- Il personaggio principale.
+- Prodotto.
 
 Genera:
-1) Situación absurda típica de oficina.
-2) Reacción exagerada del personaje.
-3) Solución presentada con humor.
-4) CTA ligera y divertida.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-026",
-    title: "Script estilo ‘terapia para el cliente’",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Presenta el dolor del cliente como una confesión en sesión terapéutica.",
-    prompt: `Dame:
-- Dolor emocional real.
-- Mal hábito del cliente.
-- Producto que soluciona.
+(1) Situazione ufficio assurda tipica.
+2) reazione eccessiva del carattere.
+3) Soluzione presentata nell'umorismo.
+4) CTA leggero e divertente.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-026",
+  title: "Script style 'customer therapy '",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Presenta il dolore del cliente come confessione in sessione terapeutica.",
+  prompt: `Dammi...
+- Un vero dolore emotivo.
+- Brutta abitudine al cliente.
+- Prodotto che risolve.
 
 Genera:
-1) Escena estilo terapia cómica.
-2) Momento de revelación.
-3) Solución explicada de forma íntima.
-4) CTA empática.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-027",
-    title: "Script estilo TikTok viral con ritmo rápido y cortes dinámicos",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Guion con cortes, frases cortas y acción rápida para retención máxima.",
-    prompt: `Dame:
-- Problema corto.
-- Beneficio clave.
-- Objeto o acción viralizable.
+1) La terapia comica in stile scenografico.
+2) Tempo di rivelazione.
+3) Soluzione spiegata in modo intimo.
+4) CTA empatica.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-027",
+  title: "Lo script virale in stile TikTok con ritmi veloci e tagli dinamici",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Script con tagli, frasi brevi e azione rapida per la massima ritenzione.",
+  prompt: `Dammi...
+- Breve problema.
+- Beneficio chiave.
+- Oggetto o azione.
 
 Genera:
-1) Hook de 1 segundo.
-2) Secuencia rápida de 6–8 frases.
-3) Visuales recomendados en cada línea.
-4) CTA muy corta y potente.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-028",
-    title: "Script estilo ‘storyselling profundo’ con metáfora central",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Guion narrativo que usa una metáfora clave para vender.",
-    prompt: `Dame:
-- Metáfora.
+1) Uncino di 1 secondo.
+2) Sequenza rapida di 6-8 frasi.
+3) Visivi consigliati in ogni riga.
+4) Molto breve e potente CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-028",
+  title: "Script di stile \"deep storyselling\" con metafora centrale",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Uno script narrativo che usa una metafora chiave da vendere.",
+  prompt: `Dammi...
+- Metafora.
 - Problema del cliente.
-- Transformación ofrecida.
+- Trasformazione offerta.
 
 Genera:
-1) Historia completa usando la metáfora.
-2) Giro emocional a mitad del video.
-3) Conexión explícita con el producto.
-4) CTA inspiradora.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-029",
-    title: "Script estilo ‘drama exagerado’ de 15 segundos",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Guion ultra dramático y exagerado para captar atención en poco tiempo.",
-    prompt: `Dame:
-- Problema simple.
-- Personaje exagerado.
-- Producto.
+1) Storia completa utilizzando la metafora.
+2) Rivolta emotiva nel mezzo del video.
+3) collegamento esplicito al prodotto.
+4) Ispirare CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-029",
+  title: "Sceneggiatura di stile \"dramma esagerato\" di 15 secondi",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Script ultra drammatico ed esagerato per ottenere l'attenzione in breve tempo.",
+  prompt: `Dammi...
+- Un problema semplice.
+- Carattere eccessivo.
+- Prodotto.
 
 Genera:
-1) Escena dramática absurda.
-2) Exposición rápida del beneficio.
-3) Giro humorístico final.
-4) CTA breve.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-030",
-    title: "Script estilo influencer experto explicando con claridad extrema",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Guion educativo con claridad, autoridad y ritmo.",
-    prompt: `Dame:
-- Concepto a explicar.
-- Objetivo del cliente.
-- Producto que ayuda.
+1) La scena drammatica assurda.
+2) Rapida esposizione delle prestazioni.
+3) Rivolta umoristica finale.
+4) Breve CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-030",
+  title: "Esperto influente script di stile spiegando con estrema chiarezza",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Scrittura educativa con chiarezza, autorità e ritmo.",
+  prompt: `Dammi...
+- Concetto da spiegare.
+- Obiettivo del cliente.
+- Prodotto che aiuta.
 
 Genera:
-1) Explicación clara en 3 bloques.
-2) Ejemplo práctico corto.
-3) Integración del producto como herramienta.
-4) CTA profesional.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-031",
-    title: "Script para video estilo POV: ‘yo antes de usar tu producto’",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Perspectiva en primera persona mostrando caos, luego transformación.",
-    prompt: `Dame:
-- Producto.
-- Comportamiento caótico del cliente.
-- Resultado ideal.
+1) Cancella spiegazione in 3 blocchi.
+2) Breve esempio pratico.
+3) Integrazione del prodotto come strumento.
+4) CTA professionale.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-031",
+  title: "Script video in stile POV: 'I prima di utilizzare il prodotto'",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Prospettiva in prima persona che mostra il caos, poi la trasformazione.",
+  prompt: `Dammi...
+- Prodotto.
+- Caotico comportamento dei clienti.
+- Ottimo risultato.
 
 Genera:
-1) POV antes.
+1) POV prima.
 2) POV durante.
-3) POV después.
-4) CTA POV estilo 'ven conmigo'.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-032",
-    title: "Script estilo entrevista falsa absurda",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Un reportero entrevista a alguien sobre un problema ridículamente común.",
-    prompt: `Dame:
+3) POV dopo.
+4) CTA POV stile 'venire con me'.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-032",
+  title: "Script stile assurda falsa intervista",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Un reporter intervista qualcuno su un problema ridicolo e comune.",
+  prompt: `Dammi...
 - Problema del cliente.
-- Producto.
-- Tipo de humor (sutil, absurdo, sarcástico).
+- Prodotto.
+- Tipo di umorismo (sottotili, assurdi, sarcastici).
 
 Genera:
-1) Preguntas humorísticas.
-2) Respuestas exageradas.
-3) Explicación del producto.
-4) CTA divertida.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-033",
-    title: "Script estilo ‘antes vs después’ con narrativa cinematográfica",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Transformación visual y emocional usando una secuencia tipo película.",
-    prompt: `Dame:
-- Dolor del cliente.
-- Escena del antes.
-- Escena del después.
+1) Domande emozionali.
+2) Risposte.
+3) Spiegazione del prodotto.
+4) Funny CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-033",
+  title: "\"Prima vs\" sceneggiatura di stile con narrazione di film",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Trasformazione visiva ed emotiva utilizzando una sequenza di tipo cinematografico.",
+  prompt: `Dammi...
+- Dolore al cliente.
+- La vecchia scena.
+- Dopo la scena.
 
 Genera:
-1) Secuencia cinematográfica del antes.
-2) Momento del cambio.
-3) Secuencia del después.
-4) CTA épica.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-034",
-    title: "Script estilo demostración técnica con humor inesperado",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Muestra el producto de forma técnica pero con giros humorísticos.",
-    prompt: `Dame:
-- Producto.
-- Función clave.
-- Situación donde se usa.
+1) La sequenza precedente del film.
+2) Tempo di cambiamento.
+3) Sequenza del dopo.
+4) CTA epica.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-034",
+  title: "Script stile dimostrativo tecnico con umorismo inaspettato",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Mostra il prodotto in modo tecnico ma con curve umoristiche.",
+  prompt: `Dammi...
+- Prodotto.
+- Funzione chiave.
+- Situazione dove viene utilizzato.
 
 Genera:
-1) Demostración seria.
-2) Momento humorístico inesperado.
-3) Beneficio explicado con claridad.
-4) CTA técnica + graciosa.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-035",
-    title: "Script estilo ‘la excusa del cliente habla’",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "La excusa se convierte en personaje y dialoga con el usuario.",
-    prompt: `Dame:
-- Excusa del cliente.
-- Producto.
-- Resultado deseado.
+1) dimostrazione seria.
+2) Un momento umoristico inaspettato.
+3) Il beneficio chiaramente spiegato.
+4) tecnico + divertente CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-035",
+  title: "Script style 'la scusa del cliente parla '",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "La scusa diventa carattere e dialogo con l'utente.",
+  prompt: `Dammi...
+- Scusi il cliente.
+- Prodotto.
+- Il risultato desiderato.
 
 Genera:
-1) Escena con la excusa personificada.
-2) Debate entre usuario y excusa.
-3) Producto derrotando la excusa.
-4) CTA simbólica fuerte.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-036",
-    title: "Script estilo narración elegante para marcas premium",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Tono sofisticado, minimalista y visualmente impecable.",
-    prompt: `Dame:
-- Producto premium.
-- Elementos que lo hacen exclusivo.
-- Sensación que debe transmitir.
+1) Scena con la scusa personalizzata.
+2) Discussione tra utente e scusa.
+3) Prodotto che sconfigge la scusa.
+4) Forte CTA simbolico.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-036",
+  title: "Elegante script di stile narrativo per marchi premium",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Tono sofisticato, minimalista e visivamente impeccabile.",
+  prompt: `Dammi...
+- Prodotto Premium.
+- Elementi che lo rendono esclusivo.
+- Mi sento trasmettere.
 
 Genera:
-1) Narración elegante.
-2) Visuales sugeridos.
-3) Conexión emocional premium.
+1) Elegante narrazione.
+2) Visivi consigliati.
+3) Collegamento emotivo premium.
 4) CTA minimalista.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-037",
-    title: "Script estilo análisis lógico para audiencias racionales",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Estructura con argumentos racionales y claridad analítica.",
-    prompt: `Dame:
-- Problema lógico.
-- Datos reales o aproximados.
-- Producto como solución.
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-037",
+  title: "Analisi logica di stile Script per il pubblico razionale",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Struttura con argomentazioni razionali e chiarezza analitica.",
+  prompt: `Dammi...
+- Problemi logici.
+- Dati reali o approssimativi.
+- Prodotto come soluzione.
 
 Genera:
-1) Exposición estructurada del problema.
-2) Análisis causa–efecto.
-3) Solución aplicando el producto.
-4) CTA racional.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-038",
-    title: "Script estilo comedia negra (humor elegante, no ofensivo)",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Humor oscuro suave + enseñanza persuasiva.",
-    prompt: `Dame:
-- Problema estresante del cliente.
-- Producto.
-- Límite de sensibilidad del humor.
+1) esposizione strutturata del problema.
+2) Cause di analisi - effetto.
+3) Soluzione applicando il prodotto.
+4) CTA razionale.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-038",
+  title: "Black comedy style script (elegante, umorismo non offensivo)",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Morbido umorismo scuro + insegnamento persuasivo.",
+  prompt: `Dammi...
+- Un problema di cliente stressante.
+- Prodotto.
+- Limite di sensibilità all'umorismo.
 
 Genera:
-1) Escena cómica oscura.
-2) Giro reflexivo.
-3) Presentación del producto.
-4) CTA humorística.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-039",
-    title: "Script estilo testimonial épico exagerado",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary: "Un cliente exagera al máximo los beneficios obtenidos.",
-    prompt: `Dame:
-- Producto.
-- Transformación real.
-- Exageración permitida.
+1) scena comica oscura.
+2) Rivolta riflettente.
+3) Presentazione del prodotto.
+4) Humorous CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-039",
+  title: "Anger epic testimonial style script",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary: "Un cliente esagera i benefici ottenuti al massimo.",
+  prompt: `Dammi...
+- Prodotto.
+- Una vera trasformazione.
+- Esagerazione consentita.
 
 Genera:
-1) Testimonio cómico–épico.
-2) Comparaciones absurdas.
-3) Beneficio real aterrizado.
-4) CTA humorístico–serio.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-scripts-video-040",
-    title: "Script estilo ‘relato íntimo’ con narración emocional profunda",
-    area: "Copywriting Profesional",
-    category: "Scripts de Video",
-    summary:
-      "Narrativa íntima para conectar emocionalmente y vender con sutileza.",
-    prompt: `Dame:
-- Historia personal del cliente.
-- Emoción dominante.
-- Producto que transformó.
+1) Testimonianza comica.
+(2) Confronti di senso.
+(3) Prestazioni reali.
+4) Humorous-serious CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-scripts-video-040",
+  title: "Script style 'intimate story' con profonda narrazione emotiva",
+  area: "Copyright professionale",
+  category: "Scrittori video",
+  summary:
+  "Intimo Narrativo per connettersi emotivamente e vendere con sottigliezza.",
+  prompt: `Dammi...
+- Storia personale del cliente.
+- Una mozione dominante.
+- Prodotto che ha trasformato.
 
 Genera:
-1) Narración íntima.
-2) Momento de vulnerabilidad.
-3) Presentación sutil del producto.
-4) CTA emocional suave.`,
-    thumbnail: "",
-  },
-];
+1) narrazione intima.
+2) Tempo di vulnerabilità.
+3) Presentazione del prodotto sottile.
+4) Morbido CTA emotivo.`,
+  thumbnail: ""
+}];

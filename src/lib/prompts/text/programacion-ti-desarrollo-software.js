@@ -1,521 +1,520 @@
 // src/lib/prompts/text/programacion-ti-desarrollo-software.js
 
 export const textPromptsProgramacionTiDesarrolloSoftware = [
-  {
-    id: "proti-001",
-    title: "Arquitectura de software 360° (de idea a producción)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Diseña arquitectura, stack, módulos, flujos y decisiones técnicas con trade-offs.",
-    prompt: `Actúa como arquitecto de software senior.
+{
+  id: "proti-001",
+  title: "Architettura software a 360 ° (da idea a produzione)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Architettura del design, stack, moduli, flussi e decisioni tecniche con trade-off.",
+  prompt: `Agisce come architetto di software senior.
 
-Inputs:
-- Qué problema resuelve el producto.
-- Tipo de app (web, mobile, API, escritorio).
-- Usuarios esperados (hoy y en 12 meses).
-- Requisitos clave (latencia, seguridad, offline, integraciones).
-- Restricciones (presupuesto, equipo, tiempo).
-
-Genera:
-1) Propuesta de arquitectura (diagrama descrito en texto).
-2) Stack recomendado (frontend, backend, DB, cache, queue) y por qué.
-3) Módulos/servicios principales y responsabilidades.
-4) Diseño de datos (entidades base + relaciones).
-5) Flujos críticos (login, pagos, búsquedas, etc.) paso a paso.
-6) Riesgos técnicos + mitigación.
-7) Checklist para pasar a producción (observabilidad, backups, CI/CD).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-002",
-    title: "Plan de implementación por sprints (MVP en 14–28 días)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Convierte requisitos en backlog, historias, prioridades y entregables por sprint.",
-    prompt: `Actúa como Tech Lead con mentalidad de producto.
-
-Inputs:
-- Features deseadas (lista).
-- Fecha objetivo.
-- Equipo (número de devs y perfiles).
-- Stack preferido (si aplica).
-- Riesgos conocidos.
+Ingressi:
+- No. Che problema risolve il prodotto.
+- Tipo di app (web, mobile, API, desktop).
+- Gli utenti si aspettavano (oggi e in 12 mesi).
+- Requisiti chiave (latenza, sicurezza, offline, integrazioni).
+- Restrizioni (budget, attrezzature, tempo).
 
 Genera:
-1) Definición de MVP (qué entra y qué se pospone).
-2) Backlog en historias de usuario (mín. 15) con criterios de aceptación.
-3) Roadmap por sprints (2 semanas cada uno) con entregables.
-4) Dependencias técnicas y orden sugerido.
-5) Plan de QA y ambientes (dev/staging/prod).
-6) Métricas para validar el MVP (producto + técnico).`,
-    thumbnail: "",
-  },
+1) Proposta di architettura (diagramma descritto nel testo).
+2) Raccomandato Stack (front, backend, DB, cache, coda) e perché.
+(3) Principali moduli / servizi e responsabilità.
+4) Data design (entità base + relazioni).
+5) Flussi critici (login, pagamenti, ricerche, ecc.) passo dopo passo.
+6) Rischi tecnici + mitigazione.
+7) Lista di controllo per la produzione (osservabilità, backup, CI / CD).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-003",
-    title: "Diseño de API REST (estándares + endpoints + errores)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Estructura endpoints, contratos, validación, auth, paginación y códigos de error.",
-    prompt: `Actúa como backend engineer senior.
+{
+  id: "proti-002",
+  title: "Piano di implementazione Sprint (MVP in 14-28 giorni)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Convertire i requisiti in backlog, storie, priorità e consegnabili da sprint.",
+  prompt: `Agisce come Tech Lead con una mentalità del prodotto.
 
-Inputs:
-- Dominio (e-commerce, cursos, CRM, etc.).
-- Recursos principales (usuarios, pedidos, etc.).
-- Tipo de auth (JWT, cookies, OAuth).
-- Reglas de negocio importantes.
-- Necesidad de paginación/filtros/búsqueda.
-
-Genera:
-1) Convenciones (nombres, versionado, headers).
-2) Lista de endpoints (CRUD + acciones) con ejemplos de request/response JSON.
-3) Esquema de errores (códigos, mensajes, campos).
-4) Paginación, sorting y filtros (forma estándar).
-5) Reglas de seguridad (rate limit, permisos, scopes/roles).
-6) Checklist para documentación (OpenAPI/Swagger).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-004",
-    title: "Diseño de base de datos (SQL) listo para construir",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Modelo relacional, normalización, índices, constraints y migraciones.",
-    prompt: `Actúa como ingeniero de datos/DBA.
-
-Inputs:
-- Entidades del negocio (lista).
-- Acciones frecuentes (consultas típicas).
-- Volumen estimado (registros/mes).
-- Requisitos (consistencia, auditoría, soft delete).
-- DB preferida (Postgres/MySQL/SQLite).
+Ingressi:
+- caratteristiche desiderate (elenco).
+- Data di destinazione.
+- Attrezzatura (numero di devs e profili).
+- Preferito Stack (se applicabile).
+- Rischi noti.
 
 Genera:
-1) Diagrama entidad-relación descrito (tablas y relaciones).
-2) DDL SQL base (CREATE TABLE) con llaves, constraints y tipos.
-3) Índices recomendados según consultas.
-4) Estrategia de migraciones (naming, rollback).
-5) Consideraciones de rendimiento y escalabilidad.
-6) Auditoría (created_at/updated_at, tracking de cambios).`,
-    thumbnail: "",
-  },
+1) Definizione di MVP (che cosa entra e che cosa viene posticipato).
+2) Backlog nelle storie degli utenti (min. 15) con criteri di accettazione.
+3) Roadmap per sprint (2 settimane ciascuna) con consegnabili.
+4) Unità tecniche e ordine suggerito.
+5) Piano e ambienti QA (dev / staging / prod).
+6) Metalli per convalidare il MVP (prodotto + tecnico).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-005",
-    title: "Sistema de autenticación y roles (RBAC) sin cagadas",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Diseña login seguro, sesiones, roles/permisos, refresh, y controles en backend/frontend.",
-    prompt: `Actúa como security-minded fullstack senior.
+{
+  id: "proti-003",
+  title: "Progettazione API REST (standard + endpoint + errori)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Struttura, contratti, validazione, auth, impaginazione e codici di errore.",
+  prompt: `Si comporta come un ingegnere senior backend.
 
-Inputs:
-- Tipo de app.
-- Roles necesarios (ej. admin, user, editor).
-- Requisitos de sesión (cookie/JWT).
-- Si habrá 2FA (sí/no).
-- Restricciones legales (si aplica).
-
-Genera:
-1) Propuesta de auth (opción A y B) con pros/contras.
-2) Modelo de roles/permisos (matriz).
-3) Flujo de login/logout/refresh (paso a paso).
-4) Reglas de seguridad: hashing, CSRF, XSS, rotación, rate-limit.
-5) Estructura de middleware/guards en backend y rutas protegidas en frontend.
-6) Checklist de pruebas de seguridad para auth.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-006",
-    title: "Code review brutal (checklist + comentarios tipo senior)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Checklist de revisión y ejemplos de comentarios que elevan calidad sin ser mamón.",
-    prompt: `Actúa como revisor senior en un equipo de alto rendimiento.
-
-Inputs:
-- Lenguaje y framework.
-- Tipo de cambio (feature, bugfix, refactor).
-- Restricciones de performance/seguridad.
-- Estándares del repo (lint, tests).
-- Fragmento de código o descripción del PR.
+Ingressi:
+- Dominio (e-commerce, corsi, CRM, ecc.).
+- Risorse principali (utenti, ordini, ecc.).
+- Tipo di auth (JWT, cookie, OAuth).
+- Regole aziendali importanti.
+- Pagare / filtrare / bisogno di ricerca.
 
 Genera:
-1) Checklist: correctitud, diseño, legibilidad, tests, seguridad, performance.
-2) 10 comentarios ejemplo (claros, accionables, sin humillar).
-3) Señales rojas (anti-patrones) que deben bloquear el merge.
-4) Recomendaciones de refactor con pasos pequeños.
-5) Cómo medir que el PR mejoró el sistema (métricas).`,
-    thumbnail: "",
-  },
+1) Convenzioni (nomi, versioni, leader).
+2) Elenco di endpoint (CRUD + azioni) con esempi di richiesta / risposta JSON.
+3) schema di errore (codici, messaggi, campi).
+4) Pagare, ordinare e filtri (forma standard).
+5) Regole di sicurezza (limite di tasso, autorizzazioni, portata / ruoli).
+6) Lista di controllo per la documentazione (OpenAPI / Swagger).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-007",
-    title: "Refactor planificado (de spaghetti a modular) con pasos seguros",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Plan de refactor sin romper producción: incremental, con tests y estrategia de rollout.",
-    prompt: `Actúa como Tech Lead especialista en refactors grandes.
+{
+  id: "proti-004",
+  title: "Database Design (SQL) pronto a costruire",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Modello relazionale, normalizzazione, indici, vincoli e migrazione.",
+  prompt: `Agisce come ingegnere di dati / DBA.
 
-Inputs:
-- Qué parte está fea (carpeta/archivo/módulo).
-- Síntomas (bugs, difícil de cambiar, atado a todo).
-- Riesgo (alto/medio/bajo).
-- Cobertura de tests actual.
-- Deadline.
-
-Genera:
-1) Diagnóstico: qué duele y por qué.
-2) Estrategia ideal: strangler pattern / feature flags / módulos.
-3) Plan en 5–10 pasos pequeños (cada uno mergeable).
-4) Qué tests crear primero (unit/integration/e2e) y en qué orden.
-5) Estrategia de rollout y rollback.
-6) Definition of Done para cerrar el refactor.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-008",
-    title: "Debugging guiado (encuentra el bug sin perder la cabeza)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Protocolo de debugging: hipótesis, reproducción, logs, bisect y verificación.",
-    prompt: `Actúa como ingeniero senior resolviendo incidentes.
-
-Inputs:
-- Síntoma exacto.
-- Dónde ocurre (entorno, ruta, feature).
-- Logs/stacktrace (si hay).
-- Cambios recientes.
-- Frecuencia (siempre/intermitente).
+Ingressi:
+- entità aziendali (lista).
+- Azioni comuni (consulzioni fisiche).
+- Volume stimato (registri / mese).
+- Requisiti (consistenza, audit, cancellazione morbida).
+- DB preferito (Postgres / MySQL / SQLite).
 
 Genera:
-1) 10 hipótesis ordenadas por probabilidad.
-2) Cómo reproducir de forma confiable (pasos).
-3) Qué logs/metrics agregar y dónde.
-4) Plan de aislamiento: reducir variables, bisect, toggles.
-5) Cómo validar el fix y evitar regresiones.
-6) Postmortem mini: causa raíz + acción preventiva.`,
-    thumbnail: "",
-  },
+1) entità diagramma - relazione descritta (tavole e relazioni).
+2) Base DDL SQL (TABLE CREATE) con chiavi, vincoli e tipi.
+3) Indicazioni consigliate per consultazione.
+4) Strategia di migrazione (nome, rollback).
+5) Considerazioni di performance e scalabilità.
+6) Audit (creato _ a / aggiornato _ a, monitoraggio modifiche).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-009",
-    title: "Testing strategy completa (unit + integration + e2e) para tu app",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Define pirámide de pruebas, qué testear, cómo organizar y qué automatizar.",
-    prompt: `Actúa como QA lead + software engineer.
+{
+  id: "proti-005",
+  title: "Autenticazione e sistema di ruolo (RBAC) senza cagare",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Design di login sicuro, sessioni, ruoli / autorizzazioni, aggiornamento e backend / controlli frontali.",
+  prompt: `Agisce come un fullstack di sicurezza.
 
-Inputs:
-- Tipo de app y stack.
-- Riesgos principales (pagos, auth, datos).
-- Equipo y tiempo.
+Ingressi:
+- Tipo di app.
+- Rols necessario (ad esempio amministratore, utente, editor).
+- Requisiti di sessione (cookie / JWT).
+- No. Se ci sarà 2FA (sì / no).
+- Restrizioni legali (se applicabili).
+
+Genera:
+1) Proposta di auth (opzione A e B) con pro / contro.
+2) Ruolo / modello di autorizzazioni (matrice).
+3) Login / logout / flusso di aggiornamento (passo per passo).
+4) Regole di sicurezza: hashing, CSRF, XSS, rotazione, tasso-limit.
+5) Struttura Middleware / guardie in backend e percorsi protetti anteriori.
+6) Elenco dei test di sicurezza per auth.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-006",
+  title: "Codice recensione brutale (checklist + commenti di tipo senior)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Checklist recensione ed esempi di commenti che sollevano la qualità senza essere un mammone.",
+  prompt: `Agisce come recensore senior su un team ad alte prestazioni.
+
+Ingressi:
+- Lingua e quadro.
+- tasso di cambio (funzione, bugfix, refactor).
+- Prestazioni / restrizioni di sicurezza.
+- Norme di corda (lint, test).
+- Codice Frammento o PR Descrizione.
+
+Genera:
+1) Elenco di controllo: correttezza, design, leggibilità, test, sicurezza, prestazioni.
+2) 10 commenti di esempio (chiaro, azionabile, inumidito).
+3) Segni rossi (anti-patterns) che devono bloccare la fusione.
+4) Raccomandazioni refactor con piccoli passi.
+5) Come misurare che il PR ha migliorato il sistema (metrico).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-007",
+  title: "Fattore pianificato (spaghetti a modulare) con passi sicuri",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Piano refattore ininterrotto: incrementale, con test di rollout e strategia.",
+  prompt: `Agisce come specialista Tech Lead in grandi refactors.
+
+Ingressi:
+- No. Quale parte è brutta (cartella / file / modulo).
+- Sintomi (bug, difficile da cambiare, legato a tutto).
+- Rischio (alto / medio / basso).
+- Copertura dei test.
+- Scadenza.
+
+Genera:
+1) Diagnosi: cosa fa male e perché.
+2) Strategia ideale: schema strangler / caratteristiche bandiere / moduli.
+3) Piano in 5-10 piccoli gradini (ciascuno unificato).
+4) Quali test per creare prima (unità / integrazione / e2e) e in che ordine.
+5) Strategia di rollout e rollback.
+6) Definizione di fatto per chiudere il refactor.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-008",
+  title: "Debugging guidato (trovare il bug senza perdere la testa)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Protocollo di debug: ipotesi, riproduzione, loghi, bisect e verifica.",
+  prompt: `Agisce come ingegnere senior per risolvere gli incidenti.
+
+Ingressi:
+- Sintomo esatto.
+- No. Dove accade (ambiente, percorso, caratteristica).
+- Log / stacktrack (se presenti).
+- Cambiamenti recenti.
+- Frequenza (sempre / intermittente).
+
+Genera:
+1) 10 scenari ordinati per probabilità.
+2) Come giocare in modo affidabile (steps).
+3) Che registri / metriche da aggiungere e dove.
+4) Piano di isolamento: ridurre variabili, bisect, toggles.
+5) Come convalidare la correzione ed evitare regressioni.
+6) Postmortem mini: causa principale + azione preventiva.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-009",
+  title: "Strategia di test completa (unità + integrazione + e2e) per la tua app",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Definire la piramide di prova, cosa provare, come organizzare e cosa automatizzare.",
+  prompt: `Agisce come QA lead + ingegnere del software.
+
+Ingressi:
+- Tipo di app e stack.
+- Principali rischi (pagamenti, auth, dati).
+- Attrezzatura e tempo.
 - Infra (CI, staging).
-- Herramientas preferidas.
+- Strumenti preferiti.
 
 Genera:
-1) Pirámide de tests y distribución recomendada (%).
-2) Lista de pruebas críticas (mín. 20) por tipo.
-3) Convenciones: naming, estructura de carpetas, fixtures.
-4) Estrategia de mocks y test data.
-5) CI pipeline recomendado (lint, tests, e2e, cobertura).
-6) Métricas: cobertura útil, flakiness, tiempo total.`,
-    thumbnail: "",
-  },
+1) Test piramide e distribuzione raccomandata (%).
+2) Elenco delle prove critiche (min. 20) per tipo.
+3) Convenzioni: denominazione, struttura della cartella, apparecchi.
+4) Mocks e la strategia dei dati di prova.
+5) pipeline raccomandata CI (lint, test, e2e, copertura).
+6) Metrico: copertura utile, flakiness, tempo totale.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-010",
-    title: "CI/CD para deploys sin miedo (pipeline + gates + rollback)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Diseña un pipeline moderno con checks, previews, releases y rollback.",
-    prompt: `Actúa como DevOps/Platform engineer.
+{
+  id: "proti-010",
+  title: "CI / CD per schieramenti senza paura (pipeline + Gates + rollback)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Progettare una moderna pipeline con controlli, anteprime, release e rollback.",
+  prompt: `Agisce come DevOps / Platform Engineer.
 
-Inputs:
-- Repo (monorepo/multirepo).
-- Hosting (Vercel, AWS, etc.).
-- Environments (dev/staging/prod).
-- Necesidad de migraciones.
-- Tolerancia al riesgo (alta/baja).
-
-Genera:
-1) Pipeline ideal (etapas y orden).
-2) Gates de calidad (lint, tests, coverage, security scan).
-3) Estrategia de deploy (blue/green, canary, feature flags).
-4) Manejo de migraciones DB seguro.
-5) Rollback y runbook rápido.
-6) Alertas y observabilidad mínima para releases.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-011",
-    title: "Documentación técnica que sí se usa (README + ADRs + runbooks)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Estructura docs útiles: onboarding, decisiones, operación y troubleshooting.",
-    prompt: `Actúa como Tech Writer + Staff Engineer.
-
-Inputs:
-- Tipo de proyecto.
-- Equipo (nuevos devs sí/no).
-- Áreas problemáticas frecuentes.
-- Cómo se despliega hoy.
-- Incidentes comunes.
+Ingressi:
+- Repo (monorep / multirepo).
+- Hosting (Vercel, AWS, ecc.).
+- Ambiente (dev / staging / prod).
+- Ho bisogno di migrazione.
+- Tolleranza al rischio (alto / basso).
 
 Genera:
-1) Índice de documentación mínima viable.
-2) Template de README (secciones exactas).
-3) Template de ADR (Architecture Decision Record).
-4) Runbook para 3 incidentes típicos (pasos + comandos).
-5) Checklist para mantener docs actualizadas.`,
-    thumbnail: "",
-  },
+1) Pipeline ideale (staggi e ordine).
+2) Tassi di qualità (lint, test, copertura, scansione di sicurezza).
+3) Strategia di distribuzione (blu/verde, canari, bandiere di funzionalità).
+(4) Gestione sicura della migrazione DB.
+5) Rollback e veloce runbook.
+6) Avvisi e osservabilità minima per le versioni.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-012",
-    title: "Estimación técnica realista (sin prometer pendejadas)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Cómo estimar features con riesgos, supuestos, buffers y alcance claro.",
-    prompt: `Actúa como Tech Lead responsable de planificación.
+{
+  id: "proti-011",
+  title: "Documentazione tecnica utilizzata (README + ADRs + runbooks)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Struttura utile dei documenti: a bordo, decisioni, funzionamento e risoluzione dei problemi.",
+  prompt: `Agisce come Tech Writer + Staff Engineer.
 
-Inputs:
-- Feature a construir.
-- Dependencias externas.
-- Complejidad percibida (baja/media/alta).
-- Equipo y capacidad semanal.
-- Fecha objetivo (si existe).
-
-Genera:
-1) Desglose por componentes (frontend, backend, data, QA, DevOps).
-2) Supuestos explícitos (mín. 10).
-3) Riesgos y “unknowns” con plan de descubrimiento (spikes).
-4) Estimación por rangos (optimista/realista/pesimista).
-5) Plan de recorte de alcance si se complica.
-6) Cómo comunicar la estimación a negocio sin conflicto.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-013",
-    title: "Migración de legacy a moderno (sin tumbar el sistema)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Plan gradual: delimitar, envolver, reemplazar, medir y apagar.",
-    prompt: `Actúa como Staff Engineer especializado en migraciones.
-
-Inputs:
-- Sistema actual (stack).
-- Problemas (performance, deuda, costos).
-- Qué parte migrar primero.
-- Restricciones (downtime cero, compliance).
-- Equipo y plazo.
+Ingressi:
+- Tipo di progetto.
+- Attrezzatura (nuovo sì / no devs).
+- Aree di problemi comuni.
+- Come si dispiega oggi.
+- Incidenti comuni.
 
 Genera:
-1) Estrategia recomendada (strangler, rewrite parcial, etc.).
-2) Plan por fases con hitos claros.
-3) Qué medir en cada fase (métricas técnicas + de negocio).
-4) Riesgos típicos y mitigación.
-5) Plan de compatibilidad (APIs, datos, auth).
-6) Criterios para apagar el legacy.`,
-    thumbnail: "",
-  },
+(1) Indice di documentazione minima praticabile.
+2) Tempio di README (sezioni esatte).
+3) Tempio di ADR (Architettura Decision Record).
+4) Runbook per 3 incidenti tipici (steps + comandi).
+5) Elenco di controllo per mantenere i documenti aggiornati.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-014",
-    title: "Búsqueda y performance: cómo optimizar consultas lentas",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Diagnóstico de endpoints lentos: profiling, índices, cache, batching y N+1.",
-    prompt: `Actúa como ingeniero de performance.
+{
+  id: "proti-012",
+  title: "Stime tecniche realistiche (senza promessa)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Come valutare le caratteristiche con rischi, assunzioni, buffer e portata chiara.",
+  prompt: `Agisce come Tech Lead responsabile della pianificazione.
 
-Inputs:
-- Endpoint o query lenta.
-- DB y ORM (si aplica).
-- Volumen (registros).
-- SLA deseado (ms/seg).
-- Observaciones (picos, intermitencia).
-
-Genera:
-1) Checklist de diagnosis (profiling, logs, explain analyze).
-2) Hipótesis comunes (N+1, falta de índice, overfetching).
-3) Plan de optimización en pasos (rápido -> profundo).
-4) Estrategia de caching (qué, dónde, invalidación).
-5) Cómo validar mejora (benchmarks antes/después).
-6) Riesgos de optimizar mal y cómo evitarlos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-015",
-    title: "Diseño de sistema de logs y trazas (observabilidad mínima)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Define logs útiles, correlation IDs, métricas, tracing, alertas y dashboards.",
-    prompt: `Actúa como SRE.
-
-Inputs:
-- Tipo de app.
-- Infra (serverless, containers, etc.).
-- Incidentes frecuentes.
-- Herramientas (Sentry, Datadog, OpenTelemetry, etc).
-- Qué tan crítico es (bajo/alto).
+Ingressi:
+- Caratteristica da costruire.
+- Dipendenze esterne.
+- Complessità ricevuta (bassa / media / alta).
+- Attrezzatura e capacità settimanale.
+- Data di destinazione (se presente).
 
 Genera:
-1) Qué loggear (campos obligatorios) y qué NO (PII).
-2) Correlation IDs y propagación (request -> servicios).
-3) Métricas mínimas: latencia, errores, throughput, saturation.
-4) Trazas: qué spans y cómo nombrarlos.
-5) Alertas con umbrales sensatos (evitar ruido).
-6) Dashboard mínimo (5 gráficos esenciales).`,
-    thumbnail: "",
-  },
+1) Ripartizione per componenti (anteriore, backend, dati, QA, DevOps).
+2) ipotesi esplicite (min. 10).
+3) Rischi e sconosciuti con un piano di picco.
+(4) Stima per rango (ottimo / realistico / pessimistico).
+5) Piano di taglio della gamma se complicato.
+6) Come segnalare la stima a un business non-conflitto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-016",
-    title: "Seguridad básica en apps web (checklist pragmático)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Checklist accionable de seguridad: headers, auth, input validation, secrets y permisos.",
-    prompt: `Actúa como AppSec pragmático.
+{
+  id: "proti-013",
+  title: "Migrazione dall'eredità al moderno (senza il sistema)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Piano graduale: delimitare, avvolgere, sostituire, misurare e spegnere.",
+  prompt: `Agisce come Staff Engineer specializzato nella migrazione.
 
-Inputs:
-- Stack (frontend/backend).
-- Tipo de auth.
-- Si almaceno datos sensibles (sí/no).
+Ingressi:
+- Sistema attuale (stack).
+- Problemi (prestazioni, debito, costi).
+- No. Quale parte per migrare prima.
+- Restrizioni (downtime zero, compliance).
+- Attrezzatura e struttura del tempo.
+
+Genera:
+1) Strategia raccomandata (strangler, riscrittura parziale, ecc.).
+2) Piano di fase con pietre miliari chiare.
+3) Che misurare in ogni fase (metriche tecniche + business).
+4) Rischi tipici e mitigazione.
+5) Piano di compatibilità (API, dati, auth).
+6) Criteri per disattivare l'eredità.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-014",
+  title: "Ricerca e performance: come ottimizzare le query lente",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Diagnosi degli endpoint lenti: profilazione, indici, cache, batching e N + 1.",
+  prompt: `Agisce come ingegnere delle prestazioni.
+
+Ingressi:
+- Endpoint o query slow.
+- DB e ORM (se applicabile).
+- Volume (registri).
+- SLA desiderato (ms / sec).
+- Osservazioni (pace, intermittente).
+
+Genera:
+1) Diagnosi elenco di controllo (profilazione, log, spiegare l'analisi).
+2) Presupposti comuni (N + 1, mancanza di indice, overfeting).
+3) Piano di ottimizzazione passo (veloce - > profondo).
+4) strategia di caching (cosa, dove, invalidazione).
+5) Come convalidare il miglioramento (benchmarks prima / dopo).
+6) Rischi di misoptimizzazione e come evitarli.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-015",
+  title: "Disegno del sistema di traccia e dei registri (osservabilità minima)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Definire registri utili, identificazioni di correlazione, metriche, tracciamento, avvisi e dashboard.",
+  prompt: `Agite come SRE.
+
+Ingressi:
+- Tipo di app.
+- Infra (senzaserver, contenitori, ecc.).
+- Incidenti frequenti.
+- Strumenti (Sentry, Datadog, OpenTelemetry, ecc.).
+- No. Quanto è critico (basso / alto).
+
+Genera:
+1) Cosa logger (campi obbligatori) e cosa no (PII).
+2) ID di correlazione e propagazione (richiesta - > servizi).
+3) Tecniche minime: latenza, errori, throughput, saturazione.
+4) Tracce: che abbraccia e come chiamarli.
+5) avvisi con soglie sensibili (evitare il rumore).
+6) Dashboard minimo (5 grafica essenziale).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-016",
+  title: "Sicurezza di base nelle applicazioni web (lista di controllo pragmatico)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Elenco di controllo abilitato alla sicurezza: intestazioni, auth, convalida di input, segreti e autorizzazioni.",
+  prompt: `Agisce come un AppSec pragmatico.
+
+Ingressi:
+- Stack (anteriore / posteriore).
+- Tipo di auth.
+- Se memorizzo dati sensibili (sì / no).
 - Hosting.
-- Integraciones externas.
+- Integrazione esterna.
 
 Genera:
-1) Checklist de 25 puntos (prioridad alta/media/baja).
-2) Controles en backend (validación, sanitización, rate limit).
-3) Controles en frontend (XSS, CSP, safe rendering).
-4) Gestión de secretos (env vars, rotación, access).
-5) CORS/CSRF/cookies: configuración recomendada.
-6) Cómo hacer una revisión rápida antes de producción.`,
-    thumbnail: "",
-  },
+1) Lista di controllo di 25 punti (alta / media / bassa priorità).
+2) Controlli di backend (validazione, sanificazione, limite di tasso).
+3) Controlli frontali (XSS, CSP, rendering sicuro).
+4) Gestione segreta (valori, rotazione, accesso).
+5) CORS / CSRF / cookie: configurazione consigliata.
+6) Come fare una rapida revisione prima della produzione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-017",
-    title: "Optimización de frontend: Core Web Vitals (plan de mejora)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Plan para mejorar LCP/CLS/INP con acciones concretas y medición.",
-    prompt: `Actúa como performance engineer frontend.
+{
+  id: "proti-017",
+  title: "Ottimizzazione frontale: Core Web Vitals (piano di miglioramento)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Pianifica per migliorare LCP / CLS / INP con azioni e misure concrete.",
+  prompt: `Agisce come ingegnere di prestazioni davanti.
 
-Inputs:
-- Framework (Next/React/Vue).
-- Páginas lentas (lista).
-- Imágenes/videos (sí/no).
-- Tamaño de bundle (si lo sé).
-- Hosting/CDN.
-
-Genera:
-1) Diagnóstico probable por métrica (LCP/CLS/INP).
-2) Acciones concretas para cada métrica (prioridad 1-2-3).
-3) Estrategia de imágenes (formatos, responsive, lazy, placeholders).
-4) Estrategia de JS (code splitting, dynamic import, tree-shaking).
-5) Cómo medir: herramientas y ritual (before/after).
-6) Checklist final para release.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-018",
-    title: "Integración de pagos (Stripe/PayPal) con seguridad y contabilidad",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Diseña flujos de checkout, webhooks, estados, reintentos y conciliación.",
-    prompt: `Actúa como ingeniero fullstack senior.
-
-Inputs:
-- Proveedor (Stripe/PayPal).
-- Tipo de cobro (one-time/subscription).
-- Monedas y países.
-- Si hay reembolsos/cupones.
-- Modelo de producto (curso, SaaS, etc).
+Ingressi:
+- Quadro (Next / React / Vue).
+- Pagine lente (lista).
+- Immagini / video (sì / no).
+- Bundle (se lo so).
+- Hosting / CDN.
 
 Genera:
-1) Flujo de pago end-to-end (front -> backend -> proveedor -> webhook).
-2) Modelo de estados (pending/paid/failed/refunded) y reglas.
-3) Estructura de webhooks (verificación, idempotencia, reintentos).
-4) Tabla/colección recomendada para registrar transacciones.
-5) Manejo de edge cases (doble webhook, timeout, chargeback).
-6) Checklist de pruebas (sandbox) antes de production.`,
-    thumbnail: "",
-  },
+1) Probabile diagnosi metrica (LCP / CLS / INP).
+2) azioni specifiche per ciascuna metrica (priorità 1-2-3).
+3) Strategia immagine (formati, reattivi, pigri, segnaposto).
+4) Strategia JS (dividere codice, importazione dinamica, albero-shaking).
+5) Come misurare strumenti e rituali (prima / dopo).
+6) Checklist finale per il rilascio.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-019",
-    title: "Generación de backlog técnico (deuda) priorizado por impacto",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Convierte deuda técnica en tickets accionables con impacto, esfuerzo y riesgo.",
-    prompt: `Actúa como Tech Lead que quiere pagar deuda sin frenar el negocio.
+{
+  id: "proti-018",
+  title: "Integrazione dei pagamenti (Stripe / PayPal) con sicurezza e contabilità",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Disegna flussi di checkout, webhooks, stati, reattempts e riconciliazione.",
+  prompt: `Agisce come ingegnere senior fullstack.
 
-Inputs:
-- Lista de dolores técnicos.
-- Incidentes recientes.
-- Áreas del código con más cambios.
-- Métricas disponibles (si hay).
-- Capacidad mensual para deuda (%).
-
-Genera:
-1) 20 tickets de deuda técnica (formato: título, descripción, DoD).
-2) Priorización (impacto vs esfuerzo) y top 5 recomendados.
-3) Qué deuda NO pagar aún (y por qué).
-4) Plan mensual (2–4 semanas) con entregables.
-5) Cómo medir que la deuda pagada mejoró el sistema.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-020",
-    title: "Diseño de feature flags (activación gradual y experimentos)",
-    area: "Programación & TI",
-    category: "Desarrollo de software",
-    summary:
-      "Implementa flags para reducir riesgo en releases y hacer A/B testing básico.",
-    prompt: `Actúa como Staff Engineer.
-
-Inputs:
-- Feature a lanzar.
-- Riesgo (alto/medio/bajo).
-- Usuarios (segmentos).
-- Infra (si serverless o backend propio).
-- Necesidad de A/B test (sí/no).
+Ingressi:
+- Fornitore (Stripe / PayPal).
+- Tipo di raccolta (una volta / abbonamento).
+- Monete e paesi.
+- No. Se ci sono rimborsi / coupon.
+- Modello di prodotto (corso, SaaS, ecc).
 
 Genera:
-1) Tipos de flags necesarios (release, ops, experiment).
-2) Arquitectura de flags (dónde viven, cómo se evalúan).
-3) Estrategia de rollout (0%->1%->10%->50%->100%).
-4) Monitoreo durante rollout (métricas y alertas).
-5) Plan de rollback inmediato.
-6) Limpieza de flags (deuda) y reglas para retirarlas.`,
-    thumbnail: "",
-  },
-];
+1) Flusso di pagamento end-to-end (anteriore - > backend - > fornitore - > webhold).
+2) Stato del modello (a pagamento / pagato / fallito / recast) e regole.
+3) Struttura Webhooks (verificazione, idempower, reattempts).
+4) Raccomandata tabella / raccolta per registrare le transazioni.
+5) Gestione della cassa bordo (doppio webhook, timeout, chargeback).
+6) Elenco dei test (sandbox) prima della produzione.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-019",
+  title: "Generazione backlog tecnica (debt) prioritaria da impatto",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Convertire il debito tecnico in biglietti attuabili con impatto, sforzo e rischio.",
+  prompt: `Agisce come Tech Lead che vuole pagare il debito senza fermare il business.
+
+Ingressi:
+- Lista di dolori tecnici.
+- Recenti incidenti.
+- Aree del codice con più modifiche.
+- Disponibile (se presente).
+- Capacità mensile del debito (%).
+
+Genera:
+1) 20 biglietti del debito tecnico (formato: titolo, descrizione, DoD).
+2) Prioritizzazione (impatto vs sforzo) e top 5 raccomandato.
+3) Che debito NON pagare ancora (e perché).
+4) Piano mensile (2-4 settimane) con consegnabili.
+5) Come misurare che il debito pagato ha migliorato il sistema.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-020",
+  title: "Caratteristiche di progettazione (attivazione e esperimenti)",
+  area: "Programmazione IT",
+  category: "Sviluppo del software",
+  summary:
+  "Implementa i ritardi per ridurre il rischio nelle versioni e fare test di base A / B.",
+  prompt: `Si comporta come Staff Engineer.
+
+Ingressi:
+- Caratteristica di lancio.
+- Rischio (alto / medio / basso).
+- Utenti (segmenti).
+- Infra (se serverless o proprio backend).
+- Necessità del test A / B (sì / no).
+
+Genera:
+1) Tipi di bandiere necessarie (rilascio, ops, esperimento).
+2) Architettura delle terre (dove vivono, come vengono valutati).
+3) Strategia di rollout (0% - > 1% - > 10% - > 50% - > 100%).
+4) Monitoraggio durante il rollout (metrici e avvisi).
+5) Piano di rollback immediatamente.
+6) Lands (debito) pulizia e regole per rimuoverli.`,
+  thumbnail: ""
+}];

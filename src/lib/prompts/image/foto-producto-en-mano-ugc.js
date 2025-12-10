@@ -2,634 +2,634 @@
 
 export const imagePromptsFotoProductoEnManoUGC = [
   // =========================
-  // CATEGORY: Producto en mano (UGC)
+  // CATEGORY: Prodotto in mano (UGC)
   // =========================
   {
     id: "img-ugc-mano-001",
-    title: "Producto en mano frente a cámara (selfie UGC, luz natural suave)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (UGC)",
+    title: "Prodotto in mano davanti alla camera (selfie UGC, luce naturale morbida)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (UGC)",
     summary:
-      "Selfie creíble mostrando el producto cerca del rostro, look auténtico tipo UGC.",
-    prompt: `Genera una foto REALISTA estilo selfie UGC mostrando un producto en la mano.
+      "Selfie credibile mostrando il prodotto vicino al viso, look autentico in stile UGC.",
+    prompt: `Genera una foto REALISTICA in stile selfie UGC mostrando un prodotto in mano.
 
-DATOS:
-- Persona: [mujer/hombre/persona] de [edad], expresión natural (sonrisa leve o neutra)
-- Producto: [describir producto genérico], SIN marcas ni texto legible
-- Pose: sosteniendo el producto cerca del rostro, mano relajada, dedos visibles
-- Fondo: interior simple (casa) o exterior suave, desenfocado
+DATI:
+- Persona: [donna/uomo/persona] di [età], espressione naturale (sorriso leggero o neutra)
+- Prodotto: [descrivi prodotto generico], SENZA marchi né testo leggibile
+- Posa: tenendo il prodotto vicino al viso, mano rilassata, dita visibili
+- Sfondo: interno semplice (casa) o esterno morbido, sfocato
 
-ILUMINACIÓN:
-- Luz natural suave (ventana o sombra abierta)
-- Piel realista, sin filtros extremos
+ILLUMINAZIONE:
+- Luce naturale morbida (finestra o ombra aperta)
+- Pelle realistica, senza filtri estremi
 
-CÁMARA:
-- Simular smartphone cámara frontal, nitidez natural, compresión realista
-- Enfoque en rostro y producto (ambos nítidos)
+FOTOCAMERA:
+- Simulare fotocamera frontale smartphone, nitidezza naturale, compressione realistica
+- Fuoco su viso e prodotto (entrambi nitidi)
 
-COMPOSICIÓN:
-- Encuadre: rostro + hombros, producto a un lado del rostro
-- Estilo auténtico, no publicitario exagerado
+COMPOSIZIONE:
+- Inquadratura: viso + spalle, prodotto a lato del viso
+- Stile autentico, non pubblicitario esagerato
 
-RESTRICCIONES CRÍTICAS:
-- Mano anatómicamente correcta (5 dedos, proporciones reales)
-- Sin texto/logos/watermark`,
+RESTRIZIONI CRITICHE:
+- Mano anatomicamente corretta (5 dita, proporzioni reali)
+- Niente testo/loghi/watermark`,
     thumbnail: "/images/foto-pro/ugc1.webp",
   },
   {
     id: "img-ugc-mano-002",
-    title: "Producto en mano con fondo de baño (skincare UGC, luz blanca)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (UGC)",
+    title: "Prodotto in mano con sfondo bagno (skincare UGC, luce bianca)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (UGC)",
     summary:
-      "UGC típico de skincare en baño limpio, luz blanca suave y look realista.",
-    prompt: `Genera una foto REALISTA UGC en baño (skincare style) con producto en mano.
+      "UGC tipico skincare in bagno pulito, luce bianca morbida e look realistico.",
+    prompt: `Genera una foto REALISTICA UGC in bagno (stile skincare) con prodotto in mano.
 
-DATOS:
-- Persona: [persona], [edad], maquillaje mínimo
-- Producto: frasco/dispensador/caja genérica de skincare, sin marca ni texto legible
-- Escena: baño moderno limpio, espejo al fondo (sin doble reflejo raro)
-- Pose: sosteniendo el producto hacia la cámara
+DATI:
+- Persona: [persona], [età], trucco minimo
+- Prodotto: flacone/erogatore/scatola skincare generica, senza marca né testo leggibile
+- Scena: bagno moderno e pulito, specchio sullo sfondo (senza doppi riflessi strani)
+- Posa: tenendo il prodotto verso la camera
 
-ILUMINACIÓN:
-- Luz blanca suave tipo baño (no azul intensa), sombras mínimas
-- Piel natural con textura real
+ILLUMINAZIONE:
+- Luce bianca morbida da bagno (non blu intensa), ombre minime
+- Pelle naturale con texture reale
 
-CÁMARA:
-- Simular smartphone, nitidez natural
-- Enfoque en producto, rostro ligeramente detrás pero claro
+FOTOCAMERA:
+- Simulare smartphone, nitidezza naturale
+- Fuoco sul prodotto, viso leggermente dietro ma chiaro
 
-COMPOSICIÓN:
-- Plano medio-corto (pecho a cabeza)
-- Estética cotidiana, auténtica
+COMPOSIZIONE:
+- Piano medio-corto (petto a testa)
+- Estetica quotidiana, autentica
 
-RESTRICCIONES:
-- Sin logos/texto legible
-- Mano realista (5 dedos), evitar deformaciones`,
+RESTRIZIONI:
+- Niente loghi/testo leggibile
+- Mano realistica (5 dita), evitare deformazioni`,
     thumbnail: "/images/foto-pro/ugc2.webp",
   },
   {
     id: "img-ugc-mano-003",
-    title: "Producto en mano sentado en sofá (lifestyle UGC, cálido)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (UGC)",
+    title: "Prodotto in mano seduto/a sul divano (lifestyle UGC, caldo)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (UGC)",
     summary:
-      "Persona en sala mostrando producto en mano, vibe hogar cálida y creíble.",
-    prompt: `Genera una foto REALISTA UGC en casa, sentado/a en un sofá, mostrando un producto en la mano.
+      "Persona in salotto che mostra il prodotto in mano, vibe casalinga calda e credibile.",
+    prompt: `Genera una foto REALISTICA UGC a casa, seduto/a su un divano, mostrando un prodotto in mano.
 
-DATOS:
-- Persona: [persona], [edad], expresión amistosa
-- Producto: [describir producto genérico], sin marcas
-- Escena: sala minimal con sofá claro, planta o lámpara desenfocadas
-- Pose: producto en mano cerca del pecho o rostro
+DATI:
+- Persona: [persona], [età], espressione amichevole
+- Prodotto: [descrivi prodotto generico], senza marchi
+- Scena: salotto minimal con divano chiaro, pianta o lampada sfocate
+- Posa: prodotto in mano vicino al petto o al viso
 
-ILUMINACIÓN:
-- Luz cálida suave (tarde), sombras ligeras
-- Colores naturales, sin filtros fuertes
+ILLUMINAZIONE:
+- Luce calda morbida (pomeriggio), ombre leggere
+- Colori naturali, senza filtri forti
 
-CÁMARA:
-- Simular smartphone, 28–35mm equivalente
-- Enfoque en rostro, producto también legible visualmente
+FOTOCAMERA:
+- Simulare smartphone, equivalente 28–35mm
+- Fuoco sul viso, prodotto anche visivamente leggibile
 
-COMPOSICIÓN:
-- Plano medio, ambiente visible pero desenfocado
+COMPOSIZIONE:
+- Piano medio, ambiente visibile ma sfocato
 
-RESTRICCIONES:
-- Sin texto/logos
-- Mano correcta, sin dedos extra`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Mano corretta, senza dita extra`,
     thumbnail: "/images/foto-pro/ugc3.webp",
   },
   {
     id: "img-ugc-mano-004",
-    title: "Producto en mano en exterior (sombra abierta, look auténtico)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (UGC)",
+    title: "Prodotto in mano all’aperto (ombra aperta, look autentico)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (UGC)",
     summary:
-      "UGC en exterior mostrando el producto, luz natural pareja y fondo suave desenfocado.",
-    prompt: `Genera una foto REALISTA UGC en exterior mostrando un producto en la mano.
+      "UGC all’aperto mostrando il prodotto, luce naturale uniforme e sfondo morbido sfocato.",
+    prompt: `Genera una foto REALISTICA UGC all’aperto mostrando un prodotto in mano.
 
-DATOS:
-- Persona: [persona], [edad], expresión natural
-- Producto: [describir producto], genérico, sin marca/etiqueta legible
-- Fondo: parque/calle desenfocados, luz natural
-- Pose: producto cerca de cámara, rostro visible
+DATI:
+- Persona: [persona], [età], espressione naturale
+- Prodotto: [descrivi prodotto], generico, senza marca/etichetta leggibile
+- Sfondo: parco/strada sfocati, luce naturale
+- Posa: prodotto vicino alla camera, viso visibile
 
-ILUMINACIÓN:
-- Sombra abierta (luz suave), sin sombras duras
-- Piel realista, colores neutros
+ILLUMINAZIONE:
+- Ombra aperta (luce morbida), senza ombre dure
+- Pelle realistica, colori neutri
 
-CÁMARA:
-- Simular smartphone, nitidez natural
-- Enfoque equilibrado: producto y ojos
+FOTOCAMERA:
+- Simulare smartphone, nitidezza naturale
+- Fuoco bilanciato: prodotto e occhi
 
-COMPOSICIÓN:
-- Rostro centrado, producto en primer plano ligeramente lateral
+COMPOSIZIONE:
+- Viso centrato, prodotto in primo piano leggermente laterale
 
-RESTRICCIONES:
-- Sin texto/logos
-- Mano anatómicamente correcta`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Mano anatomicamente corretta`,
     thumbnail: "/images/foto-pro/ugc4.webp",
   },
   {
     id: "img-ugc-mano-005",
-    title: "Producto en mano con uñas cuidadas (beauty UGC, manos perfectas)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (UGC)",
+    title: "Prodotto in mano con unghie curate (beauty UGC, mani perfette)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (UGC)",
     summary:
-      "Enfoque en mano sosteniendo producto, uñas cuidadas y anatomía perfecta.",
-    prompt: `Genera una foto REALISTA UGC con enfoque en mano sosteniendo el producto.
+      "Focus sulla mano che regge il prodotto, unghie curate e anatomia perfetta.",
+    prompt: `Genera una foto REALISTICA UGC con focus sulla mano che tiene il prodotto.
 
-DATOS:
-- Mano: uñas cuidadas (natural o manicura simple), piel realista
-- Producto: [frasco/caja genérica], sin marca ni texto legible
-- Fondo: desenfocado (casa o exterior suave)
-- Opcional: rostro parcial desenfocado detrás para contexto
+DATI:
+- Mano: unghie curate (naturali o manicure semplice), pelle realistica
+- Prodotto: [flacone/scatola generica], senza marca né testo leggibile
+- Sfondo: sfocato (casa o esterno morbido)
+- Opzionale: viso parzialmente sfocato dietro per contesto
 
-ILUMINACIÓN:
-- Luz suave natural, reflejos ligeros en el producto
-- Foco en textura de piel y producto
+ILLUMINAZIONE:
+- Luce naturale morbida, riflessi leggeri sul prodotto
+- Fuoco sulla texture della pelle e del prodotto
 
-CÁMARA:
-- Macro suave o 50mm, f/2.8, ISO 200
-- Enfoque principalmente en la mano y el producto
+FOTOCAMERA:
+- Macro morbida o 50mm, f/2.8, ISO 200
+- Fuoco principalmente su mano e prodotto
 
-COMPOSICIÓN:
-- Producto centrado, mano sostiene de forma natural
+COMPOSIZIONE:
+- Prodotto centrato, mano che lo regge in modo naturale
 
-RESTRICCIONES CRÍTICAS:
-- 5 dedos, proporciones reales, sin deformaciones
-- Sin texto/logos/watermark`,
+RESTRIZIONI CRITICHE:
+- 5 dita, proporzioni reali, nessuna deformazione
+- Niente testo/loghi/watermark`,
     thumbnail: "/images/foto-pro/ugc5.webp",
   },
 
   // =========================
-  // CATEGORY: Unboxing / prueba (UGC)
+  // CATEGORY: Unboxing / prova (UGC)
   // =========================
   {
     id: "img-ugc-mano-006",
-    title: "Unboxing UGC en mesa (caja abierta, manos realistas)",
-    area: "Fotografía Pro",
-    category: "Unboxing / prueba (UGC)",
+    title: "Unboxing UGC su tavolo (scatola aperta, mani realistiche)",
+    area: "Fotografia Pro",
+    category: "Unboxing / prova (UGC)",
     summary:
-      "Foto estilo unboxing: caja abierta en mesa, manos abriendo, look real sin marcas.",
-    prompt: `Genera una foto REALISTA estilo UGC de unboxing sobre una mesa.
+      "Foto stile unboxing: scatola aperta sul tavolo, mani che aprono, look reale senza marchi.",
+    prompt: `Genera una foto REALISTICA in stile UGC di un unboxing su un tavolo.
 
-DATOS:
-- Escena: mesa limpia (madera clara o blanca)
-- Producto: caja genérica sin marca, abierta, contenido parcialmente visible (sin texto legible)
-- Manos: dos manos abriendo o sosteniendo la tapa, anatomía perfecta
-- Fondo: interior hogar, desenfocado
+DATI:
+- Scena: tavolo pulito (legno chiaro o bianco)
+- Prodotto: scatola generica senza marca, aperta, contenuto parzialmente visibile (senza testo leggibile)
+- Mani: due mani che aprono o tengono il coperchio, anatomia perfetta
+- Sfondo: interno casa, sfocato
 
-ILUMINACIÓN:
-- Luz natural de ventana, suave
-- Sombras ligeras y realistas
+ILLUMINAZIONE:
+- Luce naturale da finestra, morbida
+- Ombre leggere e realistiche
 
-CÁMERA:
+FOTOCAMERA:
 - 35mm o 50mm, f/2.8, ISO 250
-- Enfoque en caja y manos
+- Fuoco su scatola e mani
 
-COMPOSICIÓN:
-- Plano superior ligeramente inclinado (top-down suave)
-- Estética auténtica, no súper publicitaria
+COMPOSIZIONE:
+- Inquadratura dall’alto leggermente inclinata (top-down morbido)
+- Estetica autentica, non super pubblicitaria
 
-RESTRICCIONES:
-- Sin logos/texto legible
-- Manos correctas (5 dedos cada una), sin dedos extra`,
+RESTRIZIONI:
+- Niente loghi/testo leggibile
+- Mani corrette (5 dita ciascuna), niente dita extra`,
     thumbnail: "/images/foto-pro/ugc6.webp",
   },
   {
     id: "img-ugc-mano-007",
-    title: "Producto recién sacado de caja (primer plano, textura real)",
-    area: "Fotografía Pro",
-    category: "Unboxing / prueba (UGC)",
+    title: "Prodotto appena tolto dalla scatola (primo piano, texture reale)",
+    area: "Fotografia Pro",
+    category: "Unboxing / prova (UGC)",
     summary:
-      "Primer plano del producto sostenido tras unboxing, textura real y fondo hogar desenfocado.",
-    prompt: `Genera una foto REALISTA UGC mostrando el producto recién sacado de la caja.
+      "Primo piano del prodotto tenuto dopo un unboxing, texture reale e sfondo casa sfocato.",
+    prompt: `Genera una foto REALISTICA UGC mostrando il prodotto appena tolto dalla scatola.
 
-DATOS:
-- Producto: [gadget/frasco/caja], genérico sin marca
-- Caja: abierta en segundo plano (desenfocada), sin texto legible
-- Mano: sostiene el producto firmemente pero natural
-- Fondo: hogar minimal, desenfocado
+DATI:
+- Prodotto: [gadget/flacone/scatola], generico senza marca
+- Scatola: aperta sullo sfondo (sfocata), senza testo leggibile
+- Mano: tiene il prodotto in modo fermo ma naturale
+- Sfondo: casa minimal, sfocato
 
-ILUMINACIÓN:
-- Luz natural suave, colores reales
-- Reflejos controlados en el producto
+ILLUMINAZIONE:
+- Luce naturale morbida, colori reali
+- Riflessi controllati sul prodotto
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.2, ISO 200
-- Enfoque en el producto, mano nítida
+- Fuoco sul prodotto, mano nitida
 
-COMPOSICIÓN:
-- Producto centrado, caja atrás como contexto
+COMPOSIZIONE:
+- Prodotto centrato, scatola dietro come contesto
 
-RESTRICCIONES:
-- Sin logos/texto legible
-- Mano realista sin deformaciones`,
+RESTRIZIONI:
+- Niente loghi/testo leggibile
+- Mano realistica senza deformazioni`,
     thumbnail: "/images/foto-pro/ugc7.webp",
   },
   {
     id: "img-ugc-mano-008",
-    title: "Aplicando el producto (skincare: crema en mejilla, realista)",
-    area: "Fotografía Pro",
-    category: "Unboxing / prueba (UGC)",
+    title: "Applicando il prodotto (skincare: crema sulla guancia, realistico)",
+    area: "Fotografia Pro",
+    category: "Unboxing / prova (UGC)",
     summary:
-      "Foto UGC aplicando producto (crema/serum) con piel realista y gesto natural.",
-    prompt: `Genera una foto REALISTA UGC aplicando un producto de skincare.
+      "Foto UGC mentre si applica il prodotto (crema/siero) con pelle realistica e gesto naturale.",
+    prompt: `Genera una foto REALISTICA UGC mentre si applica un prodotto skincare.
 
-DATOS:
-- Persona: [persona], [edad], rostro limpio
-- Producto: crema/serum genérico en frasco sin marca
-- Acción: aplicando una pequeña cantidad en mejilla o mano (sin exceso)
-- Fondo: baño o habitación, desenfocado
+DATI:
+- Persona: [persona], [età], viso pulito
+- Prodotto: crema/siero generico in flacone senza marca
+- Azione: applicando una piccola quantità su guancia o mano (senza eccessi)
+- Sfondo: bagno o stanza, sfocato
 
-ILUMINACIÓN:
-- Luz suave natural o luz blanca suave de baño
-- Piel realista con textura natural
+ILLUMINAZIONE:
+- Luce naturale morbida o luce bianca morbida da bagno
+- Pelle realistica con texture naturale
 
-CÁMERA:
-- 50mm u 85mm, f/2.8, ISO 250
-- Enfoque en rostro y gesto de aplicación
+FOTOCAMERA:
+- 50mm o 85mm, f/2.8, ISO 250
+- Fuoco su viso e gesto di applicazione
 
-COMPOSICIÓN:
-- Primer plano o plano medio-corto
+COMPOSIZIONE:
+- Primo piano o piano medio-corto
 
-RESTRICCIONES CRÍTICAS:
-- Manos y dedos correctos
-- Sin texto/logos, sin piel plástica`,
+RESTRIZIONI CRITICHE:
+- Mani e dita corrette
+- Niente testo/loghi, niente pelle “di plastica”`,
     thumbnail: "/images/foto-pro/ugc8.webp",
   },
   {
     id: "img-ugc-mano-009",
-    title: "Probando producto frente al espejo (UGC realista, sin doble reflejo raro)",
-    area: "Fotografía Pro",
-    category: "Unboxing / prueba (UGC)",
+    title: "Provando il prodotto davanti allo specchio (UGC realistico, senza doppi riflessi strani)",
+    area: "Fotografia Pro",
+    category: "Unboxing / prova (UGC)",
     summary:
-      "Estilo UGC frente al espejo: producto visible, reflejo natural y ambiente real.",
-    prompt: `Genera una foto REALISTA UGC frente a un espejo probando un producto.
+      "Stile UGC davanti allo specchio: prodotto visibile, riflesso naturale e ambiente reale.",
+    prompt: `Genera una foto REALISTICA UGC davanti a uno specchio mentre si prova un prodotto.
 
-DATOS:
-- Persona: [persona], [edad]
-- Producto: genérico sin marca, sostenido cerca del espejo
-- Escena: baño limpio, espejo principal, reflejo realista
-- Acción: mostrando el producto o aplicándolo
+DATI:
+- Persona: [persona], [età]
+- Prodotto: generico senza marca, tenuto vicino allo specchio
+- Scena: bagno pulito, specchio principale, riflesso realistico
+- Azione: mostrando il prodotto o applicandolo
 
-ILUMINACIÓN:
-- Luz blanca suave, natural
-- Piel realista, sombras mínimas
+ILLUMINAZIONE:
+- Luce bianca morbida, naturale
+- Pelle realistica, ombre minime
 
-CÁMERA:
-- Simular smartphone, nitidez natural
-- Enfoque equilibrado en rostro y producto
+FOTOCAMERA:
+- Simulare smartphone, nitidezza naturale
+- Fuoco bilanciato su viso e prodotto
 
-COMPOSICIÓN:
-- Mirror shot creíble, sin reflejos imposibles
+COMPOSIZIONE:
+- Mirror shot credibile, senza riflessi impossibili
 
-RESTRICCIONES:
-- Evitar doble reflejo imposible o manos duplicadas
-- Sin logos/texto legible`,
+RESTRIZIONI:
+- Evitare doppi riflessi impossibili o mani duplicate
+- Niente loghi/testo leggibile`,
     thumbnail: "/images/foto-pro/ugc9.webp",
   },
   {
     id: "img-ugc-mano-010",
-    title: "Antes y después (2 paneles, UGC creíble, sin texto)",
-    area: "Fotografía Pro",
-    category: "Unboxing / prueba (UGC)",
+    title: "Prima e dopo (2 pannelli, UGC credibile, senza testo)",
+    area: "Fotografia Pro",
+    category: "Unboxing / prova (UGC)",
     summary:
-      "Composición tipo antes/después en dos paneles, creíble para UGC (sin texto en la imagen).",
-    prompt: `Genera una imagen REALISTA tipo antes vs después en 2 paneles (lado a lado), estilo UGC.
+      "Composizione tipo prima/dopo in due pannelli, credibile per UGC (senza testo nell’immagine).",
+    prompt: `Genera un’immagine REALISTICA tipo prima vs dopo in 2 pannelli (affiancati), stile UGC.
 
-DATOS:
-- Persona: [persona], [edad]
-- Panel IZQUIERDO (ANTES): expresión neutral, piel/escena “normal”
-- Panel DERECHO (DESPUÉS): expresión más feliz, mejora sutil y realista (no exagerada)
-- Producto: genérico sin marca, visible en el panel derecho en la mano
+DATI:
+- Persona: [persona], [età]
+- PANNELLO SINISTRO (PRIMA): espressione neutra, pelle/scena “normale”
+- PANNELLO DESTRO (DOPO): espressione più felice, miglioramento sottile e realistico (non esagerato)
+- Prodotto: generico senza marca, visibile nel pannello destro in mano
 
-ILUMINACIÓN:
-- Consistente en ambos paneles (misma luz)
-- Piel realista, sin filtros fuertes
+ILLUMINAZIONE:
+- Coerente in entrambi i pannelli (stessa luce)
+- Pelle realistica, senza filtri forti
 
-CÁMERA:
-- Estilo smartphone, nitidez natural
-- Fondo similar y desenfocado
+FOTOCAMERA:
+- Stile smartphone, nitidezza naturale
+- Sfondo simile e sfocato
 
-COMPOSICIÓN:
-- Dos paneles limpios, sin texto ni etiquetas en la imagen
+COMPOSIZIONE:
+- Due pannelli puliti, senza testo né etichette nell’immagine
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar cambios irreales o exagerados`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare cambiamenti irreali o esagerati`,
     thumbnail: "/images/foto-pro/ugc10.webp",
   },
 
   // =========================
-  // CATEGORY: Fondo limpio (ads UGC)
+  // CATEGORY: Sfondo pulito (ads UGC)
   // =========================
   {
     id: "img-ugc-mano-011",
-    title: "Producto en mano con fondo liso (UGC para anuncios, limpio)",
-    area: "Fotografía Pro",
-    category: "Fondo limpio (ads UGC)",
+    title: "Prodotto in mano con sfondo uniforme (UGC per annunci, pulito)",
+    area: "Fotografia Pro",
+    category: "Sfondo pulito (ads UGC)",
     summary:
-      "Foto UGC limpia para ads: persona + producto con fondo liso y luz suave.",
-    prompt: `Genera una foto REALISTA estilo UGC para anuncio, con fondo liso.
+      "Foto UGC pulita per ads: persona + prodotto con sfondo uniforme e luce morbida.",
+    prompt: `Genera una foto REALISTICA in stile UGC per annuncio, con sfondo uniforme.
 
-DATOS:
-- Persona: [persona], [edad], sonrisa leve
-- Producto: [describir], genérico sin marca
-- Fondo: liso (blanco/crema/gris claro), limpio
-- Pose: producto al frente, rostro visible
+DATI:
+- Persona: [persona], [età], sorriso leggero
+- Prodotto: [descrivi], generico senza marca
+- Sfondo: uniforme (bianco/crema/grigio chiaro), pulito
+- Posa: prodotto in avanti, viso visibile
 
-ILUMINACIÓN:
-- Luz suave uniforme (softbox o ventana)
-- Piel natural, sin retoque excesivo
+ILLUMINAZIONE:
+- Luce morbida uniforme (softbox o finestra)
+- Pelle naturale, senza ritocco eccessivo
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.8, ISO 100
-- Enfoque nítido en ojos y producto
+- Fuoco nitido su occhi e prodotto
 
-COMPOSICIÓN:
-- Plano medio-corto, espacio negativo para texto (pero NO incluir texto)
+COMPOSIZIONE:
+- Piano medio-corto, spazio negativo per testo (ma NON includere testo)
 
-RESTRICCIONES:
-- Sin texto/logos
-- Mano realista sin deformaciones`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Mano realistica senza deformazioni`,
     thumbnail: "/images/foto-pro/ugc11.webp",
   },
   {
     id: "img-ugc-mano-012",
-    title: "Producto en mano estilo 'review' (gesto señalando, manos correctas)",
-    area: "Fotografía Pro",
-    category: "Fondo limpio (ads UGC)",
+    title: "Prodotto in mano stile 'review' (gesto indicando, mani corrette)",
+    area: "Fotografia Pro",
+    category: "Sfondo pulito (ads UGC)",
     summary:
-      "Persona mostrando producto y señalándolo con la otra mano (ideal para ads), anatomía perfecta.",
-    prompt: `Genera una foto REALISTA UGC estilo review, con fondo limpio.
+      "Persona che mostra il prodotto e lo indica con l’altra mano (ideale per ads), anatomia perfetta.",
+    prompt: `Genera una foto REALISTICA UGC in stile review, con sfondo pulito.
 
-DATOS:
-- Persona: [persona], [edad], expresión entusiasta pero real
-- Producto: genérico sin marca, sostenido en una mano
-- Gesto: con la otra mano, señalar el producto (dedo índice) de forma natural
-- Fondo: liso (gris claro o crema)
+DATI:
+- Persona: [persona], [età], espressione entusiasta ma realistica
+- Prodotto: generico senza marca, tenuto in una mano
+- Gesto: con l’altra mano, indicare il prodotto (dito indice) in modo naturale
+- Sfondo: uniforme (grigio chiaro o crema)
 
-ILUMINACIÓN:
-- Suave y uniforme, sombras mínimas
+ILLUMINAZIONE:
+- Morbida e uniforme, ombre minime
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/3.2, ISO 100
-- Enfoque en rostro y producto
+- Fuoco su viso e prodotto
 
-COMPOSICIÓN:
-- Plano medio-corto, producto bien visible
+COMPOSIZIONE:
+- Piano medio-corto, prodotto ben visibile
 
-RESTRICCIONES CRÍTICAS:
-- Manos correctas (5 dedos), dedo señalando natural
-- Sin texto/logos/watermark`,
+RESTRIZIONI CRITICHE:
+- Mani corrette (5 dita), dito che indica naturale
+- Niente testo/loghi/watermark`,
     thumbnail: "/images/foto-pro/ugc12.webp",
   },
   {
     id: "img-ugc-mano-013",
-    title: "Producto en mano con expresión sorpresa (hook visual UGC)",
-    area: "Fotografía Pro",
-    category: "Fondo limpio (ads UGC)",
+    title: "Prodotto in mano con espressione sorpresa (hook visivo UGC)",
+    area: "Fotografia Pro",
+    category: "Sfondo pulito (ads UGC)",
     summary:
-      "UGC para anuncios con expresión de sorpresa (hook visual) y producto visible en mano.",
-    prompt: `Genera una foto REALISTA UGC para anuncios con expresión de sorpresa.
+      "UGC per annunci con espressione di sorpresa (hook visivo) e prodotto visibile in mano.",
+    prompt: `Genera una foto REALISTICA UGC per annunci con espressione di sorpresa.
 
-DATOS:
-- Persona: [persona], [edad], expresión sorprendido/a (sin caricatura)
-- Producto: [describir], genérico sin marca
-- Fondo: liso (blanco roto o gris claro)
-- Pose: producto cerca del rostro, mano natural
+DATI:
+- Persona: [persona], [età], espressione sorpresa (senza caricatura)
+- Prodotto: [descrivi], generico senza marca
+- Sfondo: uniforme (bianco sporco o grigio chiaro)
+- Posa: prodotto vicino al viso, mano naturale
 
-ILUMINACIÓN:
-- Luz suave frontal, piel realista
-- Contraste moderado, colores naturales
+ILLUMINAZIONE:
+- Luce morbida frontale, pelle realistica
+- Contrasto moderato, colori naturali
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.8, ISO 100
-- Enfoque en ojos y producto
+- Fuoco su occhi e prodotto
 
-COMPOSICIÓN:
-- Plano medio-corto, producto protagonista
+COMPOSIZIONE:
+- Piano medio-corto, prodotto protagonista
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar expresión exagerada tipo cartoon`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare espressione esagerata tipo cartoon`,
     thumbnail: "/images/foto-pro/ugc13.webp",
   },
   {
     id: "img-ugc-mano-014",
-    title: "Producto en mano con fondo pastel (branding cute, UGC realista)",
-    area: "Fotografía Pro",
-    category: "Fondo limpio (ads UGC)",
+    title: "Prodotto in mano con sfondo pastello (branding cute, UGC realistico)",
+    area: "Fotografia Pro",
+    category: "Sfondo pulito (ads UGC)",
     summary:
-      "UGC con fondo pastel para estética friendly y branding, manteniendo realismo.",
-    prompt: `Genera una foto REALISTA UGC con fondo pastel (branding).
+      "UGC con sfondo pastello per estetica friendly e branding, mantenendo il realismo.",
+    prompt: `Genera una foto REALISTICA UGC con sfondo pastello (branding).
 
-DATOS:
-- Persona: [persona], [edad], sonrisa natural
-- Producto: genérico sin marca
-- Fondo: pastel sólido (mint / azul cielo / lila suave)
-- Outfit: colores neutros, sin patrones fuertes
+DATI:
+- Persona: [persona], [età], sorriso naturale
+- Prodotto: generico senza marca
+- Sfondo: pastello uniforme (menta / azzurro cielo / lilla morbido)
+- Outfit: colori neutri, senza pattern forti
 
-ILUMINACIÓN:
-- Luz suave uniforme, sombras suaves
+ILLUMINAZIONE:
+- Luce morbida uniforme, ombre soffici
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/3.2, ISO 100
-- Enfoque en rostro y producto
+- Fuoco su viso e prodotto
 
-COMPOSICIÓN:
-- Plano medio-corto, espacio negativo lateral
+COMPOSIZIONE:
+- Piano medio-corto, spazio negativo laterale
 
-RESTRICCIONES:
-- Sin texto/logos
-- Mantener color pastel limpio y parejo`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Mantenere il colore pastello pulito e uniforme`,
     thumbnail: "/images/foto-pro/ugc14.webp",
   },
   {
     id: "img-ugc-mano-015",
-    title: "Producto en mano en ángulo 3/4 (look premium, fondo neutro)",
-    area: "Fotografía Pro",
-    category: "Fondo limpio (ads UGC)",
+    title: "Prodotto in mano con angolazione 3/4 (look premium, sfondo neutro)",
+    area: "Fotografia Pro",
+    category: "Sfondo pulito (ads UGC)",
     summary:
-      "Foto UGC más premium: sujeto en 3/4, producto visible, estética limpia y profesional.",
-    prompt: `Genera una foto REALISTA UGC premium con sujeto en ángulo 3/4.
+      "Foto UGC più premium: soggetto a 3/4, prodotto visibile, estetica pulita e professionale.",
+    prompt: `Genera una foto REALISTICA UGC premium con soggetto in angolo 3/4.
 
-DATOS:
-- Persona: [persona], [edad], expresión confiable
-- Producto: genérico sin marca, sostenido a la altura del pecho
-- Fondo: neutro liso (gris cálido o beige)
+DATI:
+- Persona: [persona], [età], espressione affidabile
+- Prodotto: generico senza marca, tenuto all’altezza del petto
+- Sfondo: neutro uniforme (grigio caldo o beige)
 - Outfit: smart casual minimal
 
-ILUMINACIÓN:
-- Softbox lateral suave + relleno ligero
-- Piel realista, detalle natural
+ILLUMINAZIONE:
+- Softbox laterale morbido + riempimento leggero
+- Pelle realistica, dettaglio naturale
 
-CÁMERA:
+FOTOCAMERA:
 - 85mm, f/2.8, ISO 100
-- Enfoque en ojos, producto claro
+- Fuoco sugli occhi, prodotto chiaro
 
-COMPOSICIÓN:
-- Plano medio-corto, pose elegante pero natural
+COMPOSIZIONE:
+- Piano medio-corto, posa elegante ma naturale
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar manos deformes`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare mani deformi`,
     thumbnail: "/images/foto-pro/ugc15.webp",
   },
 
   // =========================
-  // CATEGORY: Producto en mano (solo manos / close-up)
+  // CATEGORY: Prodotto in mano (solo mani / close-up)
   // =========================
   {
     id: "img-ugc-mano-016",
-    title: "Close-up solo manos sosteniendo producto (fondo suave, realista)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (solo manos / close-up)",
+    title: "Close-up solo mani che tengono il prodotto (sfondo morbido, realistico)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (solo mani / close-up)",
     summary:
-      "Close-up de manos sosteniendo producto, ideal para ads y catálogos sin mostrar rostro.",
-    prompt: `Genera una foto REALISTA close-up de manos sosteniendo un producto (sin rostro).
+      "Close-up di mani che tengono il prodotto, ideale per ads e cataloghi senza mostrare il volto.",
+    prompt: `Genera una foto REALISTICA close-up di mani che tengono un prodotto (senza volto).
 
-DATOS:
-- Manos: tono de piel [describir], uñas limpias, anatomía perfecta
-- Producto: [describir], genérico sin marca ni texto legible
-- Fondo: suave desenfocado (crema/gris), minimal
+DATI:
+- Mani: tono pelle [descrivere], unghie pulite, anatomia perfetta
+- Prodotto: [descrivi], generico senza marca né testo leggibile
+- Sfondo: morbido sfocato (crema/grigio), minimal
 
-ILUMINACIÓN:
-- Luz suave lateral para textura
-- Reflejos controlados en el producto
+ILLUMINAZIONE:
+- Luce laterale morbida per far emergere la texture
+- Riflessi controllati sul prodotto
 
-CÁMERA:
+FOTOCAMERA:
 - Macro o 85mm, f/3.5, ISO 200
-- Enfoque en manos y producto
+- Fuoco su mani e prodotto
 
-COMPOSICIÓN:
-- Producto centrado, manos simétricas o naturales
-- Estética limpia tipo anuncio
+COMPOSIZIONE:
+- Prodotto centrato, mani simmetriche o naturali
+- Estetica pulita tipo annuncio
 
-RESTRICCIONES CRÍTICAS:
-- 5 dedos por mano, proporciones reales
-- Sin texto/logos/watermark`,
+RESTRIZIONI CRITICHE:
+- 5 dita per mano, proporzioni reali
+- Niente testo/loghi/watermark`,
     thumbnail: "/images/foto-pro/ugc16.webp",
   },
   {
     id: "img-ugc-mano-017",
-    title: "Close-up producto en mano con fondo cocina (real, cotidiano)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (solo manos / close-up)",
+    title: "Close-up prodotto in mano con sfondo cucina (reale, quotidiano)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (solo mani / close-up)",
     summary:
-      "Producto en mano con fondo cotidiano (cocina) desenfocado, look auténtico.",
-    prompt: `Genera una foto REALISTA close-up de producto en mano con fondo cotidiano.
+      "Prodotto in mano con sfondo quotidiano (cucina) sfocato, look autentico.",
+    prompt: `Genera una foto REALISTICA close-up di prodotto in mano con sfondo quotidiano.
 
-DATOS:
-- Mano: anatomía perfecta, uñas naturales
-- Producto: [describir], genérico sin marca
-- Fondo: cocina desenfocada (madera/azulejos suaves), ambiente real
+DATI:
+- Mano: anatomia perfetta, unghie naturali
+- Prodotto: [descrivi], generico senza marca
+- Sfondo: cucina sfocata (legno/piastrelle morbide), ambiente reale
 
-ILUMINACIÓN:
-- Luz natural de ventana, suave
-- Colores reales, contraste moderado
+ILLUMINAZIONE:
+- Luce naturale da finestra, morbida
+- Colori reali, contrasto moderato
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.2, ISO 250
-- Enfoque en producto, fondo bokeh
+- Fuoco sul prodotto, bokeh sullo sfondo
 
-COMPOSICIÓN:
-- Producto ligeramente a un lado, mano visible completa
+COMPOSIZIONE:
+- Prodotto leggermente di lato, mano completamente visibile
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar dedos extra o producto deformado`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare dita extra o prodotto deformato`,
     thumbnail: "/images/foto-pro/ugc17.webp",
   },
   {
     id: "img-ugc-mano-018",
-    title: "Close-up producto en mano con luz dramática suave (premium UGC)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (solo manos / close-up)",
+    title: "Close-up prodotto in mano con luce drammatica morbida (UGC premium)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (solo mani / close-up)",
     summary:
-      "Versión UGC premium: close-up con luz más dramática pero suave, look de campaña.",
-    prompt: `Genera una foto REALISTA close-up premium de producto en mano.
+      "Versione UGC premium: close-up con luce più drammatica ma morbida, look da campagna.",
+    prompt: `Genera una foto REALISTICA close-up premium di prodotto in mano.
 
-DATOS:
-- Mano: piel realista, uñas limpias, sin deformaciones
-- Producto: [describir], genérico sin marcas
-- Fondo: oscuro suave o neutro (gris carbón), minimal
+DATI:
+- Mano: pelle realistica, unghie pulite, senza deformazioni
+- Prodotto: [descrivi], generico senza marchi
+- Sfondo: scuro morbido o neutro (grigio carbone), minimal
 
-ILUMINACIÓN:
-- Key light lateral suave + relleno mínimo
-- Sombra con detalle, reflejos controlados
+ILLUMINAZIONE:
+- Key light laterale morbida + riempimento minimo
+- Ombra con dettaglio, riflessi controllati
 
-CÁMERA:
+FOTOCAMERA:
 - 85mm, f/2.8, ISO 200
-- Enfoque nítido en producto y textura de piel
+- Fuoco nitido su prodotto e texture della pelle
 
-COMPOSICIÓN:
-- Encuadre cerrado, producto protagonista
+COMPOSIZIONE:
+- Inquadratura ravvicinata, prodotto protagonista
 
-RESTRICCIONES:
-- Sin texto/logos/watermark
-- 5 dedos, anatomía perfecta`,
+RESTRIZIONI:
+- Niente testo/loghi/watermark
+- 5 dita, anatomia perfetta`,
     thumbnail: "/images/foto-pro/ugc18.webp",
   },
   {
     id: "img-ugc-mano-019",
-    title: "Producto en mano con gesto 'aprobación' (pulgar arriba, realista)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (solo manos / close-up)",
+    title: "Prodotto in mano con gesto di 'approvazione' (pollice su, realistico)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (solo mani / close-up)",
     summary:
-      "Mano sosteniendo producto + pulgar arriba (o gesto OK) para mensaje visual de aprobación.",
-    prompt: `Genera una foto REALISTA de producto en mano con gesto de aprobación.
+      "Mano che tiene il prodotto + pollice su (o gesto OK) per messaggio visivo di approvazione.",
+    prompt: `Genera una foto REALISTICA di prodotto in mano con gesto di approvazione.
 
-DATOS:
-- Mano 1: sosteniendo un producto genérico sin marca
-- Mano 2 (opcional) o misma mano: gesto de pulgar arriba o gesto OK NATURAL
-- Fondo: interior desenfocado (hogar) o fondo liso neutro
+DATI:
+- Mano 1: tiene un prodotto generico senza marca
+- Mano 2 (opzionale) o stessa mano: gesto pollice su o gesto OK NATURALE
+- Sfondo: interno sfocato (casa) o sfondo uniforme neutro
 
-ILUMINACIÓN:
-- Luz suave natural, sombras suaves
+ILLUMINAZIONE:
+- Luce naturale morbida, ombre soffici
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.8, ISO 200
-- Enfoque en manos y producto
+- Fuoco su mani e prodotto
 
-COMPOSICIÓN:
-- Producto claramente visible, gesto de aprobación junto a él
+COMPOSIZIONE:
+- Prodotto chiaramente visibile, gesto di approvazione accanto
 
-RESTRICCIONES CRÍTICAS:
-- Anatomía perfecta (dedos correctos, articulaciones reales)
-- Sin texto/logos/watermark`,
+RESTRIZIONI CRITICHE:
+- Anatomia perfetta (dita corrette, articolazioni reali)
+- Niente testo/loghi/watermark`,
     thumbnail: "/images/foto-pro/ugc19.webp",
   },
   {
     id: "img-ugc-mano-020",
-    title: "Producto en mano con fondo de escritorio (setup creator, realista)",
-    area: "Fotografía Pro",
-    category: "Producto en mano (solo manos / close-up)",
+    title: "Prodotto in mano con sfondo scrivania (setup creator, realistico)",
+    area: "Fotografia Pro",
+    category: "Prodotto in mano (solo mani / close-up)",
     summary:
-      "Producto en mano con setup de escritorio (laptop/teclado desenfocados), estilo creator real.",
-    prompt: `Genera una foto REALISTA de producto en mano con fondo de escritorio (creator setup).
+      "Prodotto in mano con setup da scrivania (laptop/tastiera sfocati), stile creator reale.",
+    prompt: `Genera una foto REALISTICA di prodotto in mano con sfondo scrivania (setup creator).
 
-DATOS:
-- Mano: sosteniendo producto genérico sin marca
-- Fondo: escritorio con laptop/teclado/agenda DESENFOCADOS (sin logos, sin texto legible)
-- Estilo: productivity/creator, auténtico
+DATI:
+- Mano: tiene un prodotto generico senza marca
+- Sfondo: scrivania con laptop/tastiera/agenda SFUOCATI (senza loghi, senza testo leggibile)
+- Stile: produttività/creator, autentico
 
-ILUMINACIÓN:
-- Luz suave de ventana o lámpara cálida ligera
-- Colores naturales, sombras suaves
+ILLUMINAZIONE:
+- Luce morbida da finestra o lampada leggermente calda
+- Colori naturali, ombre morbide
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.2, ISO 320
-- Enfoque en producto, bokeh en fondo
+- Fuoco sul prodotto, bokeh sullo sfondo
 
-COMPOSICIÓN:
-- Producto centrado, escritorio aporta contexto
+COMPOSIZIONE:
+- Prodotto centrato, scrivania come contesto
 
-RESTRICCIONES:
-- Sin texto/logos
-- Mano realista (5 dedos), sin deformaciones`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Mano realistica (5 dita), senza deformazioni`,
     thumbnail: "/images/foto-pro/ugc20.webp",
   },
 ];

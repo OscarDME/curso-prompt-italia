@@ -1,1267 +1,1266 @@
 // src/lib/prompts/text/edu-quizzes.js
 
 export const textPromptsEduQuizzes = [
-  {
-    id: "edu-quiz-001",
-    title: "Quiz completo por niveles (básico→intermedio→avanzado) con soluciones y explicación",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Genera un quiz escalonado con respuestas correctas y explicación pedagógica de cada opción.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel del público: [secundaria/universidad/profesional]
-Objetivo: [diagnóstico/repaso/examen]
-Formato: [opción múltiple / verdadero-falso / mixto]
-Número de preguntas: 30
+{
+  id: "edu-quiz-001",
+  title: "Quiz di livello completo (basic → intermedio → avanzato) con soluzioni e spiegazione",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Genera un quiz passo con risposte corrette e spiegazione pedagogica di ogni opzione.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello pubblico: [secondario / universitario / professionale]
+Obiettivo: [diagnosi / recensione / recensione]
+Formato: [multiple / true / false / miste opzione]
+Numero di domande: 30
 
-Crea un quiz de 30 preguntas:
-- 10 básicas (comprensión)
-- 10 intermedias (aplicación)
-- 10 avanzadas (casos borde y razonamiento)
+Creare un quiz di 30 domande:
+- 10 base (in piedi)
+- 10 intermedi (attuazione)
+- 10 avanzato (caso di bordo e ragionamento)
 
-Para cada pregunta incluye:
-1) Enunciado claro
-2) 4 opciones (A, B, C, D)
-3) Respuesta correcta
-4) Explicación de por qué es correcta
-5) Explicación de por qué cada distractor es incorrecto (una línea por distractor)
-6) Habilidad evaluada (concepto específico)
-7) Nivel de dificultad (B/I/A)
+Per ogni domanda include:
+(1) Dichiarazione chiara
+2) 4 opzioni (A, B, C, D)
+3) Risposta corretta
+4) Spiegazione del perché è corretto
+5) Spiegazione del perché ogni distrattore è errato (una linea per distrattore)
+6) Capacità di valutazione (concetto specifico)
+7) Livello di difficoltà (B / I / A)
 
-Cierre:
-- Tabla de resultados (en texto) para interpretar puntaje:
-  - 0–10: ...
-  - 11–20: ...
-  - 21–30: ...
-- Lista de subtemas a reforzar según fallos típicos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-002",
-    title: "Quiz diagnóstico de prerrequisitos (detecta brechas antes de avanzar)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa prerequisitos del tema: identifica qué falta y sugiere ruta de refuerzo.",
-    prompt: `Tema objetivo: [ESCRIBE AQUÍ]
-Prerrequisitos esperados (si sabes): [LISTA] (si no, propón tú 10–15)
-Nivel: [intermedio/avanzado]
+Vicino:
+- Tabella dei risultati (in testo) per interpretare il punteggio:
+- 0-10:
+- 11-20:...
+- 21-30:...
+- Elenco dei sottotemi da rinforzare in base ai tipici guasti.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-002",
+  title: "Diagnosi quiz dei pre-requirements (rileva le lacune prima di andare avanti)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valutazione preventiva dell'argomento: identifica ciò che manca e suggerisce il percorso di rinforzo.",
+  prompt: `Tema obiettivo: [CREMA QUI]
+Prerequisiti (se lo sapete): [LIST] (se non vi proponete 10-15)
+Livello: [intermedio / avanzato]
 
-Crea un quiz diagnóstico de 20 preguntas:
-- 12 de conceptos prerrequisito
-- 8 de mini-aplicación (micro problemas)
+Crea una diagnosi di quiz di 20 domande:
+- 12 concetti pre-requisiti
+- 8 de minim- applicazione (micro problemi)
 
-Para cada pregunta:
-- Enunciado
-- 4 opciones
-- Respuesta correcta
-- Explicación breve
-- “Qué revela un error aquí” (qué brecha indica)
+Per ogni domanda:
+- Enunciato
+- 4 opzioni
+- Risposta corretta
+- Breve spiegazione
+- "Che errore rivela qui" (che differenza indica)
 
-Al final:
-- Diagnóstico por bandas (0–7, 8–14, 15–20) con recomendaciones.
-- Plan de refuerzo de 7 días según la brecha detectada.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-003",
-    title: "Quiz tipo examen con trampas (y guía para detectar la trampa)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena para examen difícil con preguntas trampa y señales para detectarlas rápido.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Número de preguntas: 20
+Alla fine:
+- Diagnosi della banda (0-7, 8-14, 15-20) con raccomandazioni.
+- Piano di rinforzo di 7 giorni secondo il gap identificato.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-003",
+  title: "Prova di tipo Quiz con trappole (e guida per rilevare la trappola)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Allenamento per l'esame difficile con domande intra e segnali per rilevarli rapidamente.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
+Numero di domande: 20
 
-Crea 20 preguntas estilo examen (opción múltiple):
-- 8 normales (comprensión/aplicación)
-- 8 difíciles (razonamiento)
-- 4 trampa (intuición falla)
+Crea 20 domande in stile esame (opzione multipla):
+- 8 normali (in piedi / applicazione)
+- 8 difficile (reasoning)
+- 4 trappola (l'intuizione fallisce)
 
-Para cada pregunta:
-- Enunciado
-- Opciones A–D (distractores realistas)
-- Respuesta correcta
-- Explicación completa (150–250 palabras si hace falta)
-- “Por qué esto engaña” (si es trampa)
-- Señal de detección en 10 segundos (heurística)
+Per ogni domanda:
+- Enunciato
+- Opzioni A-D (distratori realistici)
+- Risposta corretta
+- Spiegazione completa (150-250 parole se necessario)
+- "Perché sta barando" (se sta barando)
+- Segnale di rilevamento in 10 secondi (euristico)
 
-Cierre:
-- 10 reglas de oro para evitar trampas en este tema.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-004",
-    title: "Quiz mixto: opción múltiple + verdadero/falso + respuesta corta",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa profundidad real con formatos variados y criterios claros.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Vicino:
+- 10 regole d'oro per evitare trappole su questo argomento.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-004",
+  title: "Quiz misto: multipla + vera / falsa + risposta breve",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valuta la profondità reale con formati diversi e criteri chiari.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-Crea un quiz mixto de 25 ítems:
-- 12 opción múltiple (A–D)
-- 8 verdadero/falso (incluye explicación)
-- 5 respuesta corta (2–5 líneas de respuesta esperada)
+Creare un quiz misto di 25 articoli:
+- 12 opzione multipla (A-D)
+- 8 vero / falso (compresa la spiegazione)
+- 5 risposta breve (2-5 linee di risposta previste)
 
-Incluye para cada ítem:
-- Enunciado
-- Respuesta correcta
-- Explicación
-- Error típico
-- Puntaje sugerido (total 100 pts)
+Include per ogni articolo:
+- Enunciato
+- Risposta corretta
+- Spiegazione
+- Errore tipico
+- Punteggio consigliato (totale 100 m)
 
-Cierre:
-- Rúbrica para respuestas cortas (criterios + ejemplos).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-005",
-    title: "Quiz por subtemas (perfil de dominio): mapa de fortalezas y debilidades",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Crea un quiz agrupado por subtema con interpretación por áreas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Lista de subtemas (si tienes): [LISTA] (si no, propón 6–10)
-Nivel: [intermedio/avanzado]
+Vicino:
+- Intestazione per brevi risposte (criteria + esempi).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-005",
+  title: "Quiz per sottotemi (profilo principale): mappa di punti di forza e di debolezza",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Crea un quiz raggruppato da sub-item con interpretazione per area.",
+  prompt: `Oggetto: [CREAMS QUI]
+Elenco delle sotto-teme (se avete): [LIST] (se non, propon 6-10)
+Livello: [intermedio / avanzato]
 
-Crea un quiz de 30 preguntas:
-- 3–5 preguntas por subtema
-- Mezcla conceptual y aplicación
+Creare un quiz di 30 domande:
+- 3-5 domande per sub-item
+- Miscela concettuale e applicazione
 
-Para cada pregunta:
-- Enunciado
-- Opciones A–D
-- Respuesta correcta
-- Explicación
-- Subtema etiquetado
+Per ogni domanda:
+- Enunciato
+- Opzioni A-D
+- Risposta corretta
+- Spiegazione
+- Etichettatura sottotema
 
-Al final:
-- Plantilla de reporte:
-  - Subtema: aciertos/total + interpretación
-- Recomendación de estudio por subtema (qué practicar y cómo).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-006",
-    title: "Quiz de precisión conceptual: definiciones, supuestos, límites (nivel alto)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Ideal para nivel avanzado: distingue definiciones parecidas y supuestos ocultos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Número de preguntas: 20
+Alla fine:
+- Modello di report:
+- Sottotema: successo / totale + interpretazione
+- Raccomandazione di studio per sub-item (cosa praticare e come).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-006",
+  title: "Quiz di precisione concettuale: definizioni, assunzioni, limiti (alto livello)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Ideale per livello avanzato: distingue definizioni simili e ipotesi nascoste.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
+Numero di domande: 20
 
-Crea 20 preguntas centradas en:
-- definiciones exactas
-- supuestos necesarios
-- casos donde el concepto NO aplica
-- comparaciones A vs B
-
-Formato:
-- 15 opción múltiple
-- 5 verdadero/falso “con justificación”
-
-Incluye:
-- Respuesta correcta
-- Justificación breve pero rigurosa
-- “Cómo detectarlo rápido” (pista para examen)
-- Error común del alumno
-
-Cierre:
-- Mini-cheat sheet de definiciones clave.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-007",
-    title: "Quiz de aplicación (problemas cortos) con cálculo/razonamiento",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Quiz práctico: micro-problemas; ideal para entrenar velocidad con verificación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Formato: [numérico / lógico / programación / casos]
-Nivel: [intermedio/avanzado]
-Preguntas: 20
-
-Crea 20 micro-problemas:
-Para cada uno:
-- Enunciado
-- 4 opciones A–D (con resultados plausibles)
-- Respuesta correcta
-- Solución breve (pasos mínimos) + verificación/sanity check
-- Nivel (1–5)
-
-Cierre:
-- Estrategia de tiempo: cómo repartir minutos y cuándo saltar una pregunta.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-008",
-    title: "Quiz de contraejemplos: detectar cuándo una regla falla",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena pensamiento experto: identifica casos límite y contraejemplos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Reglas típicas del tema: [LISTA] (si no, propón 6–10)
-
-Crea 22 preguntas:
-- 12: “¿Aplica la regla aquí?” (sí/no) con opciones
-- 10: “elige el contraejemplo” (A–D)
-
-Para cada pregunta:
-- Enunciado
-- Opciones
-- Respuesta correcta
-- Explicación: cuál supuesto se viola y qué implicación tiene
-- ‘Regla corregida’ (cómo la diría un experto)
-
-Cierre:
-- Lista de 10 supuestos que debes revisar antes de aplicar reglas.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-009",
-    title: "Quiz de selección de método (elige enfoque correcto y justifica)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa si el alumno sabe elegir método, no solo ejecutar.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Métodos/enfoques disponibles: [A, B, C, D] (si no, proponlos)
-
-Crea 18 preguntas:
-Para cada una:
-- Caso (contexto + datos)
-- Pregunta: “¿Qué método usarías?”
-- Opciones A–D (métodos)
-- Respuesta correcta
-- Justificación: por qué ese método encaja (supuestos, trade-off)
-- “Segundo mejor” (cuál sería y por qué)
-- Error típico: elegir por costumbre
-
-Cierre:
-- Árbol de decisión textual (IF/THEN) para elegir método.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-010",
-    title: "Quiz de lectura crítica: detectar falacias, huecos y sesgos",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Ideal para teoría: analiza argumentos y detecta fallos lógicos o metodológicos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
-
-Crea 15 preguntas basadas en mini-textos:
-- Cada pregunta incluye un texto de 80–150 palabras (argumento/solución)
-- Pregunta: ¿Qué está mal / qué falta / qué supuesto oculto hay?
+Crea 20 domande incentrate su:
+- definizioni esatte
+- presupposti necessari
+- casi in cui il concetto NON si applica
+- confronti A contro B
 
 Formato:
-- 10 opción múltiple (tipo “diagnóstico”)
-- 5 respuesta corta (2–4 líneas)
+- 15 opzione multipla
+- 5 vero / falso "con giustificazione"
 
-Incluye:
-- Respuesta correcta
-- Explicación detallada
-- Versión corregida del argumento (cuando aplique)
-- Criterios para calificar respuestas cortas
+Include:
+- Risposta corretta
+- Breve ma rigorosa giustificazione
+- "Come rilevarlo velocemente" (test track)
+- Errore comune degli studenti
 
-Cierre:
-- Lista de 12 fallos típicos del tema (checklist).`,
-    thumbnail: "",
-  },
+Vicino:
+- Mini-cheat foglio di definizioni chiave.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-007",
+  title: "Applicazione quiz (problemi brevi) con calcolo / ragionamento",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Quiz pratico: micro-problemi; ideale per la velocità di allenamento con la verifica.",
+  prompt: `Oggetto: [CREAMS QUI]
+Formato: [numerico / logico / programmazione / casi]
+Livello: [intermedio / avanzato]
+Domande: 20
 
-  {
-    id: "edu-quiz-011",
-    title: "Quiz ‘flash’: 40 preguntas rápidas (con explicación mínima) para repaso",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Repaso ultrarrápido: muchas preguntas cortas para reforzar memoria activa.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [cualquiera]
+Crea 20 micro-problemi:
+Per ciascuno:
+- Enunciato
+- 4 opzioni A-D (con risultati plausibili)
+- Risposta corretta
+- Soluzione breve (passi minimi) + verifica / controllo sanitario
+- Livello (1-5)
 
-Crea un quiz flash de 40 preguntas:
-- 30 opción múltiple (A–D) de 1–2 líneas
-- 10 verdadero/falso
+Vicino:
+- Strategia temporale: come distribuire i minuti e quando saltare una domanda.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-008",
+  title: "Quiz di controesempi: rileva quando una regola fallisce",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Allena il pensiero esperto: identifica i casi limite e i controcampioni.",
+  prompt: `Oggetto: [CREAMS QUI]
+Regole tipiche dell'argomento: [LIST] (se non, propon 6-10)
 
-Para cada pregunta:
-- Respuesta correcta
-- Explicación mínima (1–2 líneas)
-- “Confusor típico” (qué opción engaña y por qué)
+Crea 22 domande:
+- 12: "Applica la regola qui?" (sì / no) con opzioni
+- 10: "scegliere il controcampione" (A-D)
 
-Cierre:
-- Plan de repaso espaciado (7 días) usando este quiz.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-012",
-    title: "Quiz con retroalimentación adaptativa (si fallas, te doy refuerzo)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Crea preguntas y también módulos de refuerzo según el tipo de error.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Per ogni domanda:
+- Enunciato
+- Opzioni
+- Risposta corretta
+- Spiegazione: che è violato e che cosa è coinvolto
+-'Regola incriminata '(come direbbe un esperto)
 
-Diseña un quiz de 20 preguntas A–D.
-Además, crea “ramas” de retroalimentación:
-- Para cada pregunta, define 3 tipos de error (según distractor elegido).
-- Para cada tipo de error:
-  - qué concepto faltó
-  - mini-explicación de refuerzo (80–150 palabras)
-  - 1 mini-ejercicio inmediato
-  - respuesta del mini-ejercicio
+Vicino:
+- Elenco di 10 assunzioni è necessario rivedere prima di applicare le regole.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-009",
+  title: "Metodo di selezione quiz (scelta approccio corretto e giustificare)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valuta se lo studente può scegliere il metodo, non solo eseguire.",
+  prompt: `Oggetto: [CREAMS QUI]
+Metodi / approcci disponibili: [A, B, C, D] (se non, proporre)
 
-Cierre:
-- Guía para usarlo como tutor 1:1 (cómo avanzar según errores).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-013",
-    title: "Quiz tipo certificación (100 puntos) con secciones y calibración",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa dominio: secciones, puntajes y criterios de aprobación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Duración objetivo: [60–90 min]
+Crea 18 domande:
+Per ciascuno:
+- Caso (contesto + dati)
+- Domanda: "Quale metodo useresti?"
+- Opzioni A-D (metodo)
+- Risposta corretta
+- Giustificazione: perché questo metodo si adatta (supposti, trade-off)
+- "Secondo meglio" (che sarebbe e perché)
+- Errore tipico: scegliere da personalizzato
 
-Crea un examen tipo certificación (total 100 puntos):
-- Sección A (conceptual): 12 preguntas (48 pts)
-- Sección B (aplicación): 8 preguntas (32 pts)
-- Sección C (casos borde/elección de método): 5 preguntas (20 pts)
+Vicino:
+- Albero di decisione del testo (IF / THEN) per scegliere il metodo.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-010",
+  title: "Quiz di lettura critica: rileva fallacies, gaps e bias",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Ideale per la teoria: analizza argomenti e rileva guasti logici o metodologici.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-Formato de cada pregunta:
-- A–D
-- Respuesta correcta
-- Explicación
-- Puntaje asignado
-- Error común
-
-Cierre:
-- Estándar de aprobación (ej. 70/100)
-- Diagnóstico por sección (qué reforzar según puntaje).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-014",
-    title: "Quiz de terminología avanzada (jerga → significado → uso correcto)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa comprensión de términos y su uso correcto en contexto.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [avanzado]
-
-Crea 25 preguntas:
-- 15: elige la definición correcta
-- 10: elige el uso correcto en una frase/caso
-
-Para cada pregunta:
-- Enunciado (incluye contexto)
-- Opciones A–D
-- Respuesta correcta
-- Explicación + ejemplo correcto + ejemplo incorrecto
-- Error típico
-
-Cierre:
-- Glosario compactado con los 25 términos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-015",
-    title: "Quiz de transformación de ideas: traduce entre representaciones (texto↔fórmula↔diagrama)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa si el alumno puede pasar de una representación a otra sin perder significado.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Representaciones posibles: [texto, fórmula, pseudocódigo, diagrama descrito]
-
-Crea 20 preguntas:
-- 8: de texto → fórmula/procedimiento
-- 6: de fórmula/procedimiento → interpretación en texto
-- 6: de diagrama descrito → predicción/resultado
-
-Incluye:
-- Respuesta correcta
-- Explicación
-- Error común (qué confusión representa)
-
-Cierre:
-- Checklist para traducir representaciones (10 pasos).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-quiz-016",
-    title: "Quiz de pensamiento probabilístico (incertidumbre, sesgos, decisiones)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena probabilística aplicada: escenarios y errores cognitivos.",
-    prompt: `Tema/decisión: [ESCRIBE AQUÍ]
-
-Crea 20 preguntas:
-- 10 de conceptos (sesgos, interpretaciones)
-- 10 de aplicación (escenarios con rangos)
+Crea 15 domande basate su testi mini-:
+- Ogni domanda include un testo di 80-150 parole (argomento / soluzione)
+- Domanda: Che cosa è sbagliato / che cosa manca / che cosa è nascosto?
 
 Formato:
-- A–D
-- respuesta correcta
-- explicación con sanity check
+- 10 opzione multipla (tipo "diagnosi")
+- 5 risposta breve (2-4 linee)
 
-Incluye:
-- 8 ‘preguntas trampa’ (falacia de tasa base, regresión a la media, etc.) y cómo detectarlas.
-Cierre:
-- Lista de 10 errores probabilísticos frecuentes + antídotos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-017",
-    title: "Quiz con mini-casos: 12 escenarios reales y preguntas integradoras",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Aprendizaje por casos: escenarios realistas con preguntas que integran conceptos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Industria/contexto: [educación/salud/negocio/ingeniería/etc.]
+Include:
+- Risposta corretta
+- Spiegazione dettagliata
+- Versione corretta dell'argomento (se applicabile)
+- Criteri per le risposte brevi qualificanti
 
-Crea 12 mini-casos (80–150 palabras cada uno).
-Para cada caso crea 2 preguntas (total 24):
-- 1 conceptual (supuestos, definición, límites)
-- 1 aplicada (decisión, cálculo, selección de método)
+Vicino:
+- Elenco di 12 errori tipici dell'argomento (checklist).`,
+  thumbnail: ""
+},
 
-Incluye:
-- Opciones A–D
-- Respuesta correcta
-- Explicación detallada
-- “Qué dato extra pedirías” para mejorar la decisión
+{
+  id: "edu-quiz-011",
+  title: "Quiz 'flash': 40 domande rapide (con spiegazione minima) per la recensione",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Recensione ultrapid: molte domande brevi per rafforzare la memoria attiva.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello:
 
-Cierre:
-- Recomendaciones de estudio según las fallas más comunes.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-018",
-    title: "Quiz estilo ‘oral’: pregunta + respuesta esperada + repregunta",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Simula examen oral: respuestas modelo y repreguntas para profundidad.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [avanzado]
+Creare un quiz flash di 40 domande:
+- 30 1-2 linea opzione multipla (A-D)
+- 10 vero / falso
 
-Crea 15 preguntas orales:
-Para cada una:
-- Pregunta principal (1 línea)
-- Estructura esperada de respuesta (6–10 bullets)
-- Respuesta modelo (120–250 palabras)
-- 2 repreguntas difíciles
-- 1 ejemplo + 1 caso límite
-- Rúbrica corta (claridad, rigor, ejemplos, límites)
+Per ogni domanda:
+- Risposta corretta
+- Spiegazione minima (1-2 linee)
+- "Confettore tropicale" (che opzione inganna e perché)
 
-Cierre:
-- Plantilla de respuesta oral en 4 pasos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-019",
-    title: "Quiz de ‘errores comunes’: identifica qué está mal en soluciones falsas",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Diagnóstico por fallos: detecta el paso incorrecto y el concepto que se rompió.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Vicino:
+- Ampio piano di revisione (7 giorni) utilizzando questo quiz.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-012",
+  title: "Quiz con feedback adattivo (se fallisci, ti do rinforzi)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Crea domande e anche moduli di rinforzo secondo il tipo di errore.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-Crea 12 preguntas diagnóstico:
-Para cada una:
-- Enunciado breve del problema
-- Una solución falsa (3–6 líneas)
-- Pregunta: “¿Dónde está el error?”
-- Opciones A–D (tipo de error/concepto)
-- Respuesta correcta
-- Explicación: qué falló y cómo corregirlo
-- Mini-regla para evitarlo
+Progetta un quiz di 20 domande A-D.
+Inoltre, creare feedback "branches":
+- Per ogni domanda, definisce 3 tipi di errore (secondo il distrattore scelto).
+- Per ogni tipo di errore:
+- che concetto mancava
+- minim- spiegazione di rinforzo (80-150 parole)
+- 1 esercizio mini-immediato
+- risposta del minim- esercizio
 
-Cierre:
-- Lista de 12 errores recurrentes en este tema (checklist).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-020",
-    title: "Quiz final + plan adaptativo: según tu puntaje, qué estudiar (ruta personalizada)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Quiz integrador con interpretación y plan de estudio según resultados por subtema.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
-Subtemas (si tienes): [LISTA] (si no, propón 8)
+Vicino:
+- Guida da usare come un 1: 1 tutor (come avanzare secondo errori).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-013",
+  title: "Tipo quiz certificazione (100 punti) con sezioni e calibrazione",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valuta il dominio: sezioni, punteggi e criteri di approvazione.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
+Durata obiettivo: [60-90 min]
 
-Crea un quiz de 32 preguntas:
-- 4 preguntas por subtema (mezcla conceptual/aplicación)
+Creare un test di certificazione (totale 100 punti):
+- Sezione A (concettuale): 12 domande (48 m)
+- Sezione B (attuazione): 8 domande (32 m)
+- Sezione C (casi transfrontalieri / scelta del metodo): 5 domande (20 m)
 
-Para cada pregunta:
-- A–D
-- respuesta correcta
-- explicación
-- etiqueta de subtema
+Formato di ogni domanda:
+- A-D
+- Risposta corretta
+- Spiegazione
+- punteggio assegnato
+- Errore comune
 
-Al final:
-- Plantilla para sumar puntajes por subtema
-- Diagnóstico por subtema (alto/medio/bajo)
-- Plan de estudio de 10 días personalizado:
-  - qué subtemas priorizar
-  - qué tipo de práctica hacer (drills/ejercicios/casos)
-  - mini-métricas de progreso por día`,
-    thumbnail: "",
-  },
+Vicino:
+- Approvazione standard (es. 70 / 100)
+- Diagnosi per sezione (da rafforzare per punteggio).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-014",
+  title: "Quiz di terminologia avanzata (jargon → significa → uso corretto)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valuta la comprensione dei termini e il loro corretto utilizzo nel contesto.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [avanzato]
 
-  {
-    id: "edu-quiz-021",
-    title: "Quiz ‘contraintuitivo’: 15 preguntas donde la intuición falla",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena intuición correcta con preguntas que rompen creencias típicas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
+Crea 25 domande:
+- 15: scegli la definizione corretta
+- 10: scegliere l'uso corretto in una frase / caso
 
-Genera 15 preguntas (A–D) contraintuitivas.
-Para cada una:
-- Enunciado
-- Opciones A–D (muy plausibles)
-- Respuesta correcta
-- Explicación: por qué tu intuición se equivoca
-- “Antídoto mental”: regla/heurística para no caer
-- Mini-ejemplo adicional
+Per ogni domanda:
+- Enunciato (include contesto)
+- Opzioni A-D
+- Risposta corretta
+- Spiegazione + esempio corretto + esempio sbagliato
+- Errore tipico
 
-Cierre:
-- Lista de 10 intuiciones falsas típicas del tema y su versión correcta.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-022",
-    title: "Quiz de ‘completar el paso’: elige el siguiente paso correcto",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena procedimiento: saber qué hacer después y por qué.",
-    prompt: `Tema/procedimiento: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Vicino:
+- Glossario compatto con i 25 termini.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-015",
+  title: "Idea quiz di trasformazione: si traduce tra rappresentazioni (testo ↔ formula ↔ diagramma)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valuta se lo studente può passare da una rappresentazione all'altra senza perdere significato.",
+  prompt: `Oggetto: [CREAMS QUI]
+Possibili rappresentazioni: [testo, formula, pseudo-codice, diagramma descritto]
 
-Crea 20 preguntas:
-En cada pregunta:
-- Muestra estado actual o pasos 1–2 (en texto)
-- Pregunta: “¿Cuál es el siguiente paso correcto?”
-- Opciones A–D
-- Respuesta correcta
-- Explicación del porqué ese paso (y por qué los otros no)
-- Error típico
+Crea 20 domande:
+- 8: testo → formula / procedura
+- 6: formula / procedura → interpretazione del testo
+- 6: di diagramma descritto → previsione / risultato
 
-Cierre:
-- Checklist de procedimiento (pasos generales) resumido.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-023",
-    title: "Quiz de ‘rango y estimación’: primero estima, luego selecciona respuesta",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena sanity checks: estimación y selección de respuesta plausible.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Include:
+- Risposta corretta
+- Spiegazione
+- Errore comune (che confusione rappresenta)
 
-Crea 18 preguntas:
-- Cada enunciado pide estimar un rango razonable
-- Opciones A–D son rangos/resultados
+Vicino:
+- Lista di controllo per tradurre rappresentazioni (10 passi).`,
+  thumbnail: ""
+},
 
-Incluye:
-- Respuesta correcta
-- Estimación razonable (pasos)
-- Cálculo breve (si aplica)
-- Verificación
-- Error típico (por qué se elige un rango absurdo)
+{
+  id: "edu-quiz-016",
+  title: "Quiz di pensiero probabilistico (incertezza, pregiudizi, decisioni)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Formazione probabilistica applicata: scenari e errori cognitivi.",
+  prompt: `Oggetto / decisione: [GRIDA QUI]
 
-Cierre:
-- 10 heurísticas de estimación rápida.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-024",
-    title: "Quiz para docentes: crea preguntas y distractores perfectos",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Genera preguntas con distractores basados en errores reales y explica su diseño.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel del alumnado: [ESCRIBE AQUÍ]
-
-Genera 20 preguntas A–D.
-Para cada pregunta:
-- Respuesta correcta (key)
-- 3 distractores diseñados:
-  - distractor 1 = error de concepto típico
-  - distractor 2 = confusión de términos
-  - distractor 3 = error de procedimiento
-- Explica el razonamiento de diseño de cada distractor (“qué error captura”)
-- Explicación pedagógica de la respuesta correcta
-- Dificultad (1–5)
-
-Cierre:
-- Guía para calibrar dificultad de un ítem (8 reglas).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-025",
-    title: "Quiz de ‘reconocimiento vs recuerdo’: mezcla MCQ con respuesta libre",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evita ilusión por reconocimiento: combina opción múltiple con respuesta libre.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
-
-Crea 24 ítems:
-- 12 opción múltiple (A–D)
-- 12 respuesta libre (2–6 líneas)
-
-Incluye:
-- Respuestas correctas
-- Guía de corrección para libre (rúbrica)
-- Señales de falla comunes (qué revela un error)
-- Recomendación: cómo repetir el quiz para máxima retención
-
-Cierre:
-- Plan de repaso espaciado de 14 días con este quiz.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-quiz-026",
-    title: "Quiz de ‘mapa conceptual’: completa conexiones y jerarquías",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa estructura mental del tema: relaciones, dependencias, jerarquía.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Subtemas (si no das, propón 10–15)
-
-Crea un “quiz de mapa conceptual” con 20 ítems:
-- 10 ítems: “elige la relación correcta” (A–D)
-- 10 ítems: “ordena jerarquía” (da 4 opciones de orden)
-
-Incluye:
-- Respuesta correcta
-- Explicación breve (por qué)
-- Error común (confusión típica)
-
-Cierre:
-- Mapa conceptual modelo (en bullets indentados).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-027",
-    title: "Quiz de casos borde: ¿cuándo NO aplica? (supuestos y límites)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena límites: identificar escenarios donde el método o concepto falla.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-
-Genera 20 preguntas A–D:
-- Cada pregunta describe un escenario
-- Pregunta: “¿Aplica aquí? / ¿Qué supuesto se viola? / ¿Cuál es el fallo?”
-
-Incluye:
-- Respuesta correcta
-- Explicación detallada
-- Supuesto violado (etiquetado)
-- “Cómo salvarlo” (alternativa/método correcto)
-
-Cierre:
-- Checklist de supuestos antes de aplicar el tema (12).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-028",
-    title: "Quiz de ‘interpretación’: traduce resultados a conclusiones correctas",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa interpretación: evitar conclusiones exageradas y leer resultados con límites.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-
-Crea 18 preguntas:
-- enunciado incluye un ‘resultado’ (dato, salida, afirmación, métrica)
-- pregunta: “¿qué conclusión está justificada?”
+Crea 20 domande:
+- 10 concetti (bia, interpretazione)
+- 10 di applicazione (scenari di serie)
 
 Formato:
-- A–D (3 conclusiones incorrectas por exceso, causalidad indebida, o generalización)
-- respuesta correcta + explicación
-- error típico + antídoto (regla)
+- A-D
+- risposta corretta
+- spiegazione con controllo sanitario
 
-Cierre:
-- 10 reglas para interpretar resultados sin sobreafirmar.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-029",
-    title: "Quiz de ‘mini-historias’: aplica conceptos dentro de una narrativa",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Aprende por historias: cada pregunta viene con micro-caso narrativo.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Include:
+- 8 "interrogazioni di viaggio" (fallacy del tasso di base, regressione alla media, ecc.) e come rilevarle.
+Vicino:
+- Lista di 10 errori probabilistici frequenti + antidoti.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-017",
+  title: "Quiz con mini-case: 12 scenari reali e domande inclusive",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Case learning: scenari realistici con domande che integrano concetti.",
+  prompt: `Oggetto: [CREAMS QUI]
+Industria / contesto: [educazione / salute / business / ingegneria / ecc]
 
-Genera 15 preguntas.
-Cada una contiene:
-- micro-historia (60–120 palabras)
-- pregunta conceptual o aplicada
-- respuestas A–D
-- respuesta correcta
-- explicación detallada
-- “dato faltante” que sería útil (1 línea)
+Crea 12 mini-case (80-150 parole ciascuna).
+Per ogni caso creare 2 domande (totale 24):
+- 1 concettuale (assunzioni, definizione, limiti)
+- 1 applicato (decisione, calcolo, selezione dei metodi)
 
-Cierre:
-- Lista de 8 patrones narrativos para inventar más casos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-030",
-    title: "Quiz ultra-avanzado (estilo máster): 25 preguntas duras con razonamiento",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Para nivel alto: preguntas duras, distractores expertos y explicaciones profundas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [máster/experto]
-Preguntas: 25
+Include:
+- Opzioni A-D
+- Risposta corretta
+- Spiegazione dettagliata
+- "Quali dati aggiuntivi chiederesti" per migliorare la decisione
 
-Genera 25 preguntas A–D con estas reglas:
-- Cada distractor debe ser plausible para un alumno bueno
-- Debe evaluarse razonamiento, no memoria superficial
-- Incluye 5 preguntas con casos borde
-- Incluye 5 preguntas de comparación A vs B
+Vicino:
+- Studiare raccomandazioni secondo i fallimenti più comuni.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-018",
+  title: "Quiz style 'oral': domanda + risposta prevista + richiesta",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Simula l'esame orale: risposte modello e domande di profondità.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [avanzato]
 
-Para cada pregunta:
-- Respuesta correcta
-- Explicación profunda (120–250 palabras)
-- Por qué cada distractor es incorrecto
-- Dificultad (1–5)
-- “Idea clave” (1 línea) para recordarla
+Crea 15 domande orali:
+Per ciascuno:
+- Domanda principale (1 linea)
+- Struttura di risposta prevista (6-10 proiettili)
+- Risposta modello (120-250 parole)
+- 2 domande difficili
+- 1 esempio + 1 caso limite
+- Breve voce (larità, rigore, esempi, limiti)
 
-Cierre:
-- Diagnóstico: cómo interpretar errores (por tipo) y qué estudiar después.`,
-    thumbnail: "",
-  },
+Vicino:
+- Modello di risposta orale in 4 passaggi.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-019",
+  title: "Quiz di 'errore comune': identifica ciò che è sbagliato in soluzioni false",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Diagnosi difettosa: rileva il passo sbagliato e il concetto che è stato rotto.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-  {
-    id: "edu-quiz-031",
-    title: "Quiz para crear (metapreguntas): el alumno diseña preguntas y respuestas",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Aprendizaje superior: crear preguntas, distractores y explicaciones.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Crea 12 domande diagnostiche:
+Per ciascuno:
+- Breve sessione del problema
+- Una soluzione falsa (3-6 linee)
+- Domanda: "Dov'è l'errore?"
+- Opzioni A-D (tipo di errore / concetto)
+- Risposta corretta
+- Spiegazione: cosa ha fallito e come correggerlo
+- Mini-rule per evitarlo
 
-Crea un “quiz generativo” con 12 tareas:
-Para cada tarea:
-- Propón un subtema
-- Pide al alumno crear:
-  - 1 pregunta A–D
-  - 1 respuesta correcta
-  - 3 distractores basados en errores típicos
-  - explicación de por qué cada distractor está mal
-- Incluye un ejemplo modelo completo (solo en 4 de las 12 tareas)
+Vicino:
+- Elenco di 12 errori ricorrenti in questo argomento (checklist).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-020",
+  title: "Quiz finale + piano adattativo: secondo il tuo punteggio, cosa studiare (percorso personalizzato)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Integratore quiz con interpretazione e curriculum secondo i risultati di sub-item.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
+Subtemi (se avete): [LIST] (se non, propon 8)
 
-Cierre:
-- Rúbrica para evaluar la calidad de preguntas (10 criterios).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-032",
-    title: "Quiz ‘doble capa’: pregunta + pregunta de seguimiento (profundiza)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Cada ítem tiene follow-up que exige explicar el porqué, evitando suerte.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Creare un quiz di 32 domande:
+- 4 domande per sub-item (conceptual mix / applicazione)
 
-Crea 15 ítems de doble capa:
-- Parte 1: MCQ A–D
-- Parte 2: follow-up (respuesta corta 2–4 líneas) justificando la elección
+Per ogni domanda:
+- A-D
+- risposta corretta
+- spiegazione
+- etichetta sub-item
 
-Incluye:
-- Respuesta correcta (parte 1)
-- Respuesta modelo (parte 2)
-- Rúbrica para parte 2 (criterios)
-- Error común y cómo detectarlo
+Alla fine:
+- Template per l'aggiunta di punteggi per sub-item
+- Diagnosi per sub-item (alto / medio / basso)
+- Personalizzato curriculum di 10 giorni:
+- quali sottotemi priorità
+- che tipo di pratica fare (drills / esercizi / casi)
+- mini metriche di progresso al giorno`,
+  thumbnail: ""
+},
 
-Cierre:
-- Cómo calificar rápido este formato (guía).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-033",
-    title: "Quiz con ‘distractores por error’: cada opción representa un fallo distinto",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Diseño pedagógico: cada distractor corresponde a un error diagnosticable.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+{
+  id: "edu-quiz-021",
+  title: "Quiz 'counterintuitive': 15 domande in cui l'intuizione fallisce",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Allena l'intuizione giusta con domande che rompono le credenze tipiche.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
 
-Crea 20 preguntas A–D donde:
-- La opción correcta es conceptualmente precisa
-- Cada distractor corresponde a un tipo de error:
-  B = confusión de término
-  C = supuesto oculto falso
-  D = error de procedimiento/intuición
+Genera 15 domande controintuitive (A-D).
+Per ciascuno:
+- Enunciato
+- Opzioni A-D (molto plausibile)
+- Risposta corretta
+- Spiegazione: perché la tua intuizione è sbagliata
+- "Mental antidoto": regola / euristica non cadere
+- Mini-esempio aggiuntivo
 
-Para cada pregunta:
-- Explica qué error representa cada distractor
-- Da micro-refuerzo específico para cada error (2–4 líneas)
+Vicino:
+- Elenco di 10 intuizioni tipiche false del tema e della sua versione corretta.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-022",
+  title: "Quiz de 'complete the step': scegliere il prossimo passo a destra",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Procedura di formazione: sapere cosa fare dopo e perché.",
+  prompt: `Oggetto / procedura: [GRIDA QUI]
+Livello: [intermedio / avanzato]
 
-Cierre:
-- Guía para usar el quiz como tutor (si eliges B/C/D, qué estudiar).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-034",
-    title: "Quiz de velocidad (20 min): estrategia de tiempo + verificación rápida",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Diseñado para entrenar tiempo: preguntas más cortas, con checks rápidos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio]
-Duración: 20 minutos
-Preguntas: 20
+Crea 20 domande:
+In ogni domanda:
+- Mostra lo stato attuale o passi 1-2 (nel testo)
+- Domanda: "Qual è il prossimo passo destro?"
+- Opzioni A-D
+- Risposta corretta
+- Spiegazione del perché quel passo (e perché gli altri non lo fanno)
+- Errore tipico
 
-Crea 20 preguntas A–D:
-- enunciados cortos
-- distractores plausibles
+Vicino:
+- Elenco di controllo della procedura sommaria (passi generali).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-023",
+  title: "Quiz of 'range and prevent': prime stime, poi seleziona risposta",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Controllo della salute della formazione: stima e selezione della risposta plausibile.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Incluye:
-- Respuesta correcta
-- Explicación breve (1–3 líneas)
-- Verificación/sanity check (1 línea)
-- Tiempo recomendado por pregunta (en segundos)
+Crea 18 domande:
+- Ogni dichiarazione richiede un range ragionevole
+- Le opzioni A-D sono range / risultati
 
-Cierre:
-- Estrategia de ritmo (cuándo saltar, cuándo volver).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-035",
-    title: "Quiz para repaso espaciado: 5 mini-quizzes (día 1,3,7,14,30)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Paquete para retención: mini-quizzes que se repiten con dificultad creciente.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [cualquiera]
+Include:
+- Risposta corretta
+- Stime ragionevoli (passi)
+- Calcolo corto (se applicabile)
+- Verifica
+- Errore tipico (perché si sceglie una gamma assurda)
 
-Crea 5 mini-quizzes (10 preguntas cada uno):
-- Día 1: fundamentos
-- Día 3: aplicación
-- Día 7: mezcla e intercalado
-- Día 14: casos borde
-- Día 30: examen integrador
+Vicino:
+- 10 veloce stima euristica.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-024",
+  title: "Quiz per gli insegnanti: creare domande perfette e distrattori",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Genera domande con distrattori basati su errori reali e spiega il suo design.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello degli studenti: [GRIDA QUI]
 
-Para cada mini-quiz:
-- Preguntas A–D
-- Respuestas correctas
-- Explicaciones
-- Subtemas cubiertos
+Genera 20 domande A-D.
+Per ogni domanda:
+- Risposta corretta (chiave)
+- 3 distratori progettati:
+- distrattore 1 = errore tipico concetto
+- distrattore 2 = confusione dei termini
+- distrattore 3 = errore procedurale
+- Spiega il ragionamento progettuale di ogni distrattore ("che errore cattura")
+- Spiegazione educativa della risposta corretta
+- Difficoltà (1-5)
 
-Cierre:
-- Guía de uso (cómo evaluar progreso y qué reforzar).`,
-    thumbnail: "",
-  },
+Vicino:
+- Guida alla calibrazione della difficoltà di un articolo (8 regole).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-025",
+  title: "\"Recognition\" quiz vs memoria: miscela MCQ con risposta gratuita",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Evitare l'illusione dal riconoscimento: combina l'opzione multipla con la risposta gratuita.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-  {
-    id: "edu-quiz-036",
-    title: "Quiz de ‘corrige la afirmación’: selecciona la versión precisa",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena precisión: reescribe afirmaciones incorrectas y detecta matices.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Creare 24 articoli:
+- 12 opzione multipla (A-D)
+- 12 risposta gratuita (2-6 linee)
 
-Genera 20 ítems:
-- Cada ítem da una afirmación problemática (exagerada, ambigua o falsa)
-- Pregunta: “¿Cuál es la versión correcta?”
-- Opciones A–D son reescrituras (solo una es precisa)
+Include:
+- Risposta corretta
+- Guida di correzione gratuita (intestazione)
+- Segni di errore comuni (che rivela un errore)
+- Raccomandazione: Come ripetere il quiz per la massima ritenzione
 
-Incluye:
-- Respuesta correcta
-- Explicación de matiz (qué cambió y por qué)
-- Error típico que produce la afirmación original
+Vicino:
+- Ampio piano di revisione di 14 giorni con questo quiz.`,
+  thumbnail: ""
+},
 
-Cierre:
-- Lista de 10 palabras peligrosas (siempre/nunca/garantiza...) y cómo usarlas bien.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-037",
-    title: "Quiz ‘elige el supuesto’: identifica qué debe ser verdad para que aplique",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena lectura de supuestos: qué condición es necesaria para usar una regla.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
+{
+  id: "edu-quiz-026",
+  title: "Quiz di ' mappa concettuale': connessioni complete e gerarchie",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valuta la struttura mentale del tema: relazioni, dipendenze, gerarchia.",
+  prompt: `Oggetto: [CREAMS QUI]
+Sottotemi (se non forniti, propon­ti 10-15)
 
-Crea 18 preguntas:
-- Enunciado describe un método/teorema/regla
-- Pregunta: “¿Qué supuesto es necesario?”
+Creare un "conceptual map quiz" con 20 articoli:
+- 10 articoli: "scegliere il giusto rapporto" (A-D)
+- 10 elementi: "ordine gerarchia" (da 4 opzioni di ordine)
 
-Opciones A–D:
-- 1 supuesto correcto
-- 3 supuestos plausibles pero incorrectos/insuficientes
+Include:
+- Risposta corretta
+- Breve spiegazione (perché)
+- Errore comune (scontro fisico)
 
-Incluye:
-- Respuesta correcta
-- Explicación
-- Qué pasa si ese supuesto falla (mini-caso)
-- Alternativa si falla
+Vicino:
+- Carta concettuale modello (in proiettili indecenti).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-027",
+  title: "Limite caso quiz: quando NON si applica? (presupposti e limiti)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Si forma limiti: identificare scenari in cui il metodo o il concetto fallisce.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
 
-Cierre:
-- Checklist de supuestos para el tema.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-038",
-    title: "Quiz con mini-ejercicios numéricos: cálculo + interpretación",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa cálculo y también interpretación del resultado en contexto.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio]
-Preguntas: 16
+Genera 20 domande A-D:
+- Ogni domanda descrive uno scenario
+- Domanda: "Si applica qui? / Che cosa dovrebbe essere violato? / Qual è il fallimento?"
 
-Para cada pregunta:
-- enunciado con números/datos
-- pide calcular algo
-- y luego interpretar qué significa
+Include:
+- Risposta corretta
+- Spiegazione dettagliata
+- Violazione presunta (labelling)
+- "Come salvarlo" (metodo alternativo / corretto)
+
+Vicino:
+- Elenco dei presupposti prima di applicare l'argomento (12).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-028",
+  title: "Quiz di 'interpretazione': traduce i risultati in conclusioni corrette",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valuta l'interpretazione: evitare conclusioni esagerate e leggere i risultati con limiti.",
+  prompt: `Oggetto: [CREAMS QUI]
+
+Crea 18 domande:
+- enunciato include un "risultato" (dati, output, affermazione, metrica)
+- domanda: "Quale conclusione è giustificata?"
 
 Formato:
-- A–D (resultados + interpretaciones como distractores)
-- respuesta correcta
-- solución breve + interpretación correcta
-- sanity check
+- A-D (3 conclusioni errate per eccesso, causalità indebita, o generalizzazione)
+- risposta corretta + spiegazione
+- errore tipico + antidoto (rule)
 
-Cierre:
-- 8 errores numéricos típicos (unidades, signos, escalas).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-039",
-    title: "Quiz de ‘combinación de conceptos’: integra 2–3 ideas por pregunta",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Preguntas integradoras para medir comprensión real (no memorística).",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
+Vicino:
+- 10 regole per interpretare i risultati senza esagerare.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-029",
+  title: "Quiz de 'mini-histories': applica concetti all'interno di una narrazione",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Impara dalle storie: ogni domanda viene fornita con micro-caso narrativo.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-Crea 20 preguntas A–D donde cada pregunta requiera combinar 2–3 conceptos.
-Para cada pregunta:
-- Respuesta correcta
-- Explicación detallada (por qué combina, qué pasos)
-- Por qué cada distractor falla (1 línea c/u)
-- Dificultad (1–5)
-- Habilidades evaluadas
+Genera 15 domande.
+Ciascuna contiene:
+- micro-storia (60-120 parole)
+- domanda concettuale o applicata
+- A-D risposte
+- risposta corretta
+- spiegazione dettagliata
+- "dati mancanti" che sarebbero utili (1 linea)
 
-Cierre:
-- Lista de combinaciones de conceptos más importantes (10).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-040",
-    title: "Quiz final ‘todo en uno’: con reporte y recomendaciones personalizadas",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Quiz integrador con reporte por subtema y ruta concreta de estudio posterior.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
-Subtemas: [LISTA] (si no, propón 10)
+Vicino:
+- Lista di 8 schemi narrativi per inventare più casi.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-030",
+  title: "Quiz ultra avanzato (stile master): 25 domande difficili con ragionamento",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Alto livello: domande dure, distrattori esperti e spiegazioni profonde.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [master / esperto]
+Domande: 25
 
-Crea un quiz de 40 preguntas:
-- 4 por subtema (mezcla conceptual/aplicación/casos borde)
+Genera 25 domande A-D con queste regole:
+- Ogni distrattore deve essere plausibile per un buon studente
+- Le ragioni, non la memoria superficiale, devono essere valutate
+- Include 5 domande con casi di confine
+- Include 5 domande di confronto A vs B
 
-Para cada pregunta:
-- A–D
-- respuesta correcta
-- explicación
-- etiqueta subtema
-- “error típico” (1 línea)
+Per ogni domanda:
+- Risposta corretta
+- Spiegazione profonda (120-250 parole)
+- No. Perché ogni distrattore è sbagliato
+- Difficoltà (1-5)
+- "Key idea" (1 linea) per ricordarlo
 
-Al final:
-- Plantilla de reporte por subtema:
-  - puntaje, diagnóstico, recomendación
-- Ruta de estudio de 14 días:
-  - qué subtemas priorizar
-  - qué tipo de práctica (quizzes/ejercicios/casos)
-  - métricas diarias de avance`,
-    thumbnail: "",
-  },
+Vicino:
+- Diagnosi: come interpretare gli errori (per tipo) e cosa studiare in seguito.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-quiz-041",
-    title: "Quiz para clase: formas de discusión + preguntas de sondeo",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Pensado para docentes: preguntas que disparan discusión con respuestas esperadas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ESCRIBE AQUÍ]
+{
+  id: "edu-quiz-031",
+  title: "Quiz per creare (meta-questions): lo studente progetta domande e risposte",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Apprendimento più alto: creare domande, distrazioni e spiegazioni.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Crea 20 preguntas para discusión en clase:
-- 12 tipo MCQ A–D (voto rápido)
-- 8 abiertas (preguntas de sondeo)
+Crea un quiz generativo con 12 compiti:
+Per ogni compito:
+- Soppresso proposto
+- Chiedi allo studente di creare:
+- 1 domanda A-D
+- 1 risposta corretta
+- 3 distrattori basati su errori tipici
+- spiegazione del perché ogni distrattore è sbagliato
+- Include un esempio di modello completo (solo in 4 delle 12 attività)
 
-Incluye:
-- Respuesta correcta/esperada
-- Explicación pedagógica
-- Pregunta de seguimiento para profundizar
-- Error común que aparecerá en clase y cómo corregirlo
+Vicino:
+- Direzione per la valutazione della qualità delle domande (10 criteri).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-032",
+  title: "Quiz 'doppio strato': domanda + domanda di follow-up (deepens)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Ogni articolo ha followup che richiede spiegare perché, evitando fortuna.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-Cierre:
-- Guion de 15 minutos para usar estas preguntas en clase.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-042",
-    title: "Quiz estilo ‘peer instruction’: pregunta conceptual + discusión + revoto",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Formato Mazur: pregunta conceptual con distractores que generan debate.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Creare 15 elementi di doppio strato:
+- Parte 1: MCQ A-D
+- Parte 2: follow-up (breve risposta 2-4 linee) giustificando la scelta
 
-Crea 15 preguntas tipo peer instruction:
-Para cada una:
-- Enunciado conceptual (no de cálculo)
-- Opciones A–D (distractores basados en concepciones erróneas)
-- Respuesta correcta
-- Explicación para el instructor
-- “Qué diría cada bando” (por qué un alumno elegiría B/C/D)
-- Mini-guion para debate (2–3 preguntas guía)
+Include:
+- Risposta corretta (parte 1)
+- Risposta del modello (parte 2)
+- Capo della Parte 2 (criteria)
+- Errore comune e come rilevarlo
 
-Cierre:
-- Guía para implementar revoto y explicar la respuesta.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-043",
-    title: "Quiz con ‘autocalificación’: reglas para que el alumno se evalúe",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Incluye criterios para que el alumno interprete errores y se autoasigne tarea.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- Come qualificare rapidamente questo formato (guida).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-033",
+  title: "Quiz con 'error distrattori': ogni opzione rappresenta un fallimento diverso",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Design pedagogico: ogni distrattore corrisponde ad un errore diagnostico.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-Crea 25 preguntas A–D.
-Además:
-- Agrupa en 5 categorías de habilidad (define cuáles).
-- Cada pregunta etiqueta una categoría.
-- Al final crea reglas:
-  - si fallas ≥3 en categoría X → asigna práctica Y (con instrucciones)
-- Proporciona recomendaciones específicas por categoría (drills + ejercicios + lecturas tipo).
+Crea 20 domande A-D dove:
+- No. L'opzione giusta è concettualmente accurata
+- Ogni distrattore corrisponde ad un tipo di errore:
+B = confusione del termine
+C = falso caso nascosto
+D = errore procedurale / intuito
 
-Incluye:
-- Respuestas correctas y explicaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-044",
-    title: "Quiz de 2 etapas: 1) test 2) explicación escrita de 5 respuestas",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Evalúa y obliga a justificar: tras contestar, el alumno explica 5 respuestas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+Per ogni domanda:
+- Spiegare quale errore ogni distrattore rappresenta
+- fornisce micro-reinforzamento specifico per ogni errore (2-4 linee)
 
-Etapa 1: crea 20 preguntas A–D (con respuestas y explicación).
-Etapa 2: selecciona 5 preguntas (las más importantes) y pide:
-- explicación escrita (120–200 palabras) justificando la elección
-- incluye respuesta modelo para esas 5
-- rúbrica para calificar (claridad, rigor, ejemplos, límites)
+Vicino:
+- Guida per utilizzare il quiz come tutor (se si sceglie B / C / D, cosa studiare).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-034",
+  title: "Velocità quiz (20 min): strategia di tempo + verifica rapida",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Progettato per allenare il tempo: domande più corte, con controlli rapidi.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio]
+Durata: 20 minuti
+Domande: 20
 
-Cierre:
-- Guía para detectar “acierto por suerte” con esta etapa 2.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-045",
-    title: "Quiz ‘de etiquetas’: identifica concepto, subtema y tipo de error",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Metacognición: no solo responder, también identificar qué concepto se usa.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Subtemas: [LISTA] (si no, propón 8)
+Crea 20 domande A-D:
+- brevi dichiarazioni
+- distrattori plausibili
 
-Crea 24 preguntas A–D.
-Para cada una, además de respuesta correcta, incluye:
-- etiqueta subtema
-- etiqueta concepto específico
-- etiqueta ‘tipo de error’ para cada distractor (confusión, supuesto, procedimiento)
+Include:
+- Risposta corretta
+- Breve spiegazione (1-3 linee)
+- Verifica / controllo sanitario (1 linea)
+- Tempo consigliato per domanda (in secondi)
 
-Cierre:
-- Plantilla para registrar tus errores por tipo y corregirlos.`,
-    thumbnail: "",
-  },
+Vicino:
+- Strategia ritmica (quando saltare, quando tornare).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-035",
+  title: "Ampia recensione quiz: 5 mini-quizzes (giorno 1,3,7,14,30)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Pacchetto di conservazione: minim- forse si ripetono con crescente difficoltà.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello:
 
-  {
-    id: "edu-quiz-046",
-    title: "Quiz ‘sin distractores’: verdadero/falso con justificación rigurosa",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "V/F avanzado con explicación: perfecto para supuestos, límites, matices.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Ítems: 25
+Creare 5 minim- forse (10 domande ciascuno):
+- Giorno 1: fondazioni
+- Giorno 3: implementazione
+- Giorno 7: miscelazione e interspersing
+- Giorno 14: casi di confine
+- Giorno 30: Integrazione dell'esame
 
-Crea 25 afirmaciones verdadero/falso:
-- 10 fáciles (fundamentos)
-- 10 medianas (aplicación)
-- 5 difíciles (matices, casos borde)
+Per ogni mini-quiz:
+- Domande A-D
+- Risposta corretta
+- Spiegazioni
+- Sottotemi coperti
 
-Para cada ítem:
-- V/F
-- Justificación (80–200 palabras)
-- Si es falso, reescribe la afirmación para que sea verdadera
-- Error típico que lleva a contestar mal
+Vicino:
+- Guida all'uso (come valutare i progressi e cosa rafforzare).`,
+  thumbnail: ""
+},
 
-Cierre:
-- 10 señales de “afirmación tramposa” (palabras y estructuras).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-047",
-    title: "Quiz de ‘secuencias’: ordena pasos correctos (procedimiento)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Para temas procedimentales: elegir orden correcto y justificar.",
-    prompt: `Tema/procedimiento: [ESCRIBE AQUÍ]
-Nivel: [intermedio]
+{
+  id: "edu-quiz-036",
+  title: "Quiz di 'corretto l'affermazione': selezionare la versione precisa",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Forma precisione: riscrive dichiarazioni errate e rileva sfumature.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
 
-Crea 18 preguntas:
-- Cada pregunta da 5 pasos desordenados
-- Ofrece 4 opciones de orden (A–D)
-- Respuesta correcta + explicación
+Genera 20 articoli:
+- Ogni elemento dà una dichiarazione problematica (esagerato, ambiguo o falso)
+- Domanda: "Qual è la versione corretta?"
+- Le opzioni A-D sono riscritte (solo una è precisa)
 
-Incluye:
-- “Paso que más se olvida” (por qué)
-- Caso borde donde el orden cambia (si aplica)
+Include:
+- Risposta corretta
+- Mice spiegazione (cosa è cambiato e perché)
+- Errore tipico che produce il reclamo originale
 
-Cierre:
-- Checklist de procedimiento ideal (resumen).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-048",
-    title: "Quiz de ‘qué dato falta’: identifica información necesaria para decidir",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Entrena criterio: saber qué información pedir antes de aplicar el concepto.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- Lista di 10 parole pericolose (sempre / mai / garanzia...) e come usarle bene.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-037",
+  title: "Quiz «sceglie l'ipotesi»: identifica ciò che deve essere vero per applicarsi",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Insegnare la lettura delle supposizioni: quale condizione è necessaria per usare una regola.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
 
-Crea 16 preguntas:
-- cada pregunta describe un caso incompleto
-- pregunta: “¿Qué dato es más importante pedir?”
+Crea 18 domande:
+- Enunciato descrive un metodo / teorema / regola
+- Domanda: "Qual è il presupposto necessario?"
 
-Opciones A–D:
-- datos plausibles, solo uno desbloquea una buena decisión
+Opzioni A-D:
+- 1 assunzione corretta
+- 3 casi di plausibile ma non corretto / insufficiente
 
-Incluye:
-- Respuesta correcta
-- Explicación (por qué ese dato es clave)
-- Qué harías con ese dato (siguiente paso)
-- Error típico: pedir datos irrelevantes
+Include:
+- Risposta corretta
+- Spiegazione
+- No. E se quel presunto fallimento (mini-caso)
+- alternativa se fallisci
 
-Cierre:
-- Lista de 12 preguntas universales para clarificar casos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-049",
-    title: "Quiz ‘doble verdad’: elige la opción ‘más correcta’ (matices)",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Matices avanzados: más de una opción puede ser parcialmente cierta, elige la mejor.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
+Vicino:
+- Elenco dei presupposti per il soggetto.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-038",
+  title: "Quiz con esercizi mini-numerici: calcolo + interpretazione",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Valuta il calcolo e anche l'interpretazione del risultato nel contesto.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio]
+Domande: 16
 
-Crea 18 preguntas A–D donde:
-- 2 opciones sean “medio verdaderas”
-- 1 sea claramente falsa
-- 1 sea la más correcta (precisa, con supuestos)
+Per ogni domanda:
+- set con numeri / dati
+- chiedere di calcolare qualcosa
+- e poi interpretare cosa significa
 
-Incluye:
-- Respuesta correcta
-- Explicación comparando por qué es “más correcta”
-- Supuestos implícitos
-- Error típico
+Formato:
+- A-D (risultati + interpretazioni come distrattori)
+- risposta corretta
+- soluzione breve + corretta interpretazione
+- controllo sanitario
 
-Cierre:
-- Guía para elegir ‘la más correcta’ en exámenes (8 reglas).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-quiz-050",
-    title: "Paquete docente: 5 quizzes de 10 preguntas (listas para usar) + claves",
-    area: "Educación & Formación",
-    category: "Quizzes",
-    summary:
-      "Quizzes listos para clase: 5 mini-evaluaciones con claves y explicaciones.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ESCRIBE AQUÍ]
-Subtemas (si no, propón 5)
+Vicino:
+- 8 errori numerici tipici (unità, segni, scale).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-039",
+  title: "Quiz di \"combinazione dei concetti\": integra 2-3 idee per domanda",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Integrare le domande per misurare la comprensione reale (non la memoria).",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
 
-Crea 5 quizzes separados (10 preguntas cada uno):
-- Quiz 1: fundamentos
-- Quiz 2: aplicación
-- Quiz 3: errores comunes
-- Quiz 4: casos borde
-- Quiz 5: integrador
+Crea 20 domande A-D dove ogni domanda richiede di combinare 2-3 concetti.
+Per ogni domanda:
+- Risposta corretta
+- Spiegazione dettagliata (perché combina, quali passi)
+- Perché ogni distrattore fallisce (1 linea c / u)
+- Difficoltà (1-5)
+- Capacità di valutazione
 
-Para cada quiz:
-- Preguntas A–D
-- Respuestas correctas
-- Explicación breve por pregunta
-- Dificultad (1–5)
+Vicino:
+- Elenco di combinazioni di concetti più importanti (10).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-040",
+  title: "Final Quiz 'all in one': con report e raccomandazioni personalizzate",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Integratore quiz con rapporto per sub-item e percorso specifico di ulteriore studio.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
+Subtemi: [LIST] (se non, propon 10)
 
-Cierre:
-- Guía de calificación rápida
-- Recomendación de qué hacer si la clase falla en un subtema.`,
-    thumbnail: "",
-  },
-];
+Creare un quiz di 40 domande:
+- 4 per sub-item (conceptual mix / applicazione / casi di confine)
+
+Per ogni domanda:
+- A-D
+- risposta corretta
+- spiegazione
+- etichetta sub-item
+- "errore fisico" (1 riga)
+
+Alla fine:
+- Modello di segnalazione per sub-item:
+- punteggio, diagnosi, raccomandazione
+- percorso di studio di 14 giorni:
+- quali sottotemi priorità
+- che tipo di pratica (quizze / esercizi / casi)
+- metriche di progresso giornaliero`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-quiz-041",
+  title: "Class quiz: forme di discussione + domande di sondaggio",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Pensiero per gli insegnanti: domande che innescano la discussione con le risposte previste.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello:
+
+Crea 20 domande per la discussione in classe:
+- 12 tipo MCQ A-D (voto rapido)
+- 8 aperte (domande di sorveglianza)
+
+Include:
+- Risposta corretta / attesa
+- Spiegazione educativa
+- Richiesta di ulteriori informazioni
+- Errore comune che apparirà in classe e come correggerlo
+
+Vicino:
+- script di 15 minuti per usare queste domande in classe.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-042",
+  title: "Quiz stile 'istruzione peer': domanda concettuale + discussione + revoto",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Mazur Format: domanda concettuale con distrattori che generano dibattito.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
+
+Creare 15 domande di istruzione peer:
+Per ciascuno:
+- Inunciazione concettuale (senza calcolo)
+- Opzioni A-D (distratori basati su idee sbagliate)
+- Risposta corretta
+- Spiegazione per l'istruttore
+- "Che cosa direbbe ogni lato" (perché uno studente sceglierà B / C / D)
+- Mini-script per il dibattito (2-3 domande guida)
+
+Vicino:
+- Guida per implementare revote e spiegare la risposta.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-043",
+  title: "Quiz con 'auto-qualifica': regole per lo studente da valutare",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Esso include i criteri per lo studente di interpretare gli errori e l'attività di auto-assegna.",
+  prompt: `Oggetto: [CREAMS QUI]
+
+Crea 25 domande A-D.
+Inoltre:
+- Gruppo in 5 categorie di abilità (definisce che).
+- Ogni domanda etichetta una categoria.
+- No. Alla fine crea regole:
+- se i guasti ≥ 3 nella categoria X → assegna la pratica Y (con istruzioni)
+- No. Esso fornisce raccomandazioni specifiche per categoria (drills + esercizi + letture di tipo).
+
+Include:
+- risposte e spiegazioni giuste.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-044",
+  title: "2-step quiz: 1) prova 2) spiegazione scritta di 5 risposte",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Egli valuta e le forze per giustificare: dopo aver risposto, lo studente spiega 5 risposte.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
+
+Passo 1: Crea 20 domande A-D (con risposte e spiegazione).
+Passo 2: selezionare 5 domande (più importanti) e chiedere:
+- spiegazione scritta (120-200 parole) giustificando la scelta
+- include la risposta del modello per quei 5
+- titolo di qualificazione (chiarità, rigore, esempi, limiti)
+
+Vicino:
+- Guida a "fortunato colpo" con questa fase 2.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-045",
+  title: "Quiz 'di etichette': identifica il concetto, il sub-item e il tipo di errore",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Metacomnizione: non solo rispondere, ma anche identificare quale concetto viene utilizzato.",
+  prompt: `Oggetto: [CREAMS QUI]
+Subtemi: [LIST] (se non, propon 8)
+
+Crea 24 domande A-D.
+Per ciascuno, oltre ad una risposta corretta, comprende:
+- etichetta sub-item
+- specifica etichetta concept
+- etichetta "tipo di errore" per ogni distrattore (confusione, assunzione, procedura)
+
+Vicino:
+- Template per registrare gli errori per tipo e correggerli.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-quiz-046",
+  title: "Quiz 'no distrattori': vero / falso con rigorosa giustificazione",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Avanzato V / F con spiegazione: perfetto per ipotesi, limiti, sfumature.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
+Articoli: 25
+
+Crea 25 vere / false affermazioni:
+- 10 facili (fondazioni)
+- 10 media (attuazione)
+- 5 difficili (nuance, limiti di caso)
+
+Per ogni articolo:
+- V / F
+- Giustificazione (80-200 parole)
+- No. Se è falso, riscrivere la dichiarazione per essere vero
+- Errore tipico che porta alla risposta sbagliata
+
+Vicino:
+- 10 segni di "affermazioni" (parole e strutture).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-047",
+  title: "Quiz di 'sequenze': ordine passi corretti (procedure)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Per questioni procedurali: scegliere ordine corretto e giustificare.",
+  prompt: `Oggetto / procedura: [GRIDA QUI]
+Livello: [intermedio]
+
+Crea 18 domande:
+- Ogni domanda richiede 5 passaggi non ordinati
+- Offre 4 opzioni di ordine (A-D)
+- Risposta corretta + spiegazione
+
+Include:
+- "Il passo più dimenticato" (perché)
+- Caso di frontiera in cui l'ordine cambia (se applicabile)
+
+Vicino:
+- Elenco di controllo della procedura ideale (sommario).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-048",
+  title: "Quiz de 'quali dati manca': identifica le informazioni necessarie per decidere",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Criteri di formazione: sapere quali informazioni richiedere prima di applicare il concetto.",
+  prompt: `Oggetto: [CREAMS QUI]
+
+Crea 16 domande:
+- ogni domanda descrive un caso incompleto
+- chiede: "Quale informazione è più importante da chiedere?"
+
+Opzioni A-D:
+- dati plausibili, solo uno sblocca una buona decisione
+
+Include:
+- Risposta corretta
+- Spiegazione (perché i dati sono la chiave)
+- No. Cosa faresti con quei dati (passo successivo)
+- Errore tipico: ordinare i dati irrilevanti
+
+Vicino:
+- Lista di 12 domande universali per chiarire i casi.`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-049",
+  title: "Quiz 'doppia verità': scegliere l'opzione 'più corretta' (nuances)",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Nuance avanzate: più di un'opzione può essere parzialmente vera, scegliere il meglio.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
+
+Crea 18 domande A-D dove:
+- 2 opzioni sono "true medium"
+- 1 è chiaramente falso
+- 1 è il più corretto (preciso, con ipotesi)
+
+Include:
+- Risposta corretta
+- Spiegazione che compara perché è "più corretto"
+- Assunzioni implicite
+- Errore tipico
+
+Vicino:
+- Guida alla scelta 'il più corretto' negli esami (8 regole).`,
+  thumbnail: ""
+},
+{
+  id: "edu-quiz-050",
+  title: "Pacchetto didattico: 5 quizze di 10 domande (pronto all'uso) + chiavi",
+  area: "Formazione",
+  category: "Forse",
+  summary:
+  "Forse pronto per la classe: 5 mini-valutazioni con chiavi e spiegazioni.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello:
+Sottotemi (se non, prospetto 5)
+
+Creare 5 quizze separate (10 domande ciascuna):
+- Quiz 1: fondazioni
+- Quiz 2: implementazione
+- Quiz 3: errori comuni
+- Quiz 4: casi
+- Quiz 5: integratore
+
+Per ogni quiz:
+- Domande A-D
+- Risposta corretta
+- Breve spiegazione per questione
+- Difficoltà (1-5)
+
+Vicino:
+- Guida alla valutazione rapida
+- Raccomandazione di cosa fare se la classe fallisce in un sub-item.`,
+  thumbnail: ""
+}];

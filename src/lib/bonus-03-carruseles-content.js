@@ -2,208 +2,207 @@
 
 export const bonus03ManualCarruseles = {
   id: "bonus-03",
-  title: "Manual de carruseles virales",
+  title: "Manuale di caroselli virali",
   subtitle:
-    "Aprende el secreto de los carruseles tipo historieta que generan mucho engagement.",
-  heroText: `En este manual vas a aprender a diseñar carruseles tipo historieta que atrapan la atención, cuentan historias y llevan a la acción.
+    "Scopri il segreto dei caroselli in stile fumetto che generano tantissimo engagement.",
+  heroText: `In questo manuale imparerai a progettare caroselli in stile fumetto che catturano l’attenzione, raccontano storie e portano all’azione.
 
-No es solo teoría: verás estructuras, ejemplos prácticos y prompts listos para usar con tu Banco Secreto de Prompts.`,
-
+Non è solo teoria: vedrai strutture, esempi pratici e prompt pronti da usare con il tuo Banco Segreto di Prompt.`,
   sections: [
     {
       id: "que-es-carrusel-viral",
-      title: "1. Qué es un carrusel viral y por qué funciona",
+      title: "1. Cos’è un carosello virale e perché funziona",
       body: [
-        `Un carrusel viral no es solo una serie de láminas bonitas. Es una **historia comprimida** en pocas diapositivas que hace tres cosas al mismo tiempo:`,
+        `Un carosello virale non è solo una serie di slide carine. È una **storia compressa** in poche diapositive che fa tre cose allo stesso tempo:`,
       ],
       bullets: [
         {
-          label: "Capta atención",
+          label: "Cattura l’attenzione",
           description:
-            "La primera lámina funciona como un gancho brutal: una promesa fuerte, una pregunta incómoda o una frase contraintuitiva."
+            "La prima slide funziona come un gancio brutale: una promessa forte, una domanda scomoda o una frase controintuitiva.",
         },
         {
-          label: "Mantiene curiosidad",
+          label: "Mantiene la curiosità",
           description:
-            "Cada lámina abre un pequeño bucle: revela algo… pero deja algo pendiente para la siguiente."
+            "Ogni slide apre un piccolo loop: rivela qualcosa… ma lascia qualcosa in sospeso per la successiva.",
         },
         {
-          label: "Lleva a la acción",
+          label: "Porta all’azione",
           description:
-            "La última lámina convierte la curiosidad en acción: seguirte, guardar el post, comentar o ir a un enlace."
-        }
+            "L’ultima slide trasforma la curiosità in azione: seguirti, salvare il post, commentare o andare a un link.",
+        },
       ],
       highlight:
-        "Piensa en el carrusel como un mini embudo: la primera lámina es el anuncio, el cuerpo es la historia y la última lámina es la página de venta en pequeño."
+        "Pensa al carosello come a un mini funnel: la prima slide è l’annuncio, il corpo è la storia e l’ultima slide è una mini pagina di vendita.",
     },
     {
       id: "anatomia-historieta",
-      title: "2. Anatomía de un carrusel tipo historieta",
+      title: "2. Anatomia di un carosello in stile fumetto",
       body: [
-        `El formato “tipo historieta” funciona porque mezcla **historia + viñetas**. Aquí tienes una estructura base que puedes reutilizar en casi cualquier nicho:`
+        `Il formato “in stile fumetto” funziona perché mescola **storia + vignette**. Ecco una struttura base che puoi riutilizzare in quasi qualsiasi nicchia:`,
       ],
       bullets: [
         {
-          label: "Lámina 1 — El gancho",
+          label: "Slide 1 — Il gancio",
           description:
-            "Frase grande, clara y directa. Debe generar curiosidad o identificación inmediata. Ejemplo: “El error silencioso que está matando tus ventas”."
+            "Frase grande, chiara e diretta. Deve generare curiosità o identificazione immediata. Esempio: “L’errore silenzioso che sta uccidendo le tue vendite”.",
         },
         {
-          label: "Lámina 2 — El contexto",
+          label: "Slide 2 — Il contesto",
           description:
-            "Presentas al “personaje” (puedes ser tú, un cliente, un arquetipo). Explicas brevemente la situación inicial."
+            "Presenti il “personaggio” (puoi essere tu, un cliente, un archetipo). Spieghi brevemente la situazione iniziale.",
         },
         {
-          label: "Láminas 3–5 — El conflicto",
+          label: "Slide 3–5 — Il conflitto",
           description:
-            "Aquí se desarrolla el problema: obstáculos, frustraciones, intentos fallidos. Ideal para mostrar “viñetas” con mini escenas."
+            "Qui si sviluppa il problema: ostacoli, frustrazioni, tentativi falliti. Perfetto per mostrare “vignette” con mini scene.",
         },
         {
-          label: "Lámina 6 — La solución",
+          label: "Slide 6 — La soluzione",
           description:
-            "Introduces el cambio de enfoque, método, herramienta o aprendizaje que transforma la situación."
+            "Introduci il cambio di prospettiva, il metodo, lo strumento o l’apprendimento che trasforma la situazione.",
         },
         {
-          label: "Lámina 7 — La lección",
+          label: "Slide 7 — La lezione",
           description:
-            "Condensas la idea clave en una frase clara. Es la “moraleja” que el lector debe recordar."
+            "Condensi l’idea chiave in una frase chiara. È la “morale” che il lettore deve ricordare.",
         },
         {
-          label: "Lámina 8 — Llamado a la acción",
+          label: "Slide 8 — Call to action",
           description:
-            "Pides una acción específica: seguir tu cuenta, guardar el post, comentar, ir al link en bio, etc."
-        }
+            "Chiedi un’azione specifica: seguire il tuo profilo, salvare il post, commentare, andare al link in bio, ecc.",
+        },
       ],
       highlight:
-        "No necesitas usar siempre 8 láminas. Esta estructura es una guía: puedes comprimirla (5–6 láminas) o extenderla (hasta 10–12) según el caso."
+        "Non devi usare sempre 8 slide. Questa struttura è una guida: puoi comprimerla (5–6 slide) o estenderla (fino a 10–12) a seconda del caso.",
     },
     {
       id: "estructuras-base",
-      title: "3. Estructuras de carrusel que encontrarás en este manual",
+      title: "3. Strutture di carosello che troverai in questo manuale",
       body: [
-        `Para que no empieces desde cero, en este manual trabajaremos con **plantillas de estructura** que puedes reutilizar en cualquier nicho.`,
-        `Estas son algunas de las principales:`
+        `Per non partire da zero, in questo manuale lavoreremo con **template di struttura** che puoi riutilizzare in qualsiasi nicchia.`,
+        `Ecco alcune delle principali:`,
       ],
       bullets: [
         {
-          label: "Historia de transformación",
+          label: "Storia di trasformazione",
           description:
-            "Antes / Después con un personaje. Perfecto para casos de éxito, cambios de hábito o resultados de clientes."
+            "Prima / Dopo con un personaggio. Perfetto per casi studio, cambi di abitudine o risultati dei clienti.",
         },
         {
-          label: "Errores comunes",
+          label: "Errori comuni",
           description:
-            "Lista de errores con viñetas visuales. Ideal para educar y al mismo tiempo posicionarte como experto."
+            "Lista di errori con vignette visive. Ideale per educare e allo stesso tempo posizionarti come esperto.",
         },
         {
-          label: "Paso a paso",
+          label: "Passo dopo passo",
           description:
-            "Guía breve tipo tutorial: “5 pasos para X”. Muy guardable y compartible."
+            "Guida breve tipo tutorial: “5 passi per X”. Molto salvabile e condivisibile.",
         },
         {
-          label: "Mitos vs realidad",
+          label: "Miti vs realtà",
           description:
-            "Contraponer creencias del mercado vs. lo que realmente funciona. Genera debate y comentarios."
+            "Mettere a confronto le credenze del mercato vs ciò che funziona davvero. Genera dibattito e commenti.",
         },
         {
-          label: "Antes / Después de mentalidad",
+          label: "Prima / Dopo di mentalità",
           description:
-            "Comparas la forma antigua de ver un tema con una nueva perspectiva. Muy potente para contenido profundo."
-        }
+            "Confronti il modo “vecchio” di vedere un tema con una nuova prospettiva. Molto potente per contenuti più profondi.",
+        },
       ],
       extra: [
-        `En tu día a día, puedes combinar estas estructuras con los prompts del Banco Secreto: primero eliges la estructura, luego usas un prompt para que la IA genere el contenido base.`
-      ]
+        `Nel tuo lavoro quotidiano puoi combinare queste strutture con i prompt del Banco Segreto: prima scegli la struttura, poi usi un prompt per far generare all’IA il contenuto base.`,
+      ],
     },
     {
       id: "como-usar-con-banco",
-      title: "4. Cómo usar este manual con el Banco Secreto de Prompts",
+      title: "4. Come usare questo manuale con il Banco Segreto di Prompt",
       body: [
-        `La idea no es que escribas cada carrusel desde cero, sino que **armes un sistema**:`,
-        `1) Eliges una estructura de este manual.  
-2) Abres tu módulo de **Prompts de texto**.  
-3) Seleccionas un prompt para ideas de contenidos, storytelling o educación.  
-4) Le pides a la IA que genere el contenido siguiendo la estructura de este manual.`,
-        `Así conviertes este PDF en un **motor de ideas** en lugar de un documento más que se queda guardado.`
+        `L’idea non è scrivere ogni carosello da zero, ma **costruire un sistema**:`,
+        `1) Scegli una struttura di questo manuale.  
+2) Apri il tuo modulo di **Prompt di testo**.  
+3) Seleziona un prompt per idee di contenuto, storytelling o educazione.  
+4) Chiedi all’IA di generare il contenuto seguendo la struttura di questo manuale.`,
+        `Così trasformi questo PDF in un **motore di idee** invece che in un altro documento che resta salvato e basta.`,
       ],
       highlight:
-        "Consejo: crea una nota en tu gestor favorito llamada “Plantillas de carruseles” y copia allí tus estructuras favoritas de este manual para tenerlas siempre a mano."
+        "Consiglio: crea una nota nel tuo tool preferito chiamata “Template di caroselli” e copia lì le tue strutture preferite di questo manuale, così le avrai sempre a portata di mano.",
     },
     {
       id: "prompts-clave",
-      title: "5. Prompts clave para crear carruseles tipo historieta",
+      title: "5. Prompt chiave per creare caroselli in stile fumetto",
       body: [
-        `A continuación tienes algunos prompts listos para combinar este manual con tu IA. Úsalos como base y adáptalos a tu estilo.`,
-        `**Prompt 1 — Generar ideas de carruseles con estructura de historia**`,
-        `Quiero que actúes como un estratega de contenido especializado en Instagram y LinkedIn.
+        `Qui sotto trovi alcuni prompt pronti per combinare questo manuale con la tua IA. Usali come base e adattali al tuo stile.`,
+        `**Prompt 1 — Generare idee di caroselli con struttura narrativa**`,
+        `Voglio che tu agisca come uno strategist di contenuti specializzato in Instagram e LinkedIn.
 
-Mi nicho es: [describe tu nicho].  
-Mi cliente ideal es: [describe a tu cliente ideal].  
-Mi objetivo es: [captar leads / educar / vender / posicionar mi marca].
+La mia nicchia è: [descrivi la tua nicchia].  
+Il mio cliente ideale è: [descrivi il tuo cliente ideale].  
+Il mio obiettivo è: [acquisire lead / educare / vendere / posizionare il mio brand].
 
-Usa la estructura de “Historia de transformación” para proponer **10 ideas de carruseles tipo historieta**.  
-Para cada carrusel, dame:
-- Título para la lámina 1 (gancho fuerte).  
-- Resumen de la historia (2–3 líneas).  
-- Resultado o transformación que se muestra.  
-- CTA sugerida para la última lámina.`,
-        `**Prompt 2 — Escribir el contenido de cada lámina**`,
-        `A partir de esta idea de carrusel:
+Usa la struttura “Storia di trasformazione” per proporre **10 idee di caroselli in stile fumetto**.  
+Per ogni carosello, dammi:
+- Titolo per la slide 1 (gancio forte).  
+- Riassunto della storia (2–3 righe).  
+- Risultato o trasformazione mostrata.  
+- CTA suggerita per l’ultima slide.`,
+        `**Prompt 2 — Scrivere il contenuto di ogni slide**`,
+        `A partire da questa idea di carosello:
 
-[pega aquí la idea elegida]
+[incolla qui l’idea scelta]
 
-Quiero que escribas el contenido para un carrusel tipo historieta con 8 láminas máximo, usando esta estructura:
-1) Gancho  
-2) Contexto  
-3) Conflicto (parte 1)  
-4) Conflicto (parte 2)  
-5) Giro / descubrimiento  
-6) Solución o método  
-7) Lección clave  
+Voglio che tu scriva il contenuto per un carosello in stile fumetto con massimo 8 slide, usando questa struttura:
+1) Gancio  
+2) Contesto  
+3) Conflitto (parte 1)  
+4) Conflitto (parte 2)  
+5) Svolta / scoperta  
+6) Soluzione o metodo  
+7) Lezione chiave  
 8) CTA
 
-Para cada lámina, escribe:
-- Un título corto y llamativo (máx. 8 palabras).  
-- Un texto breve de apoyo (1–3 frases sencillas).`,
-        `**Prompt 3 — Adaptar el carrusel a otro formato**`,
-        `Te voy a pegar el contenido de un carrusel en formato texto.
+Per ogni slide, scrivi:
+- Un titolo breve e d’impatto (max 8 parole).  
+- Un testo breve di supporto (1–3 frasi semplici).`,
+        `**Prompt 3 — Adattare il carosello a un altro formato**`,
+        `Ti incollerò il contenuto di un carosello in formato testo.
 
-[pega aquí todo el carrusel]
+[incolla qui tutto il carosello]
 
-Quiero que:
-1) Lo conviertas en un guion para vídeo corto (Reel/TikTok).  
-2) Resumas el carrusel en un solo post de LinkedIn.  
-3) Me des 3 opciones de títulos alternativos para la lámina 1.`,
-        `**Prompt 4 — Ajustar tono y voz de marca**`,
-        `A continuación tienes el contenido de un carrusel:
+Voglio che:
+1) Lo trasformi in uno script per un video breve (Reel/TikTok).  
+2) Riassuma il carosello in un unico post LinkedIn.  
+3) Mi dia 3 opzioni di titoli alternativi per la slide 1.`,
+        `**Prompt 4 — Regolare tono e voce del brand**`,
+        `Qui sotto trovi il contenuto di un carosello:
 
-[pega aquí el carrusel]
+[incolla qui il carosello]
 
-Quiero que ajustes el texto para que suene con este estilo de marca:
-- Tono: [cercano / profesional / divertido / directo].  
-- Nivel de tecnicismo: [bajo / medio / alto].  
-- Palabras que sí queremos usar: [lista].  
-- Palabras que preferimos evitar: [lista].
+Voglio che tu regoli il testo per farlo suonare con questo stile di brand:
+- Tono: [vicino / professionale / divertente / diretto].  
+- Livello di tecnicismo: [basso / medio / alto].  
+- Parole che vogliamo usare: [lista].  
+- Parole che preferiamo evitare: [lista].
 
-Devuélveme el carrusel mejorado, respetando la estructura lámina por lámina.`
+Restituiscimi il carosello migliorato, rispettando la struttura slide per slide.`,
       ],
       highlight:
-        "Guarda tus prompts favoritos en tu propia biblioteca. A partir de 3–5 prompts bien configurados puedes generar decenas de carruseles sin empezar desde cero."
+        "Salva i tuoi prompt preferiti nella tua libreria personale. Con 3–5 prompt ben configurati puoi generare decine di caroselli senza ripartire da zero.",
     },
     {
       id: "plan-implementacion",
-      title: "6. Plan de implementación en 7 días",
+      title: "6. Piano di implementazione in 7 giorni",
       body: [
-        `Para que este bono no se quede en teoría, aquí tienes un mini plan de acción para ponerlo en marcha en una semana:`,
-        `• Día 1: Elige 1–2 estructuras favoritas de este manual.  
-• Día 2: Usa el **Prompt 1** para generar al menos 10 ideas de carruseles.  
-• Día 3: Escoge tus 3 mejores ideas y desarrolla su contenido con el **Prompt 2**.  
-• Día 4: Ajusta el tono con el **Prompt 4** y revisa que todo suene a tu voz.  
-• Día 5: Diseña los carruseles en tu herramienta favorita (Canva, Figma, etc.).  
-• Día 6: Programa la publicación de al menos 2 carruseles.  
-• Día 7: Analiza qué funcionó mejor y toma notas para el siguiente lote.`,
-        `Si repites este ciclo cada semana, en pocas semanas tendrás un sistema de contenido visual que trabaja por tu marca incluso cuando no estás conectado.`
-      ]
-    }
-  ]
+        `Per evitare che questo bonus resti solo teoria, ecco un mini piano d’azione per metterlo in pratica in una settimana:`,
+        `• Giorno 1: Scegli 1–2 strutture preferite di questo manuale.  
+• Giorno 2: Usa il **Prompt 1** per generare almeno 10 idee di caroselli.  
+• Giorno 3: Scegli le 3 idee migliori e sviluppa i contenuti con il **Prompt 2**.  
+• Giorno 4: Regola il tono con il **Prompt 4** e verifica che tutto suoni come la tua voce.  
+• Giorno 5: Progetta i caroselli nel tuo strumento preferito (Canva, Figma, ecc.).  
+• Giorno 6: Programma la pubblicazione di almeno 2 caroselli.  
+• Giorno 7: Analizza cosa ha funzionato meglio e prendi note per il prossimo lotto.`,
+        `Se ripeti questo ciclo ogni settimana, in poche settimane avrai un sistema di contenuti visivi che lavora per il tuo brand anche quando non sei online.`,
+      ],
+    },
+  ],
 };

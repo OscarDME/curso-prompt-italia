@@ -9,13 +9,12 @@ import { viralTextPromptsHooksDolor } from "./hooks-dolor";
 import { viralTextPromptsGuionesEducativo } from "./guiones-educativo";
 
 export const viralTextPrompts = [
-  ...viralTextPromptsHooks,
-  ...viralTextPromptsGuiones,
-  ...viralTextPromptsCaptions,
-  ...viralTextPromptsCtas,
-  ...viralTextPromptsHooksContradiccion,
-  ...viralTextPromptsHooksEmpatia,
-  ...viralTextPromptsHooksCuriosidad,
-  ...viralTextPromptsHooksDolor,
-  ...viralTextPromptsGuionesEducativo,
-];
+...viralTextPromptsHooks,
+...viralTextPromptsGuiones,
+...viralTextPromptsCaptions,
+...viralTextPromptsCtas,
+...viralTextPromptsHooksContradiccion,
+...viralTextPromptsHooksEmpatia,
+...viralTextPromptsHooksCuriosidad,
+...viralTextPromptsHooksDolor,
+...viralTextPromptsGuionesEducativo];

@@ -1,1987 +1,1986 @@
 export const textPromptsCopyAIDA = [
-  {
-    id: "aida-001",
-    title: "AIDA para página de ventas principal",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA completo para una página de ventas premium.",
-    prompt: `Dame:
-- Producto o servicio.
-- Precio.
-- Transformación principal.
-- Público objetivo.
+{
+  id: "aida-001",
+  title: "AIDA per la pagina principale delle vendite",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA completa per una pagina di vendite premium.",
+  prompt: `Dammi...
+- Prodotto o servizio.
+- Prezzo.
+- La trasformazione principale.
+- Al pubblico.
 
-Genera un copy completo en formato AIDA:
-A — Headline + subheadline que captura un dolor urgente.
-I — Explicación del problema actual del cliente con ejemplos reales.
-D — Beneficios tangibles, emocionales y racionales + 8 bullets poderosos.
-A — CTA fuerte con urgencia ética y cierre suave.
+Genera una copia completa in formato AIDA:
+A - Headline + subheadline che cattura il dolore urgente.
+I - Spiegazione del problema attuale del cliente con esempi reali.
+D - benefici tangibili, emotivi e razionali + 8 proiettili potenti.
+A - Forte CTA con urgenza etica e chiusura morbida.
 
-Incluye 3 variaciones de headline y 1 versión corta.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-002",
-    title: "AIDA para emails de lanzamiento",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary:
-      "Email de lanzamiento usando el método AIDA para maximizar aperturas y clics.",
-    prompt: `Dame:
-- Tema del email.
-- Oferta.
-- Objeción principal.
+Include 3 varianti di titolo e 1 versione breve.`,
+  thumbnail: ""
+},
+{
+  id: "aida-002",
+  title: "AIDA per email di lancio",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary:
+  "Avviare email utilizzando il metodo AIDA per massimizzare le aperture e i clic.",
+  prompt: `Dammi...
+- Tema email.
+- Offerta.
+- Obiezione principale.
 
-Crea un email completo AIDA:
-A — Asunto súper llamativo con 4 variaciones.
-I — Introducción emocional y relatable.
-D — Beneficios explicados con storytelling.
-A — CTA único y claro.
+Crea un'email AIDA completa:
+A - Super soggetto impressionante con 4 variazioni.
+I - Introduzione emotiva e riluttante.
+D - Vantaggi spiegati con la narrazione.
+A-CTA unico e chiaro.
 
-Incluye versión corta y larga.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-003",
-    title: "AIDA para anuncios de Facebook Ads",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Crea anuncios completos usando AIDA optimizados para CTR y CPM.",
-    prompt: `Dame:
-- Producto.
-- Cliente ideal.
-- Objeción fuerte.
+Include una versione breve e lunga.`,
+  thumbnail: ""
+},
+{
+  id: "aida-003",
+  title: "AIDA per Facebook Ads",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Creare annunci completi utilizzando AIDA ottimizzato per CTR e CPM.",
+  prompt: `Dammi...
+- Prodotto.
+- Un cliente ideale.
+- Obiezione forte.
 
 Genera:
-- 3 copys AIDA versión larga.
-- 3 copys AIDA versión corta (90 caracteres).
-- 5 hooks para la primera línea.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-004",
-    title: "AIDA para landing de registro a webinar",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary:
-      "Copy persuasivo para una landing de webinar que convierta muy alto.",
-    prompt: `Dame:
-- Tema del webinar.
-- Duración.
-- Resultado final.
+- 3 copie AIDA versione lunga.
+- 3 copie versione breve AIDA (90 caratteri).
+- 5 ganci per la prima linea.`,
+  thumbnail: ""
+},
+{
+  id: "aida-004",
+  title: "AIDA per l'accesso al webinar",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary:
+  "Cope persuasivo per un atterraggio webinar che gira molto alto.",
+  prompt: `Dammi...
+- Tema del sito web.
+- Durata.
+- Risultato finale.
 
 Genera AIDA:
-A — Headline con Big Promise.
-I — Dolor y frustración que justifican asistir.
-D — Bullets de lo que aprenderán + beneficios.
-A — CTA fuerte + aviso de cupos limitados.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-005",
-    title: "AIDA para descripción de producto en e-commerce",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary:
-      "Descripción optimizada usando AIDA que convierte más en tiendas online.",
-    prompt: `Dame:
-- Producto.
-- Materiales / detalles.
-- Beneficio principal para el cliente.
+A-Headline con grande promessa.
+I - Dolore e frustrazione che giustificano partecipare.
+D - Proiettili di ciò che imparerai + benefici.
+A - Forte CTA + limitato avviso di quota.`,
+  thumbnail: ""
+},
+{
+  id: "aida-005",
+  title: "AIDA per la descrizione del prodotto nell'e-commerce",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary:
+  "Descrizione ottimizzata utilizzando AIDA che si trasforma di più in negozi online.",
+  prompt: `Dammi...
+- Prodotto.
+- Materiali / dettagli.
+- Principale vantaggio per il cliente.
 
 Genera AIDA:
-A — Frase inicial fuerte que hable del problema.
-I — Mini historia que contextualice el uso del producto.
-D — Lista de beneficios + especificaciones técnicas.
-A — CTA con urgencia.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-006",
-    title: "AIDA para guion de video de venta corto",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Guion AIDA para video vertical de alto impacto.",
-    prompt: `Dame:
-- Producto o servicio.
-- Qué dolor resuelve.
-- Qué transformación da.
+A - Rana iniziale forte per parlare del problema.
+I - Mini storia che contestualizza l'uso del prodotto.
+D - Elenco delle prestazioni + specifiche tecniche.
+A - CTA come questione di urgenza.`,
+  thumbnail: ""
+},
+{
+  id: "aida-006",
+  title: "AIDA per lo script video di vendita breve",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Script AIDA per video verticale ad alto impatto.",
+  prompt: `Dammi...
+- Prodotto o servizio.
+- No. Che dolore.
+- No. Che trasformazione.
 
-Genera un guion AIDA de 30 segundos:
-A — Hook brutal en 3 segundos.
-I — Desarrollo del problema.
-D — Solución + beneficios.
-A — CTA hablado y CTA visual.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-007",
-    title: "AIDA para anuncios de TikTok Ads",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA adaptado al estilo rápido de TikTok.",
-    prompt: `Dame:
-- Producto.
-- Público.
-- Tendencia opcional.
+Genera uno script AIDA di 30 secondi:
+A-Hook brutale in tre secondi.
+I - Sviluppo del problema.
+D - Soluzione + vantaggi.
+A - CTA parlato e CTA visiva.`,
+  thumbnail: ""
+},
+{
+  id: "aida-007",
+  title: "AIDA per TikTok Ads",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA adattata allo stile veloce di TikTok.",
+  prompt: `Dammi...
+- Prodotto.
+- Pubblico.
+- Tendenza facoltativa.
 
 Crea:
-A — Hook tipo TikTok (impactante).
-I — Descripción del problema con lenguaje joven.
-D — Beneficios directos.
-A — CTA simple.
+A - Tipo di gancio TikTok (shocking).
+I - Descrizione del problema con la lingua giovane.
+D - Prestazioni dirette.
+A-CTA semplice.
 
-Bonus: agrega 5 hooks virales.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-008",
-    title: "AIDA para guion UGC",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Guion estilo contenido generado por usuario basado en AIDA.",
-    prompt: `Dame:
-- Producto.
-- Frustración inicial del usuario.
-- Resultado ideal.
-
-Genera AIDA:
-A — Storytime o confesión inicial.
-I — Explica el problema con naturalidad.
-D — Beneficios + “lo que me sorprendió”.
-A — CTA no agresiva.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-009",
-    title: "AIDA para correos de abandono de carrito",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Email de recuperación de carrito con estructura AIDA.",
-    prompt: `Dame:
-- Producto.
-- Objeción común.
-- Beneficio principal.
+Bonus: aggiunge 5 ganci virali.`,
+  thumbnail: ""
+},
+{
+  id: "aida-008",
+  title: "AIDA per lo script UGC",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Lo script di stile dei contenuti generato dall'utente basato su AIDA.",
+  prompt: `Dammi...
+- Prodotto.
+- Fusione iniziale dell'utente.
+- Ottimo risultato.
 
 Genera AIDA:
-A — Línea inicial recordando el beneficio perdido.
-I — Validación de la objeción del usuario.
-D — Ventajas y prueba social.
-A — CTA + incentivo de recuperación.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-010",
-    title: "AIDA para páginas de registro a newsletter",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA para páginas donde buscas obtener emails.",
-    prompt: `Dame:
-- Nombre de la newsletter.
-- Tema principal.
-- Qué aprenden los suscriptores.
+A - Storia o confessione iniziale.
+I - Spiega naturalmente il problema.
+D - Vantaggi + "cosa mi ha sorpreso".
+A-CTA non aggressivo.`,
+  thumbnail: ""
+},
+{
+  id: "aida-009",
+  title: "AIDA per Cart Partenza Post",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Cart email di recupero con struttura AIDA.",
+  prompt: `Dammi...
+- Prodotto.
+- Obiezione comune.
+- Principale vantaggio.
 
 Genera AIDA:
-A — Headline irresistible.
-I — Describe el problema o falta de conocimiento.
-D — Beneficios concretos.
-A — CTA para suscribirse.
-
-Incluye 3 versiones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-011",
-    title: "AIDA para scripts de venta en WhatsApp",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para ventas por WhatsApp optimizado con AIDA.",
-    prompt: `Dame:
-- Producto.
-- Objeción principal.
-- Resultado prometido.
-
-Genera AIDA en formato de mensajes cortos:
-A — Llamar la atención.
-I — Pregunta que amplifique interés.
-D — Explicación del beneficio.
-A — CTA suave.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-012",
-    title: "AIDA para impresos publicitarios",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Flyers, posters o material impreso usando AIDA.",
-    prompt: `Dame:
-- Evento/producto.
-- Fecha.
-- Beneficio principal.
-
-Genera AIDA MUY breve:
-A — Frase gancho en mayúsculas.
-I — Contexto.
-D — Beneficio.
-A — CTA visual.
-
-Incluye 3 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-013",
-    title: "AIDA para presentación de pitch corto",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Pitch de 30–60 segundos con estructura AIDA.",
-    prompt: `Dame:
-- Idea/proyecto.
-- Público.
-- Beneficio clave.
-
-Genera un pitch AIDA:
-A — Hook inicial.
-I — Problema explicado.
-D — Solución.
-A — CTA o siguiente paso.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-014",
-    title: "AIDA para anuncios de ofertas limitadas",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "AIDA con urgencia temporal.",
-    prompt: `Dame:
-- Oferta.
-- Duración.
-- Beneficio clave.
-
-Genera AIDA con tono urgente:
-A — Hook temporal.
-I — Razón de la oferta.
-D — Beneficios.
-A — CTA fuerte.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-015",
-    title: "AIDA para correos educativos que venden",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Convierte un email educativo en venta usando AIDA.",
-    prompt: `Dame:
-- Tema del email.
-- Producto relacionado.
+A - Linea iniziale che ricorda il profitto perso.
+I - Validazione dell'obiezione dell'utente.
+D - Vantaggi e test sociali.
+A - CTA + incentivo al recupero.`,
+  thumbnail: ""
+},
+{
+  id: "aida-010",
+  title: "AIDA per le pagine di registrazione alla newsletter",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA per le pagine in cui si sta cercando di ottenere e-mail.",
+  prompt: `Dammi...
+- Nome della newsletter.
+- Tema principale.
+- No. Cosa imparano gli abbonati.
 
 Genera AIDA:
-A — Linea educativa fuerte.
-I — Explica error/desconocimiento.
-D — Beneficios del producto.
-A — CTA hacia compra.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-016",
-    title: "AIDA para testimonios en formato narrativo",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Convertir testimonios en copy AIDA narrativo.",
-    prompt: `Dame:
-- Historia del cliente.
-- Resultado logrado.
+A-Headline irresistibile.
+I - Descrivi il problema o la mancanza di conoscenza.
+D - Prestazioni specifiche.
+A - CTA da sottoscrivere.
+
+Include 3 versioni.`,
+  thumbnail: ""
+},
+{
+  id: "aida-011",
+  title: "AIDA per gli script di vendita in WhatsApp",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Per le vendite di WhatsApp ottimizzato con AIDA.",
+  prompt: `Dammi...
+- Prodotto.
+- Obiezione principale.
+- Promesso risultato.
+
+AIDA Genera in formato breve messaggio:
+A - Per attirare l'attenzione.
+I - Domanda di aumento degli interessi.
+D - Spiegazione del beneficio.
+A-CTA morbido.`,
+  thumbnail: ""
+},
+{
+  id: "aida-012",
+  title: "AIDA per moduli pubblicitari",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Volanti, poster o materiale stampato utilizzando AIDA.",
+  prompt: `Dammi...
+- Evento / prodotto.
+- Data.
+- Principale vantaggio.
+
+Una società AIDA molto breve:
+A - Frose gancio in lettere maiuscole.
+- Contesto.
+D - Benefit.
+A-CTA visiva.
+
+Include 3 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-013",
+  title: "AIDA per presentazione a breve passo",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "30-60 secondo Pitch con struttura AIDA.",
+  prompt: `Dammi...
+- Idea / progetto.
+- Pubblico.
+- Beneficio chiave.
+
+Genera un campo AIDA:
+Un iniziale di A-Hook.
+I - Problema spiegato.
+D - Soluzione.
+A - CTA o passo successivo.`,
+  thumbnail: ""
+},
+{
+  id: "aida-014",
+  title: "AIDA per annunci di offerta limitati",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "AIDA con urgenza temporanea.",
+  prompt: `Dammi...
+- Offerta.
+- Durata.
+- Beneficio chiave.
+
+AIDA con tono urgente:
+A - Uncino temporaneo.
+I - Motivo dell'offerta.
+D - Benefici.
+A-CTA forte.`,
+  thumbnail: ""
+},
+{
+  id: "aida-015",
+  title: "AIDA per postazioni educative che vendono",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Converti un'email educativa in vendita utilizzando AIDA.",
+  prompt: `Dammi...
+- Tema email.
+- Prodotto correlato.
 
 Genera AIDA:
-A — Frase inicial de shock.
-I — Explica cómo se encontraba antes.
-D — Resultado + beneficios.
-A — CTA indirecto.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-017",
-    title: "AIDA para mejorar anuncios que no convierten",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Optimiza un anuncio que ya existe usando AIDA.",
-    prompt: `Dame:
-- Copy actual.
-- Objetivo del anuncio.
-- Producto.
+A - Una linea educativa forte.
+I - Spiega errore / ignoranza.
+D - Vantaggi del prodotto.
+A - CTA verso l'acquisto.`,
+  thumbnail: ""
+},
+{
+  id: "aida-016",
+  title: "AIDA per testimonianze in formato narrativo",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Convertire testimonianze in copia narrativa AIDA.",
+  prompt: `Dammi...
+- Storia del cliente.
+- Risultati raggiunti.
 
-Reescribe aplicando AIDA:
-A — Hook más fuerte.
-I — Conexión emocional.
-D — Beneficios claros.
-A — CTA más directo.
+Genera AIDA:
+A - shock iniziale.
+Io... spiega com'era prima.
+D - Risultato + benefici.
+A - CTA indiretto.`,
+  thumbnail: ""
+},
+{
+  id: "aida-017",
+  title: "AIDA per migliorare gli annunci che non convertono",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Ottimizza un annuncio che esiste già utilizzando AIDA.",
+  prompt: `Dammi...
+- Ricevuto.
+- Scopo dell'annuncio.
+- Prodotto.
 
-Incluye 3 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-018",
-    title: "AIDA para copy en perfiles de Instagram",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Bio y descripción usando AIDA para convertir seguidores.",
-    prompt: `Dame:
+Riscrivere utilizzando AIDA:
+- Uncino più forte.
+I - Collegamento emotivo.
+D - Prestazioni chiare.
+A - CTA più diretto.
+
+Include 3 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-018",
+  title: "AIDA per copia in profili Instagram",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Bio e descrizione utilizzando AIDA per convertire i seguaci.",
+  prompt: `Dammi...
 - Nicho.
-- Qué ofreces.
-- Beneficio principal.
+- No. Cosa offri?
+- Principale vantaggio.
 
 Genera:
-A — Hook de 1 línea.
-I — Explica para quién es.
-D — Beneficios.
-A — CTA hacia link.
+A-Hook di 1 linea.
+Spiega a chi serve.
+D - Benefici.
+A - CTA verso il collegamento.
 
-Incluye 3 bios.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-019",
-    title: "AIDA para copy de lead magnets premium",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para captar leads con recursos gratuitos avanzados.",
-    prompt: `Dame:
-- Tipo de recurso.
-- Tema.
-- Resultado rápido.
-
-Genera AIDA:
-A — Headline irresistible.
-I — Problema que resuelve.
-D — Beneficios.
-A — CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-020",
-    title: "AIDA para mensajes directos (DMs)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Secuencia de DM basada en AIDA sin sonar robótico.",
-    prompt: `Dame:
-- Producto.
-- Público.
-- Objeción.
-
-Genera mensajes estilo humano:
-A — Mensaje inicial que abre conversación.
-I — Pregunta que despierta interés.
-D — Explicación del beneficio.
-A — CTA suave.
-
-Incluye 2 secuencias alternativas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-021",
-    title: "AIDA para venta de talleres presenciales",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary:
-      "Copy completo y persuasivo para talleres presenciales aplicando el método AIDA.",
-    prompt: `Dame:
-- Nombre del taller.
-- Duración.
-- Ciudad/país.
-- Resultado principal para asistentes.
-
-Genera un copy AIDA estructurado para página de registro:
-A — Hook emocional que hable del problema que el taller resuelve.
-I — Conecta con la frustración actual del lector usando ejemplos reales.
-D — Explica la transformación específica del taller + 5 bullets de beneficios claros.
-A — CTA directo para reservar plaza + mensaje de urgencia basado en plazas limitadas.
-
-Incluye:
-- Versión larga (500 palabras).
-- Versión corta (150 palabras).
-- 3 hooks alternativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-022",
-    title: "AIDA para anuncios de remarketing con objeción fuerte",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary:
-      "Copy enfocado en objeciones reales de quienes ya vieron tu oferta.",
-    prompt: `Dame:
-- Qué producto vieron pero no compraron.
-- Cuál es la objeción dominante (precio, tiempo, confianza).
-- Qué beneficio REAL se pierden por no comprar.
-
-Genera 3 copies AIDA:
-A — Recordatorio directo del beneficio perdido.
-I — Explica por qué la objeción es normal pero equivocada.
-D — Demuestra con evidencia (<ejemplo, caso, mini historia>) el valor real.
-A — CTA para volver a la página de compra con incentivo ligero.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-023",
-    title: "AIDA para guion de ventas en video corto",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Guion en formato AIDA para vídeo vertical de 30–45 segundos.",
-    prompt: `Dame:
-- Producto/servicio.
-- Problema central que resuelve.
-- Transformación ideal.
-
-Genera un guion AIDA:
-A — Frase inicial de 2–4 segundos que impacte visual y verbalmente.
-I — Explicación del dolor real con un ejemplo cotidiano.
-D — Beneficio explicado con storytelling mínimo.
-A — CTA hablado + CTA visual sugerido.
-
-Incluye 2 versiones: emocional y técnica.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-024",
-    title: "AIDA para copy de afiliados",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para vender como afiliado sin sonar forzado ni falso.",
-    prompt: `Dame:
-- Producto afiliado.
-- Beneficio más fuerte.
-- Objeción típica de usuarios.
+Include 3 bio.`,
+  thumbnail: ""
+},
+{
+  id: "aida-019",
+  title: "AIDA per magneti al piombo copia premium",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per catturare con risorse gratuite avanzate.",
+  prompt: `Dammi...
+- Tipo di ricorso.
+- Soggetto.
+- Risultato veloce.
 
 Genera AIDA:
-A — Hook basado en experiencia personal o micro historia real.
-I — Explica el problema que el producto resuelve.
-D — Beneficios tangibles + prueba social.
-A — CTA orientado a clic en el enlace afiliado.
+A-Headline irresistibile.
+I - Problema che risolve.
+D - Benefici.
+- CTA.`,
+  thumbnail: ""
+},
+{
+  id: "aida-020",
+  title: "AIDA per messaggi diretti (DM)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Sequenza DM basata su AIDA senza suono robotico.",
+  prompt: `Dammi...
+- Prodotto.
+- Pubblico.
+- Obiezione.
 
-Incluye 3 intros alternativas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-025",
-    title: "AIDA para scripts de venta por llamada",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Usa AIDA dentro de un guion para llamada comercial.",
-    prompt: `Dame:
-- Tipo de servicio.
-- Precio.
-- Perfil de cliente ideal.
+Genera messaggi di stile umano:
+A - Messaggio iniziale che apre la conversazione.
+I - Domanda che suscita interesse.
+D - Spiegazione del beneficio.
+A-CTA morbido.
 
-Genera guion con estructura AIDA adaptada a llamada:
-A — Apertura para captar atención desde los primeros 10 segundos.
-I — Preguntas diagnósticas que amplifican interés.
-D — Explicación del valor del servicio con beneficios emocionales + racionales.
-A — CTA para siguiente paso (pago, agenda, aplicación).
+Include 2 sequenze alternative.`,
+  thumbnail: ""
+},
+{
+  id: "aida-021",
+  title: "AIDA per la vendita di laboratori faccia a faccia",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary:
+  "Copia completa e persuasiva per workshop faccia a faccia utilizzando il metodo AIDA.",
+  prompt: `Dammi...
+- Nome del laboratorio.
+- Durata.
+- Città / paese.
+- Risultati principali per i partecipanti.
 
-Incluye versión para llamada fría y versión para llamada caliente.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-026",
-    title: "AIDA para venta de membresías",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para membresías mensuales o anuales enfocado en retención.",
-    prompt: `Dame:
-- Nombre de la membresía.
-- Qué incluye.
-- Cómo cambia la vida del usuario.
+Genera una copia AIDA strutturata per la pagina di registrazione:
+A - Uncino emotivo per parlare del problema che il workshop risolve.
+I - Collegare con l'attuale frustrazione del lettore utilizzando esempi reali.
+D - Spiega la trasformazione specifica del workshop + 5 proiettili a beneficio chiaro.
+A - CTA diretto per prenotare quadrato + messaggio di emergenza basato su quadrati limitati.
 
-Genera un copy AIDA:
-A — Hook que explique la promesa continua de la membresía.
-I — Explica el dolor recurrente que la membresía resuelve mes a mes.
-D — Lista de beneficios estructurados en 5 bullets.
-A — CTA + incentivo (prueba, descuento anual, bonus).
+Include:
+- Versione lunga (500 parole).
+- Versione corta (150 parole).
+- 3 ganci alternativi.`,
+  thumbnail: ""
+},
+{
+  id: "aida-022",
+  title: "AIDA per remarketing annunci con forte obiezione",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary:
+  "Cope si è concentrata su vere obiezioni da coloro che hanno già visto la vostra offerta.",
+  prompt: `Dammi...
+- No. Quale prodotto hanno visto ma non hanno comprato.
+- No. Qual è l'obiezione dominante (prezzo, tempo, fiducia).
+- No. Quale beneficio reale è perso per non comprare.
 
-Incluye 3 hooks adicionales.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-027",
-    title: "AIDA para campañas de Black Friday",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy de alto impacto para Black Friday/fechas especiales.",
-    prompt: `Dame:
-- Producto.
-- Descuento.
-- Tiempo de duración.
+Genera 3 copie AIDA:
+A - Promemoria diretta del profitto perduto.
+I - Spiega perché l'obiezione è normale ma sbagliata.
+D - Dimostra con prove (esempio, caso, mini storia >) il valore reale.
+A - CTA per tornare alla pagina di acquisto con leggero incentivo.`,
+  thumbnail: ""
+},
+{
+  id: "aida-023",
+  title: "AIDA per un breve script di vendita video",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Script di formato AIDA per video verticale di 30-45 secondi.",
+  prompt: `Dammi...
+- Prodotto / servizio.
+- Un problema centrale che risolve.
+- Trasformazione ideale.
 
-Genera AIDA:
-A — Hook agresivo pero elegante.
-I — Explica por qué esta oferta no se repite.
-D — Beneficios + ahorro.
-A — CTA urgente con mensaje temporal real.
+Genera uno script AIDA:
+A - frazione iniziale di 2-4 secondi che influisce visivamente e verbalmente.
+I - Spiegazione del dolore reale con un esempio quotidiano.
+D - Benefit spiegato con stoccaggio minimo.
+A - CTA parlato + CTA visiva suggerito.
 
-Incluye versión suave, media y agresiva.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-028",
-    title: "AIDA para copy de captación de leads 'problema urgente'",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary:
-      "Copy para landing page de captación con foco en un dolor inmediato.",
-    prompt: `Dame:
-- Lead magnet.
-- Dolor urgente.
-- Resultado inmediato.
-
-Genera AIDA:
-A — Headline basado en urgencia emocional.
-I — Explica el problema y su impacto en la vida del lector.
-D — Beneficios rápidos del recurso.
-A — CTA claro + frase de urgencia temporal.
-
-Incluye 2 versiones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-029",
-    title: "AIDA para capturar emails desde un Reel",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para descripción de reel que lleva a captar emails.",
-    prompt: `Dame:
-- Lead magnet.
-- Resultado que promete.
-- Para quién es.
-
-Genera texto AIDA:
-A — Frase inicial para generar curiosidad extrema.
-I — Error principal del usuario.
-D — Beneficios del lead magnet.
-A — CTA para ir al link del perfil.
-
-Incluye versión de 3 líneas y de 6 líneas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-030",
-    title: "AIDA para copy educativo que convierte en venta",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Convierte un contenido educativo en venta usando AIDA.",
-    prompt: `Dame:
-- Tema.
-- Producto relacionado.
-- Transformación deseada.
+Include 2 versioni: emozionale e tecnico.`,
+  thumbnail: ""
+},
+{
+  id: "aida-024",
+  title: "AIDA per la copia della filiale",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Cope per vendere come affiliato senza suono forzato o falso.",
+  prompt: `Dammi...
+- Prodotto affiliato.
+- Benefico piu' forte.
+- Obiezione tipica dell'utente.
 
 Genera AIDA:
-A — Apertura educativa de impacto.
-I — Explica el error común.
-D — Presenta la solución + beneficios.
-A — CTA hacia el producto.
+A - Uncino basato sull'esperienza personale o sulla storia reale di micro.
+I - Spiega il problema che il prodotto risolve.
+D - benefici tangibili + prova sociale.
+A - CTA orientato a fare clic sul link affiliato.
 
-Incluye 3 variaciones por tono: experto, cercano, agresivo.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-031",
-    title: "AIDA para copy basado en FOMO",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Usa el miedo a quedarse atrás sin sonar manipulador.",
-    prompt: `Dame:
-- Qué pierde el usuario si no actúa.
-- Qué oportunidad está disponible.
-- Tiempo de disponibilidad.
+Esso comprende 3 alternative intra.`,
+  thumbnail: ""
+},
+{
+  id: "aida-025",
+  title: "AIDA per gli script di vendita per chiamata",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Utilizzare AIDA all'interno di uno script di chiamata commerciale.",
+  prompt: `Dammi...
+- Tipo di servizio.
+- Prezzo.
+- Profilo cliente ideale.
 
-Genera AIDA con enfoque FOMO limpio:
-A — Declaración fuerte de lo que se está perdiendo.
-I — Ejemplo real o mini historia.
-D — Beneficios tangibles y emocionales.
-A — CTA urgente y claro.
+Scrittura Gemera con struttura AIDA adattata a chiamata:
+A - Apertura per ottenere l'attenzione dai primi 10 secondi.
+I - Domande diagnostiche che amplificano l'interesse.
+D - Spiegazione del valore di servizio con benefici emotivi e razionali.
+A - CTA per il prossimo passo (pagamento, agenda, domanda).
 
-Incluye 2 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-032",
-    title: "AIDA para venta de apps móviles",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para apps de productividad, salud, estudio o finanzas.",
-    prompt: `Dame:
-- Tipo de app.
-- Problema central.
-- Beneficio clave.
+Include la versione chiamata fredda e la versione hot call.`,
+  thumbnail: ""
+},
+{
+  id: "aida-026",
+  title: "AIDA per la vendita di membrane",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per membrane mensili o annuali focalizzate sulla ritenzione.",
+  prompt: `Dammi...
+- Nome di iscrizione.
+- No. Che cosa include.
+- Come cambia la vita dell'utente.
 
-Genera AIDA:
-A — Hook directo estilo “pain killer”.
-I — Explica el problema en lenguaje simple.
-D — Beneficios clave + 3 features importantes.
-A — CTA para descargar.
+Genera una copia AIDA:
+A - Uncino per spiegare la promessa continua di appartenenza.
+I - Spiega il dolore ricorrente che l'adesione risolve mese per mese.
+D - Elenco delle prestazioni strutturate in 5 proiettili.
+A - CTA + incentivo (test, sconto annuale, bonus).
 
-Incluye versión para Play Store y App Store.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-033",
-    title: "AIDA para venta de software B2B",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy orientado a empresas, ROI y eficiencia.",
-    prompt: `Dame:
-- Tipo de software.
-- Empresa objetivo.
-- Beneficio medible.
-
-Genera AIDA:
-A — Hook basado en pérdida o ineficiencia actual.
-I — Explica cómo opera el problema hoy.
-D — Beneficios cuantificables (tiempo, dinero, errores).
-A — CTA para demo o reunión.
-
-Incluye versión corta para LinkedIn.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-034",
-    title: "AIDA para copy aspiracional",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Crea deseo basado en identidad futura.",
-    prompt: `Dame:
-- Identidad futura del usuario.
-- Qué resultado quiere encarnar.
-- Qué obstáculo principal enfrenta.
-
-Genera AIDA aspiracional:
-A — Frase emocional de futuro deseado.
-I — Explica el bloqueo interno.
-D — Beneficios como identidad.
-A — CTA alineado al futuro deseado.
-
-Incluye 3 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-035",
-    title: "AIDA para anuncios en Twitter / X",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy directo y rápido adaptado a X.",
-    prompt: `Dame:
-- Producto o oferta.
-- Dolor.
-- Beneficio clave.
-
-Genera AIDA en formato X (breve):
-A — Declaración potente.
-I — Problema en una línea.
-D — Beneficio directo.
-A — CTA corto con link.
-
-Incluye variaciones de 140 y 280 caracteres.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-036",
-    title: "AIDA para contenido evergreen que vende todo el año",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy evergreen adaptable a cualquier plataforma.",
-    prompt: `Dame:
-- Producto.
-- Beneficio universal.
-- Objeción común.
-
-Genera AIDA evergreen:
-A — Hook basado en problema atemporal.
-I — Explica la causa del problema.
-D — Beneficio que no depende de tendencias.
-A — CTA limpio y directo.
-
-Incluye versión para email, redes y web.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-037",
-    title: "AIDA para textos con autoridad experta",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "AIDA enfocado en autoridad, credibilidad y dominio del tema.",
-    prompt: `Dame:
-- Expertise.
-- Logro relevante.
-- Qué vendo.
+Include 3 ganci aggiuntivi.`,
+  thumbnail: ""
+},
+{
+  id: "aida-027",
+  title: "AIDA per le campagne del Black Friday",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia ad alto impatto per Black Friday / date speciali.",
+  prompt: `Dammi...
+- Prodotto.
+- Sconti.
+- Durata.
 
 Genera AIDA:
-A — Declaración experta.
-I — Explica el problema con datos.
-D — Beneficios basados en evidencia.
-A — CTA lógico y racional.
+A - Gancio aggressivo ma elegante.
+I - Spiega perché questa offerta non è ripetuta.
+D - Vantaggi + risparmio.
+A - CTA urgente con un vero messaggio temporaneo.
 
-Incluye 3 intros de autoridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-038",
-    title: "AIDA para venta de packs o bundles",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para packs de productos digitales o físicos.",
-    prompt: `Dame:
-- Qué contiene el pack.
-- Precio normal vs precio del pack.
-- Para quién es.
+Include una versione morbida, media e aggressiva.`,
+  thumbnail: ""
+},
+{
+  id: "aida-028",
+  title: "AIDA per il pick-up copia di piombo 'problema urgente '",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary:
+  "Copia per l'atterraggio pagina di pick-up con attenzione al dolore immediato.",
+  prompt: `Dammi...
+- Magnete di piombo.
+- Dolore urgente.
+- Risultato immediato.
 
 Genera AIDA:
-A — Frase que resalte el valor total.
-I — Explicación de por qué este pack existe.
-D — Beneficios y ahorro total.
-A — CTA para aprovechar el bundle.
+A - Linee guida basate sull'urgenza emotiva.
+I - Spiega il problema e il suo impatto sulla vita del lettore.
+D - Vantaggi rapidi della risorsa.
+A - Clear CTA + la pena di emergenza temporanea.
 
-Incluye 2 versiones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-039",
-    title: "AIDA para copy ultra emocional",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA enfocado en emociones profundas.",
-    prompt: `Dame:
-- Emoción principal.
-- Resultado deseado.
-- Obstáculo emocional.
+Include 2 versioni.`,
+  thumbnail: ""
+},
+{
+  id: "aida-029",
+  title: "AIDA per catturare e-mail da una bobina",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Reel descrizione copia che porta a catturare e-mail.",
+  prompt: `Dammi...
+- Magnete di piombo.
+- Il risultato che prometti.
+- Per chi è.
 
-Genera AIDA emocional:
-A — Apertura emocional fuerte.
-I — Explicación del dolor interno.
-D — Beneficio emocional transformador.
-A — CTA suave pero persuasivo.
+Generare testo AIDA:
+A - Rana iniziale per generare estrema curiosità.
+I - Errore utente principale.
+D - Vantaggi del magnete al piombo.
+A - CTA per andare al link del profilo.
 
-Incluye 3 intensidades emocionales.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-040",
-    title: "AIDA para venta suave sin presión",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para ventas que no presionan al usuario.",
-    prompt: `Dame:
-- Producto.
-- Beneficio principal.
-- Objeción leve.
+Include la versione a 3 linee e 6 linee.`,
+  thumbnail: ""
+},
+{
+  id: "aida-030",
+  title: "AIDA per copia educativa che si trasforma in vendita",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Convertire contenuti educativi in vendita utilizzando AIDA.",
+  prompt: `Dammi...
+- Soggetto.
+- Prodotto correlato.
+- Trasformazione desiderata.
 
-Genera AIDA suave:
-A — Hook elegante y sin agresión.
-I — Explica el problema con empatía.
-D — Beneficios explicados sin exagerar.
-A — CTA suave + recordatorio opcional.
+Genera AIDA:
+A - Apertura educativa dell'impatto.
+I - Spiegare l'errore comune.
+D - Presenta la soluzione + vantaggi.
+A - CTA verso il prodotto.
 
-Incluye 2 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-041",
-    title: "AIDA para ofertas de alto ticket (+3k USD)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy premium para vender servicios o programas de alto ticket.",
-    prompt: `Dame:
-- Nombre del servicio/programa.
-- Precio.
-- Transformación premium que promete.
-- Público ideal.
+Include 3 varianti per tono: esperto, vicino, aggressivo.`,
+  thumbnail: ""
+},
+{
+  id: "aida-031",
+  title: "AIDA per la copia basata su FOMO",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Usa la paura di stare dietro senza manipolazioni sonore.",
+  prompt: `Dammi...
+- No. Ciò che l'utente perde se non agisce.
+- No. Che opportunità è disponibile.
+- Tempo di disponibilità.
 
-Genera AIDA estilo high-ticket:
-A — Hook elegante y aspiracional que enmarque autoridad.
-I — Dolor profundo del cliente + costo de no resolverlo.
-D — Beneficios de alto valor, lógicos y emocionales + 6 bullets de ROI.
-A — CTA hacia llamada o aplicación, con urgencia ética.
+AIDA con un approccio FOMO pulito:
+A - Forte dichiarazione di ciò che manca.
+I - Esempio reale o mini storia.
+D - benefici tangibili ed emotivi.
+A - CTA urgente e chiaro.
 
-Incluye versión emocional y versión racional.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-042",
-    title: "AIDA para secuencia de bienvenida a nuevos leads",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary:
-      "Primera secuencia que genera confianza y mueve al usuario al siguiente paso.",
-    prompt: `Dame:
+Include 2 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-032",
+  title: "AIDA in vendita di applicazioni mobili",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per applicazioni di produttività, salute, studio o finanza.",
+  prompt: `Dammi...
+- Tipo di app.
+- Un problema centrale.
+- Beneficio chiave.
+
+Genera AIDA:
+A - Uncino diretto stile "pain killer".
+I - Spiega il problema in una lingua semplice.
+D - Vantaggi chiave + 3 caratteristiche importanti.
+A - CTA da scaricare.
+
+Include la versione per Play Store e App Store.`,
+  thumbnail: ""
+},
+{
+  id: "aida-033",
+  title: "AIDA per la vendita di software B2B",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia orientata al business, ROI ed efficienza.",
+  prompt: `Dammi...
+- Tipo di software.
+- Compagnia di destinazione.
+- Beneficio misurabile.
+
+Genera AIDA:
+A - Gancio basato sulla perdita attuale o inefficienza.
+I - Spiega come funziona il problema oggi.
+D - Benefici quantificabili (tempo, denaro, errori).
+A - CTA per demo o incontro.
+
+Include la versione breve per LinkedIn.`,
+  thumbnail: ""
+},
+{
+  id: "aida-034",
+  title: "AIDA per copia aspirante",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Crea il desiderio basato sull'identità futura.",
+  prompt: `Dammi...
+- Identità utente futura.
+- No. Che risultato vuoi incarnare.
+- No. Che grande ostacolo ha.
+
+AIDA gene aspirazione:
+A - La frattura emotiva del futuro desiderato.
+I - Spiega la serratura interna.
+D - Vantaggi come identità.
+A - CTA allineato al futuro desiderato.
+
+Include 3 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-035",
+  title: "AIDA per Twitter / X ads",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia diretta e veloce adattata a X.",
+  prompt: `Dammi...
+- Prodotto o offerta.
+- Dolore.
+- Beneficio chiave.
+
+AIDA in formato X (breve):
+A - Dichiarazione potente.
+Ho un problema.
+D - Vantaggio diretto.
+A-CTA corto con link.
+
+Include variazioni di 140 e 280 caratteri.`,
+  thumbnail: ""
+},
+{
+  id: "aida-036",
+  title: "AIDA per contenuti sempreverdi venduti tutto l'anno",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia sempreverde adattabile a qualsiasi piattaforma.",
+  prompt: `Dammi...
+- Prodotto.
+- Benefico universale.
+- Obiezione comune.
+
+Genera AIDA sempreverde:
+A - Uncino basato su un problema senza tempo.
+I - Spiegare la causa del problema.
+D - Benefici che non dipendono dalle tendenze.
+A - CTA pulito e diretto.
+
+Include la versione per e-mail, reti e web.`,
+  thumbnail: ""
+},
+{
+  id: "aida-037",
+  title: "AIDA per testi con autorità esperta",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "AIDA si è concentrata su autorità, credibilità e padronanza del tema.",
+  prompt: `Dammi...
+- Esperto.
+- Un risultato rilevante.
+- No. Che vendita.
+
+Genera AIDA:
+A - Dichiarazione di esperti.
+I - Spiegare il problema con i dati.
+D - Vantaggi basati sulle prove.
+A - CTA logica e razionale.
+
+Esso comprende 3 intra di autorità.`,
+  thumbnail: ""
+},
+{
+  id: "aida-038",
+  title: "AIDA in vendita di pacchetti o pacchetti",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per i pacchetti di prodotti digitali o fisici.",
+  prompt: `Dammi...
+- No. Cosa c'e' nella confezione.
+- Prezzo normale e prezzo della confezione.
+- Per chi è.
+
+Genera AIDA:
+A - Vorrei evidenziare il valore totale.
+I - Spiegazione del perché questo pacchetto esiste.
+D - Benefici e risparmio totale.
+A - CTA per sfruttare il pacchetto.
+
+Include 2 versioni.`,
+  thumbnail: ""
+},
+{
+  id: "aida-039",
+  title: "AIDA per la copia ultra emotiva",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA focalizzata sulle emozioni profonde.",
+  prompt: `Dammi...
+- Emozione principale.
+- Il risultato desiderato.
+- Ostruzione emotiva.
+
+Gene AIDA emotivo:
+A - Forte apertura emotiva.
+I - Spiegazione del dolore interno.
+D - Vantaggio emotivo del trasformatore.
+A - CTA morbido ma persuasivo.
+
+Include 3 intensitÃ emotive.`,
+  thumbnail: ""
+},
+{
+  id: "aida-040",
+  title: "AIDA in vendita morbida senza pressione",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia di vendita che non preme l'utente.",
+  prompt: `Dammi...
+- Prodotto.
+- Principale vantaggio.
+- Obiezione lieve.
+
+Soft AIDA:
+A - Uncino elegante e nessun assalto.
+I - Spiega il problema con l'empatia.
+D - ha spiegato i benefici senza sovrastare.
+A - Soft CTA + promemoria opzionale.
+
+Include 2 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-041",
+  title: "AIDA per le offerte di biglietti (+ 3k USD)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia Premium per i servizi di vendita o i programmi di biglietti alti.",
+  prompt: `Dammi...
+- Servizio / nome del programma.
+- Prezzo.
+- Trasformazione Premium che prometti.
+- Un pubblico ideale.
+
+AIDA società di stile high-ticket:
+A - Uncino elegante e ambizioso per inquadrare l'autorità.
+I - Dolore profondo del cliente + costo di non risolverlo.
+D - Vantaggi logici ed emotivi di alto valore + 6 proiettili ROI.
+A - CTA verso la chiamata o l'applicazione, con urgenza etica.
+
+Include versioni emotive e razionali.`,
+  thumbnail: ""
+},
+{
+  id: "aida-042",
+  title: "AIDA per la sequenza di benvenuto a nuovi lead",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary:
+  "Prima sequenza che genera fiducia e sposta l'utente al passo successivo.",
+  prompt: `Dammi...
 - Nicho.
-- Lead magnet descargado.
-- Resultado que el usuario busca.
+- Magnete di piombo scaricato.
+- Risulta l'utente sta cercando.
 
-Genera 1 email completo AIDA:
-A — Asunto atractivo + 3 variaciones.
-I — Conexión emocional con el motivo que lo trajo.
-D — Beneficios de lo que recibirá y próximos pasos.
-A — CTA hacia comunidad, video, o contenido clave.
+Generare 1 email completa AIDA:
+A - Argomento attraente + 3 variazioni.
+I - Collegamento emotivo al movente che l'ha portato.
+D - Vantaggi di ciò che riceverete e i prossimi passi.
+A - CTA alla comunità, video o contenuti chiave.
 
-Incluye versión corta y larga.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-043",
-    title: "AIDA para anuncios de YouTube (skippable)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA optimizado para retener en los primeros 5 segundos.",
-    prompt: `Dame:
-- Producto o servicio.
-- Problema central.
-- Resultado prometido.
+Include una versione breve e lunga.`,
+  thumbnail: ""
+},
+{
+  id: "aida-043",
+  title: "AIDA per annunci di YouTube (skippable)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA ottimizzata per mantenere nei primi 5 secondi.",
+  prompt: `Dammi...
+- Prodotto o servizio.
+- Un problema centrale.
+- Promesso risultato.
 
-Genera un guion AIDA para YouTube Ads:
-A — Hook de 5 segundos para evitar skip.
-I — Conexión emocional + explicación del problema.
-D — Beneficios + mini caso real.
-A — CTA hablado + CTA visual.
+Genera uno script AIDA per YouTube Ads:
+A - Gancio di 5 secondi per evitare di saltare.
+I - Connessione emotiva + spiegazione dei problemi.
+D - Vantaggi + mini caso reale.
+A - CTA parlato + CTA visiva.
 
-Incluye 2 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-044",
-    title: "AIDA para guion de video animado",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy narrado para videos animados explicativos.",
-    prompt: `Dame:
-- Producto/servicio.
-- Público principal.
-- Beneficio clave.
+Include 2 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-044",
+  title: "AIDA per lo script video animato",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Una copia narrata per video animati esplicativi.",
+  prompt: `Dammi...
+- Prodotto / servizio.
+- Il pubblico principale.
+- Beneficio chiave.
 
-Genera guion AIDA:
-A — Narrativa de apertura con elemento visual llamativo.
-I — Explicación del problema con metáforas simples.
-D — Beneficios claros + demostración.
-A — CTA narrado.
+script Genera AIDA:
+A - Apertura narrativa con elemento visivo sorprendente.
+I - Spiegazione del problema con semplici metafore.
+D - Prestazioni chiare + dimostrazione.
+A-CTA narrato.
 
-Incluye versión de 30s y 60s.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-045",
-    title: "AIDA para video testimonial estilo documental",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Guion AIDA narrado por un cliente real.",
-    prompt: `Dame:
-- Historia del cliente.
-- Problema inicial.
-- Resultado logrado.
+Include la versione di 30 e 60.`,
+  thumbnail: ""
+},
+{
+  id: "aida-045",
+  title: "AIDA per lo stile documentario testimonial video",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Script AIDA narrato da un vero cliente.",
+  prompt: `Dammi...
+- Storia del cliente.
+- Problema iniziale.
+- Risultati raggiunti.
 
-Genera AIDA testimonial:
-A — Frase inicial real y humana.
-I — Explicación del antes.
-D — Transformación con datos y emociones.
-A — CTA hacia el producto o servicio.
+Un AIDA Testimonial:
+A - rana iniziale reale e umana.
+I - Spiegazione della prima.
+D - Trasformazione con dati ed emozioni.
+A - CTA verso il prodotto o il servizio.
 
-Incluye 2 versiones: emocional y profesional.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-046",
-    title: "AIDA para página de ventas de e-book",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Estructura AIDA para vender un e-book digital.",
-    prompt: `Dame:
-- Título del e-book.
-- Problema que resuelve.
-- 3 beneficios clave.
-
-Genera AIDA:
-A — Headline que hable del dolor inmediato.
-I — Explicación del problema con lenguaje simple.
-D — Beneficios + índice del e-book.
-A — CTA para comprar ahora.
-
-Incluye versión corta.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-047",
-    title: "AIDA para venta de cursos online",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para cursos grabados o en vivo.",
-    prompt: `Dame:
-- Nombre del curso.
-- Qué aprenderá el usuario.
-- Resultado final.
+Include 2 versioni: emozionale e professionale.`,
+  thumbnail: ""
+},
+{
+  id: "aida-046",
+  title: "AIDA per la pagina di vendita e-book",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Struttura AIDA per vendere un e-book digitale.",
+  prompt: `Dammi...
+- Titolo dell'e-book.
+- Problema che risolve.
+- 3 vantaggi chiave.
 
 Genera AIDA:
-A — Headline basado en transformación.
-I — Explica el problema real que evita avanzar.
-D — 6 beneficios + 3 módulos convertidos a bullets emocionales.
-A — CTA hacia inscripción.
+A - Headline per parlare di dolore immediato.
+I - Spiegazione del problema in lingua semplice.
+D - Benefici + indice e-book.
+- CTA da comprare.
 
-Incluye 3 hooks alternativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-048",
-    title: "AIDA para anuncios tipo carrusel",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA adaptado a carruseles de IG o FB.",
-    prompt: `Dame:
-- Producto/servicio.
-- Dolor principal.
-- Beneficio final.
+Include una versione breve.`,
+  thumbnail: ""
+},
+{
+  id: "aida-047",
+  title: "AIDA in vendita online",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per corsi registrati o live.",
+  prompt: `Dammi...
+- Nome del corso.
+- No. Ciò che l'utente imparerà.
+- Risultato finale.
 
-Genera AIDA dividido por láminas:
-A — Lámina 1: Hook.
-I — Lámina 2–3: Problema explicado.
-D — Lámina 4–5: Beneficios clave.
-A — Lámina 6: CTA.
+Genera AIDA:
+A-Headline basato sulla trasformazione.
+I - Spiega il vero problema che impedisce il progresso.
+D - 6 benefici + 3 moduli convertiti in proiettili emotivi.
+A - CTA verso la registrazione.
 
-Incluye textos alternos para cada lámina.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-049",
-    title: "AIDA para argumentar contra objeciones",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA para responder objeciones en ventas.",
-    prompt: `Dame:
-- Objeción.
-- Producto.
-- Beneficio clave.
+Include 3 ganci alternativi.`,
+  thumbnail: ""
+},
+{
+  id: "aida-048",
+  title: "AIDA per annunci di tipo carosello",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA adattata alla giostra IG o FB.",
+  prompt: `Dammi...
+- Prodotto / servizio.
+- Dolore principale.
+- Beneficio finale.
 
-Crea AIDA:
-A — Frase que reconoce la objeción.
-I — Explica su origen emocional.
-D — Beneficio que invalida la objeción.
-A — CTA.
+Azienda AIDA divisa da fogli:
+A - Foglio 1: gancio.
+I - Foglio 2-3: Problema spiegato.
+D - Tabella 4-5: Prestazioni chiave.
+A - Foglio 6: CTA.
 
-Incluye 3 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-050",
-    title: "AIDA para presentación de propuesta comercial",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para propuestas enviadas en PDF.",
-    prompt: `Dame:
-- Servicio.
-- Empresa objetivo.
-- Resultado esperado.
+Include testi alternativi per ogni foglio.`,
+  thumbnail: ""
+},
+{
+  id: "aida-049",
+  title: "AIDA per contestare obiezioni",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA per rispondere alle obiezioni di vendita.",
+  prompt: `Dammi...
+- Obiezione.
+- Prodotto.
+- Beneficio chiave.
 
-Genera AIDA para propuesta:
-A — Declaración de oportunidad perdida.
-I — Explicación del problema actual de la empresa.
-D — Beneficios del servicio con KPIs relevantes.
-A — CTA a reunión.
+Creare AIDA:
+A - Frasse che riconosce l'obiezione.
+I - Spiega la sua origine emotiva.
+D - Sono favorevole all'annullamento dell'obiezione.
+- CTA.
 
-Incluye versión corporativa.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-051",
-    title: "AIDA para Reels educativos que venden",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Convertir un Reel educativo en venta usando AIDA.",
-    prompt: `Dame:
+Include 3 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-050",
+  title: "AIDA per la presentazione di una proposta commerciale",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per le proposte inviate in PDF.",
+  prompt: `Dammi...
+- Servizio.
+- Compagnia di destinazione.
+- Esito previsto.
+
+AIDA per proposta:
+A - Dichiarazione di opportunità perse.
+I - Spiegazione del problema attuale della società.
+D - Vantaggi del servizio con KPI pertinenti.
+- CTA per l'incontro.
+
+Include una versione aziendale.`,
+  thumbnail: ""
+},
+{
+  id: "aida-051",
+  title: "AIDA per bobine educative che vendono",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Convertire un educativo Svolgiti in vendita utilizzando AIDA.",
+  prompt: `Dammi...
 - Tema educativo.
-- Producto relacionado.
-- Error común.
+- Prodotto correlato.
+- Errore comune.
 
 Genera AIDA:
-A — Hook educativo.
-I — Explica error típico.
-D — Beneficio del producto.
-A — CTA.
+A - gancio educativo.
+Io - spiega errore tipico.
+D - Benefici del prodotto.
+- CTA.
 
-Incluye 3 hooks.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-052",
-    title: "AIDA para copy persuasivo de WhatsApp Broadcast",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Mensajes masivos optimizados con AIDA.",
-    prompt: `Dame:
-- Tipo de oferta.
-- Público.
-- Beneficio clave.
+Include 3 ganci.`,
+  thumbnail: ""
+},
+{
+  id: "aida-052",
+  title: "AIDA per la copia persuasiva di WhatsApp Broadcast",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Messaggi di massa ottimizzati con AIDA.",
+  prompt: `Dammi...
+- Tipo di offerta.
+- Pubblico.
+- Beneficio chiave.
 
-Genera mensajes AIDA cortos:
-A — Llamada breve para abrir.
-I — Mini contexto.
-D — Beneficio directo.
-A — CTA.
+Genera brevi messaggi AIDA:
+A - Breve chiamata per aprire.
+contesto I-Mini.
+D - Vantaggio diretto.
+- CTA.
 
-Incluye 5 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-053",
-    title: "AIDA para ventas B2B via email frío",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Email AIDA para prospectos fríos corporativos.",
-    prompt: `Dame:
-- Servicio B2B.
-- Cargo del destinatario.
-- KPI clave que puedes mejorar.
-
-Genera AIDA:
-A — Línea inicial basada en pérdida o KPI negativo.
-I — Explica el problema operativo.
-D — Beneficios medibles.
-A — CTA a reunión o demo.
-
-Incluye versión corta (70 palabras).`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-054",
-    title: "AIDA para anuncios de retención (clientes activos)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para mantener clientes usando AIDA.",
-    prompt: `Dame:
-- Servicio.
-- Qué logro ya el cliente.
-- Qué viene ahora.
+Include 5 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-053",
+  title: "AIDA per le vendite B2B via e-mail fredda",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "AIDA per le prospettive aziendali fredde.",
+  prompt: `Dammi...
+- Servizio B2B.
+- Posizione del destinatario.
+- Chiave KPI che puoi migliorare.
 
 Genera AIDA:
-A — Hook celebrando progreso.
-I — Explica el riesgo de detenerse.
-D — Beneficios de continuar.
-A — CTA.
+A - Linea iniziale basata sulla perdita o KPI negativo.
+I - Spiegare il problema operativo.
+D - Prestazioni misurabili.
+A - CTA per incontrare o demo.
 
-Incluye 3 hooks adicionales.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-055",
-    title: "AIDA para aumentar apertura de emails",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Asuntos y primeras líneas usando AIDA.",
-    prompt: `Dame:
-- Tema del email.
-- Público.
-- Promesa.
+Include una versione breve (70 parole).`,
+  thumbnail: ""
+},
+{
+  id: "aida-054",
+  title: "AIDA per annunci di ritenzione (clienti attivi)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per mantenere i clienti utilizzando AIDA.",
+  prompt: `Dammi...
+- Servizio.
+- No. Che successo ha già fatto il cliente.
+- No. Sta arrivando.
+
+Genera AIDA:
+A-Hook celebra i progressi.
+I - Spiega il rischio di fermarsi.
+D - Benefici della continuità.
+- CTA.
+
+Include 3 ganci aggiuntivi.`,
+  thumbnail: ""
+},
+{
+  id: "aida-055",
+  title: "AIDA per aumentare l'apertura e-mail",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Problemi e prime righe utilizzando AIDA.",
+  prompt: `Dammi...
+- Tema email.
+- Pubblico.
+- Promesso.
 
 Genera:
-A — 5 asuntos.
-I — 3 primeras líneas.
-D — Mini-beneficio.
-A — CTA.
+A-5 conta.
+I-3 prime battute.
+D-Mini-profit.
+- CTA.
 
-Incluye 2 tonos: emocional y profesional.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-056",
-    title: "AIDA para chatbot de ventas",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA adaptado a flujos de chatbot.",
-    prompt: `Dame:
-- Producto/servicio.
-- Objeción típica.
-- Beneficio principal.
+Include 2 toni: emotivo e professionale.`,
+  thumbnail: ""
+},
+{
+  id: "aida-056",
+  title: "AIDA per le vendite chatbot",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA adattato ai flussi di chatbot.",
+  prompt: `Dammi...
+- Prodotto / servizio.
+- Obiezione tipica.
+- Principale vantaggio.
 
-Genera secuencia AIDA:
-A — Primera línea que atrapa.
-I — Pregunta que abre interés.
-D — Beneficio directo.
-A — CTA.
+Generare sequenza AIDA:
+A - Prima linea che cattura.
+I - Domanda che apre interesse.
+D - Vantaggio diretto.
+- CTA.
 
-Incluye versiones alternativas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-057",
-    title: "AIDA para scripts cortos estilo TikTok Live",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Scripts AIDA listos para usar en transmisiones rápidas.",
-    prompt: `Dame:
-- Producto.
-- Dolor principal.
-- Resultado.
+Include versioni alternative.`,
+  thumbnail: ""
+},
+{
+  id: "aida-057",
+  title: "AIDA per TikTok Live Short Script",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Script AIDA pronti per l'uso in trasmissioni veloci.",
+  prompt: `Dammi...
+- Prodotto.
+- Dolore principale.
+- Uscite.
 
-Genera AIDA para LIVE:
-A — Frase inicial para retener.
-I — Descripción del problema en vivo.
-D — Beneficios + micro prueba social.
-A — CTA.
+AIDA per LIVE:
+A - Frasse iniziale da mantenere.
+I - Descrizione del problema live.
+D - Vantaggi + micro test sociale.
+- CTA.
 
-Incluye 2 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-058",
-    title: "AIDA para contenido comparativo (Antes vs Después)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA para publicaciones ‘antes vs después’.",
-    prompt: `Dame:
-- Antes.
-- Después.
-- Producto.
-- Beneficio clave.
+Include 2 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-058",
+  title: "IDA per contenuti comparativi (Prima vs Dopo)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copiare AIDA per le pubblicazioni prima vs dopo '.",
+  prompt: `Dammi...
+- Prima.
+- A dopo.
+- Prodotto.
+- Beneficio chiave.
 
-Genera AIDA visual:
-A — Frase inicial basada en contraste.
-I — Explicación del antes.
-D — Explicación del después con beneficios.
-A — CTA.
+AIDA Visual Genera:
+A - Rana iniziale a base di contrasto.
+I - Spiegazione della prima.
+D - Dopo la spiegazione con benefici.
+- CTA.
 
-Incluye versión para post y story.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-059",
-    title: "AIDA para ofertas flash de 24 horas",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy urgente de ofertas rápidas.",
-    prompt: `Dame:
-- Oferta.
-- Tiempo exacto.
-- Beneficio clave.
-
-Genera AIDA:
-A — Hook agresivo.
-I — Mini contexto del por qué.
-D — Beneficios.
-A — CTA urgente + deadline.
-
-Incluye versión más suave.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-060",
-    title: "AIDA para contenido de autoridad personal",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "AIDA para posicionarte como experto.",
-    prompt: `Dame:
-- Tu rol.
-- Tu logro clave.
-- Qué vendes.
+Include la versione per post e storia.`,
+  thumbnail: ""
+},
+{
+  id: "aida-059",
+  title: "AIDA per offerte flash 24 ore su 24",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia rapida dell'offerta urgente.",
+  prompt: `Dammi...
+- Offerta.
+- Ora esatta.
+- Beneficio chiave.
 
 Genera AIDA:
-A — Frase inicial que establezca autoridad.
-I — Explica el problema desde expertise.
-D — Beneficios del producto con credibilidad.
-A — CTA lógico.
+- Uncino aggressivo.
+I - Mini contesto del perché.
+D - Benefici.
+A - CTA urgente + Deadline.
 
-Incluye 3 intros de autoridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-061",
-    title: "AIDA para páginas de venta con storytelling profundo",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA integrado con storytelling emocional de alto impacto.",
-    prompt: `Dame:
-- Historia central.
-- Producto.
-- Transformación.
+Include una versione più morbida.`,
+  thumbnail: ""
+},
+{
+  id: "aida-060",
+  title: "AIDA per il contenuto dell'autorità personale",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "AIDA per posizionarti come esperto.",
+  prompt: `Dammi...
+- Il tuo ruolo.
+- Il tuo successo chiave.
+- No. Che vendita.
 
 Genera AIDA:
-A — Hook narrativo potente.
-I — Desarrollo emocional del problema.
-D — Presenta la solución como clímax de la historia.
-A — CTA alineado al cierre narrativo.
+A - Forma iniziale per stabilire l'autorità.
+I - Spiega il problema dalla competenza.
+D - Vantaggi del prodotto con credibilità.
+A-CTA logica.
 
-Incluye versión larga.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-062",
-    title: "AIDA para anuncios tipo meme",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Convertir memes en anuncios persuasivos con AIDA.",
-    prompt: `Dame:
-- Producto.
-- Dolor principal.
-- Tipo de humor.
+Esso comprende 3 intra di autorità.`,
+  thumbnail: ""
+},
+{
+  id: "aida-061",
+  title: "AIDA per pagine di vendita con narrazione profonda",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA integrato con stoccaggio emotivo ad alto impatto.",
+  prompt: `Dammi...
+- Storia centrale.
+- Prodotto.
+- Trasformazione.
 
-Genera AIDA estilo meme:
-A — Hook con humor.
-I — Explica el problema de forma divertida.
-D — Beneficio directo.
-A — CTA claro.
+Genera AIDA:
+A - Uncino potente narrazione.
+I - Sviluppo emotivo del problema.
+D - Presenta la soluzione come culmine della storia.
+A - CTA allineato alla chiusura narrativa.
 
-Incluye 5 ideas de memes.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-063",
-    title: "AIDA para anuncios en LinkedIn Ads",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy profesional, directo y B2B usando AIDA.",
-    prompt: `Dame:
-- Servicio B2B.
-- Industria del cliente.
-- KPI crítico.
+Include una versione lunga.`,
+  thumbnail: ""
+},
+{
+  id: "aida-062",
+  title: "AIDA per annunci di tipo meme",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Convertire memes in annunci persuasivi con AIDA.",
+  prompt: `Dammi...
+- Prodotto.
+- Dolore principale.
+- Un po' umorismo.
 
-Genera AIDA profesional:
-A — Hook basado en datos o pérdida.
-I — Explica impacto actual.
-D — Beneficios cuantificables.
-A — CTA corporativa.
+Genera AIDA stile meme:
+A - Uncino di umore.
+Spiegare il problema in modo divertente.
+D - Vantaggio diretto.
+- CTA, certo.
 
-Incluye 2 versiones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-064",
-    title: "AIDA para creación de guiones de venta largos (3–5 minutos)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Guion largo de venta usando AIDA extendido.",
-    prompt: `Dame:
-- Producto.
-- Problema profundo.
-- Testimonio real.
+Include 5 idee meme.`,
+  thumbnail: ""
+},
+{
+  id: "aida-063",
+  title: "AIDA per annunci in Linked In annunci",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia professionale, diretta e B2B utilizzando AIDA.",
+  prompt: `Dammi...
+- Servizio B2B.
+- Industria clienti.
+- KPI critico.
 
-Genera AIDA largo:
-A — Frase inicial contundente.
-I — Explica el dolor con ejemplos reales.
-D — Beneficios + evidencia.
-A — CTA emocional.
+Azienda professionale AIDA:
+A - Gancio basato su dati o perdite.
+I - Spiega l'impatto attuale.
+D - Prestazioni quantificabili.
+A-CTA.
 
-Incluye 2 variantes.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-065",
-    title: "AIDA para contenido de autoridad científica",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy basado en datos, evidencia y lenguaje científico.",
-    prompt: `Dame:
-- Tema científico.
-- Producto.
-- Resultado medible.
+Include 2 versioni.`,
+  thumbnail: ""
+},
+{
+  id: "aida-064",
+  title: "AIDA per la creazione di script di vendita lunghi (3-5 minuti)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Lunga sceneggiatura di vendita utilizzando AIDA esteso.",
+  prompt: `Dammi...
+- Prodotto.
+- Un problema profondo.
+- Una vera testimonianza.
 
-Genera AIDA científico:
-A — Declaración basada en datos.
-I — Explicación del problema con evidencia.
-D — Beneficios con respaldo científico.
-A — CTA racional.
+Long AIDA:
+A - Schiuma iniziale.
+I - Spiega dolore con esempi reali.
+D - Benefici + prove.
+- CTA emotiva.
 
-Incluye versión para social media.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-066",
-    title: "AIDA para mensajes de retargeting estilo conversación real",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Retargeting basado en chat natural usando AIDA.",
-    prompt: `Dame:
-- Producto.
-- Objeción.
-- Beneficio.
+Include 2 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-065",
+  title: "AIDA per il contenuto delle autorità scientifiche",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia basata sui dati, prove e linguaggio scientifico.",
+  prompt: `Dammi...
+- Tema scientifico.
+- Prodotto.
+- Risultato misurabile.
 
-Genera mensajes AIDA estilo DM:
-A — Apertura conversacional.
-I — Identificación del problema.
-D — Beneficio claro.
-A — CTA suave.
+Una società AIDA scientifica:
+A - Dichiarazione basata sui dati.
+I - Spiegazione del problema con le prove.
+D - Benefici con sostegno scientifico.
+A-CTA razionale.
 
-Incluye 3 alternativas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-067",
-    title: "AIDA para copy de marca personal premium",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para posicionarte como mentor o experto de alto nivel.",
-    prompt: `Dame:
-- Tu área.
-- Logro clave.
-- Qué vendes.
+Include una versione per i social media.`,
+  thumbnail: ""
+},
+{
+  id: "aida-066",
+  title: "AIDA per il ritiro di stile messaggi di conversazione reali",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Retargeting basato su chat naturale utilizzando AIDA.",
+  prompt: `Dammi...
+- Prodotto.
+- Obiezione.
+- Bene.
 
-Genera AIDA premium:
-A — Declaración de autoridad.
-I — Dolor/frustración del cliente.
-D — Beneficios premium.
-A — CTA aspiracional.
+Genera messaggi in stile DM AIDA:
+A - Apertura conversazionale.
+I - Identificazione del problema.
+D - Un chiaro vantaggio.
+A-CTA morbido.
 
-Incluye versión larga.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-068",
-    title: "AIDA para anuncios minimalistas",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "AIDA usando pocas palabras y diseño limpio.",
-    prompt: `Dame:
-- Producto.
-- Dolor.
-- Beneficio final.
+Include 3 alternative.`,
+  thumbnail: ""
+},
+{
+  id: "aida-067",
+  title: "AIDA per la copia del marchio personale premium",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per posizionarti come mentore o esperto di alto livello.",
+  prompt: `Dammi...
+- La tua zona.
+- Un successo chiave.
+- No. Che vendita.
 
-Genera AIDA minimalista:
-A — Hook de 3–5 palabras.
-I — Problema breve.
-D — Beneficio directo.
-A — CTA simple.
+AIDA premium:
+A - Dichiarazione di autorità.
+I - Dolore del cliente / frustrazione.
+D - Prestazioni premium.
+A-CTA aspirazione.
 
-Incluye 5 hooks minimalistas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-069",
-    title: "AIDA para copy de infografías",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy corto visual para infografías de venta.",
-    prompt: `Dame:
-- Tema.
+Include una versione lunga.`,
+  thumbnail: ""
+},
+{
+  id: "aida-068",
+  title: "AIDA per annunci minimalisti",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "AIDA utilizzando poche parole e design pulito.",
+  prompt: `Dammi...
+- Prodotto.
+- Dolore.
+- Beneficio finale.
+
+Un AIDA minimalista:
+A - 3-5 parole Uncino.
+- Breve problema.
+D - Vantaggio diretto.
+A-CTA semplice.
+
+Include 5 ganci minimalisti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-069",
+  title: "AIDA per una copia infografica",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Breve copia visiva per infografica di vendita.",
+  prompt: `Dammi...
+- Soggetto.
 - Problema.
-- Beneficio.
+- Bene.
 
-Genera AIDA estructurado por bloques:
-A — Título.
-I — Descripción del problema.
-D — Beneficios en puntos.
-A — CTA visual.
+Azienda AIDA strutturata da blocchi:
+A - Titolo.
+I - Descrizione del problema.
+D - Vantaggi nei punti.
+A-CTA visiva.
 
-Incluye 3 diseños alternativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-070",
-    title: "AIDA para scripts de YT Shorts",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para videos verticales de 15–30 segundos.",
-    prompt: `Dame:
-- Producto.
-- Error común.
-- Resultado.
-
-Genera AIDA:
-A — Hook agresivo.
-I — Explicación breve del error.
-D — Beneficio clave.
-A — CTA corto.
-
-Incluye versión humorística.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-071",
-    title: "AIDA para landing page de productos físicos",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA para tiendas online con productos físicos.",
-    prompt: `Dame:
-- Producto.
-- Materiales.
-- Problema que resuelve.
+Include 3 disegni alternativi.`,
+  thumbnail: ""
+},
+{
+  id: "aida-070",
+  title: "AIDA per gli script YT Short",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per video verticali di 15-30 secondi.",
+  prompt: `Dammi...
+- Prodotto.
+- Errore comune.
+- Uscite.
 
 Genera AIDA:
-A — Headline fuerte.
-I — Explica el problema cotidiano.
-D — Beneficios + specs.
-A — CTA directo.
+- Uncino aggressivo.
+I - Una breve spiegazione dell'errore.
+D - Vantaggio chiave.
+A-CTA breve.
 
-Incluye 3 hooks.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-072",
-    title: "AIDA para anuncios de aplicaciones SaaS",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy SaaS B2C/B2B enfocado en eficiencia.",
-    prompt: `Dame:
-- Tipo de SaaS.
-- Problema que elimina.
-- Beneficio medible.
+Include una versione divertente.`,
+  thumbnail: ""
+},
+{
+  id: "aida-071",
+  title: "AIDA per l'atterraggio pagina dei prodotti fisici",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA per negozi online con prodotti fisici.",
+  prompt: `Dammi...
+- Prodotto.
+- Materiali.
+- Problema che risolve.
 
 Genera AIDA:
-A — Declaración de ineficiencia actual.
-I — Explica el impacto.
-D — Beneficios medibles.
-A — CTA a prueba gratis.
+A-Headline forte.
+I - Spiega il problema quotidiano.
+D - Benefici + specifiche.
+A-CTA diretto.
 
-Incluye versión ultra breve.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-073",
-    title: "AIDA para guiones de testimonials estilo entrevista",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Guion AIDA para entrevista de cliente.",
-    prompt: `Dame:
+Include 3 ganci.`,
+  thumbnail: ""
+},
+{
+  id: "aida-072",
+  title: "AIDA per gli annunci applicativi SaaS",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia SaaS B2C / B2B focalizzata sull'efficienza.",
+  prompt: `Dammi...
+- SaaS.
+- Problema che elimina.
+- Beneficio misurabile.
+
+Genera AIDA:
+A - Dichiarazione di inefficienza attuale.
+I - Spiegare l'impatto.
+D - Prestazioni misurabili.
+A - CTA gratis.
+
+Include una versione ultra breve.`,
+  thumbnail: ""
+},
+{
+  id: "aida-073",
+  title: "AIDA per gli script di testimoni in stile intervista",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Script AIDA per l'intervista al cliente.",
+  prompt: `Dammi...
 - Cliente.
-- Problema inicial.
-- Resultado final.
+- Problema iniziale.
+- Risultato finale.
 
 Genera AIDA:
-A — Pregunta de apertura fuerte.
-I — Exploración del problema.
-D — Beneficio explicado por el cliente.
-A — CTA hacia el producto.
+A - Una domanda di apertura forte.
+I - Esplorare il problema.
+D - Vantaggi spiegati dal cliente.
+A - CTA verso il prodotto.
 
-Incluye 5 preguntas extra.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-074",
-    title: "AIDA mixto educacional + venta",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Educa primero, vende después.",
-    prompt: `Dame:
+Include 5 domande extra.`,
+  thumbnail: ""
+},
+{
+  id: "aida-074",
+  title: "Educativo misto IDA + vendita",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Educare prima, vendere dopo.",
+  prompt: `Dammi...
 - Tema educativo.
-- Lección clave.
-- Producto relacionado.
+- Lezione chiave.
+- Prodotto correlato.
 
 Genera AIDA:
-A — Hook educativo.
-I — Explica el problema o error.
-D — Beneficio del producto.
-A — CTA.
+A - gancio educativo.
+I - Spiegare il problema o errore.
+D - Benefici del prodotto.
+- CTA.
 
-Incluye versión suave.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-075",
-    title: "AIDA para ventas por mensajes de texto SMS",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy optimizado para comunicación ultra breve.",
-    prompt: `Dame:
-- Oferta.
-- Tiempo disponible.
-- Beneficio.
+Include una versione morbida.`,
+  thumbnail: ""
+},
+{
+  id: "aida-075",
+  title: "AIDA per le vendite tramite SMS",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia ottimizzata per una comunicazione ultra breve.",
+  prompt: `Dammi...
+- Offerta.
+- Tempo disponibile.
+- Bene.
 
 Genera AIDA SMS:
-A — Hook de 5 palabras.
-I — Explicación mínima del valor.
-D — Beneficio directo.
-A — CTA.
+Un gancio di 5 parole.
+I - Spiegazione minima del valore.
+D - Vantaggio diretto.
+- CTA.
 
-Incluye 3 variaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-076",
-    title: "AIDA para anuncios tipo 'duelo' (comparativos)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Comparación directa entre 2 opciones usando AIDA.",
-    prompt: `Dame:
-- Opción A.
-- Opción B.
-- Beneficio contundente del producto.
-
-Genera AIDA:
-A — Contraste fuerte.
-I — Explica por qué la opción antigua falla.
-D — Beneficio del producto.
-A — CTA.
-
-Incluye versión tipo meme comparativo.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-077",
-    title: "AIDA para webinars evergreen",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA para webinars automatizados.",
-    prompt: `Dame:
-- Tema.
-- Duración.
-- Resultado.
+Include 3 varianti.`,
+  thumbnail: ""
+},
+{
+  id: "aida-076",
+  title: "AIDA per 'duel' (comparativo)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Confronto diretto tra 2 opzioni utilizzando AIDA.",
+  prompt: `Dammi...
+- Opzione A.
+- Opzione B.
+- Un forte vantaggio del prodotto.
 
 Genera AIDA:
-A — Headline evergreen.
-I — Explica el dolor atemporal.
-D — Beneficios del webinar.
-A — CTA para registrarse.
+A - Hai assunto duro.
+I - Spiega perché la vecchia opzione fallisce.
+D - Benefici del prodotto.
+- CTA.
 
-Incluye 3 versiones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-078",
-    title: "AIDA para ventas con storytelling épico",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy intenso, dramático y épico.",
-    prompt: `Dame:
-- Historia del héroe.
-- Obstáculo.
-- Transformación.
-
-Genera AIDA épico:
-A — Inicio dramático.
-I — Explica lucha interna y externa.
-D — Beneficios como victoria.
-A — CTA épico.
-
-Incluye versión comercial y narrativa.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-079",
-    title: "AIDA para contenido aspiracional femenino",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy elegante, emocional y empoderador.",
-    prompt: `Dame:
-- Nicho femenino.
-- Transformación deseada.
-- Obstáculo.
+Include una versione meme comparativa.`,
+  thumbnail: ""
+},
+{
+  id: "aida-077",
+  title: "AIDA per i webinar sempreverde",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA per webinar automatizzati.",
+  prompt: `Dammi...
+- Soggetto.
+- Durata.
+- Uscite.
 
 Genera AIDA:
-A — Frase aspiracional.
-I — Explica bloqueo interno.
-D — Beneficios desde el empoderamiento.
-A — CTA.
+A - Headline evergreen.
+Spiega il dolore senza tempo.
+D - Vantaggi del webinar.
+A - CTA da registrare.
 
-Incluye 3 hooks femeninos.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-080",
-    title: "AIDA para venta de suscripción mensual",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy AIDA para servicios tipo suscripción.",
-    prompt: `Dame:
-- Nombre de la suscripción.
-- Qué incluye.
-- Beneficio principal.
+Include 3 versioni.`,
+  thumbnail: ""
+},
+{
+  id: "aida-078",
+  title: "AIDA per le vendite con storytelling epic",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia intensa, drammatica ed epica.",
+  prompt: `Dammi...
+- Storia dell'eroe.
+- Ostacolo.
+- Trasformazione.
 
-Genera AIDA:
-A — Hook basado en hábito o repetición.
-I — Explica qué problema resuelve mes a mes.
-D — Beneficios + valor percibido.
-A — CTA mensual/anual.
+Genera AIDA epica:
+A - inizio drammatico.
+I - Spiega la lotta interna ed esterna.
+D - Vantaggi come vittoria.
+- Epic CTA.
 
-Incluye versión minimalista.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-081",
-    title: "AIDA para anuncios tipo problema–solución extremo",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy directo enfocándose en un problema crítico del usuario.",
-    prompt: `Dame:
-- El problema extremo.
-- El producto o solución.
-- Beneficio inmediato.
-
-Genera AIDA:
-A — Hook que exagere el dolor real (sin clichés).
-I — Profundiza en la emoción detrás del problema.
-D — Solución y beneficios concretos.
-A — CTA fuerte con urgencia.
-
-Incluye 2 variaciones intensas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-082",
-    title: "AIDA para secuencia de mensajes para calentar leads fríos",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Secuencia tipo DM para convertir leads fríos en interesados.",
-    prompt: `Dame:
-- Producto.
-- Tipo de lead.
-- Beneficio clave.
-
-Genera secuencia AIDA:
-A — Mensaje inicial que genera curiosidad.
-I — Pregunta que crea interés genuino.
-D — Beneficio explicado con claridad.
-A — CTA suave a un siguiente paso.
-
-Incluye 2 secuencias alternativas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-083",
-    title: "AIDA para emails de venta de alto ticket",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy premium para ofertas costosas.",
-    prompt: `Dame:
-- Servicio de alto ticket.
-- Transformación profunda.
-- Objeción mayor.
+Include una versione commerciale e narrativa.`,
+  thumbnail: ""
+},
+{
+  id: "aida-079",
+  title: "AIDA per contenuti aspirazione femminile",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia elegante, emotiva e potente.",
+  prompt: `Dammi...
+- Nicchia femminile.
+- Trasformazione desiderata.
+- Ostacolo.
 
 Genera AIDA:
-A — Declaración aspiracional fuerte.
-I — Explica el dolor y la realidad actual.
-D — Beneficios profundos + autoridad.
-A — CTA hacia llamada o aplicación.
+A - Frase Aspirazionale.
+I - Spiega blocco interno.
+D - Vantaggi dell'empowerment.
+- CTA.
 
-Incluye versión larga (400 palabras).`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-084",
-    title: "AIDA para videos de storytelling educativo",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Explicación educativa + venta.",
-    prompt: `Dame:
+Include 3 ganci femminili.`,
+  thumbnail: ""
+},
+{
+  id: "aida-080",
+  title: "AIDA in vendita abbonamenti mensili",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia AIDA per i servizi tipo di abbonamento.",
+  prompt: `Dammi...
+- Nome dell'abbonamento.
+- No. Che cosa include.
+- Principale vantaggio.
+
+Genera AIDA:
+A - Gancio basato su abitudine o ripetizione.
+I - Spiegare quale problema risolve mese per mese.
+D - Vantaggi + valore percepito.
+A - CTA mensile / annuale.
+
+Include una versione minimalista.`,
+  thumbnail: ""
+},
+{
+  id: "aida-081",
+  title: "AIDA per annunci di tipo di problema - soluzione estrema",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia diretta focalizzata su un problema di utente critico.",
+  prompt: `Dammi...
+- Il problema estremo.
+- Il prodotto o la soluzione.
+- Benefico subito.
+
+Genera AIDA:
+A - Uncino che esagera il dolore reale (senza cliché).
+I - approfondisce l'emozione dietro il problema.
+D - Soluzione e vantaggi concreti.
+A - CTA forte come questione di urgenza.
+
+Include 2 intense variazioni.`,
+  thumbnail: ""
+},
+{
+  id: "aida-082",
+  title: "AIDA per la sequenza di messaggi per riscaldare i cavi freddi",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Sequenza di tipo DM per rendere le piste fredde interessate.",
+  prompt: `Dammi...
+- Prodotto.
+- Tipo di piombo.
+- Beneficio chiave.
+
+Generare sequenza AIDA:
+A - Messaggio iniziale che genera curiosità.
+I - Domanda che crea un vero interesse.
+D - Benefit spiegato chiaramente.
+A-CTA morbido a un passo successivo.
+
+Include 2 sequenze alternative.`,
+  thumbnail: ""
+},
+{
+  id: "aida-083",
+  title: "AIDA per le email di vendita dei biglietti",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia Premium per offerte costose.",
+  prompt: `Dammi...
+- Servizio di biglietto alto.
+- Una profonda trasformazione.
+- Obiezione importante.
+
+Genera AIDA:
+A - Forte dichiarazione aspirazione.
+I - Spiega il dolore e la realtà attuale.
+D - Vantaggi profondi + autorità.
+A - CTA verso chiamata o applicazione.
+
+Include una versione lunga (400 parole).`,
+  thumbnail: ""
+},
+{
+  id: "aida-084",
+  title: "AIDA per video di narrazione educativa",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Spiegazione educativa + vendita.",
+  prompt: `Dammi...
 - Tema educativo.
-- Producto relacionado.
-- Resultado buscado.
+- Prodotto correlato.
+- Risultato ricercato.
 
 Genera AIDA:
-A — Story hook.
-I — Explicación clara del error común.
-D — Beneficios del producto.
-A — CTA de aprendizaje o compra.
+Un buco della storia.
+I - Cancella spiegazione dell'errore comune.
+D - Vantaggi del prodotto.
+A - CTA di apprendimento o di acquisto.
 
-Incluye 3 intros narrativas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-085",
-    title: "AIDA para copy con tono humorístico",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "AIDA con humor ligero o humor negro.",
-    prompt: `Dame:
-- Producto.
-- Tipo de humor.
-- Objeto del chiste (problema real).
+Include 3 narrazioni intra.`,
+  thumbnail: ""
+},
+{
+  id: "aida-085",
+  title: "AIDA per copia con tono umoristico",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "AIDA con umorismo leggero o umorismo nero.",
+  prompt: `Dammi...
+- Prodotto.
+- Un po' umorismo.
+- Oggetto della battuta (problema reale).
 
-Genera AIDA humorístico:
-A — Hook gracioso.
-I — Explica el problema de manera irónica.
-D — Beneficio con remate cómico.
-A — CTA divertido.
+Genera AIDA humística:
+- Uncino divertente.
+I - Spiegare il problema ironicamente.
+D - Sono favorevole all'accordo comico.
+A-CTA divertente.
 
-Incluye 5 alternativas cómicas.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-086",
-    title: "AIDA para venta basada en estadísticas reales",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy usando números para persuadir.",
-    prompt: `Dame:
-- Estadística relevante.
-- Producto.
-- Beneficio medible.
-
-Genera AIDA:
-A — Declaración numérica impactante.
-I — Explica la relevancia del dato.
-D — Beneficios con KPI real.
-A — CTA racional.
-
-Incluye versión profesional y casual.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-087",
-    title: "AIDA para anuncios de YouTube (TrueView, In-stream)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para capturar atención en los primeros 5 segundos.",
-    prompt: `Dame:
-- Producto.
-- Dolor principal.
-- Beneficio final.
+Include 5 alternative comice.`,
+  thumbnail: ""
+},
+{
+  id: "aida-086",
+  title: "AIDA in vendita sulla base di statistiche reali",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia usando i numeri per persuadere.",
+  prompt: `Dammi...
+- Statistiche rilevanti.
+- Prodotto.
+- Beneficio misurabile.
 
 Genera AIDA:
-A — Hook para primeros 3–5 segundos.
-I — Profundiza el dolor.
-D — Beneficio explicado en 1–2 frases.
-A — CTA visual + verbal.
+A - dichiarazione numerica scioccante.
+I - Spiega la pertinenza dei dati.
+D - Real KPI benefici.
+A-CTA razionale.
 
-Incluye versión agresiva y versión suave.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-088",
-    title: "AIDA para copy basado en micro-historias",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy narrativo ultracorto.",
-    prompt: `Dame:
-- Micro historia real o ficticia.
-- Producto.
-- Resultado.
-
-Genera AIDA:
-A — Inicio narrativo fuerte.
-I — Problema dentro de la historia.
-D — Solución del producto.
-A — CTA emocional.
-
-Incluye 3 microhistorias.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-089",
-    title: "AIDA para cartas de venta largas (VSL Copy Script)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Script extenso estilo carta de venta.",
-    prompt: `Dame:
-- Producto.
-- Dolor profundo.
-- Transformación.
-
-Genera AIDA extendido:
-A — Historia inicial fuerte.
-I — Explica el dolor con claridad psicológica.
-D — Beneficios intensos + prueba social.
-A — CTA repetido 3 veces en el texto.
-
-Incluye versión de 700 palabras.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-090",
-    title: "AIDA para copy de oferta irresistible (Grand Slam Offer)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para presentar ofertas irresistibles.",
-    prompt: `Dame:
-- Oferta.
-- Beneficio extremo.
-- Bonus incluidos.
+Include versione professionale e casual.`,
+  thumbnail: ""
+},
+{
+  id: "aida-087",
+  title: "AIDA per annunci di YouTube (TrueView, In-stream)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per catturare l'attenzione nei primi 5 secondi.",
+  prompt: `Dammi...
+- Prodotto.
+- Dolore principale.
+- Beneficio finale.
 
 Genera AIDA:
-A — Hook ultra atractivo.
-I — Explica por qué la oferta existe.
-D — Beneficios + bonus enumerados.
-A — CTA con urgencia ética.
+Hook per i primi 3-5 secondi.
+Io - approfondisce il dolore.
+D - Beneficio spiegato in 1-2 frasi.
+A - CTA visiva + verbale.
 
-Incluye 3 hooks explosivos.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-091",
-    title: "AIDA para anuncios tipo ‘antes y después’",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy visual basado en transformación clara.",
-    prompt: `Dame:
-- Antes.
-- Después.
-- Producto.
+Include versione aggressiva e versione morbida.`,
+  thumbnail: ""
+},
+{
+  id: "aida-088",
+  title: "AIDA per la copia micro-basata - storie",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia narrativa Ultracorto.",
+  prompt: `Dammi...
+- Micro storia reale o fittizio.
+- Prodotto.
+- Uscite.
 
 Genera AIDA:
-A — Contraste directo.
-I — Explicación del problema inicial.
-D — Beneficio del producto.
-A — CTA orientado al cambio.
+A - Forte inizio narrativo.
+I - Problema nella storia.
+D - Soluzione di prodotto.
+- CTA emotiva.
 
-Incluye versión emocional y racional.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-092",
-    title: "AIDA para casos de estudio en formato narrativo",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Convierte un case study en un AIDA perfecto.",
-    prompt: `Dame:
+Include 3 microstorie.`,
+  thumbnail: ""
+},
+{
+  id: "aida-089",
+  title: "AIDA per lunghe lettere di vendita (VSL Copy Script)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Ampio script in stile lettera-di-vendita.",
+  prompt: `Dammi...
+- Prodotto.
+- Dolore profondo.
+- Trasformazione.
+
+AIDA Genera Esteso:
+A - Forte storia iniziale.
+I - Spiega dolore con chiarezza psicologica.
+D - Vantaggi intensivi + test sociale.
+A - CTA ripetuto 3 volte nel testo.
+
+Include una versione di 700 parole.`,
+  thumbnail: ""
+},
+{
+  id: "aida-090",
+  title: "AIDA per una copia di offerta irresistibile (Grand Slam Offer)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per presentare offerte irresistibili.",
+  prompt: `Dammi...
+- Offerta.
+- Ottimo.
+- Bonus incluso.
+
+Genera AIDA:
+A-Hook ultra attraente.
+I - Spiegare perché esiste l'offerta.
+D - Vantaggi + bonus elencati.
+A - CTA con un'urgenza etica.
+
+Include 3 ganci esplosivi.`,
+  thumbnail: ""
+},
+{
+  id: "aida-091",
+  title: "AIDA per annunci tipo 'prima e dopo '",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia visiva basata sulla chiara trasformazione.",
+  prompt: `Dammi...
+- Prima.
+- A dopo.
+- Prodotto.
+
+Genera AIDA:
+A - Ha contratto direttamente.
+I - Spiegazione del problema iniziale.
+D - Benefici del prodotto.
+A - CTA orientata al cambiamento.
+
+Include versione emotiva e razionale.`,
+  thumbnail: ""
+},
+{
+  id: "aida-092",
+  title: "AIDA per casi di studio in formato narrativo",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Diventa un caso studio in un perfetto IDA.",
+  prompt: `Dammi...
 - Cliente.
 - Problema.
-- Resultado.
+- Uscite.
 
 Genera AIDA:
-A — Declaración del resultado.
-I — Explica el contexto del problema.
-D — Beneficios logrados.
-A — CTA hacia el servicio/producto.
+A - Dichiarazione di risultato.
+I - Spiega il contesto del problema.
+D - Vantaggi raggiunti.
+A - CTA verso servizio / prodotto.
 
-Incluye 2 formatos: largo y corto.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-093",
-    title: "AIDA para venta de cursos online",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy persuasivo orientado a educación digital.",
-    prompt: `Dame:
-- Nombre del curso.
-- Resultado final.
-- Dolor del estudiante.
-
-Genera AIDA:
-A — Hook educativo.
-I — Describe el error que cometen.
-D — Beneficios + módulos.
-A — CTA fuerte.
-
-Incluye 3 headlines.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-094",
-    title: "AIDA para anuncios con promesas fuertes (sin caer en humo)",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Promesas potentes y éticas.",
-    prompt: `Dame:
-- Resultado real.
-- Tiempo promedio.
-- Limitaciones.
+Include 2 formati: lunghi e brevi.`,
+  thumbnail: ""
+},
+{
+  id: "aida-093",
+  title: "AIDA in vendita online",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia inpersuasiva orientata all'educazione digitale.",
+  prompt: `Dammi...
+- Nome del corso.
+- Risultato finale.
+- Dolore agli studenti.
 
 Genera AIDA:
-A — Hook fuerte pero realista.
-I — Explica el porqué del problema.
-D — Presenta beneficios sin exagerar.
-A — CTA sincero.
+A - gancio educativo.
+Descrivi l'errore che fanno.
+D - Vantaggi + moduli.
+A-CTA forte.
 
-Incluye versión ética y versión aspiracional.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-095",
-    title: "AIDA para copy de productos de bienestar y salud",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy emocional y empático para wellness.",
-    prompt: `Dame:
-- Producto.
-- Problema de salud/emocional.
-- Resultado.
-
-Genera AIDA suave:
-A — Declaración empática.
-I — Explica el malestar actual.
-D — Beneficios suaves y realistas.
-A — CTA sin presión.
-
-Incluye 2 tonos: calmado y profesional.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-096",
-    title: "AIDA para secuencias de follow-up post webinar",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para seguir calentando leads después de un webinar.",
-    prompt: `Dame:
-- Tema del webinar.
-- Oferta presentada.
-- Objeción mayor.
+Include 3 titoli.`,
+  thumbnail: ""
+},
+{
+  id: "aida-094",
+  title: "AIDA per annunci con forti promesse (non in fumo)",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Promesse potenti ed etiche.",
+  prompt: `Dammi...
+- Un vero risultato.
+- Tempo medio.
+- Limitazioni.
 
 Genera AIDA:
-A — Recordatorio del principal learning.
-I — Explica la objeción con empatía.
-D — Beneficio + prueba social.
-A — CTA hacia la oferta.
+A - Uncino forte ma realistico.
+Spiegare perché il problema.
+D - Ha benefici non esagerati.
+A-CTA sincera.
 
-Incluye 3 emails.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-097",
-    title: "AIDA para venta de servicios uno a uno",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy persuasivo para servicios personalizados.",
-    prompt: `Dame:
-- Tipo de servicio.
-- Transformación.
-- Cliente ideal.
+Include versioni etiche e ambiziose.`,
+  thumbnail: ""
+},
+{
+  id: "aida-095",
+  title: "AIDA per la copia dei prodotti per il benessere e la salute",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia emotiva ed empatica per il benessere.",
+  prompt: `Dammi...
+- Prodotto.
+- Salute / problema emotivo.
+- Uscite.
 
-Genera AIDA:
-A — Headline aspiracional.
-I — Explica el problema del cliente ideal.
-D — Beneficios del servicio.
-A — CTA para agendar llamada.
+Soft AIDA:
+A - Dichiarazione empatica.
+I - Spiega il disagio attuale.
+D - Vantaggi morbidi e realistici.
+A-CTA senza pressione.
 
-Incluye 3 versiones.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-098",
-    title: "AIDA para copy basado en deseo/aspiración futura",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para vender identidad futura.",
-    prompt: `Dame:
-- Identidad deseada.
-- Obstáculo.
-- Resultado.
-
-Genera AIDA aspiracional:
-A — Visión futura.
-I — Explica el bloqueo interno.
-D — Presenta beneficios como transformación personal.
-A — CTA hacia esa identidad.
-
-Incluye versión motivacional.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-099",
-    title: "AIDA para anuncios de productos de lujo",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy elegante, premium y emocional.",
-    prompt: `Dame:
-- Producto de lujo.
-- Valor simbólico.
-- Cliente ideal.
-
-Genera AIDA premium:
-A — Hook sofisticado.
-I — Explica el significado del producto.
-D — Beneficios emocionales y de estatus.
-A — CTA premium.
-
-Incluye 3 estilos: lujo clásico, moderno, exclusivo.`,
-    thumbnail: "",
-  },
-  {
-    id: "aida-100",
-    title: "AIDA para super ofertas de lanzamiento",
-    area: "Copywriting Profesional",
-    category: "AIDA",
-    summary: "Copy para lanzamiento inicial con fuerte incentivo.",
-    prompt: `Dame:
-- Oferta de lanzamiento.
-- Tiempo limitado.
-- Beneficio estrella.
+Include 2 toni: calma e professionale.`,
+  thumbnail: ""
+},
+{
+  id: "aida-096",
+  title: "AIDA per le sequenze di follow-up post webinar",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia per mantenere i cavi di riscaldamento dopo un webinar.",
+  prompt: `Dammi...
+- Tema del sito web.
+- Offerta presentata.
+- Obiezione importante.
 
 Genera AIDA:
-A — Hook potente.
-I — Explica por qué es el momento perfecto.
-D — Beneficios + bonus.
-A — CTA urgente.
+A - Mittente dell'apprendimento principale.
+I - Spiega l'obiezione con l'empatia.
+D - Benefit + test sociale.
+A - CTA verso l'offerta.
 
-Incluye versión corta y larga.`,
-    thumbnail: "",
-  },
-];
+Include 3 e-mail.`,
+  thumbnail: ""
+},
+{
+  id: "aida-097",
+  title: "AIDA per la vendita di servizi uno per uno",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia persuasiva per servizi personalizzati.",
+  prompt: `Dammi...
+- Tipo di servizio.
+- Trasformazione.
+- Un cliente ideale.
+
+Genera AIDA:
+A - titolo respiratorio.
+I - Spiega il problema del cliente ideale.
+D - Vantaggi del servizio.
+A - CTA per programmare la chiamata.
+
+Include 3 versioni.`,
+  thumbnail: ""
+},
+{
+  id: "aida-098",
+  title: "AIDA per copia basata sul futuro desiderio / aspirazione",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Cope per vendere l'identità futura.",
+  prompt: `Dammi...
+- L'identità desiderata.
+- Ostacolo.
+- Uscite.
+
+AIDA gene aspirazione:
+A - Visione futura.
+I - Spiega la serratura interna.
+D - Ha benefici come trasformazione personale.
+A - CTA verso quell'identità.
+
+Include una versione motivazionale.`,
+  thumbnail: ""
+},
+{
+  id: "aida-099",
+  title: "AIDA per annunci di prodotti di lusso",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia elegante, premium ed emotiva.",
+  prompt: `Dammi...
+- Prodotto di lusso.
+- Valore simbolico.
+- Un cliente ideale.
+
+AIDA premium:
+A-Hook sofisticato.
+I - Spiega il significato del prodotto.
+D - Prestazioni emotive e di stato.
+A-CTA premium.
+
+Include 3 stili: classico, moderno, lusso esclusivo.`,
+  thumbnail: ""
+},
+{
+  id: "aida-100",
+  title: "AIDA per offerte di lancio super",
+  area: "Copyright professionale",
+  category: "IDA",
+  summary: "Copia di rilascio iniziale con forte incentivo.",
+  prompt: `Dammi...
+- Offerta di lancio.
+- Tempo limitato.
+- Benefico la stella.
+
+Genera AIDA:
+A-Hook potente.
+Spiega perche' e' il momento perfetto.
+D - Vantaggi + bonus.
+A-CTA urgente.
+
+Include una versione breve e lunga.`,
+  thumbnail: ""
+}];

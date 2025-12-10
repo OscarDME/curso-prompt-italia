@@ -1,746 +1,745 @@
 export const textPromptsEduExplicacionesSimples = [
-  {
-    id: "edu-simple-001",
-    title: "Explicación simple de un concepto complejo",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary:
-      "Convierte un concepto difícil en una explicación súper clara, para principiantes totales.",
-    prompt: `Dame:
-- Concepto complejo.
-- Nivel del lector (niño, adolescente, adulto sin base, principiante).
-- Ejemplo del contexto donde lo usaría.
+{
+  id: "edu-simple-001",
+  title: "Semplice spiegazione di un concetto complesso",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary:
+  "Diventa un concetto difficile in una spiegazione super chiara per principianti totali.",
+  prompt: `Dammi...
+- Un concetto complesso.
+- Livello di lettore (bambino, adolescente, adulto senza base, principiante).
+- Esempio del contesto in cui lo userei.
 
 Genera:
-1) Explicación en lenguaje extremadamente simple.
-2) Una metáfora fácil de recordar.
-3) Un ejemplo práctico.
-4) Una mini prueba de 3 preguntas para verificar comprensión.`,
-    thumbnail: "",
-  },
+1) Spiegazione in lingua estremamente semplice.
+2) Una metafora facile da ricordare.
+3) Un esempio pratico.
+4) Un mini test di 3 domande per verificare la comprensione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-002",
-    title: "Explicar un tema escolar con ejemplos cotidianos",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary:
-      "Convierte temas escolares en explicaciones basadas en cosas de la vida diaria.",
-    prompt: `Dame:
-- Tema escolar (matemática, biología, geografía, etc.).
-- Edad del estudiante.
-- Situación de la vida cotidiana para usar como analogía.
-
-Genera:
-1) Explicación simple.
-2) Metáfora basada en la vida del estudiante.
-3) Ejemplo super concreto.
-4) Actividad de práctica de 2 pasos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-003",
-    title: "Explicar un concepto con dibujos imaginarios",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Usa imágenes visuales para ayudar a entender un tema difícil.",
-    prompt: `Dame:
-- Concepto.
-- Tipo de dibujos que prefieres (bonitos, divertidos, minimalistas).
-- Nivel del lector.
+{
+  id: "edu-simple-002",
+  title: "Spiegare un tema scolastico con esempi quotidiani",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary:
+  "Trasformare i problemi della scuola in spiegazioni basate sulle cose della vita quotidiana.",
+  prompt: `Dammi...
+- Tema scolastico (matematica, biologia, geografia, ecc.).
+- Eta' degli studenti.
+- Situazione della vita quotidiana da utilizzare come analogia.
 
 Genera:
-1) Explicación simple.
-2) Explicación visual usando descripciones de dibujos.
-3) Un paso a paso para recordarlo.
-4) Mini prueba de 2 preguntas.`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione.
+2) Una metafora basata sulla vita.
+3) Esempio di calcestruzzo eccellente.
+4) attività di pratica a 2 fasi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-004",
-    title: "Explicar un proceso científico para niños",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Explicación infantil de un proceso científico, sin perder rigor.",
-    prompt: `Dame:
-- Proceso científico.
-- Edad del niño.
-- Elementos que le gustan (dinosaurs, cohetes, animales, magia).
-
-Genera:
-1) Explicación tipo cuento.
-2) Comparación con algo del mundo del niño.
-3) Dibujo imaginario.
-4) Mini actividad para reforzar el aprendizaje.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-005",
-    title: "Explicar matemáticas con ejemplos visuales",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary:
-      "Convierte un concepto matemático en algo visual, tangible y fácil.",
-    prompt: `Dame:
-- Concepto matemático.
-- Nivel.
-- Objeto real para usar como ejemplo (manzanas, bloques, monedas, etc.).
+{
+  id: "edu-simple-003",
+  title: "Spiegare un concetto con disegni immaginari",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Utilizzare immagini visive per aiutarti a capire un soggetto difficile.",
+  prompt: `Dammi...
+- Concetto.
+- Tipo di disegni che preferisci (bello, divertente, minimalista).
+- Livello del lettore.
 
 Genera:
-1) Explicación clara.
-2) Representación visual descrita.
-3) Ejemplo numérico.
-4) Ejercicio guiado de 2 pasos.`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione.
+2) spiegazione visiva utilizzando descrizioni dei disegni.
+3) Un passo dopo passo per ricordarlo.
+4) Mini test di 2 domande.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-006",
-    title: "Explicar historia como si fuera una película",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Explicación narrativa, emocionante y fácil de recordar.",
-    prompt: `Dame:
-- Evento histórico.
-- Personaje clave.
-- Tono (épico, dramático, divertido).
-
-Genera:
-1) Explicación simple.
-2) Narración estilo película.
-3) Línea del tiempo ultra simple.
-4) 2 preguntas para revisar comprensión.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-007",
-    title: "Explicación simple de cualquier fórmula",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary:
-      "Desarma fórmulas complicadas y explícalas como si fueran recetas.",
-    prompt: `Dame:
-- Fórmula.
-- Para qué sirve.
-- Nivel del lector.
+{
+  id: "edu-simple-004",
+  title: "Spiegare un processo scientifico per i bambini",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "La spiegazione dei bambini di un processo scientifico, senza perdere rigore.",
+  prompt: `Dammi...
+- Processo scientifico.
+- Età del bambino.
+- Elementi che ti piacciono (dinosauri, razzi, animali, magia).
 
 Genera:
-1) Explicación en lenguaje fácil.
-2) “Receta” de pasos.
-3) Ejemplo real.
-4) Ejercicio para practicar.`,
-    thumbnail: "",
-  },
+1) Tipo di spiegazione di tale.
+2) Confronto con qualcosa del mondo del bambino.
+3) Disegno immaginario.
+4) Mini attività per rafforzare l'apprendimento.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-008",
-    title: "Explicar tecnología como si fuera magia",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Convierte un concepto tecnológico en una metáfora mágica.",
-    prompt: `Dame:
-- Tecnología (IA, nube, blockchain, etc.).
-- Tipo de magia (hechizos, criaturas, hadas, pociones).
-- Nivel del público.
-
-Genera:
-1) Explicación mágica.
-2) Comparación realista.
-3) Ejemplo claro.
-4) Mini actividad práctica.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-009",
-    title: "Explicar conceptos de salud sin términos médicos",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Explicación para gente sin base médica.",
-    prompt: `Dame:
-- Tema de salud.
-- Edad del lector.
-- Qué quiere entender realmente.
+{
+  id: "edu-simple-005",
+  title: "Spiegare la matematica con esempi visivi",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary:
+  "Si trasforma un concetto matematico in qualcosa di visivo, tangibile e facile.",
+  prompt: `Dammi...
+- Concetto matematico.
+- Livello.
+- Oggetto reale da utilizzare come esempio (applicazioni, blocchi, monete, ecc.).
 
 Genera:
-1) Explicación clara y humana.
-2) Metáfora muy simple.
-3) Ejemplo cotidiano.
-4) Reglas fáciles para recordarlo.`,
-    thumbnail: "",
-  },
+(1) Cancella spiegazione.
+2) Rappresentazione visiva descritta.
+3) Esempio numerico.
+4) esercizio guidato di 2 fasi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-010",
-    title: "Explicar economía con ejemplos del hogar",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Economía para personas sin base financiera.",
-    prompt: `Dame:
-- Concepto económico.
-- Tipo de hogar (familia, estudiante, adulto solo).
-- Contexto (gastos, ahorros, compras).
-
-Genera:
-1) Explicación simple.
-2) Analogía del hogar.
-3) Ejemplo realista.
-4) Mini ejercicio práctico.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-011",
-    title: "Explicar programación sin código",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Conceptos de programación explicados con objetos reales.",
-    prompt: `Dame:
-- Concepto (variables, loops, clases, condiciones, etc.).
-- Objeto cotidiano para usar como analogía.
-- Nivel de la persona.
+{
+  id: "edu-simple-006",
+  title: "Spiega la storia come un film",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Una spiegazione narrativa, emozionante e facile da ricordare.",
+  prompt: `Dammi...
+- Evento storico.
+- Carattere chiave.
+- Tono (epico, drammatico, divertente).
 
 Genera:
-1) Explicación simple.
-2) Ejemplo físico.
-3) Metáfora divertida.
-4) Mini prueba de 2 preguntas.`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione.
+2) Narration film style.
+3) Linea di tempo ultra semplice.
+4) 2 domande per rivedere la comprensione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-012",
-    title: "Explicar física usando juguetes",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Convierte física en algo tangible.",
-    prompt: `Dame:
-- Tema de física.
-- Tipo de juguete (carros, pelotas, bloques).
-- Edad.
-
-Genera:
-1) Explicación clara.
-2) Ejemplo usando el juguete.
-3) Actividad para reproducir el concepto.
-4) 1 truco para recordarlo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-013",
-    title: "Explicar química como si fuera cocina",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Usa la cocina como analogía para química.",
-    prompt: `Dame:
-- Tema de química.
-- Tipo de cocina (casera, postres, parrilla).
-- Nivel del lector.
+{
+  id: "edu-simple-007",
+  title: "Semplice spiegazione di qualsiasi formula",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary:
+  "Disarmare formule complicate e spiegarle come se fossero ricette.",
+  prompt: `Dammi...
+- Formula.
+- No. A che serve?
+- Livello del lettore.
 
 Genera:
-1) Explicación simple.
-2) Comparación culinaria.
-3) Ejemplo.
-4) Pequeña actividad segura.`,
-    thumbnail: "",
-  },
+1) Facile spiegazione della lingua.
+2) "Recipe" dei passi.
+(3) Esempio reale.
+4) esercitazione pratica.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-014",
-    title: "Explicar geografía como si el mundo fuera una casa",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Conecta geografía con espacios familiares.",
-    prompt: `Dame:
-- Tema de geografía.
-- Tipo de casa (apto, casa de 2 pisos, rancho).
-- Edad del lector.
-
-Genera:
-1) Explicación simple.
-2) Analogía con habitaciones.
-3) Ejemplo concreto.
-4) Mini mapa mental.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-015",
-    title: "Explicar biología con personajes animados",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Convierte células, órganos o procesos en personajes.",
-    prompt: `Dame:
-- Tema de biología.
-- Estilo de personajes (tiernos, héroes, caricaturas).
-- Edad del lector.
+{
+  id: "edu-simple-008",
+  title: "Spiegare la tecnologia come se fosse magia",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Trasforma un concetto tecnologico in una metafora magica.",
+  prompt: `Dammi...
+- Tecnologia (IA, cloud, blockchain, ecc.).
+- Tipo di magia (pell, creature, fate, pozioni).
+- A livello pubblico.
 
 Genera:
-1) Explicación simple.
-2) Personajes con roles.
-3) Micro historia divertida.
-4) Conclusión fácil de recordar.`,
-    thumbnail: "",
-  },
+1) spiegazione magica.
+(2) Confronto realistico.
+(3) Esempio chiaro.
+4) Mini attività pratica.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-016",
-    title: "Explicar filosofía en lenguaje claro",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Transforma ideas filosóficas en explicaciones comprensibles.",
-    prompt: `Dame:
-- Filósofo o corriente.
-- Idea o concepto.
-- Nivel del lector.
-
-Genera:
-1) Explicación simple.
-2) Ejemplo cotidiano.
-3) Paradoja o reflexión.
-4) Frase para recordar el concepto.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-017",
-    title: "Explicar reglas gramaticales como si fueran trucos de magia",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Aprendizaje divertido de gramática.",
-    prompt: `Dame:
-- Regla gramatical.
-- Nivel.
-- Tipo de truco (varita, hechizo, criatura).
+{
+  id: "edu-simple-009",
+  title: "Spiegare concetti di salute senza termini medici",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Spiegazione per le persone senza base medica.",
+  prompt: `Dammi...
+- Problemi di salute.
+- Età del lettore.
+- No. Quello che vuoi davvero capire.
 
 Genera:
-1) Explicación simple.
-2) Truco mágico para recordarlo.
-3) Ejemplo.
-4) Ejercicio corto.`,
-    thumbnail: "",
-  },
+1) spiegazione chiara e umana.
+2) Una metafora molto semplice.
+3) Esempio giornaliero.
+4) regole facili da ricordare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-018",
-    title: "Explicar arte usando emociones básicas",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Explicación emocional del arte.",
-    prompt: `Dame:
-- Tema de arte.
-- Emoción principal.
-- Tipo de obra (cuadro, música, escultura).
-
-Genera:
-1) Explicación simple.
-2) Conexión emocional.
-3) Ejemplo.
-4) Pregunta reflexiva.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "edu-simple-019",
-    title: "Explicar política sin polarización",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Explicación neutral y clara de un tema político.",
-    prompt: `Dame:
-- Tema político.
-- Edad del lector.
-- Nivel de conocimiento previo.
+{
+  id: "edu-simple-010",
+  title: "Spiegare economia con esempi di casa",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Economia per le persone senza base finanziaria.",
+  prompt: `Dammi...
+- Concetto economico.
+- Tipo di famiglia (famiglia, studente, adulto da solo).
+- Contesto (spese, risparmi, acquisti).
 
 Genera:
-1) Explicación imparcial.
-2) Ejemplo simple.
-3) Qué influencia tiene en la vida diaria.
-4) Resumen de 3 puntos clave.`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione.
+2) analogia domestica.
+(3) Esempio realistico.
+4) Mini esercizio pratico.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-simple-020",
-    title: "Explicar un concepto usando solo analogías",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Explicación completa basada únicamente en analogías.",
-    prompt: `Dame:
-- Concepto.
-- Tipo de analogías (hogar, naturaleza, comida, deportes).
-- Nivel del lector.
-
-Genera:
-1) Explicación usando 3 analogías distintas.
-2) Comparación para cada una.
-3) Parábola o mini historia.
-4) 1 frase para memorizar.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-021",
-    title: "Explicar cualquier teoría con metáforas de deportes",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary:
-      "Convierte conceptos abstractos en ejemplos deportivos fáciles de entender.",
-    prompt: `Dame:
-- Teoría o concepto.
-- Deporte preferido del lector.
-- Nivel educativo.
+{
+  id: "edu-simple-011",
+  title: "Spiegare la programmazione senza codice",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Concetti di programmazione spiegati con oggetti reali.",
+  prompt: `Dammi...
+- Concetto (variabili, loop, classi, condizioni, ecc.).
+- Oggetti quotidiani da usare come analogia.
+- Il livello della persona.
 
 Genera:
-1) Explicación con metáfora deportiva.
-2) Ejemplo práctico dentro del deporte.
-3) Comparación real.
-4) Mini reto de comprensión.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-022",
-    title: "Explicar un concepto usando emojis",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary:
-      "Aprendizaje visual y moderno usando emojis como elementos didácticos.",
-    prompt: `Dame:
-- Concepto.
-- Nivel del lector.
-- Tono (divertido, neutral, educativo).
+1) Semplice spiegazione.
+2) Esempio fisico.
+3) Metafora divertente.
+4) Mini test di 2 domande.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-012",
+  title: "Spiegare la fisica usando i giocattoli",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Trasforma la fisica in qualcosa di tangibile.",
+  prompt: `Dammi...
+- Fisica.
+- Tipo di giocattolo (auto, palle, blocchi).
+- Età.
 
 Genera:
-1) Explicación usando emojis estratégicamente.
-2) Tabla de emojis = significados.
-3) Ejemplo práctico.
-4) Mini ejercicio con emojis.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-023",
-    title: "Explicar un tema usando solo preguntas guiadas",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary:
-      "Aprendizaje socrático: el lector llega a la comprensión mediante preguntas.",
-    prompt: `Dame:
-- Tema.
-- Nivel.
-- Contexto en el que quiere entenderlo.
+(1) Cancella spiegazione.
+2) Esempio utilizzando il giocattolo.
+3) Attività per riprodurre il concetto.
+4) 1 trucco da ricordare.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-013",
+  title: "Spiegare la chimica come cucina",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Utilizzare la cucina come analogia per la chimica.",
+  prompt: `Dammi...
+- Chimica.
+- Tipo di cucina (fatto in casa, dolci, grill).
+- Livello del lettore.
 
 Genera:
-1) Serie de preguntas que llevan a la comprensión.
-2) Explicación final ultra simple.
-3) Ejemplo cotidiano.
-4) Resumen de 3 ideas clave.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-024",
-    title: "Explicar cualquier evento histórico con analogías modernas",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Hace que la historia se sienta actual y cercana.",
-    prompt: `Dame:
-- Evento histórico.
-- Tema moderno para la analogía (redes sociales, influencers, videojuegos).
-- Edad del lector.
+1) Semplice spiegazione.
+2) Confronto culinario.
+3) Esempio.
+4) Piccola attività sicura.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-014",
+  title: "Spiegare la geografia come se il mondo fosse una casa",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Collega la geografia con gli spazi familiari.",
+  prompt: `Dammi...
+- Tema geografia.
+- Tipo di casa (adatto, casa di 2 piani, ranch).
+- Età del lettore.
 
 Genera:
-1) Explicación simple.
-2) Analogía moderna.
-3) Línea del tiempo.
-4) 2 preguntas para evaluar comprensión.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-025",
-    title: "Explicar un concepto financiero usando memes imaginarios",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Aprender finanzas de forma divertida con humor sano.",
-    prompt: `Dame:
-- Concepto financiero.
-- Tonalidad del humor (suave, absurdo, irónico).
-- Nivel del lector.
+1) Semplice spiegazione.
+2) Analogo con camere.
+3) Esempio specifico.
+4) Mini mappa della mente.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-015",
+  title: "Spiegare la biologia con i personaggi animati",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Trasforma celle, organi o processi in caratteri.",
+  prompt: `Dammi...
+- Problemi di biologia.
+- Stile di carattere (tender, eroi, cartoni animati).
+- Età del lettore.
 
 Genera:
-1) Explicación simple.
-2) 2 memes imaginarios descritos.
-3) Ejemplo realista.
-4) Regla fácil de recordar.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-026",
-    title: "Explicar ciencia con una historia de detectives",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary:
-      "Transforma descubrimientos científicos en misterios fáciles de resolver.",
-    prompt: `Dame:
-- Concepto científico.
-- Personaje detective (nombre o estilo).
-- Edad.
+1) Semplice spiegazione.
+2) Caratteri con ruoli.
+3) Micro storia divertente.
+(4) Facile da ricordare conclusione.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-016",
+  title: "Spiegare filosofia in linguaggio chiaro",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Trasforma le idee filosofiche in spiegazioni comprensibili.",
+  prompt: `Dammi...
+- Filosofia o corrente.
+- Idea o concetto.
+- Livello del lettore.
 
 Genera:
-1) Explicación tipo misterio.
-2) Evidencias científicas presentadas como pistas.
-3) Resolución final.
-4) Mini prueba en formato pregunta del detective.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-027",
-    title: "Explicar conceptos de lógica usando acertijos fáciles",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Aprender lógica mediante acertijos progresivos.",
-    prompt: `Dame:
-- Concepto lógico.
-- Edad del lector.
-- Dificultad deseada.
+1) Semplice spiegazione.
+2) Esempio giornaliero.
+3) Paradosso o riflessione.
+4) Cornice per ricordare il concetto.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-017",
+  title: "Spiegare regole grammaticali come se fossero trucchi magici",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Divertente grammatica che impara.",
+  prompt: `Dammi...
+- Regola grammaticale.
+- Livello.
+- Tipo di trucco (voglia, incantesimo, creatura).
 
 Genera:
-1) Explicación simple.
-2) Acertijo relacionado.
-3) Solución explicada.
-4) Ejemplo final.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-028",
-    title: "Explicar un concepto científico usando superhéroes",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Transforma ideas difíciles en historias tipo cómic.",
-    prompt: `Dame:
-- Concepto.
-- Tipo de superhéroe.
-- Edad del lector.
+1) Semplice spiegazione.
+2) trucco magico da ricordare.
+3) Esempio.
+(4) Corto esercizio.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-018",
+  title: "Spiegare l'arte utilizzando le emozioni di base",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Spiegazione emotiva dell'arte.",
+  prompt: `Dammi...
+- Tema artistico.
+- Emozione principale.
+- Tipo di lavoro (pittura, musica, scultura).
 
 Genera:
-1) Explicación simple.
-2) Personaje superhéroe que represente el concepto.
-3) Mini historia.
-4) Ejemplo real.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-029",
-    title: "Explicar conceptos legales en lenguaje ciudadano",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Leyes, derechos y normas explicadas para cualquier persona.",
-    prompt: `Dame:
-- Tema legal.
-- País o región.
-- Nivel del lector.
+1) Semplice spiegazione.
+2) Collegamento emotivo.
+3) Esempio.
+4) Domanda riflettente.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-019",
+  title: "Spiegare la politica senza polarizzazione",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Una spiegazione neutrale e chiara di un problema politico.",
+  prompt: `Dammi...
+- Tema politico.
+- Età del lettore.
+- Livello di conoscenza preventiva.
 
 Genera:
-1) Explicación simple y neutral.
-2) Ejemplo real en la vida cotidiana.
-3) Qué hacer en la práctica.
-4) 3 puntos clave.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-030",
-    title: "Explicar conceptos artísticos como si fueran recetas creativas",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Aprendizaje artístico estructurado como una receta.",
-    prompt: `Dame:
-- Concepto artístico.
-- Estilo.
-- Nivel del lector.
+(1) Equa spiegazione.
+2) Esempio semplice.
+3) Che influenza ha sulla vita quotidiana.
+4) Riepilogo di 3 punti chiave.`,
+  thumbnail: ""
+},
+
+{
+  id: "edu-simple-020",
+  title: "Spiegare un concetto utilizzando solo analogie",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Piena spiegazione basata solo su analogie.",
+  prompt: `Dammi...
+- Concetto.
+- Tipo di analogie (casa, natura, cibo, sport).
+- Livello del lettore.
 
 Genera:
-1) Explicación simple.
-2) “Receta creativa” paso a paso.
-3) Ejemplo real.
-4) Tip para recordar.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-031",
-    title: "Explicar conceptos usando animales como metáforas",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Uso de animales para explicar temas complejos.",
-    prompt: `Dame:
-- Concepto.
-- Animal preferido.
-- Nivel del lector.
+1) Spiegazione utilizzando 3 analogie diverse.
+2) Confronto per ciascuno.
+3) Parable o mini storia.
+4) 1 frase da memorizzare.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-021",
+  title: "Spiegare qualsiasi teoria con metafore sportive",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary:
+  "Trasforma concetti astratti in facile comprensione degli esempi sportivi.",
+  prompt: `Dammi...
+- Teoria o concetto.
+- Lo sport preferito del lettore.
+- Livello educativo.
 
 Genera:
-1) Explicación simple.
-2) Metáfora del animal.
-3) Ejemplo real.
-4) Actividad de 1 minuto.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-032",
-    title: "Explicar un tema complicado en solo 8 líneas claras",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Ultrasíntesis para comprensión inmediata.",
-    prompt: `Dame:
-- Tema.
-- Edad o nivel del lector.
+1) Spiegazione con metafora sportiva.
+2) Esempio pratico all'interno dello sport.
+(3) Confronto effettivo.
+4) Mini sfida della comprensione.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-022",
+  title: "Spiegare un concetto utilizzando emojis",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary:
+  "L'apprendimento visivo e moderno utilizzando emoji come elementi di insegnamento.",
+  prompt: `Dammi...
+- Concetto.
+- Livello del lettore.
+- Tono (divertente, neutro, educativo).
 
 Genera:
-1) Explicación de 8 líneas.
-2) Ejemplo.
-3) Mini ejercicio.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-033",
-    title: "Explicar conceptos usando comparaciones de comida",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Conecta ideas con sabores, recetas y combinaciones.",
-    prompt: `Dame:
-- Concepto.
-- Comida típica o favorita.
-- Nivel.
+1) Spiegazione utilizzando emojis strategicamente.
+2) Tabella delle emoji = significati.
+(3) Esempio pratico.
+4) Mini esercizio con emojis.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-023",
+  title: "Spiegare un argomento utilizzando solo domande guidate",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary:
+  "Apprendimento socratico: il lettore viene a capire facendo domande.",
+  prompt: `Dammi...
+- Soggetto.
+- Livello.
+- Contesto in cui vuoi capire.
 
 Genera:
-1) Explicación simple.
-2) Comparación con esa comida.
-3) Ejemplo realista.
-4) Regla fácil de recordar.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-034",
-    title: "Explicar códigos, leyes o normas usando reglas de juegos de mesa",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Aprender leyes como si fueran reglas de un juego.",
-    prompt: `Dame:
-- Norma o ley.
-- Juego de mesa preferido.
-- Nivel del lector.
+1) Serie di domande che portano alla comprensione.
+2) spiegazione finale ultra semplice.
+3) Esempio giornaliero.
+4) Riepilogo di 3 idee chiave.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-024",
+  title: "Spiega qualsiasi evento storico con analogie moderne",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Fa sentire la storia attuale e vicina.",
+  prompt: `Dammi...
+- Evento storico.
+- Tema moderno per l'analogia (reti sociali, influenze, videogiochi).
+- Età del lettore.
 
 Genera:
-1) Explicación simple.
-2) Comparación con el juego.
-3) Ejemplo práctico.
-4) 2 preguntas rápidas.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-035",
-    title: "Explicar un concepto usando un diálogo entre dos personajes",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Aprendizaje conversacional.",
-    prompt: `Dame:
-- Tema.
-- Personalidades de los 2 personajes.
-- Nivel del lector.
+1) Semplice spiegazione.
+2) Moderna analogia.
+3) Time line.
+4) 2 domande per valutare la comprensione.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-025",
+  title: "Spiegare un concetto finanziario utilizzando memi immaginari",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Impara la finanza in modo divertente con un umore sano.",
+  prompt: `Dammi...
+- Concetto finanziario.
+- Il tono dell'umorismo (morbido, assurdo, ironico).
+- Livello del lettore.
 
 Genera:
-1) Diálogo explicativo.
-2) Resumen de 3 puntos.
-3) Ejemplo concreto.
-4) Pregunta final para reflexionar.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-036",
-    title: "Explicar razonamiento matemático sin números complicados",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Matemáticas en lenguaje cotidiano.",
-    prompt: `Dame:
-- Tema matemático.
-- Nivel.
-- Situación cotidiana para usar como ejemplo.
+1) Semplice spiegazione.
+2) 2 memi immaginari descritti.
+(3) Esempio realistico.
+4) Facile da ricordare regola.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-026",
+  title: "Spiegare la scienza con una storia di detective",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary:
+  "Trasforma le scoperte scientifiche in misteri facili da risolvere.",
+  prompt: `Dammi...
+- Concetto scientifico.
+- personaggio del detective (nome o stile).
+- Età.
 
 Genera:
-1) Explicación simple.
-2) Ejemplo sin números complejos.
-3) Ejemplo con números reales.
-4) Ejercicio guiado.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-037",
-    title: "Explicar conceptos de psicología de forma empática",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Psicología para todos, sin tecnicismos.",
-    prompt: `Dame:
-- Concepto psicológico.
-- Situación del lector.
-- Edad.
+1) spiegazione di tipo misterioso.
+2) Prove scientifiche presentate come indizi.
+(3) Risoluzione finale.
+4) Mini test in formato interrogativo detective.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-027",
+  title: "Spiegare concetti di logica utilizzando enigmi facili",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Impara la logica attraverso enigmi progressivi.",
+  prompt: `Dammi...
+- Un concetto logico.
+- Età del lettore.
+- Difficolta' desiderata.
 
 Genera:
-1) Explicación clara y humana.
-2) Ejemplo emocional.
-3) Consejo práctico.
-4) Resumen de 3 ideas clave.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-038",
-    title: "Explicar conceptos matemáticos avanzados con analogías infantiles",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Matemáticas avanzadas → explicaciones tiernas.",
-    prompt: `Dame:
-- Tema matemático.
-- Elemento infantil (juguetes, animales, dibujos).
-- Nivel deseado.
+1) Semplice spiegazione.
+(2) Certificazione correlata.
+(3) Una soluzione spiegata.
+4) Esempio finale.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-028",
+  title: "Spiegare un concetto scientifico utilizzando supereroi",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Trasforma le idee difficili in storie di tipo comico.",
+  prompt: `Dammi...
+- Concetto.
+- Supereroe.
+- Età del lettore.
 
 Genera:
-1) Explicación simple.
-2) Analogía infantil.
-3) Ejemplo guiado.
-4) Actividad mental rápida.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-039",
-    title: "Explicar conceptos científicos usando mini cuentos",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Historias breves para entender ciencia.",
-    prompt: `Dame:
-- Tema científico.
-- Estilo del cuento (tierno, épico, divertido).
-- Edad.
+1) Semplice spiegazione.
+2) Supereroe personaggio che rappresenta il concetto.
+3) Mini storia.
+(4) Esempio reale.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-029",
+  title: "Spiegare concetti legali nella lingua dei cittadini",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Leggi, diritti e regole spiegate per chiunque.",
+  prompt: `Dammi...
+- Questione legale.
+- Paese o regione.
+- Livello del lettore.
 
 Genera:
-1) Mini cuento.
-2) Explicación detrás del cuento.
-3) Ejemplo real.
-4) Pregunta reflexiva.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-simple-040",
-    title: "Explicar algo difícil en solo analogías visuales",
-    area: "Educación & Formación",
-    category: "Explicaciones Simples",
-    summary: "Solo imágenes descritas, sin teoría complicada.",
-    prompt: `Dame:
-- Concepto.
-- Tipo de visualizaciones (paisajes, objetos, escenas).
-- Nivel del lector.
+1) Semplice e neutrale spiegazione.
+2) Esempio reale nella vita quotidiana.
+3) Cosa fare in pratica.
+4) 3 punti chiave.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-030",
+  title: "Spiegare concetti artistici come se fossero ricette creative",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "L'apprendimento artistico strutturato come una ricetta.",
+  prompt: `Dammi...
+- Concetto artistico.
+- Stile.
+- Livello del lettore.
 
 Genera:
-1) 3 analogías visuales que expliquen el concepto.
-2) Ejemplo real.
-3) Idea final para memorizar.`,
-    thumbnail: "",
-  },
-];
+1) Semplice spiegazione.
+2) "Ricetta creativa" passo dopo passo.
+(3) Esempio reale.
+4) Suggerimento da ricordare.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-031",
+  title: "Spiegare concetti utilizzando gli animali come metafore",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Uso degli animali per spiegare problemi complessi.",
+  prompt: `Dammi...
+- Concetto.
+- Animale preferito.
+- Livello del lettore.
+
+Genera:
+1) Semplice spiegazione.
+2) Metafora animale.
+(3) Esempio reale.
+4) 1 minuto di attività.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-032",
+  title: "Spiegare un argomento complicato in soli 8 linee chiare",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Ultrasintesi per la comprensione immediata.",
+  prompt: `Dammi...
+- Soggetto.
+- Età o livello del lettore.
+
+Genera:
+1) Spiegazione di 8 linee.
+2) Esempio.
+3) Mini esercizio.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-033",
+  title: "Spiegare concetti utilizzando confronti alimentari",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Collega idee con sapori, ricette e combinazioni.",
+  prompt: `Dammi...
+- Concetto.
+- Cibo tipico o preferito.
+- Livello.
+
+Genera:
+1) Semplice spiegazione.
+2) Confronto con quel pasto.
+(3) Esempio realistico.
+4) Facile da ricordare regola.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-034",
+  title: "Spiegare i codici, le leggi o le regole utilizzando regole di gioco da tavolo",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Legge di apprendimento come regole di un gioco.",
+  prompt: `Dammi...
+- Norma o legge.
+- Gioco da tavolo preferito.
+- Livello del lettore.
+
+Genera:
+1) Semplice spiegazione.
+2) Confronto con il gioco.
+(3) Esempio pratico.
+4) 2 domande rapide.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-035",
+  title: "Spiegare un concetto utilizzando un dialogo tra due caratteri",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Apprendimento conversazionale.",
+  prompt: `Dammi...
+- Soggetto.
+- Personalità dei due personaggi.
+- Livello del lettore.
+
+Genera:
+1) Dialogo esplicativo.
+2) Riepilogo a 3 punti.
+3) Esempio specifico.
+4) Domanda finale da riflettere.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-036",
+  title: "Spiegare ragionamento matematico senza numeri complicati",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "La matematica nella lingua di tutti i giorni.",
+  prompt: `Dammi...
+Tema matematico.
+- Livello.
+- Situazione giornaliera da utilizzare come esempio.
+
+Genera:
+1) Semplice spiegazione.
+2) Esempio senza numeri complessi.
+3) Esempio con numeri reali.
+4) Esercizio guidato.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-037",
+  title: "Spiegare concetti di psicologia empaticamente",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Psicologia per tutti, nessuna tecnica.",
+  prompt: `Dammi...
+- Concetto psicologico.
+- Stato del lettore.
+- Età.
+
+Genera:
+1) spiegazione chiara e umana.
+2) Esempio emotivo.
+3) Consigli pratici.
+4) Riepilogo di 3 idee chiave.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-038",
+  title: "Spiegare concetti matematici avanzati con le analogie dei bambini",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Matematica avanzata → spiegazioni tenere.",
+  prompt: `Dammi...
+Tema matematico.
+- Elemento per bambini (giochi, animali, disegni).
+- Livello desiderato.
+
+Genera:
+1) Semplice spiegazione.
+(2) Analisi dei bambini.
+3) Esempio guidato.
+(4) Rapida attività mentale.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-039",
+  title: "Spiegare concetti scientifici utilizzando mini storie",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Storie brevi per capire la scienza.",
+  prompt: `Dammi...
+- Tema scientifico.
+- Stile Tale (tender, epico, divertente).
+- Età.
+
+Genera:
+1) Mini racconto.
+2) Spiegazione dietro la storia.
+(3) Esempio reale.
+4) Domanda riflettente.`,
+  thumbnail: ""
+},
+{
+  id: "edu-simple-040",
+  title: "Spiegare qualcosa di difficile in solo analogie visive",
+  area: "Formazione",
+  category: "Spiegazioni semplici",
+  summary: "Solo immagini descritte, nessuna teoria complicata.",
+  prompt: `Dammi...
+- Concetto.
+- Tipo di visualizzazione (paesaggi, oggetti, scene).
+- Livello del lettore.
+
+Genera:
+1) 3 analogie visive che spiegano il concetto.
+(2) Esempio reale.
+3) Idea finale per memorizzare.`,
+  thumbnail: ""
+}];

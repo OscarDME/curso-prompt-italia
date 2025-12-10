@@ -2,7 +2,14 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, ExternalLink, Music2, Image as ImageIcon, Folder, Info } from "lucide-react";
+import {
+  ArrowLeft,
+  ExternalLink,
+  Music2,
+  Image as ImageIcon,
+  Folder,
+  Info,
+} from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -16,7 +23,7 @@ const IMAGE_FOLDER_URL =
 export default function KitRecursosTendenciasPage() {
   return (
     <div className="space-y-6 py-6">
-      {/* Back */}
+      {/* Indietro */}
       <div className="flex items-center justify-between gap-3">
         <Button
           variant="ghost"
@@ -26,12 +33,12 @@ export default function KitRecursosTendenciasPage() {
         >
           <Link href="/curso">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio del curso
+            Torna all’inizio del corso
           </Link>
         </Button>
 
         <Badge className="bg-black/60 text-[11px] uppercase tracking-wide text-teal-200">
-          Kit de recursos
+          Kit di risorse
         </Badge>
       </div>
 
@@ -40,24 +47,28 @@ export default function KitRecursosTendenciasPage() {
         <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
           <div className="space-y-2">
             <h1 className="text-2xl md:text-3xl font-bold text-slate-50">
-              Kit de Recursos en Tendencias
+              Kit di risorse di tendenza
             </h1>
             <p className="max-w-3xl text-sm md:text-base text-slate-200">
-              Aquí tienes <span className="text-teal-200 font-semibold">todos los recursos listos</span> para usar:
-              sonidos, filtros, tipografías y material visual. Están organizados en 2 carpetas de Google Drive para que
-              puedas entrar, descargar y guardar tus favoritos.
+              Qui trovi{" "}
+              <span className="text-teal-200 font-semibold">
+                tutte le risorse pronte
+              </span>{" "}
+              da usare: suoni, filtri, tipografie e materiale visivo. Sono
+              organizzate in 2 cartelle di Google Drive, così puoi entrare,
+              scaricare e salvare i tuoi preferiti.
             </p>
           </div>
 
           <div className="grid gap-2 sm:grid-cols-2 md:w-[360px]">
             <QuickOpen
               icon={<Music2 className="h-4 w-4" />}
-              label="Abrir sonidos"
+              label="Apri suoni"
               url={SOUND_FOLDER_URL}
             />
             <QuickOpen
               icon={<ImageIcon className="h-4 w-4" />}
-              label="Abrir imágenes"
+              label="Apri immagini"
               url={IMAGE_FOLDER_URL}
             />
           </div>
@@ -70,38 +81,40 @@ export default function KitRecursosTendenciasPage() {
             </div>
             <div className="space-y-1">
               <p className="text-sm font-semibold text-slate-100">
-                Tip rápido (por si Drive se pone difícil)
+                Tip rapido (se Drive fa i capricci)
               </p>
               <p className="text-xs text-slate-300">
-                Si no te deja ver la carpeta desde el navegador, prueba abrir el link en una pestaña nueva, iniciar
-                sesión con tu Google, o usar la app de Google Drive.
+                Se non riesci a vedere la cartella dal browser, prova ad aprire
+                il link in una nuova scheda, accedi con il tuo Google oppure usa
+                l’app di Google Drive.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Two main cards */}
+      {/* Due card principali */}
       <div className="grid gap-4 lg:grid-cols-2">
-        {/* Sounds */}
+        {/* Suoni */}
         <Card className="overflow-hidden border-white/10 bg-slate-950/70">
           <CardHeader className="space-y-2">
             <div className="flex items-start justify-between gap-3">
               <div className="space-y-1">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.25em] text-teal-300">
-                  Carpeta 1
+                  Cartella 1
                 </p>
                 <h2 className="text-lg font-semibold text-slate-50">
-                  Recursos de sonido (tendencias)
+                  Risorse audio (tendenze)
                 </h2>
                 <p className="text-sm text-slate-300">
-                  Audios, sonidos y recursos listos para guardar y reutilizar en tu contenido.
+                  Audio, suoni e risorse pronti da salvare e riutilizzare nei
+                  tuoi contenuti.
                 </p>
               </div>
 
               <Badge className="bg-black/60 text-[11px] uppercase tracking-wide text-slate-200">
                 <Music2 className="mr-1 h-3 w-3" />
-                Sonidos
+                Suoni
               </Badge>
             </div>
           </CardHeader>
@@ -114,7 +127,7 @@ export default function KitRecursosTendenciasPage() {
                 </div>
                 <div className="min-w-0">
                   <p className="text-sm font-semibold text-slate-100">
-                    Todos los recursos de sonido están aquí
+                    Tutte le risorse audio sono qui
                   </p>
                   <p className="mt-1 break-all text-xs text-slate-400">
                     {SOUND_FOLDER_URL}
@@ -128,8 +141,13 @@ export default function KitRecursosTendenciasPage() {
                 asChild
                 className="w-full rounded-full bg-teal-400 text-sm font-semibold text-slate-900 hover:bg-teal-300"
               >
-                <a href={SOUND_FOLDER_URL} target="_blank" rel="noopener noreferrer">
-                  Abrir carpeta de sonidos <ExternalLink className="ml-2 h-4 w-4" />
+                <a
+                  href={SOUND_FOLDER_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Apri la cartella dei suoni{" "}
+                  <ExternalLink className="ml-2 h-4 w-4" />
                 </a>
               </Button>
 
@@ -138,8 +156,12 @@ export default function KitRecursosTendenciasPage() {
                 variant="outline"
                 className="w-full rounded-full border-white/15 bg-white/5 text-sm text-slate-100 hover:bg-white/10"
               >
-                <a href={SOUND_FOLDER_URL} target="_blank" rel="noopener noreferrer">
-                  Copiar/usar link
+                <a
+                  href={SOUND_FOLDER_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Copia/usa il link
                 </a>
               </Button>
             </div>
@@ -148,38 +170,40 @@ export default function KitRecursosTendenciasPage() {
               <li className="flex gap-2">
                 <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-teal-300/80" />
                 <span className="text-slate-300">
-                  Guarda tus favoritos y crea tu “biblioteca” personal.
+                  Salva i tuoi preferiti e crea la tua “libreria” personale.
                 </span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-teal-300/80" />
                 <span className="text-slate-300">
-                  Si estás en móvil: abre en Drive app para descargar más fácil.
+                  Se sei da mobile: apri nell’app Drive per scaricare più
+                  facilmente.
                 </span>
               </li>
             </ul>
           </CardContent>
         </Card>
 
-        {/* Images */}
+        {/* Immagini */}
         <Card className="overflow-hidden border-white/10 bg-slate-950/70">
           <CardHeader className="space-y-2">
             <div className="flex items-start justify-between gap-3">
               <div className="space-y-1">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.25em] text-teal-300">
-                  Carpeta 2
+                  Cartella 2
                 </p>
                 <h2 className="text-lg font-semibold text-slate-50">
-                  Recursos de imagen (tendencias)
+                  Risorse immagini (tendenze)
                 </h2>
                 <p className="text-sm text-slate-300">
-                  Imágenes, referencias visuales y recursos para elevar tu contenido.
+                  Immagini, riferimenti visivi e risorse per alzare il livello
+                  dei tuoi contenuti.
                 </p>
               </div>
 
               <Badge className="bg-black/60 text-[11px] uppercase tracking-wide text-slate-200">
                 <ImageIcon className="mr-1 h-3 w-3" />
-                Imágenes
+                Immagini
               </Badge>
             </div>
           </CardHeader>
@@ -192,7 +216,7 @@ export default function KitRecursosTendenciasPage() {
                 </div>
                 <div className="min-w-0">
                   <p className="text-sm font-semibold text-slate-100">
-                    Todos los recursos de imagen están aquí
+                    Tutte le risorse immagini sono qui
                   </p>
                   <p className="mt-1 break-all text-xs text-slate-400">
                     {IMAGE_FOLDER_URL}
@@ -206,8 +230,13 @@ export default function KitRecursosTendenciasPage() {
                 asChild
                 className="w-full rounded-full bg-teal-400 text-sm font-semibold text-slate-900 hover:bg-teal-300"
               >
-                <a href={IMAGE_FOLDER_URL} target="_blank" rel="noopener noreferrer">
-                  Abrir carpeta de imágenes <ExternalLink className="ml-2 h-4 w-4" />
+                <a
+                  href={IMAGE_FOLDER_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Apri la cartella immagini{" "}
+                  <ExternalLink className="ml-2 h-4 w-4" />
                 </a>
               </Button>
 
@@ -216,8 +245,12 @@ export default function KitRecursosTendenciasPage() {
                 variant="outline"
                 className="w-full rounded-full border-white/15 bg-white/5 text-sm text-slate-100 hover:bg-white/10"
               >
-                <a href={IMAGE_FOLDER_URL} target="_blank" rel="noopener noreferrer">
-                  Copiar/usar link
+                <a
+                  href={IMAGE_FOLDER_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Copia/usa il link
                 </a>
               </Button>
             </div>
@@ -226,13 +259,15 @@ export default function KitRecursosTendenciasPage() {
               <li className="flex gap-2">
                 <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-teal-300/80" />
                 <span className="text-slate-300">
-                  Úsalas como referencia para prompts, thumbnails y piezas visuales.
+                  Usale come riferimento per prompt, thumbnails e creatività
+                  visive.
                 </span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-teal-300/80" />
                 <span className="text-slate-300">
-                  Si ves “No tienes acceso”, revisa que estés logueado con el mismo Google.
+                  Se vedi “Non hai accesso”, controlla di essere loggato con lo
+                  stesso account Google.
                 </span>
               </li>
             </ul>
@@ -240,16 +275,16 @@ export default function KitRecursosTendenciasPage() {
         </Card>
       </div>
 
-      {/* Bottom CTA / Help */}
+      {/* CTA / Aiuto in basso */}
       <section className="rounded-3xl border border-white/10 bg-slate-950/60 p-5 md:p-6">
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div className="space-y-1">
             <h3 className="text-base font-semibold text-slate-50">
-              ¿No puedes entrar?
+              Non riesci ad entrare?
             </h3>
             <p className="text-sm text-slate-300">
-              Usa los links directos de arriba. Si sigue fallando, intenta abrirlos en una pestaña nueva o en la app de
-              Drive.
+              Usa i link diretti qui sopra. Se continua a non funzionare, prova
+              ad aprirli in una nuova scheda o nell’app di Drive.
             </p>
           </div>
 
@@ -259,8 +294,12 @@ export default function KitRecursosTendenciasPage() {
               variant="outline"
               className="rounded-full border-white/15 bg-white/5 text-sm text-slate-100 hover:bg-white/10"
             >
-              <a href={SOUND_FOLDER_URL} target="_blank" rel="noopener noreferrer">
-                Link sonidos <ExternalLink className="ml-2 h-4 w-4" />
+              <a
+                href={SOUND_FOLDER_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Link suoni <ExternalLink className="ml-2 h-4 w-4" />
               </a>
             </Button>
 
@@ -269,8 +308,12 @@ export default function KitRecursosTendenciasPage() {
               variant="outline"
               className="rounded-full border-white/15 bg-white/5 text-sm text-slate-100 hover:bg-white/10"
             >
-              <a href={IMAGE_FOLDER_URL} target="_blank" rel="noopener noreferrer">
-                Link imágenes <ExternalLink className="ml-2 h-4 w-4" />
+              <a
+                href={IMAGE_FOLDER_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Link immagini <ExternalLink className="ml-2 h-4 w-4" />
               </a>
             </Button>
           </div>

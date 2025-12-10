@@ -1,502 +1,501 @@
 // src/lib/prompts/text/salud-clinica-otros.js
 
 export const textPromptsSaludClinicaOtros = [
-  {
-    id: "saludotros-001",
-    title: "Nota clínica SOAP (consulta general) lista para expediente",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Estructura una nota SOAP completa, clara y defensible para expediente clínico.",
-    prompt: `Actúa como médico. Redacta una nota SOAP profesional.
+{
+  id: "saludotros-001",
+  title: "Elenco dei file delle note cliniche SOAP (consultazione generale)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Struttura una nota SOAP completa, chiara e difensiva per il file clinico.",
+  prompt: `Agisce come medico. Scrivi una nota professionale.
 
-Inputs:
-- Motivo de consulta (CC).
-- Historia de la enfermedad actual (HPI) con cronología.
-- Antecedentes (AP, AHF, Alergias, Meds).
-- Revisión por sistemas (ROS) relevante.
-- Exploración física (signos vitales + hallazgos).
-- Impresión diagnóstica (Dx diferenciales).
-- Plan (estudios, tratamiento, educación, seguimiento).
-
-Genera:
-S) Subjetivo (HPI + ROS resumido)
-O) Objetivo (vitales + EF + labs/imagen si aplica)
-A) Valoración (Dx principal + diferenciales + razonamiento)
-P) Plan detallado por problemas + educación + return precautions + follow-up
-Incluye: lenguaje médico estándar, conciso, sin inventar datos faltantes (marca "No referido" si falta).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-002",
-    title: "Dx diferencial con razonamiento y banderas rojas",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Genera diferenciales por probabilidad y urgencia, con qué datos faltan por preguntar.",
-    prompt: `Actúa como médico internista. Construye un diferencial.
-
-Inputs:
-- Síntoma principal.
-- Edad/sexo.
-- Duración y evolución.
-- Signos/síntomas asociados.
-- Factores de riesgo y antecedentes.
-- Hallazgos del examen.
+Ingressi:
+- Motivi di consultazione (CC).
+- Storia della malattia attuale (HPI) con cronologia.
+- Sfondo (AP, AHF, allergie, medicinali).
+- Controllo del sistema (ROS) rilevante.
+- esplorazione fisica (segni vitali + risultati).
+- Stampa diagnostica (Dx differenziale).
+- Piano (studio, trattamento, istruzione, follow-up).
 
 Genera:
-1) Top 5 diagnósticos probables (con 1–2 líneas de razonamiento cada uno).
-2) 3 diagnósticos que NO debo perder (peligrosos) + por qué.
-3) Preguntas clave faltantes (10) para afinar.
-4) Exploración dirigida (qué buscar) (8 puntos).
-5) Estudios iniciales sugeridos (laboratorio/imagen) en términos generales.
-6) Señales de alarma que cambian la conducta.`,
-    thumbnail: "",
-  },
+S) Soggetto (HPI + ROS riassunto)
+O) Obiettivo (vital + EF + laboratori / immagine se applicata)
+A) Valutazione (Dx principale + differenziale + ragionamento)
+P) Piano dettagliato del problema + istruzione + precauzioni di ritorno + follow-up
+Esso comprende: lingua medica standard, concisa, senza inventare i dati mancanti ("Not reference" mark if lost).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-003",
-    title: "Algoritmo de triaje (telemedicina) para síntoma frecuente",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Guía de decisión para orientar: autocuidado vs cita vs urgencias.",
-    prompt: `Actúa como médico de triaje en telemedicina. Crea un algoritmo seguro.
+{
+  id: "saludotros-002",
+  title: "Dx differenziale con ragionamento e bandiere rosse",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Genera differenziale per probabilità e urgenza, con quali dati chiedere.",
+  prompt: `Agisce come un internista. Costruisce un differenziale.
 
-Inputs:
-- Síntoma (ej: dolor de garganta, fiebre, diarrea, cefalea).
-- Grupo (adulto/pediatría/embarazo/adulto mayor).
-- Factores de riesgo.
-- Duración.
-
-Genera:
-1) Preguntas de filtro inicial (8–12).
-2) Ramas de decisión:
-   - Urgencias hoy (criterios).
-   - Consulta rápida (24–72h).
-   - Manejo en casa (criterios).
-3) Recomendaciones de autocuidado (5–8) sin fármacos si no se especifican.
-4) Señales de alarma específicas.
-5) Mensaje final legal/ético: “esto no sustituye evaluación presencial”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-004",
-    title: "Interpretación clínica de signos vitales (contextualizada)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Ayuda a interpretar PA, FC, FR, T°, SatO2 según contexto y síntomas.",
-    prompt: `Actúa como médico. Interpreta signos vitales en contexto.
-
-Inputs:
-- Edad/sexo.
-- Signos vitales (PA, FC, FR, T°, SatO2).
-- Síntomas actuales.
-- Antecedentes (cardio/pulmón/embarazo).
-- Situación (reposo, post-ejercicio, ansiedad, dolor).
+Ingressi:
+- Il sintomo principale.
+- Età / sesso.
+- Durata ed evoluzione.
+- Segni associati / sintomi.
+- Fattori di rischio e sfondo.
+- Risultati dell'esame.
 
 Genera:
-1) Qué hallazgos son más preocupantes vs esperables (en contexto).
-2) 5 causas posibles para cada anormalidad relevante.
-3) Qué confirmar/medir de nuevo (técnica y momento).
-4) Qué preguntar para diferenciar causas.
-5) Cuándo indicar valoración urgente.`,
-    thumbnail: "",
-  },
+1) Top 5 diagnosi probabili (con 1-2 linee di ragionamento ciascuno).
+2) 3 diagnosi Non dovrei perdere (pericoloso) + perché.
+3) Domande chiave mancanti (10) per sintonizzare.
+4) esplorazione diretta (cosa cercare) (8 punti).
+5) Studi iniziali consigliati (laboratorio / immagine) in termini generali.
+6) Segnali di allarme che cambiano il comportamento.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-005",
-    title: "Plan de seguimiento y criterios de revaloración",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Define seguimiento óptimo: cuándo, con qué objetivos y qué cambiar si no mejora.",
-    prompt: `Actúa como médico. Diseña plan de seguimiento seguro.
+{
+  id: "saludotros-003",
+  title: "Algoritmo di triage (telemedicina) per sintomo frequente",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Guida decisionale per guidare: auto-cura vs citazione vs emergenze.",
+  prompt: `Agisce come medico di triage in telemedicina. Crea un algoritmo sicuro.
 
-Inputs:
-- Diagnóstico o problema clínico (o sospecha).
-- Tratamiento inicial.
-- Severidad (leve/moderada/severa).
-- Barreras (acceso, costo, distancia).
-- Objetivos del paciente.
-
-Genera:
-1) Seguimiento ideal (tiempo y modalidad: presencial/tele).
-2) Qué medir/registrar antes del follow-up (lista).
-3) Criterios de mejoría (3–5).
-4) Criterios de falla terapéutica (3–5).
-5) Qué ajustar si falla (en términos generales).
-6) Señales de alarma para consulta inmediata.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-006",
-    title: "Resumen clínico para referencia a especialista (interconsulta)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Carta breve, clara y útil para el especialista, con pregunta clínica específica.",
-    prompt: `Actúa como médico. Redacta un resumen para interconsulta.
-
-Inputs:
-- Especialidad destino.
-- Motivo de referencia (pregunta clínica).
-- Resumen del caso (síntomas, evolución).
-- Hallazgos relevantes.
-- Estudios realizados (fechas y resultados).
-- Tratamientos probados y respuesta.
+Ingressi:
+- Sintomi (ad esempio mal di gola, febbre, diarrea, mal di testa).
+- Gruppo (adulto / pediatrico / gravidanza / anziani).
+- Fattori di rischio.
+- Durata.
 
 Genera:
-1) Motivo/pregunta clínica en 1–2 líneas.
-2) Historia clínica resumida (cronológica).
-3) Hallazgos clave (bullets).
-4) Estudios adjuntos (lista).
-5) Tratamientos previos y respuesta.
-6) Qué se solicita al especialista (muy concreto).`,
-    thumbnail: "",
-  },
+1) domande di filtro iniziale (8-12).
+2) Aree di decisione:
+- Il pronto soccorso oggi (criteria).
+- Consulenza rapida (24-72h).
+- Gestione della casa (criteria).
+3) Raccomandazioni self-care (5-8) senza farmaci se non specificato.
+4) Segnali di allarme specifici.
+5) Messaggio finale legale / etico: "questo non sostituisce la valutazione faccia a faccia".`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-007",
-    title: "Guion para comunicar malas noticias (SPIKES adaptado)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Estructura empática para comunicar diagnósticos difíciles sin perder claridad.",
-    prompt: `Actúa como médico. Prepara un guion con el modelo SPIKES.
+{
+  id: "saludotros-004",
+  title: "Interpretazione clinica dei segni vitali (contestualizzati)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Aiuta a interpretare PA, FC, FR, T °, SatO2 in base al contesto e ai sintomi.",
+  prompt: `Agisce come medico. Suona segni vitali nel contesto.
 
-Inputs:
-- Diagnóstico/noticia.
-- Nivel de sospecha del paciente (lo espera/no lo espera).
-- Familia presente (sí/no).
-- Próximos pasos disponibles.
-
-Genera:
-1) S: Setting (cómo preparar el ambiente).
-2) P: Perception (preguntas para entender qué sabe).
-3) I: Invitation (cuánto desea saber ahora).
-4) K: Knowledge (cómo decirlo claro y en porciones).
-5) E: Empathy (frases de validación).
-6) S: Strategy/Summary (plan inmediato y seguimiento).
-Incluye 5 frases exactas para usar y 5 frases a evitar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-008",
-    title: "Indicaciones preoperatorias / preprocedimiento (checklist paciente)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Checklist claro para prepararse antes de un procedimiento y reducir cancelaciones.",
-    prompt: `Actúa como médico. Redacta indicaciones preprocedimiento.
-
-Inputs:
-- Procedimiento.
-- Tipo de anestesia/sedación (si aplica).
-- Comorbilidades relevantes.
-- Medicamentos actuales (anticoagulantes, DM, etc.) si se conocen.
+Ingressi:
+- Età / sesso.
+- Vitali (PA, FC, FR, T °, SatO2).
+- Sintomi attuali.
+- Sfondo (cardio / polmone / gravidanza).
+- Situazione (riposo, post-esercizio, ansia, dolore).
 
 Genera:
-1) Checklist 72h antes / 24h antes / día del procedimiento.
-2) Ayuno (describe en términos generales si no hay indicación específica).
-3) Qué llevar / qué evitar.
-4) Señales por las que debe avisar antes (fiebre, infección, etc.).
-5) Cuidados iniciales post-procedimiento (generales).
-No inventes instrucciones específicas si faltan datos; marca “confirmar con tu equipo”.`,
-    thumbnail: "",
-  },
+1) Quali risultati sono più preoccupanti rispetto al previsto (in contesto).
+2) 5 possibili cause per ogni anormalità rilevante.
+3) Cosa confermare / misurare di nuovo (tecnica e momento).
+4) Che chiedere di differenziare le cause.
+5) Quando indicare una valutazione urgente.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-009",
-    title: "Plantilla de evolución diaria hospitalaria (progress note)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Formato estándar para evolución por problema con plan del día.",
-    prompt: `Actúa como médico hospitalista. Redacta una progress note.
+{
+  id: "saludotros-005",
+  title: "Piano di monitoraggio e criteri di rivalutazione",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Definire il monitoraggio ottimale: quando, con quali obiettivi e cosa cambiare se non migliora.",
+  prompt: `Agisce come medico. Progettazione piano di follow-up sicuro.
 
-Inputs:
-- Día de hospitalización.
-- Diagnóstico principal.
-- Eventos de 24h.
-- Signos vitales / balance hídrico.
-- Labs / imagen relevantes.
-- Tratamientos activos.
+Ingressi:
+- Diagnosi o problema clinico (o sospetto).
+- Trattamento iniziale.
+- Severità (mild / moderata / grave).
+- Barriera (accesso, costo, distanza).
+- Obiettivi dei pazienti.
 
 Genera:
-1) Subjective (síntomas del paciente).
-2) Objective (vitales, EF, labs, I/O).
-3) Assessment/Plan por problemas (bullets).
-4) Disposición y objetivos del día (alta, estudios pendientes, barreras).
-5) Profilaxis/seguridad (caídas, trombosis, úlceras, etc. en general).`,
-    thumbnail: "",
-  },
+1) Monitoraggio ideale (tempo e modalità: faccia / TV).
+2) Che misurare / registrare prima del follow-up (list).
+3) Criteri di miglioramento (3-5).
+4) Criteri di fallimento terapeutico (3-5).
+5) Cosa aggiustare se fallisce (in termini generali).
+6) Segnali di allarme per la consultazione immediata.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-010",
-    title: "Nota de urgencias: enfoque ABCDE + conducta",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Estructura rápida para casos agudos: estabilización, diferencial y plan inmediato.",
-    prompt: `Actúa como médico de urgencias. Estructura el caso con ABCDE.
+{
+  id: "saludotros-006",
+  title: "Riepilogo clinico per riferimento a specialisti (interconsultazione)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Lettera breve, chiara e utile per lo specialista, con specifica domanda clinica.",
+  prompt: `Agisce come medico. Scrivi un riassunto per l'interconsultazione.
 
-Inputs:
-- Presentación aguda.
-- Signos vitales.
-- Hallazgos de exploración.
-- Resultados rápidos disponibles.
-- Intervenciones realizadas.
-
-Genera:
-1) ABCDE (hallazgos + acciones).
-2) Impresión diagnóstica (principal + diferenciales).
-3) Plan inmediato (medidas, estudios, reevaluación).
-4) Criterios de ingreso vs alta (en términos generales).
-5) Instrucciones de egreso y alarmas (si aplica).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-011",
-    title: "Análisis de interacción fármaco-fármaco y fármaco-condición",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Revisa posibles interacciones y propone preguntas/monitoreo (sin ajustar dosis).",
-    prompt: `Actúa como médico. Analiza interacciones y riesgos.
-
-Inputs:
-- Lista de medicamentos (incluye OTC y suplementos).
-- Diagnósticos/condiciones.
-- Síntomas actuales.
-- Función renal/hepática si se conoce.
+Ingressi:
+- Specialità di destinazione.
+- Campo di riferimento (questione clinica).
+- Riepilogo dei casi (sintomi, evoluzione).
+- Risultati rilevanti.
+- Studi (date e risultati).
+- Prove cure e risposta.
 
 Genera:
-1) Interacciones potenciales (organiza por gravedad: alta/media/baja).
-2) Qué síntomas vigilar por interacción (lista).
-3) Qué preguntas faltan para evaluar riesgo (8–12).
-4) Recomendación de monitoreo (labs/PA/ECG) en general.
-5) Mensaje de seguridad: “no cambios sin tu médico”.`,
-    thumbnail: "",
-  },
+1) Motivo / domanda clinica in 1-2 linee.
+2) Riassunto (cronologico) storia clinica.
+3) Risultati chiave (bullette).
+(4) allegati (elenco).
+5) Trattamenti e risposte precedenti.
+6) Che cosa è richiesto dello specialista (molto specifico).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-012",
-    title: "Plan de manejo de ansiedad en consulta médica (breve)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Guía práctica para pacientes ansiosos: respiración, reencuadre y plan de acción.",
-    prompt: `Actúa como médico. El paciente está muy ansioso por sus síntomas.
+{
+  id: "saludotros-007",
+  title: "Script per comunicare cattive notizie (SPIKES adattato)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Struttura ambasciata per comunicare diagnosi difficili senza perdere chiarezza.",
+  prompt: `Agisce come medico. Preparare uno script con il modello SPIKES.
 
-Inputs:
-- Motivo de ansiedad (síntoma, estudio, diagnóstico).
-- Síntomas físicos de ansiedad (palpitaciones, falta de aire, insomnio).
-- Contexto (estrés, duelo, trabajo).
-- Preferencias (terapia, hábitos, no medicación).
-
-Genera:
-1) Validación empática (2–3 frases).
-2) Técnica breve de respiración (pasos).
-3) Diferenciar “síntomas de alarma” vs “síntomas compatibles con ansiedad” (sin diagnosticar si no aplica).
-4) Plan de 7 días (hábitos + seguimiento).
-5) Cuándo derivar/consultar de urgencia (criterios).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-013",
-    title: "Checklist de seguridad del paciente (prevención de errores)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Lista de verificación para reducir riesgos: alergias, identidad, medicación, etc.",
-    prompt: `Actúa como médico con enfoque en seguridad del paciente.
-
-Inputs:
-- Contexto (consulta externa, urgencias, hospital).
-- Procedimientos/meds planeados.
-- Riesgos (alergias, anticoagulantes, embarazo, caídas).
+Ingressi:
+- Diagnosi / notizie.
+- Livello di sospetto del paziente (aspettato / non previsto).
+- Famiglia presente (sì / no).
+- Prossimo passo disponibile.
 
 Genera:
-1) Checklist pre-intervención (10–15 puntos).
-2) Checklist durante (5–8 puntos).
-3) Checklist alta/egreso (8–12 puntos).
-4) “Errores frecuentes” y cómo evitarlos (6).
-5) Mensaje de cultura de seguridad (1 párrafo).`,
-    thumbnail: "",
-  },
+1) S: Impostazione (come preparare l'ambiente).
+2) P: Percezione (questioni per capire quello che sai).
+3) I: Invito (quanto vuoi sapere ora).
+4) K: Conoscenza (come mettere chiaro e in porzioni).
+5) E: Empatia (frasi di valutazione).
+6) S: Strategia / Riepilogo (piano intermedio e follow-up).
+Include 5 frasi esatte da usare e 5 frasi da evitare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-014",
-    title: "Estrategia de comunicación clínica: paciente difícil / enojado",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Guion para desescalar conflicto, mantener límites y lograr acuerdo terapéutico.",
-    prompt: `Actúa como médico. Maneja una conversación con paciente molesto.
+{
+  id: "saludotros-008",
+  title: "Indicazioni preoperative / pre-procedure (controllo paziente)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Clear Checklist per prepararsi prima di una procedura e ridurre le cancellazioni.",
+  prompt: `Agisce come medico. Progetto di indicazioni pre-procedure.
 
-Inputs:
-- Motivo del enojo (tiempo de espera, diagnóstico, costos, tratamiento).
-- Nivel de agresividad (bajo/medio/alto).
-- Qué se necesita lograr hoy (plan, adherencia, referencia).
-
-Genera:
-1) Frases de apertura para desescalar (5).
-2) Preguntas para identificar necesidad real (5).
-3) Límites claros y respetuosos (3 frases).
-4) Plan de acuerdo (opciones A/B) y cómo presentarlas.
-5) Qué documentar en expediente (lista).
-6) Señales de seguridad para escalar a apoyo (si aplica).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-015",
-    title: "Estandarizar “instrucciones de egreso” por síndrome",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Crea un template reusable: cuidados, señales de alarma y seguimiento por síndrome clínico.",
-    prompt: `Actúa como médico. Crea una plantilla de egreso reutilizable.
-
-Inputs:
-- Síndrome/condición (ej: gastroenteritis, lumbalgia, IVAS).
-- Población (adulto/pediatría/embarazo).
-- Manejo indicado (general).
+Ingressi:
+- Procedura.
+- Tipo di anestesia / sedazione (se applicabile).
+- Comporbidità rilevanti.
+- Medicinali attuali (anticoagulanti, DM, ecc.) se noti.
 
 Genera:
-1) Qué es (explicación breve).
-2) Cuidados en casa (8 bullets).
-3) Qué evitar (5 bullets).
-4) Señales de alarma (8–12).
-5) Seguimiento recomendado (cuándo y con quién).
-6) FAQ (5) con respuestas cortas.`,
-    thumbnail: "",
-  },
+1) Elenco di controllo 72h prima / 24h prima / giorno della procedura.
+2) Ayuno (descrive in termini generali se non vi è alcuna indicazione specifica).
+3) Che portare / che evitare.
+4) Segni con cui si dovrebbe avvertire prima (fever, infezione, ecc.).
+5) Assistenza iniziale post-procedure (generale).
+Non inventare istruzioni specifiche se i dati mancano; contrassegnare "confermare con il computer".`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-016",
-    title: "Guía rápida para lectura de ECG / Rx / TAC (estructura de reporte)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Plantilla para interpretar estudios de forma sistemática (sin inventar hallazgos).",
-    prompt: `Actúa como médico. Genera una plantilla sistemática de lectura.
+{
+  id: "saludotros-009",
+  title: "Evoluzione giornaliera dell'ospedale (nota di ingresso)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Formato standard per l'evoluzione dei problemi con il piano giornaliero.",
+  prompt: `Agisce come medico ospedaliero. Esso stabilisce una nota di progresso.
 
-Inputs:
-- Tipo de estudio (ECG / Rx tórax / TAC abdomen, etc.).
-- Motivo clínico.
-- Hallazgos reportados (si ya existe un reporte).
-- Síntomas y contexto.
-
-Genera:
-1) Método sistemático paso a paso (checklist).
-2) Hallazgos clave a buscar según el motivo (lista).
-3) Cómo correlacionarlo con clínica (preguntas).
-4) Qué hallazgos exigen acción inmediata (banderas rojas).
-5) Cómo documentar conclusión y siguiente paso.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-017",
-    title: "Plan de atención para pacientes crónicos (care plan anual)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Estructura un plan anual: metas, controles, education, prevención y seguimiento.",
-    prompt: `Actúa como médico de atención primaria. Diseña un care plan anual.
-
-Inputs:
-- Condición crónica (DM2, HTA, EPOC, asma, etc.).
-- Edad y comorbilidades.
-- Recursos del paciente (tiempo, acceso, apoyo).
-- Metas del paciente.
+Ingressi:
+- Giorno dell'ospedalizzazione.
+- La diagnosi principale.
+- 24 ore di eventi.
+- Segni vitali / equilibrio dell'acqua.
+- Labs / immagine rilevante.
+- Trattamenti attivi.
 
 Genera:
-1) Metas SMART (3–5).
-2) Controles y monitoreo (qué y cada cuándo, general).
-3) Plan de estilo de vida por dominios (alimentación, actividad, sueño, estrés).
-4) Señales de descompensación y plan de acción.
-5) Calendario de seguimiento (3–4 hitos).
-6) Cómo involucrar familia/cuidadores.`,
-    thumbnail: "",
-  },
+1) Soggettivo ( sintomi pazienti).
+2) Obiettivo (vital, EF, laboratori, I / O).
+3) Valutazione / Piano per i problemi (bolletti).
+4) Disposizione e obiettivi della giornata (scarico, studi in sospeso, barriere).
+5) Profilassi / sicurezza (cadute, trombosi, ulcere, ecc.).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-018",
-    title: "Auditoría de documentación clínica (calidad y riesgo legal)",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Revisa una nota para detectar vacíos, ambigüedades y mejorar defensa clínica.",
-    prompt: `Actúa como auditor clínico. Evalúa una nota médica.
+{
+  id: "saludotros-010",
+  title: "Nota di emergenza: ABCDE + approccio alla condotta",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Struttura rapida per casi acuti: stabilizzazione, piano differenziale e immediato.",
+  prompt: `Agisce come medico d'emergenza. Struttura il caso con ABCDE.
 
-Inputs:
-- Texto de la nota.
-- Contexto (consulta/urgencias/hospital).
-- Objetivo (mejorar claridad, facturación, riesgos).
-
-Genera:
-1) 10 mejoras concretas (qué falta, qué sobra, qué aclarar).
-2) Riesgos medico-legales por omisiones (lista).
-3) Sugerencias de redacción para: HPI, EF, razonamiento, plan.
-4) Checklist final para futuras notas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludotros-019",
-    title: "Guion “explicar por qué no pedir estudio innecesario”",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Responde cuando el paciente exige resonancia/antibiótico/labs sin indicación.",
-    prompt: `Actúa como médico. El paciente solicita un estudio sin indicación clara.
-
-Inputs:
-- Estudio solicitado.
-- Síntoma/diagnóstico actual.
-- Miedo del paciente (qué cree que tiene).
-- Hallazgos que reducen probabilidad de gravedad.
+Ingressi:
+- Presentazione acuta.
+- Vitali.
+- Risultati di esplorazione.
+- Risultati rapidi disponibili.
+- Interventi fatti.
 
 Genera:
-1) Explicación breve (beneficio vs falso positivo/daño/costo).
-2) Qué sí haremos (plan alterno) y por qué es más útil ahora.
-3) Señales que sí justificarían el estudio (criterios clínicos).
-4) Plan de seguimiento con tiempos.
-5) Cierre empático para mantener confianza.`,
-    thumbnail: "",
-  },
+1) ABCDE (finanze + azioni).
+2) Stampa diagnostica (main + differenziaal).
+3) Piano immediato (misure, studi, rivalutazione).
+4) Criteri di entrata vs alto (in termini generali).
+5) Istruzioni per il rilascio e gli allarmi (se applicabile).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludotros-020",
-    title: "Plantilla para sesión clínica: caso + discusión + perlas",
-    area: "Salud & Clínica",
-    category: "Otros",
-    summary:
-      "Estructura un caso para presentar en pase de visita o sesión académica.",
-    prompt: `Actúa como médico docente. Estructura presentación de caso.
+{
+  id: "saludotros-011",
+  title: "Analisi dell'interazione fisica - farmaco e condizione fisica",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Rivede possibili interazioni e propone domande / monitoraggio (senza regolazione della dose).",
+  prompt: `Agisce come medico. Esso analizza le interazioni e i rischi.
 
-Inputs:
-- Caso (edad, sexo, motivo, HPI, EF, labs/imagen).
-- Dx final o sospecha.
-- Puntos de aprendizaje.
+Ingressi:
+- Elenco dei farmaci (compreso OTC e integratori).
+- Diagnostica / condizioni.
+- Sintomi attuali.
+- Funzione epatica/renale se nota.
 
 Genera:
-1) Presentación en 60–90 segundos (estilo pase).
-2) Problema representativo (1 frase).
-3) Dx diferencial por sistemas.
-4) Razonamiento clínico (por qué Dx A > B).
-5) Manejo y seguimiento.
-6) 5 perlas clínicas + 3 errores comunes.`,
-    thumbnail: "",
-  },
-];
+1) Interazioni potenziali (organizzate dalla gravità: alto / medio / basso).
+2) Quali sintomi monitorare da interazione (elenco).
+3) Quali domande mancano per valutare il rischio (8-12).
+4) Raccomandazione di monitoraggio (labs / PA / ECG) in generale.
+5) Messaggio di sicurezza: "non cambiare senza il medico.".`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-012",
+  title: "Piano di gestione dell'ansia in consultazione medica (breve)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Guida pratica per i pazienti ansiosi: piano di respirazione, rifrazione e azione.",
+  prompt: `Agisce come medico. Il paziente è molto ansioso per i suoi sintomi.
+
+Ingressi:
+- Motivi di ansia (sintomo, studio, diagnosi).
+- Sintomi fisici di ansia (palpitazioni, mancanza di aria, insonnia).
+- Contesto (stress, duello, lavoro).
+- Preferenze (terapia, abitudini, non farmaci).
+
+Genera:
+1) convalida empatica (2-3 frasi).
+2) breve tecnica di respirazione (steps).
+3) Differente " sintomi dell'allarme" vs " sintomi compatibili con l'ansia" (non diagnosticato se non applicato).
+4) Piano 7 giorni (abita + follow-up).
+5) Quando derivare / consultare l'emergenza (criteria).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-013",
+  title: "Elenco di controllo della sicurezza dei pazienti (error prevention)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Lista di controllo per ridurre i rischi: allergie, identità, farmaci, ecc.",
+  prompt: `Agisce come medico con un focus sulla sicurezza del paziente.
+
+Ingressi:
+- Contesto (consultazione esterna, emergenza, ospedale).
+- Procedure / misure previste.
+- Rischi (allergie, anticoagulanti, gravidanza, cadute).
+
+Genera:
+1) Prevenzione della lista di controllo (10-15 punti).
+2) Lista di controllo per (5-8 punti).
+3) Alto / laureato Checklist (8-12 punti).
+4) "Frequenti errori" e come evitarli (6).
+5) Messaggio di cultura di sicurezza (1 paragrafo).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-014",
+  title: "Strategia di comunicazione clinica: paziente difficile / arrabbiato",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Script al conflitto in scala, mantenere i limiti e raggiungere l'accordo terapeutico.",
+  prompt: `Agisce come medico. Sta parlando con un paziente sconvolto.
+
+Ingressi:
+- Motivi per la rabbia (tempo di attesa, diagnosi, costi, trattamento).
+- Livello di aggressione (basso / medio / alto).
+- No. Ciò che deve essere raggiunto oggi (piano, aderenza, riferimento).
+
+Genera:
+1) Bottiglie di apertura per decalculation (5).
+2) Domande per identificare la reale necessità (5).
+3) Limiti chiari e rispettosi (3 frasi).
+4) Piano di accordo (opzioni A / B) e come presentarli.
+5) Cosa documentare nel file (elenco).
+6) Segnali di sicurezza per salire a supporto (se applicabile).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-015",
+  title: "Istruzioni standard di rilascio per la sindrome",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Crea un temperato riutilizzabile: cura, segnali di allarme e follow-up per la sindrome clinica.",
+  prompt: `Agisce come medico. Crea un modello di rilascio riutilizzabile.
+
+Ingressi:
+- Sindrome / stato (es. gastroenterite, lumbalgia, IVAS).
+- Popolazione (adulto / pediatrico / gravidanza).
+- Gestione indicata (generale).
+
+Genera:
+1) Che cosa è (breve spiegazione).
+2) Cura domestica (8 proiettili).
+3) Cosa evitare (5 proiettili).
+4) Segnali di allarme (8-12).
+5) Seguito consigliato (quando e con chi).
+6) FAQ (5) con risposte brevi.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-016",
+  title: "Guida di lettura rapida ECG / Rx / TAC (struttura di rapporto)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Modello per interpretare sistematicamente gli studi (senza trovare risultati).",
+  prompt: `Agisce come medico. Genera un modello di lettura sistematica.
+
+Ingressi:
+- Tipo di studio (ECG / Rx torace / CT addome, ecc.).
+- motivi clinici.
+- I risultati riportati (se esiste già un rapporto).
+- Sintomi e contesto.
+
+Genera:
+1) Un metodo sistematico step-by-step (checklist).
+2) Risultati chiave alla ricerca secondo il movente (lista).
+3) Come correlare con la clinica (questioni).
+4) Quali risultati richiedono un'azione immediata (bandiere rosse).
+5) Come documentare la conclusione e il prossimo passo.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-017",
+  title: "Piano di cura dei pazienti cronici (piano di assistenza annuale)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Costruire un piano annuale: obiettivi, controlli, istruzione, prevenzione e monitoraggio.",
+  prompt: `Agisce come medico primario. Progetta un piano di assistenza annuale.
+
+Ingressi:
+- Stato cronico (DM2, HTA, COPD, asma, ecc.).
+- Età e comorbidità.
+- Risorse dei pazienti (tempo, accesso, supporto).
+- Gli obiettivi del paziente.
+
+Genera:
+1) Obiettivi SMART (3-5).
+2) Controlli e monitoraggio (cosa e quando, generale).
+3) Piano di stile di vita per dominio (cibo, attività, sonno, stress).
+4) segni di discompensazione e piano d'azione.
+5) Programma di monitoraggio (3-4 pietre miliari).
+6) Come coinvolgere famiglia / caregiver.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-018",
+  title: "Controllo della documentazione clinica (qualità e rischio legale)",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Controllare una nota per rilevare lacune, ambiguità e migliorare la difesa clinica.",
+  prompt: `Agisce come revisore clinico. Sta valutando una nota medica.
+
+Ingressi:
+- Testo della nota.
+- Contesto (consultazione / emergenza / ospedale).
+- Obiettivo (migliorare chiarezza, fatturazione, rischi).
+
+Genera:
+1) 10 miglioramenti concreti (mancanti, mancanti, da chiarire).
+2) Rischi medici-legali per omissioni (lista).
+3) Consigli di redazione per: HPI, EF, ragionamento, piano.
+4) Elenco di controllo finale per le note future.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-019",
+  title: "Script \"spiega perché non chiedere uno studio inutile\"",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Risponde quando il paziente non richiede alcuna indicazione di risonanza / antibiotici / laboratori.",
+  prompt: `Agisce come medico. Il paziente richiede uno studio senza indicazioni chiare.
+
+Ingressi:
+- Studio richiesto.
+- Sintesi / diagnosi attuale.
+- Paziente paura (cosa pensi di avere).
+- I risultati che riducono la probabilità di gravità.
+
+Genera:
+1) Breve spiegazione (benefit vs falso positivo / danno / costo).
+2) Che cosa se facciamo (piano alterato) e perché è più utile ora.
+3) Segni che giustificano lo studio (criteri clinici).
+4) Piano di monitoraggio a tempo.
+5) Chiusura empatica per mantenere la fiducia.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludotros-020",
+  title: "Modello di sessione clinica: caso + discussione + perle",
+  area: "Salute e Clinica",
+  category: "Altri",
+  summary:
+  "Struttura un caso da presentare in visita pass o sessione accademica.",
+  prompt: `Agisce come medico docente. Struttura di presentazione dei casi.
+
+Ingressi:
+- Caso (età, sesso, movente, HPI, EF, laboratori / immagine).
+- Dx finale o sospettato.
+- Punti di apprendimento.
+
+Genera:
+1) Presentazione in 60-90 secondi (pass style).
+2) Problema rappresentativo (1 frase).
+3) Dx sistema differenziale.
+4) ragione clinica (perché Dx A > B).
+(5) Gestione e monitoraggio.
+6) 5 perle cliniche + 3 errori comuni.`,
+  thumbnail: ""
+}];

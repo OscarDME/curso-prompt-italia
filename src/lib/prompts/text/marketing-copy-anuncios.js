@@ -1,1949 +1,1948 @@
 export const textPromptsMarketingCopyAnuncios = [
-  {
-    id: "copy-ads-001",
-    title:
-      "Copy para anuncio centrado en beneficio principal (High-Converting Benefit Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Crea un anuncio donde el beneficio principal sea el eje emocional y racional del mensaje.",
-    prompt: `Actúa como un copywriter senior especializado en anuncios de conversión con foco en beneficios.
+{
+  id: "copy-ads-001",
+  title:
+  "Main-benefit-focused ad copia (High-Converting Benefit Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Crea un annuncio dove il principale vantaggio è l'asse emotivo e razionale del messaggio.",
+  prompt: `Agisce come copywriter senior specializzato in annunci di conversione con attenzione ai benefici.
 
-Inputs:
-- Producto/servicio: [descripción detallada].
-- Beneficio principal: [resultado directo].
-- Dolor que resuelve: [explica].
-- Tipo de audiencia: [novatos, intermedios, expertos].
-
-Genera:
-1) 3 versiones de copy para anuncio (corto, medio y largo).
-2) Cada versión debe contener:
-   - Hook inicial irresistible centrado en el beneficio.
-   - Declaración del problema sin exageración.
-   - Explicación del beneficio en 1 frase simple.
-   - Prueba creíble (testimonial, métrica, evidencia).
-   - CTA altamente específica y accionable.
-3) Entrega también:
-   - 5 variaciones del hook.
-   - 5 líneas finales tipo “razón para actuar hoy”.
-4) Optimiza para Facebook Ads + TikTok Ads.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-002",
-    title: "Anuncio estilo UGC guionizado (User Generated Content Script)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Guion tipo UGC para anuncios naturales, casuales y altamente persuasivos.",
-    prompt: `Eres un creativo experto en UGC para anuncios directos y orgánicos.
-
-Inputs:
-- Producto: [nombre].
-- Transformación prometida: [resultado].
-- Objeción principal del usuario: [precio, miedo, duda].
-- Personalidad del creador: [divertido, serio, experto, joven].
+Ingressi:
+- Prodotto / servizio: [descrizione dettagliata].
+- Principali vantaggi: [risultato diretto].
+- Dolore che risolve:
+- Tipo di udito: [novizio, intermedio, esperto].
 
 Genera:
-1) Guion completo estilo UGC:
-   - Apertura espontánea (hook visual + frase directa).
-   - Micro historia personal en 10 segundos.
-   - Momento de “descubrimiento”.
-   - Explicación del beneficio clave sin tecnicismos.
-   - Mini-demo o prueba visual (narrada).
-   - Cierre con CTA auténtica, no comercial.
-2) 3 variaciones de guion para test A/B:
-   - Estilo “drama”.
-   - Estilo “tutorial”.
-   - Estilo “antes/después”.
-3) 5 frases reales y naturales para usar como subtítulos.`,
-    thumbnail: "",
-  },
+1) 3 versioni di copia per ad (corto, medio e lungo).
+2) Ogni versione dovrebbe contenere:
+- Iresistible iniziale gancio focalizzato sul profitto.
+- Una dichiarazione del problema senza sovrastare.
+- Spiegazione del beneficio in 1 frase semplice.
+- prove credibili (testimonial, metriche, prove).
+- CTA altamente specifico e fattibile.
+(3) Consegna anche:
+- 5 varianti del foro.
+- 5 linee finali "reason per agire oggi".
+4) Optimia per annunci Facebook + annunci TikTok.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-003",
-    title:
-      "Copy para anuncios basados en dolor → alivio (Pain-Relief Framework)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Copy altamente emocional basado en transformar dolor en alivio y claridad.",
-    prompt: `Actúa como copywriter experto en ads basados en triggers psicológicos.
+{
+  id: "copy-ads-002",
+  title: "Annuncio di script in stile UGC (User Generated Content Script)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Scrittura tipo UGC per annunci naturali, casual e altamente persuasive.",
+  prompt: `Sei un esperto creativo UGC per annunci diretti e biologici.
 
-Inputs:
-- Dolor principal: [describir].
-- Consecuencia emocional: [miedo, frustración, vergüenza].
-- Producto: [explicar lo que hace].
-- Resultado del usuario tras usarlo: [beneficio transformador].
+Ingressi:
+- Prodotto: [name].
+- Promessa trasformazione: [risultato].
+- L'obiezione principale dell'utente: [prezzo, paura, dubbio].
+- Personalità del creatore: [divertente, serio, esperto, giovane].
 
 Genera:
-1) 3 anuncios completos siguiendo el patrón:
-   - Pain: descripción del dolor en lenguaje cotidiano.
-   - Twist: insight breve que revela por qué ocurre el dolor.
-   - Relief: solución simple explicada sin tecnicismos.
-   - Proof: micro-evidencia o caso real.
-   - CTA: llamada a acción empática y no agresiva.
-2) Versión para Facebook Ads y versión para TikTok Ads.
-3) Lista de 10 detonadores emocionales complementarios.`,
-    thumbnail: "",
-  },
+1) script completo di stile UGC:
+- Apertura spontanea (aggancio visivo + frase diretta).
+- Micro storia personale in 10 secondi.
+- E' ora di "scoperta".
+- Spiegazione di vantaggi chiave senza tecniche.
+- Mini-demo o test visivo (narrato).
+- Chiuso con CTA reale, non commerciale.
+(2) 3 variazioni di sceneggiatura per A / B test:
+- stile "drama".
+- stile "tutoriale".
+- "prima / dopo" stile.
+3) 5 frasi reali e naturali da usare come sottotitoli.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-004",
-    title: "Anuncio basado en 'Lo que nadie te dice…' (Secret Angle Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Anuncio basado en secretos de la industria, truths ocultas o insights poco conocidos.",
-    prompt: `Eres un experto creativo en “secret-based angles”.
+{
+  id: "copy-ads-003",
+  title:
+  "Copia pubblicitaria basata sul dolore → rilievo (Quadro di sollievo dal dolore)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Copia altamente emotiva basata sulla trasformazione del dolore in sollievo e chiarezza.",
+  prompt: `Agisce come copywriter esperto in annunci basati su trigger psicologici.
 
-Inputs:
-- Industria: [describir].
-- Secreto/insight real: [explicar].
-- Cómo el producto soluciona esa verdad: [detallar].
-- Nivel de conciencia del público: [bajo/medio/alto].
-
-Genera:
-1) 3 conceptos de anuncio usando la estructura:
-   - Hook “Lo que nadie te dice…”
-   - Revelación del secreto.
-   - Consecuencia de ignorarlo.
-   - Solución sin hype.
-   - CTA específica.
-2) 5 variaciones del secreto (más suaves y más agresivas).
-3) 10 hooks alternativos estilo “truth bomb”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-005",
-    title: "Copy de anuncio con storytelling de transformación",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Historia corta diseñada para generar conexión emocional y vender.",
-    prompt: `Eres especialista en storytelling aplicado a anuncios.
-
-Inputs:
-- Personaje: [breve perfil].
-- Problema inicial: [describir].
-- Momento clave de quiebre: [explicar].
-- Producto/servicio como solución: [describir].
-- Resultado final: [beneficio obtenido].
+Ingressi:
+- Dolore principale:
+- Conseguenza emotiva: [fear, frustrazione, vergogna].
+- Prodotto: [spiega cosa fa].
+- Risultato utente dopo l'uso: [trasformatore beneficio].
 
 Genera:
-1) Historia tipo anuncio formateada en:
-   - Versión 15 segundos.
-   - Versión 30 segundos.
-   - Versión 60 segundos.
-2) Debe incluir:
-   - Conexión emocional instantánea.
-   - Conflicto simple y claro.
-   - Momento de descubrimiento.
-   - Resultado medible.
-   - CTA inspiracional.
-3) 7 titulares estilo “caso real”.`,
-    thumbnail: "",
-  },
+1) 3 annunci completi seguendo il modello:
+- Dolore: descrizione del dolore nella lingua quotidiana.
+- Twist: breve comprensione che rivela perché il dolore si verifica.
+- Rilievo: soluzione semplice spiegata senza tecnicità.
+- Prova: micro-prove o vero caso.
+- CTA: richiesta di azione empatica e non aggressiva.
+2) Versione Facebook Ads e versione TikTok Ads.
+3) Elenco di 10 detonatori emotivi complementari.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-006",
-    title: "Anuncio de comparación: A vs B (Comparative Advantage Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Anuncio basado en mostrar por qué tu solución es superior a la alternativa.",
-    prompt: `Actúa como copywriter técnico y directo.
+{
+  id: "copy-ads-004",
+  title: "Annuncio basato su 'Che cosa nessuno ti dice...' (Secret Angle Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Annuncio basato su segreti del settore, verità nascoste o intuizioni poco conosciute.",
+  prompt: `Sei un esperto creativo in "angolo segreto".
 
-Inputs:
-- Alternativa A (competencia o solución tradicional).
-- Solución B (tu producto).
-- 3 ventajas principales de B.
-- Pruebas o resultados reales.
+Ingressi:
+- Industria: [descrivi].
+- Segreto reale / intuizione: [spiega].
+- Come il prodotto risolve quella verità: [dettaglio].
+- Livello di consapevolezza: [basso / medio / alto].
 
 Genera:
-1) Anuncio comparativo claro:
-   - Título “A vs B”.
-   - Tabla conceptual de diferencias.
-   - Explicación emocional de cada ventaja.
-   - Razón lógica + razón emocional para elegir B.
-2) 3 hooks basados en comparación.
-3) 5 CTAs contundentes.`,
-    thumbnail: "",
-  },
+1) 3 concetti ad che utilizzano la struttura:
+- Uncino "che nessuno ti dice..."
+- Rivelazione del segreto.
+- La conseguenza di ignorarlo.
+- Soluzione iper-free.
+- CTA specifica.
+2) 5 varianti del segreto (più morbido e più aggressivo).
+3) 10 ganci di stile "truth bomb" alternativi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-007",
-    title: "Copy para anuncio con urgencia real (Ethical Urgency Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Urgencia basada en razones legítimas, no truqueadas.",
-    prompt: `Eres experto en comunicación honesta con alto poder de conversión.
+{
+  id: "copy-ads-005",
+  title: "Copia ad uso di elaborazione",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Breve storia progettata per generare connessione emotiva e vendere.",
+  prompt: `Sei uno specialista di storytelling applicato agli annunci.
 
-Inputs:
-- Motivo real de la urgencia: [explica mejor].
-- Fecha o límite real.
-- Consecuencia de esperar.
-- Oferta disponible ahora.
-
-Genera:
-1) 4 variaciones de anuncio centradas en urgencia ética:
-   - “Se acaba pronto…”
-   - “Últimos cupos…”
-   - “Precio sube…”
-   - “Acceso temporal…”
-2) Cada anuncio debe incluir:
-   - Explicación transparente del límite.
-   - Razonamiento tipo “es ahora o después será peor”.
-   - CTA práctica.
-3) Lista de 10 frases de urgencia suave.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-008",
-    title: "Anuncio educacional tipo mini-clase (Micro-Lesson Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Anuncio que enseña algo poderoso en pocos segundos para generar autoridad.",
-    prompt: `Actúa como educador + copywriter de ads.
-
-Inputs:
-- Concepto que quieres enseñar.
-- Nivel de complejidad.
-- Producto relacionado.
+Ingressi:
+- Carattere: [profilo di prova].
+- Problema iniziale: [descrivi].
+- Ora chiave della pausa: [spiega].
+- Prodotto / servizio come soluzione: [descrivere].
+- Risultato finale: [profitto ottenuto].
 
 Genera:
-1) Mini-enseñanza de 3 pasos en 1 anuncio:
-   - Paso 1: insight.
-   - Paso 2: error común.
-   - Paso 3: solución breve.
-2) 3 versiones:
-   - Compacta.
-   - Narrativa.
-   - Técnica.
-3) CTA basada en curiosidad (“si quieres aprender el paso 4…”).`,
-    thumbnail: "",
-  },
+1) Tipo di storia ad formattato in:
+- Versione 15 secondi.
+- Versione 30 secondi.
+- Versione 60 secondi.
+2) Dovrebbe includere:
+- Collegamento emotivo istantaneo.
+- Un conflitto semplice e chiaro.
+- E' il momento della scoperta.
+- Risultato misurabile.
+- CTA Ispirazionale.
+3) 7 "vero caso" stile titoli.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-009",
-    title: "Anuncio estilo 'mito vs realidad'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Perfecto para productos que desmienten creencias populares.",
-    prompt: `Eres experto en anuncios basados en reframing mental.
+{
+  id: "copy-ads-006",
+  title: "Annuncio di confronto: A vs B (Comparative Advantage Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Annuncio basato sul mostrare perché la soluzione è superiore all'alternativa.",
+  prompt: `Agisce come copywriter tecnico e diretto.
 
-Inputs:
-- Mito común.
-- Realidad basada en datos.
-- Solución que cambia la percepción.
-
-Genera:
-1) 5 anuncios “Mito vs Realidad”.
-2) Cada anuncio debe incluir:
-   - Mito 1 línea.
-   - Realidad reveladora.
-   - Ejemplo o mini-prueba.
-   - CTA basada en claridad.
-3) 10 hooks desmontando creencias.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-010",
-    title: "Copy para anuncio tipo 'antes / después' sin exageraciones",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Antes / después creíble, concreto, ético y con autoridad.",
-    prompt: `Actúa como especialista en comunicación basada en pruebas reales.
-
-Inputs:
-- Situación inicial del cliente.
-- Resultado final alcanzado.
-- Tiempo en lograrlo.
-- Qué herramienta o metodología usó.
+Ingressi:
+- Alternativa A (competenza o soluzione tradizionale).
+- Soluzione B (il tuo prodotto).
+- 3 vantaggi principali di B.
+- Test reali o risultati.
 
 Genera:
-1) 3 anuncios “antes/después” con:
-   - Escenario inicial relatable.
-   - Micro-cambio clave.
-   - Resultado final medible.
-   - CTA para replicar el método.
-2) 5 variantes sin mencionar números (para políticas estrictas).
-3) 10 frases tipo “mira la diferencia”.`,
-    thumbnail: "",
-  },
+1) Annuncio comparativo chiaro:
+- Titolo "A vs B".
+- Tavola concettuale delle differenze.
+- Spiegazione emotiva di ogni vantaggio.
+- Motivo logico + motivo emotivo per scegliere B.
+2) 3 ganci in base al confronto.
+(3) 5.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-011",
-    title: "Anuncio basado en autoridad (Expert Positioning Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para coaches, consultores, mentores o especialistas.",
-    prompt: `Actúa como copywriter especializado en posicionamiento de autoridad.
+{
+  id: "copy-ads-007",
+  title: "Real urgente copia ad (Ethical Urgency Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Urgenza basata su motivi legittimi e non veritieri.",
+  prompt: `Sei un esperto di comunicazione onesta con alta potenza di conversione.
 
-Inputs:
-- Tu título o experiencia.
-- Resultados de alumnos/clientes.
-- Enfoque o metodología única.
-
-Genera:
-1) Anuncio de autoridad:
-   - Declaración de expertise.
-   - Insight educativo.
-   - Prueba o caso real.
-   - CTA para aprender más.
-2) 3 hooks profesionales.
-3) 7 frases de validación social.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-012",
-    title: "Anuncio humorístico para captar atención",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Humor + insight comercial = CTR y retención altos.",
-    prompt: `Eres un creativo experto en anuncios con humor inteligente.
-
-Inputs:
-- Dolor o problema.
-- Solución.
-- Tipo de humor (absurdo, sarcástico, irónico).
+Ingressi:
+- Una vera ragione di urgenza: [spiega meglio].
+- Data o limite effettivo.
+- La conseguenza dell'attesa.
+- Offerta disponibile ora.
 
 Genera:
-1) 3 anuncios humorísticos:
-   - Apertura cómica.
-   - Problema exagerado de forma divertida.
-   - Solución con transición suave.
-   - CTA humorística pero clara.
-2) 5 chistes/analogías reutilizables.`,
-    thumbnail: "",
-  },
+1) 4 variazioni ad incentrate sull'urgenza etica:
+- "E' finita presto..."
+- "Ultima quota..."
+- "Il prezzo sale..."
+- "Accesso temporaneo..."
+2) Ogni annuncio dovrebbe includere:
+- Spiegazione chiara del limite.
+- Tipo il motivo "è ora o più tardi sarà peggio."
+- Pratica CTA.
+3) Elenco di 10 frasi di emergenza morbide.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-013",
-    title: "Anuncio centrado en un micro-problema específico",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Cuando tu público tiene un micro-dolor muy concreto.",
-    prompt: `Inputs:
+{
+  id: "copy-ads-008",
+  title: "Annuncio educativo di classe (MicroLesson Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Annuncio che insegna qualcosa di potente in pochi secondi per generare autorità.",
+  prompt: `Agisce come educatore + copywriter di annunci.
+
+Ingressi:
+- Concetto che vuoi insegnare.
+- Livello di complessità.
+- Prodotto correlato.
+
+Genera:
+1) Mini-insegnamento di 3 passi in 1 annuncio:
+Passo 1: Insight.
+- Passo 2: errore comune.
+- Passo 3: soluzione breve.
+2) 3 versioni:
+- Compatto.
+- Narrativo.
+- Tecnica.
+3) CTA basato sulla curiosità ("se vuoi imparare il passo 4...").`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-009",
+  title: "Stile di annuncio 'mito contro realtà '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Perfetto per i prodotti che negano le credenze popolari.",
+  prompt: `Sei un esperto di annunci di riframing mentale.
+
+Ingressi:
+- Mito comune.
+- Realtà basata sui dati.
+- Soluzione che cambia percezione.
+
+Genera:
+1) 5 annunci "Myth vs Reality".
+2) Ogni annuncio dovrebbe includere:
+- Mito 1 linea.
+- Rivelare la realtà.
+- Esempio o mini-test.
+- CTA basato sulla chiarezza.
+3) 10 ganci smontare credenze.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-010",
+  title: "Copia tipo 'prima / dopo' senza sovrastamento",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Prima / dopo credibile, concreto, etico e autorevole.",
+  prompt: `Agisce come specialista di comunicazione basato su prove reali.
+
+Ingressi:
+- No. La situazione iniziale del cliente.
+- Risultati finali raggiunti.
+- E' ora di farcela.
+- No. Che strumento o metodologia ha usato.
+
+Genera:
+1) 3 annunci "prima / dopo" con:
+- Scenario iniziale affidabile.
+- Micro-chiavi.
+- Risultato finale misurabile.
+- CTA per replicare il metodo.
+2) 5 varianti per non parlare di numeri (per politiche rigorose).
+3) 10 "guarda la differenza" frasi di tipo.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-011",
+  title: "Annuncio basato sull'autorità (Expert Positioning Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per allenatori, consulenti, mentori o specialisti.",
+  prompt: `Agisce come copywriter specializzato nel posizionamento dell'autorità.
+
+Ingressi:
+- Il tuo titolo o esperienza.
+- Risultati per studenti / clienti.
+- Un approccio o una metodologia.
+
+Genera:
+1) Avviso di autorità:
+- Dichiarazione di esperti.
+- Intuizione educativa.
+- Un vero caso o una prova.
+- CTA per saperne di più.
+2) 3 ganci professionali.
+(3) 7 frasi di convalida sociale.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-012",
+  title: "Annuncio emozionante per catturare l'attenzione",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Humor + intuizione commerciale = CTR e alta ritenzione.",
+  prompt: `Sei un esperto creativo di annunci di umore intelligente.
+
+Ingressi:
+- Dolore o guai.
+- Soluzione.
+- Tipo di umorismo (assunto, sarcastico, ironico).
+
+Genera:
+1) 3 annunci umoristici:
+- Apertura comica.
+- Un problema eccessivo in modo divertente.
+- Soluzione con transizione liscia.
+- Umoroso ma chiaro.
+2) 5 battute riutilizzabili / analogie.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-013",
+  title: "Annuncio focalizzato su un micro-problema specifico",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Quando il pubblico ha un micro-dolore molto specifico.",
+  prompt: `Ingressi:
 - Micro-problema.
-- Solución exacta.
-- Resultado inmediato o rápido.
+- Soluzione accurata.
+- Risultati rapidi o rapidi.
 
 Genera:
-1) 5 anuncios hiper-específicos.
-2) Cada anuncio debe:
-   - Mencionar el micro-problema sin dramatizar.
-   - Explicar la solución en una frase.
-   - Dar una razón para actuar hoy.`,
-    thumbnail: "",
-  },
+1) 5 annunci iperspecifici.
+2) Ogni annuncio dovrebbe:
+- Menzionare il micro-problema senza drammatizzare.
+- Spiegare la soluzione in una frase.
+- Dammi un motivo per agire oggi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-014",
-    title: "Copy para anuncio basado en estadísticas impactantes",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para atraer atención mediante datos reales.",
-    prompt: `Inputs:
-- Estadística relevante.
-- Fuente.
-- Conexión con el producto.
-
-Genera:
-1) 3 anuncios basados en estadísticas.
-2) Cada uno debe incluir:
-   - Dato impactante.
-   - Interpretación simplificada.
-   - Relevancia para el usuario.
-   - CTA informada.
-3) 10 titulares derivados de la estadística.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-015",
-    title: "Anuncio con enfoque aspiracional (Future-Self Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Apela al 'yo ideal' del usuario.",
-    prompt: `Inputs:
-- Aspiración del cliente ideal.
-- Resultado final deseado.
-- Obstáculo principal.
+{
+  id: "copy-ads-014",
+  title: "Copia ad basata sulle statistiche di impatto",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per attirare l'attenzione attraverso dati reali.",
+  prompt: `Ingressi:
+- Statistiche rilevanti.
+- Fonte.
+- Collegamento al prodotto.
 
 Genera:
-1) 5 anuncios aspiracionales.
-2) Deben contener:
-   - Descripción del yo futuro.
-   - Puente narrativo.
-   - Solución como vehículo.
-   - CTA emocional.
-3) 7 frases sobre transformación personal.`,
-    thumbnail: "",
-  },
+1) 3 annunci basati su statistiche.
+2) Ciascuno dovrebbe includere:
+- Un appuntamento.
+- Interpretazione semplificata.
+- Rilevanza per l'utente.
+- CTA informata.
+3) 10 titolari derivati dalle statistiche.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-016",
-    title: "Copy para anuncio estilo 'checklist de errores'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Formato simple y muy viral: errores comunes + solución.",
-    prompt: `Inputs:
-- Tema.
-- 5 errores más comunes.
-
-Genera:
-1) 3 anuncios checklist.
-2) Cada anuncio:
-   - Error 1 a 5 en bullets.
-   - Solución general.
-   - CTA educativa.
-3) 10 titulares tipo “si haces esto, te está frenando”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-017",
-    title: "Anuncio para audiencias frías (Cold Traffic Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Optimizado para gente que no te conoce aún.",
-    prompt: `Inputs:
-- Producto.
-- Dolor primario.
-- Resultado clave.
+{
+  id: "copy-ads-015",
+  title: "Annunciazione con un approccio aspirazione (Future-Self Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Si rivolge al sé ideale dell'utente '.",
+  prompt: `Ingressi:
+- Aspirazione clienti ideale.
+- Risultato finale desiderato.
+- Ostacolo principale.
 
 Genera:
-1) 3 anuncios friendly para tráfico frío:
-   - Lenguaje suave.
-   - Explicación clara.
-   - CTA neutra (“descubre”).
-2) 5 hooks diseñados exclusivamente para audiencias frías.`,
-    thumbnail: "",
-  },
+1) 5 annunci aspiranti.
+2) Devono contenere:
+- Descrizione dell'io futuro.
+- ponte narrativo.
+- Soluzione come veicolo.
+- CTA emotiva.
+(3) 7 frasi sulla trasformazione personale.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-018",
-    title: "Anuncio para retargeting (Warm Traffic Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Enfocado en gente que ya te vio pero no compró.",
-    prompt: `Inputs:
-- Objeción principal.
-- Oferta actual.
-
-Genera:
-1) 5 anuncios retargeting:
-   - Abordar objeción.
-   - Resolver duda.
-   - Mostrar beneficio.
-   - CTA fuerte.
-2) 10 frases de remarketing.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-019",
-    title: "Copy para anuncio basado en autoridad externa",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Usa validación externa para generar confianza.",
-    prompt: `Inputs:
-- Medios, certificaciones o premios.
-- Producto.
+{
+  id: "copy-ads-016",
+  title: "Copia annuncio stile 'Checklist'",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Formato semplice e molto virale: errori comuni + soluzione.",
+  prompt: `Ingressi:
+- Soggetto.
+- 5 errori più comuni.
 
 Genera:
-1) 3 anuncios centrados en autoridad externa.
-2) 5 titulares derivados de validaciones.
-3) CTA tipo “aprobado por…”.`,
-    thumbnail: "",
-  },
+1) 3 annunci della lista di controllo.
+2) Ogni annuncio:
+- Errore da 1 a 5 nei proiettili.
+- Soluzione generale.
+- CTA educativa.
+3) 10 "se lo fai, ti tiene indietro".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-020",
-    title: "Copy para anuncio hiper-directo (Direct Response Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Mensaje directo, claro, concreto, sin adornos.",
-    prompt: `Inputs:
-- Oferta.
-- Beneficio directo.
-- Evidencia.
-
-Genera:
-1) 5 anuncios direct response.
-2) Cada uno con:
-   - Título claro.
-   - Beneficio en 1 frase.
-   - Prueba simple.
-   - CTA corto.
-3) Lista de 15 titulares directos.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-ads-021",
-    title: "Anuncio basado en micro-victoria inmediata (Quick Win Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Copy orientado a mostrar un resultado rápido, concreto y alcanzable.",
-    prompt: `Actúa como copywriter especializado en conversión rápida.
-
-Inputs:
-- Micro-victoria que el usuario puede lograr en 24–48 horas.
-- Herramienta/servicio que lo permite.
-- Objeción típica sobre “no tengo tiempo”.
+{
+  id: "copy-ads-017",
+  title: "Traffico freddo Ad",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ottimizzato per le persone che non ti conoscono ancora.",
+  prompt: `Ingressi:
+- Prodotto.
+- Dolore primario.
+- Risultato chiave.
 
 Genera:
-1) 3 anuncios completos centrados en una victoria inmediata:
-   - Hook de logro rápido.
-   - Explicación clara del micro-resultado.
-   - Demostración simple (ejemplo o mini caso).
-   - CTA motivacional.
-2) 5 hooks adicionales que transmitan velocidad.
-3) Lista de 10 razones psicológicas por las que los usuarios aman quick wins.`,
-    thumbnail: "",
-  },
+1) 3 annunci per traffico freddo:
+- Lingua morbida.
+- Una spiegazione chiara.
+- CTA neutrale ("scopri").
+2) 5 ganci progettati esclusivamente per il pubblico freddo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-022",
-    title: "Anuncio tipo ‘roadmap’: 3 pasos para X",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ads que enseñan un camino simple y concreto.",
-    prompt: `Inputs:
-- Resultado final deseado.
-- 3 pasos lógicos para alcanzarlo.
-- Producto como paso 2 o paso 3.
+{
+  id: "copy-ads-018",
+  title: "Annuncio di ritiro (Warm Traffic Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Concentrati su persone che ti hanno già visto, ma non hanno comprato.",
+  prompt: `Ingressi:
+- Obiezione principale.
+- Offerta attuale.
 
 Genera:
-1) 4 anuncios estructurados en roadmap claro:
-   - Paso 1: conciencia.
-   - Paso 2: acción inicial.
-   - Paso 3: implementación.
-2) 3 variaciones de estilo:
-   - Técnico.
-   - Motivacional.
-   - Minimalista.
-3) 10 titulares tipo “solo sigue estos 3 pasos…”.`,
-    thumbnail: "",
-  },
+1) 5 annunci di ritiro:
+- Obiezione d'indirizzo.
+- Risolvi il dubbio.
+- Mostra profitto.
+- CTA forte.
+2) 10 frasi di remarketing.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-023",
-    title: "Anuncio basado en demostración técnica (Product Demo Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Anuncio centrado en mostrar el producto funcionando.",
-    prompt: `Inputs:
-- Función principal del producto.
-- Parte más impactante visualmente.
-- Resultado visible.
+{
+  id: "copy-ads-019",
+  title: "Copia ad basata sull'autorità esterna",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Utilizzare la validazione esterna per costruire la fiducia.",
+  prompt: `Ingressi:
+- Mezzi, certificazioni o premi.
+- Prodotto.
 
 Genera:
-1) 3 anuncios demo:
-   - Introducción simple.
-   - Explicación técnica en lenguaje fácil.
-   - Ejemplo visual narrado.
-   - CTA de prueba.
-2) 5 hooks demo-friendly.
-3) 10 frases cortas para subtítulos en video.`,
-    thumbnail: "",
-  },
+1) 3 annunci focalizzati sull'autorità esterna.
+2) 5 titolari derivati da validazioni.
+3) Tipo CTA "approvato da...".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-024",
-    title: "Anuncio para romper objeciones lógicas",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "El objetivo es eliminar bloqueos racionales con argumentos sólidos.",
-    prompt: `Inputs:
-- Objeción lógica (precio, tiempo, competencia).
-- Explicación real del porqué.
-- Evidencia que derriba la objeción.
+{
+  id: "copy-ads-020",
+  title: "Copia di annuncio iper-diretto (Direct Response Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Messaggio diretto, naturalmente, cemento, senza ornamenti.",
+  prompt: `Ingressi:
+- Offerta.
+- Vantaggio diretto.
+- Prove.
 
 Genera:
-1) 3 anuncios:
-   - Declaración directa de la objeción.
-   - Reencuadre racional.
-   - Explicación técnica simple.
-   - Prueba real.
-   - CTA convincente.
-2) 5 titulares que comienzan con “La verdad es que…”`,
-    thumbnail: "",
-  },
+1) 5 annunci di risposta diretta.
+2) Ciascuno con:
+- Titolo chiaro.
+- Benefico in 1 frase.
+- Prova semplice.
+- CTA corta.
+3) Elenco di 15 titoli diretti.`,
+  thumbnail: ""
+},
+{
+  id: "copy-ads-021",
+  title: "Micro-annuncio immediato vittoria (Quick Win Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Copia orientata per mostrare un risultato rapido, concreto e realizzabile.",
+  prompt: `Agisce come copywriter specializzato in rapida conversione.
 
-  {
-    id: "copy-ads-025",
-    title: "Anuncio para romper objeciones emocionales",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "El usuario no actúa por miedo, duda o falta de confianza.",
-    prompt: `Inputs:
-- Emoción predominante que frena.
-- Forma en que el producto genera alivio emocional.
-- Prueba emocional (testimonio o historia).
-
-Genera:
-1) 3 anuncios centrados en alivio emocional:
-   - Validación del miedo.
-   - Historia breve de superación.
-   - Puente emocional a la solución.
-2) 10 frases de seguridad emocional.
-3) 5 CTAs suaves.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-026",
-    title: "Anuncio con enfoque científico (Evidence-Based Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Copy que usa lenguaje científico, citas y resultados medibles.",
-    prompt: `Inputs:
-- Datos científicos.
-- Estudios relacionados.
-- Producto como aplicación práctica del descubrimiento.
+Ingressi:
+- Micro-vittoria che l'utente può raggiungere in 24-48 ore.
+- Strumento / servizio che lo permette.
+- Obiezione tipica a "Non ho tempo".
 
 Genera:
-1) 2 anuncios “científicos”:
-   - Cita o dato real.
-   - Interpretación simple.
-   - Cómo se conecta al producto.
-   - CTA objetiva.
-2) 5 titulares estilo investigación.
-3) 10 frases centrales basadas en evidencia.`,
-    thumbnail: "",
-  },
+1) 3 annunci completi focalizzati su una vittoria immediata:
+- Un gancio di successo rapido.
+- Spiegazione chiara del micro risultato.
+- Semplice dimostrazione (esempio o mini caso).
+- CTA motivazionale.
+2) 5 ganci aggiuntivi che trasmettono velocità.
+3) Lista di 10 motivi psicologici perché gli utenti amano le vincite rapide.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-027",
-    title: "Anuncio estilo ‘guía definitiva’ ultra condensada",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ads que se sienten como una mini guía o tutorial.",
-    prompt: `Inputs:
-- Tema principal.
-- 3–5 elementos indispensables.
-- Resultado final.
-
-Genera:
-1) 3 anuncios tipo guía definitiva:
-   - “Si quieres lograr X, aquí va lo esencial…”
-   - Lista de claves.
-   - Conexión con producto.
-2) 10 titulares con estructura “La guía definitiva para…”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-028",
-    title: "Anuncio con giro argumental (Plot Twist Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Usa un plot twist para aumentar retención y CTR.",
-    prompt: `Inputs:
-- Creencia común de la audiencia.
-- Giro inesperado.
-- Nueva perspectiva.
-- Producto como solución lógica al giro.
+{
+  id: "copy-ads-022",
+  title: "Annuncio di tipo Roadmap: 3 passi per X",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ads che insegnano un percorso semplice e concreto.",
+  prompt: `Ingressi:
+- Risultato finale desiderato.
+- 3 passi logici per raggiungerlo.
+- Prodotto come passo 2 o passo 3.
 
 Genera:
-1) 3 anuncios con twist narrativo:
-   - Hook creencia.
-   - Twist sorpresivo.
-   - Nueva verdad.
-   - Producto como puente.
-2) 10 ideas de twists cortos.`,
-    thumbnail: "",
-  },
+1) 4 annunci strutturati in chiaro roadmap:
+- Passo 1: coscienza.
+- Passo 2: azione iniziale.
+- Passo 3: implementazione.
+2) 3 varianti di stile:
+- Tecnico.
+- Motivazionale.
+- Minimalista.
+3) 10 "solo seguire questi 3 passi...".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-029",
-    title: "Anuncio basado en autoridad del cliente (Client-Authority Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal cuando el cliente es experto o profesional en su área.",
-    prompt: `Inputs:
-- Perfil del cliente modelo.
-- Resultado obtenido.
-- Razón por la cual su opinión tiene peso.
-
-Genera:
-1) 3 anuncios basados en autoridad del cliente.
-2) 5 titulares con enfoque experto.
-3) CTA basado en credibilidad.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-030",
-    title: "Copy para anuncio basado en discrepancia (Gap Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Muestra la brecha entre lo que el usuario hace y lo que debería hacer.",
-    prompt: `Inputs:
-- Situación actual del usuario.
-- Situación ideal.
-- Brecha exacta.
-- Producto como puente.
+{
+  id: "copy-ads-023",
+  title: "Annuncio di dimostrazione tecnico (Product Demo Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Annuncio mirato a mostrare il prodotto funzionante.",
+  prompt: `Ingressi:
+- Funzione principale del prodotto.
+- Una parte più scioccante visivamente.
+- Risultato visibile.
 
 Genera:
-1) 3 anuncios “gap”.
-2) 5 titulares tipo “La razón por la que no logras…”.
-3) 10 bullets de brechas comunes.`,
-    thumbnail: "",
-  },
+1) 3 annunci demo:
+- Semplice introduzione.
+- Spiegazione tecnica in lingua facile.
+- Un esempio visivo narrato.
+- Test CTA.
+2) 5 ganci demo-amichevole.
+3) 10 frasi brevi per sottotitoli video.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-031",
-    title: "Anuncio estilo checklist de síntomas",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Similar a errores, pero orientado a síntomas o señales.",
-    prompt: `Inputs:
-- Problema principal.
-- 5 síntomas característicos.
-- Solución que atiende esos síntomas.
-
-Genera:
-1) 3 anuncios.
-2) 10 titulares estilo “Si tienes estos síntomas, necesitas esto”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-032",
-    title: "Anuncio basado en hábito diario (Daily Habit Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "El producto se integra como parte de un hábito cotidiano.",
-    prompt: `Inputs:
-- Hábito actual.
-- Punto exacto donde el producto encaja.
-- Beneficio acumulado diario.
+{
+  id: "copy-ads-024",
+  title: "Annuncio di infrangere obiezioni logiche",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "L'obiettivo è quello di rimuovere blocchi razionali con argomenti solidi.",
+  prompt: `Ingressi:
+- Obiezione logica (prezzo, tempo, concorrenza).
+- Una vera spiegazione del perche'.
+- Prove per infrangere l'obiezione.
 
 Genera:
-1) 3 anuncios basados en hábitos.
-2) 5 CTAs lifestyle.
-3) 10 frases tipo “haz esto cada día”.`,
-    thumbnail: "",
-  },
+1) 3 annunci:
+- Dichiarazione diretta di opposizione.
+- Ristrutturazione razionale.
+- Semplice spiegazione tecnica.
+- Un vero test.
+- CTA convincente.
+2) 5 titoli che iniziano con "La verità è che..."`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-033",
-    title: "Anuncio tipo checklist de decisión (decision-making ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ayuda al usuario a decidir si el producto es para él.",
-    prompt: `Inputs:
-- A quién SÍ ayuda el producto.
-- A quién NO ayuda.
-- Condiciones ideales.
-
-Genera:
-1) 3 anuncios “Este producto es para ti si…”.
-2) 3 anuncios “No es para ti si…”.
-3) 10 titulares de clasificación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-034",
-    title: "Anuncio basado en contexto cultural o tendencia",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Se apoya en referencias culturales o tendencias actuales.",
-    prompt: `Inputs:
-- Tendencia/cultura/meme.
-- Conexión con producto.
-- Límite de compliance (no mencionar marcas prohibidas).
+{
+  id: "copy-ads-025",
+  title: "Annuncio di rompere obiezioni emotive",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "L'utente non agisce per paura, dubbio o mancanza di fiducia.",
+  prompt: `Ingressi:
+- Mozione predominante che rallenta.
+- Come il prodotto genera sollievo emotivo.
+- Test emotivo (testimonio o storia).
 
 Genera:
-1) 5 anuncios basados en tendencia, adaptables.
-2) 5 titulares inspirados en cultura pop.
-3) Reglas para mantenerlo relevante sin infringir políticas.`,
-    thumbnail: "",
-  },
+1) 3 annunci focalizzati sul sollievo emotivo:
+- Validazione della paura.
+- Breve storia di superamento.
+- Ponte emotivo alla soluzione.
+2) 10 frasi di sicurezza emotiva.
+3) 5 Teps morbido.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-035",
-    title: "Anuncio tipo '¿sabías que…?'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Gran formato para Facebook y TikTok Ads.",
-    prompt: `Inputs:
-- Dato curioso.
-- Relación con el problema del usuario.
-- Punto donde encaja el producto.
-
-Genera:
-1) 5 anuncios estilo ¿Sabías que…?
-2) 10 hooks curiosos.
-3) 10 CTAs basadas en curiosidad.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-036",
-    title: "Anuncio estilo guía de compra (Buyer Guide Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Educa al usuario para que tome una decisión informada.",
-    prompt: `Inputs:
-- Mercado específico.
-- 3 criterios clave para elegir correctamente.
-- Producto como mejor opción por X razones.
+{
+  id: "copy-ads-026",
+  title: "Annuncio con un approccio scientifico (Evidence-Based Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Copia che utilizza il linguaggio scientifico, le citazioni e i risultati misurabili.",
+  prompt: `Ingressi:
+- Dati scientifici.
+- Studi correlati.
+- Prodotto come applicazione pratica della scoperta.
 
 Genera:
-1) 3 anuncios tipo guía de compra.
-2) 3 versiones según nivel de conciencia: bajo, medio, alto.
-3) 5 titulares estilo “antes de comprar X… lee esto”.`,
-    thumbnail: "",
-  },
+1) 2 annunci "scientifici":
+- Data o dati reali.
+- Semplice interpretazione.
+- No. Come si collega al prodotto.
+- Obiettivo CTA.
+2) 5 titoli in stile di ricerca.
+3) 10 frasi centrali basate su prove.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-037",
-    title: "Anuncio basado en micro-historia real",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Historia ultra corta y muy humana que vende por identificación.",
-    prompt: `Inputs:
-- Persona real.
-- Situación breve.
-- Momento de quiebre.
-- Resultado.
-
-Genera:
-1) 3 anuncios de 4–5 líneas.
-2) 10 frases estilo narrativa mínima.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-038",
-    title: "Anuncio para audiencias saturadas (des-sensibilización)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ads diseñados para destacar cuando la audiencia está saturada.",
-    prompt: `Inputs:
-- Mensaje que todos repiten.
-- Nuevo ángulo original.
-- Oferta diferenciadora.
+{
+  id: "copy-ads-027",
+  title: "Stile di Annunciazione 'guida definitiva' ultra condensato",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Annunci che si sentono come una mini guida o tutorial.",
+  prompt: `Ingressi:
+- Tema principale.
+- 3-5 elementi essenziali.
+- Risultato finale.
 
 Genera:
-1) 3 anuncios anti-saturación.
-2) 10 titulares contraintuitivos.
-3) Lista de diferenciadores narrativos.`,
-    thumbnail: "",
-  },
+1) 3 comunicazioni di tipo guida finali:
+- "Se vuoi prendere X, ecco la cosa..."
+- La lista delle chiavi.
+- Collegamento del prodotto.
+2) 10 titolari con struttura "La guida definitiva per...".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-039",
-    title: "Anuncio que usa inversión de idea (Idea Reversal Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Reversión completa de una idea común para capturar atención.",
-    prompt: `Inputs:
-- Creencia popular.
-- Inversión lógica.
-- Evidencia que soporta la inversión.
-
-Genera:
-1) 3 anuncios completos.
-2) 10 inversiones de idea adicionales.
-3) 5 CTAs basadas en cambiar perspectiva.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-040",
-    title: "Anuncio focalizado en un segmento ultra-nicho",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Copy hiper-específico para nichos muy pequeños.",
-    prompt: `Inputs:
-- Nicho exacto.
-- Problema muy concreto.
-- Beneficio hiper-específico.
+{
+  id: "copy-ads-028",
+  title: "Anuncio con rodo argomentativo (Plot Twist Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Utilizzare una trama torsione per aumentare la ritenzione e CTR.",
+  prompt: `Ingressi:
+- Convinzione comune del pubblico.
+- Non previsto.
+- Nuova prospettiva.
+- Prodotto come soluzione logica alla svolta.
 
 Genera:
-1) 3 anuncios ultra-nicho.
-2) 10 titulares dedicados a microgrupos.
-3) 10 llamados a acción súper personalizados.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-ads-041",
-    title: "Anuncio basado en la eliminación del riesgo (Risk Removal Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Copy enfocado en garantizar seguridad y eliminar miedos al compromiso.",
-    prompt: `Actúa como copywriter especializado en desactivar bloqueos relacionados con el riesgo.
+1) 3 annunci con twist narrativo:
+- Uncino.
+- Twist e' una sorpresa.
+- Nuova verità.
+- Prodotto come ponte.
+2) 10 idee di brevi torsioni.`,
+  thumbnail: ""
+},
 
-Inputs:
-- Garantía ofrecida (tipo, duración, condiciones).
-- Principal miedo del usuario.
-- Resultado esperado al usar el producto/servicio.
-
-Genera:
-1) 3 anuncios completos:
-   - Declaración explícita del miedo común.
-   - Explicación de la garantía.
-   - Beneficio emocional: seguridad, tranquilidad.
-   - CTA segura.
-2) 10 titulares centrados en confianza.
-3) 5 mensajes breves para remarketing basados en seguridad.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-042",
-    title: "Anuncio estilo ‘si estás haciendo esto, estás perdiendo dinero’",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Formato directo ideal para capturar atención con impacto económico.",
-    prompt: `Inputs:
-- Acción que hace perder dinero al usuario.
-- Consecuencia económica.
-- Solución propuesta.
-- Ahorro o ganancia potencial.
+{
+  id: "copy-ads-029",
+  title: "Annuncio basato sull'autorità del cliente (Customer-Authority Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale quando il cliente è esperto o professionale nella vostra zona.",
+  prompt: `Ingressi:
+- Modello profilo cliente.
+- Risultato ottenuto.
+- No. Ecco perche' la tua opinione ha peso.
 
 Genera:
-1) 3 anuncios de alto impacto financiero.
-2) 10 líneas estilo “estás perdiendo dinero sin darte cuenta por…”.
-3) 5 versiones con tono más suave.`,
-    thumbnail: "",
-  },
+1) 3 annunci basati sull'autorità del cliente.
+(2) 5 titolari con un approccio esperto.
+3) CTA basato sulla credibilità.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-043",
-    title: "Anuncio con enfoque de mecanismo único (Unique Mechanism Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Copy que explica el ‘cómo’ detrás del producto, diferenciándolo de la competencia.",
-    prompt: `Inputs:
-- Mecanismo único del producto (el motivo que lo hace distinto).
-- Problema que resuelve.
-- Evidencia del mecanismo.
-- Resultado final.
-
-Genera:
-1) 3 anuncios centrados en el mecanismo:
-   - Hook que presenta el “cómo”.
-   - Explicación diferenciada.
-   - Ejemplo real.
-   - CTA.
-2) 10 titulares tipo “el verdadero motivo por el que esto funciona”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-044",
-    title: "Anuncio basado en ganancia invisible (Hidden Gain Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Destaca un beneficio que el usuario no sabe que puede obtener.",
-    prompt: `Inputs:
-- Beneficio oculto o poco evidente.
-- Por qué pasa desapercibido.
-- Conexión con el producto.
+{
+  id: "copy-ads-030",
+  title: "Copia ad basata sulla divulgazione (Gap Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Mostra il divario tra ciò che l'utente fa e ciò che dovrebbe fare.",
+  prompt: `Ingressi:
+- Stato attuale dell'utente.
+- Situazione ideale.
+- Un bug esatto.
+- Prodotto come ponte.
 
 Genera:
-1) 3 anuncios centrados en el beneficio oculto.
-2) 5 hooks basados en descubrimientos.
-3) 10 frases para despertar curiosidad.`,
-    thumbnail: "",
-  },
+1) 3 annunci "gap".
+2) 5 "La ragione per cui non si ottiene..."
+3) 10 proiettili di vuoti comuni.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-045",
-    title: "Anuncio basado en el factor 'costo de no hacerlo'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Anuncio que muestra lo que el usuario pierde si no actúa.",
-    prompt: `Inputs:
-- Costo real de no actuar (tiempo, dinero, salud, progreso).
-- Escenario proyectado.
-- Solución y su efecto.
-
-Genera:
-1) 3 anuncios.
-2) 10 titulares centrados en consecuencias.
-3) 5 CTAs basadas en urgencia racional.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-046",
-    title: "Anuncio basado en un solo insight profundo",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ads minimalistas construidos alrededor de un insight potente.",
-    prompt: `Inputs:
-- Insight clave que cambia la perspectiva.
-- Por qué ese insight importa.
-- Solución conectada.
+{
+  id: "copy-ads-031",
+  title: "Annuncio di stile della lista di controllo dei sintomi",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Simile agli errori, ma orientato a sintomi o segni.",
+  prompt: `Ingressi:
+- Il problema principale.
+- 5 sintomi caratteristici.
+- Soluzione che serve quei sintomi.
 
 Genera:
-1) 3 anuncios minimalistas de insight único.
-2) 10 frases basadas en epifanías.
-3) 5 titulares breves y profundos.`,
-    thumbnail: "",
-  },
+1) 3 annunci.
+2) 10 titoli di stile "Se hai questi sintomi, ne hai bisogno.".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-047",
-    title: "Anuncio estilo pregunta introspectiva",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary:
-      "Formato perfecto para capturar atención con una pregunta emocional.",
-    prompt: `Inputs:
-- Pregunta introspectiva clave.
-- Tema del producto.
-- Sensación emocional que queremos provocar.
+{
+  id: "copy-ads-032",
+  title: "Annuncio basato sull'abitudine quotidiana (Daily Habit Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Il prodotto è integrato come parte di un'abitudine quotidiana.",
+  prompt: `Ingressi:
+- L'abitudine attuale.
+- No. Il punto esatto in cui il prodotto si adatta.
+- Prestazioni giornaliere.
 
 Genera:
-1) 3 anuncios donde la pregunta es el eje.
-2) 15 preguntas introspectivas alternativas.
-3) 10 CTAs suaves, no comerciales.`,
-    thumbnail: "",
-  },
+1) 3 annunci basati sulle abitudini.
+2) 5 Ctis lifestyle.
+3) 10 frasi tipo "fare questo ogni giorno.".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-048",
-    title: "Anuncio que usa efecto espejo (Mirror Effect Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "El copy hace que el lector se vea reflejado en la situación.",
-    prompt: `Inputs:
-- Situación cotidiana del usuario.
-- Comportamiento típico.
-- Punto de quiebre emocional.
-- Solución.
-
-Genera:
-1) 3 anuncios usando efecto espejo.
-2) 10 frases espejo estilo “¿te pasa esto también?”.
-3) 10 patrones psicológicos para replicar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-049",
-    title: "Anuncio tipo confesión ('Te voy a confesar algo…')",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Genera conexión y vulnerabilidad auténtica.",
-    prompt: `Inputs:
-- Confesión real o insight personal.
-- Problema del usuario relacionado.
-- Punto de unión emocional.
-- Solución.
+{
+  id: "copy-ads-033",
+  title: "Tipo di decisione della lista di controllo (annuncio decisionale)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Aiuta l'utente a decidere se il prodotto è per lui.",
+  prompt: `Ingressi:
+- Chi è che sta aiutando il prodotto.
+- Chi non aiuta.
+- Condizioni ideali.
 
 Genera:
-1) 3 anuncios estilo confesión.
-2) 10 frases de apertura para este estilo.
-3) 5 CTAs empáticas.`,
-    thumbnail: "",
-  },
+1) 3 annunci "Questo prodotto è per voi se..."
+2) 3 annunci "Non è per te se..."
+3) 10 titolari di classificazione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-050",
-    title: "Anuncio tipo debate (‘Nadie está hablando de esto…’)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para temas polémicos que generan conversación.",
-    prompt: `Inputs:
-- Tema subestimado o ignorado.
-- Opinión fuerte pero razonada.
-- Producto relacionado.
-
-Genera:
-1) 3 anuncios debate.
-2) 15 hooks controvertidos.
-3) 10 frases de contraste ideológico.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-051",
-    title: "Anuncio estilo confesión anti-perfecto (Fail Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Comparte un fracaso para aumentar autenticidad.",
-    prompt: `Inputs:
-- Error personal.
-- Aprendizaje obtenido.
-- Conexión con el producto.
+{
+  id: "copy-ads-034",
+  title: "Annuncio basato su contesto culturale o tendenza",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Si basa su riferimenti culturali o tendenze attuali.",
+  prompt: `Ingressi:
+- Tendenza / cultura / meme.
+- Collegamento del prodotto.
+- Limite di conformità (per non parlare di marchi vietati).
 
 Genera:
-1) 3 anuncios centrados en vulnerabilidad.
-2) 10 líneas tipo “fallé, pero aquí va lo que aprendí”.
-3) 5 CTAs suaves de aprendizaje.`,
-    thumbnail: "",
-  },
+1) 5 trend-based, annunci adattabili.
+2) 5 titoli ispirati alla cultura pop.
+(3) Regole per tenerlo pertinente senza violare le politiche.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-052",
-    title: "Anuncio basado en analogía visual poderosa",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para ads que mezclan storytelling + visual concepts.",
-    prompt: `Inputs:
-- Concepto técnico o difícil de explicar.
-- Metáfora visual simple.
-- Conexión con producto.
-
-Genera:
-1) 3 anuncios basados en analogías.
-2) 20 analogías visuales alternativas.
-3) 10 titulares metafóricos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-053",
-    title: "Anuncio con enfoque de urgencia emocional (Emotional Deadline Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Urgencia conectada a emociones, no a tiempo.",
-    prompt: `Inputs:
-- Emoción que impedirá avanzar si no actúa ahora.
-- Consecuencia emocional.
-- Resultado emocional positivo.
+{
+  id: "copy-ads-035",
+  title: "Tipo annuncio 'did you know that... '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Grande formato per Facebook e TikTok Ads.",
+  prompt: `Ingressi:
+- Divertente.
+- Rapporto al problema dell'utente.
+- Punto dove il prodotto si adatta.
 
 Genera:
-1) 3 anuncios.
-2) 10 detonadores emocionales.
-3) 10 CTAs emocionales.`,
-    thumbnail: "",
-  },
+1) 5 annunci di stile sapevate che...
+2) 10 ganci curiosi.
+3) 10 TC basati sulla curiosità.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-054",
-    title: "Anuncio tipo ‘regla de 80/20’ aplicado al usuario",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Muestra cómo el usuario desperdicia tiempo o enfoque.",
-    prompt: `Inputs:
-- Actividades que no generan resultados (80%).
-- Acciones que sí generan resultados (20%).
-- Producto como catalizador.
-
-Genera:
-1) 3 anuncios 80/20.
-2) 10 titulares basados en productividad.
-3) 5 CTAs enfocadas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-055",
-    title: "Anuncio centrado en identidad (Identity Shift Ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Apela al tipo de persona que el usuario quiere ser.",
-    prompt: `Inputs:
-- Identidad actual.
-- Identidad deseada.
-- Cómo el producto facilita el salto.
+{
+  id: "copy-ads-036",
+  title: "Guida di acquisto Ad",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Educare l'utente a prendere una decisione informata.",
+  prompt: `Ingressi:
+- Mercato specifico.
+- 3 criteri chiave per scegliere correttamente.
+- Prodotto come scelta migliore per motivi X.
 
 Genera:
-1) 3 anuncios identidad.
-2) 10 frases tipo “personas como tú hacen esto”.
-3) 5 CTAs aspiracionales.`,
-    thumbnail: "",
-  },
+1) 3 annunci guida tipo di acquisto.
+2) 3 versioni secondo il livello di coscienza: basso, medio, alto.
+3) 5 titoli di stile "prima di acquistare X... leggere questo.".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-056",
-    title: "Anuncio basado en un micro-story arc (3 líneas máximas)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Historia exprés de máximo 3 líneas.",
-    prompt: `Inputs:
-- Personaje.
-- Momento difícil.
-- Resultado final.
-
-Genera:
-1) 3 anuncios micro-historia.
-2) 10 narrativas ultra cortas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-057",
-    title: "Anuncio estilo experimento (‘Probé X por 7 días’)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para productos de hábito o herramientas de IA.",
-    prompt: `Inputs:
-- Elemento probado.
-- Duración.
-- Resultado obtenido.
-- Aprendizaje principal.
+{
+  id: "copy-ads-037",
+  title: "Annuncio basato sulla storia reale del micro",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Storia ultra breve e molto umana che vende per identificazione.",
+  prompt: `Ingressi:
+- Persona vera.
+- Breve situazione.
+- Tempo di pausa.
+- Uscite.
 
 Genera:
-1) 3 anuncios formato experimento.
-2) 15 titulares tipo “probé esto y…”.`,
-    thumbnail: "",
-  },
+1) 3 annunci di 4-5 linee.
+2) 10 frasi di stile narrativo minimo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-058",
-    title: "Anuncio estilo tutorial de 10 segundos",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Anuncio ultra rápido que enseña un truco práctico.",
-    prompt: `Inputs:
-- Truco.
-- Problema que resuelve.
-- Resultado inmediato.
-
-Genera:
-1) 3 anuncios tutorial.
-2) 10 trucos alternativos en 1 frase.
-3) 5 CTAs educativas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-059",
-    title: "Anuncio centrado en una objeción absurda pero común",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Perfecto para romper tonterías que frenan a muchos usuarios.",
-    prompt: `Inputs:
-- Objeción absurda pero común.
-- Explicación realista.
-- Reencuadre.
-- Producto.
+{
+  id: "copy-ads-038",
+  title: "Annuncio per udienze saturi (consapevolezza-raising)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ads progettato per distinguersi quando il pubblico è saturo.",
+  prompt: `Ingressi:
+- Messaggio che tutti ripeteranno.
+- Nuovo angolo originale.
+- Offerta differenziante.
 
 Genera:
-1) 3 anuncios humor + lógica.
-2) 10 objeciones absurdas alternativas.`,
-    thumbnail: "",
-  },
+1) 3 annunci antisaturazione.
+2) 10 titoli controintuitivi.
+3) Elenco dei differenziatori narrativi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-060",
-    title: "Anuncio con CTA extrema (‘si solo vas a hacer una cosa hoy…’)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "CTA muy fuerte pero ética y directa.",
-    prompt: `Inputs:
-- Acción única que el usuario debe tomar.
-- Resultado que obtendrá al hacerlo.
-- Razón por la cual es tan importante.
-
-Genera:
-1) 3 anuncios con CTA extrema.
-2) 10 frases extremas éticas.
-3) 5 hooks impulsados por decisión.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-ads-061",
-    title: "Anuncio tipo 'esto te está saboteando y no lo sabes'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Expone un sabotaje oculto y conecta con tu solución.",
-    prompt: `Inputs:
-- Sabotaje oculto.
-- Por qué la gente no lo nota.
-- Consecuencia real.
-- Producto como solución.
+{
+  id: "copy-ads-039",
+  title: "Annuncio utilizzando l'idea di investimento (Idea di Inversione)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Inversione completa di un'idea comune per catturare l'attenzione.",
+  prompt: `Ingressi:
+- Una credenza popolare.
+- Investimenti logici.
+- Prove che sostengono l'investimento.
 
 Genera:
-1) 3 anuncios premium.
-2) 10 hooks estilo sabotaje.
-3) 5 CTAs suaves tipo “descubre el sabotaje”.`,
-    thumbnail: "",
-  },
+1) 3 annunci completi.
+(2) 10 ulteriori investimenti di idee.
+3) 5 CT in base al cambiamento della prospettiva.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-062",
-    title: "Anuncio con estructura de pregunta + revelación + solución",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para enganchar con curiosidad.",
-    prompt: `Inputs:
-- Pregunta clave.
-- Revelación inesperada.
-- Conexión con producto.
-
-Genera:
-1) 3 anuncios basados en esta estructura.
-2) 10 preguntas intrigantes.
-3) 10 revelaciones potenciales.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-063",
-    title: "Anuncio basado en demostración de ahorro",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ahorro emocional, económico o temporal.",
-    prompt: `Inputs:
-- Tipo de ahorro (tiempo, dinero, energía).
-- Cálculo estimado.
-- Ejemplo cotidiano.
+{
+  id: "copy-ads-040",
+  title: "Annuncio focalizzato su un segmento di ultraniche",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Iper- copia specifica per nicchie molto piccole.",
+  prompt: `Ingressi:
+- Nicho esattamente.
+- Un problema molto specifico.
+- Vantaggio iper-specifico.
 
 Genera:
-1) 3 anuncios de ahorro.
-2) 10 titulares ahorro-driven.
-3) 5 CTAs financieras.`,
-    thumbnail: "",
-  },
+1) 3 annunci ultra-niche.
+2) 10 supporti di microgruppo.
+3) 10 chiamate ad azione super personalizzata.`,
+  thumbnail: ""
+},
+{
+  id: "copy-ads-041",
+  title: "Rischio di rimozione Ad",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Copia mirata a garantire la sicurezza ed eliminare le paure di impegno.",
+  prompt: `Agisce come copywriter specializzato nella disabilitazione dei blocchi correlati al rischio.
 
-  {
-    id: "copy-ads-064",
-    title: "Anuncio que usa reframing agresivo",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Reencuadra una creencia para obligar a repensar todo.",
-    prompt: `Inputs:
-- Creencia limitante.
-- Nueva interpretación radical.
-- Evidencia.
-
-Genera:
-1) 3 anuncios aggressive reframing.
-2) 15 frases de choque mental.
-3) 10 mini-truth bombs.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-065",
-    title: "Anuncio basado en rutina diaria optimizada",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Demuestra cómo el producto mejora una rutina real.",
-    prompt: `Inputs:
-- Rutina actual del usuario.
-- Punto débil.
-- Cómo el producto mejora el momento.
+Ingressi:
+- Garanzia offerta (tipo, durata, condizioni).
+- No. La paura principale dell'utente.
+- Risultato previsto quando si utilizza il prodotto / servizio.
 
 Genera:
-1) 3 anuncios lifestyle optimizados.
-2) 10 frases de rutina perfecta.
-3) 5 CTAs tipo “empieza hoy mismo”.`,
-    thumbnail: "",
-  },
+1) 3 annunci completi:
+- dichiarazione esplicita della paura comune.
+- Spiegazione della garanzia.
+- Vantaggio emotivo: sicurezza, silenzio.
+- Certo.
+2) 10 titoli affidabili.
+3) 5 brevi messaggi di remarketing basati sulla sicurezza.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-066",
-    title: "Anuncio con estructura '¿Qué pasaría si…?'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Gran estructura para despertar imaginación.",
-    prompt: `Inputs:
-- Hipótesis aspiracional.
-- Cambio posible.
-- Resultado ideal.
+{
+  id: "copy-ads-042",
+  title: "Annuncio lo stile 'se stai facendo questo, stai perdendo soldi '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Formato diretto ideale per catturare l'attenzione con impatto economico.",
+  prompt: `Ingressi:
+- Azione che fa perdere soldi all'utente.
+- Conseguenza economica.
+- Soluzione proposta.
+- Risparmio o potenziale guadagno.
 
 Genera:
-1) 3 anuncios.
-2) 20 frases '¿qué pasaría si…?'.
-3) 10 CTAs imaginativas.`,
-    thumbnail: "",
-  },
+1) 3 annunci ad alto impatto finanziario.
+2) 10 linee stile "si sta perdendo soldi senza rendersi conto da..."
+3) 5 versioni con tono più morbido.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-067",
-    title: "Anuncio que usa un personaje o arquetipo",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Usa el arquetipo para conectar emocionalmente.",
-    prompt: `Inputs:
-- Arquetipo (guía, héroe, mentor, rebelde).
+{
+  id: "copy-ads-043",
+  title: "Meccanismo unico (Unique Mechanism Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Copia che spiega il \"come\" dietro il prodotto, differenziandolo dalla concorrenza.",
+  prompt: `Ingressi:
+- Singolo meccanismo del prodotto (la ragione che lo rende diverso).
+- Problema che risolve.
+- Prove del meccanismo.
+- Risultato finale.
+
+Genera:
+1) 3 annunci incentrati sul meccanismo:
+- Uncino che presenta il "come".
+- Spiegazione differenziata.
+- Un vero esempio.
+- CTA.
+2) 10 titolari di tipo "il vero motivo per cui questo funziona.".`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-044",
+  title: "Annuncio di guadagno invisibile (Hidden Gain Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Esso evidenzia un vantaggio che l'utente non sa che si può ottenere.",
+  prompt: `Ingressi:
+- Un beneficio nascosto o sgradevole.
+- No. Perche' va inosservato.
+- Collegamento al prodotto.
+
+Genera:
+1) 3 annunci focalizzati sul beneficio nascosto.
+2) 5 ganci in base alle scoperte.
+3) 10 frasi per suscitare curiosità.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-045",
+  title: "Annuncio basato sul 'costo di non farlo' fattore",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Annuncio che mostra ciò che l'utente perde se non agisce.",
+  prompt: `Ingressi:
+- Costo reale di non agire (tempo, denaro, salute, progresso).
+- Scenario proiettato.
+- Soluzione ed effetto.
+
+Genera:
+1) 3 annunci.
+(2) 10 titoli focalizzati sull'impatto.
+3) 5 TA basati sull'urgenza razionale.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-046",
+  title: "Annuncio basato su un unico profondo intuito",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Minimalista Gli annunci costruiti intorno a una potente comprensione.",
+  prompt: `Ingressi:
+- Intuizione chiave che cambia la prospettiva.
+- Perché è importante.
+- Soluzione collegata.
+
+Genera:
+1) 3 intuizioni uniche annunci minimalisti.
+2) 10 frasi basate su epifanies.
+3) 5 titoli brevi e profondi.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-047",
+  title: "Domanda introspettiva in stile anuncio",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary:
+  "Formato perfetto per catturare l'attenzione con una domanda emotiva.",
+  prompt: `Ingressi:
+- Domanda introspettiva chiave.
+- Tema del prodotto.
+- Sento emotivo che vogliamo provocare.
+
+Genera:
+1) 3 annunci dove la domanda è l'asse.
+2) 15 domande alternative introspettive.
+3) 10 Tails morbido, non commerciale.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-048",
+  title: "Annuncio utilizzando effetto specchio (Mirror Effect Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "La copia fa riflettere il lettore nella situazione.",
+  prompt: `Ingressi:
+- Stato giornaliero dell'utente.
+- Comportamento tipico.
+- Punto di pausa emotivo.
+- Soluzione.
+
+Genera:
+1) 3 annunci con effetto specchio.
+2) 10 frasi specchio stile "questo accade anche a voi?"
+3) 10 modelli psicologici da replicare.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-049",
+  title: "Annuncio tipo di confessione (' Confesso qualcosa...')",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Genera una reale connessione e vulnerabilità.",
+  prompt: `Ingressi:
+- Una vera confessione o una visione personale.
+- Problemi relativi all'utente.
+- Punto di unione emotiva.
+- Soluzione.
+
+Genera:
+1) 3 annunci di stile confessionale.
+2) 10 frasi di apertura per questo stile.
+(3) 5.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-050",
+  title: "Annuncio di tipo di dibattito ('Nessuno sta parlando di questo...')",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per questioni controverse che generano conversazione.",
+  prompt: `Ingressi:
+- Soggetto o ignorato.
+- Forte ma ragionato.
+- Prodotto correlato.
+
+Genera:
+1) 3 annunci dibattito.
+2) 15 ganci in questione.
+3) 10 frasi di contrasto ideologico.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-051",
+  title: "Annuncio in stile confessionale antiperfetto (Fail Ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Condivide il mancato aumento dell'autenticità.",
+  prompt: `Ingressi:
+- Errore personale.
+- Apprendimento ottenuto.
+- Collegamento al prodotto.
+
+Genera:
+1) 3 annunci focalizzati sulla vulnerabilità.
+2) 10 righe tipo "Ho fallito, ma ecco cosa ho imparato."
+3) 5 visualizzazioni di apprendimento morbido.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-052",
+  title: "Annuncio basato su potente analogia visiva",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per gli annunci che mescolano storytelling + concetti visivi.",
+  prompt: `Ingressi:
+- Concetto tecnico o difficile da spiegare.
+- Semplice metafora visiva.
+- Collegamento del prodotto.
+
+Genera:
+1) 3 annunci basati su analogie.
+2) 20 analogie visive alternative.
+3) 10 titoli metaforici.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-053",
+  title: "Scadenza emotiva Ad",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Emergenza collegata alle emozioni, non al tempo.",
+  prompt: `Ingressi:
+- Emozione che impedirà il progresso se non agisce ora.
+- Conseguenza emotiva.
+- Risultato emotivo positivo.
+
+Genera:
+1) 3 annunci.
+2) 10 detonatori emozionali.
+3) 10 viste emozionali.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-054",
+  title: "Tipo annuncio 80 / 20 regola' applicato all'utente",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Mostra come l'utente spreca tempo o attenzione.",
+  prompt: `Ingressi:
+- Attività che non generano risultati (80%).
+- Azioni che generano risultati (20%).
+- Prodotto come catalizzatore.
+
+Genera:
+1) 3 80 / 20 annunci.
+2) 10 supporti basati sulla produttività.
+3) 5 TC focalizzati.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-055",
+  title: "Identity Shift Ad",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Si rivolge al tipo di persona che l'utente vuole essere.",
+  prompt: `Ingressi:
+- Identita' attuale.
+- L'identità desiderata.
+- Come il prodotto facilita il salto.
+
+Genera:
+1) 3 annunci di identità.
+2) 10 "persone come te fanno questo" frasi di tipo.
+3) 5 opinioni ambiziose.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-056",
+  title: "Annuncio basato su un arco microstory (3 linee massime)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Storia espressa di massimo 3 linee.",
+  prompt: `Ingressi:
+- Carattere.
+- Tempo difficile.
+- Risultato finale.
+
+Genera:
+1) 3 micro- annunci di storia.
+2) 10 narrazioni ultra brevi.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-057",
+  title: "Sperimentazione in stile anuncio ('Ho provato X per 7 giorni')",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per prodotti di abitudine o strumenti IA.",
+  prompt: `Ingressi:
+- Elemento testato.
+- Durata.
+- Risultato ottenuto.
+- L'apprendimento primario.
+
+Genera:
+1) 3 esperimento di formato di annunci.
+2) 15 "Ho provato questo e...".`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-058",
+  title: "Annuncio stile tutorial di 10 secondi",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Annuncio ultra veloce che insegna un trucco pratico.",
+  prompt: `Ingressi:
+- Trick.
+- Problema che risolve.
+- Risultato immediato.
+
+Genera:
+1) 3 annunci di tutorial.
+2) 10 trucchi alternativi in 1 frase.
+3) 5 aspetti educativi.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-059",
+  title: "Annuncio focalizzato su un'obiezione assurda ma comune",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Perfetto per rompere sciocchezze che ferma molti utenti.",
+  prompt: `Ingressi:
+- L'obiezione comune.
+- Una spiegazione realistica.
+- Ristrutturazione.
+- Prodotto.
+
+Genera:
+1) 3 umorismo + annunci logici.
+(2) 10 assurde obiezioni alternative.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-060",
+  title: "Annuncio con estrema CTA ('se vuoi solo fare una cosa oggi...')",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "CTA molto forte ma etico e diretto.",
+  prompt: `Ingressi:
+- Azione unica che l'utente dovrebbe prendere.
+- No. Il risultato si otterrà in farlo.
+- No. Ecco perche' e' cosi' importante.
+
+Genera:
+1) 3 annunci con CTA estrema.
+2) 10 frasi etiche estreme.
+3) 5 ganci guidati dalla decisione.`,
+  thumbnail: ""
+},
+{
+  id: "copy-ads-061",
+  title: "\"Questo ti sabota e non lo sai.\"",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Esporre un sabotaggio nascosto e connettersi alla soluzione.",
+  prompt: `Ingressi:
+- Sabotaggio nascosto.
+- Perche' la gente non se ne accorge.
+- Una vera conseguenza.
+- Prodotto come soluzione.
+
+Genera:
+1) 3 annunci premium.
+2) 10 ganci stile sabotaggio.
+3) 5 Tis tipo morbido "scopri sabotaggio".`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-062",
+  title: "Annuncio con struttura domanda + divulgazione + soluzione",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per coinvolgere con curiosità.",
+  prompt: `Ingressi:
+- Domanda chiave.
+- Rivelazione inaspettata.
+- Collegamento del prodotto.
+
+Genera:
+1) 3 annunci basati su questa struttura.
+2) 10 domande intriganti.
+3) 10 potenziali rivelazioni.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-063",
+  title: "Annuncio basato sulla dimostrazione di risparmio",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Risparmio emotivo, economico o temporaneo.",
+  prompt: `Ingressi:
+- Tipo di risparmio (tempo, denaro, energia).
+- Calcolo stimato.
+- Esempio giornaliero.
+
+Genera:
+1) 3 annunci di risparmio.
+2) 10 titoli ora guidati.
+(3) 5 Aspetti finanziari.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-064",
+  title: "Annuncio usando riframing aggressivo",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Esso riunisce una convinzione per costringervi a ripensare tutto.",
+  prompt: `Ingressi:
+- Limitare la fede.
+- Nuova interpretazione radicale.
+- Prove.
+
+Genera:
+1) 3 annunci aggressivi che si rifanno.
+2) 15 frasi di shock mentale.
+3) 10 mini-truth bombe.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-065",
+  title: "Annuncio basato su routine giornaliera ottimizzata",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Mostra come il prodotto migliora una routine reale.",
+  prompt: `Ingressi:
+- Le routine degli utenti attuali.
+- Punto debole.
+- Come il prodotto migliora il momento.
+
+Genera:
+1) 3 annunci di stile di vita ottimizzati.
+2) 10 frasi di routine perfette.
+3) 5 "Start today" tipo.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-066",
+  title: "Annuncio con struttura 'Che cosa se... '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Grande struttura per risvegliare l'immaginazione.",
+  prompt: `Ingressi:
+- Ipotesi aspirazionali.
+- Possibile cambiamento.
+- Ottimo risultato.
+
+Genera:
+1) 3 annunci.
+2) 20 frasi e se...?
+3) 10 visualizzazioni fantasiose.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-067",
+  title: "Annuncio utilizzando un carattere o archetipo",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Utilizzare l'archetipo per connettersi emotivamente.",
+  prompt: `Ingressi:
+- Arquetype (guida, eroe, mentore, ribelle).
 - Problema.
-- Rol del arquetipo en la solución.
+- Rol dell'archetipo nella soluzione.
 
 Genera:
-1) 3 anuncios estilo arquetipo.
-2) 10 descripciones arquetípicas.
-3) 10 titulares basados en rol.`,
-    thumbnail: "",
-  },
+1) 3 annunci stile archetipo.
+2) 10 descrizioni archeologiche.
+3) 10 titoli basati sul ruolo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-068",
-    title: "Anuncio estilo 'razón oculta por la que no avanzas'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Copy introspectivo y poderoso.",
-    prompt: `Inputs:
-- Razón oculta.
-- Cómo afecta el progreso.
-- Forma en que el producto soluciona.
-
-Genera:
-1) 3 anuncios profundidad mental.
-2) 10 razones ocultas alternativas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-069",
-    title: "Anuncio basado en un ritual simple de 1 minuto",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Los rituales generan hábito + curiosidad.",
-    prompt: `Inputs:
-- Ritual de 1 minuto.
-- Beneficio concreto.
-- Conexión con producto.
+{
+  id: "copy-ads-068",
+  title: "Annuncio stile 'na ragione nascosta perché non si muove '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Copia introspettiva e potente.",
+  prompt: `Ingressi:
+- Un motivo nascosto.
+- No. Come influisce sul progresso.
+- Come funziona il prodotto.
 
 Genera:
-1) 3 anuncios.
-2) 15 ideas de rituales express.
-3) 5 CTAs positivas.`,
-    thumbnail: "",
-  },
+1) 3 annunci di profondità mentale.
+(2) 10 motivi alternativi nascosti.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-070",
-    title: "Anuncio estilo 'micro-lista' de 3 beneficios clave",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Estructura simple, clara, directa.",
-    prompt: `Inputs:
-- 3 beneficios principales.
-- Ejemplo de uso real.
+{
+  id: "copy-ads-069",
+  title: "Annuncio basato su un semplice rituale di 1 minuto",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "I rituali generano abitudine + curiosità.",
+  prompt: `Ingressi:
+- Rituale 1 minuto.
+- Ho un beneficio specifico.
+- Collegamento del prodotto.
+
+Genera:
+1) 3 annunci.
+2) 15 idee di rituali espressi.
+(3) 5 punti di vista positivi.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-070",
+  title: "Annuncio di stile \"Micro- List\" di 3 vantaggi chiave",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Struttura semplice, chiara e diretta.",
+  prompt: `Ingressi:
+- 3 principali vantaggi.
+- Esempio di utilizzo effettivo.
 - CTA.
 
 Genera:
-1) 3 anuncios micro-lista.
-2) 10 micro-listas alternativas.`,
-    thumbnail: "",
-  },
+1) 3 annunci micro-elenco.
+2) 10 micro liste alternative.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-071",
-    title: "Anuncio basado en un quiebre emocional ('me di cuenta de algo…')",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Muy útil para storytelling corto.",
-    prompt: `Inputs:
-- Momento de quiebre.
-- Insight que surgió.
-- Conexión con el producto.
-
-Genera:
-1) 3 anuncios.
-2) 10 frases de epifanía personal.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-072",
-    title: "Anuncio 'la verdad incómoda que nadie menciona'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Potente para industria saturada.",
-    prompt: `Inputs:
-- Verdad incómoda.
-- Razón de por qué nadie la menciona.
-- Producto como antídoto.
+{
+  id: "copy-ads-071",
+  title: "Annuncio basato su una pausa emotiva ('Ho capito qualcosa...')",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Molto utile per breve narrazione.",
+  prompt: `Ingressi:
+- Tempo di pausa.
+- L'intuito è arrivato.
+- Collegamento al prodotto.
 
 Genera:
-1) 3 anuncios truth-bomb.
-2) 15 verdades incómodas alternativas.`,
-    thumbnail: "",
-  },
+1) 3 annunci.
+2) 10 frasi epifania personali.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-073",
-    title: "Anuncio basado en prueba irracionalmente simple",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Usa una demostración absurdamente simple pero poderosa.",
-    prompt: `Inputs:
-- Prueba simple.
-- Conclusión lógica.
-- Resultado.
+{
+  id: "copy-ads-072",
+  title: "Annuncio 'la verità scomoda che nessuno menziona '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Potente per l'industria satura.",
+  prompt: `Ingressi:
+- Verità scomoda.
+- No. Ecco perche' nessuno la menziona.
+- Prodotto come antidoto.
 
 Genera:
-1) 3 anuncios absurd-simple.
-2) 10 ideas de prueba simple.`,
-    thumbnail: "",
-  },
+1) 3 annunci di verità-bomb.
+2) 15 verità scomode alternative.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-074",
-    title: "Anuncio estilo 'si estás cansado de…'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Engancha desde la empatía.",
-    prompt: `Inputs:
-- Cansancio o frustración del usuario.
+{
+  id: "copy-ads-073",
+  title: "Annuncio basato su test irrazionalmente semplice",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Usa una dimostrazione incredibilmente semplice ma potente.",
+  prompt: `Ingressi:
+- Prova semplice.
+- Conclusione logica.
+- Uscite.
+
+Genera:
+1) 3 annunci assurdi e semplici.
+2) 10 semplici idee di prova.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-074",
+  title: "Annuncio lo stile 'se sei stanco di... '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Uncino dall'empatia.",
+  prompt: `Ingressi:
+- Forte o frustrazione dell'utente.
 - Causa.
-- Solución.
+- Soluzione.
 
 Genera:
-1) 3 anuncios empáticos.
-2) 10 líneas “si estás cansado de…”.`,
-    thumbnail: "",
-  },
+1) 3 annunci empatici.
+2) 10 righe "se siete stanchi di...".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-075",
-    title: "Anuncio basado en un pequeño acto de valentía",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Apela al coraje y al progreso personal.",
-    prompt: `Inputs:
-- Acto valiente.
-- Resultado emocional.
-- Conexión con producto.
-
-Genera:
-1) 3 anuncios.
-2) 10 micro-actos valientes.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-076",
-    title: "Anuncio estilo 'lista negra': cosas que debes dejar de hacer",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Perfecto para ads directos y virales.",
-    prompt: `Inputs:
-- 5 acciones negativas.
-- Consecuencia de cada una.
-- Producto como alternativa.
+{
+  id: "copy-ads-075",
+  title: "Annuncio basato su un piccolo atto di coraggio",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Richiede coraggio e progresso personale.",
+  prompt: `Ingressi:
+- Brave act.
+- Risultato emotivo.
+- Collegamento del prodotto.
 
 Genera:
-1) 3 anuncios lista negra.
-2) 10 listas negras breves.`,
-    thumbnail: "",
-  },
+1) 3 annunci.
+2) 10 micro- atti coraggiosi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-077",
-    title: "Anuncio con lenguaje hipersencillo (5º grado)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para públicos fríos y saturados.",
-    prompt: `Inputs:
-- Tema complejo.
-- Analogía infantil.
-- Resultado simple.
-
-Genera:
-1) 3 anuncios nivel 5º grado.
-2) 10 explicaciones ultra simples.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-078",
-    title: "Anuncio estilo 'no lo compres, a menos que…'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ángulo disruptivo para elevar deseo.",
-    prompt: `Inputs:
-- Condición fuerte para comprar.
-- Beneficio único.
-- Perfil adecuado.
+{
+  id: "copy-ads-076",
+  title: "Annuncio di stile di lista nera: cose che si dovrebbe smettere di fare",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Perfetto per annunci diretti e virali.",
+  prompt: `Ingressi:
+- 5 azioni negative.
+- La conseguenza di ciascuno.
+- Prodotto come alternativa.
 
 Genera:
-1) 3 anuncios anti-venta.
-2) 10 frases “no lo compres si…”.`,
-    thumbnail: "",
-  },
+1) 3 annunci di lista nera.
+2) 10 liste nere brevi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-079",
-    title: "Anuncio basado en un pequeño hábito transformador",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Gran formato para coaching, fitness o productividad.",
-    prompt: `Inputs:
-- Hábito mini.
-- Resultado progresivo.
-- Conexión con producto.
-
-Genera:
-1) 3 anuncios de hábito.
-2) 15 hábitos micro-transformadores.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-080",
-    title: "Anuncio estilo 'no es tu culpa'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Reencuadra culpa y elimina vergüenza — muy persuasivo.",
-    prompt: `Inputs:
-- Situación donde el usuario siente culpa.
-- Explicación de por qué no es su culpa.
-- Cómo el producto lo ayuda a avanzar.
+{
+  id: "copy-ads-077",
+  title: "Annuncio in lingua ipersensibile (5 ° grado)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per il pubblico freddo e saturo.",
+  prompt: `Ingressi:
+- Tema complesso.
+- Analogia infantile.
+- Semplice risultato.
 
 Genera:
-1) 3 anuncios empáticos.
-2) 10 frases 'no es tu culpa' de alto impacto.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-ads-081",
-    title: "Anuncio estilo 'pensé que era imposible, hasta que…'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Story hook ideal para sorprender y despertar curiosidad.",
-    prompt: `Inputs:
-- Problema que el usuario cree imposible de resolver.
-- Descubrimiento clave.
-- Resultado final.
-- Conexión con producto.
+1) 3 annunci di livello di 5 ° grado.
+2) 10 spiegazioni ultra semplici.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-078",
+  title: "Annuncio lo stile 'non comprarlo, a meno che... '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Angolo di rottura per aumentare il desiderio.",
+  prompt: `Ingressi:
+- Forte condizione da comprare.
+- Un vantaggio.
+- Profilo corretto.
 
 Genera:
-1) 3 anuncios estilo revelación.
-2) 10 aperturas “pensé que era imposible…”.`,
-    thumbnail: "",
-  },
+1) 3 annunci anti-vendita.
+2) 10 frasi "non comprarlo se...".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-082",
-    title: "Anuncio basado en cambio mínimo que genera impacto masivo",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "El usuario aplica un cambio mínimo y obtiene un salto grande.",
-    prompt: `Inputs:
-- Pequeño cambio.
-- Impacto desproporcionado.
-- Cómo el producto facilita el cambio.
-
-Genera:
-1) 3 anuncios premium.
-2) 15 ideas de micro-cambios transformadores.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-083",
-    title: "Anuncio basado en un pensamiento disruptivo",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para industrias saturadas.",
-    prompt: `Inputs:
-- Pensamiento disruptivo.
-- Evidencia lógica.
-- Solución conectada.
+{
+  id: "copy-ads-079",
+  title: "Annuncio basato su una piccola abitudine trasformativa",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Grande formato per coaching, fitness o produttività.",
+  prompt: `Ingressi:
+- Mini abitudine.
+- Esito progressivo.
+- Collegamento del prodotto.
 
 Genera:
-1) 3 anuncios.
-2) 10 pensamientos disruptivos adicionales.`,
-    thumbnail: "",
-  },
+1) 3 annunci di abitudine.
+2) 15 abitudini micro-trasformative.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-084",
-    title: "Anuncio tipo 'prueba social silenciosa'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Usa resultados reales sin mencionar testimonios directos.",
-    prompt: `Inputs:
-- Resultado medible.
-- Caso real.
-- Evidencia indirecta.
-
-Genera:
-1) 3 anuncios silenciosos.
-2) 10 frases de validación suave.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-085",
-    title: "Anuncio basado en un descubrimiento accidental",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "El clásico ‘accidental discovery angle’.",
-    prompt: `Inputs:
-- Descubrimiento inesperado.
-- Situación donde ocurrió.
-- Solución descubierta.
+{
+  id: "copy-ads-080",
+  title: "\"Non è colpa tua\" annuncio stile",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Raccogliere senso di colpa ed eliminare la vergogna - molto persuasivo.",
+  prompt: `Ingressi:
+- Situazione in cui l'utente si sente colpevole.
+- Spiegare perche' non e' colpa tua.
+- Come il prodotto ti aiuta ad andare avanti.
 
 Genera:
-1) 3 anuncios historia-descubrimiento.
-2) 10 descubrimientos accidentales alternativos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-086",
-    title: "Anuncio estilo mini-transformación diaria",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Muestra progreso microscópico con acumulación.",
-    prompt: `Inputs:
-- Acción diaria mínima.
-- Progreso acumulado.
-- Conexión con producto.
-
-Genera:
-1) 3 anuncios.
-2) 15 frases sobre transformación diaria.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-087",
-    title: "Anuncio tipo 'la gran mentira del nicho'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Reveal + truth + solution = CTR alto.",
-    prompt: `Inputs:
-- Mentira común del nicho.
-- Verdad que pocos mencionan.
-- Producto como solución alineada con la verdad.
+1) 3 annunci empatici.
+2) 10 frasi ad alto impatto 'non colpa tua'.`,
+  thumbnail: ""
+},
+{
+  id: "copy-ads-081",
+  title: "Ho annunciato lo stile 'Pensavo fosse impossibile, fino a... '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Il buco della storia ideale per sorprendere e risvegliare la curiosità.",
+  prompt: `Ingressi:
+- Il problema che l'utente pensa impossibile da risolvere.
+- Una scoperta chiave.
+- Risultato finale.
+- Collegamento del prodotto.
 
 Genera:
-1) 3 anuncios.
-2) 10 big lies del nicho.`,
-    thumbnail: "",
-  },
+1) 3 annunci di stile di divulgazione.
+2) 10 aperture "Pensavo che fosse impossibile...".`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-088",
-    title: "Anuncio basado en un experimento simple A/B",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Muestra un antes/después con un cambio controlado.",
-    prompt: `Inputs:
-- Variable A.
-- Variable B.
-- Resultado.
-
-Genera:
-1) 3 anuncios tipo experimento.
-2) 5 titulares “probamos X vs Y…”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-089",
-    title: "Anuncio usando una metáfora espacial (level up, portal, salto)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Muy útil para productos de crecimiento personal o profesional.",
-    prompt: `Inputs:
-- Metáfora espacial (salto, portal, nivel).
-- Progreso deseado.
-- Resultado.
+{
+  id: "copy-ads-082",
+  title: "Annuncio basato sul cambiamento minimo che genera impatto di massa",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "L'utente applica un cambiamento minimo e ottiene un grande salto.",
+  prompt: `Ingressi:
+- Un piccolo cambiamento.
+- Impatto sproporzionato.
+- Come il prodotto facilita il cambiamento.
 
 Genera:
-1) 3 anuncios.
-2) 15 metáforas espaciales útiles.`,
-    thumbnail: "",
-  },
+1) 3 annunci premium.
+2) 15 idee di cambiamenti micro-trasformativi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-090",
-    title: "Anuncio estilo 'no tienes que empezar desde cero'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Desactiva el miedo al comienzo difícil.",
-    prompt: `Inputs:
-- Elemento que facilita el inicio.
-- Resultado rápido.
-- Solución.
-
-Genera:
-1) 3 anuncios.
-2) 10 hooks para gente que quiere empezar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-091",
-    title: "Anuncio con estructura de 'caja de herramientas'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Perfecto para productos con múltiples beneficios.",
-    prompt: `Inputs:
-- 3–5 funciones clave.
-- Ejemplos de uso.
-- Resultado final.
+{
+  id: "copy-ads-083",
+  title: "Annuncio basato su un pensiero dirompente",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per industrie saturate.",
+  prompt: `Ingressi:
+- Pensiero dirompente.
+- Prova logica.
+- Soluzione collegata.
 
 Genera:
-1) 3 anuncios tipo toolbox.
-2) 15 variantes de frases “tu nueva caja de herramientas”.`,
-    thumbnail: "",
-  },
+1) 3 annunci.
+2) 10 ulteriori pensieri dirompenti.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-092",
-    title: "Anuncio que usa un desafío mental (mental challenge ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Aplica un reto cognitivo que obliga al usuario a pensar.",
-    prompt: `Inputs:
-- Desafío mental.
-- Conexión con producto.
-- Resultado.
-
-Genera:
-1) 3 anuncios.
-2) 10 líneas desafío.
-3) 5 CTAs cognitivas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-093",
-    title: "Anuncio estilo 'hack psicológico'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Muy viral para TikTok e IG.",
-    prompt: `Inputs:
-- Hack psicológico.
-- Efecto sobre el usuario.
-- Solución asociada.
+{
+  id: "copy-ads-084",
+  title: "Tipo di annuncio 'silent social test '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Utilizzare risultati reali per non parlare di testimonianze dirette.",
+  prompt: `Ingressi:
+- Risultato misurabile.
+- Un vero caso.
+- Prove indirette.
 
 Genera:
-1) 3 anuncios hack.
-2) 10 hacks adicionales.`,
-    thumbnail: "",
-  },
+1) 3 annunci silenziosi.
+2) 10 frasi di convalida morbida.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-094",
-    title: "Anuncio basado en identidad negativa (quién NO quieres ser)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Activa motivación por repulsión.",
-    prompt: `Inputs:
-- Identidad negativa.
-- Comportamientos asociados.
-- Solución.
-
-Genera:
-1) 3 anuncios.
-2) 10 frases de identidad negativa.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-095",
-    title: "Anuncio basado en una pregunta binaria ('¿esto o esto?')",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Divide la percepción y fuerza la elección.",
-    prompt: `Inputs:
-- Opción A.
-- Opción B.
-- Producto como facilitador de la mejor opción.
+{
+  id: "copy-ads-085",
+  title: "Annuncio basato su una scoperta accidentale",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Il classico \"angolo di scoperta accidentale\".",
+  prompt: `Ingressi:
+- Una scoperta inaspettata.
+- Situazione dove è successo.
+- Soluzione scoperta.
 
 Genera:
-1) 3 anuncios.
-2) 15 pares binarios para usar.`,
-    thumbnail: "",
-  },
+1) 3 annunci storici - scoperta.
+2) 10 scoperte accidentali alternative.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-096",
-    title: "Anuncio estilo confesión profesional ('como experto, te digo…')",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Posiciona autoridad sin arrogancia.",
-    prompt: `Inputs:
-- Rol profesional.
-- Secreto o insight.
-- Solución.
-
-Genera:
-1) 3 anuncios autoridad humana.
-2) 10 frases ‘como experto te digo…’.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-097",
-    title:
-      "Anuncio usando un 'anti-proceso' (lo que la gente cree que sirve NO sirve)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Muestra un error socialmente aceptado.",
-    prompt: `Inputs:
-- Proceso que no funciona.
-- Nueva forma correcta.
-- Producto como facilitador.
+{
+  id: "copy-ads-086",
+  title: "Annuncio mini-trasformazione stile quotidiano",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Mostra progressi microscopici con accumulo.",
+  prompt: `Ingressi:
+- Azione giornaliera minima.
+- Progressi accumulati.
+- Collegamento del prodotto.
 
 Genera:
-1) 3 anuncios.
-2) 10 anti-procesos adicionales.`,
-    thumbnail: "",
-  },
+1) 3 annunci.
+2) 15 frasi sulla trasformazione quotidiana.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-098",
-    title: "Anuncio basado en 'no tienes que sufrir para lograrlo'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Ideal para mercados con creencias rígidas.",
-    prompt: `Inputs:
-- Creencia del sacrificio.
-- Contrargumento.
-- Producto como alternativa fácil.
-
-Genera:
-1) 3 anuncios.
-2) 10 frases anti-sufrimiento.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "copy-ads-099",
-    title: "Anuncio basado en ingeniería inversa (reverse engineering ad)",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Explica éxito o resultado desarmando su proceso.",
-    prompt: `Inputs:
-- Resultado final.
-- Pasos desarmados hacia atrás.
-- Producto como primer paso accesible.
+{
+  id: "copy-ads-087",
+  title: "Tipo annuncio 'la grande bugia della nicchia '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Punteggio + verità + soluzione = alto CTR.",
+  prompt: `Ingressi:
+- No. La bugia comune della nicchia.
+- No. La verità è che poche menzioni.
+- Prodotto come soluzione allineata alla verità.
 
 Genera:
-1) 3 anuncios ingeniería inversa.
-2) 10 procesos desmontados.`,
-    thumbnail: "",
-  },
+1) 3 annunci.
+2) 10 grandi bugie della nicchia.`,
+  thumbnail: ""
+},
 
-  {
-    id: "copy-ads-100",
-    title: "Anuncio estilo 'elige tu versión del futuro'",
-    area: "Marketing & ventas",
-    category: "Copy para anuncios",
-    summary: "Crea contraste entre dos futuros posibles.",
-    prompt: `Inputs:
-- Futuro negativo si no actúa.
-- Futuro positivo si actúa.
-- Producto como puente.
+{
+  id: "copy-ads-088",
+  title: "Annuncio basato su un semplice esperimento A / B",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Mostra una prima / dopo con un cambiamento controllato.",
+  prompt: `Ingressi:
+- Variabile A.
+- Variabile B.
+- Uscite.
 
 Genera:
-1) 3 anuncios dual-future.
-2) 10 frases de contraste futuro.`,
-    thumbnail: "",
-  },
-];
+1) 3 annunci tipo di esperimento.
+2) 5 titoli "proviamo X contro Y...".`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-089",
+  title: "Annuncio utilizzando una metafora spaziale (livello su, portale, salto)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Molto utile per prodotti di crescita personale o professionale.",
+  prompt: `Ingressi:
+- Metafora spaziale (salto, portale, livello).
+- Progresso desiderato.
+- Uscite.
+
+Genera:
+1) 3 annunci.
+2) 15 utili metafore spaziali.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-090",
+  title: "Stile di annuncio 'non devi iniziare da zero '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Disabilita la paura all'inizio difficile.",
+  prompt: `Ingressi:
+- Elemento che facilita l'inizio.
+- Risultato veloce.
+- Soluzione.
+
+Genera:
+1) 3 annunci.
+2) 10 ganci per persone che vogliono iniziare.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-091",
+  title: "Annuncio con struttura 'toolbox'",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Perfetto per prodotti con più vantaggi.",
+  prompt: `Ingressi:
+- 3-5 funzioni chiave.
+- Esempi di utilizzo.
+- Risultato finale.
+
+Genera:
+1) 3 annunci tipo toolbox.
+2) 15 varianti di "il tuo nuovo toolbox".`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-092",
+  title: "Annuncio utilizzando una sfida mentale (sfida mentale ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Si applica una sfida cognitiva che costringe l'utente a pensare.",
+  prompt: `Ingressi:
+- Sfida mentale.
+- Collegamento del prodotto.
+- Uscite.
+
+Genera:
+1) 3 annunci.
+2) 10 linee sfida.
+3) 5 Viste cognitive.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-093",
+  title: "Annuncio di stile \"Psychological hack\"",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Molto virale per TikTok e IG.",
+  prompt: `Ingressi:
+- Hack psicologico.
+- Effetto sull'utente.
+- Soluzione associata.
+
+Genera:
+1) 3 annunci di hack.
+2) 10 hack aggiuntivi.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-094",
+  title: "Annuncio basato sull'identità negativa (che non vuoi essere)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Attiva la motivazione della repulsione.",
+  prompt: `Ingressi:
+- Identita' negativa.
+- Comportamento associato.
+- Soluzione.
+
+Genera:
+1) 3 annunci.
+2) 10 frasi di identità negative.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-095",
+  title: "Annuncio basato su una domanda binaria ('questo o questo?')",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Dividere la percezione e la scelta della forza.",
+  prompt: `Ingressi:
+- Opzione A.
+- Opzione B.
+- Prodotto come facilitatore dell'opzione migliore.
+
+Genera:
+1) 3 annunci.
+2) 15 coppie binarie da usare.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-096",
+  title: "Annuncio lo stile di confessione professionale ('come esperto, vi dico...')",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "L'autorità di posizionamento senza arroganza.",
+  prompt: `Ingressi:
+- Un ruolo professionale.
+- Segreto o intuito.
+- Soluzione.
+
+Genera:
+1) 3 annunci di autorità umana.
+2) 10 frasi' come un esperto ti dico... '.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-097",
+  title:
+  "Annuncio utilizzando un 'anti-processo' (che cosa la gente pensa non serve)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Mostra un errore socialmente accettato.",
+  prompt: `Ingressi:
+- Processo che non funziona.
+- Novità.
+- Prodotto come facilitatore.
+
+Genera:
+1) 3 annunci.
+2) 10 processi anti-extra.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-098",
+  title: "Annuncio basato su 'non devi soffrire per farlo'",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Ideale per mercati con credenze rigide.",
+  prompt: `Ingressi:
+- Creazione di sacrificio.
+- Contro-argomentazione.
+- Prodotto come alternativa facile.
+
+Genera:
+1) 3 annunci.
+2) 10 frasi anti-suffering.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-099",
+  title: "Annuncio basato su reverse engineering (reverse engineering ad)",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Spiega successo o risultato disarmando il vostro processo.",
+  prompt: `Ingressi:
+- Risultato finale.
+- Unarmed step indietro.
+- Prodotto come primo passo accessibile.
+
+Genera:
+1) 3 annunci di reverse engineering.
+2) 10 processi smontati.`,
+  thumbnail: ""
+},
+
+{
+  id: "copy-ads-100",
+  title: "Announcement style 'choose your version of the future '",
+  area: "Marketing e vendita",
+  category: "Copia annuncio",
+  summary: "Crea un contrasto tra due possibili futures.",
+  prompt: `Ingressi:
+- Un futuro negativo se non funziona.
+- Un futuro positivo se funziona.
+- Prodotto come ponte.
+
+Genera:
+1) 3 annunci dual-future.
+2) 10 frasi di contrasto futuro.`,
+  thumbnail: ""
+}];

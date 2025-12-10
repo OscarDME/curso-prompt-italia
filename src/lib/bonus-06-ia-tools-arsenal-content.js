@@ -1,221 +1,221 @@
 // src/lib/bonus-06-ia-tools-arsenal-content.js
 
 export const bonus06IAToolsArsenal = {
-  title: "Arsenal con +600 herramientas de IA",
+  title: "Arsenale con +600 strumenti di IA",
   heroText:
-    "Una base curada de herramientas de IA para crear, editar, automatizar y escalar tu negocio digital sin subir costos innecesariamente.",
+    "Una base curata di strumenti di IA per creare, modificare, automatizzare e scalare il tuo business digitale senza aumentare i costi inutilmente.",
 
   sections: [
     {
       id: "como-funciona",
-      title: "1. Cómo usar este arsenal sin abrumarte",
+      title: "1. Come usare questo arsenale senza sentirti sopraffatto",
       body: [
-        `Este bono está pensado como una **base de consulta rápida**, no como algo que tengas que memorizar. La idea es que cuando te preguntes “¿hay una herramienta de IA para esto?”, vengas aquí.`,
-        `En lugar de intentar usar 50 herramientas a la vez, te recomiendo este enfoque:`,
+        `Questo bonus è pensato come una **base di consultazione rapida**, non come qualcosa da memorizzare. L’idea è che quando ti chiedi “esiste uno strumento di IA per questo?”, vieni qui.`,
+        `Invece di provare a usare 50 strumenti insieme, ti consiglio questo approccio:`,
       ],
       bullets: [
         {
-          label: "Empieza por tu cuello de botella",
+          label: "Parti dal tuo collo di bottiglia",
           description:
-            "¿Qué te consume más tiempo hoy? ¿Escribir, editar vídeo, diseñar, organizar tareas, responder mensajes? Empieza por ese área."
+            "Cosa ti mangia più tempo oggi? Scrivere, montare video, progettare, organizzare task, rispondere ai messaggi? Parti da quell’area.",
         },
         {
-          label: "Elige 1–3 herramientas por vez",
+          label: "Scegli 1–3 strumenti alla volta",
           description:
-            "No necesitas 20 apps para vídeo o 10 para diseño. Prueba pocas, decide y quédate con las que encajen en tu flujo."
+            "Non ti servono 20 app per i video o 10 per il design. Testane poche, decidi e tieni quelle che si incastrano nel tuo flusso.",
         },
         {
-          label: "Conecta todo con tu Banco Secreto",
+          label: "Collega tutto al tuo Banco Segreto",
           description:
-            "Usa tus prompts para generar ideas, guiones, textos y luego pásalos a estas herramientas para producir el resultado final."
-        }
+            "Usa i prompt per generare idee, script e testi, poi passa tutto a questi strumenti per produrre il risultato finale.",
+        },
       ],
       highlight:
-        "Regla práctica: si una herramienta no se gana su lugar en tu flujo en 1–2 semanas, la dejas ir. El objetivo es simplificar, no complicar."
+        "Regola pratica: se uno strumento non si guadagna un posto nel tuo flusso in 1–2 settimane, lo lasci andare. L’obiettivo è semplificare, non complicare.",
     },
     {
       id: "categorias",
-      title: "2. Categorías principales del arsenal",
+      title: "2. Categorie principali dell’arsenale",
       body: [
-        `En lugar de tener una lista caótica, hemos organizado las herramientas en grandes categorías para que encuentres rápido lo que necesitas.`,
-        `Estas son algunas de las categorías que verás dentro del arsenal:`,
+        `Invece di una lista caotica, abbiamo organizzato gli strumenti in grandi categorie così trovi subito ciò che ti serve.`,
+        `Ecco alcune delle categorie che vedrai dentro l’arsenale:`,
       ],
       bullets: [
         {
-          label: "Vídeo",
+          label: "Video",
           description:
-            "Edición, subtítulos automáticos, montaje rápido, transformación de texto a vídeo, avatares, etc."
+            "Editing, sottotitoli automatici, montaggio rapido, trasformazione testo→video, avatar, ecc.",
         },
         {
-          label: "Imagen y diseño",
+          label: "Immagini e design",
           description:
-            "Generación de imágenes, portadas, thumbnails, logos, banners, anuncios visuales, etc."
+            "Generazione immagini, copertine, thumbnail, loghi, banner, creatività per ads, ecc.",
         },
         {
-          label: "Web y funnels",
+          label: "Web e funnel",
           description:
-            "Constructores de páginas, landings, funnels y sitios con ayuda de IA."
+            "Costruttori di pagine, landing, funnel e siti con l’aiuto dell’IA.",
         },
         {
-          label: "Automatización",
+          label: "Automazione",
           description:
-            "Herramientas para conectar apps, disparar acciones automáticas y evitar tareas repetitivas."
+            "Strumenti per collegare app, attivare azioni automatiche ed evitare compiti ripetitivi.",
         },
         {
-          label: "Escritura y copy",
+          label: "Scrittura e copy",
           description:
-            "Redacción, reescritura, corrección, generación de copies, emails, scripts, etc."
+            "Redazione, riscrittura, correzione, generazione di copy, email, script, ecc.",
         },
         {
-          label: "Productividad y organización",
+          label: "Produttività e organizzazione",
           description:
-            "Notion con IA, asistentes de tareas, organizadores de ideas, resúmenes de documentos."
-        }
+            "Notion con IA, assistenti per task, organizzatori di idee, riassunti di documenti.",
+        },
       ],
       highlight:
-        "Este bono no va de probar apps por probar, sino de encontrar la pieza correcta para cada parte de tu sistema con IA."
+        "Questo bonus non serve a provare app “tanto per”, ma a trovare il pezzo giusto per ogni parte del tuo sistema con l’IA.",
     },
     {
       id: "como-leer-fichas",
-      title: "3. Cómo leer cada ficha de herramienta",
+      title: "3. Come leggere ogni scheda strumento",
       body: [
-        `Cada herramienta en el arsenal sigue una estructura estándar para que no pierdas tiempo investigando desde cero:`,
+        `Ogni strumento nell’arsenale segue una struttura standard per farti risparmiare tempo e non farti ricercare tutto da zero:`,
       ],
       bullets: [
         {
-          label: "Nombre",
-          description: "Cómo se llama la herramienta en el mercado."
+          label: "Nome",
+          description: "Come si chiama lo strumento sul mercato.",
         },
         {
-          label: "Categoría",
+          label: "Categoria",
           description:
-            "Área principal donde aporta valor (vídeo, imagen, automatización, etc.)."
+            "Area principale in cui porta valore (video, immagini, automazione, ecc.).",
         },
         {
-          label: "Descripción",
+          label: "Descrizione",
           description:
-            "Qué hace y para qué tipo de usuario o caso es especialmente útil."
+            "Cosa fa e per che tipo di utente o caso d’uso è particolarmente utile.",
         },
         {
-          label: "Cómo combinarla con tu Banco Secreto",
+          label: "Come abbinarlo al tuo Banco Segreto",
           description:
-            "Ejemplos concretos de cómo usar tus prompts y contenidos dentro de esa herramienta."
-        }
+            "Esempi concreti su come usare i tuoi prompt e contenuti dentro quello strumento.",
+        },
       ],
       highlight:
-        "Piensa en esto como un catálogo curado: Lees rápido, decides si te sirve y pasas a la acción sin caer en el agujero negro de probar apps al azar."
+        "Pensalo come un catalogo curato: leggi veloce, decidi se ti serve e passi all’azione senza finire nel buco nero del provare app a caso.",
     },
   ],
 
-  // 🔧 Herramientas de ejemplo (tú luego amplías este listado hasta las +600)
+  // 🔧 Strumenti di esempio (poi potrai estendere questa lista fino a +600)
   tools: [
     {
       id: "gamma",
       name: "Gamma",
-      category: "Presentaciones y docs",
+      category: "Presentazioni e documenti",
       description:
-        "Creador de presentaciones y documentos visuales impulsado por IA. Convierte texto en decks y e-books con diseño profesional.",
+        "Creatore di presentazioni e documenti visivi con IA. Trasforma testo in deck ed e-book con un design professionale.",
       howToUseWithBank:
-        "Usa tus prompts de e-books y presentaciones (Bono #04) para generar la estructura en ChatGPT y luego pega títulos y bullets en Gamma para que monte el diseño automáticamente.",
+        "Usa i prompt per e-book e presentazioni (Bonus #04) per generare la struttura in ChatGPT e poi incolla titoli e bullet in Gamma, così costruisce automaticamente il design.",
     },
     {
       id: "canva",
       name: "Canva",
-      category: "Imagen y diseño",
+      category: "Immagini e design",
       description:
-        "Herramienta de diseño visual fácil de usar, ideal para portadas, carruseles, anuncios y material gráfico para redes.",
+        "Strumento di design visivo facile da usare, ideale per copertine, caroselli, annunci e materiali grafici per i social.",
       howToUseWithBank:
-        "Primero genera copies, titulares y estructuras de carruseles con tu Banco Secreto. Luego llévalos a plantillas de Canva y solo ajusta fuentes, colores y elementos visuales.",
+        "Prima genera copy, titoli e strutture dei caroselli con il tuo Banco Segreto. Poi portali nei template di Canva e aggiusta solo font, colori ed elementi visivi.",
     },
     {
       id: "capcut",
       name: "CapCut",
-      category: "Vídeo",
+      category: "Video",
       description:
-        "Editor de vídeo sencillo con funciones de IA para subtítulos, cortes automáticos y efectos rápidos, ideal para Reels y TikTok.",
+        "Editor video semplice con funzioni IA per sottotitoli, tagli automatici ed effetti rapidi, ideale per Reels e TikTok.",
       howToUseWithBank:
-        "Usa tus prompts de guion de vídeo para crear scripts de Reels. Graba o genera el vídeo y luego edítalo en CapCut añadiendo subtítulos automáticos y cortes al ritmo.",
+        "Usa i prompt di script video per creare copioni per Reels. Registra o genera il video e poi montalo in CapCut aggiungendo sottotitoli automatici e tagli a ritmo.",
     },
     {
       id: "descript",
       name: "Descript",
-      category: "Vídeo y audio",
+      category: "Video e audio",
       description:
-        "Editor de audio y vídeo basado en transcripción. Permite editar vídeos como si editaras un documento de texto.",
+        "Editor di audio e video basato su trascrizione. Ti permette di montare i video come se stessi modificando un documento di testo.",
       howToUseWithBank:
-        "Transcribe un vídeo largo en Descript, luego pega esas transcripciones en ChatGPT y usa prompts de resumen y repurposing para sacar clips, shorts y guiones derivados.",
+        "Trascrivi un video lungo in Descript, poi incolla la trascrizione in ChatGPT e usa prompt di riassunto e repurposing per ricavare clip, shorts e script derivati.",
     },
     {
       id: "figma",
-      name: "Figma + plugins IA",
-      category: "Diseño",
+      name: "Figma + plugin IA",
+      category: "Design",
       description:
-        "Herramienta de diseño colaborativo con plugins de IA para generar layouts, copy y componentes rápidos.",
+        "Strumento di design collaborativo con plugin IA per generare layout, copy e componenti rapidamente.",
       howToUseWithBank:
-        "Diseña wireframes en Figma y usa tus prompts de UX/copy para llenar los textos de las secciones. Ajusta luego a mano solo lo que necesite tu toque personal.",
+        "Disegna wireframe in Figma e usa i tuoi prompt di UX/copy per riempire i testi delle sezioni. Poi rifinisci a mano solo ciò che richiede il tuo tocco personale.",
     },
     {
       id: "framer",
       name: "Framer",
-      category: "Web y funnels",
+      category: "Web e funnel",
       description:
-        "Constructor de sitios web y landings con IA. Permite crear páginas modernas a partir de descripciones en texto.",
+        "Costruttore di siti web e landing con IA. Permette di creare pagine moderne partendo da descrizioni testuali.",
       howToUseWithBank:
-        "Crea la estructura de tu página (secciones, bloques y textos) con prompts de páginas de venta. Luego pega esa estructura en Framer para que genere el diseño base del sitio.",
+        "Crea la struttura della pagina (sezioni, blocchi e testi) con prompt per pagine di vendita. Poi incolla quella struttura in Framer per generare il design base del sito.",
     },
     {
       id: "make",
-      name: "Make (antiguo Integromat)",
-      category: "Automatización",
+      name: "Make (ex Integromat)",
+      category: "Automazione",
       description:
-        "Plataforma visual para crear automatizaciones entre múltiples aplicaciones con gran flexibilidad.",
+        "Piattaforma visuale per creare automazioni tra più applicazioni con grande flessibilità.",
       howToUseWithBank:
-        "Diseña tu flujo ideal usando ChatGPT: qué apps se conectan, qué datos pasan y qué disparadores necesitas. Luego configura ese flujo en Make siguiendo el esquema generado por la IA.",
+        "Progetta il tuo flusso ideale con ChatGPT: quali app si connettono, quali dati passano e quali trigger servono. Poi configura quel flusso in Make seguendo lo schema generato dall’IA.",
     },
     {
       id: "zapier",
       name: "Zapier",
-      category: "Automatización",
+      category: "Automazione",
       description:
-        "Herramienta de automatización que conecta apps populares para disparar acciones según eventos específicos.",
+        "Strumento di automazione che collega app popolari per attivare azioni in base a eventi specifici.",
       howToUseWithBank:
-        "Usa prompts de diseño de automatizaciones para describir tu proceso ideal (ej. cuando alguien se suscribe, añade a lista + manda email). Luego traduce ese flujo a zaps concretos en Zapier.",
+        "Usa prompt di progettazione automazioni per descrivere il tuo processo ideale (es. quando qualcuno si iscrive, aggiungi alla lista + invia email). Poi traduci quel flusso in zaps concreti in Zapier.",
     },
     {
       id: "notion-ai",
       name: "Notion + IA",
-      category: "Productividad",
+      category: "Produttività",
       description:
-        "Espacio de notas, bases de datos y organización con funciones integradas de IA para resumir, reescribir y generar contenido.",
+        "Spazio per note, database e organizzazione con funzioni IA integrate per riassumere, riscrivere e generare contenuti.",
       howToUseWithBank:
-        "Crea un sistema de documentos para tus mejores prompts, resultados y plantillas. Usa tus prompts de resumen y organización para transformar notas caóticas en sistemas claros dentro de Notion.",
+        "Crea un sistema di documenti per i tuoi migliori prompt, risultati e template. Usa prompt di sintesi e organizzazione per trasformare note caotiche in sistemi chiari dentro Notion.",
     },
     {
       id: "scribehow",
       name: "Scribe",
-      category: "Documentación",
+      category: "Documentazione",
       description:
-        "Herramienta para documentar procesos automáticamente mientras los ejecutas, generando guías paso a paso.",
+        "Strumento per documentare processi automaticamente mentre li esegui, generando guide passo-passo.",
       howToUseWithBank:
-        "Graba el proceso una vez en Scribe y luego lleva esa guía a ChatGPT para pulir el texto, mejorar la claridad y convertirlo en SOPs o mini manuales internos.",
+        "Registra il processo una volta in Scribe e poi porta quella guida in ChatGPT per migliorare il testo, aumentare la chiarezza e convertirla in SOP o mini manuali interni.",
     },
     {
       id: "mubert",
       name: "Mubert",
-      category: "Audio y música",
+      category: "Audio e musica",
       description:
-        "Generador de música con IA para fondos de vídeos, podcasts o contenido social.",
+        "Generatore di musica con IA per sottofondi di video, podcast o contenuti social.",
       howToUseWithBank:
-        "Define en ChatGPT el tipo de ambiente sonoro que quieres (energético, calmado, cinemático) y traduce esas indicaciones en parámetros para generar pistas en Mubert.",
+        "Definisci in ChatGPT l’atmosfera sonora che vuoi (energico, calmo, cinematografico) e traduci queste indicazioni in parametri per generare tracce in Mubert.",
     },
     {
       id: "tldv",
       name: "tl;dv",
-      category: "Reuniones y resúmenes",
+      category: "Riunioni e riassunti",
       description:
-        "Herramienta para grabar reuniones, generar transcripciones y resúmenes automáticos.",
+        "Strumento per registrare riunioni, generare trascrizioni e riassunti automatici.",
       howToUseWithBank:
-        "Después de una reunión, exporta la transcripción y úsala con tus prompts de resumen, extracción de insights y generación de acciones concretas.",
+        "Dopo una riunione, esporta la trascrizione e usala con i tuoi prompt di sintesi, estrazione di insight e generazione di azioni concrete.",
     },
   ],
 };

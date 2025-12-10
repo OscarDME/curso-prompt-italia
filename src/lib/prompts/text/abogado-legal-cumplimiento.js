@@ -1,498 +1,497 @@
 // src/lib/prompts/text/abogado-legal-cumplimiento.js
 
 export const textPromptsAbogadoLegalCumplimiento = [
-  {
-    id: "legalcumplimiento-001",
-    title: "Programa de compliance desde cero (para pyme/startup)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Diseña un programa de cumplimiento práctico: políticas, riesgos, responsables y evidencias.",
-    prompt: `Actúa como abogado de compliance. Diseña un programa de cumplimiento desde cero.
+{
+  id: "legalcumplimiento-001",
+  title: "Programma di conformità da zero (per pime / startup)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Progetta un programma di conformità pratico: politiche, rischi, responsabilità e prove.",
+  prompt: `Agisce come avvocato di conformità. Progetta un programma di conformità da zero.
 
-Inputs:
-- Giro/industria.
-- País/jurisdicción principal.
-- Tamaño del equipo (número de empleados).
-- Canales de venta (online, presencial, B2B/B2C).
-- Riesgos percibidos (datos, publicidad, pagos, proveedores).
-- Nivel de formalidad (básico/medio/alto).
-
-Genera:
-1) Mapa de riesgos (10+ riesgos) con probabilidad/impacto.
-2) Políticas mínimas (lista) + objetivo de cada una.
-3) Roles y responsables (quién aprueba, quién ejecuta).
-4) Controles y evidencias (qué guardar para demostrar cumplimiento).
-5) Calendario anual (auditorías internas, capacitaciones, revisiones).
-6) Checklist “MVP compliance” (lo mínimo viable para operar).
-No cites artículos de ley; marca “depende de jurisdicción”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-002",
-    title: "Matriz de riesgos legales (Legal Risk Register) lista para copiar",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Crea una matriz de riesgos legales con columnas, criterios y un ejemplo rellenado.",
-    prompt: `Actúa como abogado de riesgos. Construye una matriz de riesgos legales (risk register).
-
-Inputs:
-- Negocio y modelo (cómo gana dinero).
-- Países donde opera.
-- Procesos clave (marketing, pagos, datos, soporte, proveedores).
-- Activos críticos (marca, base de clientes, plataforma).
+Ingressi:
+- Girare / industria.
+- Paese / giurisdizione principale.
+- Dimensione squadra (numero di dipendenti).
+- Canali di vendita (online, face, B2B / B2C).
+- Rischi ricevuti (dati, pubblicità, pagamenti, fornitori).
+- Livello di formalità (basico / medio / alto).
 
 Genera:
-1) Plantilla con columnas recomendadas (riesgo, causa, control, owner, KPI, evidencia, etc.).
-2) Criterios para puntuar probabilidad e impacto (1-5).
-3) 15 riesgos típicos para este tipo de negocio (con puntuación ejemplo).
-4) Plan de mitigación por riesgo (acciones concretas).
-5) Cómo revisar/actualizar mensual.`,
-    thumbnail: "",
-  },
+1) Mappa del rischio (10 + rischi) con probabilità / impatto.
+2) Politiche minime (elenco) + obiettivo di ciascuno.
+3) Ruolo e responsabile (che approva, chi esegue).
+4) Controlli e prove (cosa salvare per dimostrare la conformità).
+5) Programma annuale (audit interni, formazione, recensioni).
+6) Elenco di controllo "Conformità MVP" (minimo di funzionamento).
+Non cita articoli di legge; marchio "dipende dalla giurisdizione.".`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcumplimiento-003",
-    title: "Políticas internas indispensables (manual rápido)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Define el set mínimo de políticas internas y cómo implementarlas sin burocracia.",
-    prompt: `Actúa como abogado interno (in-house). Necesito un manual rápido de políticas internas.
+{
+  id: "legalcumplimiento-002",
+  title: "Registrazione di rischio legale pronto a copiare",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Crea una matrice di rischio legale con colonne, criteri e un esempio completato.",
+  prompt: `Agisce come avvocato di rischio. Costruisce un registro dei rischi.
 
-Inputs:
-- Tipo de empresa (servicios, e-commerce, SaaS, info producto).
-- Tamaño del equipo.
-- Si hay contractors/freelancers.
-- Si se manejan datos personales.
-
-Genera:
-1) Lista de políticas indispensables (10-15) y qué cubre cada una.
-2) Qué documento va “público” (TOS/Privacidad) vs “interno”.
-3) Formato recomendado (1-2 páginas por política) para que se cumpla.
-4) Flujo de aprobación y onboarding (cómo entrenar a nuevos).
-5) Evidencias mínimas (qué guardar) para auditoría.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-004",
-    title: "Checklist de cumplimiento para marketing y publicidad (promesas, claims, testimonios)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Evita reclamos por publicidad engañosa: checklist de claims, disclaimers y pruebas.",
-    prompt: `Actúa como abogado en publicidad/consumo. Crea un checklist de cumplimiento para marketing.
-
-Inputs:
-- Tipo de oferta (curso, servicio, app, e-commerce).
-- Claims típicos (resultados, tiempos, dinero, salud, “garantizado”).
-- Canales (TikTok, Meta Ads, email, landing).
-- Uso de testimonios/casos de éxito (sí/no).
-- Política de reembolsos.
+Ingressi:
+- Business e modello (come fai soldi).
+- Paesi dove opera.
+- Processi chiave (marketing, pagamenti, dati, supporto, fornitori).
+- Attività critiche (marca, base clienti, piattaforma).
 
 Genera:
-1) Checklist de revisión de copy (20+ items).
-2) Lista de “claims de alto riesgo” y cómo reescribirlos.
-3) Disclaimers recomendados (en lenguaje simple).
-4) Manejo correcto de testimonios (qué sí/qué no, evidencias).
-5) Plantilla de aprobación interna para campañas.`,
-    thumbnail: "",
-  },
+1) Modello con colonne raccomandate (rischio, causa, controllo, proprietario, KPI, prove, ecc.).
+2) Criteri per determinare probabilità e impatto (1-5).
+3) 15 rischi tipici per questo tipo di attività (ad esempio punteggio).
+4) Piano di mitigazione del rischio (azioni specifiche).
+5) Come rivedere / aggiornare mensile.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcumplimiento-005",
-    title: "Cumplimiento básico en atención al cliente (quejas, reembolsos, disputas)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Diseña SOPs para soporte que reduzcan chargebacks, quejas y escalamiento legal.",
-    prompt: `Actúa como abogado + operations. Diseña SOPs de atención al cliente orientados a cumplimiento.
+{
+  id: "legalcumplimiento-003",
+  title: "Politiche interne necessarie (manuale veloce)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Esso definisce l'insieme minimo di politiche interne e come attuarle senza burocrazia.",
+  prompt: `Agisce come avvocato interno (in-house). Mi serve un manuale di politica interna veloce.
 
-Inputs:
-- Producto (curso, SaaS, físico).
-- Frecuencia de quejas y tipo (acceso, calidad, entrega, cobros).
-- Política de reembolsos (sí/no, plazos).
-- Pasarelas de pago (Stripe/PayPal/otra).
-
-Genera:
-1) Árbol de decisiones de soporte (refund / cambio / escalamiento).
-2) Mensajes plantilla (5) para casos típicos.
-3) Proceso anti-chargeback (evidencias, tiempos, logs).
-4) Registro de incidentes (qué guardar y por cuánto tiempo).
-5) Métricas de cumplimiento (SLA soporte, tasa de disputa, etc.).
-No inventes leyes; enfócate en mejores prácticas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-006",
-    title: "Política de privacidad MVP (outline + texto base)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Crea una política de privacidad mínima viable, con campos [REEMPLAZAR] para tu sitio/app.",
-    prompt: `Actúa como abogado. Redacta una Política de Privacidad MVP.
-
-Inputs:
-- Tipo de negocio.
-- Datos que se recaban (email, pago, IP, analytics, cookies).
-- Proveedores (Stripe, Vercel, email marketing, analytics).
-- País/jurisdicción principal.
-- Si hay menores (sí/no).
+Ingressi:
+- Tipo di azienda (servizi, e-commerce, SaaS, info product).
+- Squadra.
+- No. Se ci sono appaltatori / freelance.
+- No. Se gestisci i dati personali.
 
 Genera:
-1) Outline de secciones.
-2) Texto base completo con [REEMPLAZAR] donde falten datos.
-3) Tabla simple: tipo de dato → finalidad → base/justificación (sin citar leyes).
-4) Derechos del usuario (genérico) + cómo solicitar.
-5) Cookies (texto simple) y link a preferencias si aplica.`,
-    thumbnail: "",
-  },
+1) Elenco delle politiche essenziali (10-15) e di ciò che ciascuna copre.
+2) Quale documento va "pubblico" (TOS / Privacy) vs "interno".
+3) Formato consigliato (1-2 pagine per policy) per la conformità.
+4) Approvazione del flusso e onboarding (come formare nuovi).
+(5) Prova minima (cosa risparmiare) per l'audit.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcumplimiento-007",
-    title: "Gestión de proveedores (third-party risk) + contrato marco",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Checklist para evaluar proveedores y cláusulas clave para reducir riesgos.",
-    prompt: `Actúa como abogado de compras/compliance. Diseña un proceso de evaluación de proveedores.
+{
+  id: "legalcumplimiento-004",
+  title: "Compliance Checklist per marketing e pubblicità (promessi, reclami, testimonianze)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Evitare reclami per pubblicità fuorviante: elenco dei reclami, reclami e prove.",
+  prompt: `Agisce come avvocato nella pubblicità / consumo. Creare una lista di controllo di conformità per il marketing.
 
-Inputs:
-- Tipo de proveedor (cloud, marketing, freelancers, agencias).
-- Acceso a datos personales (sí/no).
-- Acceso a sistemas críticos (sí/no).
-- Nivel de criticidad (alto/medio/bajo).
-
-Genera:
-1) Checklist de due diligence (seguridad, legal, financiero).
-2) Clasificación de riesgo y qué controles exige cada nivel.
-3) Cláusulas mínimas del contrato (confidencialidad, IP, datos, SLA, terminación).
-4) Evidencias/documentos a pedir.
-5) Plantilla de “revisión anual” del proveedor.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-008",
-    title: "Cumplimiento para cursos/membresías (acceso, licencias, anti-compartición)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Estructura reglas y textos para reducir piratería y abuso sin matar conversiones.",
-    prompt: `Actúa como abogado para productos digitales (cursos/membresías).
-
-Inputs:
-- Modalidad (acceso de por vida, anual, mensual).
-- Nº de usuarios por cuenta (1/2/equipo).
-- Restricciones (no compartir, no reventa, no scraping).
-- Medidas técnicas (watermark, limitación dispositivos, etc.).
-- Política de reembolso.
+Ingressi:
+- Tipo di offerta (corso, servizio, app, e-commerce).
+- reclami tipici (risultati, tempi, denaro, salute, "garantito").
+- Canali (TikTok, Meta Annunci, e-mail, atterraggio).
+- Uso di testimonianze / casi di successo (sì / no).
+- Politica di rimborso.
 
 Genera:
-1) Cláusulas/Reglas anti-compartición (TOS) con lenguaje claro.
-2) Política de uso aceptable (ejemplos).
-3) Proceso de advertencia → suspensión → terminación (escalonado).
-4) Mensajes para informar al usuario (3 plantillas).
-5) Checklist de evidencias para disputas (logs, IP, accesos).`,
-    thumbnail: "",
-  },
+1) Copia elenco di controllo (20 + articoli).
+2) Elenco delle "risposte ad alto rischio" e come riscriverle.
+3) Disclaim consigliati (in lingua semplice).
+4) corretta gestione delle testimonianze (e se / cosa no, prove).
+5) Modello di approvazione interna per le campagne.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcumplimiento-009",
-    title: "Capacitación interna: plan de 30 días (compliance esencial)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Plan de entrenamiento para que el equipo cumpla (sin burocracia): módulos + quizzes.",
-    prompt: `Actúa como abogado compliance y diseñador instruccional. Crea un plan de capacitación de 30 días.
+{
+  id: "legalcumplimiento-005",
+  title: "Conformità di base nell'assistenza clienti (reclami, rimborsi, controversie)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "SOP di progettazione per il supporto che riduce i chargeback, i reclami e l'escalation legale.",
+  prompt: `Agisce come avvocato + operazioni. Progettazione del servizio clienti SOPs per la conformità.
 
-Inputs:
-- Tipo de empresa.
-- Áreas del equipo (marketing, soporte, dev, ventas).
-- Riesgos principales (datos, claims, pagos, IP).
-- Nivel inicial del equipo.
-
-Genera:
-1) Calendario 30 días (micro-lecciones diarias).
-2) 8 módulos principales (título + objetivos).
-3) 10 preguntas tipo quiz (con respuesta) para evaluar.
-4) Material mínimo por módulo (1-pager).
-5) Métricas: asistencia, evaluación, incidentes reducidos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-010",
-    title: "Manejo de incidentes legales: protocolo + escalamiento",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Crea un protocolo para incidentes: amenazas legales, reclamos, brechas, DMCA/IP, etc.",
-    prompt: `Actúa como abogado interno. Diseña un protocolo de manejo de incidentes legales.
-
-Inputs:
-- Tipo de incidentes más probables (refunds, chargebacks, IP, datos).
-- Canales de contacto (email, soporte, redes).
-- Equipo disponible (quién decide).
+Ingressi:
+- Prodotto (corso, SaaS, fisico).
+- Frequenza dei reclami e del tipo (accesso, qualità, consegna, spese).
+- Politica di rimborso (sì / no, limiti di tempo).
+- Passi a pagamento (Stripe / PayPal / altro).
 
 Genera:
-1) Clasificación de incidentes (niveles 1-3) con ejemplos.
-2) SLA de respuesta sugerido por nivel.
-3) Roles: quién responde, quién aprueba, quién documenta.
-4) Checklist de documentación (qué guardar).
-5) Plantillas de respuesta (amenaza legal, reclamación de IP, queja grave).
-No inventes artículos de ley; enfócate en proceso y riesgos.`,
-    thumbnail: "",
-  },
+1) Albero di decisione di sostegno (rimborso / cambiamento / scaling).
+2) Messaggi modello (5) per casi tipici.
+3) Processo anti-ricarica (prove, tempi, loghi).
+4) Registrazione degli incidenti (che risparmiare e per quanto tempo).
+5) Tecniche di conformità (supporto SLA, tasso di disputa, ecc.).
+Non inventare leggi, concentrati sulle migliori pratiche.`,
+  thumbnail: ""
+},
 
-  // +10 para llegar a 20
+{
+  id: "legalcumplimiento-006",
+  title: "Informativa sulla privacy MVP (online + testo di base)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Crea una politica sulla privacy minima, con i campi [REPLACE] per il tuo sito / app.",
+  prompt: `Agisce come avvocato. Definisce un MVP Informativa sulla privacy.
 
-  {
-    id: "legalcumplimiento-011",
-    title: "Auditoría de cumplimiento mensual (checklist operativa)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Checklist mensual para revisar marketing, pagos, datos, soporte y contratos sin perder tiempo.",
-    prompt: `Actúa como compliance officer. Crea una auditoría mensual con checklist.
-
-Inputs:
-- Tipo de negocio.
-- Herramientas (pasarela pagos, CRM, analytics, email).
-- Volumen de clientes.
-
-Genera:
-1) Checklist mensual por área (marketing, pagos, datos, soporte, proveedores).
-2) Evidencia que se debe adjuntar por punto.
-3) Indicadores que disparan acción correctiva.
-4) Plantilla de reporte mensual (1 página).
-5) Backlog de mejoras (cómo priorizar).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-012",
-    title: "Corrección de copy para evitar riesgos (antes/después)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Tomas frases riesgosas y las reescribes en 3 niveles de seguridad sin matar conversiones.",
-    prompt: `Actúa como abogado de publicidad + copywriter. Te daré claims de marketing y quiero reescrituras seguras.
-
-Inputs:
-- Frases originales (lista).
-- Producto y nicho.
-- Canal (ads/landing/email).
-- Riesgo (salud, dinero, resultados garantizados).
-- Tono de marca.
-
-Genera para cada frase:
-1) Diagnóstico del riesgo (por qué es riesgosa).
-2) Reescritura nivel 1 (agresiva pero más segura).
-3) Reescritura nivel 2 (balance).
-4) Reescritura nivel 3 (muy conservadora).
-5) Disclaimer recomendado y evidencia sugerida.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-013",
-    title: "Política de retención y borrado de datos (simple y ejecutable)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Define cuánto guardar, dónde, quién accede, y cómo borrar sin romper operaciones.",
-    prompt: `Actúa como abogado + data governance. Crea una política simple de retención y borrado.
-
-Inputs:
-- Tipos de datos (clientes, pagos, soporte, analytics).
-- Herramientas donde viven (Stripe, email, DB, Notion, etc.).
-- Necesidades operativas (soporte, contabilidad).
-- Riesgo de fuga (alto/medio/bajo).
+Ingressi:
+- Tipo di affari.
+- Dati raccolti (email, pagamento, IP, analisi, cookie).
+- Provider (Stripe, Vercel, email marketing, analisi).
+- Paese / giurisdizione principale.
+- No. Se ci sono minori (sì / no).
 
 Genera:
-1) Tabla: tipo de dato → finalidad → retención sugerida (con nota “depende de jurisdicción”).
-2) Procedimiento de borrado y anonimización.
-3) Control de accesos (roles).
-4) Checklist trimestral de limpieza.
-5) Evidencias internas (logs, tickets).`,
-    thumbnail: "",
-  },
+1) Sezione Outline.
+2) Testo di base completo con [REEMPLAZAR] dove i dati mancano.
+3) Tavola semplice: tipo di dati → scopo → base / giustificazione (non citando leggi).
+4) Diritti dell'utente (generico) + come applicare.
+5) Cookie (testo semplice) e link alle preferenze, se del caso.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcumplimiento-014",
-    title: "Consentimientos y comunicaciones (email/WhatsApp/SMS) - guía práctica",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Guía para capturar consentimientos y manejar opt-out correctamente en marketing.",
-    prompt: `Actúa como abogado. Crea guía práctica para comunicaciones comerciales.
+{
+  id: "legalcumplimiento-007",
+  title: "Gestione del fornitore (rischio di terze parti) + contratto quadro",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Lista di controllo per valutare fornitori e clausole chiave per ridurre i rischi.",
+  prompt: `Agisce come avvocato commerciale / conformità. Progetta un processo di valutazione del fornitore.
 
-Inputs:
-- Canales (email, WhatsApp, SMS).
-- Tipo de audiencia (leads, clientes, ambos).
-- País/jurisdicción.
-- Herramienta de envíos.
-
-Genera:
-1) Qué consentimiento capturar y dónde (checkout, formulario, onboarding).
-2) Textos sugeridos (3) para checkbox y aviso.
-3) Proceso de opt-out/baja (pasos) y cómo registrarlo.
-4) Frecuencia recomendada y buenas prácticas anti-spam.
-5) Lista de errores comunes y cómo evitarlos.
-No cites leyes; marca “depende de jurisdicción”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-015",
-    title: "Cumplimiento para landing de garantías (garantía, “sin riesgo”, devoluciones)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Estructura una sección de garantía que sea clara y reduzca disputas sin prometer imposibles.",
-    prompt: `Actúa como abogado de consumo + CRO. Diseña sección de garantía para una landing.
-
-Inputs:
-- Tipo de producto.
-- Plazo de garantía (días).
-- Condiciones (p.ej., completar módulos, evidencia, etc.).
-- Si es B2C/B2B.
-- Riesgo de abuse (alto/medio/bajo).
+Ingressi:
+- Tipo di fornitore (cloud, marketing, freelance, agenzie).
+- Accesso ai dati personali (sì / no).
+- Accesso ai sistemi critici (sì / no).
+- Livello critico (alto / medio / basso).
 
 Genera:
-1) Copy de la sección garantía (claro y persuasivo).
-2) Términos exactos (qué cubre y qué no).
-3) Proceso para solicitar (pasos + tiempos).
-4) Disclaimers para evitar interpretaciones.
-5) FAQ de garantía (8 preguntas).`,
-    thumbnail: "",
-  },
+1) Checklist de due diligence (sicurezza, legale, finanziario).
+2) classificazione del rischio e che controlli ogni livello richiede.
+3) Clausole contrattuali minime (confidenzialità, IP, dati, SLA, cessazione).
+(4) Prove / documenti da richiedere.
+5) "Annual review" del fornitore.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcumplimiento-016",
-    title: "Cumplimiento de tienda / e-commerce (términos, envíos, devoluciones)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Checklist y textos base para políticas de envío, devoluciones y términos de compra.",
-    prompt: `Actúa como abogado para e-commerce. Crea paquete de políticas y checklist.
+{
+  id: "legalcumplimiento-008",
+  title: "Compliance per corsi / membrane (accesso, licenze, anti-condivisione)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Regole di struttura e testi per ridurre la pirateria e l'abuso senza uccidere conversioni.",
+  prompt: `Agisce come avvocato per prodotti digitali (corsi / membrane).
 
-Inputs:
-- Tipo de producto (físico/digital).
-- Países a los que vendes.
-- Tiempos de entrega y paquetería.
-- Política de devoluciones/cambios.
-- Garantías, defectos, reclamaciones.
-
-Genera:
-1) Checklist de cumplimiento en checkout y post-compra.
-2) Política de envíos (texto base).
-3) Política de devoluciones y cambios (texto base).
-4) Política de garantías/defectos.
-5) Mensajes para emails transaccionales (3).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-017",
-    title: "Cumplimiento para uso de IA (disclaimers + límites + responsabilidad)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Términos para productos que usan IA: errores, no asesoría, responsabilidades y uso aceptable.",
-    prompt: `Actúa como abogado. Necesito cláusulas/avisos para un producto que usa IA.
-
-Inputs:
-- Producto (curso, herramienta, prompts, SaaS).
-- Qué hace la IA (recomendaciones, generación, automatización).
-- Riesgo de uso (salud, legal, financiero, bajo).
-- Si el usuario puede subir datos sensibles (sí/no).
+Ingressi:
+- Modalità (vita, accesso annuale, mensile).
+- Numero di utenti per conto (1 / 2 / attrezzatura).
+- Restrizioni (nessuna condivisione, nessuna rivendita, nessun raschiamento).
+- Misure tecniche (marca, limitazione del dispositivo, ecc.).
+- Politica di rimborso.
 
 Genera:
-1) Disclaimer “no asesoría profesional” (si aplica).
-2) Advertencias sobre errores/limitaciones.
-3) Responsabilidad del usuario (validar, uso bajo su riesgo).
-4) Política de inputs (no subir datos sensibles) y moderación.
-5) Texto corto para UI (tooltips y modales).`,
-    thumbnail: "",
-  },
+1) Regolamento / Anti-sharing (TOS) regole con linguaggio chiaro.
+(2) Politica di uso accettabile (esampli).
+3) Avvertimento processo → sospensione → terminazione (passo).
+4) Messaggi per informare l'utente (3 modelli).
+5) Elenco delle prove per le controversie (log, IP, accessi).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcumplimiento-018",
-    title: "Cumplimiento en manejo de testimonios y ‘antes/después’",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "SOP para recolectar, verificar, publicar y actualizar testimonios sin meterte en broncas.",
-    prompt: `Actúa como abogado de publicidad. Diseña SOP de testimonios/casos de éxito.
+{
+  id: "legalcumplimiento-009",
+  title: "Formazione interna: piano di 30 giorni (conformità essenziale)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Piano di formazione per il team di rispettare (senza burocrazia): moduli + quiz.",
+  prompt: `Agisce come avvocato di conformità e progettista di istruzione. Crea un piano di formazione di 30 giorni.
 
-Inputs:
-- Producto y nicho.
-- Canales donde se publican.
-- Si hay resultados financieros/salud.
-- Cómo se recolectan (formulario, DM, entrevista).
-- Si hay incentivos (descuento, regalo).
-
-Genera:
-1) Checklist de verificación (evidencia mínima).
-2) Consentimiento/permiso de uso (texto).
-3) Reglas de redacción (qué evitar).
-4) Disclaimers recomendados.
-5) Caducidad y revisiones: cuándo actualizar o retirar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcumplimiento-019",
-    title: "Protocolo de cumplimiento para freelancers/contractors",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Proceso para contratar y controlar contractors: NDA, IP, accesos, entregas y salida.",
-    prompt: `Actúa como abogado + operaciones. Diseña un protocolo para freelancers/contractors.
-
-Inputs:
-- Tipo de trabajo (dev, diseño, soporte, marketing).
-- Acceso a datos/sistemas (sí/no).
-- Duración del engagement.
-- Entregables.
+Ingressi:
+- Tipo di azienda.
+- Aree di attrezzature (marketing, supporto, sviluppo, vendite).
+- Principali rischi (dati, crediti, pagamenti, IP).
+- Livello iniziale di attrezzature.
 
 Genera:
-1) Paquete documental mínimo (NDA, IP, contrato, SOW).
-2) Gestión de accesos: principio de mínimo privilegio.
-3) Checklist de onboarding (día 1).
-4) Checklist de offboarding (revocar accesos, devolución, borrado).
-5) Evidencia y archivo (qué guardar).`,
-    thumbnail: "",
-  },
+1) Calendario 30 giorni (lezioni micro-al giorno).
+(2) 8 moduli principali (titolo + obiettivi).
+3) 10 quiz (con risposta) domande da valutare.
+(4) Materiale minimo per modulo (1-pager).
+(5) Medichi: assistenza, valutazione, incidenti ridotti.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcumplimiento-020",
-    title: "Evaluación de cumplimiento antes de escalar ads (pre-flight checklist)",
-    area: "Abogado & Legal",
-    category: "Cumplimiento",
-    summary:
-      "Checklist pre-flight para lanzarte a ads sin que te tumben o te reclamen: copy, claims, políticas, pages.",
-    prompt: `Actúa como abogado + performance marketer. Crea un pre-flight checklist antes de escalar ads.
+{
+  id: "legalcumplimiento-010",
+  title: "Gestione legale degli incidenti: protocollo + escalation",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Creare un protocollo per gli incidenti: minacce legali, reclami, lacune, DMCA / IP, ecc.",
+  prompt: `Agisce come avvocato interno. Progetta un protocollo per la gestione di incidenti legali.
 
-Inputs:
-- Producto y promesa.
-- Canal de ads.
-- Landing/checkout stack.
-- Políticas de reembolso/garantía.
-- Uso de testimonios/antes-después.
+Ingressi:
+- Tipo di incidenti più probabili (rimborsi, chargeback, IP, dati).
+- Canali di contatto (email, supporto, reti).
+- Attrezzatura disponibile (che decide).
 
 Genera:
-1) Checklist de landing (secciones, disclaimers, políticas visibles).
-2) Checklist de creativos y copy (claims, comparativos, “garantizado”).
-3) Checklist de soporte (SLA, procesos de reembolso, evidencias).
-4) Checklist de datos (cookies/analytics/consentimientos).
-5) Go/No-Go criteria (qué debe estar sí o sí).`,
-    thumbnail: "",
-  },
-];
+1) Classificazione degli incidenti (livello 1-3) con esempi.
+2) SLA di risposta suggerita da livello.
+3) Roles: chi risponde, chi approva, chi documenti.
+4) Elenco di controllo della documentazione (cosa salvare).
+5) Modelli di risposta (minaccia legale, reclamo IP, grave reclamo).
+Non inventare articoli di legge; concentrarsi su processi e rischi.`,
+  thumbnail: ""
+},
+
+// +10 para llegar a 20
+
+{
+  id: "legalcumplimiento-011",
+  title: "Controllo mensile di conformità (elenco di controllo operativo)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Checklist mensile per rivedere marketing, pagamenti, dati, supporto e contratti senza perdere tempo.",
+  prompt: `Agisce come agente di conformità. Crea un audit mensile con la lista di controllo.
+
+Ingressi:
+- Tipo di affari.
+- Strumenti (paypass, CRM, analisi, e-mail).
+- Volume del cliente.
+
+Genera:
+1) Controllo mensile per area (marketing, pagamenti, dati, supporto, fornitori).
+2) Prove da fissare per punto.
+3) Indicatori che innescano l'azione correttiva.
+4) Modello di report mensile (1 pagina).
+5) Backlog dei miglioramenti (come priorità).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-012",
+  title: "Copiare la correzione per evitare rischi (prima / dopo)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Prendere frasi rischiose e riscriverle su 3 livelli di sicurezza senza uccidere conversioni.",
+  prompt: `Agisce come avvocato pubblicitario + copywriter. Ti daro' delle richieste di marketing e voglio riscrivere la cassaforte.
+
+Ingressi:
+- Bottiglie originali (lista).
+- Prodotto e nicchia.
+- Canale (ads / atterraggio / email).
+- Rischio (salute, denaro, risultati garantiti).
+- Tono di marca.
+
+Genera per ogni frase:
+1) Diagnosi del rischio (perché è rischioso).
+2) Riscrittura di livello 1 (aggressiva ma più sicura).
+(3) Riscrittura di livello 2 (lastra di equilibrio).
+4) Riscrittura di livello 3 (molto conservatore).
+5) Disclaimer consigliato e prove suggerite.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-013",
+  title: "Politica di conservazione e cancellazione dei dati (semplice ed eseguibile)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Definire quanto risparmiare, dove, chi accede e come eliminare senza interrompere le operazioni.",
+  prompt: `Agire come avvocato + governance dei dati. Crea una semplice politica di ritenzione e cancellata.
+
+Ingressi:
+- Tipi di dati (clienti, pagamenti, supporto, analisi).
+- Strumenti dove vivono (Stripe, email, DB, Nozione, ecc.).
+- Requisiti operativi (supporto, contabilità).
+- Rischio di perdita (alto / medio / basso).
+
+Genera:
+1) Tabella: tipo di dati → scopo → ritenzione suggerita (con nota "dipendente da giudizio").
+2) Cancellazione e procedura di anonimizzazione.
+3) Controllo di accesso (roli).
+4) Checklist di pulizia trimestrale.
+5) Prove interne (log, biglietti).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-014",
+  title: "Consenso e comunicazioni (email / WhatsApp / SMS) - guida pratica",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Guida per catturare il consenso e gestire l'opt-out correttamente nel marketing.",
+  prompt: `Agisce come avvocato. Crea una guida pratica per le comunicazioni commerciali.
+
+Ingressi:
+- Canali (email, WhatsApp, SMS).
+- Tipo di pubblico (casse, clienti, entrambi).
+Paese / giurisdizione.
+- Strumento di spedizione.
+
+Genera:
+1) Quale consenso per catturare e dove (controlla, form, onboarding).
+2) Testi consigliati (3) per la casella di controllo e avviso.
+3) Opt-out / processo basso (steps) e come registrarlo.
+4) frequenza raccomandata e buone pratiche anti-spam.
+5) Elenco di errori comuni e come evitarli.
+Non citare le leggi; contrassegnare "dipende dalla giurisdizione".`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-015",
+  title: "Compliance per il rilascio di garanzie (rimborso, \"rischio,\")",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Struttura una sezione di garanzia che è chiara e riduce le dispute senza promettere impossibile.",
+  prompt: `Agisce come avvocato di consumo + CRO. Design sezione garanzia per un atterraggio.
+
+Ingressi:
+- Tipo di prodotto.
+- Periodo di garanzia (giorni).
+- Condizioni (ad esempio moduli completi, prove, ecc.).
+- Se è B2C / B2B.
+- Rischio di abuso (alto / medio / basso).
+
+Genera:
+1) Ambito della sezione garanzia (chiaro e persuasivo).
+2) Termini esatti (che copre e che cosa non).
+3) Processo da richiedere (passi + tempi).
+4) Disclaim per evitare interpretazioni.
+5) Garanzia FAQ (8 domande).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-016",
+  title: "Conservazione / conformità e-commerce (termine, spedizioni, rendimenti)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Elenco di controllo e testi di base per politiche di spedizione, rendimenti e termini di acquisto.",
+  prompt: `Agisce come avvocato per il commercio elettronico. Crea pacchetto policy e checklist.
+
+Ingressi:
+- Tipo di prodotto (fisico / digitale).
+- Paesi che vendete.
+- Tempi di consegna e pacco.
+- Politica di ritorno / cambio.
+- Garanzie, difetti, reclami.
+
+Genera:
+1) Elenco di controllo della conformità al checkout e post-acquisto.
+(2) Politica di spedizione (testo base).
+3) Politica di ritorno e cambiamento (testo base).
+(4) Garanzia / politica di difetti.
+5) Messaggi per e-mail transazionali (3).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-017",
+  title: "Compliance per l'utilizzo di IA (disclaim + limiti + responsabilità)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Termini per i prodotti che utilizzano IA: errori, non consulenza, responsabilità e uso accettabile.",
+  prompt: `Agisce come avvocato. Ho bisogno di clausole / avvisi per un prodotto che utilizza IA.
+
+Ingressi:
+- Prodotto (corso, strumento, richieste, SaaS).
+- No. Cosa fa l'IA (raccomandazioni, generazione, automazione).
+- Rischio di utilizzo (salute, legali, finanziarie, basse).
+- No. Se l'utente può caricare dati sensibili (sì / no).
+
+Genera:
+1) Disclaimer "nessuna consulenza professionale" (se applicabile).
+2) Avviso di errori / limitazioni.
+3) Responsabilità dell'utente (valida, uso a rischio).
+4) Politica di input (senza dati sensibili) e moderazione.
+5) Breve testo per IU (tooltips e modi).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-018",
+  title: "Compliance nella gestione della testimonianza e' prima / dopo '",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "SOP per raccogliere, verificare, pubblicare e aggiornare le testimonianze senza entrare in bronzi.",
+  prompt: `Agisce come avvocato pubblicitario. SOP design di testimonianza / casi di successo.
+
+Ingressi:
+- Prodotto e nicchia.
+- Canali dove sono pubblicati.
+- No. Se ci sono risultati finanziari / sanitari.
+- No. Come vengono raccolti (forma, DM, intervista).
+- No. Se ci sono incentivi (sconto, regalo).
+
+Genera:
+1) Elenco di verifica (prove minime).
+2) Consenso / permesso di utilizzo (testo).
+3) Regole di redazione (da evitare).
+4) Raccomandazioni di disclaim.
+5) Assegnazione e revisioni: quando aggiornare o revocare.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-019",
+  title: "Protocollo di conformità per freelance / appaltatori",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Processo di noleggio e controllo degli appaltatori: NDA, IP, accesso, consegna e uscita.",
+  prompt: `Agisce come avvocato + operazioni. Progetta un protocollo per freelance / appaltatori.
+
+Ingressi:
+- Tipo di lavoro (dev, design, supporto, marketing).
+- Accesso ai dati / sistemi (sì / no).
+- Durata del fidanzamento.
+- Liberabile.
+
+Genera:
+1) Pacchetto documentario minimo (NDA, IP, contract, SOW).
+2) Gestione dell'accesso: principio di privilegio minimo.
+3) Checklist di bordo (giorno 1).
+4) Offboarding Checklist (voca l'accesso, il ritorno, cancellato).
+5) Prove e file (che salvare).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcumplimiento-020",
+  title: "Valutazione della conformità prima degli annunci di arrampicata (pre-flight checklist)",
+  area: "Avvocato e legale",
+  category: "Rispetto",
+  summary:
+  "Checklist pre-flight per il lancio di annunci senza essere impostata o rivendicata: copia, reclami, politica, pagine.",
+  prompt: `Agisce come avvocato + performance marketer. Creare una lista di controllo pre-flight prima di annunci di arrampicata.
+
+Ingressi:
+- Prodotto e promessa.
+- canale pubblicitario.
+- Landing/check stack.
+- Politica di rimborso / garanzia.
+- Uso di testimonianze / ante- dopo.
+
+Genera:
+1) Lista di controllo di atterraggio (sezioni, disclaim, politiche visibili).
+2) Elenco di controllo di creativo e copia (chiari, comparativi, "garantiti").
+3) Elenco di controllo di supporto (SLA, processi di rimborso, prove).
+4) Elenco dei dati (cookie / analytics / consenso).
+5) Vai / No-Go criteri (che dovrebbero essere sì o sì).`,
+  thumbnail: ""
+}];

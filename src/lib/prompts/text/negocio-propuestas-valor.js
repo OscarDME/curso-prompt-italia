@@ -1,850 +1,849 @@
 export const textPromptsNegocioPropuestasValor = [
-  {
-    id: "negocio-prop-valor-001",
-    title:
-      "Construcción de propuesta de valor única (UVP) con enfoque estratégico",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Crea una UVP poderosa basada en diferenciación real, claridad y deseo.",
-    prompt: `Actúa como un consultor senior de estrategia empresarial.
+{
+  id: "negocio-prop-valor-001",
+  title:
+  "Costruire una proposta di valore unico (UVP) con un approccio strategico",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Crea un potente UVP basato sulla differenziazione reale, la chiarezza e il desiderio.",
+  prompt: `Agisce come consulente di strategia aziendale senior.
 
-Dame:
-- Producto/servicio.
-- Público objetivo.
-- Problema principal que resuelve.
-- Diferencial actual (si existe).
-
-Genera:
-1) UVP clara y directa.
-2) UVP emocional.
-3) UVP basada en beneficios monetizables.
-4) UVP para landing o pitch.
-5) Explica por qué funciona estratégicamente.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-002",
-    title: "Propuesta de valor basada en resultados tangibles",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Define un mensaje centrado en resultados verificables para generar confianza inmediata.",
-    prompt: `Actúa como experto en comunicación basada en resultados.
-
-Dame:
-- Producto.
-- Resultado esperado.
-- Tiempo estimado.
-- Evidencias o métricas disponibles.
+Dammi...
+- Prodotto / servizio.
+- Al pubblico.
+- Il problema principale che risolve.
+- Differenziale corrente (se presente).
 
 Genera:
-1) Propuesta de valor centrada en resultados.
-2) Versión basada en pruebas sociales.
-3) Versión corta para anuncios.
-4) 3 bullets que refuercen credibilidad.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-003",
-    title: "Propuesta de valor emocional profunda",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "Conecta la solución con un deseo emocional latente del usuario.",
-    prompt: `Actúa como consultor experto en psicología del consumidor.
+1) UVP chiaro e diretto.
+2) UVP emotivo.
+3) UVP basato su benefici monetizable.
+4) UVP per atterraggio o passo.
+5) Spiegare perché funziona strategicamente.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-002",
+  title: "Valore proposto basato sui risultati tangibili",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Definire un messaggio focalizzato sui risultati verificabili per generare fiducia immediata.",
+  prompt: `Agisce come esperto nella comunicazione basata sui risultati.
 
-Dame:
-- Producto.
-- Deseo emocional principal del usuario.
-- Dolor profundo.
-
-Genera:
-1) Propuesta de valor emocional.
-2) Versión aspiracional.
-3) Versión transformacional.
-4) Insight emocional clave detrás del mensaje.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-004",
-    title: "Propuesta de valor basada en velocidad y simplicidad",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Enfatiza rapidez, facilidad y eficiencia como ventaja competitiva.",
-    prompt: `Actúa como consultor de optimización de procesos.
-
-Dame:
-- Producto.
-- Qué hace más rápido.
-- Qué simplifica.
-- Objeciones actuales del cliente.
+Dammi...
+- Prodotto.
+- Esito previsto.
+- Tempo stimato.
+- Prove o metriche disponibili.
 
 Genera:
-1) Propuesta de valor enfocada en velocidad.
-2) Versión enfocada en simplicidad.
-3) Lista de promesas rápidas comprobables.
-4) Frase corta estilo tagline.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-005",
-    title: "Blueprint para propuesta de valor B2B",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "Mensaje orientado a eficiencia, reducción de costos y ROI.",
-    prompt: `Actúa como consultor B2B especializado.
+1) Proposta di valore focalizzata sui risultati.
+2) Versione basata su prove sociali.
+3) Versione breve per gli annunci.
+4) 3 proiettili che rafforzano la credibilità.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-003",
+  title: "Proposta di profondo valore emotivo",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "Collegare la soluzione con un latente desiderio emotivo dell'utente.",
+  prompt: `Agisce come consulente esperto nella psicologia dei consumatori.
 
-Dame:
-- Solución.
-- Tipo de empresa.
-- Beneficio financiero clave.
-
-Genera:
-1) Propuesta de valor B2B basada en ROI.
-2) Versión basada en ahorro de tiempo y operación.
-3) Versión para CEO.
-4) Versión para equipo técnico.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-006",
-    title: "Propuesta de valor para nuevos productos sin competencia directa",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "Crea una UVP para productos innovadores o categorías nuevas.",
-    prompt: `Actúa como consultor de innovación.
-
-Dame:
-- Producto.
-- Problema que resuelve.
-- Mercado actual.
-- Tipo de innovación (incremental/disruptiva).
+Dammi...
+- Prodotto.
+- Il principale desiderio emotivo dell'utente.
+- Dolore profondo.
 
 Genera:
-1) Propuesta de valor estilo categoría nueva.
-2) Mensaje que educa al mercado.
-3) Analogía simple para entender el valor.
-4) Señales de adopción temprana.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-007",
-    title: "Propuesta de valor basada en autoridad",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Construye una UVP basada en credibilidad, trayectoria y expertise.",
-    prompt: `Actúa como constructor de marca personal.
+1) Proposta di valore emotivo.
+2) Versione respiratoria.
+3) Versione trasformazionale.
+4) Intuizione emotiva chiave dietro il messaggio.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-004",
+  title: "Proposta di valore basata sulla velocità e sulla semplicità",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Sottolinea velocità, facilità ed efficienza come vantaggio competitivo.",
+  prompt: `Agisce come consulente di ottimizzazione dei processi.
 
-Dame:
-- Producto.
-- Historia o trayectoria.
-- Logros clave.
-
-Genera:
-1) Propuesta de valor basada en autoridad.
-2) Mensaje estilo “lo hacemos porque sabemos”.
-3) Versión con foco en reputación.
-4) Mini-bio que refuerce confianza.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-008",
-    title: "Propuesta de valor enfocada en diferenciación radical",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Define una propuesta que haga imposible confundirte con la competencia.",
-    prompt: `Actúa como consultor de posicionamiento de marca.
-
-Dame:
-- Producto.
-- Competidores principales.
-- Diferenciales reales o potenciales.
+Dammi...
+- Prodotto.
+- No. Quello che fa più veloce.
+- No. Questo semplifica.
+- Le obiezioni dei clienti attuali.
 
 Genera:
-1) Propuesta de valor radicalmente diferente.
-2) Lo que NUNCA deberías copiar.
-3) 3 ángulos únicos para competir.
-4) Frase contundente de diferenciación.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-009",
-    title: "Propuesta de valor para mercados saturados",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "Crea una UVP que destaque incluso en mercados ultra saturados.",
-    prompt: `Actúa como estratega competitivo.
+1) Proposta di valore focalizzata sulla velocità.
+2) Versione focalizzata sulla semplicità.
+3) Elenco delle promesse veloci e verificabili.
+4) Tagline Short Frasse.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-005",
+  title: "Blueprint per la proposta di valore B2B",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "Messaggio orientato all'efficienza, riduzione dei costi e ROI.",
+  prompt: `Agisce come consulente B2B specializzato.
 
-Dame:
-- Nicho saturado.
-- Producto.
-- Público.
-
-Genera:
-1) Propuesta de valor para destacar en saturación.
-2) Ángulo alternativo para romper el ruido.
-3) Micro-diferenciadores que hagan efecto inmediato.
-4) Mensaje corto para anuncios.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-010",
-    title: "Propuesta de valor basada en experiencia del usuario (UX Value)",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Define la UVP basada en facilidad, disfrute y experiencia del usuario.",
-    prompt: `Actúa como experto en UX y comportamiento.
-
-Dame:
-- Producto.
-- Principal interacción del usuario.
-- Mayor beneficio de experiencia.
+Dammi...
+- Soluzione.
+- Tipo di azienda.
+- Vantaggi finanziari chiave.
 
 Genera:
-1) UVP basada en experiencia.
-2) 3 mejoras UX que refuerzan esa UVP.
-3) Versiones para landing y redes.
-4) Frase UX-driven corta.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-011",
-    title: "Propuesta de valor para servicios premium",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Crea un mensaje que justifique un precio elevado con claridad absoluta.",
-    prompt: `Actúa como consultor de negocios premium.
+1) Proposta di valore B2B basata sul ROI.
+2) Versione basata su risparmio di tempo e funzionamento.
+3) Versione per CEO.
+4) Versione attrezzature tecniche.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-006",
+  title: "Proposta di valore per i nuovi prodotti senza concorrenza diretta",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "Creare un UVP per prodotti innovativi o nuove categorie.",
+  prompt: `Agisce come consulente per l'innovazione.
 
-Dame:
-- Servicio.
-- Precio.
-- Beneficio de lujo.
-- Diferencial premium.
-
-Genera:
-1) PV premium convincente.
-2) Versión emocional aspiracional.
-3) Versión racional basada en exclusividad.
-4) 3 bullets de valor percibido.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-012",
-    title: "Propuesta de valor enfocada en reducción de riesgo del usuario",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Define un mensaje con bajo riesgo y seguridad psicológica para el cliente.",
-    prompt: `Actúa como consultor experto en garantías y reducción de fricción.
-
-Dame:
-- Producto.
-- Riesgo percibido.
-- Garantía o seguridad ofrecida.
+Dammi...
+- Prodotto.
+- Problema che risolve.
+- Mercato attuale.
+- Tipo di innovazione (incrementale / dirompente).
 
 Genera:
-1) UVP de bajo riesgo.
-2) Versión basada en garantías.
-3) Bullets de reducción de riesgo.
-4) Frase ultra poderosa anti-fricción.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-013",
-    title: "Propuesta de valor para productos educativos o formaciones",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Define una propuesta que destaque resultados, claridad y transformación.",
-    prompt: `Actúa como consultor de educación digital.
+1) Nuova proposta di valore stile di categoria.
+2) Messaggio che educa il mercato.
+3) Semplice analogia per capire il valore.
+4) Primi segni di adozione.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-007",
+  title: "Proposta di valore basata sull'autorità",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Costruisce un UVP basato su credibilità, traiettoria e competenza.",
+  prompt: `Agisce come un personal brand builder.
 
-Dame:
-- Tipo de formación.
-- Transformación prometida.
-- Duración.
-- Público.
-
-Genera:
-1) UVP educativa fuerte.
-2) Versión basada en transformación real.
-3) Versión basada en estructura (módulos, método).
-4) CTA recomendado agrícola.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-014",
-    title: "Propuesta de valor basada en conveniencia total",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Enfatiza acceso fácil, ahorro de tiempo y disponibilidad inmediata.",
-    prompt: `Actúa como consultor de modelos on-demand.
-
-Dame:
-- Producto/servicio.
-- Elementos de conveniencia.
-- Tiempo que ahorra.
+Dammi...
+- Prodotto.
+- Storia o traiettoria.
+- Risultati chiave.
 
 Genera:
-1) PV basada en conveniencia.
-2) Versión más agresiva.
-3) Lista de beneficios rápidos.
-4) Frase estilo Uber/Amazon.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-015",
-    title: "Propuesta de valor basada en estatus social o identidad",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Conecta el producto con la identidad del cliente y su ego social.",
-    prompt: `Actúa como consultor en psicología social del consumidor.
+1) Proposta di valore basata sull'autorità.
+2) Messaggio "lo facciamo perché sappiamo."
+3) Versione con focus sulla reputazione.
+4) Mini-bio che rafforza la fiducia.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-008",
+  title: "Proposta di valore focalizzata sulla differenziazione radicale",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Definire una proposta che rende impossibile confondere con la concorrenza.",
+  prompt: `Agisce come consulente di posizionamento del marchio.
 
-Dame:
-- Producto.
-- Identidad futura del cliente.
-- Contexto social.
-
-Genera:
-1) PV basada en estatus.
-2) PV basada en reconocimiento.
-3) PV aspiracional de identidad.
-4) Insight emocional detrás del estatus.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-016",
-    title: "Propuesta de valor basada en eficiencia operativa (para negocios)",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "Soluciones que reducen tiempo, costos y errores operativos.",
-    prompt: `Actúa como consultor operativo.
-
-Dame:
-- Herramienta/servicio.
-- Proceso que optimiza.
-- Impacto operacional.
+Dammi...
+- Prodotto.
+- Principali concorrenti.
+- Differenze reali o potenziali.
 
 Genera:
-1) PV basada en eficiencia.
-2) Versión para equipos técnicos.
-3) Versión para dueños de negocio.
-4) Métricas de impacto sugeridas.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-017",
-    title: "Propuesta de valor basada en transformación identitaria",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "No describe el producto: transforma la identidad del cliente.",
-    prompt: `Actúa como experto en neuromarketing.
+1) Proposta di valore radicalmente diverso.
+2) Quello che non dovresti mai copiare.
+3) 3 angoli unici per competere.
+(4) Una forte forma di differenziazione.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-009",
+  title: "Proposta di valore per i mercati saturi",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "Crea un UVP che evidenzia anche nei mercati ultrasaturi.",
+  prompt: `Agisce come uno stratega competitivo.
 
-Dame:
-- Producto.
-- Identidad actual del cliente.
-- Identidad futura ideal.
+Dammi...
+- Nicho satura.
+- Prodotto.
+- Pubblico.
 
 Genera:
-1) PV identitaria fuerte.
-2) Versión aspiracional emocional.
-3) Versión racional transformacional.
-4) Insight de identidad detrás del cambio.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-018",
-    title: "Propuesta de valor estilo pitch para inversionistas",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Mensaje ultra claro que los inversionistas pueden entender en 5 segundos.",
-    prompt: `Actúa como asesor de pitch decks.
+1) Una proposta di valore da evidenziare nella saturazione.
+2) Angolo alternativo per rompere il rumore.
+3) Micro- differenziatori che hanno effetto immediato.
+4) breve messaggio per gli annunci.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-010",
+  title: "Proposta di valore basata sull'esperienza utente (Valore UX)",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Definire l'UVP in base alla facilità, al divertimento e all'esperienza dell'utente.",
+  prompt: `Agisce come esperto in UX e comportamento.
 
-Dame:
-- Startup.
-- Métrica principal.
+Dammi...
+- Prodotto.
+- Interazione utente principale.
+- Più vantaggio dell'esperienza.
+
+Genera:
+1) UVP basato sull'esperienza.
+2) 3 miglioramenti UX che rafforzano questo UVP.
+3) Le versioni di atterraggio e di rete.
+4) Frase UX-short drive.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-011",
+  title: "Proposta di valore di servizio premium",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Crea un messaggio che giustifica un prezzo elevato con assoluta chiarezza.",
+  prompt: `Agisce come consulente aziendale premium.
+
+Dammi...
+- Servizio.
+- Prezzo.
+- Benefico di lusso.
+- Differenziale Premium.
+
+Genera:
+1) premio fotovoltaico convincente.
+2) Versione emotiva aspirazionale.
+3) Versione razionale basata sull'esclusività.
+4) 3 proiettili di valore percepito.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-012",
+  title: "Proposta di valore focalizzata sulla riduzione del rischio degli utenti",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Definire un messaggio con basso rischio e sicurezza psicologica per il cliente.",
+  prompt: `Agisce come consulente esperto sulle garanzie e sulla riduzione dell'attrito.
+
+Dammi...
+- Prodotto.
+- Rischio percepito.
+- Sicurezza o sicurezza offerta.
+
+Genera:
+1) UVP a basso rischio.
+(2) Versione basata sulle garanzie.
+(3) Riduzione del rischio Bullets.
+4) ultra potente anti-frizione della rana.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-013",
+  title: "Proposta di valore per i prodotti educativi o la formazione",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Definisce una proposta che mette in evidenza i risultati, la chiarezza e la trasformazione.",
+  prompt: `Agisce come consulente per l'educazione digitale.
+
+Dammi...
+- Tipo di allenamento.
+- La trasformazione promesso.
+- Durata.
+- Pubblico.
+
+Genera:
+1) Forte UVP educativo.
+2) Versione basata sulla trasformazione reale.
+3) Versione basata sulla struttura (moduli, metodo).
+4) CTA raccomandato agricolo.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-014",
+  title: "Proposta di valore totale basata sulla convenienza",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Ha facile accesso, risparmio di tempo e disponibilità immediata.",
+  prompt: `Agisce come consulente modello on- demand.
+
+Dammi...
+- Prodotto / servizio.
+- Elementi di convenienza.
+- Il tempo che salva.
+
+Genera:
+1) PV basato sulla convenienza.
+2) versione più aggressiva.
+3) Elenco dei benefici rapidi.
+4) Uber / Amazon Frasse stile.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-015",
+  title: "Proposta di valore basata sullo status sociale o sull'identità",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Collega il prodotto all'identità del cliente e all'ego sociale.",
+  prompt: `Agisce come consulente nella psicologia sociale dei consumatori.
+
+Dammi...
+- Prodotto.
+- Una futura identità del cliente.
+- contesto sociale.
+
+Genera:
+1) PV basato sullo stato.
+2) PV basato sul riconoscimento.
+3) identità aspirante VP.
+4) Insight emotivo dietro lo stato.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-016",
+  title: "Proposta di valore basata sull'efficienza operativa (per le imprese)",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "Soluzioni che riducono il tempo, i costi e gli errori operativi.",
+  prompt: `Agisce come consulente operativo.
+
+Dammi...
+- Strumento / servizio.
+- Processo che ottimizza.
+- Impatto operativo.
+
+Genera:
+1) PV basato sull'efficienza.
+2) Versione attrezzature tecniche.
+3) Versione per i proprietari di affari.
+4) Tecniche di impatto consigliate.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-017",
+  title: "Proposta di valore basata sulla trasformazione dell'identità",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "Non descrive il prodotto: trasforma l'identità del cliente.",
+  prompt: `Agisce come un esperto di neuromarketing.
+
+Dammi...
+- Prodotto.
+- L'identità attuale del cliente.
+- Identità futura ideale.
+
+Genera:
+1) Forte identità PV.
+2) Versione aspirazione emotiva.
+3) Versione razionale trasformazionale.
+4) Identity Insight dietro cambiamento.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-018",
+  title: "Proposta di valore in stile piazzola per gli investitori",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Messaggio ultra chiaro che gli investitori possono capire in 5 secondi.",
+  prompt: `Agisce come consulente di piattaforme.
+
+Dammi...
+- Inizio.
+- La metrica principale.
 - Problema.
-- Solución.
+- Soluzione.
 
 Genera:
-1) PV estilo pitch.
-2) Versión para slide principal.
-3) Versión para elevator pitch.
-4) Frase corta tipo “somos el X de Y”.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-019",
-    title: "Propuesta de valor minimalista (lo más claro posible)",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "Una PV extremadamente clara, directa y sin adornos.",
-    prompt: `Actúa como consultor especializado en claridad absoluta.
+1) Piazzola in stile PV.
+2) Versione per lo scorrevole principale.
+3) versione per ascensore.
+4) Tipo corto di Frose "noi siamo la X di Y.".`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-019",
+  title: "Proposta di valore minimalista (il più chiaro possibile)",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "Un PV estremamente chiaro, diretto e non adorato.",
+  prompt: `Agisce come consulente specializzato in assoluta chiarezza.
 
-Dame:
-- Producto.
-- Beneficio principal.
-- Público.
+Dammi...
+- Prodotto.
+- Principale vantaggio.
+- Pubblico.
 
 Genera:
 1) PV minimalista.
-2) Versión aún más simple.
-3) 3 bullets claros del valor.
-4) CTA hiper minimalista.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-020",
-    title: "Propuesta de valor basada en reducción de complejidad mental",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Ayuda al cliente a sentir que la solución le resuelve estrés, duda o caos.",
-    prompt: `Actúa como consultor de comportamiento humano.
+2) Anche la versione più semplice.
+3) 3 proiettili di valore chiari.
+4) CTA iper minimalista.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-020",
+  title: "Proposta di valore basata sulla ridotta complessità mentale",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Aiuta il cliente a sentire che la soluzione risolve stress, dubbio o caos.",
+  prompt: `Agisce come consulente di comportamento umano.
 
-Dame:
-- Producto.
-- Estrés o complejidad del usuario.
-- Momento en el que ocurre el dolor.
-
-Genera:
-1) PV basada en claridad mental.
-2) Versión emocional anti-estrés.
-3) Versión racional de simplicidad.
-4) Insight psicológico detrás del alivio.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-021",
-    title: "Propuesta de valor basada en Jobs-to-be-Done con mapa completo",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Define la PV según los jobs funcionales, emocionales y sociales del cliente.",
-    prompt: `Actúa como consultor senior en Jobs-to-Be-Done.
-
-Dame:
-- Producto.
-- Usuario final.
-- Job principal (funcional).
-- Job emocional.
-- Job social.
+Dammi...
+- Prodotto.
+- Stress o complessità dell'utente.
+- Nel momento in cui si verifica il dolore.
 
 Genera:
-1) Propuesta de valor integrada (funcional + emocional + social).
-2) Mapa JTBD completo.
-3) Insight clave del job real que el usuario intenta resolver.
-4) Versión corta estilo 'contrátame por esto'.
-5) Señal de que la PV está completamente alineada al job.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-022",
-    title: "Propuesta de valor enfocada en transformación 360º",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Una PV que abarca identidad, emociones, resultados y evolución del cliente.",
-    prompt: `Actúa como consultor experto en transformación integral del cliente.
+1) PV basato sulla chiarezza mentale.
+2) versione emotiva anti-stress.
+3) Versione razionale della semplicità.
+4) Insight psicologico dietro sollievo.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-021",
+  title: "Proposta di valore basata sul lavoro con mappa completa",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Definisce PV secondo i lavori funzionali, emotivi e sociali del cliente.",
+  prompt: `Agisce come consulente senior presso Jobs-to-Be-Done.
 
-Dame:
-- Producto/servicio.
-- Transformación esperada.
-- Identidad del cliente antes.
-- Identidad después.
-
-Genera:
-1) PV transformacional 360°.
-2) Versión emocional intensa (cambio interno).
-3) Versión racional (cambio medible).
-4) Versión de identidad (quién se convierte el cliente).
-5) Insight profundo del arco de transformación.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-023",
-    title: "Propuesta de valor basada en reducción de costos invisibles",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Posiciona el producto como eliminador de costos ocultos que el cliente no ve.",
-    prompt: `Actúa como consultor experto en reducción de fricción y costos invisibles.
-
-Dame:
-- Producto.
-- Proceso actual del usuario.
-- Costos ocultos (tiempo, errores, estrés, complejidad).
+Dammi...
+- Prodotto.
+- L'utente finale.
+- Lavoro principale (funzionale).
+- Lavoro emotivo.
+- Lavoro sociale.
 
 Genera:
-1) PV basada en eliminar costos invisibles.
-2) Lista de costos ocultos actuales.
-3) Cómo el producto los elimina.
-4) Versión para landing.
-5) Versión para pitch rápido.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-024",
-    title: "Propuesta de valor basada en dominación de nicho microespecífico",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Crea una PV diseñada para dominar un nicho ultra pequeño y específico.",
-    prompt: `Actúa como consultor en microsegmentación estratégica.
+1) Proposta di valore integrata (funzionale + emotivo + sociale).
+2) Mappa JTBD completa.
+3) Key Insight del lavoro reale che l'utente tenta di risolvere.
+4) Breve versione 'nascostami per questo'.
+5) Si noti che il PV è completamente allineato al lavoro.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-022",
+  title: "360o Proposta di valore focalizzata sulla trasformazione",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Un PV che comprende identità, emozioni, risultati ed evoluzione del cliente.",
+  prompt: `Agisce come consulente esperto nella trasformazione integrale del cliente.
 
-Dame:
-- Nicho específico.
-- Producto.
-- Problema hiper puntual.
-- Diferencial.
-
-Genera:
-1) PV diseñada para micro nicho.
-2) Versión que demuestra hiper comprensión del usuario.
-3) PV psicológica basada en 'por fin alguien entiende'.
-4) Mensaje corto que refuerza autoridad en el nicho.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-025",
-    title:
-      "Propuesta de valor para productos que sustituyen un hábito existente",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Crea un mensaje que facilite la sustitución de hábitos o rutinas del usuario.",
-    prompt: `Actúa como consultor experto en cambio de hábitos y adopción de producto.
-
-Dame:
-- Producto.
-- Hábito actual del usuario.
-- Nuevo hábito deseado.
+Dammi...
+- Prodotto / servizio.
+- La trasformazione prevista.
+- Identita' del cliente.
+- Identita' dopo.
 
 Genera:
-1) PV enfocada en reemplazar el hábito actual.
-2) Insight del comportamiento a cambiar.
-3) Palancas psicológicas para facilitar adopción.
-4) Versión para mensaje corto de redes.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-026",
-    title:
-      "Propuesta de valor basada en métricas de impacto directo measurable",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Crea una PV basada en números concretos que prueban impacto real.",
-    prompt: `Actúa como consultor de métricas y ROI.
+1) Trasformazione PV a 360°.
+2) Versione emotiva intensa (cambio interno).
+3) Versione razionale (variazione misurabile).
+4) Versione di identità (che diventa il cliente).
+5) Insight profondo dell'arco della trasformazione.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-023",
+  title: "Valore proposto basato sulla riduzione invisibile dei costi",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Posizionare il prodotto come un eliminatore di costo nascosto che il cliente non vede.",
+  prompt: `Agisce come consulente esperto sulla riduzione dell'attrito e sui costi invisibili.
 
-Dame:
-- Beneficio medible.
-- Métrica principal.
-- Producto.
-
-Genera:
-1) PV basada en métricas.
-2) Versión con comparaciones directas (antes vs después).
-3) 5 bullets de impacto cuantificado.
-4) Mini pitch estilo VC.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-027",
-    title: "Propuesta de valor enfocada en desactivar objeciones raíz",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "PV estratégicamente diseñada para neutralizar objeciones profundas.",
-    prompt: `Actúa como consultor experto en objeciones estructurales.
-
-Dame:
-- Producto.
-- 3 objeciones raíz.
-- Usuario objetivo.
+Dammi...
+- Prodotto.
+- Processo utente attuale.
+- Costi nascosti (tempo, errori, stress, complessità).
 
 Genera:
-1) PV anti-objeciones.
-2) Explicación psicológica de por qué funciona.
-3) Bullets de reaseguro emocional.
-4) CTA alineado a confianza.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-028",
-    title:
-      "Propuesta de valor para productos con fuerte reducción de riesgo futuro",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "Communica cómo tu producto evita un problema crítico en el futuro.",
-    prompt: `Actúa como consultor experto en riesgo futuro y prevención estratégica.
+1) PV basato sull'eliminazione dei costi invisibili.
+2) Elenco dei costi nascosti attuali.
+3) Come il prodotto li elimina.
+4) versione di atterraggio.
+5) Versione passo rapido.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-024",
+  title: "Valore proposto basato sulla dominazione di nicchia microspecifica",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Crea un PV progettato per padroneggiare una nicchia ultra-piccola e specifica.",
+  prompt: `Agisce come consulente nella microsegmentazione strategica.
 
-Dame:
-- Producto.
-- Riesgo futuro del usuario.
-- Consecuencia si no actúa.
-
-Genera:
-1) PV basada en prevención.
-2) Versión emocional basada en pérdida evitada.
-3) Versión racional basada en costo futuro.
-4) Frase contundente estilo “evita esto antes de que ocurra”.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-029",
-    title: "Propuesta de valor centrada en eliminación de pasos innecesarios",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "PV basada en hacer la vida del usuario radicalmente más fácil.",
-    prompt: `Actúa como consultor experto en optimización de procesos y simplicidad.
-
-Dame:
-- Producto.
-- Proceso actual del usuario.
-- Pasos innecesarios.
+Dammi...
+- Una nicchia specifica.
+- Prodotto.
+- Problemi iper-puntuali.
+- Diverso.
 
 Genera:
-1) PV basada en simplicidad extrema.
-2) Mapa de pasos eliminados.
-3) Beneficios derivados del flujo simplificado.
-4) Frase tipo “hazlo en un solo paso”.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-030",
-    title: "Propuesta de valor basada en ownership y control para el usuario",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "PV que entrega poder, control y autonomía al cliente.",
-    prompt: `Actúa como consultor de empoderamiento del cliente.
+1) PV progettato per micro nicchia.
+2) Versione che mostra la comprensione dell'iper utente.
+3) fotovoltaico psicologico basato su 'finalmente qualcuno capisce'.
+4) Breve messaggio che rafforza l'autorità nella nicchia.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-025",
+  title:
+  "Proposta di valore per i prodotti che sostituiscono un'abitudine esistente",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Crea un messaggio che facilita la sostituzione delle abitudini o delle routine degli utenti.",
+  prompt: `Agisce come consulente esperto nel cambiamento delle abitudini e nell'adozione dei prodotti.
 
-Dame:
-- Producto.
-- Decisiones que el usuario quiere controlar.
-- Fricciones actuales.
-
-Genera:
-1) PV enfocada en control.
-2) Versión emocional (poder).
-3) Versión racional (autonomía).
-4) 3 bullets estilo 'tú mandas'.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-031",
-    title: "Propuesta de valor para productos con network effects",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "PV que crece en valor a medida que más usuarios se unen.",
-    prompt: `Actúa como consultor experto en network effects.
-
-Dame:
-- Plataforma.
-- Tipo de usuario.
-- Beneficio que aumenta con comunidad.
+Dammi...
+- Prodotto.
+- L'habitat attuale dell'utente.
+- Una nuova abitudine desiderata.
 
 Genera:
-1) PV basada en network effects.
-2) Frase que refuerce el valor de la comunidad.
-3) Versión para captar usuarios iniciales.
-4) Insight del efecto multiplicador.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-032",
-    title: "Propuesta de valor basada en especialización extrema",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "PV diseñada para demostrar dominio absoluto de un nicho específico.",
-    prompt: `Actúa como consultor experto en especialización vertical.
+1) PV focalizzato sulla sostituzione dell'abitudine corrente.
+2) La visione del comportamento per cambiare.
+3) palanca psicologiche per facilitare l'adozione.
+4) Versione per un breve messaggio di reti.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-026",
+  title:
+  "Proposta di valore basata sulla metrica di impatto misurabile diretto",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Crea un PV basato su numeri di cemento che testano l'impatto reale.",
+  prompt: `Agisce come consulente per metriche e ROI.
 
-Dame:
-- Producto.
+Dammi...
+- Beneficio misurabile.
+- La metrica principale.
+- Prodotto.
+
+Genera:
+1) PV basato sulle metriche.
+2) Versione con confronti diretti (prima vs dopo).
+3) 5 proiettili d'impatto quantificati.
+4) Mini pitch VC style.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-027",
+  title: "Proposta di valore incentrata sulla disabilitazione delle obiezioni alle radici",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "PV strategicamente progettato per neutralizzare le obiezioni profonde.",
+  prompt: `Agisce come consulente esperto per le obiezioni strutturali.
+
+Dammi...
+- Prodotto.
+- 3 obiezioni.
+- L'utente di destinazione.
+
+Genera:
+1) VP contro le obiezioni.
+2) spiegazione psicologica del perché funziona.
+3) Bulletti di riassicurazione emotiva.
+4) CTA allineato alla fiducia.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-028",
+  title:
+  "Proposta di valore per i prodotti con una forte riduzione del rischio futuro",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "Comunicare come il prodotto evita un problema critico in futuro.",
+  prompt: `Agisce come consulente esperto sul rischio futuro e sulla prevenzione strategica.
+
+Dammi...
+- Prodotto.
+- Il rischio futuro dell'utente.
+- Conseguenza se non agisce.
+
+Genera:
+1) PV basato sulla prevenzione.
+2) Versione emotiva basata sulla perdita evitata.
+(3) Versione razionale basata sui costi futuri.
+4) Stile rigido "evitare questo prima che accada.".`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-029",
+  title: "Proposta di valore focalizzata sulla rimozione di passi inutili",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "PV basato sul rendere la vita dell'utente radicalmente più facile.",
+  prompt: `Agisce come consulente esperto nell'ottimizzazione dei processi e nella semplicità.
+
+Dammi...
+- Prodotto.
+- Processo utente attuale.
+- Passi non necessari.
+
+Genera:
+1) PV basato su estrema semplicità.
+2) Mappa dei passaggi cancellati.
+3) Vantaggi dal flusso semplificato.
+4) Frasse tipo "farlo in un passo".`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-030",
+  title: "Proposta di valore basata sulla proprietà e controllo utente",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "PV che fornisce potenza, controllo e autonomia al cliente.",
+  prompt: `Agisce come consulente per l'empowerment dei clienti.
+
+Dammi...
+- Prodotto.
+- Decisioni che l'utente vuole controllare.
+- Attriti attuali.
+
+Genera:
+1) PV focalizzato sul controllo.
+2) Versione emotiva (potenza).
+(3) Versione razionale (autonomia).
+4) 3 proiettili di stile 'invii'.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-031",
+  title: "Proposta di valore per i prodotti di effetti della rete",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "PV che cresce in valore come più utenti si uniscono.",
+  prompt: `Agisce come consulente esperto sugli effetti della rete.
+
+Dammi...
+- Piattaforma.
+- Tipo utente.
+- Benefico che aumenta con la comunità.
+
+Genera:
+1) PV basato sugli effetti di rete.
+2) rafforzare il valore della comunità.
+3) Versione per catturare gli utenti iniziali.
+4) Insight dell'effetto moltiplicatore.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-032",
+  title: "Proposta di valore basata sulla specializzazione estrema",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "PV progettato per dimostrare il dominio assoluto di una nicchia specifica.",
+  prompt: `Agisce come consulente esperto nella specializzazione verticale.
+
+Dammi...
+- Prodotto.
 - Nicho preciso.
-- Competencias específicas.
+- Competenze specifiche.
 
 Genera:
-1) PV basada en especialización radical.
-2) Version para captar clientes que buscan expertos.
-3) Mensaje que demuestra conocimiento profundo.
-4) Claim contundente de autoridad vertical.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-033",
-    title:
-      "Propuesta de valor basada en eliminación del dolor emocional del cliente",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "PV que elimina una carga emocional significativa del cliente.",
-    prompt: `Actúa como consultor experto en insights emocionales profundos.
+1) PV basato sulla specializzazione radicale.
+2) Versione per catturare i clienti alla ricerca di esperti.
+3) Messaggio che mostra profonda conoscenza.
+4) Radice dell'autorità verticale.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-033",
+  title:
+  "Proposta di valore basata sull'eliminazione del dolore emotivo del cliente",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "PV che elimina un peso emotivo significativo dal cliente.",
+  prompt: `Agisce come consulente esperto in approfondimenti emotivi profondi.
 
-Dame:
-- Producto.
-- Dolor emocional.
-- Situación donde ocurre.
-
-Genera:
-1) PV basada en alivio emocional.
-2) Versión agresiva.
-3) Versión suave y empática.
-4) Insight emocional raíz del dolor.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-034",
-    title:
-      "Propuesta de valor para productos con componente aspiracional futurista",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "PV que muestra al usuario quién puede llegar a ser con tu producto.",
-    prompt: `Actúa como consultor futurista y de identidad.
-
-Dame:
-- Producto.
-- Visión futura del cliente.
-- Transformación deseada.
+Dammi...
+- Prodotto.
+- Dolore emotivo.
+- Situazione dove succede.
 
 Genera:
-1) PV futurista.
-2) Versión tipo “te llevamos al futuro”.
-3) Versión estilo Apple/SpaceX.
-4) Insight de identidad ampliada.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-035",
-    title: "Propuesta de valor basada en creación de confianza inmediata",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "PV diseñada para que el usuario confíe en menos de 5 segundos.",
-    prompt: `Actúa como consultor experto en confianza y seguridad.
+1) PV basato su sollievo emotivo.
+(2) Versione aggressiva.
+3) versione morbida ed empatica.
+4) Emotional Insight radice di dolore.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-034",
+  title:
+  "Proposta di valore per prodotti con componente aspirazione futuristica",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "PV che mostra l'utente che può diventare con il prodotto.",
+  prompt: `Agisce come un consulente futuristico e di identità.
 
-Dame:
-- Producto.
-- Miedo principal del usuario.
-- Garantía o prueba social disponible.
-
-Genera:
-1) PV ultra confiable.
-2) Versión basada en datos.
-3) Versión basada en autoridad.
-4) Claim corto estilo “estás seguro aquí”.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-036",
-    title: "Propuesta de valor que combina velocidad + calidad + confianza",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "PV híbrida que equilibra rapidez sin sacrificar excelencia.",
-    prompt: `Actúa como consultor experto en trade-offs estratégicos.
-
-Dame:
-- Producto.
-- Qué lo hace rápido.
-- Qué lo hace de alta calidad.
-- Qué lo hace confiable.
+Dammi...
+- Prodotto.
+- Una visione futura del cliente.
+- Trasformazione desiderata.
 
 Genera:
-1) PV híbrida.
-2) Cómo comunicar que NO sacrificas calidad por velocidad.
-3) 3 bullets demostrando equilibrio.
-4) CTA perfecto para esta PV.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-037",
-    title: "Propuesta de valor basada en experiencia premium multisensorial",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "PV diseñada para productos con enfoque sensorial o experiencia estética.",
-    prompt: `Actúa como consultor experto en experiencias premium.
+1) Future PV.
+2) Tipo versione "ti portiamo al futuro."
+3) Apple / Spazio Versione in stile X.
+4) Insight di un'identità estesa.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-035",
+  title: "Proposta di valore basata sulla costruzione immediata della fiducia",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "PV progettato per l'utente di fidarsi in meno di 5 secondi.",
+  prompt: `Agisce come consulente esperto in fiducia e sicurezza.
 
-Dame:
-- Producto.
-- Sensaciones que genera.
-- Elementos estéticos o sensoriales.
-
-Genera:
-1) PV multisensorial.
-2) Versión emocional estética.
-3) Versión racional basada en calidad.
-4) Descriptores que refuercen experiencia premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-038",
-    title:
-      "Propuesta de valor basada en automatización y ahorro masivo de tiempo",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary:
-      "PV que muestra cómo la solución elimina tareas repetitivas y libera tiempo real.",
-    prompt: `Actúa como consultor experto en automatización.
-
-Dame:
-- Herramienta/servicio.
-- Tareas repetitivas actuales.
-- Tiempo ahorrado.
+Dammi...
+- Prodotto.
+- La paura principale dell'utente.
+- Garanzia sociale o prova disponibile.
 
 Genera:
-1) PV basada en automatización.
-2) Versión ultra técnica.
-3) Versión emocional (más libertad).
-4) Claim contundente estilo 'haz más con menos'.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-039",
-    title: "Propuesta de valor basada en comunidad + crecimiento personal",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "PV que combina crecimiento individual y pertenencia grupal.",
-    prompt: `Actúa como consultor experto en comunidades de alto impacto.
+1) fotovoltaico ultra affidabile.
+2) Versione basata sui dati.
+(3) Versione basata su autorità.
+4) Stile corto "sei al sicuro qui.".`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-036",
+  title: "Proposta di valore che combina velocità + qualità + fiducia",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "PV ibrido che bilancia la velocità senza sacrificare l'eccellenza.",
+  prompt: `Agisce come consulente esperto per i trade-off strategici.
 
-Dame:
-- Producto/servicio.
-- Tipo de comunidad.
-- Transformación grupal.
-
-Genera:
-1) PV centrada en comunidad.
-2) Versión emocional basada en pertenencia.
-3) Versión identitaria basada en evolución personal.
-4) Insight de por qué las comunidades hacen crecer más rápido.`,
-    thumbnail: "",
-  },
-  {
-    id: "negocio-prop-valor-040",
-    title: "Propuesta de valor basada en eliminación de incertidumbre total",
-    area: "Negocios & Emprendimiento",
-    category: "Propuestas de Valor",
-    summary: "PV diseñada para mercados donde el cliente teme equivocarse.",
-    prompt: `Actúa como consultor experto en decisiones de alto riesgo.
-
-Dame:
-- Producto.
-- Decisión crítica del usuario.
-- Riesgo percibido.
+Dammi...
+- Prodotto.
+- No. Questo lo rende veloce.
+- No. Ciò che lo rende di alta qualità.
+- No. Questo lo rende affidabile.
 
 Genera:
-1) PV anti-incertidumbre.
-2) Versión emocional basada en seguridad.
-3) Versión racional basada en claridad y datos.
-4) Claim contundente estilo “decidir nunca fue tan seguro”.`,
-    thumbnail: "",
-  },
-];
+1) fotovoltaico ibrido.
+2) Come comunicare che NON sacrificare la qualità per velocità.
+3) 3 proiettili che mostrano equilibrio.
+4) CTA perfetto per questo PV.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-037",
+  title: "Proposta di valore basata sull'esperienza multisensoriale premium",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "PV progettato per prodotti con focus sensoriale o esperienza estetica.",
+  prompt: `Agisce come consulente esperto di esperienze premium.
+
+Dammi...
+- Prodotto.
+- Sento che genera.
+- Elementi Estetici o sensoriali.
+
+Genera:
+1) PV multisensoriale.
+2) versione emotiva estetica.
+(3) Versione basata sulla qualità razionale.
+4) Descrittori che rafforzano l'esperienza premium.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-038",
+  title:
+  "Valore proposto basato sull'automazione e sui risparmi di tempo",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary:
+  "PV mostra come la soluzione elimina le attività ripetitive e rilascia in tempo reale.",
+  prompt: `Agisce come consulente esperto nell'automazione.
+
+Dammi...
+- Strumento / servizio.
+- Compiti attuali.
+- Tempo salvato.
+
+Genera:
+1) fotovoltaico basato sull'automazione.
+2) versione ultra-tecnica.
+3) Versione emotiva (più libertà).
+4) Robusto "fare di più con meno" stile.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-039",
+  title: "Proposta di valore comunitaria + crescita personale",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "PV che combina crescita individuale e appartenenza di gruppo.",
+  prompt: `Agisce come consulente esperto in comunità ad alto impatto.
+
+Dammi...
+- Prodotto / servizio.
+- Tipo comunitario.
+- Trasformazione di gruppo.
+
+Genera:
+1) PV al centro della Comunità.
+2) Versione emotiva basata sull'appartenenza.
+3) Versione di identità basata sull'evoluzione personale.
+4) La comprensione del perché le comunità crescono più velocemente.`,
+  thumbnail: ""
+},
+{
+  id: "negocio-prop-valor-040",
+  title: "Proposta di valore basata sull'eliminazione totale dell'incertezza",
+  area: "Affari & Imprenditoria",
+  category: "Proposte di valore",
+  summary: "PV progettato per i mercati in cui il cliente ha paura di essere sbagliato.",
+  prompt: `Agisce come consulente esperto sulle decisioni ad alto rischio.
+
+Dammi...
+- Prodotto.
+- Decisione critica dell'utente.
+- Rischio percepito.
+
+Genera:
+1) Anti-incertezza PV.
+2) Versione emotiva basata sulla sicurezza.
+3) Versione razionale basata su chiarezza e dati.
+4) Rozzo "decidio non è mai stato così sicuro" stile.`,
+  thumbnail: ""
+}];

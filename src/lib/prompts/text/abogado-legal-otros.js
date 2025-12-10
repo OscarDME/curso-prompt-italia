@@ -1,480 +1,479 @@
 // src/lib/prompts/text/abogado-legal-otros.js
 
 export const textPromptsAbogadoLegalOtros = [
-  {
-    id: "legalotros-001",
-    title: "Checklist legal general para lanzar un negocio online (rápido y realista)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Revisión 360° de riesgos y básicos legales para vender online sin meter la pata.",
-    prompt: `Actúa como abogado senior para negocios digitales.
+{
+  id: "legalotros-001",
+  title: "Elenco legale generale per lanciare un business online (veloce e realistico)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "360 ° revisione dei rischi e basi legali da vendere online senza avvitare.",
+  prompt: `Agisce come avvocato senior per gli affari digitali.
 
-Inputs:
-- País/jurisdicción (genérico).
-- Tipo de negocio (curso, SaaS, e-commerce, agencia, afiliados, etc).
-- Canales de venta (web, IG, WhatsApp, marketplaces).
-- Tipo de pagos (Stripe, PayPal, transferencias).
-- Si hay datos personales (sí/no) y qué recopilas.
-
-Genera:
-1) Checklist legal priorizado (alto/medio/bajo) para poder vender ya.
-2) Políticas mínimas recomendadas (términos, privacidad, reembolsos).
-3) Riesgos típicos por modelo de negocio y cómo mitigarlos.
-4) “Qué no prometer” en marketing para evitar problemas.
-5) Plan de 7 días para quedar cubierto con lo esencial.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-002",
-    title: "Redacción de términos y condiciones (plantilla genérica + placeholders)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Estructura completa para términos del sitio (sin citar leyes) lista para rellenar.",
-    prompt: `Actúa como abogado. Crea una plantilla de Términos y Condiciones para un sitio web.
-
-Inputs:
-- Nombre del negocio.
-- Qué vendes/ofreces.
-- Si hay suscripción/membresía.
-- Política de cancelación/reembolso.
-- Contacto y soporte.
+Ingressi:
+- Paese / giurisdizione (generico).
+- Tipo di attività (corso, SaaS, e-commerce, agenzia, affiliati, ecc.).
+- Canali di vendita (web, IG, WhatsApp, markplaces).
+- Tipo di pagamento (Stripe, PayPal, trasferimenti).
+- No. Se ci sono dati personali (sì / no) e ciò che raccogli.
 
 Genera:
-1) Documento completo con secciones estándar.
-2) Cláusulas clave: uso aceptable, pagos, reembolsos, limitación de responsabilidad (genérica), propiedad intelectual (genérica), terminación.
-3) Secciones con [REEMPLAZAR] donde falte información.
-4) Checklist final para revisar antes de publicarlo.`,
-    thumbnail: "",
-  },
+1) Elenco di controllo legale prioritario (alto / medio / basso) per essere in grado di vendere già.
+2) politiche minime consigliate (termini, privacy, rimborso).
+3) Rischi tipici per modello di business e come mitigarli.
+4) "Che cosa non promettono" nel marketing per evitare problemi.
+5) 7 giorni intendono essere coperti con l'essenziale.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-003",
-    title: "Política de reembolsos (clara y anti-disputas)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Política escrita para reducir chargebacks y reclamos, con lenguaje entendible.",
-    prompt: `Actúa como abogado y especialista en prevención de disputas.
+{
+  id: "legalotros-002",
+  title: "Testo dei termini e delle condizioni (modello generico + segnaposto)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Struttura completa per i termini del sito (non citando leggi) pronti a riempire.",
+  prompt: `Agisce come avvocato. Creare un modello Termini e Condizioni per un sito web.
 
-Inputs:
-- Producto (digital/servicio).
-- Ventana de reembolso (días o 'sin reembolso').
-- Condiciones (consumo del contenido, descargas, asistencia a llamadas).
-- Casos especiales (duplicado, fraude, error técnico).
-- Canal de soporte.
-
-Genera:
-1) Política de reembolsos final para pegar en el sitio.
-2) Sección de ejemplos “sí aplica / no aplica”.
-3) Copy para checkout (2-3 líneas) que reduce disputas.
-4) Procedimiento interno de soporte (paso a paso).
-5) Respuesta tipo para emails de reembolso (3 tonos: amable/firme/muy firme).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-004",
-    title: "Análisis de riesgo por afirmaciones publicitarias (claims) + versión segura",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Revisa promesas de marketing y las reescribe para que sean más defendibles.",
-    prompt: `Actúa como abogado de publicidad/consumo.
-
-Inputs:
-- Lista de 10-20 frases/promesas de marketing.
-- Producto y público.
-- Evidencia que tienes para respaldar (testimonios, datos, casos).
+Ingressi:
+- Nome di affari.
+- No. Che cosa si vende / offerta.
+- No. Se c'è un abbonamento / abbonamento.
+- Cancellazione / politica di rimborso.
+- Contatto e supporto.
 
 Genera:
-1) Tabla: claim original | riesgo (alto/medio/bajo) | por qué | versión más segura.
-2) 10 disclaimers útiles (sin sonar asustado).
-3) Reglas rápidas para tu equipo de marketing (do/don't).
-4) Plantilla de “testimonio permitido” (qué incluir/qué evitar).`,
-    thumbnail: "",
-  },
+1) Documento completo con sezioni standard.
+2) Clausole chiave: uso accettabile, pagamenti, rimborsi, limitazione della responsabilità (generico), proprietà intellettuale (generico), cessazione.
+3) Sezioni con [REEMPLAZAR] dove manca l'informazione.
+4) Checklist finale da rivedere prima della pubblicazione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-005",
-    title: "Respuesta a un chargeback/disputa de pago (pack de evidencia + narrativa)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Arma tu defensa para el procesador: evidencia, narrativa y checklist.",
-    prompt: `Actúa como abogado y especialista en disputas de pago.
+{
+  id: "legalotros-003",
+  title: "Politica di rimborso (chiaro e anti-dispute)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Politica scritta per ridurre i costi e le richieste, con linguaggio comprensibile.",
+  prompt: `Agisce come avvocato e specialista della prevenzione delle dispute.
 
-Inputs:
-- Motivo del chargeback (no reconocido, servicio no recibido, etc).
-- Fecha de compra y monto.
-- Evidencia: logs de acceso, emails, IP, soporte, descargas.
-- Política de reembolso publicada (sí/no).
-
-Genera:
-1) Narrativa corta (1-2 párrafos) para presentar al procesador.
-2) Checklist de evidencia ideal por tipo de disputa.
-3) Lista de anexos recomendados (capturas y cómo nombrarlas).
-4) Respuesta tipo al cliente (para intentar resolver antes).
-5) Cómo ajustar tu proceso para reducir próximos chargebacks.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-006",
-    title: "Política de privacidad (borrador simple) + inventario de datos",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Plantilla + inventario: qué datos recolectas, para qué y cómo los manejas.",
-    prompt: `Actúa como abogado de privacidad (sin citar leyes específicas).
-
-Inputs:
-- Qué datos recolectas (email, nombre, pagos, IP, etc).
-- Herramientas (analytics, email marketing, pagos).
-- Si hay menores (sí/no).
-- Países donde vendes.
+Ingressi:
+- Prodotto (digitale / servizio).
+- finestra di rimborso (giorni o "nessun rimborso").
+- Condizioni (consumo di contenuti, download, assistenza chiamata).
+- Casi speciali (duplica, frode, errore tecnico).
+- Canale di supporto.
 
 Genera:
-1) Inventario de datos (tabla): dato | finalidad | base/razón | retención | tercero.
-2) Política de privacidad en lenguaje claro (lista para pegar).
-3) Sección de cookies/analytics (general).
-4) Checklist de cumplimiento mínimo (accesos, borrado, contacto).`,
-    thumbnail: "",
-  },
+1) Politica di rimborso finale da incollare sul sito.
+2) Esempi sezione "Si applica / non si applica."
+3) Copia di controllo (2-3 linee) che riduce le controversie.
+4) Procedura di sostegno interno (passo per passo).
+5) Tipo risposta per e-mail di rimborso (3 toni: amichevole / solida / molto solida).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-007",
-    title: "Aviso de cookies (microcopy + banner text)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Textos para banner de cookies y página de cookies, sin tecnicismos.",
-    prompt: `Actúa como abogado y UX writer.
+{
+  id: "legalotros-004",
+  title: "Analisi del rischio tramite reclami pubblicitari + versione sicura",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Controllare le promesse di marketing e riscrivere loro per renderli più defensibili.",
+  prompt: `Agisce come un avvocato pubblicitario / consumatore.
 
-Inputs:
-- Si usas analytics (sí/no).
-- Si haces remarketing/ads (sí/no).
-- Idioma (español neutral).
-
-Genera:
-1) Texto corto para banner (2 versiones: minimalista y detallada).
-2) Texto para botón/acciones (aceptar, rechazar, configurar).
-3) Copy para página de cookies (secciones + explicación simple).
-4) FAQ de cookies (6 preguntas).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-008",
-    title: "DMCA / reporte de infracción (plantillas para pedir baja de contenido)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Plantillas para reportar copias de tu contenido en redes o sitios.",
-    prompt: `Actúa como abogado de propiedad intelectual (sin citar leyes).
-
-Inputs:
-- Enlace del contenido infractor.
-- Enlace del contenido original.
-- Prueba de autoría (capturas, fechas, archivos).
-- Plataforma (YouTube, IG, TikTok, web, hosting).
+Ingressi:
+- Lista di 10-20 frasi / promesse di marketing.
+- Prodotto e pubblico.
+- Prove che dovete sostenere (testimoni, dati, casi).
 
 Genera:
-1) Email/solicitud formal de takedown (plantilla).
-2) Mensaje corto para soporte de la plataforma.
-3) Lista de pruebas que adjuntar.
-4) Texto para enviar al infractor (amable/firme).
-5) Checklist de seguimiento (24h, 72h, 7 días).`,
-    thumbnail: "",
-  },
+1) Tabella: reclamo originale - 124; rischio (alto / medio / basso) - 124; perché - 124; versione più sicura.
+2) 10 utili disclaimer (non sono spaventati).
+3) regole rapide per il vostro team di marketing (fare / non).
+4) modello di "testimonianze permesse" (che includere / cosa evitare).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-009",
-    title: "Revisión de un NDA/Acuerdo de confidencialidad (red flags + mejoras)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Checklist para detectar trampas comunes en un NDA antes de firmar.",
-    prompt: `Actúa como abogado. Revisa un NDA desde el lado de quien firma.
+{
+  id: "legalotros-005",
+  title: "Risposta a un chargeback / contenzioso di pagamento (pacchetto di prova + narrazione)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Arma la tua difesa per il processore: prove, narrazione e lista di controllo.",
+  prompt: `Agisce come avvocato e specialista delle controversie di pagamento.
 
-Inputs:
-- Pega el NDA completo o los puntos clave.
-- Tu rol (receptor o divulgador).
-- Qué información compartirás.
-- Plazo conocido (sí/no).
-
-Genera:
-1) Red flags (lista) con explicación.
-2) Qué cláusulas negociar sí o sí.
-3) Versión sugerida de redacción para puntos críticos (genérica).
-4) Riesgos si firmas tal cual.
-5) Email de negociación (2 versiones: cordial y firme).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-010",
-    title: "Manual interno: qué hacer si recibes una notificación legal (SOP)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Procedimiento para tu equipo: responder, documentar y escalar sin pánico.",
-    prompt: `Actúa como abogado corporativo. Crea un SOP para manejo de notificaciones legales.
-
-Inputs:
-- Tipo de negocio.
-- Canales de contacto (email soporte, legal, etc).
-- Equipo (quién decide).
-- Tipos de notificación comunes (copyright, consumidor, pago, difamación).
+Ingressi:
+- Motivo del chargeback (non riconosciuto, servizio non ricevuto, ecc.).
+- Data di acquisto e importo.
+- Prove: log di accesso, e-mail, IP, supporto, download.
+- Politica di rimborso pubblicata (sì / no).
 
 Genera:
-1) SOP paso a paso (primeras 2 horas, 24h, 72h).
-2) Plantillas de respuesta inicial (no admitir, pedir info).
-3) Checklist de documentación y preservación de evidencia.
-4) Matriz de severidad (baja/media/alta) y acciones.
-5) “Errores que NO debemos cometer”.`,
-    thumbnail: "",
-  },
+1) Short Narrative (1-2 paragrafi) da presentare al processore.
+2) Elenco di controllo delle prove ideali per tipo di controversia.
+3) Elenco degli allegati consigliati (catches e come nominarli).
+4) Tipo di risposta al cliente (per cercare di risolvere prima).
+5) Come regolare il processo per ridurre i prossimi chargeback.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-011",
-    title: "Términos para comunidad (Discord/Telegram) + reglas anti-baneo",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Reglas claras para moderación, expulsiones y conducta dentro de comunidad.",
-    prompt: `Actúa como abogado y community policy writer.
+{
+  id: "legalotros-006",
+  title: "Politica sulla privacy (semplificare il progetto) + inventario dei dati",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Template + inventario: quali dati raccogli, per cosa e come gestirli.",
+  prompt: `Agisce come avvocato della privacy (per non parlare di leggi specifiche).
 
-Inputs:
-- Plataforma (Discord/Telegram).
-- Temas sensibles (sí/no).
-- Si hay menores (sí/no).
-- Estilo (estricto/relajado).
-
-Genera:
-1) Reglas de comunidad (10-15 reglas).
-2) Política de moderación (advertencias, suspensión, expulsión).
-3) Cláusula de responsabilidad y contenido de terceros (general).
-4) Plantillas de mensajes de moderación (amable/firme).
-5) Lista de prácticas para evitar conflictos. `,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-012",
-    title: "Cláusulas para testimonios y casos de éxito (consentimiento + uso)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Texto para pedir permiso y usar testimonios de forma segura.",
-    prompt: `Actúa como abogado. Redacta texto de consentimiento para testimonios.
-
-Inputs:
-- Formato del testimonio (video, texto, captura).
-- Dónde se usará (web, ads, redes).
-- Si se mostrará nombre/foto (sí/no).
-- Si se incluirá resultados numéricos (sí/no).
+Ingressi:
+- No. Quali dati raccogli (email, nome, pagamenti, IP, ecc.).
+- Strumenti (analisi, email marketing, pagamenti).
+- No. Se ci sono minori (sì / no).
+- Paesi dove vendi.
 
 Genera:
-1) Formulario/consentimiento completo.
-2) Versión corta para DM/WhatsApp.
-3) Sección para uso de imagen/nombre (opcional).
-4) Reglas para editar testimonios sin manipular.
-5) Disclaimer sugerido cuando haya resultados variables.`,
-    thumbnail: "",
-  },
+1) inventario dei dati (tabella): dati - 124; scopo - 124; base / rapporto - 124; ritenzione - 124; terzo.
+2) Informativa sulla privacy in lingua chiara (pronta a incollare).
+3) Cookie / Analytics (Generale) Sezione.
+4) Controllo della conformità minima (accesso, cancellazione, contatto).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-013",
-    title: "Política anti-fraude y abuso (reventas, compartición de cuentas, scraping)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Reglas para limitar abuso sin afectar a clientes normales.",
-    prompt: `Actúa como abogado. Diseña política anti-fraude y abuso para producto digital.
+{
+  id: "legalotros-007",
+  title: "Avviso di cookie (microcopia + testo banner)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Testi per cookie banner e cookie pagina, nessuna tecnica.",
+  prompt: `Agisce come avvocato e scrittore UX.
 
-Inputs:
-- Producto (curso, biblioteca, membresía).
-- Tipo de abuso observado (cuentas compartidas, scraping, reventa).
-- Medidas técnicas disponibles (rate limits, logs, bloqueo IP).
-
-Genera:
-1) Política para pegar en el sitio (clara, no agresiva).
-2) Tabla: abuso | señal | acción (advertir/bloquear/reembolso/ban).
-3) Texto de aviso por email (1er aviso / 2do / suspensión).
-4) Recomendaciones técnicas mínimas para respaldar la política.
-5) Preguntas frecuentes para clientes honestos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-014",
-    title: "Revisión legal de landing page (estructura + riesgos + mejoras)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Audita una landing desde el lado de riesgo: claims, garantías, reembolsos, pruebas.",
-    prompt: `Actúa como abogado de consumo/publicidad. Revisa una landing.
-
-Inputs:
-- Pega el texto de la landing.
-- Precio y oferta.
-- Garantía (si existe).
-- Testimonios (si existen).
-- Público objetivo.
+Ingressi:
+- No. Se si utilizza l'analisi (sì / no).
+- No. Se si fa remarketing / annunci (sì / no).
+- Lingua (neutral spagnolo).
 
 Genera:
-1) Lista de riesgos por sección (hero, bullets, testimonios, garantía, FAQ).
-2) Cambios recomendados (copy alternativo).
-3) Dónde agregar disclaimers sin matar conversión.
-4) Checklist de elementos obligatorios (contacto, reembolso, términos).
-5) Versión “más segura” del hero + bullets principales.`,
-    thumbnail: "",
-  },
+1) breve testo per banner (2 versioni: minimalista e dettagliata).
+2) Testo per pulsante / azioni (accettare, rifiutare, configurare).
+3) Copia pagina Cookie (sezioni + semplice spiegazione).
+4) Cookie FAQ (6 domande).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-015",
-    title: "Política de afiliados (reglas de promoción + prohibiciones)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Reglas para afiliados para evitar publicidad engañosa o spam.",
-    prompt: `Actúa como abogado. Crea política para programa de afiliados.
+{
+  id: "legalotros-008",
+  title: "DMCA / rapporto di violazione (tenuti di ordinare la perdita di contenuti)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Modelli per segnalare copie dei tuoi contenuti su reti o siti.",
+  prompt: `Agisce come avvocato di proprietà intellettuale (per non parlare di leggi).
 
-Inputs:
-- Comisión.
-- Canales permitidos (Meta Ads, Google, email, orgánico).
-- Marca registrada (si aplica).
-- Prohibiciones deseadas (spam, incentivos falsos, claims).
-
-Genera:
-1) Política completa de afiliados.
-2) Lista de claims prohibidos y ejemplos.
-3) Reglas de uso de marca y anuncios.
-4) Consecuencias por incumplimiento (escalonadas).
-5) Plantilla de email de advertencia + terminación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-016",
-    title: "Due diligence light para comprar un negocio (micro-checklist)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Checklist rápido para revisar riesgos antes de comprar una empresa/activo digital.",
-    prompt: `Actúa como abogado y auditor de riesgos. Haz un checklist de due diligence ligero.
-
-Inputs:
-- Tipo de negocio (SaaS, ecom, contenido).
-- Activos clave (dominio, listas, IP, contratos).
-- Ingresos y proveedores.
-- País de operación.
+Ingressi:
+- Collegamento di contenuti di violazione.
+- Link del contenuto originale.
+- Prova di autorizzazione (catches, date, file).
+- Piattaforma (YouTube, IG, TikTok, web, hosting).
 
 Genera:
-1) Checklist por áreas: financiero, legal, IP, privacidad, operación.
-2) “Preguntas killer” (15) que revelan problemas.
-3) Red flags típicas y qué evidencia pedir.
-4) Estructura de documentos a solicitar.
-5) Plan de 10 días para revisión rápida.`,
-    thumbnail: "",
-  },
+1) Email / richiesta formale di takedown (templato).
+2) Breve messaggio per il supporto della piattaforma.
+3) Elenco delle prove da allegare.
+4) Testo da inviare al colpevole (amichevole / ditta).
+5) Elenco di controllo del follow-up (24h, 72h, 7 giorni).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-017",
-    title: "Guía de cumplimiento para sorteos/concursos en redes (sin citar leyes)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Estructura segura para hacer giveaway/contest sin meterte en problemas.",
-    prompt: `Actúa como abogado. Crea guía para sorteo/contest en redes.
+{
+  id: "legalotros-009",
+  title: "Recensione di un accordo NDA / Privacy (Rete per i miglioramenti +)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Lista di controllo per rilevare trappole comuni in un NDA prima di firmare.",
+  prompt: `Agisce come avvocato. Controlla un NDA dal lato di chi firma.
 
-Inputs:
-- Plataforma (IG/TikTok/FB).
-- Países participantes.
+Ingressi:
+- Incolla l'intero NDA o punti chiave.
+- Il tuo ruolo (ricevitore o divulgazione).
+- No. Quali informazioni condividerete.
+- Limite di tempo (sì / no).
+
+Genera:
+1) Red lags (list) con spiegazione.
+2) Quali termini negoziare sì o sì.
+3) Versione di redazione consigliata per punti critici (generico).
+4) Rischi se firmate così.
+5) E-mail di trading (2 versioni: cordiale e solida).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-010",
+  title: "Manuale interno: cosa fare se si riceve una notifica legale (SOP)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Procedura per il vostro team: rispondere, documentare e scalare senza panico.",
+  prompt: `Agisce come avvocato aziendale. Crea un SOP per gestire le notifiche legali.
+
+Ingressi:
+- Tipo di affari.
+- Canali di contatto (assistenza e-mail, legale, ecc.).
+- Squadra (che decide).
+- Tipi comuni di notifica (copyright, consumatore, pagamento, diffamazione).
+
+Genera:
+1) Passo dopo passo SOP (prima 2 ore, 24h, 72h).
+2) Modelli di risposta iniziale (non ammettere, informazioni ordine).
+3) Elenco di controllo della documentazione e conservazione delle prove.
+4) Severe Matrix (basso / medio / alto) e azioni.
+5) "Errori che non dovremmo fare".`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-011",
+  title: "Termini comunitari (Discord / Telegram) + regole anti-baneo",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Regole chiare per la moderazione, le espulsioni e la condotta all'interno della comunità.",
+  prompt: `Agisce come avvocato e scrittore di politiche comunitarie.
+
+Ingressi:
+- Piattaforma (Discord / Telegram).
+- Problemi sensibili (sì / no).
+- No. Se ci sono minori (sì / no).
+- Stile (stretto / rilassato).
+
+Genera:
+1) Norme comunitarie (10-15 regole).
+(2) Politica di moderazione (avvertimento, sospensione, espulsione).
+(3) Clausola di responsabilità e di contenuto di terzi (generale).
+4) Modelli di messaggi di moderazione (tipo / azienda).
+5) Elenco delle pratiche di prevenzione dei conflitti.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-012",
+  title: "Clausole di prova e di successo (consenso + utilizzo)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Testo per ordinare il permesso e utilizzare la testimonianza in modo sicuro.",
+  prompt: `Agisce come avvocato. Un messaggio per la testimonianza.
+
+Ingressi:
+- Formato di testimonianza (video, testo, cattura).
+- No. Dove sarà utilizzato (web, annunci, reti).
+- No. Se si mostra nome / foto (sì / no).
+- Se i risultati numerici (sì / no) sono inclusi.
+
+Genera:
+(1) Modulo / consenso completo.
+2) Versione breve per DM / WhatsApp.
+3) Sezione immagine / nome (opzionale).
+4) Regole per la modifica di testimonianze non manipolate.
+5) Disclaimer consigliato quando ci sono risultati variabili.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-013",
+  title: "Politica antifrode e abusiva (rivendita, condivisione account, raschiamento)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Regole per limitare l'abuso senza pregiudicare i clienti normali.",
+  prompt: `Agisce come avvocato. Politica di progettazione contro frodi e abusi per prodotto digitale.
+
+Ingressi:
+- Prodotto (corso, biblioteca, appartenenza).
+- Tipo di abuso osservato (conti condivisi, raschiamento, rivendita).
+- Misure tecniche disponibili (limiti tariffari, log, blocco IP).
+
+Genera:
+1) Politica di colpire il sito (chiaro, non aggressivo).
+2) Tabella: abuso - 124; segnale - 124; azione (avvertimento / blocco / rimborso / divieto).
+3) Testo di avviso e-mail (1 ° avviso / 2do / sospensione).
+4) Raccomandazioni tecniche minime per sostenere la politica.
+5) Domande frequenti per clienti onesti.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-014",
+  title: "Revisione legale della pagina di atterraggio (struttura + rischi + miglioramenti)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Controlla uno sbarco dal lato del rischio: crediti, garanzie, rimborsi, prove.",
+  prompt: `Agisce come un consumatore / avvocato pubblicitario. Controlla un atterraggio.
+
+Ingressi:
+- Incolla il testo dell'atterraggio.
+- Prezzo e offerta.
+- Garanzia (se presente).
+- Testimonianze (se presenti).
+- Al pubblico.
+
+Genera:
+1) Elenco dei rischi per sezione (Hero, Bullets, testimonianze, garanzia, FAQ).
+2) Modifiche raccomandate (copia alternativa).
+3) Dove aggiungere disclaim senza uccidere la conversione.
+4) Elenco degli elementi obbligatori (contatto, rimborso, termini).
+5) versione "Safer" dell'eroe + proiettili principali.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-015",
+  title: "Politica di affiliazione (regole di promozione + divieti)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Regole per le affiliate per evitare pubblicità ingannevole o spam.",
+  prompt: `Agisce come avvocato. Creare politica per il programma di affiliazione.
+
+Ingressi:
+- Commissione.
+- Canali consentiti (Meta Ads, Google, email, organico).
+- Registrazione (se applicabile).
+- Prolungati proibizioni (spam, falsi incentivi, reclami).
+
+Genera:
+1) Politica di adesione completa.
+2) Elenco dei reclami e degli esempi proibiti.
+3) Regole di utilizzo di marca e annunci.
+(4) Conseguenze non conformi (fase).
+5) Avvertenza + modello di e-mail di terminazione.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-016",
+  title: "Due diligence light per acquistare un business (micro-checklist)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Quick Checklist per rivedere i rischi prima di acquistare una società / asset digitale.",
+  prompt: `Agisce come avvocato e revisore dei rischi. Fai una lista di controllo di due diligence.
+
+Ingressi:
+- Tipo di attività (SaaS, ecom, contenuto).
+- Attività chiave (dominio, liste, IP, contratti).
+- Redditi e fornitori.
+- Paese di funzionamento.
+
+Genera:
+1) Lista di controllo per area: finanziaria, legale, IP, privacy, funzionamento.
+2) "Killer Questions" (15) che rivelano problemi.
+3) Tipiche terre rosse e quali prove chiedere.
+(4) Struttura dei documenti da richiedere.
+5) Piano di 10 giorni per una rapida revisione.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-017",
+  title: "Guida di conformità per i sorteggi di rete / concorsi (non comprese le leggi)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Struttura sicura per rendere giveaway / rispondere senza entrare nei guai.",
+  prompt: `Agisce come avvocato. Creare una guida per il disegno / conteggio su reti.
+
+Ingressi:
+- Piattaforma (IG / TikTok / FB).
+- Paesi partecipanti.
 - Premio.
-- Duración.
-- Mecánica (seguir, comentar, etc).
+- Durata.
+- Meccanico (follow, commento, ecc.).
 
 Genera:
-1) Reglas del sorteo (plantilla) con [REEMPLAZAR].
-2) Checklist de riesgos (edad, países, impuestos, falsos ganadores).
-3) Copy para post y story (incluyendo disclaimer breve).
-4) Proceso interno para elegir ganador y documentarlo.
-5) Mensajes al ganador y a no-ganadores.`,
-    thumbnail: "",
-  },
+1) Disegnare regole (template) con [REEMPLAZAR].
+2) Elenco di controllo del rischio (età, paesi, tasse, falsi vincitori).
+3) Copia post e storia (compreso breve disclaimer).
+4) Processo interno per scegliere vincitore e documentarlo.
+5) Messaggi al vincitore e non vincitori.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-018",
-    title: "Cláusulas para uso de contenido generado por usuarios (UGC) y permisos",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Cómo pedir permiso y dejar claro uso de UGC (reviews, fotos, videos).",
-    prompt: `Actúa como abogado. Crea texto para permisos de UGC.
+{
+  id: "legalotros-018",
+  title: "Contenuto generato dall'utente (UGC) e clausole di autorizzazioni",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Come ordinare il permesso e fare uso chiaro di UGC (recensioni, foto, video).",
+  prompt: `Agisce come avvocato. Crea testo per i permessi UGC.
 
-Inputs:
-- Qué tipos de UGC (foto, video, review).
-- Dónde se usará (ads, web, email).
-- Si se pagará (sí/no).
-
-Genera:
-1) Texto de consentimiento UGC (largo).
-2) Versión corta para DM/WhatsApp.
-3) Cláusula de revocación (opcional) y cómo manejarla.
-4) Checklist para guardar evidencia del consentimiento.
-5) Disclaimers recomendados cuando haya resultados variables.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalotros-019",
-    title: "Plantilla de “respuesta legal” a reseña negativa (sin difamar, sin escalar)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Responde críticas sin admitir responsabilidad y sin quemarte públicamente.",
-    prompt: `Actúa como abogado + atención al cliente. Redacta respuestas a reseñas negativas.
-
-Inputs:
-- Texto de la reseña.
-- Contexto (qué pasó realmente).
-- Política de reembolso (sí/no).
-- Tono (neutral/amable/firme).
+Ingressi:
+- No. Quali tipi di UGC (foto, video, recensione).
+- No. Dove sarà utilizzato (ad, web, e-mail).
+- Se pagato (sì / no).
 
 Genera:
-1) Respuesta pública (corta, profesional).
-2) Mensaje privado para resolver (más detallado).
-3) Lista de cosas que NO debes decir.
-4) Protocolo interno para investigar el caso.
-5) 3 variaciones según el tipo de reseña (fraude, malentendido, real).`,
-    thumbnail: "",
-  },
+1) testo di consenso UGC (lungo).
+2) Versione breve per DM / WhatsApp.
+3) Clausola di abrogazione (opzionale) e come gestirla.
+4) Elenco di controllo per mantenere la prova del consenso.
+5) Raccomandato disclaim quando ci sono risultati variabili.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalotros-020",
-    title: "Checklist para proteger tu marca (nombre, logo, dominios, uso indebido)",
-    area: "Abogado & Legal",
-    category: "Otros",
-    summary:
-      "Acciones prácticas para proteger marca y evitar suplantaciones.",
-    prompt: `Actúa como abogado de IP. Diseña un plan de protección de marca (genérico).
+{
+  id: "legalotros-019",
+  title: "\"Risposta legale\" modello a recensione negativa (inondata, non aumentata)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Risponde alle critiche senza ammettere responsabilità e senza bruciare i cittadini.",
+  prompt: `Agire come avvocato + servizio clienti. Esso stabilisce le risposte alle recensioni negative.
 
-Inputs:
-- Nombre de marca.
-- Países objetivo.
-- Canales donde existe (IG, TikTok, web).
-- Si ya hay imitadores (sí/no).
+Ingressi:
+- Testo della recensione.
+- Contesto (cosa è successo veramente).
+- Politica di rimborso (sì / no).
+- Tono (neutral / amichevole / ditta).
 
 Genera:
-1) Checklist de protección (dominios, handles, documentación).
-2) Rutina mensual de monitoreo (qué buscar).
-3) Plantillas: aviso a imitador + reporte a plataforma.
-4) Reglas de uso de marca para colaboradores/afiliados.
-5) Plan de acción si te suplantan (paso a paso).`,
-    thumbnail: "",
-  },
-];
+1) Risposta pubblica (breve, professionale).
+2) Messaggi privati da risolvere (più dettagliati).
+3) Elenco delle cose che non devi dire.
+(4) Protocollo interno per indagare il caso.
+5) 3 variazioni per tipo di revisione (fraud, incomprensione, reale).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalotros-020",
+  title: "Lista di controllo per proteggere il tuo marchio (nome, logo, domini, abuso)",
+  area: "Avvocato e legale",
+  category: "Altri",
+  summary:
+  "Azioni pratiche per proteggere il marchio ed evitare sopianti.",
+  prompt: `Agisce come avvocato IP. Progetta un piano di protezione del marchio (generico).
+
+Ingressi:
+- Nome di marca.
+- Paesi target.
+- Canali dove esiste (IG, TikTok, web).
+- No. Se ci sono già imitatori (sì / no).
+
+Genera:
+1) Elenco di controllo di protezione (domini, maniglie, documentazione).
+2) routine di monitoraggio mensile (cosa cercare).
+3) Modelli: avviso di imitatore + rapporto piattaforma.
+4) Norme di marcatura per collaboratori / affiliati.
+5) Piano d'azione se siete soppiantati (passo per passo).`,
+  thumbnail: ""
+}];

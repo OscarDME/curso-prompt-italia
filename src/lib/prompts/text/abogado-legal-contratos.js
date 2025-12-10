@@ -1,533 +1,532 @@
 // src/lib/prompts/text/abogado-legal-contratos.js
 
 export const textPromptsAbogadoLegalContratos = [
-  {
-    id: "legalcontratos-001",
-    title: "Checklist maestro para redactar contrato (cualquier servicio/producto)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Crea un checklist completo de cláusulas, anexos y datos para redactar un contrato sólido.",
-    prompt: `Actúa como abogado corporativo/contractual. Necesito un checklist maestro para redactar un contrato.
+{
+  id: "legalcontratos-001",
+  title: "Master Checklist per scrivere contratto (qualsiasi servizio / prodotto)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Crea una lista completa di clausole, allegati e dati per scrivere un contratto solido.",
+  prompt: `Agisce come avvocato aziendale / contrattuale. Ho bisogno di una lista di controllo per scrivere un contratto.
 
-Inputs:
-- Tipo de contrato (servicios, SaaS, consultoría, compraventa, licencia, etc.).
-- Jurisdicción/país (si aplica).
-- Partes (empresa/individuo) y roles.
-- Alcance del servicio/entregable.
-- Precio, forma de pago, impuestos.
-- Duración, renovaciones, terminación.
-- Riesgos principales del negocio (chargebacks, IP, datos, retrasos).
-- Nivel de formalidad (simple / enterprise).
-
-Genera:
-1) Datos que debo recolectar antes de redactar (20+).
-2) Índice recomendado del contrato (secciones).
-3) Cláusulas esenciales (explica propósito + riesgos si se omiten).
-4) Cláusulas opcionales según escenario (por bullets).
-5) Anexos típicos (SOW, SLA, DPA, NDA, etc.) y cuándo usarlos.
-6) Red flags/ambigüedades comunes y cómo evitarlas.
-7) Lista de “decisiones de negocio” (qué negociar sí o sí).
-
-Entrega en español, estilo práctico. No inventes leyes específicas; marca “depende de jurisdicción”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-002",
-    title: "Contrato de prestación de servicios (borrador completo)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Genera un borrador completo con cláusulas estándar listas para copiar y adaptar.",
-    prompt: `Actúa como abogado. Redacta un BORRADOR de contrato de prestación de servicios.
-
-Inputs:
-- Partes (nombre legal, domicilio, RFC/ID si aplica).
-- Servicio exacto y entregables.
-- Fechas, hitos, revisiones.
-- Honorarios (monto, moneda, impuestos) y forma de pago.
-- Política de cambios (scope creep) y extras.
-- Confidencialidad (sí/no).
-- Propiedad intelectual (quién se queda qué).
-- Responsabilidad/limitación (nivel deseado).
-- Jurisdicción y ley aplicable (si se conoce).
+Ingressi:
+- Tipo di contratto (servizi, SaaS, consulenza, vendita, licenza, ecc.).
+- Giurisdizione / paese (se applicabile).
+- Parti (società / individuo) e ruoli.
+- Campo di servizio / consegna.
+- Prezzo, forma di pagamento, tasse.
+- Durata, ristrutturazione, cessazione.
+- Principali rischi aziendali (ricarica, IP, dati, ritardi).
+- Livello di formalità (semplice / impresa).
 
 Genera:
-Documento con: definiciones, objeto, alcance, obligaciones, pagos, cambios, propiedad intelectual, confidencialidad, protección de datos (si aplica), garantías y disclaimers, limitación de responsabilidad, terminación, fuerza mayor, notificaciones, cesión, integridad, firmas.
+1) Dati da raccogliere prima di scrivere (20 +).
+2) Indice del contratto consigliato (sezioni).
+3) Clausole essenziali (spiega lo scopo + rischi se omesso).
+4) Clausole opzionali per fase (per proiettili).
+5) Allegati tipici (SOW, SLA, DPA, NDA, ecc.) e quando usarli.
+(6) Lags comuni / ambiguità e come evitarli.
+7) Elenco delle "decisioni commerciali" (che negoziare sì o sì).
 
-Incluye campos [REEMPLAZAR] donde falten datos. Mantén tono legal profesional (sin inventar artículos de ley).`,
-    thumbnail: "",
-  },
+Consegna in spagnolo, stile pratico. Non inventare leggi specifiche; il marchio "dipende dalla giurisdizione".`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcontratos-003",
-    title: "Auditoría de contrato: riesgos, sesgos y puntos a negociar",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Revisa un contrato pegado y detecta riesgos, cláusulas abusivas y mejoras concretas.",
-    prompt: `Actúa como abogado. Voy a pegar un contrato y quiero una auditoría.
+{
+  id: "legalcontratos-002",
+  title: "Contratto di servizio (progetto completo)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Genera una bozza completa con clausole standard pronte a copiare e adattare.",
+  prompt: `Agisce come avvocato. Esso stabilisce un contratto per la fornitura di servizi.
 
-Inputs:
-- Texto del contrato.
-- Mi rol (proveedor/cliente).
-- Qué me preocupa (pago, IP, datos, terminación, responsabilidad).
-- Jurisdicción (si se sabe).
-
-Genera:
-1) Resumen ejecutivo en 5 bullets.
-2) Riesgos críticos (top 10) con severidad alta/media/baja y por qué.
-3) Cláusulas a renegociar con propuestas de redacción alternativa.
-4) Ambigüedades y huecos (qué falta).
-5) Preguntas clave para la contraparte.
-No des asesoría legal definitiva; enfócate en mejores prácticas y riesgos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-004",
-    title: "Propiedad intelectual (IP): 6 variantes listas para copiar",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Genera 6 opciones de cláusula IP (cesión, licencias, híbrida, etc.).",
-    prompt: `Actúa como abogado. Necesito cláusulas de Propiedad Intelectual listas para copiar.
-
-Inputs:
-- Tipo de trabajo (software, diseño, contenido, curso, consultoría).
-- Quién paga (cliente) y quién crea (proveedor).
-- Materiales preexistentes (sí/no).
-- Si se permite reutilización (sí/no).
-- Si hay sublicencias/terceros (sí/no).
-
-Genera 6 variantes:
-A) Cesión total al cliente.
-B) Licencia exclusiva.
-C) Licencia no exclusiva.
-D) Híbrida (core del proveedor + entregable del cliente).
-E) Plantillas del proveedor + personalización.
-F) IP conjunta (co-owned) con reglas claras.
-
-Para cada variante:
-- Texto de cláusula.
-- Pros/Contras para proveedor y cliente.
-- Riesgos típicos y mitigación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-005",
-    title: "Cláusulas de pagos + mora + reembolsos (low-ticket / cursos)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Estructura términos de pago, no reembolso, chargebacks y disputas para productos digitales.",
-    prompt: `Actúa como abogado enfocado en productos digitales. Redacta cláusulas de pago y reembolsos.
-
-Inputs:
-- Producto (curso, membresía, plantillas, SaaS).
-- Precio y modalidad (único / suscripción / mensualidades).
-- Política de reembolso (sí/no, plazo).
-- Riesgo de chargebacks (alto/medio/bajo).
-- Entrega (inmediata, por módulos, acceso temporal).
+Ingressi:
+- Parti (nome legale, indirizzo, RFC / ID se applicabile).
+- Servizio esatto e consegna.
+- Date, pietre miliari, recensioni.
+- Tasse (importo, valuta, tasse) e forma di pagamento.
+- Politica di scambio (scoppia) e extra.
+Confidenzialità (sì / no).
+- Proprietà intellettuale (che rimane cosa).
+- Responsabilità / limitazione (livello desiderato).
+- Giurisdizione e legge applicabile (se noto).
 
 Genera:
-1) Cláusula de precio/pago/impuestos (sin inventar tasas).
-2) Mora/intereses (marca “según ley local”).
-3) Política de reembolsos clara (incluye excepciones).
-4) Procedimiento anti-chargeback (soporte antes de disputar).
-5) Suspensión/terminación por falta de pago.
-6) Versión corta en lenguaje simple para T&C.`,
-    thumbnail: "",
-  },
+Documento con: definizioni, oggetto, portata, obblighi, pagamenti, modifiche, proprietà intellettuale, riservatezza, protezione dei dati (se applicabile), garanzie e reclami, limitazione di responsabilità, cessazione, forza maggiore, notifiche, assegnazione, integrità, firme.
 
-  {
-    id: "legalcontratos-006",
-    title: "Limitación de responsabilidad: 5 niveles (lite → enterprise)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Crea versiones de limitación de responsabilidad según riesgo y tamaño del deal.",
-    prompt: `Actúa como abogado. Necesito cláusulas de limitación de responsabilidad.
+Include i campi dove mancano i dati. Mantenere il tono legale professionale (senza redigere articoli legali).`,
+  thumbnail: ""
+},
 
-Inputs:
-- Rol (cliente/proveedor).
-- Daño temido (datos, reputación, lucro cesante).
-- Ticket (low/mid/high).
-- Si hay seguro (sí/no).
-- Si es B2C o B2B.
+{
+  id: "legalcontratos-003",
+  title: "Controllo dei contratti: rischi, pregiudizi e punti da negoziare",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Esso esamina un contratto incollato e rileva rischi, clausole abusive e miglioramenti concreti.",
+  prompt: `Agisce come avvocato. Faro' un contratto e voglio un audit.
 
-Genera 5 niveles:
-1) Suave (exclusión de indirectos).
-2) Moderada (cap por monto pagado en X meses).
-3) Fuerte (cap bajo + exclusiones amplias).
-4) Enterprise (cap + carve-outs: fraude, dolo, IP, datos).
-5) B2C producto digital (lenguaje claro y razonable).
-
-Incluye: texto + qué protege + riesgos + tips de negociación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-007",
-    title: "Terminación: causales, aviso, efectos y supervivencia",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Diseña una terminación equilibrada, con efectos, devolución de materiales y pagos pendientes.",
-    prompt: `Actúa como abogado. Redacta una sección de terminación completa.
-
-Inputs:
-- Duración (fijo/indefinido).
-- Aviso deseado (días).
-- Entregables/hitos (sí/no).
-- Confidencialidad/IP/datos (sí/no).
-- Penalidad por cancelación (sí/no).
+Ingressi:
+- Testo del contratto.
+- Il mio ruolo (fornitore / cliente).
+- No. Ciò che mi riguarda (pagamento, IP, dati, risoluzione, responsabilità).
+- Giurisdizione (se conosciuto).
 
 Genera:
-1) Terminación por conveniencia (con aviso).
-2) Terminación por incumplimiento (cure period).
-3) Terminación inmediata (causales graves).
-4) Efectos de terminación (pagos, entregables, accesos).
-5) Cláusulas que sobreviven (confidencialidad, IP, limitación, etc.).`,
-    thumbnail: "",
-  },
+1) Riepilogo esecutivo in 5 proiettili.
+2) Rischi critici (top 10) con alta / media / bassa gravità e perché.
+(3) Regolamento da rinegoziare con proposte alternative di redazione.
+4) Ambiguità e lacune (mancanza).
+5) Domande chiave per la controparte.
+Non dare una consulenza legale definitiva; focalizzarsi sulle migliori pratiche e rischi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcontratos-008",
-    title: "Contrato SaaS: estructura + cláusulas clave (SLA, seguridad, soporte)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Plantilla de estructura y textos clave para SaaS con enfoque en riesgos comunes.",
-    prompt: `Actúa como abogado SaaS. Diseña el contrato SaaS.
+{
+  id: "legalcontratos-004",
+  title: "Proprietà intellettuale (IP): 6 varianti pronte a copiare",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Genera 6 opzioni di clausola IP (assegnazione, licenze, ibrido, ecc.).",
+  prompt: `Agisce come avvocato. Ho bisogno di clausole di proprietà intellettuale pronte a copiare.
 
-Inputs:
-- Producto SaaS y función.
-- Planes y precios.
-- Datos tratados (personales/sensibles/no).
-- Uptime objetivo.
-- Canales de soporte.
-- Integraciones de terceros.
+Ingressi:
+- Tipo di lavoro (software, design, contenuto, corso, consulenza).
+- Chi paga (cliente) e chi crea (fornitore).
+- Materiali preesistenti (sì / no).
+- Se il riutilizzo è consentito (sì / no).
+- No. Se ci sono sottolicenze / terzi (sì / no).
 
-Genera:
-1) Índice (Master Agreement + anexos).
-2) Licencia/uso aceptable/cuentas.
-3) Seguridad/backups/soporte.
-4) SLA (métricas, créditos, exclusiones).
-5) DPA (roles, subprocesadores, notificación de brecha).
-6) Renovación/cancelación + exportación de datos.
-No inventes cumplimiento legal; deja campos [REEMPLAZAR].`,
-    thumbnail: "",
-  },
+Genera 6 varianti:
+A) Trasferimento totale al cliente.
+(B) Esclusiva.
+(C) congedo non esclusivo.
+D) Ibrido (corpo di fornitura + consegna del cliente).
+E) Fornitore modelli + personalizzazione.
+F) Joint IP (co-owned) con regole chiare.
 
-  {
-    id: "legalcontratos-009",
-    title: "NDA (unilateral o mutuo) + resumen para no abogados",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Redacta un NDA completo con definiciones, excepciones, duración y remedios.",
-    prompt: `Actúa como abogado. Redacta un NDA.
+Per ogni variante:
+- Testo della clausola.
+- Pro / Contra per fornitore e cliente.
+- Rischi tipici e mitigazione.`,
+  thumbnail: ""
+},
 
-Inputs:
-- Tipo (unilateral/mutuo).
-- Propósito de divulgación.
-- Duración del NDA y de la obligación.
-- Jurisdicción.
-- Tipo de info (técnica, comercial, código, secretos).
+{
+  id: "legalcontratos-005",
+  title: "Clausole di pagamento + arretrati + rimborso (basso cliente / corsi)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Struttura dei termini di pagamento, non-rimborso, chargeback e controversie per i prodotti digitali.",
+  prompt: `Agisce come avvocato focalizzato sui prodotti digitali. Essa stabilisce clausole di pagamento e di rimborso.
 
-Genera:
-- NDA completo con: definiciones, exclusiones, obligaciones, cuidado razonable, no licencia, devolución/destrucción, duración, remedios, no solicitación (opcional), ley aplicable, firmas.
-- Versión “resumen en 8 bullets” en lenguaje simple.
-Incluye campos [REEMPLAZAR].`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-010",
-    title: "No competencia / no solicitación (enfoque razonable y defendible)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Genera variantes razonables (especialmente no solicitación) minimizando riesgo de nulidad.",
-    prompt: `Actúa como abogado. Necesito cláusulas de no competencia / no solicitación.
-
-Inputs:
-- Relación (empleo/contratista/proveedor).
-- Industria/actividad.
-- Territorio (si aplica).
-- Plazo deseado.
-- Intereses a proteger (clientes, empleados, secretos).
+Ingressi:
+- Prodotto (corso, appartenenza, modelli, SaaS).
+- Prezzo e modalità (solo / abbonamento / mensile).
+- Politica di rimborso (sì / no, limite di tempo).
+- Rischio di chargeback (alto / medio / basso).
+- Consegna (immediato, modulo, accesso temporaneo).
 
 Genera:
-1) Versión recomendada: NO SOLICITACIÓN de clientes y empleados.
-2) Versión suave de no competencia (si procede) con límites razonables.
-3) Riesgos de enforceability (sin citar leyes).
-4) Alternativas: confidencialidad reforzada, no uso, no desvío.
-5) Checklist para ajustar a jurisdicción.`,
-    thumbnail: "",
-  },
+1) Prezzo / pagamento / clausola fiscale (senza tasse di pagamento).
+2) Mora / interesse (marcazione "secondo la legge locale").
+(3) Politica di rimborso (comprese le eccezioni).
+4) Procedura anti-ricarica (supporto prima della controversia).
+(5) Sospensione / cessazione per il mancato pagamento.
+6) Versione breve di lingua semplice per T & C.`,
+  thumbnail: ""
+},
 
-  // --- +10 NUEVOS (hasta 20) ---
+{
+  id: "legalcontratos-006",
+  title: "Limitazioni di responsabilità: 5 livelli (lite → impresa)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Crea versioni di limitazione della responsabilità per rischio e dimensione dell'affare.",
+  prompt: `Agisce come avvocato. Ho bisogno di clausole di limitazione della responsabilità.
 
-  {
-    id: "legalcontratos-011",
-    title: "Master Service Agreement (MSA) + Statement of Work (SOW)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Estructura un MSA reusable y un SOW por proyecto para evitar scope creep y pleitos.",
-    prompt: `Actúa como abogado para servicios B2B. Diseña un esquema MSA + SOW.
+Ingressi:
+- Rol (cliente / fornitore).
+- Afraid danno (dati, reputazione, perdita di profitto).
+- Biglietto (basso / medio / alto).
+- No. Se c'è l'assicurazione (sì / no).
+- Se è B2C o B2B.
 
-Inputs:
-- Tipo de servicio.
-- Frecuencia de proyectos (uno / recurrente).
-- Riesgos (retrasos, dependencias del cliente, IP, subcontratistas).
-- Modelo de pago (por hora / fijo / hitos).
-- Jurisdicción (si se sabe).
+Genera 5 livelli:
+(1) Morbido (esclusione indiretta).
+2) moderato (cap per importo pagato in X mesi).
+3) Forte (cap sotto + ampie esclusioni).
+4) Impresa (cap + carve-out: frode, dolo, IP, dati).
+5) prodotto digitale B2C (lingua chiara e ragionevole).
 
-Genera:
-1) Qué va en el MSA (condiciones generales reutilizables).
-2) Qué va en el SOW (alcance, entregables, fechas, aceptación).
-3) Plantilla de SOW con campos [REEMPLAZAR].
-4) Cláusula de cambios (change requests) y control de alcance.
-5) Proceso de aceptación/rechazo de entregables.`,
-    thumbnail: "",
-  },
+Include: testo + che protegge + rischi + consigli di trading.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcontratos-012",
-    title: "Acuerdo de afiliados (comisiones, atribución, fraude, payouts)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Crea términos para afiliados con reglas claras para evitar abuso y disputas de comisión.",
-    prompt: `Actúa como abogado. Redacta un acuerdo/terms para afiliados.
+{
+  id: "legalcontratos-007",
+  title: "Terminazione: cause, avvertenze, effetti e sopravvivenza",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Progetta un completamento equilibrato, con effetti, ritorno dei materiali e pagamenti in sospeso.",
+  prompt: `Agisce come avvocato. Scrivere una sezione completa di completamento.
 
-Inputs:
-- Producto (curso, SaaS, físico).
-- Comisión (% o monto), cookies/atribución.
-- Periodo de pago (semanal/mensual), umbral mínimo.
-- Política de reembolsos/chargebacks.
-- Canales permitidos (ads, email, cupones, brand bidding).
-- Prohibiciones (spam, claims engañosos, incentivos).
-
-Genera:
-1) Definiciones clave.
-2) Reglas de atribución y elegibilidad de comisiones.
-3) Fraude y conductas prohibidas (con ejemplos).
-4) Payouts: calendario, retenciones, ajustes por reembolsos.
-5) Terminación y efecto (pérdida de comisiones fraudulentas).
-6) Plantilla lista para pegar en T&C.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-013",
-    title: "Contrato de licencia de contenido (plantillas, prompts, assets)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Define una licencia de uso para contenido digital sin ceder IP: límites, sublicencias, redistribución.",
-    prompt: `Actúa como abogado de propiedad intelectual. Redacta un contrato de licencia de contenido digital.
-
-Inputs:
-- Tipo de contenido (prompts, plantillas, PDFs, videos, imágenes).
-- Uso permitido (personal, comercial, interno, reventa).
-- Duración (perpetua/temporal).
-- Territorio (global/local).
-- Si permite sublicencia (sí/no).
-- Prohibiciones (redistribución, scraping, compartición de cuenta).
+Ingressi:
+- Durata (fisso/indefinito).
+- Avvertenza desiderata (giorni).
+- Consegna / pietre miliari (sì / no).
+- Confidenzialità / IP / dati (sì / no).
+- penalità di cancellazione (sì / no).
 
 Genera:
-1) Licencia concedida (alcance exacto).
-2) Restricciones y usos prohibidos.
-3) Atribución (si aplica) y marcas.
-4) Terminación por abuso + remedios.
-5) Texto “en lenguaje simple” para mostrar en checkout.`,
-    thumbnail: "",
-  },
+1) Termine per convenienza (con preavviso).
+(2) Termine per la non conformità (periodo minimo).
+3) terminazione immediata ( cause gravi).
+4) Effetti finali (pagamenti, consegnabili, accessi).
+5) Clausole di sopravvivenza (confidenzialità, IP, limitazione, ecc.).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcontratos-014",
-    title: "Términos y condiciones (Terms of Service) para web/app",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Outline + borrador de TOS para plataforma de curso/SaaS con cuentas, límites y cancelaciones.",
-    prompt: `Actúa como abogado. Crea Términos y Condiciones (TOS) para una web/app.
+{
+  id: "legalcontratos-008",
+  title: "Contratto SaaS: struttura + clausole chiave (SLA, sicurezza, supporto)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Modello struttura e testi chiave per SaaS con un approccio comune al rischio.",
+  prompt: `Agisce come avvocato SaaS. Progettare il contratto SaaS.
 
-Inputs:
-- Tipo (curso, membresía, SaaS).
-- País/jurisdicción.
-- Política de reembolso/cancelación.
-- Conductas prohibidas (compartir cuenta, scraping, reventa).
-- Contenido de usuario (si hay).
-- Pagos (Stripe, PayPal) y chargebacks.
-- Limitación de responsabilidad deseada.
-
-Genera:
-1) Índice y secciones.
-2) Borrador completo con [REEMPLAZAR] cuando falten datos.
-3) Sección “Uso aceptable” detallada.
-4) Sección pagos/reembolsos/cancelación clara.
-5) Versión corta (resumen) para la página de checkout.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-015",
-    title: "Cláusula de indemnización (indemnity): 4 variantes",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Indemnización por IP, uso indebido, terceros, y límites razonables con procedimiento de defensa.",
-    prompt: `Actúa como abogado. Genera cláusulas de indemnización con enfoque práctico.
-
-Inputs:
-- Rol (proveedor/cliente).
-- Riesgo principal: IP, datos, claims de terceros, incumplimiento.
-- Ticket (low/mid/high).
-- Si hay seguros (sí/no).
-
-Genera 4 variantes:
-A) Indemnización solo por infracción de IP (proveedor indemniza).
-B) Mutua por incumplimiento y claims de terceros.
-C) Fuerte para cliente (amplia) + cómo acotarla.
-D) Para B2C digital (razonable + simple).
-
-Incluye:
-- Texto de cláusula.
-- Procedimiento: notificación, control de defensa, cooperación, settlement.
-- Riesgos y tips de negociación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-016",
-    title: "Fuerza mayor + contingencias operativas (incluye IA/terceros)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Redacta fuerza mayor moderna (proveedores cloud, caídas, bloqueos de plataformas) y qué pasa con pagos/plazos.",
-    prompt: `Actúa como abogado. Redacta una cláusula de fuerza mayor moderna.
-
-Inputs:
-- Tipo de servicio o producto.
-- Dependencias (cloud, APIs, pasarelas, plataformas).
-- Si hay plazos críticos.
-- Qué pasa con pagos durante la contingencia.
+Ingressi:
+- SaaS prodotto e funzione.
+- Piani e prezzi.
+- Dati trattati (personale / sensibile / no).
+- Un bersaglio in tempo.
+- Canali di supporto.
+- Integrazione di terze parti.
 
 Genera:
-1) Definición de fuerza mayor con ejemplos modernos (sin exagerar).
-2) Obligación de mitigación y notificación.
-3) Efectos: suspensión de obligaciones, extensión de plazos.
-4) Terminación si se prolonga (X días) con efectos.
-5) Reglas de pagos/fees durante la suspensión.`,
-    thumbnail: "",
-  },
+1) Indice (Contratto di Master + Allegati).
+2) Licenza / uso accettabile / conti.
+3) Sicurezza / backup / supporto.
+4) SLA (metria, crediti, esclusioni).
+5) DPA (roli, sottoprocessori, segnalazione del gap).
+6) Ristrutturazione / cancellazione + esportazione di dati.
+Non inventare la conformità legale; lasciare i campi [REPLACE].`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcontratos-017",
-    title: "Cláusula de aceptación de entregables (QA, revisiones, criterios)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Evita el “nunca está listo” con criterios de aceptación, ventanas de revisión y aceptación tácita.",
-    prompt: `Actúa como abogado. Necesito una sección de aceptación de entregables.
+{
+  id: "legalcontratos-009",
+  title: "NDA (unilaterale o mutuo) + sommario per i non avvocati",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Definisce un NDA completo con definizioni, eccezioni, durata e rimedi.",
+  prompt: `Agisce come avvocato. Sta scrivendo un NDA.
 
-Inputs:
-- Tipo de entregable (diseño, dev, contenido, curso).
-- Número de rondas de revisión.
-- Tiempo de revisión (días).
-- Qué cuenta como “defecto” vs “cambio de alcance”.
-
-Genera:
-1) Definiciones (entregable, defecto, cambio).
-2) Proceso: entrega → revisión → feedback → corrección.
-3) Aceptación tácita si no responden en X días.
-4) Límite de revisiones + costo de extras.
-5) Qué sucede si el cliente no coopera (dependencias).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legalcontratos-018",
-    title: "Protección de datos (DPA) simplificado para proveedores",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Crea un anexo de tratamiento de datos sin inventar cumplimiento: roles, subprocesadores, brechas.",
-    prompt: `Actúa como abogado. Redacta un DPA (Data Processing Addendum) simplificado.
-
-Inputs:
-- Tipo de datos (personales/sensibles/no).
-- Roles (responsable/encargado o equivalente).
-- Subprocesadores (sí/no, lista si existe).
-- Medidas de seguridad generales.
-- Plazo de retención y borrado.
+Ingressi:
+- Tipo (unilaterale / reciproco).
+- Scopo della divulgazione.
+- Durata della NDA e obbligo.
+- Giurisdizione.
+- Tipo di informazione (tecnica, commerciale, codice, segreti).
 
 Genera:
-1) Objeto y alcance del tratamiento.
-2) Roles y responsabilidades (sin citar leyes específicas).
-3) Subprocesadores: autorización/notificación.
-4) Seguridad: medidas organizativas/técnicas (a nivel general).
-5) Brechas: notificación y cooperación.
-6) Retención, devolución o borrado al terminar.
-Incluye [REEMPLAZAR] donde falten datos y nota “depende de jurisdicción”.`,
-    thumbnail: "",
-  },
+- NDA completo con: definizioni, esclusioni, obblighi, ragionevole cura, non licenza, ritorno / distruzione, durata, rimedi, non sollecitazione (opzionale), legge applicabile, firme.
+- Versione "Summary in 8 bullet" in lingua semplice.
+Include i campi [REPLACING].`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcontratos-019",
-    title: "Compraventa de activo digital (dominio, sitio web, base de emails)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Estructura un contrato de compraventa y entrega (escrow, garantías, no competencia, activos incluidos).",
-    prompt: `Actúa como abogado. Quiero un borrador para compraventa de un activo digital.
+{
+  id: "legalcontratos-010",
+  title: "Non concorrenza / non applicazione (approccio ragionevole e defensibile)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Genera varianti ragionevoli (soprattutto non applicative) minimizzando il rischio di nullità.",
+  prompt: `Agisce come avvocato. Ho bisogno di clausole di non concorrenza / non applicazione.
 
-Inputs:
-- Activo (dominio, web, app, cuentas sociales, contenido).
-- Qué se incluye y qué NO (código, marca, diseños, datos).
-- Precio y forma de pago (anticipo/escrow/hitos).
-- Fecha de cierre y entrega.
-- Garantías del vendedor (titularidad, no infracción, no deudas).
-- Transferencias (DNS, repos, accesos, llaves, cuentas).
-- Si hay base de datos de clientes y consentimiento (si aplica).
+Ingressi:
+- Rapporto (occupazione / appaltatore / fornitore).
+- Industria / attività.
+- Territorio (se applicabile).
+- Data di destinazione.
+- Interessi da proteggere (clienti, dipendenti, segreti).
 
 Genera:
-1) Checklist pre-cierre.
-2) Borrador de contrato con anexos de activos.
-3) Procedimiento de transferencia paso a paso.
-4) Garantías y limitaciones razonables.
-5) No solicitación/no competencia (opcional y razonable).`,
-    thumbnail: "",
-  },
+1) Versione consigliata: NO RICHIESTA per clienti e dipendenti.
+(2) Versione morbida di non concorrenza (se applicabile) con limiti ragionevoli.
+3) Rischi di esecuzione (non comprese le leggi).
+4) Alternative: maggiore riservatezza, non uso, non diversione.
+5) Elenco di controllo per adattarsi alla giurisdizione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legalcontratos-020",
-    title: "Cláusula de resolución de disputas (escalamiento, mediación, arbitraje)",
-    area: "Abogado & Legal",
-    category: "Contratos",
-    summary:
-      "Crea un flujo de resolución de conflictos para reducir pleitos: escalamiento, plazos, jurisdicción/foro.",
-    prompt: `Actúa como abogado. Diseña una sección de resolución de disputas.
+// --- +10 NUEVOS (hasta 20) ---
 
-Inputs:
-- Relación B2B o B2C.
-- País/jurisdicción (si se sabe).
-- Preferencia: tribunales vs arbitraje.
-- Urgencia (medidas cautelares, IP, confidencialidad).
+{
+  id: "legalcontratos-011",
+  title: "Master Service Agreement (MSA) + Dichiarazione di lavoro (SOW)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Strutturare un MSA riutilizzabile e un SOW per progetto per evitare lo scopo strisciare e contenzioso.",
+  prompt: `Agisce come avvocato per i servizi B2B. Progetta uno schema MSA + SOW.
+
+Ingressi:
+- Tipo di servizio.
+- Frequenza del progetto (una / ricorrente).
+- Rischi (delays, dipendenze dei clienti, IP, subappaltatori).
+- Modello di pagamento (per ora / fisso / pietre miliari).
+- Giurisdizione (se conosciuto).
 
 Genera:
-1) Escalamiento: negociación entre responsables (con plazos).
-2) Mediación (opcional) y plazos.
-3) Arbitraje o tribunales: redacción con [REEMPLAZAR] de foro/lengua/sede.
-4) Excepciones para medidas urgentes (IP/confidencialidad).
-5) Reglas de costos y honorarios (genéricas, sin inventar leyes).`,
-    thumbnail: "",
-  },
-];
+1) Che cosa va nella MSA (condizioni generali riutilizzabili).
+2) Che cosa sta succedendo nel SOW (linea, consegnabili, date, accettazione).
+3) SOW modello con campi [REPLACING].
+4) Cambiare le richieste e la clausola di controllo del campo.
+5) Processo di accettazione / rifiuto dei consegnabili.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-012",
+  title: "Accordo di affiliazione (commissioni, attribuzione, frode, pagamenti)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Crea termini per le affiliate con regole chiare per evitare abusi e controversie di commissione.",
+  prompt: `Agisce come avvocato. Scrivere un accordo / termini per i membri.
+
+Ingressi:
+- Prodotto (corso, SaaS, fisico).
+- Commissione (% o importo), cookie / attribuzione.
+- Periodo di pagamento (settimanale / mensile), soglia minima.
+- Reimbursement policy / chargebacks.
+- Canali consentiti (ad, e-mail, coupon, brand cooking).
+- Proibizioni (spam, reclami fuorvianti, incentivi).
+
+Genera:
+1) Definizioni chiave.
+2) Regole di attribuzione e idoneità delle commissioni.
+3) frode e condotta vietata (con esempi).
+(4) Pagamenti: programma, ritenzione, modifiche di rimborso.
+5) Termine ed effetto (perdita di commissioni fraudolente).
+6) Set pronto per incollare in T & C.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-013",
+  title: "Contratto di licenza (templati, richieste, attività)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Definire una licenza per l'uso per il contenuto digitale senza cedimento IP: limiti, sottolicenze, ridistribuzione.",
+  prompt: `Agisce come avvocato di proprietà intellettuale. Imposta un contratto di licenza per i contenuti digitali.
+
+Ingressi:
+- Tipo di contenuto (prompti, modelli, PDF, video, immagini).
+- Uso consentito (personale, commerciale, interno, rivendita).
+- Durata (vita / tempo)
+- Territorio (globale / locale).
+- No. Se permette la sublicenza (sì / no).
+- Proibizioni (redistribuzione, demolizione, condivisione account).
+
+Genera:
+(1) Licenza concessa (obiettivo esatto).
+(2) Restrizioni e usi proibiti.
+3) Attribuzione (se applicabile) e segni.
+4) Terminazione per abuso + rimedi.
+5) Testo "in lingua semplice" da mostrare nel checkout.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-014",
+  title: "Termini e condizioni (Termini di Servizio) per web / app",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Outline + draft TOS per piattaforma di corso / SaaS con account, limiti e cancellazioni.",
+  prompt: `Agisce come avvocato. Crea Termini e Condizioni (TOS) per un web / app.
+
+Ingressi:
+- Tipo (corso, appartenenza, SaaS).
+Paese / giurisdizione.
+- Politica di rimborso / cancellazione.
+- condotta comprovata (condivisione del conto, raschiatura, rivendita).
+- Contenuto utente (se presente).
+- Pagamenti (Stripe, PayPal) e chargeback.
+- Limitazione della responsabilità desiderata.
+
+Genera:
+1) Indice e sezioni.
+2) Cancellatore completo con [REPLACING] quando i dati mancano.
+(3) "uso accessibile dettagliato".
+(4) Pagamenti di sezione / rimborsi / cancellazione chiara.
+5) Versione breve (sommario) per la pagina di checkout.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-015",
+  title: "Clausola di compensazione (indennità): 4 varianti",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Compensazione per IP, abuso, terzi e limiti ragionevoli con la procedura di difesa.",
+  prompt: `Agisce come avvocato. Esso genera clausole di compensazione con un approccio pratico.
+
+Ingressi:
+- Rol (fornitore / cliente).
+- Rischio principale: IP, dati, reclami di terzi, non conformità.
+- Biglietto (basso / medio / alto).
+- No. Se ci sono assicurazioni (sì / no).
+
+Genera 4 varianti:
+A) Compensazione solo per violazione IP (fornitore di compensazione).
+(B) Mutua per non conformità e rivendicazioni da parte di terzi.
+C) Forte per (largo) + come avvicinarlo.
+D) Per B2C digitale (ragionevole + semplice).
+
+Include:
+- Testo della clausola.
+- Procedura: notificazione, controllo della difesa, cooperazione, regolamento.
+- Rischi e consigli di negoziazione.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-016",
+  title: "Forza maggiore + contingenze operative (compresi IA / terzi)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Impostare la forza moderna majeure (fornitori cloud, cadute, blocchi di piattaforma) e ciò che accade ai pagamenti / scadenze.",
+  prompt: `Agisce come avvocato. Esso stabilisce una clausola di forza moderna maggiore.
+
+Ingressi:
+- Tipo di servizio o prodotto.
+- Dipendenze (cloud, API, passerelle, piattaforme).
+- No. Se ci sono scadenze critiche.
+- No. E i pagamenti durante la contingenza.
+
+Genera:
+1) Definizione di forza maggiore con esempi moderni (esclusivi).
+(2) Obbligo di mitigazione e reporting.
+3) Effetti: sospensione degli obblighi, estensione dei termini.
+4) Terminazione se prolungata (X giorni) con effetto.
+5) Regole di pagamento / tassa durante la sospensione.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-017",
+  title: "Clausola di accettazione della consegna (QA, revisioni, criteri)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Evitare \"mai pronto\" con criteri di accettazione, rivedere le finestre e tacito accettazione.",
+  prompt: `Agisce come avvocato. Ho bisogno di una sezione di accettazione delle consegne.
+
+Ingressi:
+- Tipo di consegna (design, dev, contenuto, corso).
+- Numero di giri di recensioni.
+- Tempo di revisione (giorni).
+- No. Ciò che conta come "difetti" contro "cambio di linea".
+
+Genera:
+1) Definizioni (deliverabili, difetto, cambiamento).
+2) Processo: consegna → recensione → feedback → correzione.
+3) accettazione tacita se non rispondono in X giorni.
+4) Limite di revisioni + costo di extra.
+5) Cosa succede se il cliente non collabora (dipendenze).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-018",
+  title: "Protezione dei dati semplificata (DPA) per i fornitori",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Creare un allegato del trattamento dei dati senza inventare la conformità: ruoli, sottoprocessori, lacune.",
+  prompt: `Agisce come avvocato. Disegna un DPA semplificato (Data Processing Addendum).
+
+Ingressi:
+- Tipo di dati (personale / sensibile / no).
+- Roles (responsabile / responsabile o equivalente).
+- Sottoprocessori (sì / no, elenco se disponibile).
+- Misure generali di sicurezza.
+- Tempo di detenzione e cancellazione.
+
+Genera:
+1) Finalità e portata del trattamento.
+2) ruoli e responsabilità (non comprese le leggi specifiche).
+(3) Sottoprocessori: autorizzazione / notifica.
+(4) Sicurezza: misure organizzative / tecniche (a livello generale).
+(5) Breaches: notifica e cooperazione.
+6) Conservazione, restituzione o cancellazione al termine.
+Esso include [REEMPLAZING] dove i dati sono mancanti e "dipende dalla giurisdizione" nota.`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-019",
+  title: "Vendita di beni digitali (dominio, sito web, e-mail base)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Strutturare un contratto di vendita e di consegna (scrow, garanzie, non concorrenza, compresi i beni).",
+  prompt: `Agisce come avvocato. Voglio una bozza per vendere un asset digitale.
+
+Ingressi:
+- Attività (dominio, web, app, account sociali, contenuti).
+- No. Che cosa è incluso e che cosa non è (codice, marca, disegni, dati).
+- Prezzo e metodo di pagamento (avanzata / scrow / milestones).
+- Data di chiusura e consegna.
+- No. Le garanzie del venditore (titolo, non violazione, non debito).
+- Trasferimenti (DNS, repos, accessi, chiavi, account).
+- No. Se c'è un database e un consenso del cliente (se applicabile).
+
+Genera:
+1) Elenco di controllo pre-chiusura.
+(2) Progetto di contratto con gli allegati patrimoniali.
+3) Procedura di trasferimento passo per passo.
+(4) Garanzie e limitazioni ragionevoli.
+5) Nessuna applicazione / nessuna concorrenza (opzionale e ragionevole).`,
+  thumbnail: ""
+},
+
+{
+  id: "legalcontratos-020",
+  title: "Clausola di risoluzione di controversie (escalation, mediazione, arbitrato)",
+  area: "Avvocato e legale",
+  category: "Contratti",
+  summary:
+  "Crea un flusso di risoluzione dei conflitti per ridurre le controversie: escalation, limiti di tempo, giurisdizione / forum.",
+  prompt: `Agisce come avvocato. Progetta una sezione di risoluzione delle controversie.
+
+Ingressi:
+- Rapporto B2B o B2C.
+- Paese / giurisdizione (se conosciuto).
+- Preferenza: tribunali contro arbitrato.
+- Emergenza (misure precauzionali, IP, riservatezza).
+
+Genera:
+1) Escalation: negoziazione tra i responsabili (con limiti di tempo).
+2) Mediazione (opzionale) e limiti di tempo.
+(3) arbitrato o tribunali: forum / lingua / quartier generale [REEMPLAZAR].
+(4) Eccezioni per misure urgenti (IP / riservatezza).
+5) Regole di costi e tasse (generico, senza redigere leggi).`,
+  thumbnail: ""
+}];

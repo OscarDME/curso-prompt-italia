@@ -1,502 +1,501 @@
 // src/lib/prompts/text/finanzas-contabilidad-presupuesto-planificacion.js
 
 export const textPromptsFinanzasContabilidadPresupuestoPlanificacion = [
-  {
-    id: "finpres-001",
-    title: "Presupuesto mensual 50/30/20 personalizado + métricas de control",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Crea un presupuesto realista y medible para tu situación con reglas claras.",
-    prompt: `Actúa como asesor financiero (enfoque práctico, sin prometer rendimientos).
+{
+  id: "finpres-001",
+  title: "Bilancio mensile 50 / 30 / 20 metriche personalizzate + controllo",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Crea un bilancio realistico e misurabile per la tua situazione con regole chiare.",
+  prompt: `Agisce come consulente finanziario (approccio pratico, senza ritorni promettenti).
 
-Inputs:
-- Ingreso neto mensual.
-- Deudas (tipo, tasa, pago mínimo).
-- Gastos fijos (renta, servicios, transporte, etc).
-- Gastos variables.
-- Metas (ahorro, emergencia, compra grande).
-- Tolerancia al riesgo (baja/media/alta).
-
-Genera:
-1) Presupuesto mensual estilo 50/30/20 adaptado a mis números (si no aplica, propone otra estructura).
-2) Tabla: categoría | monto | % | límite semanal.
-3) Reglas de control (top 7) para no romper el presupuesto.
-4) 5 métricas clave para revisar cada semana (incluye umbrales).
-5) Plan de ajuste si hay un mes malo (ingreso baja 20%).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-002",
-    title: "Presupuesto base cero (Zero-Based Budget) paso a paso",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Asigna cada peso/dólar a un propósito para eliminar fugas y gastar con intención.",
-    prompt: `Actúa como coach financiero.
-
-Inputs:
-- Ingreso neto mensual.
-- Lista de gastos fijos y variables del último mes.
-- Metas financieras (3).
-- Ahorro actual.
-- Cuenta(s) bancarias que uso.
+Ingressi:
+- Entrate nette mensili.
+- Debiti (tipo, tasso, pagamento minimo).
+- Costi fissi (reddito, servizi, trasporti, ecc.).
+- Costi variabili.
+- Obiettivi (risparmio, emergenza, grande acquisto).
+- Tolleranza al rischio (bassa / media / alta).
 
 Genera:
-1) Presupuesto base cero con categorías sugeridas.
-2) Asignación exacta para: fijos, variables, ahorro, fondo de emergencia, deuda, diversión.
-3) Con qué frecuencia mover dinero (semanal/quincenal) y cómo.
-4) Plantilla de revisión semanal (checklist).
-5) 10 recortes "sin dolor" según mis gastos.`,
-    thumbnail: "",
-  },
+1) Stile di bilancio mensile 50 / 30 / 20 adattato ai miei numeri (se non applicato, proporre un'altra struttura).
+2) Tabella: categoria - 124; importo - 124;% - 124; limite settimanale.
+3) regole di controllo (top 7) per evitare di rompere il bilancio.
+4) 5 metriche chiave da rivedere ogni settimana (include soglie).
+5) Piano di regolazione se c'è un mese cattivo (basso reddito 20%).`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-003",
-    title: "Plan para crear fondo de emergencia (3–6 meses) sin ahorcarte",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Construye un colchón financiero con hitos, plazos y automatizaciones.",
-    prompt: `Actúa como asesor financiero conservador.
+{
+  id: "finpres-002",
+  title: "Bilancio di base zero (Zero-Based Budget) passo dopo passo",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Assegnare ogni peso / dollaro a uno scopo per eliminare perdite e spendere con intenti.",
+  prompt: `Agisce come allenatore finanziario.
 
-Inputs:
-- Gasto mensual esencial (solo lo básico).
-- Ahorro actual.
-- Estabilidad de ingresos (estable/variable).
-- Dependientes (sí/no).
-- Riesgos (salud, auto, trabajo).
-
-Genera:
-1) Objetivo recomendado de emergencia (3, 4.5 o 6 meses) con justificación.
-2) Plan de aportaciones por semana/mes para llegar en X meses (propón 3 escenarios).
-3) Dónde guardarlo (opciones seguras, liquidez) sin mencionar marcas si no es necesario.
-4) Reglas de uso: cuándo sí / cuándo no tocarlo.
-5) Checklist mensual para mantenerlo y reponerlo si lo uso.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-004",
-    title: "Plan agresivo para salir de deudas (avalancha vs bola de nieve)",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Estrategia para pagar deudas más rápido con calendario de pagos y recortes.",
-    prompt: `Actúa como asesor financiero y analista.
-
-Inputs:
-- Lista de deudas: saldo, tasa, pago mínimo.
-- Ingreso neto mensual.
-- Capacidad extra de pago mensual.
-- Prioridad personal (motivación rápida vs ahorro en intereses).
+Ingressi:
+- Entrate nette mensili.
+- Elenco delle spese fisse e variabili per l'ultimo mese.
+- Obiettivi finanziari (3).
+- Risparmio attuale.
+- conto bancario (s) che uso.
 
 Genera:
-1) Comparación avalancha vs bola de nieve aplicada a mis números.
-2) Calendario de pagos mensual (primeros 6 meses detallados + resumen anual).
-3) Cómo redistribuir pagos cuando una deuda se liquida.
-4) 10 ideas para liberar flujo de efectivo este mes.
-5) Reglas para no recaer (sistema de prevención).`,
-    thumbnail: "",
-  },
+1) Bilancio base zero con categorie suggerite.
+2) Accurata allocazione per: fisso, variabile, risparmio, fondo di emergenza, debito, divertimento.
+3) Quante volte spostare i soldi (settimanale / quindici giorni) e come.
+4) Modello di revisione settimanale (elenco di controllo).
+5) 10 "nessun dolore" taglia secondo le mie spese.`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-005",
-    title: "Plan de flujo de efectivo semanal (cashflow) para ingresos variables",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Organiza tu dinero por semanas y prioridades si cobras por ventas/comisiones.",
-    prompt: `Actúa como planificador financiero para freelancers/emprendedores.
+{
+  id: "finpres-003",
+  title: "Pianificare per creare un fondo di emergenza (3-6 mesi) senza appendere",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Costruisce un materasso finanziario con pietre miliari, timeline e automazione.",
+  prompt: `Agisce come consigliere finanziario conservatore.
 
-Inputs:
-- Ingresos estimados por semana (últimas 8 semanas).
-- Gastos fijos con fecha de pago.
-- Gastos variables promedio.
-- Deudas y metas.
-- Método de cobro (diario/semanal/quincenal).
-
-Genera:
-1) Sistema de “buckets” (cubetas) y % sugeridos.
-2) Calendario semanal de asignación (qué día separar qué).
-3) Regla de prioridad cuando entra dinero (orden exacto).
-4) Plan para semanas malas (umbral y acciones).
-5) Checklist de cierre semanal (15 min).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-006",
-    title: "Presupuesto para pareja/familia (modelo justo) + acuerdos",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Crea un sistema compartido sin peleas: contribuciones, metas y reglas.",
-    prompt: `Actúa como mediador financiero.
-
-Inputs:
-- Ingreso neto de cada persona.
-- Gastos compartidos y personales.
-- Metas (casa, viaje, emergencia, deudas).
-- Estilo de gasto (ahorrador/gastón/mixto).
+Ingressi:
+- Spese mensili essenziali (solo di base).
+- Risparmio attuale.
+- Stabilità dei redditi (stabile / variabile).
+- Dipendenti (sì / no).
+- Rischi (salute, auto, lavoro).
 
 Genera:
-1) Modelo recomendado (50/50, proporcional, híbrido) con justificación.
-2) Presupuesto compartido y personal con montos.
-3) Reglas: compras grandes, suscripciones, emergencias, deudas.
-4) Reunión financiera mensual (agenda + checklist).
-5) “Acuerdo escrito” tipo 1 página para firmar simbólicamente.`,
-    thumbnail: "",
-  },
+1) Obiettivo di emergenza consigliato (3, 4.5 o 6 mesi) con giustificazione.
+2) Un piano di contributo per settimana / mese per arrivare in X mesi (3 scenari).
+3) Dove salvarlo (opzione sicura, liquidità) per non menzionare i segni se non necessario.
+4) Regole d'uso: quando sì / quando non toccarlo.
+5) Lista di controllo mensile per mantenere e riparare se lo si utilizza.`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-007",
-    title: "Plan anual de metas financieras (OKRs) con hitos mensuales",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Convierte tus metas en objetivos medibles y seguimiento mensual.",
-    prompt: `Actúa como asesor financiero orientado a metas.
+{
+  id: "finpres-004",
+  title: "Piano aggressivo per lasciare il debito (avalanche vs snowball)",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Strategia per pagare i debiti più veloci con il programma di pagamento e tagli.",
+  prompt: `Agisce come un analista e finanziario.
 
-Inputs:
-- Metas (máx 5) con monto y fecha deseada.
-- Ingreso actual y esperado.
-- Deudas.
-- Ahorro actual.
-- Riesgos y prioridades.
-
-Genera:
-1) OKRs financieros (Objectives + Key Results) para 12 meses.
-2) Hitos mensuales con montos exactos.
-3) Indicadores adelantados (hábitos) y atrasados (resultados).
-4) Plan de revisión trimestral: qué ajustar y cómo.
-5) Plantilla de tablero (dashboard) en texto para copiar a Notion/Sheets.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-008",
-    title: "Plan para comprar algo grande (auto/casa/equipo) sin descapitalizarte",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Define cuánto ahorrar, cuánto financiar y cómo no romper tu estabilidad.",
-    prompt: `Actúa como asesor financiero.
-
-Inputs:
-- Qué quieres comprar y costo estimado.
-- Ahorro disponible.
-- Ingreso neto mensual.
-- Deudas actuales.
-- Urgencia (alta/media/baja).
-- Tolerancia al riesgo.
+Ingressi:
+- Elenco dei debiti: saldo, tasso, pagamento minimo.
+- Entrate nette mensili.
+- Capacità extra per il pagamento mensile.
+- Priorità personale (rapido motivazione vs risparmio di interessi).
 
 Genera:
-1) Monto máximo recomendado para pago mensual (regla conservadora).
-2) Plan de ahorro para enganche con 3 escenarios (rápido/medio/relajado).
-3) Impacto en presupuesto mensual y qué recortar.
-4) Checklist antes de comprar (documentos, seguros, mantenimiento).
-5) Plan "post-compra" para recuperar liquidez.`,
-    thumbnail: "",
-  },
+1) confronto valanga vs palla di neve applicato ai miei numeri.
+2) Programma mensile di pagamento (primo 6 mesi dettagliati + sommario annuale).
+3) Come ridistribuire i pagamenti quando un debito è sgomberato.
+4) 10 idee per rilasciare flusso di cassa questo mese.
+5) Regole di non ricorrenza (sistema di prevenzione).`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-009",
-    title: "Plan de reducción de gastos (auditoría) con ranking por impacto",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Detecta fugas de dinero y recorta de forma inteligente sin afectar calidad de vida.",
-    prompt: `Actúa como auditor personal de gastos.
+{
+  id: "finpres-005",
+  title: "Piano settimanale di flusso di cassa (cashflow) per reddito variabile",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Organizza il tuo denaro per settimane e priorità se si carica per le vendite / commissioni.",
+  prompt: `Agisce come pianificatore finanziario per freelance / imprenditori.
 
-Inputs:
-- Extracto de gastos del último mes (lista o categorías).
-- Gastos fijos (renta, servicios, etc.).
-- Suscripciones.
-- Compras hormiga.
-- Objetivo: ahorrar X por mes.
-
-Genera:
-1) Clasificación de gastos: esencial / importante / prescindible.
-2) Ranking de recortes por impacto (top 15) con ahorro estimado.
-3) Plan de 30 días para implementar recortes (semanal).
-4) Reglas para evitar “rebote” (gastar por ansiedad).
-5) Alternativas baratas para 10 gastos comunes.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-010",
-    title: "Sistema de sobres (envelope method) moderno con cuentas digitales",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Implementa el método de sobres usando cuentas/bóvedas digitales y automatizaciones.",
-    prompt: `Actúa como coach financiero.
-
-Inputs:
-- Ingreso neto mensual.
-- Frecuencia de cobro.
-- Categorías principales de gasto.
-- Nivel de disciplina (bajo/medio/alto).
+Ingressi:
+- reddito stimato a settimana (ultimi 8 settimane).
+- Spese fissate con data di pagamento.
+- Costi variabili medi.
+- Debiti e gol.
+- Metodo di raccolta (daily / settimanale / fortnight).
 
 Genera:
-1) Estructura de sobres (10–15) con % sugeridos.
-2) Reglas de recarga (cada cobro) y límites.
-3) Qué hacer si un sobre se queda sin fondos (protocolos).
-4) Automatizaciones recomendadas (transferencias, alertas).
-5) Checklist de mantenimiento semanal de 10 minutos.`,
-    thumbnail: "",
-  },
+1) Sistema di "buckets" e% suggerito.
+2) Programma di allocazione settimanale (che giorno per separare cosa).
+3) Regola di priorità quando il denaro entra (ordine esatto).
+4) Pianifica per le settimane cattive (la soglia e le azioni).
+5) Controllo settimanale di chiusura (15 min).`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-011",
-    title: "Presupuesto para estudiantes (rentas, comida, transporte) + hacks de ahorro",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Presupuesto simple para sobrevivir y avanzar con poco ingreso.",
-    prompt: `Actúa como asesor financiero para estudiantes.
+{
+  id: "finpres-006",
+  title: "Partner / bilancio familiare (modello familiare) + accordi",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Crea un sistema condiviso senza combattimenti: contributi, obiettivi e regole.",
+  prompt: `Agisce come mediatore finanziario.
 
-Inputs:
-- Ingreso mensual (beca, trabajo).
-- Renta y servicios.
-- Transporte.
-- Comida.
-- Deudas (si aplica).
-- Meta (ahorrar X / pagar deuda / estabilizar).
+Ingressi:
+- Reddito netto di ogni persona.
+- Spese condivise e personali.
+- Obiettivi (casa, viaggio, emergenza, debiti).
+- No. Stile di sospensione (risparmio / speso / misto).
 
 Genera:
-1) Presupuesto por categorías (ideal y mínimo viable).
-2) Plan semanal de comida con costo estimado (sin marcas).
-3) 20 hacks de ahorro prácticos y realistas.
-4) Señales de alerta (cuando estás fuera de control) + qué hacer.
-5) Mini-plan para crear un fondo de emergencia de 1 mes.`,
-    thumbnail: "",
-  },
+1) Modello consigliato (50 / 50, proporzionale, ibrido) con giustificazione.
+2) Bilancio condiviso e personale con importi.
+3) Regole: grandi acquisti, abbonamenti, emergenze, debiti.
+4) Riunione finanziaria mensile (agenda + checklist).
+5. "Accordo scritto" tipo 1 pagina per firmare simbolicamente.`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-012",
-    title: "Presupuesto para negocios pequeños (micro-P&L) + control de caja",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Organiza ingresos, costos, gastos y caja para no quedarte sin liquidez.",
-    prompt: `Actúa como contador/finanzas para micro-negocios.
+{
+  id: "finpres-007",
+  title: "Piano d'obiettivo finanziario annuale (OKRs) con tappe mensili",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Trasforma i tuoi obiettivi in obiettivi misurabili e follow-up mensile.",
+  prompt: `Agisce come consulente finanziario orientato agli obiettivi.
 
-Inputs:
-- Ingresos promedio mensuales.
-- Costos directos (proveedores, plataformas, comisiones).
-- Gastos operativos (apps, sueldos, anuncios).
-- Impuestos estimados (si aplica).
-- Objetivo de utilidad.
-
-Genera:
-1) Plantilla de micro P&L: ingresos, COGS, margen, gastos, utilidad.
-2) Presupuesto mensual por rubros con % recomendados.
-3) Regla de “reserva” para impuestos y contingencias.
-4) Ritmo de revisión: semanal (caja) y mensual (P&L).
-5) Señales de peligro de caja + plan de recuperación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-013",
-    title: "Plan para elevar tu ahorro del 0% al 15% en 60 días",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Estrategia gradual para aumentar ahorro sin sentir que te asfixias.",
-    prompt: `Actúa como coach financiero conductual.
-
-Inputs:
-- Ingreso neto mensual.
-- Ahorro actual (0–5%).
-- 5 gastos que más te pesan.
-- Nivel de estrés financiero (1–10).
-- Meta de ahorro.
+Ingressi:
+- Obiettivi (max 5) con importo e data desiderata.
+- Entrata attuale e prevista.
+- Debt.
+- Risparmio attuale.
+- Rischi e priorità.
 
 Genera:
-1) Plan de 8 semanas (objetivo semanal de ahorro).
-2) Recortes progresivos con alternativas.
-3) Automatización recomendada (día y monto).
-4) Recompensas y reglas para mantener motivación (sin sabotear).
-5) Qué hacer si fallas una semana (protocolo de regreso).`,
-    thumbnail: "",
-  },
+1) OKR finanziari (Obiettivi + Risultati chiave) per 12 mesi.
+2) Le pietre miliari mensili con importi esatti.
+3) Indicatori avanzati (abita) e retro (risultati).
+4) Piano di revisione trimestrale: cosa regolare e come.
+5) Dashboard in testo per copiare Nozione / Fogli.`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-014",
-    title: "Plan para organizar pagos y fechas (anti-morosidad) + calendario",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Evita recargos y atrasos: calendario, recordatorios y prioridades.",
-    prompt: `Actúa como asesor financiero.
+{
+  id: "finpres-008",
+  title: "Pianificare per comprare qualcosa di grande (auto / casa / attrezzature) senza svalutazione",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Definire quanto risparmiare, come finanziare e come non rompere la vostra stabilità.",
+  prompt: `Agisce come consulente finanziario.
 
-Inputs:
-- Lista de cuentas a pagar + fechas.
-- Ingreso y frecuencia de cobro.
-- Si hay deudas con interés/recargos.
-- Método actual (caótico/medio/ordenado).
-
-Genera:
-1) Calendario de pagos mensual (estructura por semanas).
-2) Estrategia: pagar al cobrar vs pagar al vencimiento (recomienda una).
-3) Sistema de recordatorios y revisión semanal.
-4) Prioridad de pagos (orden con justificación).
-5) Plan de contingencia si falta dinero (qué posponer y cómo negociar).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-015",
-    title: "Plan de “presupuesto minimalista” (3 cuentas) para gente ocupada",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Sistema simple y automático con pocas decisiones.",
-    prompt: `Actúa como asesor financiero. Diseña un sistema de 3 cuentas (o 3 buckets) súper simple.
-
-Inputs:
-- Ingreso neto mensual.
-- Gastos fijos.
-- Metas (ahorro/deuda).
-- Tipo de ingreso (estable/variable).
-- Disciplina (baja/media/alta).
+Ingressi:
+- No. Che cosa si desidera acquistare e costi stimati.
+- Risparmio disponibile.
+- Entrate nette mensili.
+- Debiti attuali.
+- Emergenza (alto / medio / basso).
+- Tolleranza al rischio.
 
 Genera:
-1) Estructura 3 cuentas: Gastos fijos / Gastos variables / Objetivos.
-2) Porcentajes y montos exactos.
-3) Cuándo transferir (día del mes o por cobro).
-4) Reglas anti-desorden.
-5) Checklist mensual (10 min) para mantenerlo.`,
-    thumbnail: "",
-  },
+1) Importo massimo consigliato per il pagamento mensile (regola di prenotazione).
+2) Piano di risparmio per 3 scenari (veloce / medio / rilassato).
+3) Impatto sul bilancio mensile e cosa tagliare.
+4) Elenco di controllo prima dell'acquisto (documenti, assicurazione, manutenzione).
+5) Piano post-acquisto per recuperare la liquidità.`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-016",
-    title: "Plan de presupuesto para viajes (sin endeudarte)",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Ahorra para un viaje con calendario, costos y un plan B.",
-    prompt: `Actúa como asesor financiero.
+{
+  id: "finpres-009",
+  title: "Piano di riduzione dei costi (audit) con grado di impatto",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Rileva perdite di denaro e tagli in modo intelligente senza compromettere la qualità della vita.",
+  prompt: `Agisce come revisore delle spese personali.
 
-Inputs:
-- Costo estimado del viaje.
-- Fecha del viaje.
-- Ahorro actual.
-- Ingreso mensual.
-- Nivel de flexibilidad (puedo recortar mucho/poco).
-
-Genera:
-1) Meta mensual de ahorro y fecha de cumplimiento (3 escenarios).
-2) Categorías del viaje con % sugeridos (vuelos, hospedaje, comida, extras).
-3) Estrategia de compra (qué pagar primero y cuándo).
-4) Plan B si suben precios o baja el ingreso.
-5) Checklist final 2 semanas antes del viaje.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-017",
-    title: "Plan financiero post-crisis (reconstrucción en 90 días)",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Recupera control después de un golpe (deuda, pérdida de ingreso, emergencia).",
-    prompt: `Actúa como asesor financiero en situaciones de crisis.
-
-Inputs:
-- Qué pasó (pérdida de ingreso, emergencia médica, deuda).
-- Ingreso actual.
-- Gastos esenciales.
-- Deudas.
-- Apoyos disponibles (familia, seguro, etc).
+Ingressi:
+- Estratto delle spese del mese scorso (elenco o categorie).
+- Spese fisse (reddito, servizi, ecc.).
+- Abbonamenti.
+- Compri la formica.
+- Obiettivo: salvare X al mese.
 
 Genera:
-1) Presupuesto de supervivencia (mínimo viable) por 30 días.
-2) Plan 90 días en 3 fases (estabilizar, reparar, construir).
-3) Qué negociar y con quién (deudas, servicios, renta) + guiones breves.
-4) Checklist semanal de seguimiento.
-5) Señales de que ya puedo volver a “modo normal”.`,
-    thumbnail: "",
-  },
+1) Classificazione delle spese: essenziale / importante / spendibile.
+2) Valutazione dei tagli di impatto (top 15) con risparmio stimato.
+3) Piano di 30 giorni per implementare tagli (settimana).
+4) Regole per evitare "bunce" (spese per ansia).
+5) Alternative economiche per 10 costi comuni.`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-018",
-    title: "Plan para contabilizar gastos y ahorrar impuestos (organización documental)",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Sistema para ordenar recibos, categorías y reportes mensuales (sin asesoría fiscal específica).",
-    prompt: `Actúa como contador organizado. (No des asesoría fiscal específica, solo estructura y buenas prácticas.)
+{
+  id: "finpres-010",
+  title: "Metodo di busta moderno con account digitali",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Applicare il metodo delle buste utilizzando account digitali / volte e automazioni.",
+  prompt: `Agisce come allenatore finanziario.
 
-Inputs:
-- Si soy empleado/freelancer/empresa.
-- Tipos de gastos (equipo, software, transporte, etc).
-- Herramientas actuales (nada/Excel/app).
-- Frecuencia de facturación/recibos.
-
-Genera:
-1) Estructura de carpetas y nomenclatura (digital) por mes y tipo.
-2) Categorías contables comunes (lista) para registrar gastos.
-3) Rutina semanal (15 min) + rutina mensual (60 min).
-4) Plantilla de registro: fecha, proveedor, categoría, método, comprobante, nota.
-5) Checklist de cierre mensual para estar listo ante un contador/auditoría.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "finpres-019",
-    title: "Plan de presupuesto para “crecer ingresos” (Bono: estrategia de subida)",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Alinea presupuesto con crecimiento: inversión, ahorro y control del gasto.",
-    prompt: `Actúa como asesor financiero para crecimiento personal/negocios.
-
-Inputs:
-- Ingreso actual.
-- Habilidad principal (ventas, freelancing, etc).
-- Tiempo disponible a la semana.
-- Gastos fijos.
-- Meta de ingreso en 90 días.
+Ingressi:
+- Entrate nette mensili.
+- Frequenza della collezione.
+- Principali categorie di spese.
+- Livello di disciplina (basso / medio / alto).
 
 Genera:
-1) Presupuesto “actual” vs “presupuesto objetivo” (qué cambia).
-2) Porcentaje recomendado para inversión en crecimiento (cursos, herramientas, ads, etc).
-3) Plan de acción semanal para subir ingresos (5 acciones).
-4) Indicadores de retorno (qué medir) para decidir si vale la pena.
-5) Reglas para evitar que el aumento de ingreso se vuelva aumento de gasto.`,
-    thumbnail: "",
-  },
+1) Struttura di buste (10-15) con% suggerito.
+2) Regole di ricarica (ogni tassa) e limiti.
+3) Cosa fare se una busta esaurisce fondi (protocolli).
+(4) Automazione consigliata (trasferimenti, avvisi).
+5) Checklist di manutenzione settimanale di 10 minuti.`,
+  thumbnail: ""
+},
 
-  {
-    id: "finpres-020",
-    title: "Diagnóstico financiero express (score) + plan de mejora",
-    area: "Finanzas & Contabilidad",
-    category: "Presupuesto & Planificación",
-    summary:
-      "Evalúa tu salud financiera con un score y un plan de 30 días.",
-    prompt: `Actúa como asesor financiero.
+{
+  id: "finpres-011",
+  title: "Bilancio degli studenti (rent, food, transport) + hack di risparmio",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Bilancio semplice per sopravvivere e avanzare con reddito basso.",
+  prompt: `Agisce come consulente finanziario per gli studenti.
 
-Inputs:
-- Ingreso neto.
-- Ahorro disponible.
-- Deudas y pagos.
-- Gastos esenciales.
-- Objetivos principales.
-- Estrés financiero (1–10).
+Ingressi:
+- Reddito mensile (scholarship, work).
+- Reddito e servizi.
+- Trasporti.
+- Cibo.
+- Debito (se applicabile).
+- Obiettivo (salvare X / pagare debito / stabilizzare).
 
 Genera:
-1) Score de salud financiera (0–100) con 5 sub-scores (ahorro, deuda, liquidez, estabilidad, hábitos).
-2) Diagnóstico: 3 problemas raíz.
-3) Plan de 30 días con tareas semanales.
-4) Reglas simples (máx 7) para mantener el progreso.
-5) Checklist de revisión mensual para no volver atrás.`,
-    thumbnail: "",
-  },
-];
+1) Bilancio di categoria (ideale e minimo praticabile).
+2) Piano alimentare settimanale con costo stimato (nessun segno).
+3) 20 hack di risparmio pratico e realistico.
+4) Segni di avvertimento (quando sei fuori controllo) + cosa fare.
+5) Mini-piano per creare un fondo di emergenza di 1 mese.`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-012",
+  title: "Bilancio per le piccole imprese (micro-P & L) + cash control",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Organizza reddito, costi, spese e contanti per non essere lasciato senza liquidità.",
+  prompt: `Agisce come contabile / finanza per micro-business.
+
+Ingressi:
+- reddito mensile medio.
+- Costi diretti (fornitori, piattaforme, commissioni).
+- Costi operativi (app, stipendi, annunci).
+- Imposte stimate (se applicabili).
+- Obiettivo utile.
+
+Genera:
+1) MicroP & L modello: reddito, COGS, margine, spesa, utilità.
+2) Bilancio mensile per articoli con consigliato%.
+3) "Riserva" regola per le tasse e le contingenze.
+4) Tasso di revisione: settimanale (scatola) e mensile (P & L).
+5) Segnali di rischio di cassa + piano di recupero.`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-013",
+  title: "Pianifica di aumentare i risparmi dal 0% al 15% in 60 giorni",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Una strategia graduale per aumentare i risparmi senza sentirsi soffocare.",
+  prompt: `Agisce come un allenatore finanziario comportamentale.
+
+Ingressi:
+- Entrate nette mensili.
+- Risparmio attuale (0-5%).
+- 5 spese che pesano di piu' su di te.
+- Livello di stress finanziario (1-10).
+- Risparmio obiettivo.
+
+Genera:
+1) piano di 8 settimane (obiettivo di risparmio settimanale).
+2) Tagliamenti progressivi con alternative.
+(3) Automazione consigliata (giorno e quantità).
+4) Premi e regole per mantenere la motivazione (senza sabotaggio).
+5) Cosa fare se si perde una settimana (protocollo di ritorno).`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-014",
+  title: "Piano per organizzare pagamenti e date (pagamento anticipato) + calendario",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Evitare ricarica e arretrati: calendario, promemoria e priorità.",
+  prompt: `Agisce come consulente finanziario.
+
+Ingressi:
+- Elenco dei conti da pagare + date.
+- Reddito e frequenza di raccolta.
+- No. Se ci sono interessi / debiti di ricarica.
+- Metodo attuale (caotico / medio / ordinato).
+
+Genera:
+1) Programma mensile di pagamento (struttura a settimana).
+2) Strategia: pagare quando si raccolgono vs a pagare a scadenza (si raccomanda uno).
+3) Sistema di promemoria e revisione settimanale.
+(4) Priorità dei pagamenti (ordine con giustificazione).
+5) Contingency plan se il denaro manca (cosa rinviare e come negoziare).`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-015",
+  title: "Piano \"minimalist budget\" (3 conti) per persone occupate",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Sistema semplice e automatico con poche decisioni.",
+  prompt: `Agisce come consulente finanziario. Progetta un sistema di 3 account super semplice (o 3 secchi).
+
+Ingressi:
+- Entrate nette mensili.
+- Costi fissi.
+- Obiettivi (risparmio / debito).
+- Tipo di reddito (stabile / variabile).
+- Disciplina (bassa / media / alta).
+
+Genera:
+(1) Struttura 3 conti: costi fissi / variabili / oggettivi.
+2) Percentuali e importi esatti.
+3) Quando trasferire (giorno del mese o per raccolta).
+4) regole anti-disordine.
+5) Elenco mensile (10 min) per tenerlo.`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-016",
+  title: "Piano di bilancio di viaggio (senza debito)",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Risparmia per un viaggio con orari, costi e un piano B.",
+  prompt: `Agisce come consulente finanziario.
+
+Ingressi:
+- Costo stimato del viaggio.
+- Data del viaggio.
+- Risparmio attuale.
+- Reddito mensile.
+- Livello di flessibilità (Posso tagliare molto / poco).
+
+Genera:
+1) Obiettivo mensile di risparmio e data di conformità (3 scenari).
+2) Categorie del viaggio con% suggerito (momenti, alloggio, cibo, extra).
+3) strategia di acquisto (cosa pagare prima e quando).
+(4) Piano B se i prezzi aumentano o il reddito cade.
+5) Lista di controllo finale 2 settimane prima del viaggio.`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-017",
+  title: "Piano finanziario postcrisi (ricostruzione di 90 giorni)",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Recuperare il controllo dopo un colpo (debito, perdita di reddito, emergenza).",
+  prompt: `Agisce come consulente finanziario in situazioni di crisi.
+
+Ingressi:
+- No. Che cosa è successo (perdita di reddito, emergenza medica, debito).
+- Entrata attuale.
+- Costi essenziali.
+- Debt.
+- Supporti disponibili (famiglia, assicurazione, ecc.).
+
+Genera:
+1) Bilancio di sopravvivenza (minimo realizzabile) per 30 giorni.
+2) Piano 90 giorni in 3 fasi (stabilizzare, riparare, costruire).
+3) Che negoziare e con chi (debiti, servizi, reddito) + copioni brevi.
+4) Elenco di controllo settimanale di monitoraggio.
+5) Segni che posso tornare alla "modalità normale".`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-018",
+  title: "Pianifica di tenere conto delle spese e risparmia le tasse (organizzazione documentale)",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Sistema per l'ordinazione di ricevute mensili, categorie e relazioni (senza specifica consulenza fiscale).",
+  prompt: `Agisce come contabile organizzato. (Non dare consigli fiscali specifici, solo struttura e buona pratica.)
+
+Ingressi:
+- No. Se sono un dipendente / freelance / società.
+- Tipi di spesa (attrezzatura, software, trasporto, ecc.).
+- Strumenti attuali (niente / Excel / app).
+- Frequenza di fatturazione / ricevute.
+
+Genera:
+1) Struttura della cartella e (digitale) nomenclatura per mese e tipo.
+2) Categorie contabili comuni (elenco) per la registrazione delle spese.
+3) routine settimanale (15 min) + routine mensile (60 min).
+4) Modello di registrazione: data, fornitore, categoria, metodo, voucher, nota.
+5) Controllo mensile di chiusura per essere pronto per un contabile / audit.`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-019",
+  title: "Piano di bilancio per \"crescita dei redditi\" (Bonus: aumentare la strategia)",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Bilancio di Alinea con crescita: investimento, risparmio e controllo delle spese.",
+  prompt: `Agisce come consulente finanziario per la crescita personale / business.
+
+Ingressi:
+- Entrata attuale.
+- Capacità principale (vendita, freelancing, ecc.).
+- Tempo disponibile a settimana.
+- Costi fissi.
+- Obiettivo di reddito in 90 giorni.
+
+Genera:
+1) "corrente" di bilancio vs "target budget" (che cambia).
+2) percentuale raccomandata per gli investimenti in crescita (corsi, strumenti, annunci, ecc.).
+3) Piano d'azione settimanale per aumentare il reddito (5 azioni).
+4) Indicatori di ritorno (che misura) per decidere se ne vale la pena.
+5) Regole per evitare che un aumento del reddito diventi un aumento delle spese.`,
+  thumbnail: ""
+},
+
+{
+  id: "finpres-020",
+  title: "Diagnosi finanziaria Express (score) + piano di miglioramento",
+  area: "Finanza e contabilità",
+  category: "Bilancio e pianificazione",
+  summary:
+  "Valuta la tua salute finanziaria con un punteggio e un piano di 30 giorni.",
+  prompt: `Agisce come consulente finanziario.
+
+Ingressi:
+- Reddito netto.
+- Risparmio disponibile.
+- Debiti e pagamenti.
+- Costi essenziali.
+- Obiettivi principali.
+- Lo stress finanziario (1-10).
+
+Genera:
+1) punteggio di salute finanziaria (0-100) con 5 sub-score (risparmio, debito, liquidità, stabilità, abitudini).
+2) diagnosi: 3 problemi di radice.
+3) Piano di 30 giorni con compiti settimanali.
+4) Regole semplici (max 7) per mantenere il progresso.
+5) Rassegna mensile Checklist per non tornare indietro.`,
+  thumbnail: ""
+}];

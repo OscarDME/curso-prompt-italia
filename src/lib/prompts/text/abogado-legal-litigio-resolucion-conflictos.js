@@ -1,501 +1,500 @@
 // src/lib/prompts/text/abogado-legal-litigio-resolucion-conflictos.js
 
 export const textPromptsAbogadoLegalLitigioResolucionConflictos = [
-  {
-    id: "legallitigio-001",
-    title: "Análisis inicial de caso + estrategia (árbol de decisiones)",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Diagnóstico completo del caso: hechos, riesgos, opciones y estrategia recomendada.",
-    prompt: `Actúa como abogado litigante senior. Analiza el caso y diseña estrategia.
+{
+  id: "legallitigio-001",
+  title: "Analisi dei casi iniziali + strategia (albero di decisione)",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Diagnosi completa dei casi: fatti, rischi, opzioni e strategia consigliata.",
+  prompt: `Agisce come contenzioso senior. Analizza il caso e progetta la strategia.
 
-Inputs:
-- Jurisdicción/país (sin citar leyes específicas).
-- Tipo de conflicto (civil, mercantil, consumo, etc.).
-- Hechos en bullet points (cronología).
-- Partes involucradas y relación.
-- Evidencia disponible (docs, chats, testigos).
-- Objetivo del cliente (cobrar, defenderse, acuerdo, medidas urgentes).
-- Presupuesto/urgencia.
-
-Genera:
-1) Resumen del caso (1 página).
-2) Issues clave y puntos controvertidos.
-3) Fortalezas/debilidades (tabla).
-4) Árbol de decisiones: A) negociar, B) mediación, C) demanda, D) defensa.
-5) Plan de próximos 14 días (acciones y documentos a reunir).
-6) Mensaje para el cliente explicando riesgos en lenguaje simple.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legallitigio-002",
-    title: "Cronología blindada (timeline) + lagunas y preguntas clave",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Convierte hechos confusos en una cronología sólida y detecta huecos de información.",
-    prompt: `Actúa como abogado. Construye una cronología cronológica del caso.
-
-Inputs:
-- Lista de hechos con fechas aproximadas.
-- Documentos y mensajes disponibles.
-- Eventos clave (pagos, entregas, incumplimientos).
+Ingressi:
+- Giurisdizione / paese (non comprese le leggi specifiche).
+- Tipo di conflitto (civile, commerciale, consumo, ecc.).
+- Fatto in punti.
+- Parti coinvolte e relazioni.
+- Prove disponibili (doc, chat, testimoni).
+- No. L'obiettivo del cliente (per raccogliere, difendere, accettare, misure urgenti).
+- Bilancio/emergenza.
 
 Genera:
-1) Timeline en tabla: fecha | evento | evidencia | impacto legal/estratégico (genérico).
-2) 15 preguntas de seguimiento para cerrar lagunas.
-3) “Hechos buenos” vs “hechos malos” para tu cliente (tabla).
-4) Lista de evidencia faltante priorizada (alta/media/baja).
-5) Red flags (inconsistencias) que un abogado rival atacaría.`,
-    thumbnail: "",
-  },
+1) Riepilogo dei casi (1 pagina).
+2) Questioni chiave e punti controversi.
+3) Punti di forza / debolezze (tabella).
+4) Albero delle decisioni: A) negoziato, B) mediazione, C) domanda, D) difesa.
+5) Piano dei prossimi 14 giorni (azioni e documenti da raccogliere).
+6) Messaggio per il cliente che spiega i rischi in una lingua semplice.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-003",
-    title: "Carta de reclamación pre-litigio (firme, profesional y negociadora)",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Redacta una carta formal para reclamar pago/daños antes de demandar (sin incendiar).",
-    prompt: `Actúa como abogado. Redacta una carta de reclamación pre-litigio.
+{
+  id: "legallitigio-002",
+  title: "Cronologia armata (linea temporale) + lacune e domande chiave",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Converte i fatti confondenti in una solida cronologia e rileva le lacune delle informazioni.",
+  prompt: `Agisce come avvocato. Costruisce una cronologia del caso.
 
-Inputs:
-- Deudor/parte contraria (nombre, empresa).
-- Hechos (resumen).
-- Monto reclamado o reparación exigida.
-- Plazo para responder/pagar.
-- Evidencia principal (facturas, contrato, chats).
-- Tono deseado: suave / firme / muy firme.
+Ingressi:
+- Lista eventi con date approssimative.
+- Documenti e messaggi disponibili.
+- Eventi chiave (pagamenti, consegne, non conformità).
 
 Genera:
-1) Carta completa en formato profesional.
-2) 3 versiones del párrafo de cierre (suave/firme/muy firme).
-3) Lista de anexos a adjuntar.
-4) Guion de llamada de seguimiento (5-7 líneas).
-No cites artículos; usa lenguaje general.`,
-    thumbnail: "",
-  },
+1) Timeline in tabella: data - 124; evento - 124; prove - 124; impatto legale / strategico (generico).
+2) 15 domande di follow-up per chiudere le lacune.
+3) "buoni fatti" vs "cattivo fatti" per il vostro cliente (tabella).
+4) Elenco delle prove mancanti di priorità (alto / medio / basso).
+5) Terre rosse (incongruenze) che un avvocato rivale avrebbe attaccato.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-004",
-    title: "Respuesta a carta de reclamación (defensa + propuesta de salida)",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Responde una reclamación sin admitir responsabilidad y abriendo puerta a acuerdo.",
-    prompt: `Actúa como abogado defensor. Responde una carta de reclamación.
+{
+  id: "legallitigio-003",
+  title: "Lettera di rivendicazione pre-litto (ferma, professionale e negoziatore)",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Scrivere una lettera formale per richiedere il pagamento / danni prima di fare causa (non bruciato).",
+  prompt: `Agisce come avvocato. Esso definisce una lettera di pretesa pre-illuminista.
 
-Inputs:
-- Acusaciones principales.
-- Tu versión de los hechos.
-- Evidencia a favor.
-- Qué estás dispuesto a ofrecer (si aplica).
-- Líneas rojas (no admitir culpa, no pagar X, etc).
-
-Genera:
-1) Carta de respuesta completa.
-2) Párrafos opcionales: (A) rechazo total, (B) rechazo parcial, (C) oferta sin admisión.
-3) Lista de puntos que pedirás como prueba.
-4) Texto “sin perjuicio / sin reconocimiento” (genérico).
-5) Propuesta de acuerdo en 3 escenarios (bajo/medio/alto).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legallitigio-005",
-    title: "Teoría del caso (storyline) para juez/árbitro: 1 página",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Crea la narrativa central: qué pasó, por qué importa, qué pides y por qué.",
-    prompt: `Actúa como abogado litigante. Construye una “teoría del caso” clara y persuasiva.
-
-Inputs:
-- Hechos clave (máximo 10 bullets).
-- Objetivo (cobro/daños/defensa).
-- Evidencia estrella (máximo 5 piezas).
-- Punto débil (si existe).
+Ingressi:
+- Deudor / opposto (nome, azienda).
+- Fatti (sommario).
+- Importo richiesto o compensazione.
+- E' ora di rispondere / pagare.
+- Prove principali (fatture, contratti, chat).
+- Tono desiderato: morbido / fermo / molto fermo.
 
 Genera:
-1) Teoría del caso (máximo 400-600 palabras).
-2) 5 frases “sound bites” para audiencias.
-3) Lista de 6 hechos que debes probar sí o sí.
-4) Mapa: evidencia → hecho que prueba (tabla).
-5) Cómo neutralizar el punto débil (3 tácticas).`,
-    thumbnail: "",
-  },
+1) Carta completa in formato professionale.
+2) 3 versioni del paragrafo di chiusura (soft / ferma / molto solida).
+3) Elenco degli allegati allegati allegati.
+4) Monitoraggio dello script di chiamata (5-7 linee).
+Non citare articoli; usare la lingua generale.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-006",
-    title: "Mapa de pruebas (documental / testimonial / pericial) + plan de obtención",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Organiza toda la evidencia y planifica cómo conseguir lo que falta.",
-    prompt: `Actúa como abogado. Diseña un mapa de pruebas.
+{
+  id: "legallitigio-004",
+  title: "Risposta alla lettera di reclamo (proposta di difesa + uscita)",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Risponde a un reclamo senza ammettere responsabilità e aprire la porta all'accordo.",
+  prompt: `Agisce come avvocato difensore. Risponde a una lettera di reclamo.
 
-Inputs:
-- Qué quieres probar (pretensiones o defensas).
-- Evidencia que ya tienes.
-- Evidencia que sospechas que tiene la otra parte.
-- Testigos potenciales.
-
-Genera:
-1) Matriz: elemento a probar | tipo de prueba | fuente | prioridad | riesgo.
-2) Plan para obtener evidencia faltante (pasos y orden).
-3) Checklist de preservación de evidencia digital (chats, correos).
-4) Lista de riesgos de “evidencia contaminada” y cómo evitarlos.
-5) Guion para entrevista inicial de testigos (10 preguntas).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legallitigio-007",
-    title: "Cuantificación de daños (escenarios) + soporte documental",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Calcula daños/adeudos sin inventar: escenarios y documentos para justificar.",
-    prompt: `Actúa como abogado y analista. Cuantifica daños/adeudos en escenarios.
-
-Inputs:
-- Monto base (si existe).
-- Pagos realizados.
-- Costos relacionados.
-- Daño emergente vs lucro cesante (si aplica).
-- Evidencia financiera disponible.
+Ingressi:
+- Spese principali.
+- La sua versione dei fatti.
+- Prove a favore.
+- No. Che cosa siete disposti a offrire (se applicabile).
+- Linee rosse (non ammettere colpa, non pagare X, ecc.).
 
 Genera:
-1) 3 escenarios: conservador / probable / agresivo (tabla).
-2) Qué documentos respaldan cada rubro (lista).
-3) Qué rubros NO reclamarías por falta de soporte (y por qué).
-4) Plan para conseguir soporte documental (pasos).
-5) Resumen ejecutivo para explicar daños al cliente (lenguaje simple).`,
-    thumbnail: "",
-  },
+(1) Lettera piena di risposta.
+2) paragrafi facoltativi: (A) rifiuto totale, (B) rifiuto parziale, (C) offerta non accettata.
+3) Elenco dei punti che ordinate come prova.
+4) Il testo "senza pregiudizio / senza riconoscimento" (generico).
+5) Proposta di accordo in 3 scenari (basso / medio / alto).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-008",
-    title: "Borrador de demanda (esqueleto + secciones + placeholders)",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Estructura una demanda genérica (sin citar artículos) lista para rellenar.",
-    prompt: `Actúa como abogado. Redacta un borrador de demanda (plantilla).
+{
+  id: "legallitigio-005",
+  title: "Teoria del caso (storyline) per giudice / arbitro: 1 pagina",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Crea la narrazione centrale: quello che è successo, perché conta, quello che chiedi e perché.",
+  prompt: `Agisce come avvocato contenzioso. Costruisce una chiara e persuasiva "teoria dei casi".
 
-Inputs:
-- Jurisdicción/foro (genérico).
-- Parte actora y demandada.
-- Hechos (cronología).
-- Pretensión (qué pides).
-- Daños/monto.
-- Evidencia principal.
+Ingressi:
+- Fatti chiave (massimo 10 proiettili).
+- Obiettivo (recupero / danno / difesa).
+- Prova stellare (massimo 5 pezzi).
+- Punto debole (se presente).
 
 Genera:
-1) Documento con secciones estándar.
-2) Hechos numerados, claros.
-3) Pretensiones y peticiones finales.
-4) Lista de anexos sugeridos.
-5) Checklist de revisión antes de presentar.
-Usa [REEMPLAZAR] donde falte info. No cites leyes específicas.`,
-    thumbnail: "",
-  },
+1) teoria dei casi (massimo 400-600 parole).
+2) 5 frasi "suono morso" per le udienze.
+3) Elenco di 6 fatti è necessario dimostrare sì o sì.
+4) Mappa: prove → fatto che prova (tabella).
+5) Come neutralizzare il punto debole (3 tattiche).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-009",
-    title: "Contestación de demanda (estructura + defensas + tono correcto)",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Plantilla de contestación para negar/aceptar hechos y plantear defensas.",
-    prompt: `Actúa como abogado defensor. Redacta una contestación a demanda.
+{
+  id: "legallitigio-006",
+  title: "Evidence map (documentario / testimonial / esperto) + piano di approvvigionamento",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Organizza tutte le prove e pianifica come ottenere ciò che manca.",
+  prompt: `Agisce come avvocato. Progettare una mappa di prova.
 
-Inputs:
-- Resumen de la demanda/pretensiones.
-- Hechos alegados por la otra parte.
-- Tu versión de hechos.
-- Evidencia a favor.
-- Objetivo (desestimar, limitar daños, negociar).
+Ingressi:
+- No. Quello che vuoi dimostrare (pretensioni o difese).
+- Le prove che hai già.
+- Prove che sospetti l'altra parte.
+- Potenziali testimoni.
 
 Genera:
-1) Contestación completa con secciones estándar.
-2) Tabla: hecho alegado | postura (admito/niego/parcial) | explicación breve | evidencia.
-3) Lista de defensas genéricas aplicables (sin citar leyes).
-4) Pretensiones del demandado (qué solicitas al tribunal).
-5) Estrategia paralela de negociación (2 propuestas).`,
-    thumbnail: "",
-  },
+1) Matrice: elemento di prova - 124; tipo di prova - 124; fonte - 124; priorità - 124; rischio.
+2) Piano per ottenere prove mancanti (passi e ordine).
+3) Controllo della conservazione delle prove digitali (chat, e-mail).
+4) Elenco dei rischi di "prove contaminate" e come evitarle.
+5) Guida per l'intervista iniziale (10 domande).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-010",
-    title: "Excepciones/defensas preliminares (checklist + redacción base)",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Identifica defensas iniciales frecuentes y redacta texto base para usarlas.",
-    prompt: `Actúa como abogado. Construye defensas preliminares genéricas.
+{
+  id: "legallitigio-007",
+  title: "Quantificazione dei danni (scenarios) + supporto documentario",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Calcola danni/addebiti non inventati: scenari e documenti da giustificare.",
+  prompt: `Agisce come avvocato e analista. Quantifica danni / debito negli scenari.
 
-Inputs:
-- Tipo de asunto.
-- Foro/jurisdicción (genérico).
-- Fechas y plazos relevantes.
-- Documentos clave.
-
-Genera:
-1) Checklist de defensas preliminares aplicables (con explicación).
-2) Redacción base corta para cada una (3-6 líneas).
-3) Pruebas/documentos necesarios para sostenerlas.
-4) Riesgos de alegarlas si no aplican (qué evitar).
-5) Orden recomendado para presentarlas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legallitigio-011",
-    title: "Guion de negociación (BATNA, concesiones, líneas rojas)",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Sistema para negociar acuerdos sin regalar el caso.",
-    prompt: `Actúa como abogado negociador. Diseña un guion de negociación.
-
-Inputs:
-- Objetivo final.
-- Monto ideal / mínimo aceptable.
-- Riesgos del caso.
-- Relación futura con la otra parte (sí/no).
-- Tiempo/urgencia.
+Ingressi:
+- Importo base (se presente).
+- Pagamenti effettuati.
+- Costi correlati.
+- Danni emergenti vs perdita di profitto (se applicabile).
+- Prove finanziarie disponibili.
 
 Genera:
-1) BATNA y WATNA (mejor/peor alternativa).
-2) Lista de concesiones escalonadas (qué doy y qué pido).
-3) Líneas rojas y señales de salida.
-4) Script de 10 minutos para llamada (apertura → propuesta → cierre).
-5) 5 frases para manejar objeciones comunes.`,
-    thumbnail: "",
-  },
+1) 3 scenari: conservatore / probabile / aggressivo (tabella).
+2) Quali documenti supportano ogni articolo (lista).
+3) Quali elementi NON pretendere per mancanza di supporto (e perché).
+4) Piano per ottenere supporto documentario (steps).
+5) Riepilogo esecutivo per spiegare i danni del cliente (lingua semplice).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-012",
-    title: "Acuerdo de conciliación/transacción (borrador) – no contratos comerciales, solo settlement",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Borrador de acuerdo para cerrar disputa: pagos, renuncias, confidencialidad, no admisión.",
-    prompt: `Actúa como abogado. Redacta un acuerdo de conciliación/transacción (settlement).
+{
+  id: "legallitigio-008",
+  title: "Cancellatore di domanda (scheletro + sezioni + segnaposto)",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Struttura una domanda generica (per non parlare di articoli) pronto a riempire.",
+  prompt: `Agisce come avvocato. Esso stabilisce un progetto di applicazione (templato).
 
-Inputs:
-- Partes.
-- Disputa (resumen).
-- Pagos/compensación.
-- Fechas de cumplimiento.
-- Si habrá confidencialidad (sí/no).
-- Si habrá cláusula de no desprestigio (sí/no).
-- Consecuencia por incumplimiento.
-
-Genera:
-1) Settlement completo con secciones estándar.
-2) Cláusulas: no admisión, liberación/renuncia de acciones, confidencialidad (opcional), no desprestigio (opcional).
-3) Anexo: calendario de pagos.
-4) Texto corto para email de cierre “acuerdo alcanzado”.
-Sin citar leyes; usa [REEMPLAZAR] donde falte info.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legallitigio-013",
-    title: "Preparación de audiencia: guion + orden de argumentos + objetivos",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Arma un guion para audiencia: apertura, puntos clave, respuestas y cierre.",
-    prompt: `Actúa como abogado litigante. Diseña preparación para audiencia.
-
-Inputs:
-- Tipo de audiencia (medidas, preliminar, juicio, etc).
-- 3 argumentos principales.
-- Evidencia principal.
-- Argumentos probables de la otra parte.
+Ingressi:
+- Giurisdizione / forum (generico).
+- Attore e convenuto.
+- Fatti (cronologia).
+- Pretensione.
+- Danni / quantità.
+- Prove principali.
 
 Genera:
-1) Guion de 5-8 minutos (apertura → desarrollo → cierre).
-2) Lista de preguntas que podría hacer el juez y respuestas sugeridas.
-3) “Si me interrumpen, vuelvo a…” (frases puente).
-4) Prioridad: qué decir sí o sí en 60 segundos.
-5) Checklist pre-audiencia (documentos, copias, anexos).`,
-    thumbnail: "",
-  },
+1) Documento con sezioni standard.
+2) fatti numerati, chiaro.
+(3) Pretensioni e richieste finali.
+4) Elenco degli allegati suggeriti.
+5) Checklist recensione prima della presentazione.
+Usa [REEMPLAZAR] dove manca l'informazione. Non citare leggi specifiche.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-014",
-    title: "Interrogatorio directo (testigo propio) – preguntas por bloques",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Estructura preguntas para testigo propio y evita preguntas peligrosas.",
-    prompt: `Actúa como abogado. Diseña interrogatorio directo para testigo propio.
+{
+  id: "legallitigio-009",
+  title: "Risposta della domanda (struttura + difese + tono corretto)",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Modello di risposta per negare / accettare fatti e sollevare difese.",
+  prompt: `Agisce come avvocato difensore. Scrivi una risposta su richiesta.
 
-Inputs:
-- Quién es el testigo (rol/relación).
-- Hechos que debe acreditar (lista).
-- Documentos que puede autenticar.
-- Puntos sensibles (qué evitar).
-
-Genera:
-1) Bloques de preguntas: identificación, contexto, hechos, documentos, cierre.
-2) 25-40 preguntas sugeridas (claras y secuenciales).
-3) Preguntas prohibidas/arriesgadas y por qué.
-4) Mini-guion de preparación del testigo (cómo responder).
-5) 5 preguntas de “rescate” si se confunde.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legallitigio-015",
-    title: "Contrainterrogatorio (testigo contrario) – objetivos y preguntas ‘sí/no’",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Guía para debilitar credibilidad y fijar hechos admitidos.",
-    prompt: `Actúa como abogado. Diseña contrainterrogatorio para testigo contrario.
-
-Inputs:
-- Perfil del testigo contrario.
-- Contradicciones conocidas (chats/documentos).
-- Hechos que quieres fijar.
-- Punto emocional que puede explotar.
+Ingressi:
+- Sommario della domanda / reclami.
+- Fatti presunti dall'altra parte.
+- La tua versione dei fatti.
+- Prove a favore.
+- Obiettivo (dismissione, limitazione dei danni, negoziare).
 
 Genera:
-1) Objetivos del contrainterrogatorio (máx 5).
-2) 30 preguntas cerradas (sí/no) por bloques.
-3) Ruta si niega: evidencia a mostrar (por orden).
-4) Cómo evitar que explique demasiado (técnicas).
-5) Cierre: 3 preguntas finales para dejar “la idea” en sala.`,
-    thumbnail: "",
-  },
+1) Risposta completa con sezioni standard.
+2) Tabella: presunto fatto - 124; posizione (ammissione / negazione / parziale) - 124; breve spiegazione - 124; prova.
+3) Elenco delle difese generiche applicabili (non comprese le leggi).
+4) Pretensioni dell'imputato (cosa chiedete alla corte).
+5) Strategia di negoziazione parallela (2 proposte).`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-016",
-    title: "Mediación: brief de 1 página + propuesta de arreglo",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Documento compacto para mediación: hechos, puntos, propuesta y concesiones.",
-    prompt: `Actúa como abogado. Redacta un brief para mediación.
+{
+  id: "legallitigio-010",
+  title: "Deroghe preliminari / difese (checklist + wording di base)",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Identifica frequenti difese iniziali e scrive testo di base per usarle.",
+  prompt: `Agisce come avvocato. Costruisce le difese preliminari generiche.
 
-Inputs:
-- Disputa (resumen).
-- Hechos clave.
-- Riesgos de cada parte.
-- Qué quieres obtener.
-- Qué estarías dispuesto a conceder.
-
-Genera:
-1) Brief 1 página (hechos + posición).
-2) Lista de 6 puntos negociables.
-3) Propuesta inicial de arreglo (monto/acciones/plazos).
-4) “Paquete alterno” por si rechazan la primera propuesta.
-5) Script de apertura para mediación (2 min).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legallitigio-017",
-    title: "Gestión de evidencia digital (WhatsApp/Emails/GDrive): protocolo simple",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Checklist y protocolo para preservar evidencia digital sin arruinar su validez.",
-    prompt: `Actúa como abogado. Crea un protocolo práctico de preservación de evidencia digital.
-
-Inputs:
-- Fuentes: WhatsApp, email, redes, drive, llamadas, etc.
-- Tipo de evidencia (mensajes, archivos, logs, capturas).
-- Quién tiene acceso.
+Ingressi:
+- Tipo.
+- Forum / giurisdizione (generico).
+- Date e scadenze rilevanti.
+- Documenti chiave.
 
 Genera:
-1) Checklist de preservación por fuente (pasos concretos).
-2) Nombres sugeridos de carpetas y convención de archivos.
-3) Qué NO hacer (errores típicos: editar, reenviar, recortar, etc.).
-4) Plan de cadena de custodia básico (registro simple).
-5) Lista de evidencia prioritaria “de alto impacto”.`,
-    thumbnail: "",
-  },
+1) Elenco di controllo delle difese preliminari applicabili (con spiegazione).
+2) Base corta per ciascuna (3-6 linee).
+(3) Prove / documenti necessari per sostenerli.
+4) Rischi di rivendicarli se non si applicano (cosa evitare).
+5) Ordine consigliato di presentarli.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-018",
-    title: "Resumen del expediente (case brief) para entregar a otro abogado",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Paquete claro para ‘handoff’: hechos, documentos, estado, plazos y estrategia.",
-    prompt: `Actúa como abogado. Resume el expediente para transferencia.
+{
+  id: "legallitigio-011",
+  title: "Script di negoziazione (BATNA, concessioni, linee rosse)",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Sistema di accordi di negoziazione senza cedere il caso.",
+  prompt: `Agisce come avvocato negoziale. Progetta uno script di negoziazione.
 
-Inputs:
-- Hechos y cronología.
-- Documentos clave.
-- Estado del caso (si hay proceso).
-- Plazos próximos.
-- Contactos/testigos.
-
-Genera:
-1) Resumen ejecutivo (máx 1 página).
-2) Cronología (tabla).
-3) Índice de documentos clave con descripción.
-4) Lista de pendientes y plazos críticos.
-5) Recomendación de estrategia (2 caminos).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "legallitigio-019",
-    title: "Riesgo reputacional y comunicación (qué decir / qué NO decir)",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Guías para comunicarte con clientes/usuarios/redes durante una disputa sin meterte el pie.",
-    prompt: `Actúa como abogado y PR de crisis. Crea lineamientos de comunicación durante litigio.
-
-Inputs:
-- Contexto del conflicto.
-- Audiencias (clientes, redes, proveedores, equipo).
-- Qué se filtró o puede filtrarse.
-- Tono de marca.
+Ingressi:
+- Obiettivo finale.
+- Importo ideale / minimo accettabile.
+- Rischi di caso.
+- Rapporto futuro con l'altra parte (sì / no).
+- Tempo/urgenza.
 
 Genera:
-1) “Talking points” permitidos (5-8).
-2) Lista de frases prohibidas y por qué.
-3) Respuestas tipo FAQ (8 preguntas).
-4) Plantillas cortas: email a clientes + comunicado interno.
-5) Plan de escalamiento: cuándo responde abogado vs soporte.`,
-    thumbnail: "",
-  },
+1) BATNA e WATNA (migliore / alternativa peggiore).
+2) Elenco delle concessioni graduali (cosa do e cosa chiedo).
+3) Linee rosse e segnali di uscita.
+4) 10 minuti di call script (apertura → proposta → chiusura).
+5) 5 frasi per trattare obiezioni comuni.`,
+  thumbnail: ""
+},
 
-  {
-    id: "legallitigio-020",
-    title: "Checklist de preparación antes de demandar (o antes de responder) + scoring",
-    area: "Abogado & Legal",
-    category: "Litigio & Resolución de Conflictos",
-    summary:
-      "Evalúa si conviene litigar: checklist con score para decidir con cabeza fría.",
-    prompt: `Actúa como abogado. Crea un checklist con scoring para decisión de litigar.
+{
+  id: "legallitigio-012",
+  title: "Conciliazione / accordo di transazione (trattato) - non contratti commerciali, solo regolamento",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Progetto di accordo per chiudere la controversia: pagamenti, rinuncia, riservatezza, non ammissione.",
+  prompt: `Agisce come avvocato. Esso stabilisce un accordo di insediamento.
 
-Inputs:
-- Objetivo del cliente.
-- Evidencia disponible.
-- Presupuesto.
-- Urgencia.
-- Riesgo comercial/reputacional.
-- Disponibilidad de testigos.
+Ingressi:
+- Parti.
+- Disguise (sommario).
+- Pagamenti / compensazione.
+- Date di conformità.
+- No. Se c'è riservatezza (sì / no).
+- No. Se ci sarà una clausola non discredito (sì / no).
+- Conseguenze per non conformità.
 
 Genera:
-1) Checklist con 25 ítems y score (0-2 cada uno).
-2) Interpretación del score (verdes/amarillos/rojos).
-3) Lista de “deal breakers” (cuándo NO demandar).
-4) Plan alternativo si no se litiga (negociación/mediación).
-5) Lista de documentos mínimos antes de mover un dedo.`,
-    thumbnail: "",
-  },
-];
+1) Composizione completa con sezioni standard.
+2) Clausole: non-ammissione, rilascio / rinuncia di azioni, riservatezza (facoltativo), non-diprestigio (opzionale).
+(3) Allegato: Calendario dei pagamenti.
+4) Breve testo per la chiusura e-mail "accordo raggiunto".
+Per non parlare di leggi; utilizzare [REEMPLAZAR] dove le informazioni sono mancanti.`,
+  thumbnail: ""
+},
+
+{
+  id: "legallitigio-013",
+  title: "Preparazione dell'udito: script + ordine di argomenti + obiettivi",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Armare uno script del pubblico: apertura, punti chiave, risposte e chiusura.",
+  prompt: `Agisce come avvocato contenzioso. Progettare preparazione del pubblico.
+
+Ingressi:
+- Tipo di udito (misure, preliminare, prova, ecc.).
+- 3 argomenti principali.
+- Prove principali.
+- Probabili argomenti dall'altra parte.
+
+Genera:
+1) 5-8 minuti di script (apertura → sviluppo → chiusura).
+2) Elenco delle domande che il giudice potrebbe fare e le risposte suggerite.
+3) "Se mi interrompi, torno a..." (frasi ponti).
+4) Priorità: cosa dire sì o sì in 60 secondi.
+(5) Elenco di controllo (documenti, copie, allegati).`,
+  thumbnail: ""
+},
+
+{
+  id: "legallitigio-014",
+  title: "Interrogatorio diretto (prossimo testimone) - domande di blocco",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Struttura domande di self-witness ed evitare domande pericolose.",
+  prompt: `Agisce come avvocato. Progetta di interrogare direttamente il suo testimone.
+
+Ingressi:
+- Chi è il testimone (rolo / relazione).
+- Fatti da accreditare (lista).
+- Documenti che puoi autenticare.
+- Punti sensibili (da evitare).
+
+Genera:
+1) Blocchi di domanda: identificazione, contesto, fatti, documenti, chiusura.
+2) 25-40 domande suggerite (chiaro e sequenziale).
+3) Domande proibite / rischiose e perché.
+4) Mini- script della preparazione del testimone (come rispondere).
+5) 5 domande "rescue" se confuse.`,
+  thumbnail: ""
+},
+
+{
+  id: "legallitigio-015",
+  title: "Interrogazione (contrario) - obiettivi e domande\" sì / no",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Guida ad indebolire la credibilità e stabilire fatti accettati.",
+  prompt: `Agisce come avvocato. Progetta l'esame incrociato per il testimone opposto.
+
+Ingressi:
+- Profilo del testimone opposto.
+- violazioni note (cassi / documenti).
+- I fatti che vuoi risolvere.
+- Punto emotivo che puo' esplodere.
+
+Genera:
+1) Obiettivi di esame incrociato (max 5).
+2) 30 domande chiuse (sì / no) per blocco.
+3) Percorso se negato: prove da mostrare (in ordine).
+4) Come evitare di spiegare troppo (tecnica).
+5) Chiudi: 3 domande finali per lasciare "l'idea" in camera.`,
+  thumbnail: ""
+},
+
+{
+  id: "legallitigio-016",
+  title: "Misurazione: 1 pagina breve + proposta di disposizione",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Documento compatto per la mediazione: fatti, punti, proposte e concessioni.",
+  prompt: `Agisce come avvocato. Sta scrivendo un brief per la mediazione.
+
+Ingressi:
+- Disguise (sommario).
+- Fatti chiave.
+- Rischi da ogni lato.
+- No. Cosa vuoi ottenere?
+- No. Quello che sarebbe disposto a concedere.
+
+Genera:
+1) Breve 1 pagina (fatti + posizione).
+2) Elenco di 6 punti negoziabili.
+3) Proposta iniziale di regolamento (importo / azioni / limiti di tempo).
+4. "pacchetto alternativo" nel caso rifiutassero la prima proposta.
+5) Aprire lo script per la mediazione (2 min).`,
+  thumbnail: ""
+},
+
+{
+  id: "legallitigio-017",
+  title: "Gestione delle prove digitali (WhatsApp / Email / GDrive): protocollo semplice",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Elenco di controllo e protocollo per preservare le prove digitali senza rovinarne la validità.",
+  prompt: `Agisce come avvocato. Crea un protocollo pratico per preservare le prove digitali.
+
+Ingressi:
+- Fonti: WhatsApp, e-mail, reti, unità, chiamate, ecc.
+- Tipo di prova (messaggio, file, registri, catture).
+- Chi ha accesso.
+
+Genera:
+1) Elenco di controllo della prenotazione per fonte (passi concreti).
+2) nomi di cartelle suggeriti e convenzione di file.
+3) Cosa NON fare (errore di tipo: editare, inoltrare, tagliare, ecc.).
+4) catena di base del piano di custodia (iscrizione semplice).
+5) Elenco delle prove prioritarie "alto impatto".`,
+  thumbnail: ""
+},
+
+{
+  id: "legallitigio-018",
+  title: "Riepilogo del caso per consegnare ad un altro avvocato",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Pacchetto chiaro per 'handoff': fatti, documenti, stato, scadenze e strategia.",
+  prompt: `Agisce come avvocato. Summarizzare il file per il trasferimento.
+
+Ingressi:
+- Fatti e cronologia.
+- Documenti chiave.
+- Stato della causa (se si verificano procedimenti).
+- La prossima volta.
+- Contatto / testimone.
+
+Genera:
+1) Riepilogo esecutivo (max 1 pagina).
+2) Cronologia (tabella).
+3) Indice documenti chiave con descrizione.
+4) Elenco delle scadenze eccezionali e critiche.
+5) Raccomandazione di strategia (2 strade).`,
+  thumbnail: ""
+},
+
+{
+  id: "legallitigio-019",
+  title: "Rischio di sostituzione e comunicazione (cosa dire / cosa non dire)",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Linee guida per comunicare con i clienti / utenti / reti durante una disputa senza mettere il piede in.",
+  prompt: `Agisce come avvocato e PR di crisi. Crea linee guida di comunicazione durante il contenzioso.
+
+Ingressi:
+- Contesto del conflitto.
+- Audizione (clienti, reti, fornitori, attrezzature).
+- No. Ha trapelato o può trapelare.
+- Tono di marca.
+
+Genera:
+1) "I punti di ristoro" consentiti (5-8).
+2) Elenco delle frasi proibite e perché.
+3) risposte alle domande (8 domande).
+4) Modelli brevi: e-mail ai clienti + comunicazione interna.
+5) Piano di scala: quando l'avvocato vs il supporto risponde.`,
+  thumbnail: ""
+},
+
+{
+  id: "legallitigio-020",
+  title: "Preparazione della lista di controllo prima di esigere (o prima di rispondere) + punteggio",
+  area: "Avvocato e legale",
+  category: "Controversia e conflitto Risoluzione",
+  summary:
+  "Valutare se è opportuno contenzioso: lista di controllo con punteggio per decidere con testa fredda.",
+  prompt: `Agisce come avvocato. Creare una lista di controllo con punteggio per la decisione del contenzioso.
+
+Ingressi:
+- Obiettivo del cliente.
+- Prove disponibili.
+- Bilancio.
+- Emergenza.
+- Rischio commerciale / reputazionale.
+- Disponibilità di testimoni.
+
+Genera:
+1) Lista di controllo con 25 elementi e punteggio (0-2 ciascuno).
+2) Interpretazione punteggio (verde / giallo / rosso).
+3) Elenco dei "deal breakers" (quando non si fa causa).
+4) Piano alternativo se non contenzioso (negoziazione / mediazione).
+5) Elenco dei documenti minimi prima di spostare un dito.`,
+  thumbnail: ""
+}];

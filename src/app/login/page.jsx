@@ -32,14 +32,14 @@ export default function LoginPage() {
 
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        setError(data?.message || "Código incorrecto.");
+        setError(data?.message || "Codice non valido.");
         setLoading(false);
         return;
       }
 
       router.push("/curso");
     } catch (err) {
-      setError("Ocurrió un error. Inténtalo de nuevo.");
+      setError("Si è verificato un errore. Riprova.");
       setLoading(false);
     }
   };
@@ -60,22 +60,22 @@ export default function LoginPage() {
             {/* Badge */}
             <div className="mb-6 inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-5 py-1.5 text-sm font-medium text-sky-100">
               <span className="mr-2 h-2 w-2 rounded-full bg-emerald-400" />
-              Acceso privado al curso
+              Accesso privato al corso
             </div>
 
             {/* Title */}
             <h1 className="mb-4 text-3xl font-extrabold leading-tight text-white drop-shadow sm:text-4xl">
-              Banco Secreto de{" "}
+              Banco Segreto di{" "}
               <span className="bg-gradient-to-r from-[#37E5FF] via-[#6A5BFF] to-[#F973FF] bg-clip-text text-transparent">
-                Prompts
+                Prompt
               </span>
             </h1>
 
             {/* Subtitle */}
             <p className="mx-auto mb-10 max-w-md text-base leading-relaxed text-slate-200 sm:text-lg">
-              Ingresa el código de compra que recibiste dentro del producto en
-              Hotmart. Lo encontrarás en el curso que te llegó a tu correo de
-              acceso.
+              Inserisci il codice di acquisto che hai ricevuto all’interno del
+              prodotto su Hotmart. Lo trovi nel corso che ti è arrivato via
+              email, nell’accesso.
             </p>
 
             {/* Form */}
@@ -86,7 +86,7 @@ export default function LoginPage() {
                   className="flex items-center gap-2 text-base text-slate-100"
                 >
                   <Lock className="h-5 w-5" />
-                  Código de compra
+                  Codice di acquisto
                 </Label>
 
                 {/* Input + eye toggle */}
@@ -98,7 +98,7 @@ export default function LoginPage() {
                     value={code}
                     onChange={(e) => setCode(e.target.value)}
                     className="h-14 rounded-xl border-white/20 bg-black/30 pr-12 text-lg text-slate-100 placeholder:text-slate-500 focus-visible:ring-[#36C5FF]"
-                    placeholder="Pega aquí tu código..."
+                    placeholder="Incolla qui il tuo codice..."
                     required
                   />
 
@@ -106,8 +106,8 @@ export default function LoginPage() {
                     type="button"
                     onClick={() => setShowCode((v) => !v)}
                     className="absolute right-3 top-1/2 -translate-y-1/2 rounded-md p-2 text-slate-300 transition hover:bg-white/5 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#36C5FF]"
-                    aria-label={showCode ? "Ocultar código" : "Mostrar código"}
-                    title={showCode ? "Ocultar" : "Mostrar"}
+                    aria-label={showCode ? "Nascondi codice" : "Mostra codice"}
+                    title={showCode ? "Nascondi" : "Mostra"}
                   >
                     {showCode ? (
                       <EyeOff className="h-5 w-5" />
@@ -129,14 +129,14 @@ export default function LoginPage() {
                 disabled={loading || !code}
                 className="group mx-auto flex w-full max-w-md justify-center rounded-full bg-gradient-to-r from-[#00E7FF] via-[#36C5FF] to-[#A855FF] py-6 text-lg text-white shadow-[0_0_40px_rgba(88,28,135,0.5)] transition-all hover:brightness-110 disabled:opacity-60"
               >
-                {loading ? "Verificando..." : "ENTRAR AL CURSO"}
+                {loading ? "Verifica in corso..." : "ENTRA NEL CORSO"}
                 <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
               </Button>
 
               <p className="mx-auto mt-4 max-w-md text-sm text-slate-400">
-                Si no encuentras tu código, revisa la carpeta de Spam o
-                Promociones del correo donde recibiste el acceso a tu curso en
-                Hotmart.
+                Se non trovi il tuo codice, controlla la cartella Spam o
+                Promozioni dell’email con cui hai ricevuto l’accesso al tuo
+                corso su Hotmart.
               </p>
             </form>
           </CardContent>

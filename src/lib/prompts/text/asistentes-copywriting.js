@@ -1,450 +1,449 @@
 export const textPromptsAsistentesCopywriting = [
-  {
-    id: "asist-copy-001",
-    title: "Asistente de copywriting especializado en embudos de conversión",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Asistente experto en copy completo para embudos: awareness → conversión → cierre.",
-    prompt: `Actúa como un asistente experto en copywriting especializado en embudos.
+{
+  id: "asist-copy-001",
+  title: "Copywriting assistente specializzato in conversione funghi",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Esperto in copia completa per funghi: consapevolezza → conversione → chiusura.",
+  prompt: `Agisce come assistente di copywriting esperto specializzato in funghi.
 
-Dame:
-- Tipo de embudo (lead magnet, evergreen, lanzamiento, high-ticket).
-- Producto/servicio.
-- Público.
-- Objetivo final.
+Dammi...
+- Tipo di imbuto (magnete di carico, sempreverde, lancio, alta protezione).
+- Prodotto / servizio.
+- Pubblico.
+- Obiettivo finale.
 
 Genera:
-1) Mensaje central del embudo.
-2) Big Idea.
-3) Hooks para cada etapa (TOFU, MOFU, BOFU).
-4) Copy para:
-   - Página de captura.
-   - Página puente (si aplica).
-   - Página de ventas.
-   - 3 emails de nurturing.
-   - 3 emails de venta.
-5) Variaciones por tono: agresivo, suave y profesional.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-002",
-    title: "Asistente para crear titulares de alto impacto",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Genera titulares infinitos según avatar, dolor y beneficio.",
-    prompt: `Actúa como un asistente especializado en titulares irresistibles.
+1) Messaggio centrale dall'imbuto.
+2) Grande idea.
+3) Ganci per ogni fase (TOFU, MOFU, BOFU).
+4) Copia per:
+- Pagina di cattura.
+- Bridge page (se applicabile).
+- Pagina delle vendite.
+- 3 email di nutrimento.
+- 3 email di vendita.
+5) Variazioni tono: aggressivo, morbido e professionale.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-002",
+  title: "Assistente per creare titoli ad alto impatto",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Generare titoli infinite secondo avatar, dolore e beneficio.",
+  prompt: `Agisce come assistente specializzato in titoli irresistibili.
 
-Dame:
-- Producto/servicio.
-- Dolor principal.
-- Beneficio clave.
+Dammi...
+- Prodotto / servizio.
+- Dolore principale.
+- Beneficio chiave.
 - Avatar.
 
 Genera:
-1) 20 titulares poderosos.
-2) 10 versiones tipo ‘pregunta’.
-3) 10 versiones tipo ‘curiosidad’.
-4) 10 titulares negativos.
-5) 10 titulares de autoridad.
-6) 10 titulares estilo directo (sin adornos).`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-003",
-    title: "Asistente para emails persuasivos completos",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Creador de emails de venta, educación y retención.",
-    prompt: `Actúa como un asistente experto en email marketing y copywriting.
+1) 20 titoli potenti.
+2) 10 versioni "questione".
+3) 10 versioni "curiosità".
+(4) 10 titoli negativi.
+5) 10 titolari di autorità.
+6) 10 titoli di stile diretto (senza ornamenti).`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-003",
+  title: "Assistente per e-mail complete persuasive",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Creatore di vendite, educazione e email di conservazione.",
+  prompt: `Agisce come assistente esperto nel marketing e nel copywriting.
 
-Dame:
-- Tema del email.
-- Oferta.
-- Objetivo (clic, venta, respuesta, apertura).
-- Objeción principal del lector.
+Dammi...
+- Tema email.
+- Offerta.
+- Obiettivo (clicca, vendita, risposta, apertura).
+- La principale obiezione del lettore.
 
 Genera:
-1) 5 asuntos potentes.
-2) Email completo estilo storytelling.
-3) Email directo corto.
-4) Email educativo que convierte.
-5) CTA en 3 variaciones: suave, media y agresiva.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-004",
-    title: "Asistente para crear hooks virales para anuncios",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Generador de hooks irresistible optimizados para ads.",
-    prompt: `Actúa como un asistente enfocado en generar hooks para anuncios.
+1) 5 questioni potenti.
+2) Storia completa stile email.
+3) Breve e-mail diretta.
+4) E-mail educazione che converte.
+5) CTA in 3 varianti: morbido, medio e aggressivo.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-004",
+  title: "Assistente per creare ganci virali per annunci",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Generatore di cerchi irresistibile ottimizzato per gli annunci.",
+  prompt: `Agisce come assistente focalizzato sulla generazione di ganci pubblicitari.
 
-Dame:
-- Producto.
+Dammi...
+- Prodotto.
 - Avatar.
-- Dolor urgente.
-- Beneficio principal.
+- Dolore urgente.
+- Principale vantaggio.
 
 Genera:
-1) 20 hooks estilo TikTok.
-2) 20 hooks estilo Facebook Ads.
-3) 20 hooks estilo YouTube Ads (5 segundos).
-4) 10 hooks basados en miedo.
-5) 10 hooks basados en deseo.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-005",
-    title: "Asistente para crear páginas de ventas completas",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Genera una página completa estilo copy profesional.",
-    prompt: `Actúa como copywriter senior de páginas de venta.
+1) 20 ganci stile TikTok.
+2) 20 ganci stile Facebook Ads.
+3) 20 ganci YouTube Stile Ads (5 secondi).
+4) 10 ganci basati sulla paura.
+5) 10 ganci basati sul desiderio.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-005",
+  title: "Assistente per creare pagine di vendita complete",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Genera uno stile di copia professionale di pagina intera.",
+  prompt: `Agisce come copywriter senior delle pagine di vendita.
 
-Dame:
-- Producto/servicio.
-- Transformación.
-- Precio.
-- Pruebas sociales.
-- Bonuses.
+Dammi...
+- Prodotto / servizio.
+- Trasformazione.
+- Prezzo.
+- Test sociali.
+- Bonus.
 
-Genera página completa con:
+Generare pagina completa con:
 1) Headline + subheadline.
-2) Sección dolor → consecuencia → impacto.
-3) Presentación del producto.
-4) Beneficios en bullets emocionales.
-5) Módulos o contenidos.
-6) Testimonios.
-7) Garantía.
-8) FAQ persuasivo.
-9) 3 CTAs.
+2) Sezione dolore → conseguenza → impatto.
+3) Presentazione del prodotto.
+4) Vantaggi nei proiettili emotivi.
+(5) Moduli o contenuti.
+6) Testimonianze.
+(7) Garanzia.
+8) FAQ persuasive.
+9) 3 Ctis.
 
-Incluye versión corta y larga.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-006",
-    title: "Asistente especialista en secuencias de lanzamientos",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Crea secuencias estilo PLF, lanzamiento semilla o relámpago.",
-    prompt: `Actúa como asistente experto en copy de lanzamientos.
+Include una versione breve e lunga.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-006",
+  title: "Specialista aggiunto nelle sequenze di lancio",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Crea sequenze in stile PLF, lancio di semi o fulmini.",
+  prompt: `Agisce come assistente esperto nella copia di lancio.
 
-Dame:
-- Tipo de lanzamiento (PLF, Semilla, Relámpago).
-- Producto.
+Dammi...
+- Tipo di lancio (PLF, seme, fulmine).
+- Prodotto.
 - Avatar.
-- Duración.
+- Durata.
 
 Genera:
-1) Mensaje nuclear del lanzamiento.
-2) 4 emails pre-lanzamiento.
-3) 4 emails de venta.
-4) 10 hooks de video.
-5) Scripts para VSL corta y larga.
-6) Copy para posts de apoyo.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-007",
-    title: "Asistente profesional para mejorar y reescribir copy",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Corrige, optimiza, potencia y reescribe cualquier copy.",
-    prompt: `Actúa como corrector y optimizador de copy profesional.
+1) Messaggio nucleare dal lancio.
+2) 4 email pre-lancio.
+3) 4 email di vendita.
+4) 10 ganci video.
+5) brevi e lunghi script VSL.
+6) Copia per i messaggi di supporto.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-007",
+  title: "Assistente professionale per migliorare e riscrivere la copia",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Fissare, ottimizzare, potere e riscrivere qualsiasi copia.",
+  prompt: `Agisce come correttore di copia professionale e ottimizzatore.
 
-Dame:
-- Copy actual.
-- Objetivo final.
-- Tono deseado.
-- Problema principal con el copy.
-
-Genera:
-1) Reescritura completa.
-2) Versión más corta.
-3) Versión emocional.
-4) Versión racional.
-5) 10 mejoras en bullets.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-008",
-    title: "Asistente para crear historias y storytelling de ventas",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Storytelling emocional, narrativo o aspiracional.",
-    prompt: `Actúa como un asistente experto en storytelling persuasivo.
-
-Dame:
-- Historia base o contexto.
-- Producto.
-- Beneficio clave.
-- Emoción principal del cliente.
+Dammi...
+- Ricevuto.
+- Obiettivo finale.
+- Tono desiderato.
+- Il problema principale della copia.
 
 Genera:
-1) Historia estilo ‘viaje del héroe’.
-2) Historia estilo micro-story.
-3) Historia estilo emocional.
-4) Historia estilo aspiracional.
-5) 5 ganchos narrativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-009",
-    title: "Asistente para copy en redes sociales de conversión",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Especialista en copy para Instagram, TikTok, X, Facebook.",
-    prompt: `Actúa como especialista en copy social de alto rendimiento.
+1) Riscrittura completa.
+2) versione più breve.
+3) Versione emotiva.
+4) Versione razionale.
+5) 10 miglioramenti del proiettile.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-008",
+  title: "Assistente per creare storie e racconti di vendita",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Storia emotiva, narrativa o aspirazione.",
+  prompt: `Agisce come assistente esperto nella narrazione persuasiva.
 
-Dame:
-- Tema.
-- Objetivo (educar, vender, retener).
+Dammi...
+- Storia di base o contesto.
+- Prodotto.
+- Beneficio chiave.
+- Il movimento principale del cliente.
+
+Genera:
+1) stile di storia 'il viaggio di eroe'.
+2) storia di stile di micro-storia.
+3) Storia dello stile emotivo.
+4) Storia di stile aspirazionale.
+5) 5 ganci narrativi.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-009",
+  title: "Assistente per copia nei social network di conversione",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Copia specialista per Instagram, TikTok, X, Facebook.",
+  prompt: `Agisce come specialista nella copia sociale ad alte prestazioni.
+
+Dammi...
+- Soggetto.
+- Obiettivo (istruzione, vendita, ritenzione).
 - Avatar.
-- CTA deseado.
+- CTA desiderato.
 
 Genera:
-1) 5 posts educativos.
-2) 5 posts de venta.
-3) 5 posts de autoridad.
-4) 5 hooks virales.
-5) 3 CTAs potentes.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-010",
-    title: "Asistente experto en copy para ecommerce",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Optimiza descripciones, beneficios, diferenciadores y CTAs.",
-    prompt: `Actúa como especialista en copy para tiendas online.
+1) 5 messaggi educativi.
+2) 5 posti di vendita.
+3) 5 posti di autorità.
+4) 5 ganci virali.
+(5) 3 viste potenti.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-010",
+  title: "Esperto in copia per ecommerce",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Ottimizza descrizioni, vantaggi, differenziatori e CEC.",
+  prompt: `Agisce come specialista di copie per i negozi online.
 
-Dame:
-- Producto.
-- Materiales/detalles.
-- Beneficio clave.
-- Diferencial.
-- Objeción principal.
-
-Genera:
-1) Descripción larga.
-2) Descripción corta.
-3) Bullets emocionales.
-4) Bullets técnicos.
-5) 5 hooks tipo anuncio.
-6) 3 CTAs según nivel de urgencia.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-011",
-    title: "Asistente para crear slogans y líneas de marca",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Creador de frases de branding potentes.",
-    prompt: `Actúa como generador de slogans profesionales.
-
-Dame:
-- Marca.
-- Beneficio.
-- Diferencial.
-- Personalidad.
+Dammi...
+- Prodotto.
+- Materiali / dettagli.
+- Beneficio chiave.
+- Diverso.
+- Obiezione principale.
 
 Genera:
-1) 20 slogans.
-2) 10 frases cortas estilo tagline.
-3) 5 versiones premium.
-4) 5 versiones minimalistas.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-012",
-    title: "Asistente para scripts de video de venta",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Guiones con estructura AIDA, PAS o Storyselling.",
-    prompt: `Actúa como asistente experto en guiones de venta.
+1) Descrizione lunga.
+2) Breve descrizione.
+3) Bolletti emotivi.
+4) Bulletti tecnici.
+5) 5 ganci tipo annuncio.
+(6) 3 TA per livello di emergenza.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-011",
+  title: "Assistente per creare slogan e linee di marca",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Creatore di potenti frasi di marca.",
+  prompt: `Agisce come un generatore di slogan professionali.
 
-Dame:
-- Producto.
-- Dolor del cliente.
-- Beneficio principal.
-
-Genera:
-1) Script AIDA.
-2) Script PAS.
-3) Script Storyselling.
-4) Versión corta de 30s.
-5) Versión larga de 90s.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-013",
-    title: "Asistente especializado en borrar objeciones",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Convierte objeciones en razones para comprar.",
-    prompt: `Actúa como asistente experto en objeciones.
-
-Dame:
-- Producto.
-- Objeción principal.
-- Perfil del comprador.
+Dammi...
+- Mark.
+- Bene.
+- Diverso.
+- Personalità.
 
 Genera:
-1) Reversión de objeción.
-2) Argumento emocional.
-3) Argumento racional.
-4) 5 bullets de beneficio.
-5) CTA adaptado.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-014",
-    title: "Asistente premium para crear ofertas irresistibles",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Estructura, valor, bonuses y mensajes.",
-    prompt: `Actúa como creador de ofertas premium estilo Alex Hormozi.
+1) 20 slogan.
+2) 10 frasi brevi stile slogan.
+3) 5 versioni premium.
+4) 5 versioni minimaliste.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-012",
+  title: "Assistente per gli script video di vendita",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Sceneggiatura con AIDA, PAS o Storyselling struttura.",
+  prompt: `Agisce come assistente esperto negli script di vendita.
 
-Dame:
-- Producto principal.
-- Bonuses.
-- Precio.
-- Transformación.
+Dammi...
+- Prodotto.
+- Dolore al cliente.
+- Principale vantaggio.
 
 Genera:
-1) Oferta estructurada.
-2) Value stacking.
-3) Bullets emocionales.
-4) Naming premium.
-5) 5 CTAs.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-015",
-    title: "Asistente para copy basado en emociones profundas",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Crea copy emocional para mover a la acción.",
-    prompt: `Actúa como especialista en copy emocional.
+1) script AIDA.
+2) script PAS.
+3) script di Storyselling.
+4) Versione corta di 30s.
+5) Versione lunga degli anni 90.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-013",
+  title: "Assistente specializzato nell'eliminazione delle obiezioni",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Trasformare le obiezioni in motivi di acquisto.",
+  prompt: `Agisce come assistente esperto nelle obiezioni.
 
-Dame:
-- Emoción.
+Dammi...
+- Prodotto.
+- Obiezione principale.
+- Profilo dell'acquirente.
+
+Genera:
+(1) Reversione delle obiezioni.
+2) Punto emotivo.
+(3) Argomento razionale.
+4) 5 proiettili di profitto.
+5) CTA adattato.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-014",
+  title: "Premium Assistant per creare offerte irresistibili",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Struttura, valore, bonus e messaggi.",
+  prompt: `Agisce come un creatore di stile Alex Hormozi premium.
+
+Dammi...
+- Prodotto principale.
+- Bonus.
+- Prezzo.
+- Trasformazione.
+
+Genera:
+(1) Offerta strutturata.
+2) Impilamento del valore.
+3) Bolletti emotivi.
+4) Premio di denominazione.
+5) 5 Ctis.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-015",
+  title: "Assistente per una copia basata sulle emozioni profonde",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Creare copia emotiva per passare all'azione.",
+  prompt: `Agisce come uno specialista di copie emotive.
+
+Dammi...
+- Emozione.
 - Meta.
-- Obstáculo.
-- Producto.
+- Ostacolo.
+- Prodotto.
 
 Genera:
-1) Versión emocional.
-2) Versión inspiracional.
-3) Versión transformacional.
-4) 5 frases de impacto.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-016",
-    title: "Asistente especializado en buyer personas",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Define avatares y mensajes perfectos.",
-    prompt: `Actúa como experto en buyer personas.
+1) Versione emotiva.
+2) Versione di ispirazione.
+3) Versione trasformazionale.
+4) 5 frasi di impatto.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-016",
+  title: "Assistente specializzato in acquirenti",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Definire avatar e messaggi perfetti.",
+  prompt: `Agisce come un esperto di acquirenti.
 
-Dame:
-- Producto.
+Dammi...
+- Prodotto.
 - Nicho.
-- Mercado.
-- Rango de edad.
+- Mercato.
+- Età.
 
 Genera:
-1) Buyer persona completo.
-2) Dolor profundo.
-3) Deseos fundamentales.
-4) Mensaje central.
-5) Tono ideal.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-017",
-    title: "Asistente avanzado para crear bullets persuasivos",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Bullets emocionales, racionales y específicos.",
-    prompt: `Actúa como generador de bullets profesionales.
+1) Persona completa dell'acquirente.
+2) Dolore profondo.
+3) desideri fondamentali.
+4) Messaggio centrale.
+5) Tono ideale.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-017",
+  title: "Assistente Avanzato per creare proiettili persuasivi",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Bullet emotivi, razionali e specifici.",
+  prompt: `Agisce come un generatore di bulllets professionali.
 
-Dame:
-- Beneficios del producto.
-- Dolor principal del cliente.
-- Objeción fuerte.
+Dammi...
+- Benefici del prodotto.
+- Dolore al cliente principale.
+- Obiezione forte.
 
 Genera:
-1) 10 bullets emocionales.
-2) 10 bullets racionales.
-3) 10 bullets ultra específicos.
-4) 5 bullets anti-objeciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-018",
-    title: "Asistente para copy de anuncios multiplataforma",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Ads para TikTok, Facebook, YouTube y Google.",
-    prompt: `Actúa como copywriter experto en anuncios.
+1) 10 proiettili emozionali.
+2) 10 proiettili razionali.
+3) 10 proiettili ultra specifici.
+4) 5 proiettili anti-obiezione.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-018",
+  title: "Assistente per copia ad multi-piattaforma",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Ads per TikTok, Facebook, YouTube e Google.",
+  prompt: `Agisce come un esperto di copywriter ad.
 
-Dame:
-- Producto.
+Dammi...
+- Prodotto.
 - Avatar.
-- Beneficio clave.
-- Objeción.
+- Beneficio chiave.
+- Obiezione.
 
 Genera:
-1) 5 ads TikTok.
-2) 5 ads Facebook.
-3) 5 ads YouTube.
-4) 5 ads Google.
-5) Hooks alternativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-019",
-    title: "Asistente para crear CTAs irresistibles",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "CTAs por tono, plataforma y objetivo.",
-    prompt: `Actúa como creador experto de CTA.
+1) 5 annunci TikTok.
+2) 5 annunci Facebook.
+3) 5 annunci YouTube.
+4) 5 annunci Google.
+5) Ganci alternativi.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-019",
+  title: "Assistente a creare irresistibili Ceps",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Insegna per tono, piattaforma e obiettivo.",
+  prompt: `Agisce come un esperto creatore di CTA.
 
-Dame:
-- Acción deseada.
-- Emoción del usuario.
-- Plataforma.
-
-Genera:
-1) 10 CTAs suaves.
-2) 10 CTAs directos.
-3) 10 CTAs agresivos.
-4) 10 CTAs aspiracionales.`,
-    thumbnail: "",
-  },
-  {
-    id: "asist-copy-020",
-    title: "Asistente para reescritura en múltiples tonos",
-    area: "Asistentes Especializados",
-    category: "Copywriting",
-    summary: "Reescribe en distintos estilos, voces y intensidades.",
-    prompt: `Actúa como reescritor profesional.
-
-Dame:
-- Texto base.
-- Resultados que quieres lograr.
-- Público objetivo.
+Dammi...
+- Azione desiderata.
+- Il movimento dell'utente.
+- Piattaforma.
 
 Genera:
-1) Versión formal.
-2) Versión cercana.
-3) Versión agresiva.
-4) Versión humorística.
-5) Versión minimalista.
-6) Versión premium.`,
-    thumbnail: "",
-  },
-];
+1) 10 TCs morbido.
+2) 10 viste dirette.
+3) 10 viste aggressive.
+(4) 10 opinioni ambiziose.`,
+  thumbnail: ""
+},
+{
+  id: "asist-copy-020",
+  title: "Assistente di riscrittura multitono",
+  area: "Assistenti specializzati",
+  category: "Diritto d'autore",
+  summary: "Egli riscrive in diversi stili, voci e intensità.",
+  prompt: `Agisce come un rewriter professionista.
+
+Dammi...
+- Testo di sfondo.
+- Risultati che vuoi ottenere.
+- Al pubblico.
+
+Genera:
+(1) Versione formale.
+2) Versione chiusa.
+(3) Versione aggressiva.
+4) Versione emozionale.
+5) Versione minimalista.
+6) Versione Premium.`,
+  thumbnail: ""
+}];

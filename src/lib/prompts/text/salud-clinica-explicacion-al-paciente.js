@@ -1,906 +1,905 @@
 // src/lib/prompts/text/salud-clinica-explicacion-al-paciente.js
 
 export const textPromptsSaludClinicaExplicacionAlPaciente = [
-  {
-    id: "saludexp-001",
-    title: "Explicación de diagnóstico probable (sin afirmar) en lenguaje simple",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Traduce hallazgos clínicos a una explicación clara, sin alarmismo y sin prometer diagnósticos definitivos.",
-    prompt: `Actúa como médico y explica al paciente lo que podría estar pasando, usando lenguaje sencillo.
+{
+  id: "saludexp-001",
+  title: "Spiegazione della diagnosi probabile (non stabilita) in lingua semplice",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Traduce i risultati clinici in una chiara spiegazione, senza allarmatismo e senza promettenti diagnosi definitive.",
+  prompt: `Agisce come medico e spiega al paziente cosa potrebbe succedere, usando un linguaggio semplice.
 
-Inputs:
-- Síntoma principal.
-- Duración y evolución.
-- Hallazgos relevantes (si existen).
-- Qué le preocupa al paciente (miedo principal).
-
-Genera:
-1) Explicación en 6–10 frases (nivel secundaria).
-2) Diferencia entre: "lo más probable" vs "lo que debemos descartar".
-3) Qué datos faltan y por qué importan.
-4) Próximos pasos (observación, consulta, estudios) con razón clara.
-5) Cierre empático + 3 frases que reduzcan ansiedad sin minimizar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-002",
-    title: "Entregar resultados de laboratorio: cómo interpretarlos sin confundir",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Explica resultados comunes con contexto, evitando tecnicismos y alarmas innecesarias.",
-    prompt: `Actúa como médico. Explica resultados de laboratorio al paciente.
-
-Inputs:
-- Lista de resultados con rangos (ej. glucosa, HbA1c, colesterol, TSH, hemograma).
-- Síntomas del paciente (si hay).
-- Antecedentes relevantes.
+Ingressi:
+- Il sintomo principale.
+- Durata ed evoluzione.
+- Risultati rilevanti (se presenti).
+- No. Ciò che riguarda il paziente (la paura principale).
 
 Genera:
-1) Resumen general (1 párrafo).
-2) Tabla en texto (no markdown) con: prueba → qué mide → si está alto/bajo → significado común.
-3) Qué cosas pueden alterar el resultado (errores frecuentes).
-4) Qué acciones se recomiendan (hábitos / seguimiento / repetir estudio).
-5) Señales por las que sí sería urgente consultar.`,
-    thumbnail: "",
-  },
+1) Spiegazione in 6-10 frasi (livello secondario).
+2) Differenza tra: "molto probabile" vs "cosa dovremmo escludere".
+3) Quali dati mancano e perché importano.
+4) Prossimo passo (osservazione, consultazione, studi) con chiara ragione.
+5) Chiusura empatica + 3 frasi che riducono l'ansia senza minimizzare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-003",
-    title: "Explicación de un plan de tratamiento paso a paso (adherencia)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Convierte indicaciones clínicas en un plan de acción diario para mejorar adherencia.",
-    prompt: `Actúa como médico. Explica un plan de tratamiento para que el paciente lo cumpla.
+{
+  id: "saludexp-002",
+  title: "Fornire risultati di laboratorio: come interpretarli senza confusione",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Spiega risultati comuni con il contesto, evitando tecniche e allarmi inutili.",
+  prompt: `Agisce come medico. Spiega i risultati del laboratorio al paziente.
 
-Inputs:
-- Diagnóstico o problema (ej. gastritis, hipertensión, asma).
-- Medicamentos indicados (nombre/dosis/horario) si aplica.
-- Cambios de estilo de vida recomendados.
-- Restricciones del paciente (trabajo, horarios, presupuesto).
-
-Genera:
-1) Explicación breve del objetivo del tratamiento (2–3 frases).
-2) Rutina diaria en bullets (mañana/tarde/noche).
-3) “Trucos” de adherencia (recordatorios, asociación a hábitos).
-4) Efectos esperados vs efectos secundarios comunes (sin alarmismo).
-5) Qué hacer si olvida una dosis (general, sin dar instrucciones peligrosas).
-6) Cuándo volver y qué signos obligan a consultar antes.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-004",
-    title: "Explicar riesgo y pronóstico (sin asustar) usando analogías simples",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Comunica riesgo de forma comprensible con ejemplos cotidianos y enfoque en control.",
-    prompt: `Actúa como médico. Tienes que explicar riesgo/probabilidad al paciente.
-
-Inputs:
-- Problema de salud.
-- Factores de riesgo presentes.
-- Dudas o miedos del paciente.
+Ingressi:
+- Elenco dei risultati con intervalli (ad esempio glucosio, HbA1c, colesterolo, TSH, emogramma).
+- Sintomi pazienti (se presenti).
+- Sfondo rilevante.
 
 Genera:
-1) Explicación en lenguaje simple sin porcentajes complicados.
-2) Una analogía cotidiana adecuada (no infantil).
-3) Qué puede controlar el paciente (3–5 acciones).
-4) Qué no puede controlar (para liberar culpa).
-5) Plan de seguimiento y por qué el seguimiento reduce riesgos.`,
-    thumbnail: "",
-  },
+1) Riepilogo generale (1 paragrafo).
+2) Tabella in testo (non markdown) con: test → quali misure → se è alto / basso → significato comune.
+3) Quali cose possono alterare il risultato (frequenti errori).
+4) Quali azioni sono raccomandate (abita / follow-up / studio ripetitivo).
+5) Segni per i quali sarebbe urgente consultare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-005",
-    title: "Explicación de 'banderas rojas' y cuándo ir a urgencias",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Lista clara y priorizada de signos de alarma con instrucciones accionables.",
-    prompt: `Actúa como médico. Explica al paciente qué señales significan urgencia.
+{
+  id: "saludexp-003",
+  title: "Spiegazione di un piano di trattamento passo-passo (adesione)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Convertire le indicazioni cliniche in un piano d'azione giornaliero per migliorare l'aderenza.",
+  prompt: `Agisce come medico. Spiega un piano di trattamento con cui il paziente deve rispettare.
 
-Inputs:
-- Síntoma o diagnóstico probable.
-- Edad y comorbilidades.
-- Contexto (vive solo, acceso a transporte, etc.).
-
-Genera:
-1) 6–10 banderas rojas (en orden de gravedad).
-2) Qué hacer exactamente ante cada una (ej. “acudir a urgencias hoy mismo”).
-3) Qué NO hacer (errores comunes).
-4) Mensaje final calmado: “no es para asustarte, es para cuidarte”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-006",
-    title: "Explicar por qué NO se necesitan antibióticos (resistencia)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Responde a la expectativa del paciente con empatía y educación clara.",
-    prompt: `Actúa como médico. El paciente pide antibiótico pero no está indicado.
-
-Inputs:
-- Síntoma principal (ej. resfriado, bronquitis aguda, faringitis viral).
-- Tiempo de evolución.
-- Qué espera el paciente (“quiero algo fuerte”).
+Ingressi:
+- Diagnosi o problema (ad esempio gastrite, ipertensione, asma).
+- Prodotti medicinali indicati (nome / dose / tempo) se applicabile.
+- Cambiamenti di stile di vita raccomandati.
+- Restrizioni dei pazienti (lavoro, ore, budget).
 
 Genera:
-1) Validación empática (1–2 frases).
-2) Explicación breve virus vs bacteria (simple).
-3) Riesgos reales de antibióticos innecesarios (3 puntos).
-4) Qué sí ayuda (plan sintomático general y autocuidado).
-5) Señales que sí indicarían reevaluación o posible antibiótico.`,
-    thumbnail: "",
-  },
+1) Breve spiegazione dell'obiettivo del trattamento (2-3 frasi).
+2) Giro giornaliero in pallottole (mattina / pomeriggio / notte).
+3) "Tricks" di adesione (reminenti, associazione alle abitudini).
+4) Effetti previsti vs effetti collaterali comuni (senza allarme).
+5) Cosa fare se si perde una dose (generale, senza dare istruzioni pericolose).
+6) Quando tornare e quali segni ti fanno consultare prima.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-007",
-    title: "Explicar un estudio de imagen (RX/US/TAC/RM) sin tecnicismos",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Describe qué se busca con el estudio, preparación y qué esperar del resultado.",
-    prompt: `Actúa como médico. Explica un estudio de imagen al paciente.
+{
+  id: "saludexp-004",
+  title: "Spiegare il rischio e la prognosi (non scartata) utilizzando semplici analogie",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Comunica il rischio in modo comprensibile con esempi quotidiani e approccio di controllo.",
+  prompt: `Agisce come medico. Devi spiegare il rischio / probabilità al paziente.
 
-Inputs:
-- Estudio solicitado (RX/US/TAC/RM).
-- Motivo y sospecha clínica.
-- Preocupaciones del paciente (radiación, claustrofobia, costo).
-
-Genera:
-1) Qué es el estudio y qué información da (en simple).
-2) Por qué se pidió (objetivo clínico).
-3) Qué esperar el día del estudio (pasos, duración).
-4) Riesgos/precauciones relevantes (sin alarmismo).
-5) Qué significan resultados “normales” vs “hallazgo” y próximos pasos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-008",
-    title: "Explicar un diagnóstico crónico (HTA/DM) con enfoque motivacional",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Comunica diagnóstico crónico y plan de control sin culpa, resaltando ganancias rápidas.",
-    prompt: `Actúa como médico con enfoque de entrevista motivacional.
-
-Inputs:
-- Diagnóstico (HTA/DM/dislipidemia).
-- Valores recientes (PA, HbA1c, LDL).
-- Barreras del paciente (tiempo, comida, ejercicio, estrés).
+Ingressi:
+- Problemi di salute.
+- Fattori di rischio presenti.
+- Dubitate o temete il paziente.
 
 Genera:
-1) Qué significa el diagnóstico en 1 párrafo.
-2) Por qué es importante controlarlo (beneficios concretos).
-3) 3 cambios pequeños (micro-hábitos) que impacten en 2 semanas.
-4) Plan simple de seguimiento (qué medir y cuándo).
-5) Mensaje sin culpas + refuerzo de autoeficacia.`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione linguistica senza percentuali complicate.
+2) Un'appropriata analogia quotidiana (non-fidanzata).
+3) Che cosa il paziente può controllare (3-5 azioni).
+4) Quello che non si può controllare (per rilasciare il senso di colpa).
+5) Piano di monitoraggio e perché il monitoraggio riduce i rischi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-009",
-    title: "Explicar dolor: diferencia entre daño y sensibilidad (educación)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Ayuda a pacientes con dolor persistente a entender el dolor sin catastrofizar.",
-    prompt: `Actúa como médico. Explica el dolor sin asustar al paciente.
+{
+  id: "saludexp-005",
+  title: "Spiegazione di 'bandiere rosse' e quando andare all'emergenza",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Elenco chiaro e prioritario di segnali di allarme con istruzioni attuabili.",
+  prompt: `Agisce come medico. Spiegare al paziente cosa significa urgenza.
 
-Inputs:
-- Zona del dolor.
-- Tiempo de evolución.
-- Qué estudios previos han salido normales (si aplica).
-- Miedos del paciente (ej. “me voy a quedar inválido”).
-
-Genera:
-1) Explicación simple: dolor ≠ siempre daño (sin invalidar).
-2) Qué factores lo amplifican (sueño, estrés, inactividad).
-3) Qué acciones suelen bajar el dolor (movimiento graduado, calor, hábitos).
-4) Señales que sí indicarían alarma y reevaluación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-010",
-    title: "Explicar 'seguimiento' y por qué no es 'me ignoraron'",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Reduce frustración cuando el plan es observar y reevaluar.",
-    prompt: `Actúa como médico. Explica por qué el plan es seguimiento/observación.
-
-Inputs:
-- Síntoma.
-- Hallazgos tranquilizadores.
-- Tiempo recomendado de observación.
-- ¿Qué le frustra al paciente?
+Ingressi:
+- Sintomi o diagnosi probabile.
+- Età e comorbidità.
+- Contesto (vivo da solo, accesso al trasporto, ecc.).
 
 Genera:
-1) 5–7 frases claras.
-2) Qué cosas pueden cambiar en el tiempo que vuelven el diagnóstico más claro.
-3) Qué debe registrar el paciente (diario simple).
-4) Cuándo volver antes de tiempo (banderas rojas).`,
-    thumbnail: "",
-  },
+1) 6-10 bandiere rosse (in ordine di gravità).
+2) Cosa fare esattamente prima di ciascuno (ad esempio "andare all'emergenza oggi").
+3) Che fare NON (errore comune).
+4) "Non è per spaventarti, è per prendersi cura di te.".`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-011",
-    title: "Explicar efectos secundarios comunes vs peligrosos (sin pánico)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Comunica seguridad del medicamento: qué es esperado y qué no.",
-    prompt: `Actúa como médico. Explica efectos secundarios de un tratamiento.
+{
+  id: "saludexp-006",
+  title: "Spiegare perché gli antibiotici non sono necessari (resistenza)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Risponde all'aspettativa del paziente con empatia e educazione chiara.",
+  prompt: `Agisce come medico. Il paziente richiede antibiotico ma non è indicato.
 
-Inputs:
-- Medicamento (nombre y para qué se usa).
-- Dosis y horario.
-- Contexto del paciente (alergias, embarazo, edad).
-
-Genera:
-1) Efectos comunes (3–6) y cómo manejarlos de forma general.
-2) Efectos raros pero peligrosos (2–4) y qué hacer si ocurren.
-3) Consejos para tolerarlo mejor (con comida, hidratación, horarios).
-4) Señales para suspender y consultar (con redacción clara).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-012",
-    title: "Explicar por qué se solicita consulta con especialista (interconsulta)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Justifica la derivación sin hacer sentir al paciente ‘grave’ o abandonado.",
-    prompt: `Actúa como médico. Explica una referencia a especialista.
-
-Inputs:
-- Motivo de interconsulta.
-- Qué se ha intentado hasta ahora.
-- Qué duda clínica queda.
+Ingressi:
+- sintomo principale (ad esempio bronchite acuta, faringite virale).
+- Tempo di evoluzione.
+- No. Ciò che il paziente si aspetta ("Voglio qualcosa di forte").
 
 Genera:
-1) Explicación en 1 párrafo: objetivo de la consulta.
-2) Qué preguntas llevará el especialista (2–4).
-3) Qué debe llevar el paciente (estudios, lista de síntomas).
-4) Qué puede ocurrir después (posibles pasos) sin prometer.`,
-    thumbnail: "",
-  },
+1) convalida empatica (1-2 frasi).
+2) Breve spiegazione virus vs batteri (semplice).
+3) Rischi reali di antibiotici inutili (3 punti).
+4) Aiuta (piano sintomatico generale e self-care).
+5) Segni che indicano la rivalutazione o possibile antibiotico.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-013",
-    title: "Explicar un diagnóstico 'funcional' (ej. colon irritable) con legitimidad",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Evita que el paciente sienta que ‘todo está en su cabeza’.",
-    prompt: `Actúa como médico. Explica un diagnóstico funcional (ej. colon irritable, dispepsia funcional).
+{
+  id: "saludexp-007",
+  title: "Spiegare uno studio di immagine (RX / US / TAC / RM) senza tecnicitÃ",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Descrivi cosa stai cercando con lo studio, la preparazione e cosa aspettarti dal risultato.",
+  prompt: `Agisce come medico. Spiega uno studio di immagine paziente.
 
-Inputs:
-- Síntomas principales.
-- Estudios normales (si los hay).
-- Disparadores identificados (estrés, alimentos, etc.).
-
-Genera:
-1) Explicación que valide síntomas como reales.
-2) Qué significa que estudios estén normales (buen pronóstico).
-3) Qué mecanismos pueden contribuir (motilidad, sensibilidad, eje intestino-cerebro) en lenguaje simple.
-4) Plan de manejo por capas: hábitos, dieta, apoyo, seguimiento.
-5) Banderas rojas para reevaluar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-014",
-    title: "Explicar una infección común y su curso esperado (timeline)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Da un ‘timeline’ realista para síntomas y recuperación, evitando reconsultas por ansiedad.",
-    prompt: `Actúa como médico. Explica el curso esperado de una infección común.
-
-Inputs:
-- Tipo (respiratoria, GI, urinaria, piel).
-- Día de evolución actual.
-- Síntomas predominantes.
+Ingressi:
+- Studio richiesto (RX / US / TAC / RM).
+- Motivo e sospetto clinico.
+- Le preoccupazioni dei pazienti (radiazione, claustrofobia, costo).
 
 Genera:
-1) Timeline día a día (o por rangos) de lo esperado.
-2) Qué síntomas pueden persistir sin ser peligro (ej. tos 2–3 semanas).
-3) Qué signos indican complicación.
-4) Cuidados generales seguros.`,
-    thumbnail: "",
-  },
+1) Che cosa lo studio è e quali informazioni dà (in semplice).
+2) Perché è stato ordinato (obiettivo clinico).
+3) Cosa aspettarsi il giorno dello studio (passaggi, durata).
+4) Rischi rilevanti / precauzioni (senza allarme).
+5) Che cosa significa "normale" contro "trovare" e i prossimi passi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-015",
-    title: "Explicar dolor torácico no cardiaco (cuando es probable) sin invalidar",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Maneja ansiedad y explica causas frecuentes cuando no hay signos de alarma.",
-    prompt: `Actúa como médico. Explica dolor torácico probablemente no cardiaco, manteniendo seguridad.
+{
+  id: "saludexp-008",
+  title: "Spiegare una diagnosi cronica (HTA / DM) con approccio motivazionale",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Comunica la diagnosi cronica e il piano di controllo senza difetto, evidenziando i guadagni rapidi.",
+  prompt: `Agisce come medico con un approccio motivazionale intervista.
 
-Inputs:
-- Características del dolor.
-- Hallazgos tranquilizadores (si existen).
-- Preocupación del paciente.
-
-Genera:
-1) Qué hace que NO parezca una emergencia cardiaca (sin garantizar).
-2) Causas frecuentes (músculo-esquelético, reflujo, ansiedad) con pistas.
-3) Plan de autocuidado y seguimiento.
-4) Banderas rojas claras.`,
-    thumbnail: "",
-  },
-
-  // --- completamos hasta 40 ---
-  {
-    id: "saludexp-016",
-    title: "Explicar resultado 'incidental' en una imagen (hallazgo casual)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Explica hallazgos incidentales comunes y cómo se decide si requieren seguimiento.",
-    prompt: `Actúa como médico. Explica un hallazgo incidental.
-
-Inputs:
-- Hallazgo (texto del reporte).
-- Estudio (TAC/RM/US).
-- Síntomas del paciente (si hay).
+Ingressi:
+- Diagnosi (HTA / DM / dislipidemia).
+- Valori recenti (PA, HbA1c, LDL).
+- Barriere del paziente (tempo, cibo, esercizio, stress).
 
 Genera:
-1) Qué significa “incidental” (simple).
-2) Qué tan común es (sin inventar estadísticas; habla cualitativamente).
-3) Qué criterios suelen definir seguimiento vs no.
-4) Próximo paso recomendado (vigilancia, repetir, especialista).`,
-    thumbnail: "",
-  },
+1) Che cosa significa la diagnosi in 1 paragrafo.
+2) Perché è importante controllarlo (prestazioni specifiche).
+3) 3 piccoli cambiamenti (micro abitudini) che hanno un impatto in 2 settimane.
+4) Piano di monitoraggio semplice (che misurare e quando).
+5) Unguilty messaggio + auto-efficacia.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-017",
-    title: "Explicar por qué un síntoma puede ser por deshidratación",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Conecta síntomas (mareo, taquicardia, fatiga) con hidratación de forma práctica.",
-    prompt: `Actúa como médico. Explica deshidratación y su relación con síntomas.
+{
+  id: "saludexp-009",
+  title: "Spiegare il dolore: differenza tra danno e sensibilità (educazione)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Aiutare i pazienti con dolore persistente a comprendere il dolore non catastrofico.",
+  prompt: `Agisce come medico. Spiega il dolore senza spaventare il paziente.
 
-Inputs:
-- Síntomas.
-- Ingesta de líquidos aproximada.
-- Pérdidas (diarrea, vómito, ejercicio, calor).
-- Signos vitales si existen.
-
-Genera:
-1) Explicación simple del mecanismo.
-2) Cómo confirmar en casa (signos/indicadores).
-3) Plan práctico de hidratación general y cuándo consultar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-018",
-    title: "Explicar gastritis/reflujo y cambios dietéticos realistas",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Educación breve + lista de ajustes de alimentación con alto impacto.",
-    prompt: `Actúa como médico. Explica reflujo/gastritis en lenguaje simple.
-
-Inputs:
-- Síntomas (ardor, regurgitación, dolor epigástrico).
-- Horarios de comida.
-- Consumo de café/alcohol/picante.
-- Medicación actual.
+Ingressi:
+- Zona del dolore.
+- Tempo di evoluzione.
+- No. Quali studi precedenti sono stati normali (se applicabili).
+- Pazienti paure (ad esempio "io sarò invalido").
 
 Genera:
-1) Explicación del reflujo/gastritis (simple).
-2) 8 ajustes dietéticos realistas (prioriza los 3 más impactantes).
-3) Hábitos posturales (horario, elevación de cabecera).
-4) Banderas rojas (pérdida de peso, vómito con sangre, anemia, disfagia).`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione: dolore) sempre danno (non invalidato).
+2) Quali fattori lo amplificano (sleep, stress, inattività).
+3) Quali azioni di solito ridurre il dolore (movimento laureato, calore, abitudini).
+4) Segni che indicherebbero allarme e rivalutazione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-019",
-    title: "Explicar asma: qué es, qué dispara y qué significa control",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Definición clara de asma, disparadores y plan general de control.",
-    prompt: `Actúa como médico. Explica asma para un paciente.
+{
+  id: "saludexp-010",
+  title: "Spiega 'follow-up' e perché non mi è 'ignorato '",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Riduce la frustrazione quando il piano è di osservare e rivalutare.",
+  prompt: `Agisce come medico. Spiega perché il piano è follow-up / osservazione.
 
-Inputs:
-- Síntomas (sibilancias, tos nocturna, disnea).
-- Desencadenantes sospechados.
-- Medicación actual si existe.
-
-Genera:
-1) Qué pasa en las vías respiratorias (simple).
-2) Diferencia entre “alivio” y “control” (sin prescribir).
-3) Disparadores comunes y cómo reducirlos.
-4) Plan de acción general: qué vigilar y cuándo consultar urgente.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-020",
-    title: "Explicar EPOC: curso, metas y autocuidado",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Comunicación clara en pacientes fumadores o exfumadores sin culpa.",
-    prompt: `Actúa como médico. Explica EPOC.
-
-Inputs:
-- Síntomas y limitaciones.
-- Historia de tabaquismo.
-- Exacerbaciones recientes.
+Ingressi:
+- Simbolo.
+- Riassicurare i risultati.
+- Tempo di osservazione consigliato.
+- No. Cosa frustra il paziente?
 
 Genera:
-1) Explicación simple de qué es EPOC.
-2) Qué metas son realistas (mejorar tolerancia, reducir crisis).
-3) Acciones prioritarias (dejar tabaco, vacunas, actividad).
-4) Señales de exacerbación y urgencia.`,
-    thumbnail: "",
-  },
+1) 5-7 frasi chiare.
+2) Quali cose possono cambiare nel tempo che rendono la diagnosi più chiara.
+3) Che cosa il paziente deve registrare (semplice ogni giorno).
+4) Quando tornare prima del tempo (bandiere rosse).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-021",
-    title: "Explicar anemia: por qué da síntomas y qué investigar",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Traduce anemia a síntomas cotidianos y plan de evaluación general.",
-    prompt: `Actúa como médico. Explica anemia al paciente.
+{
+  id: "saludexp-011",
+  title: "Spiegare gli effetti collaterali comuni vs pericoloso (senza panico)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Comunica la sicurezza della droga: ciò che è previsto e ciò che non è.",
+  prompt: `Agisce come medico. Spiega gli effetti collaterali di un trattamento.
 
-Inputs:
-- Hb/hematocrito (si se tiene).
-- Síntomas (fatiga, palidez, disnea).
-- Menstruación/sangrados/ dieta.
-
-Genera:
-1) Qué es anemia (simple).
-2) Por qué causa síntomas.
-3) Causas comunes por grupos (pérdida, falta de hierro, crónica) sin diagnosticar.
-4) Próximos pasos típicos (estudios y seguimiento).
-5) Banderas rojas (síncope, dolor torácico, sangrado activo).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-022",
-    title: "Explicar tiroides (TSH/T4) y síntomas típicos",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Aclara qué significa hipo/hipertiroidismo sin tecnicismos.",
-    prompt: `Actúa como médico. Explica función tiroidea y resultados.
-
-Inputs:
-- TSH, T4 (si hay).
-- Síntomas (peso, ánimo, palpitaciones, frío/calor).
-- Medicación y antecedentes.
+Ingressi:
+- Prodotto medicinale (nome e per cosa viene utilizzato).
+- Forza e programma.
+- contesto paziente (allergie, gravidanza, età).
 
 Genera:
-1) Qué hace la tiroides (simple).
-2) Qué significa TSH alta/baja de forma intuitiva.
-3) Relación con síntomas.
-4) Qué suele hacerse después (confirmar, repetir, tratamiento/seguimiento).`,
-    thumbnail: "",
-  },
+1) Effetti comuni (3-6) e come gestirli in generale.
+2) Effetti rari ma pericolosi (2-4) e cosa fare se si verificano.
+3) Suggerimenti per meglio tollerarlo (con cibo, idratazione, ore).
+4) Segni di sospensione e consultazione (con una chiara formulazione).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-023",
-    title: "Explicar dolor lumbar: por qué el movimiento ayuda",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Reduce miedo al movimiento y fomenta recuperación con seguridad.",
-    prompt: `Actúa como médico. Explica lumbalgia mecánica y manejo general.
+{
+  id: "saludexp-012",
+  title: "Spiegare perché è richiesta una consulenza specialistica (interconsultazione)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Essa giustifica la derivazione senza far sentire il paziente \"serioso\" o abbandonato.",
+  prompt: `Agisce come medico. Spiegare un riferimento allo specialista.
 
-Inputs:
-- Inicio (carga/posición).
-- Irradiación sí/no.
-- Red flags ausentes/presentes.
+Ingressi:
+- Motivo di interconsultazione.
+- No. Ciò che è stato provato finora.
+- No. Che dubbio clinico.
 
 Genera:
-1) Explicación simple del dolor mecánico.
-2) Por qué reposo absoluto empeora (simple).
-3) Qué tipo de movimiento suele ayudar (general).
-4) Banderas rojas neurológicas para urgencias.`,
-    thumbnail: "",
-  },
+1) Spiegazione in 1 paragrafo: obiettivo della consultazione.
+2) Quali domande prenderà lo specialista (2-4).
+3) Che cosa il paziente dovrebbe indossare (studi, elenco dei sintomi).
+4) Cosa può accadere dopo (possibili passi) senza promettere.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-024",
-    title: "Explicar colesterol y riesgo cardiovascular (sin culpar)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Comunica LDL/HDL/triglicéridos y acciones de alto impacto.",
-    prompt: `Actúa como médico. Explica perfil de lípidos al paciente.
+{
+  id: "saludexp-013",
+  title: "Spiegare una diagnosi \"funzionale\" (ad esempio colon irritabile) con legittimità",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Esso impedisce al paziente di sentire che 'tutto è nella sua testa'.",
+  prompt: `Agisce come medico. Spiega una diagnosi funzionale (ad esempio colon irritabile, dispepsia funzionale).
 
-Inputs:
+Ingressi:
+- Sintomi principali.
+- Studi normali (se presenti).
+- trigger identificati (stress, cibo, ecc.).
+
+Genera:
+1) Spiegazione che valorizza i sintomi come reale.
+2) Ciò che significa che gli studi sono normali (buona prognosi).
+3) Quali meccanismi possono contribuire (motilità, sensibilità, asse interno-cervello) in linguaggio semplice.
+4) Piano di gestione dei livelli: abitudini, dieta, supporto, follow-up.
+5) Bandiere rosse da rivalutare.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-014",
+  title: "Spiegare un'infezione comune e il suo corso previsto (linea temporale)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Dà una linea temporale realistica per i sintomi e il recupero, evitando ricorsi ansiosi.",
+  prompt: `Agisce come medico. Spiega il corso previsto di un'infezione comune.
+
+Ingressi:
+- Tipo (respiratorio, GI, urinario, pelle).
+- Il giorno attuale dell'evoluzione.
+- Sintomi preferiti.
+
+Genera:
+1) Timeline giorno per giorno (o per gamma) del previsto.
+2) Quali sintomi possono persistere senza pericolo (ad esempio 2-3 settimane).
+3) Quali segni indicano complicazione.
+4) Assistenza generale sicura.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-015",
+  title: "Spiegare il dolore toracico non cardiaco (se è probabile) senza invalidare",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Guida l'ansia e spiega cause frequenti quando non ci sono segni di allarme.",
+  prompt: `Agisce come medico. Spiega dolore al petto probabilmente non dolore al cuore, mantenendo la sicurezza.
+
+Ingressi:
+- Caratteristiche del dolore.
+- Riassicurare i risultati (se presenti).
+- La preoccupazione del paziente.
+
+Genera:
+1) Che cosa lo fa NON assomigliare a un'emergenza cardiaca (non garantita).
+2) cause comuni (musculo-scheletrale, reflusso, ansia) con indizi.
+3) Self-care e follow-up piano.
+4) Bandiere rosse chiare.`,
+  thumbnail: ""
+},
+
+// --- completamos hasta 40 ---
+{
+  id: "saludexp-016",
+  title: "Spiegare il risultato 'incidentale' in un'immagine (rilevamento casuale)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Spiega i risultati incidentali comuni e come è deciso se richiedono il follow-up.",
+  prompt: `Agisce come medico. Spiega un risultato accidentale.
+
+Ingressi:
+- Contatto (relazione del testo).
+- Studio (TAC / RM / USA).
+- Sintomi pazienti (se presenti).
+
+Genera:
+1) Che cosa significa "incidentale" (semplice).
+2) Quanto è comune (senza inventare statistiche; qualitativamente parlando).
+(3) Quali criteri di solito definiscono il follow-up vs no.
+4) Prossimo passo consigliato (monitoraggio, ripetizione, specialista).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-017",
+  title: "Spiegare perché un sintomo può essere disidratazione",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Collega i sintomi (dizziness, tachicardia, stanchezza) con idratazione in modo pratico.",
+  prompt: `Agisce come medico. Spiega la disidratazione e il suo rapporto con i sintomi.
+
+Ingressi:
+- I sintomi.
+- Approssimativo apporto di liquidi.
+- Perdita (diarrea, vomito, esercizio fisico, calore).
+- Vitali se esistono.
+
+Genera:
+1) Semplice spiegazione del meccanismo.
+2) Come confermare a casa (segni / indicatori).
+3) Piano pratico per l'idratazione generale e quando consultare.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-018",
+  title: "Spiegare gastrite / reflusso e cambiamenti dietetici realistici",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Breve istruzione + elenco delle impostazioni alimentari ad alto impatto.",
+  prompt: `Agisce come medico. Spiega reflusso / gastrite in lingua semplice.
+
+Ingressi:
+- Sintomi (bruciore, rigurgito, dolore epigastrico).
+- Ore di cibo.
+- Caffè / alcol / consumo piccante.
+- I farmaci attuali.
+
+Genera:
+1) Spiegazione del reflusso / gastrite (semplice).
+2) 8 aggiustamenti dietetici realistici (prioritizza i 3 più scioccanti).
+3) abitudini posturali (schedule, elevazione dell'intestazione).
+4) Bandiere rosse (perdita di peso, vomito con sangue, anemia, disfagia).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-019",
+  title: "Spiegare l'asma: che cosa è, che cosa spara e che cosa significa controllo",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Definizione chiara di asma, trigger e piano di controllo generale.",
+  prompt: `Agisce come medico. Spiega l'asma per un paziente.
+
+Ingressi:
+- Sintomi (respirazione, tosse notturna, dispnoea).
+- Sospettato senza sedia a rotelle.
+- I farmaci attuali se esiste.
+
+Genera:
+1) Che cosa accade nelle vie aeree (semplice).
+2) Differenza tra "rilievo" e "controllo" (non prescritta).
+3) tiratori comuni e come ridurli.
+4) Piano d'azione generale: cosa monitorare e quando consultare urgentemente.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-020",
+  title: "Spiegare COPD: corso, obiettivi e self-care",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Comunicazione chiara nei pazienti non-colpenti o ex-fumatori.",
+  prompt: `Agisce come medico. Spiega la polizia.
+
+Ingressi:
+- Sintomi e limitazioni.
+- Storia del fumo.
+- Esacerbazioni recenti.
+
+Genera:
+1) Semplice spiegazione di ciò che la polizia è.
+2) Quali obiettivi sono realistici (migliorare la tolleranza, ridurre la crisi).
+3) Azioni prioritarie (lasciando tabacco, vaccini, attività).
+4) Segni di esacerbazione e urgenza.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-021",
+  title: "Spiegare l'anemia: perché dà sintomi e cosa indagare",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Tradurre l'anemia a sintomi quotidiani e piano di valutazione generale.",
+  prompt: `Agisce come medico. Spiega anemia al paziente.
+
+Ingressi:
+- Hb / ematocrito (se presente).
+- Sintomi (fede, palidità, dispnoea).
+- Menstruazione / sanguinamento / dieta.
+
+Genera:
+1) Che cosa è l'anemia (semplice).
+2) Perché provoca sintomi.
+3) Cause comuni per gruppo (perdita, mancanza di ferro, cronico) non diagnosticate.
+4) Prossimi passi tipici (studies e follow-up).
+5) Bandiere rosse (sincastro, dolore al petto, sanguinamento attivo).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-022",
+  title: "Spiegare la tiroide (TSH / T4) e sintomi tipici",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Chiarire ciò che hico / ipertiroidismo significa senza tecnicità.",
+  prompt: `Agisce come medico. Spiega la funzione e i risultati della tiroide.
+
+Ingressi:
+- TSH, T4 (se presente).
+- Sintomi (peso, umore, palpitazioni, freddo / calore).
+- Medicina e sfondo.
+
+Genera:
+1) Che cosa fa la tiroide (semplice).
+2) Che alto / basso TSH significa intuitivamente.
+3) Rapporto con sintomi.
+4) Cosa succede dopo (confermare, ripetere, trattamento / follow-up).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-023",
+  title: "Spiegare il dolore lombare: perché il movimento aiuta",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Riduce la paura del movimento e promuove il recupero sicuro.",
+  prompt: `Agisce come medico. Spiega la lumbalgia meccanica e la gestione generale.
+
+Ingressi:
+- Casa (carico / posizione).
+- Irradiazione sì / no.
+- Lags rossi assenti / presenti.
+
+Genera:
+1) Semplice spiegazione del dolore meccanico.
+2) Perché il riposo assoluto peggiora (semplice).
+3) Che tipo di movimento di solito aiuta (generale).
+4) Bandiere rosse neurologiche per l'emergenza.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-024",
+  title: "Spiegare il colesterolo e il rischio cardiovascolare (non incolpare)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Communica LDL / HDL / trigliceridi e azioni ad alto impatto.",
+  prompt: `Agisce come medico. Spiega il profilo lipidico al paziente.
+
+Ingressi:
 - LDL, HDL, TG.
-- Historia familiar y factores de riesgo.
-- Hábitos actuales.
+- Storia della famiglia e fattori di rischio.
+- Le abitudini attuali.
 
 Genera:
-1) Explicación simple de cada componente.
-2) Qué significa “riesgo” y por qué importa a largo plazo.
-3) 5 acciones de alto impacto (alimentación/actividad/sueño).
-4) Seguimiento recomendado y motivación.`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione di ogni componente.
+2) Che cosa significa "rischio" e perché conta a lungo termine.
+3) 5 azioni ad alto impatto (cibo / attività / sonno).
+4) Monitoraggio consigliato e motivazione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-025",
-    title: "Explicar por qué un síntoma puede ser por estrés (sin invalidar)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Integra mente-cuerpo de forma respetuosa y valida síntomas reales.",
-    prompt: `Actúa como médico. Explica relación estrés-síntomas sin decir “es psicológico”.
+{
+  id: "saludexp-025",
+  title: "Spiegare perché un sintomo può essere da stress (non invalidato)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Integra la mente-corpo in modo rispettoso e convalida i sintomi reali.",
+  prompt: `Agisce come medico. Spiega rapporto di stress - sintomi senza dire "è psicologico".
 
-Inputs:
-- Síntomas físicos.
-- Contexto de estrés.
-- Estudios normales (si aplica).
-
-Genera:
-1) Validación: “tu síntoma es real”.
-2) Explicación del eje estrés-cuerpo (simple).
-3) Plan de manejo: hábitos + seguimiento + cuándo reevaluar.
-4) 3 técnicas prácticas de regulación (respiración, pausa, sueño).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-026",
-    title: "Explicar un ECG 'normal' y qué NO descarta",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Evita falsa tranquilidad o falsa alarma: comunica límites del estudio.",
-    prompt: `Actúa como médico. Explica un ECG normal.
-
-Inputs:
-- Motivo por el que se tomó ECG.
-- Síntomas actuales.
-- Factores de riesgo.
+Ingressi:
+- Sintomi fisici.
+- contesto di stress.
+- Studi normali (se applicabili).
 
 Genera:
-1) Qué mira el ECG.
-2) Qué significa que sea normal.
-3) Qué NO descarta (explicado con cuidado).
-4) Qué sigue (observación, estudios adicionales o seguimiento) según síntomas.`,
-    thumbnail: "",
-  },
+1) Validazione: "il tuo sintomo è reale".
+2) Spiegazione dell'asse dello stress-corpo (semplice).
+3) Piano di gestione: abitudini + monitoraggio + quando rivalutare.
+4) 3 tecniche pratiche di regolazione (respirazione, pausa, sonno).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-027",
-    title: "Explicar por qué duele más de noche (inflamación vs mecánico)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Ayuda a interpretar patrones de dolor sin auto-diagnóstico.",
-    prompt: `Actúa como médico. Explica patrones de dolor día/noche.
+{
+  id: "saludexp-026",
+  title: "Spiegare un ECG 'normale' e cosa NON esclude",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Evitare falsità o falso allarme: comunica limiti di studio.",
+  prompt: `Agisce come medico. Spiegare un ECG normale.
 
-Inputs:
+Ingressi:
+- Il motivo per cui ha preso ECG.
+- Sintomi attuali.
+- Fattori di rischio.
+
+Genera:
+1) Che cosa guarda l'ECG?
+2) Che cosa significa essere normali.
+3) Che cosa NON esclude (presumibilmente spiegato).
+4) Ciò che segue (osservazione, studi aggiuntivi o follow-up) dai sintomi.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-027",
+  title: "Spiegare perché fa più male di notte (infiammazione vs meccanica)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Aiuta a interpretare i modelli di dolore senza autodiagnosi.",
+  prompt: `Agisce come medico. Spiega i modelli di dolore giorno / notte.
+
+Ingressi:
 - Zona.
-- Patrón (nocturno, matutino, con movimiento).
-- Rigidez y duración.
-- Síntomas sistémicos.
+- Modello (notte, mattina, con movimento).
+- Stirness e durata.
+- Sintomi sistemici.
 
 Genera:
-1) Explicación simple de patrones típicos (mecánico vs inflamatorio) sin diagnosticar.
-2) Qué datos ayudarían a aclarar.
-3) Cuándo sí es alarma (fiebre, pérdida de peso, déficits).`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione di schemi tipici (meccanici vs infiammatori) non diagnosticati.
+2) Quali dati aiuterebbe a chiarire.
+3) Quando è allarme (febbre, perdita di peso, deficit).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-028",
-    title: "Explicar vacunación: beneficios, efectos comunes y mitos",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Comunicación calmada y basada en seguridad para dudas de vacunas.",
-    prompt: `Actúa como médico. Explica una vacuna recomendada para el paciente.
+{
+  id: "saludexp-028",
+  title: "Spiegare la vaccinazione: benefici, effetti comuni e miti",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Una comunicazione calma e sicura per i dubbi sui vaccini.",
+  prompt: `Agisce come medico. Spiega un vaccino raccomandato per il paziente.
 
-Inputs:
-- Vacuna (influenza, COVID, tétanos, neumococo, VPH, etc.).
-- Edad y comorbilidades.
-- Dudas del paciente.
-
-Genera:
-1) Beneficios principales (2–4).
-2) Efectos secundarios comunes (qué esperar).
-3) Señales raras para consultar.
-4) Respuesta a 3 mitos frecuentes con lenguaje respetuoso.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-029",
-    title: "Explicar higiene del sueño para insomnio (plan práctico)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Da recomendaciones accionables sin moralina ni perfeccionismo.",
-    prompt: `Actúa como médico. Explica higiene de sueño.
-
-Inputs:
-- Hora habitual de dormir/despertar.
-- Consumo de cafeína/alcohol.
-- Siestas sí/no.
-- Estrés.
+Ingressi:
+- Vaccino (influenza, COVID, tetanus, pneumococcus, HPV, ecc.).
+- Età e comorbidità.
+- Dubiti del paziente.
 
 Genera:
-1) 8 reglas prácticas (prioriza 3 primeras).
-2) Rutina de 30 minutos pre-sueño (paso a paso).
-3) Qué hacer si no se duerme en 20–30 min.
-4) Cuándo evaluar causas médicas (apnea, depresión, tiroides).`,
-    thumbnail: "",
-  },
+1) Principali vantaggi (2-4).
+2) Effetti collaterali comuni (cosa aspettarsi).
+3) Rari segni da consultare.
+4) Risposta a 3 miti frequenti con linguaggio rispettoso.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-030",
-    title: "Explicar dolor de cabeza: migraña vs tensional (educación)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Ayuda al paciente a reconocer patrones y disparadores.",
-    prompt: `Actúa como médico. Explica migraña vs cefalea tensional.
+{
+  id: "saludexp-029",
+  title: "Spiegare l'igiene del sonno per l'insonnia (piano pratico)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Dà raccomandazioni attuabili senza moralina o perfezionismo.",
+  prompt: `Agisce come medico. Spiega l'igiene del sonno.
 
-Inputs:
-- Características del dolor.
-- Síntomas asociados (náusea, fotofobia).
-- Frecuencia/mes.
-- Uso de analgésicos.
-
-Genera:
-1) Explicación simple de ambos tipos.
-2) Disparadores comunes y cómo identificarlos.
-3) Importancia de evitar sobreuso de analgésicos (explicado fácil).
-4) Banderas rojas para urgencias.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-031",
-    title: "Explicar dolor abdominal funcional vs alarmas GI",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Aclara por qué a veces no hay una ‘lesión’ visible y cómo se maneja.",
-    prompt: `Actúa como médico. Explica dolor abdominal recurrente sin alarmas.
-
-Inputs:
-- Patrón del dolor.
-- Relación con comidas/estrés/evacuación.
-- Estudios previos.
+Ingressi:
+- Tempo normale per dormire / svegliarsi.
+- Caffeina / consumo di alcol.
+- Siestas sì / no.
+- Stress.
 
 Genera:
-1) Explicación simple (validando).
-2) Estrategias prácticas: dieta, fibra, hidratación, rutina.
-3) Qué observar (diario de síntomas).
-4) Alarmas GI (sangrado, fiebre, pérdida de peso, anemia, nocturno).`,
-    thumbnail: "",
-  },
+1) 8 regole pratiche (priorità 3 prima).
+2) Pre-sleep di 30 minuti (passo per passo).
+3) Che fare se non si dorme in 20- 30 min.
+4) Quando valutare le cause mediche (apnea, depressione, tiroide).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-032",
-    title: "Explicar infección urinaria: síntomas, cuidados y prevención",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Educación clara para cistitis no complicada + alarmas.",
-    prompt: `Actúa como médico. Explica infección urinaria (cistitis) al paciente.
+{
+  id: "saludexp-030",
+  title: "Spiegare mal di testa: emicrania contro tensione (istruzione)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Aiuta il paziente a riconoscere i modelli e i trigger.",
+  prompt: `Agisce come medico. Spiega l'emicrania contro il mal di testa.
 
-Inputs:
-- Síntomas.
-- Episodios previos sí/no.
-- Embarazo sí/no.
-- Fiebre/dolor lumbar sí/no.
+Ingressi:
+- Caratteristiche del dolore.
+- Sintomi associati (nausea, fotofobia).
+- Frequenza / mese.
+- Uso di analgesici.
 
 Genera:
-1) Qué pasa y por qué arde (simple).
-2) Qué ayuda (hidratación, medidas).
-3) Prevención (hábitos).
-4) Señales que sugieren infección “arriba” (pielonefritis) y urgencia.`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione di entrambi i tipi.
+2) tiratori comuni e come identificarli.
+3) Importanza di evitare l'uso eccessivo di analgesici (spiegato facilmente).
+4) Bandiere rosse per l'emergenza.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-033",
-    title: "Explicar un resultado de HbA1c y metas realistas",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Convierte HbA1c en un concepto fácil (promedio) y define próximos pasos.",
-    prompt: `Actúa como médico. Explica HbA1c.
+{
+  id: "saludexp-031",
+  title: "Spiegare il dolore addominale funzionale contro gli allarmi GI",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Chiarire perché a volte non c'è \"infortunio\" visibile e come è gestito.",
+  prompt: `Agisce come medico. Spiega il dolore addominale ricorrente senza allarmi.
 
-Inputs:
+Ingressi:
+- Lo schema del dolore.
+- Rapporto ai pasti / stress / evacuazione.
+- Studi precedenti.
+
+Genera:
+1) Semplice spiegazione (validating).
+2) Strategie pratiche: dieta, fibra, idratazione, routine.
+3) Che vedere (per giorno dei sintomi).
+4) Allarmi GI (emorragia, febbre, perdita di peso, anemia, notte).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-032",
+  title: "Spiegare l'infezione urinaria: sintomi, cura e prevenzione",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Libera formazione per cistite e allarmi semplici.",
+  prompt: `Agisce come medico. Spiega l'infezione urinaria (cistite) al paziente.
+
+Ingressi:
+- I sintomi.
+- Precedente sì / nessun episodio.
+- Gravidanza sì / no.
+- Fever / dolore lombare sì / no.
+
+Genera:
+1) Che cosa succede e perché brucia (semplice).
+2) Che aiuto (idratazione, misurazioni).
+3) Prevenzione (abita).
+4) Segni che suggeriscono l'infezione "up" (pielonephritis) e l'urgenza.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-033",
+  title: "Spiegare il risultato di HbA1c e obiettivi realistici",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Rendere HbA1c un concetto facile (media) e definire i prossimi passi.",
+  prompt: `Agisce come medico. HbA1c spiega.
+
+Ingressi:
 - HbA1c.
-- Glucosas capilares (si hay).
-- Tratamiento actual.
-- Dificultades del paciente.
+- glucosio capillare (se presente).
+- Trattamento attuale.
+- Difficoltà del paziente.
 
 Genera:
-1) Qué es HbA1c (promedio de 2–3 meses).
-2) Qué significa el valor actual (cualitativo).
-3) 3 acciones con impacto (comidas, movimiento, sueño).
-4) Plan de seguimiento y medición simple.`,
-    thumbnail: "",
-  },
+1) Che cosa HbA1c è (media di 2-3 mesi).
+2) Che cosa significa il valore attuale (qualitativo).
+3) 3 azioni con impatto (meals, movimento, sonno).
+4) Semplice piano di monitoraggio e misurazione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-034",
-    title: "Explicar por qué el ejercicio es parte del tratamiento (sin regaño)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Motiva con beneficios inmediatos y plan mínimo viable.",
-    prompt: `Actúa como médico. Explica actividad física como tratamiento.
+{
+  id: "saludexp-034",
+  title: "Spiegare perché l'esercizio fa parte del trattamento (senza ingrasso)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Esso motiva con benefici immediati e piano minimo fattibile.",
+  prompt: `Agisce come medico. Spiega l'attività fisica come trattamento.
 
-Inputs:
-- Diagnóstico (HTA, DM, ansiedad, dolor lumbar, etc.).
-- Estado actual (sedentario, lesiones).
-- Barreras (tiempo, dolor, vergüenza).
-
-Genera:
-1) Beneficios a corto plazo (7–14 días) y a largo plazo.
-2) Plan mínimo viable (10–15 min/día) con progresión semanal.
-3) Cómo hacerlo seguro (calentamiento, señales para parar).
-4) Mensaje motivacional realista.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-035",
-    title: "Explicar sobrepeso/obesidad como condición médica (sin estigma)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Enfoque compasivo: biología, ambiente, hábitos y metas sostenibles.",
-    prompt: `Actúa como médico. Habla de peso sin estigmatizar.
-
-Inputs:
-- IMC o peso/talla (si aplica).
-- Comorbilidades.
-- Objetivo del paciente.
+Ingressi:
+- Diagnosi (HTA, DM, ansia, dolore lombare, ecc.).
+- Stato attuale (sedentario, infortuni).
+- Barrieri (tempo, dolore, vergogna).
 
 Genera:
-1) Explicación sin culpas: por qué el cuerpo regula peso.
-2) Metas realistas (salud > estética).
-3) 5 acciones sostenibles por orden de impacto.
-4) Seguimiento y señales de trastorno alimentario para considerar apoyo.`,
-    thumbnail: "",
-  },
+1) A breve termine (7-14 giorni) e benefici a lungo termine.
+2) Piano minimo praticabile (10-15 min / giorno) con progressione settimanale.
+3) Come rendere sicuro (riscaldamento, segni di arresto).
+4) messaggio motivazionale realistico.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-036",
-    title: "Explicar dolor menstrual (dismenorrea) y cuándo preocuparse",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Diferencia dolor común de señales de endometriosis/alarma.",
-    prompt: `Actúa como médico. Explica dolor menstrual.
+{
+  id: "saludexp-035",
+  title: "Spiegare sovrappeso / obesità come condizione medica (senza stigma)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Approccio compassionevole: biologia, ambiente, abitudini e obiettivi sostenibili.",
+  prompt: `Agisce come medico. Parla di peso senza stigmatizzazione.
 
-Inputs:
-- Intensidad y evolución.
-- Si interfiere con actividades.
-- Sangrado abundante sí/no.
-- Dolor entre periodos o al tener relaciones (si aplica).
-
-Genera:
-1) Explicación simple de dismenorrea.
-2) Medidas generales de alivio y hábitos.
-3) Señales que sugieren evaluación (endometriosis, anemia, etc.).
-4) Plan de seguimiento.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-037",
-    title: "Explicar por qué se recomienda fisioterapia",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Aumenta adherencia: explica propósito, expectativas y tiempos.",
-    prompt: `Actúa como médico. Explica indicación de fisioterapia.
-
-Inputs:
-- Diagnóstico (lumbalgia, hombro, rodilla, esguince).
-- Dolor actual.
-- Tiempo de evolución.
+Ingressi:
+- BMI o peso / dimensione (se applicabile).
+- Comorbidità.
+- L'obiettivo del paziente.
 
 Genera:
-1) Qué hace la fisioterapia y por qué funciona.
-2) Qué esperar en 2 semanas vs 6 semanas.
-3) Importancia de ejercicios en casa (sin culpar).
-4) Señales para reevaluar si empeora.`,
-    thumbnail: "",
-  },
+1) Unguilty spiegazione: perché il corpo regola il peso.
+2) Obiettivi realistici (salute > estetica).
+3) 5 azioni sostenibili in ordine all'impatto.
+4) Monitoraggio e segni di disturbo alimentare da considerare il supporto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-038",
-    title: "Explicar un plan de prevención (chequeo) por edad y riesgo",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Checklist sencillo de prevención (vacunas, tamizajes) adaptado a contexto.",
-    prompt: `Actúa como médico. Explica plan de prevención/tamizaje.
+{
+  id: "saludexp-036",
+  title: "Spiegare dolore mestruale (dismenorrea) e quando preoccuparsi",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Differenza di dolore comune di endometriosi / segnali di allarme.",
+  prompt: `Agisce come medico. Spiega dolore mestruale.
 
-Inputs:
-- Edad/sexo.
-- Antecedentes familiares.
-- Hábitos (tabaco, alcohol).
-- Comorbilidades.
-
-Genera:
-1) 5–10 acciones preventivas priorizadas.
-2) Por qué cada una importa (1 frase c/u).
-3) Frecuencia de seguimiento (anual, cada 3–5 años, etc. en términos generales).
-4) Mensaje motivacional centrado en longevidad y calidad de vida.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludexp-039",
-    title: "Explicar por qué se recomienda bajar sal/azúcar (mecanismo simple)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Conecta consumo con síntomas/valores y propone sustituciones realistas.",
-    prompt: `Actúa como médico. Explica reducción de sal y/o azúcar.
-
-Inputs:
-- Diagnóstico (HTA, prediabetes, edema, etc.).
-- Hábitos actuales.
-- Barreras culturales y presupuesto.
+Ingressi:
+- Intensità ed evoluzione.
+- No. Se interferisce con le attività.
+- sanguinamento intensivo sì / no.
+- Dolore tra periodi o quando hanno relazioni (se applicabile).
 
 Genera:
-1) Explicación simple del mecanismo (por qué afecta al cuerpo).
-2) 7 sustituciones realistas (comida real, supermercado).
-3) ‘Regla de 3’: 3 cambios que dan 80% del resultado.
-4) Seguimiento: qué medir y cuándo.`,
-    thumbnail: "",
-  },
+1) Semplice spiegazione della dismenorrea.
+2) Misure generali di soccorso e abitudini.
+3) Segni che suggeriscono la valutazione (endometriosi, anemia, ecc.).
+4) Piano di monitoraggio.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludexp-040",
-    title: "Mensaje postconsulta: resumen + próximos pasos (WhatsApp/email)",
-    area: "Salud & Clínica",
-    category: "Explicación al paciente",
-    summary:
-      "Resumen breve para enviar al paciente: plan, seguimiento y alarmas.",
-    prompt: `Actúa como médico. Redacta un mensaje postconsulta para el paciente.
+{
+  id: "saludexp-037",
+  title: "Spiegare perché la fisioterapia è raccomandata",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Aumenta l'adesione: spiega lo scopo, le aspettative e i tempi.",
+  prompt: `Agisce come medico. Spiega l'indicazione della fisioterapia.
 
-Inputs:
-- Problema principal.
-- Plan acordado (hábitos/estudios/medicación general).
-- Fecha sugerida de seguimiento.
-- Banderas rojas.
+Ingressi:
+- Diagnosi (lumbalgia, spalla, ginocchio, sperone).
+- Dolore attuale.
+- Tempo di evoluzione.
 
 Genera:
-1) Mensaje corto (máx 1200 caracteres) con tono cálido y claro.
-2) Lista de próximos pasos (máx 5 bullets).
-3) Señales de alarma (máx 5 bullets).
-4) Cierre empático.`,
-    thumbnail: "",
-  },
-];
+1) Che cosa fa la fisioterapia e perché funziona.
+2) Cosa aspettarsi in 2 settimane vs 6 settimane.
+3) Importanza di esercizi domestici (non da biasimare).
+4) Segnali da rivalutare se peggiora.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-038",
+  title: "Spiegare un piano di prevenzione (controllare) per età e rischio",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Semplice lista di controllo della prevenzione (vaccine, screening) adattata al contesto.",
+  prompt: `Agisce come medico. Spiega piano di prevenzione / screening.
+
+Ingressi:
+- Età / sesso.
+- Sfondo familiare.
+- Abitudini (tabacco, alcol).
+- Comorbidità.
+
+Genera:
+1) 5-10 azioni preventive prioritarie.
+2) Perché ogni materia (1 frase c / u).
+3) Frequenza di sorveglianza (annuale, ogni 3-5 anni, ecc.).
+4) Un messaggio motivazionale focalizzato sulla longevità e sulla qualità della vita.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-039",
+  title: "Spiegare perché sale / zucchero è raccomandato (meccanismo semplice)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Collega il consumo con sintomi / valori e propone sostituzioni realistiche.",
+  prompt: `Agisce come medico. Spiega la riduzione del sale e/o dello zucchero.
+
+Ingressi:
+- Diagnosi (HTA, prediabeti, eedema, ecc.).
+- Le abitudini attuali.
+- barriere culturali e di bilancio.
+
+Genera:
+1) Semplice spiegazione del meccanismo (perché colpisce il corpo).
+2) 7 sostituzioni realistiche (alimento reale, supermercato).
+3) 'Regola di 3': 3 modifiche che danno l'80% del risultato.
+4) follow-up: cosa misurare e quando.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludexp-040",
+  title: "Messaggio post-consultazione: sommario + passi successivi (WhatsApp / email)",
+  area: "Salute e Clinica",
+  category: "Spiegazione al paziente",
+  summary:
+  "Breve sintesi per inviare il paziente: piano, follow-up e allarmi.",
+  prompt: `Agisce come medico. Scrivi un messaggio post-consultazione per il paziente.
+
+Ingressi:
+- Il problema principale.
+- Piano concordato (abita / studi / medicina generale).
+- Data di aggiornamento consigliata.
+- Bandiere rosse.
+
+Genera:
+1) breve messaggio (max 1200 caratteri) con tono caldo e chiaro.
+2) Elenco dei passi successivi (max 5 proiettili).
+3) Segnali di allarme (max 5 proiettili).
+4) Chiusura empatica.`,
+  thumbnail: ""
+}];

@@ -5,11 +5,10 @@ import { textPrompts } from "@/lib/prompts/text";
 export default function PromptsTextoPage() {
   return (
     <PromptLibrary
-      title="Prompts de texto"
-      subtitle="Biblioteca completa de prompts profesionales de texto para educación, marketing, ventas y más."
+      title="Prompt di testo"
+      subtitle="Libreria completa di prompt professionali di testo per formazione, marketing, vendite e altro."
       items={textPrompts}
       type="text"
-      tutorialUrl="https://youtu.be/q4ZWUl1YE-w"
     />
   );
 }

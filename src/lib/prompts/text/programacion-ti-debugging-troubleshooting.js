@@ -1,522 +1,521 @@
 // src/lib/prompts/text/programacion-ti-debugging-troubleshooting.js
 
 export const textPromptsProgramacionTiDebuggingTroubleshooting = [
-  {
-    id: "proti-debug-001",
-    title: "Diagnóstico rápido: problema → hipótesis → pruebas",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Estructura un plan de investigación para aislar la causa raíz sin perder tiempo.",
-    prompt: `Actúa como ingeniero senior de soporte/producción.
+{
+  id: "proti-debug-001",
+  title: "Rapida diagnosi: problema → ipotesi → test",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Strutturare un piano di ricerca per isolare la causa principale senza perdere tempo.",
+  prompt: `Agisce come senior support / ingegnere di produzione.
 
-Inputs:
-- Síntoma exacto (error, mensaje, comportamiento).
-- Cuándo empezó (cambio reciente).
-- Entorno (local/staging/prod).
-- Impacto (usuarios afectados, %).
-- Logs disponibles (sí/no) + fragmentos.
-
-Genera:
-1) Lista priorizada de hipótesis (top 10) con probabilidad.
-2) Pruebas mínimas para confirmar/descartar cada hipótesis.
-3) Señales/telemetría que necesito (logs, métricas, traces).
-4) Plan de aislamiento por capas (cliente → red → backend → DB).
-5) “Fast mitigation” seguro (feature flag, rollback, rate limit).
-6) Causa raíz esperada + fix recomendado.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-debug-002",
-    title: "Triaging de errores 500/502/503/504 (web)",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Guía para diferenciar error de app vs gateway vs upstream vs timeouts.",
-    prompt: `Actúa como SRE.
-
-Inputs:
-- Código(s) de error.
-- Plataforma (Vercel, Nginx, Cloudflare, etc.).
-- Rutas afectadas.
-- Latencia promedio y p95/p99.
-- Últimos despliegues/cambios.
+Ingressi:
+- Sintesi accurata (error, messaggio, comportamento).
+- No. Quando è iniziata (ricente cambiamento).
+- Ambiente (locale / staging / prod).
+- Impatto (utenti interessati,%).
+- Disponibile (sì / no) + frammenti.
 
 Genera:
-1) Significado probable de cada código en este contexto.
-2) Checklist de verificación (gateway, DNS, TLS, upstream, app).
-3) Cómo reproducir y capturar evidencia (curl, headers, timing).
-4) Señales en logs para cada causa común.
-5) Mitigaciones rápidas (caching, rate limit, rollback).
-6) Fix definitivo (qué cambiar en código/infra).`,
-    thumbnail: "",
-  },
+1) Elenco prioritario delle ipotesi (top 10) con probabilità.
+2) Test minimi per confermare / escludere ogni ipotesi.
+3) Segni / telemetria di cui ho bisogno (log, metriche, tracce).
+4) Piano di isolamento del livello (cliente → rete → backend → DB).
+5) "Fast mitigation" sicuro (bandiera, rollback, limite di velocità).
+6) Prevista causa radice + correzione raccomandata.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-003",
-    title: "Debugging de problemas de cookies/sesión/autenticación",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Aísla fallos por SameSite, path, domain, expiración, SSR/CSR.",
-    prompt: `Actúa como experto en auth web.
+{
+  id: "proti-debug-002",
+  title: "Prova di errori 500 / 502 / 503 / 504 (web)",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Guida per differenziare l'errore da app vs gateway vs upstream vs timeout.",
+  prompt: `Agite come SRE.
 
-Inputs:
-- Cookie name(s).
-- Dominio(s) y subdominios.
-- Flujo de login (pasos).
-- Navegador(s) afectados.
-- Entorno (prod/staging/local).
-- ¿Middleware? ¿SSR?
-
-Genera:
-1) Checklist de cookie attributes (Domain/Path/SameSite/Secure/HttpOnly).
-2) Pruebas para confirmar qué se rompe (DevTools: Application/Network).
-3) Fallos típicos por ambiente (http vs https, localhost, subdominios).
-4) Solución recomendada con ejemplos (sin TypeScript).
-5) Plan de validación cross-browser.
-6) Riesgos de seguridad y cómo mitigarlos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-debug-004",
-    title: "Problemas de performance: perfilado y optimización incremental",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Encuentra el cuello de botella real antes de ‘optimizar a ciegas’.",
-    prompt: `Actúa como performance engineer.
-
-Inputs:
-- Endpoint/página lenta.
-- Métricas (TTFB, LCP, INP, p95).
-- Carga concurrente.
-- Stack (Next.js/Node/DB).
-- Observabilidad disponible (APM sí/no).
+Ingressi:
+- Codice di errore (s).
+- Piattaforma (Vercel, Nginx, Cloudflare, ecc.).
+- Riti colpiti.
+- Latenza media e p95 / p99.
+- Ultimi distribuzioni / modifiche.
 
 Genera:
-1) Árbol de decisión para identificar si es CPU, IO, DB o red.
-2) Plan de medición (perfilado, logs de tiempos, traces).
-3) Top 10 causas comunes en este stack.
-4) Experimentos (A/B) para confirmar hipótesis.
-5) Quick wins (caching, memoization, indexes) con prioridades.
-6) Plan de seguimiento (metas y alertas).`,
-    thumbnail: "",
-  },
+1) Possibile significato di ogni codice in questo contesto.
+2) Elenco di controllo della verifica (gateway, DNS, TLS, upstream, app).
+3) Come riprodurre e catturare le prove (curl, intestazioni, tempi).
+4) Log segni per ogni causa comune.
+5) Rapida mitigazione (caching, limite di tasso, rollback).
+6) Correzione definitiva (per modificare il codice / sotto).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-005",
-    title: "Debugging de builds/deploys que fallan (CI/CD)",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Aísla errores de build, dependencias, env vars y diferencias de entorno.",
-    prompt: `Actúa como CI/CD engineer.
+{
+  id: "proti-debug-003",
+  title: "Debugging problemi / sessione / autenticazione",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "SameSite, percorso, dominio, scadenza, SSR / CSR.",
+  prompt: `Agisce come un esperto su Internet.
 
-Inputs:
-- Plataforma CI (GitHub Actions, Vercel, etc.).
-- Log del error (fragmento).
-- Último commit/despliegue exitoso.
-- Cambios recientes en dependencias.
-- Variables de entorno relevantes.
-
-Genera:
-1) Clasificación del fallo (dependencias, lint, types, env, permisos, recursos).
-2) Pasos para reproducir local (misma versión node, lockfile, clean install).
-3) Checklist de lockfiles y monorepo roots.
-4) Solución probable + fix en configuración.
-5) Plan para evitarlo a futuro (pin versions, caching, checks).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-debug-006",
-    title: "Errores intermitentes: flakiness y condiciones de carrera",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Trata lo raro: bugs que solo pasan a veces.",
-    prompt: `Actúa como ingeniero senior.
-
-Inputs:
-- Qué falla exactamente.
-- Frecuencia (1/10, 1/100).
-- Hardware/OS.
-- Concurrencia/hilos.
-- Dependencias externas (API, DB).
+Ingressi:
+- Cookie name (s).
+- Dominio (s) e sottodomini.
+- Flusso di accesso (passi).
+- navigatore interessato (s).
+- Ambiente (prod / staging / locale).
+- Middleware? SSR?
 
 Genera:
-1) Lista de causas típicas (race conditions, timeouts, nondeterminism).
-2) Instrumentación para capturar evidencia (IDs, spans, timestamps).
-3) Estrategia de reproducción (stress test, introducir delays, toggles).
-4) Fix patterns (locks, idempotency, retries, timeouts > p99).
-5) Validación (cómo asegurar que ya no pasa).`,
-    thumbnail: "",
-  },
+1) Elenco di controllo degli attributi dei cookie (Domain / Path / SameSite / Secure / HttpOnly).
+2) Test per confermare ciò che è rotto (DevTools: Applicazione / Rete).
+3) Tipici fallimenti ambientali (http vs https, localhost, subdomini).
+4) Soluzione consigliata con esempi (senza TypeScript).
+5) Piano di convalida cross-browser.
+6) Rischi di sicurezza e come mitigarli.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-007",
-    title: "Debugging de Next.js: middleware, rutas y assets estáticos",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Aísla problemas de matcher, caching, /public, _next y redirects.",
-    prompt: `Actúa como experto en Next.js.
+{
+  id: "proti-debug-004",
+  title: "Problemi di performance: profilazione e ottimizzazione incrementale",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Trova il vero collo di bottiglia prima di 'ottenere il meglio di esso'.",
+  prompt: `Agisce come ingegnere delle prestazioni.
 
-Inputs:
-- Versión de Next.js.
-- Estructura de rutas (app/pages).
-- middleware.js actual.
-- Rutas afectadas.
-- Logs (si hay) / comportamiento observado.
-
-Genera:
-1) Checklist de exclusiones correctas (_next, api, archivos estáticos).
-2) Diagnóstico del matcher (errores comunes y cómo simplificarlo).
-3) Cómo validar qué rutas pasan por el middleware.
-4) Recomendación de matcher simple y seguro (JS).
-5) Plan para separar auth vs assets (mejor práctica).
-6) Errores típicos en Vercel (y cómo verlos).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-debug-008",
-    title: "Problemas de CORS: bloqueos entre frontend y backend",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Soluciona preflight, headers, credentials y origins permitidos.",
-    prompt: `Actúa como experto en HTTP/CORS.
-
-Inputs:
-- Origen del frontend.
-- URL del backend.
-- Método(s) (GET/POST/etc.).
-- Si usa cookies/credentials.
-- Headers personalizados.
+Ingressi:
+- Endpoint / pagina lenta.
+- Metrico (TTFB, LCP, INP, p95).
+- Carica corrente.
+- Stack (Next.js / Node / DB).
+- Osservabilità disponibile (APM sì / no).
 
 Genera:
-1) Explicación exacta de por qué falla (preflight vs simple request).
-2) Headers correctos (Access-Control-Allow-*) según caso.
-3) Config para credentials y SameSite.
-4) Lista de pruebas con curl (incluye OPTIONS).
-5) Soluciones seguras (no “*” con credentials).
-6) Checklist para producción (proxies/CDN).`,
-    thumbnail: "",
-  },
+1) Albero di decisione per identificare se è CPU, IO, DB o rete.
+2) Piano di misura (profilazione, registro del tempo, tracce).
+3) Top 10 cause comuni in questo stack.
+(4) Esperimenti (A / B) per confermare le ipotesi.
+5) Vince rapidamente (caching, memoization, indici) con priorità.
+6) Piano di monitoraggio (target e avvisi).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-009",
-    title: "Errores de base de datos: locks, deadlocks, timeouts",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Aísla contención y queries lentas sin adivinar.",
-    prompt: `Actúa como DBA/engineer.
+{
+  id: "proti-debug-005",
+  title: "Debug di edifici / distribuzioni falliti (CI / CD)",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Isolare errori di costruzione, dipendenze, vars e differenze di ambiente.",
+  prompt: `Agisce come ingegnere CI / CD.
 
-Inputs:
-- DB (Postgres/MySQL/etc.).
-- Query o endpoint involucrado.
-- Síntoma (timeout, deadlock, slow).
-- Carga concurrente.
-- Índices existentes (si se sabe).
+Ingressi:
+- Piattaforma CI (GitHub Azioni, Vercel, ecc.).
+- Log di errore (frammento).
+- Ultimo commit / distribuzione di successo.
+- Recenti cambiamenti nelle unità.
+- variabili ambientali rilevanti.
 
 Genera:
-1) Diagnóstico probable (locks, missing index, N+1, transacciones largas).
-2) Qué medir (EXPLAIN, slow query log, lock tables).
-3) Pasos para reproducir con carga.
-4) Recomendaciones (índices, reescritura, aislamiento).
-5) Mitigación rápida (limitar, cache, timeouts).
-6) Fix definitivo + validación.`,
-    thumbnail: "",
-  },
+1) Classificazione del fallimento (dipendenze, lint, tipi, inv, autorizzazioni, risorse).
+2) Passi per giocare locale (stessa versione ode, lockfile, installazione pulita).
+3) Lista di controllo di Lockfiles e radici monorepo.
+4) Soluzione probabile + fix in configurazione.
+5) Piano per evitare il futuro (versione a pin, caching, controlli).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-010",
-    title: "Debugging de memoria: leaks y OOM (Node)",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Detecta fugas de memoria y picos que revientan el proceso.",
-    prompt: `Actúa como performance engineer de Node.js.
+{
+  id: "proti-debug-006",
+  title: "Errori intermittenti: flakiness e condizioni di carriera",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Prova lo strano: gli insetti che a volte capitano solo.",
+  prompt: `Agisce come ingegnere senior.
 
-Inputs:
-- Síntoma (OOM, GC thrash, slow).
-- Tráfico/volumen.
-- Endpoints sospechosos.
-- Cambios recientes.
+Ingressi:
+- No. Cosa fallisce esattamente.
+- Frequenza (1 / 10, 1 / 100).
+- Hardware / OS.
+- Concurrent / thread.
+- Dipendenze esterne (API, DB).
+
+Genera:
+1) Elenco delle cause tipiche (condizioni di gara, timeouts, nondeterinismo).
+2) Strumentazione per catturare prove (ID, campate, timstamp).
+3) Strategia di riproduzione (test di stress, introduzione di ritardi, toggles).
+4) Modelli fissi (blocchi, idemptency, retries, timeouts > p99).
+5) Validazione (come assicurarsi che non passi più).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-debug-007",
+  title: "Successivo.js debugging: middleware, rotte statiche e beni",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Isolare i problemi di matcher, caching, / pubblico, _ successivo e reindirizza.",
+  prompt: `Agisce come esperto in Next.js.
+
+Ingressi:
+- Versione Next.js.
+- Struttura del percorso (app / pagine).
+- corrente middleware.js.
+- Riti colpiti.
+- Log (se presenti) / comportamento osservato.
+
+Genera:
+1) Elenco di controllo delle esclusioni corrette (_ successivo, api, file statici).
+2) Diagnosi del matcher (comune errori e come semplificarlo).
+3) Come convalidare quali percorsi passano attraverso middleware.
+4) Raccomandazione per un matcher semplice e sicuro (JS).
+5) Piano per separare auth vs beni (migliore pratica).
+6) Errori tipici in Vercel (e come vederli).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-debug-008",
+  title: "Problemi CORS: blocchi tra front e backend",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Risolvere preflight, intestazioni, credenziali e origini consentite.",
+  prompt: `Agisce come esperto in HTTP / CORS.
+
+Ingressi:
+- Origine del fronte.
+- URL di backend.
+- Metodo (s) (GET / POST / ecc.).
+- No. Se si utilizzano cookie / credenziali.
+- Intestazioni personalizzate.
+
+Genera:
+1) spiegazione esatta del perché fallisce (preflight vs semplice richiesta).
+2) Intestazioni corrette (Access-Control-Allow- *) secondo il caso.
+3) Configurazione per le credenziali e SameSite.
+4) Elenco delle prove con curl (include POTIONS).
+5) Soluzioni sicure (no "*" con credenziali).
+6) Lista di controllo per la produzione (proxies / CDN).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-debug-009",
+  title: "Errori del database: serrature, blocchi, timeout",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Isolare il contenimento e rallentare la voglia senza indovinare.",
+  prompt: `Agisce come DBA / ingegnere.
+
+Ingressi:
+- DB (Postgres / MySQL / ecc.).
+- Query o endpoint coinvolti.
+- Sintomi (tempo, deadlock, slow).
+- Carica corrente.
+- Indici esistenti (se noti).
+
+Genera:
+1) Diagnosi probabile (blocchi, indice mancante, N + 1, transazioni lunghe).
+2) Che misurare (EXPLAIN, registro di query lento, tavoli di blocco).
+3) Passi per giocare con il carico.
+4) Raccomandazioni (indici, riscrittura, isolamento).
+5) Rapida mitigazione (limite, cache, timeout).
+6) Correzione finale + convalida.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-debug-010",
+  title: "Debug della memoria: perdite e OOM (Node)",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Rileva perdite di memoria e picchi che ravvivano il processo.",
+  prompt: `Agire come ingegnere delle prestazioni di Node.js.
+
+Ingressi:
+- Syntoma (OOM, GC thrash, slow).
+- Traffico / volume.
+- Sospettati Endpoints.
+- Cambiamenti recenti.
 - Ambiente (serverless o server).
 
 Genera:
-1) Señales típicas de leak vs picos legítimos.
-2) Estrategia de profiling (heap snapshots, timelines).
-3) Hipótesis comunes (caches infinitas, listeners, closures).
-4) Fix patterns (LRU, límites, streaming).
-5) Checklist para prevenir (budgets, alertas).
-6) Plan para validar en staging con carga.`,
-    thumbnail: "",
-  },
+1) Tipici segni di perdite contro picchi legittimi.
+2) Strategia di profilazione (selezioni di scapolo, linee temporali).
+3) Assunzioni comuni (copie infinite, ascoltatori, chiusure).
+4) Modelli fissi (LRU, limiti, streaming).
+5) Lista di controllo per prevenire (budget, avvisi).
+6) Piano per convalidare in staging con carico.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-011",
-    title: "Incidente en producción: runbook de 30 minutos",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Qué hacer cuando TODO arde: estabilizar primero, aprender después.",
-    prompt: `Actúa como Incident Commander.
+{
+  id: "proti-debug-011",
+  title: "Incidente nella produzione: 30 minuti di runbook",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Cosa fare quando TUTTO brucia: stabilizzare prima, imparare più tardi.",
+  prompt: `Agisce come Comandante Incidente.
 
-Inputs:
-- Qué se rompió (síntoma).
-- Impacto (ventas, usuarios, %).
-- Último cambio (deploy/config).
-- Acceso (logs/metrics sí/no).
-- SLA (urgencia).
+Ingressi:
+- No. Che cosa si è rotto (sintomo).
+- Impatto (vendita, utenti,%).
+- Ultima modifica (deploy / config).
+- Accesso (log / metriche sì / no).
+- SLA (urgenza).
 
 Genera:
-1) Plan 0–5 min: contención y comunicación.
-2) Plan 5–15 min: aislamiento rápido.
-3) Plan 15–30 min: mitigación (rollback/flags/caching).
-4) Checklist de evidencia a capturar para RCA.
-5) Comunicación a stakeholders (mensaje breve).
-6) Postmortem template (acciones y owners).`,
-    thumbnail: "",
-  },
+1) Piano 0-5 min: contenimento e comunicazione.
+2) Piano 5-15 min: isolamento veloce.
+3) Piano 15-30 min: mitigazione (rollback / bandiere / caching).
+4) Elenco delle prove da catturare per RCA.
+5) Comunicazione agli stakeholder (messaggio breve).
+6) Modello Postmortem (azioni e proprietari).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-012",
-    title: "Debugging de DNS/HTTPS/TLS: ‘no carga’, ‘cert error’, ‘NXDOMAIN’",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Diagnostica fallos de dominio/certificado sin volverte loco.",
-    prompt: `Actúa como network/devops engineer.
+{
+  id: "proti-debug-012",
+  title: "DNS / HTTPS / TLS debugging: 'no load', 'cert error', 'NXDOMIN'",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Dominio diagnostico / guasto del certificato senza guidarti pazzo.",
+  prompt: `Agisce come un ingegnere di rete / devops.
 
-Inputs:
+Ingressi:
 - Dominio.
-- Proveedor DNS.
-- Cert manager (Vercel/Cloudflare/etc).
-- Error exacto del navegador.
-- Cambios recientes (DNS, proxy, redirect).
+- fornitore DNS.
+- Cert manager (Vercel / Cloudflare / ecc).
+- Errore del browser esatto.
+- Modifiche recenti (DNS, proxy, redirect).
 
 Genera:
-1) Lista de causas probables según error.
-2) Pasos de verificación (dig/nslookup, curl -I, SSL check).
-3) Reglas de propagación y TTL (qué esperar).
-4) Fix recomendado por escenario.
-5) Checklist de configuración segura (HSTS, redirects).
-6) Validación final (navegadores/ubicaciones).`,
-    thumbnail: "",
-  },
+1) Elenco dei casi probabili in base all'errore.
+2) Procedura di verifica (dig / nslookup, curl-I, controllo SSL).
+3) Regole di propagazione e TTL (cosa aspettarsi).
+4) Set consigliato per fase.
+5) Controllare la configurazione sicura (HSTS, reindirizzamenti).
+6) Validazione finale (browser / posizioni).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-013",
-    title: "Debugging de permisos: 401/403, roles y ACLs",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Aísla si el bloqueo es auth, autorización o configuración de ruta.",
-    prompt: `Actúa como backend engineer.
+{
+  id: "proti-debug-013",
+  title: "Debug delle autorizzazioni: 401 / 403, ruoli e ACL",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Notare se la serratura è auth, autorizzazione o configurazione dell'itinerario.",
+  prompt: `Agisce come ingegnere di backend.
 
-Inputs:
-- Endpoint bloqueado.
-- Auth method (cookie/JWT/session).
-- Roles esperados.
-- Logs de autorización.
-- Middleware/guards existentes.
-
-Genera:
-1) Diferencia exacta entre 401 vs 403 en tu caso.
-2) Checklist de verificación (token, claims, expiración, roles).
-3) Pruebas para confirmar permisos (requests con distintos usuarios).
-4) Fix recomendado (policy/guard) con ejemplos de lógica.
-5) Plan de regresión (tests de permisos).
-6) Riesgos de seguridad al “abrir de más”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-debug-014",
-    title: "Debugging de front-end: estado, hydration y errores en consola",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Encuentra por qué tu UI se rompe: hydration mismatch, state bugs, race.",
-    prompt: `Actúa como frontend senior.
-
-Inputs:
-- Framework (React/Next).
-- Error exacto en consola.
-- Componente/ruta afectada.
-- Reproducción (pasos).
-- Datos que llegan (API).
+Ingressi:
+- Endpoint bloccato.
+- Metodo Auth (cookie / JWT / sessione).
+- Rols si aspettava.
+- Tronchi di autorizzazione.
+- Middleware / guardie esistenti.
 
 Genera:
-1) Hipótesis top según el error.
-2) Qué inspeccionar (React DevTools, Network, Profiler).
-3) Estrategia de aislamiento (comentando partes, feature flags).
-4) Fix recomendado (patterns correctos).
-5) Tests mínimos (unit/e2e) para que no regrese.
-6) Checklist de performance y UX tras el fix.`,
-    thumbnail: "",
-  },
+1) La differenza esatta tra 401 e 403 nel vostro caso.
+2) Elenco di controllo della verifica (token, reclami, scadenza, ruoli).
+3) Test per confermare le autorizzazioni (richiede con utenti diversi).
+4) Corretto consigliato (polizia / guardia) con esempi di logica.
+5) Piano di regressione (permettere test).
+6) Rischi di sicurezza mediante "overopening".`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-015",
-    title: "Debugging de cachés: por qué veo datos viejos",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Detecta si el cache es navegador, CDN, app o DB.",
-    prompt: `Actúa como engineer de plataformas.
+{
+  id: "proti-debug-014",
+  title: "Debug front-end: errori di stato, idratazione e console",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Trova il motivo per cui la tua IU si rompe: mismatch hidration, bug di stato, gara.",
+  prompt: `Agisce come un fronte senior.
 
-Inputs:
-- URL/endpoint.
-- Dónde está desplegado (CDN, Vercel, proxy).
-- Headers actuales (Cache-Control/ETag).
-- Frecuencia de cambios del dato.
-- Comportamiento observado (qué tan viejo).
-
-Genera:
-1) Árbol de decisión para ubicar el cache culpable.
-2) Qué headers revisar y cómo interpretarlos.
-3) Experimentos (bypass cache, query param, purge).
-4) Fix recomendado (cache-control, revalidation).
-5) Riesgo de desactivar cache (costos/latencia).
-6) Plan para “cache correcto” (público/privado).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-debug-016",
-    title: "Debugging de colas/jobs: duplicados, pérdida, retrasos",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Cuando los jobs se ejecutan 2 veces… o nunca.",
-    prompt: `Actúa como backend/SRE.
-
-Inputs:
-- Sistema de cola.
-- Síntoma (duplicados, atraso, pérdida).
-- Tasa de jobs.
-- Retries configurados.
-- Idempotency keys (sí/no).
+Ingressi:
+- Quadro (Riforma / Successivo).
+- Errore preciso della console.
+- Componente / percorso interessato.
+- Riproduzione (steps).
+- Dati in arrivo (API).
 
 Genera:
-1) Causas probables por síntoma.
-2) Qué métricas revisar (lag, retries, DLQ, throughput).
-3) Pruebas para confirmar (simular crash, retry storm).
-4) Fix patterns (locks, idempotency, visibility timeout).
-5) Mitigación rápida.
-6) Checklist para evitarlo en el futuro.`,
-    thumbnail: "",
-  },
+1) Top assunzioni secondo errore.
+2) Cosa ispezionare (React DevTools, Network, Profiler).
+3) Strategia di isolamento (commentando su parti, bandiere di caratteristiche).
+4) Corretto consigliato (modelli corretti).
+5) Test minimi (unità / e2e) per non tornare.
+6) Controllo delle prestazioni e UX dopo la correzione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-017",
-    title: "Debugging de dependencias: conflictos, versiones, lockfiles",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Resuelve ‘works on my machine’ por versiones y lockfiles.",
-    prompt: `Actúa como maintainer senior.
+{
+  id: "proti-debug-015",
+  title: "Cache debugging: perché vedo vecchi dati",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Rileva se la cache è browser, CDN, app o DB.",
+  prompt: `Agisce come ingegnere della piattaforma.
 
-Inputs:
-- Stack (npm/yarn/pnpm).
-- Error exacto.
-- Node version local y en CI.
-- Lockfile(s) presentes.
-- Monorepo (sí/no).
-
-Genera:
-1) Diagnóstico probable (resolución, peer deps, lock mismatch).
-2) Pasos para limpiar y reproducir (rm -rf node_modules, cache).
-3) Estrategia de pinning (engines, packageManager).
-4) Recomendar un solo lockfile y root correcto.
-5) Fix recomendado con comandos.
-6) Checklist para que no vuelva (CI checks).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-debug-018",
-    title: "Debugging de archivos estáticos: 404, rutas y extensiones",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Resuelve assets que no cargan por rutas, case-sensitivity y build.",
-    prompt: `Actúa como experto web.
-
-Inputs:
-- Ruta del asset (ej: /images/x.png).
-- Dónde vive (public/ o importado).
-- OS local (Windows/macOS/Linux).
-- Hosting (Vercel, etc.).
-- Error (404/403/mime).
+Ingressi:
+- URL / endpoint.
+- No. Dove viene distribuito (CDN, Vercel, proxy).
+- Intestazioni correnti (Cache-Control / ETag).
+- Frequenza delle modifiche dei dati.
+- Comportamento osservato (quanto vecchio).
 
 Genera:
-1) Checklist de causas comunes (case mismatch, path, basePath, trailing slash).
-2) Cómo validar en build output.
-3) Diferencia entre servir desde /public vs bundling.
-4) Fix recomendado (estructura y referencias).
-5) Plan para migrar a formatos óptimos (webp/avif) sin romper rutas.
-6) Pruebas finales (incognito, headers, cache).`,
-    thumbnail: "",
-  },
+1) Albero di decisione per individuare la cache colpevole.
+2) Quali sono i punti da rivedere e come interpretarli.
+3) Esperimenti (bypass cache, query param, purge).
+4) Corretto consigliato (controllo di controllo, convalida).
+5) Rischio di disattivare la cache (costi / latenza).
+6) Pianifica per "corretto cache" (pubblico / privato).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-debug-019",
-    title: "Debugging de env vars: ‘undefined’ en prod pero no en local",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Detecta variables mal nombradas, scopes, build-time vs runtime.",
-    prompt: `Actúa como DevOps/Next expert.
+{
+  id: "proti-debug-016",
+  title: "Tail debugging / lavori: duplicati, perdita, ritardi",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Quando i lavori funzionano due volte... o mai.",
+  prompt: `Agisce come backend / SRE.
 
-Inputs:
-- Nombre(s) de env vars.
-- Dónde se usan (server/client).
-- Plataforma deploy.
-- .env local vs prod.
-- Error observado.
-
-Genera:
-1) Checklist (prefijos públicos, build-time, runtime).
-2) Cómo imprimir/validar sin filtrar secretos.
-3) Fix recomendado por escenario (server-only vs client).
-4) Plan de validación post-deploy.
-5) Buenas prácticas (schema validation, defaults).
-6) Riesgos de seguridad (no exponer secretos).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-debug-020",
-    title: "Root Cause Analysis (RCA) profesional de un bug/incidente",
-    area: "Programación & TI",
-    category: "Debugging & Troubleshooting",
-    summary:
-      "Documenta la causa raíz y acciones para que no se repita.",
-    prompt: `Actúa como líder técnico escribiendo un RCA.
-
-Inputs:
-- Qué pasó (síntoma).
-- Línea de tiempo (eventos con hora).
-- Impacto (usuarios/dinero).
-- Causa inmediata encontrada.
-- Qué lo permitió (fallas sistémicas).
+Ingressi:
+- Sistema di coda.
+- Sintomi (duplica, ritardi, perdita).
+- Tassi di lavoro.
+- Configurato retiri.
+- Idempotency keys (sì / no).
 
 Genera:
-1) Resumen ejecutivo (3–5 bullets).
-2) Línea de tiempo clara.
-3) Causa raíz (5 whys) y factores contribuyentes.
-4) Qué detectó y qué no detectó (gaps de monitoreo).
-5) Acciones correctivas (prioridad, owner, fecha).
-6) Lecciones aprendidas y cambios de proceso.`,
-    thumbnail: "",
-  },
-];
+1) Probabilmente causa di sintomo.
+2) Quali metriche da rivedere (lag, retries, DLQ, veachput).
+3) Test da confermare (simulare crash, reby storm).
+4) Modelli di fissaggio (blocchi, idemptency, timeout di visibilità).
+(5) Rapida mitigazione.
+6) Elenco di controllo per evitarlo in futuro.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-debug-017",
+  title: "Debug delle dipendenze: conflitti, versioni, file di blocco",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Risolvere 'lavori sulla mia macchina' da versioni e file di blocco.",
+  prompt: `Agisce come manutentore senior.
+
+Ingressi:
+- Stack (npm / filato / pnpm).
+- Esattamente sbagliato.
+- Versione nodo locale e in CI.
+- Lockfile (s) presente.
+- Monorepo (sì / no).
+
+Genera:
+1) Probabile diagnosi (risoluzione, peer deps, lock mismatch).
+2) Passi di pulizia e riproduzione (rm -rf node _ moduli, cache).
+3) Pinning strategy (motori, packageManager).
+4) Consigliare un singolo file e root corretto.
+5) Fissare consigliato con comandi.
+6) Elenco di controllo per non tornare (controlli CI).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-debug-018",
+  title: "Debug file statici: 404, percorsi e estensioni",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Risolvere i beni che non addebitano le rotte, la sensibilità dei casi e la costruzione.",
+  prompt: `Agisce come un esperto di web.
+
+Ingressi:
+- Itinerario bene (ad esempio: / immagini / x.png).
+- No. Dove si vive (pubblico / o importato).
+- OS locale (Windows / macOS / Linux).
+- Hosting (Vercel, ecc.).
+- Errore (404 / 403 / mime).
+
+Genera:
+1) Elenco di controllo delle cause comuni (caso errore, percorso, basePath, formazione slash).
+2) Come convalidare in uscita di costruzione.
+3) Differenza tra servizio da / pubblico vs bundling.
+4) Correzione consigliata (struttura e riferimenti).
+5) Pianifica di migrare a formati ottimali (webp / avif) senza rompere i percorsi.
+6) Test finali (incognito, intestazioni, cache).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-debug-019",
+  title: "Debug di Env vars: \"non definita\" in prod ma non locale",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Rileva le variabili, gli ambiti, il tempo di costruzione e il tempo di esecuzione.",
+  prompt: `Agisce come DevOps / Successivo esperto.
+
+Ingressi:
+- Nome (s) di inv vars.
+- No. Dove vengono utilizzati (server / client).
+- Piattaforma dispiegata.
+- .env locale vs prod.
+- Errore osservato.
+
+Genera:
+1) Lista di controllo (prefissi pubblici, tempo di costruzione, tempo di esecuzione).
+2) Come stampare / validare senza filtrare i segreti.
+3) Set consigliato per fase (server-only vs client).
+4) Piano di convalida post-deploy.
+5) Buone pratiche (valida programma, default).
+6) Rischi di sicurezza (non esporre segreti).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-debug-020",
+  title: "Analisi professionale delle cause della radice (RCA) di un bug / incidente",
+  area: "Programmazione IT",
+  category: "Debug & Risoluzione dei problemi",
+  summary:
+  "Documenta la causa principale e le azioni in modo che non si ripeta.",
+  prompt: `Agisce come leader tecnico scrivendo un RCA.
+
+Ingressi:
+- No. Quello che è successo (sintomo).
+- Time line (eventi con tempo).
+- Impatto (utenti / soldi).
+- Causa immediata trovata.
+- No. Ciò che lo ha permesso (insuccessi sistemici).
+
+Genera:
+1) Riepilogo esecutivo (3-5 proiettili).
+2) Tempo libero.
+3) causa principale (5 perché) e fattori che contribuiscono.
+4) Ciò che hai rilevato e ciò che non hai rilevato (monitoraggio di lacune).
+5) Azioni correttive (priorità, titolare, data).
+(6) Lezioni imparate e i cambiamenti di processo.`,
+  thumbnail: ""
+}];

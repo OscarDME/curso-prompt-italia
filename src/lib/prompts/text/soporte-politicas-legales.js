@@ -1,1135 +1,1134 @@
 // src/lib/prompts/text/soporte-politicas-legales.js
 
 export const textPromptsSoportePoliticasLegales = [
-  {
-    id: "sop-pol-001",
-    title: "Política de reembolsos (digital): clara, justa y fácil de aplicar (con ejemplos)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Redacta una política de reembolsos para producto digital con reglas, excepciones y ejemplos reales.",
-    prompt: `Negocio: [tipo de negocio]
-Producto digital: [curso/plantillas/SaaS/membresía]
-País/mercado principal: [ ]
-Canales de venta: [web/Stripe/Hotmart/etc.]
-Condiciones actuales (si existen): [ ]
+{
+  id: "sop-pol-001",
+  title: "Politica di rimborso (digitale): chiara, giusta e facile da implementare (con esempi)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Esso definisce una politica di rimborso per prodotto digitale con regole, eccezioni e esempi reali.",
+  prompt: `Business: [tipo di business]
+Prodotto digitale: [corso / modelli / SaaS / abbonamento]
+Paese/mercato principale: []
+Canali di vendita: [web / Strip / Hotmart / ecc.]
+Condizioni attuali (se presenti): []
 
-Crea una política de reembolsos completa (lista para web y Términos) con:
-1) Definiciones: compra, acceso, entrega, consumo, prueba, renovación.
-2) Elegibilidad: qué sí califica y qué no (por categorías).
-3) Plazos: ventana de reembolso por tipo de producto (curso, SaaS, membresía).
-4) Evidencia: qué necesitamos para procesar (evitar fricción).
-5) Excepciones: fraude, abuso, chargebacks, múltiples cuentas.
-6) Proceso: cómo solicitar, tiempos de respuesta, método de devolución.
-7) Ejemplos (mínimo 8) “si pasa X → aplica Y”.
-8) Resumen en 6 bullets “versión simple” para soporte.
-9) Checklist interno de agente (10 pasos) para decidir.
-10) Plantillas de respuesta: aprobado / negado / caso gris.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-002",
-    title: "Política de cancelación y renovación (suscripciones): anti-confusión y anti-chargeback",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define cancelación, renovaciones, prorrateos y qué ocurre con el acceso.",
-    prompt: `Producto: [SaaS/membresía]
-Ciclo: [mensual/anual]
-Prueba: [sí/no]
-Prorrateo: [sí/no]
-País: [ ]
+Creare una politica di rimborso completa (elenco web e Termini) con:
+1) Definizioni: acquisto, accesso, consegna, consumo, test, rinnovo.
+2) Ammissibilità: cosa si qualifica e cosa non (per categoria).
+3) Limiti di tempo: finestra di rimborso per tipo di prodotto (corso, SaaS, adesione).
+4) Prove: cosa dobbiamo elaborare (evitare l'attrito).
+5) Eccezioni: frode, abuso, chargeback, conti multipli.
+6) Processo: come richiedere, tempi di risposta, metodo di ritorno.
+7) Esempi (minimo 8) "se si passa X → applicare Y."
+8) Astratto in 6 "versione semplice" proiettili per il supporto.
+9) Controllo agente interno (10 passi) per decidere.
+10) Modelli di risposta: approvato / negato / grigio caso.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-002",
+  title: "Politica di cancellazione e rinnovo (abbonamenti): anti-confusione e anti-ricarica",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire la cancellazione, ristrutturazioni, prorazioni e ciò che accade per accedere.",
+  prompt: `Prodotto: [SaaS / membership]
+Ciclo: [mese / annuale]
+Test: [sì / no]
+Prorated: [sì / no]
+Paese: []
 
-Redacta una política completa que incluya:
-1) Cómo funciona la renovación automática (lenguaje simple).
-2) Cómo cancelar (pasos por plataforma) y qué confirma el usuario.
-3) Qué pasa con el acceso (inmediato vs fin de ciclo).
-4) Reembolsos en renovaciones: reglas claras por casos.
-5) Cambio de plan: upgrade/downgrade, cuándo aplica, prorrateos.
-6) Facturación fallida: reintentos, suspensión, notificaciones.
-7) Prevención de confusión: 10 frases “claras” para UX/checkout.
-8) Mini FAQ (12 preguntas) para clientes.
-9) Macros de soporte (aprobación/negación/explicación) con tono humano.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-003",
-    title: "Política de uso aceptable (AUP) para comunidad/membresía (conducta, sanciones, apelación)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Reglas de conducta: qué se permite, qué no, niveles de sanción y proceso de apelación.",
-    prompt: `Plataforma: [Discord/foro/comunidad privada]
-Tipo de audiencia: [ ]
-Riesgos: [spam/acoso/estafas/NSFW]
-Moderación: [equipo/herramientas]
+Esso definisce una politica globale che comprende:
+1) Come funziona il rinnovo automatico (lingua semplice).
+2) Come annullare (passi per piattaforma) e ciò che l'utente conferma.
+3) Che cosa succede per accedere (immediato vs fine del ciclo).
+4) Rimborso in ristrutturazione: regole chiare per caso.
+5) Cambio di piano: aggiornamento / download, quando applicato, ordinazione.
+6) Scompenso non corretto: reattribuzioni, sospensioni, notifiche.
+7) Prevenzione della confusione: 10 frasi "chiare" per UX / checkout.
+8) Mini FAQ (12 domande) per i clienti.
+9) Macros di supporto (approvazione / negazione / spiegazione) con tono umano.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-003",
+  title: "Politica comunitaria/adesione (conduzione, sanzioni, ricorso)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Regole di condotta: ciò che è permesso, ciò che non è, livelli di punizione e processo di appello.",
+  prompt: `Piattaforma: [Discord / forum / comunità privata]
+Tipo di udito: []
+Rischi: [spam / molestie / truffe / NSFW]
+Moderazione: [attrezzatura / strumenti]
 
-Redacta una AUP completa con:
-1) Principios (3–5) de convivencia.
-2) Conductas prohibidas (lista granular por categorías).
-3) Contenido prohibido y responsabilidades del usuario.
-4) Niveles de acción: advertencia → mute → ban temporal → ban permanente.
-5) Proceso de reporte: cómo reportar, qué info incluir, tiempos.
-6) Proceso de apelación: plazos, criterios, decisión final.
-7) Privacidad: qué se comparte y qué no en casos.
-8) Macros para moderadores (10) para advertir/cerrar/banear con respeto.
-9) Página “versión corta” en 8 bullets para onboarding.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-004",
-    title: "Política de privacidad (resumen claro) + textos para consentimientos y cookies",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Crea un resumen entendible de privacidad y textos de consentimiento para banners y formularios.",
-    prompt: `Tipo de negocio: [ ]
-Datos recolectados: [email, nombre, pagos, analíticas, etc.]
-Herramientas: [GA, Meta Pixel, Stripe, CRM]
-Regiones: [UE/EEUU/MX/LatAm]
+Disegna un AUP completo con:
+1) Principi (3-5) di coesistenza.
+2) condotta compromessa (elenco granulare per categoria).
+3) Contenuto fornito e responsabilità dell'utente.
+4) Livelli di azione: avvertimento → muto → divieto temporaneo → divieto permanente.
+5) Processo di reporting: come segnalare, quali informazioni includere, tempi.
+6) Processo di ricorso: termini, criteri, decisione finale.
+7) Privacy: cosa è condiviso e cosa non nei casi.
+8) Macros per moderatori (10) per avvertire / chiudere / banear con rispetto.
+9) Pagina "breve versione" in 8 pallottole per l'imbarco.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-004",
+  title: "Informativa sulla privacy (riepilogo chiaro) + testi per il consenso e i cookie",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Crea un riassunto comprensibile della privacy e dei testi di consenso per banner e moduli.",
+  prompt: `Tipo di attività: []
+Dati raccolti: [email, nome, pagamenti, analisi, ecc.]
+Strumenti: [GA, Meta Pixel, Stripe, CRM]
+Regioni: [UE / Stati Uniti / MX / LatAm]
 
 Genera:
-1) “Resumen de privacidad” en lenguaje simple (máx 350 palabras).
-2) Tabla de categorías de datos:
-   - qué recolectamos
-   - para qué
-   - base legal (si aplica)
-   - retención
-3) Textos de consentimiento:
-   - checkbox newsletter
-   - checkbox términos
-   - consentimiento marketing
-4) Copy para banner de cookies (3 versiones: corto/medio/largo).
-5) FAQ privacidad (10).
-6) Macros de soporte para solicitudes: acceso, corrección, borrado (DSAR).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-005",
-    title: "Política de garantía y devoluciones (producto físico): plazos, estado, logística y excepciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define devoluciones en físico con criterios de estado, empaques, envíos y reembolsos.",
-    prompt: `Producto físico: [ ]
-Países de envío: [ ]
-Plazo devolución: [ ]
-Quién paga envío retorno: [cliente/empresa/depende]
-Condiciones de estado: [nuevo/sin uso/etc.]
+1) "Riepilogo della privacy" in lingua semplice (max 350 parole).
+2) Tabella delle categorie di dati:
+- quello che raccogliamo
+- per cosa?
+- base giuridica (se applicabile)
+- ritenzione
+3) Testi consenti:
+- checkbox newsletter
+- Termini di checkbox
+- consenso marketing
+4) Cookie banner copia (3 versioni: breve / medio / lungo).
+5) FAQ privacy (10).
+6) Supporto macro per applicazioni: accesso, correzione, cancellato (DSAR).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-005",
+  title: "Politica di garanzia e restituzione (prodotto fisico): limiti di tempo, stato, logistica e eccezioni",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire i ritorni fisici con criteri di stato, imballaggio, spedizioni e rimborsi.",
+  prompt: `Prodotto fisico: []
+Paese di spedizione: []
+Scadenza per il ritorno: []
+Chi paga la spedizione di ritorno: [cliente / società / dipende]
+Condizioni di stato: [nuovo / nessun uso / ecc.]
 
-Redacta la política con:
-1) Qué se puede devolver y por qué (defectos, cambio de opinión, talla, etc.).
-2) Ventanas por tipo de devolución.
-3) Estado del producto y empaques (criterios objetivos).
-4) Proceso de RMA: pasos, etiquetas, dirección, tracking.
-5) Inspección y resolución: reembolso/cambio/crédito.
-6) Excepciones (higiene, personalizados, perecederos).
-7) Ejemplos: 10 casos comunes y decisión.
-8) Macros de soporte: pedir evidencia, aprobar, negar, “caso gris”.`,
-    thumbnail: "",
-  },
+Esso definisce la politica con:
+1) Che cosa può essere restituito e perché (defetti, cambiamento di opinione, dimensione, ecc.).
+2) Windows per tipo di ritorno.
+3) Stato e imballaggio del prodotto (criteri oggettivi).
+4) processo RMA: passi, tag, indirizzo, monitoraggio.
+(5) Ispezione e risoluzione: rimborso / cambio / credito.
+6) Eccezioni (igiene, personalizzata, perimetrale).
+(7) Esempi: 10 casi e decisioni comuni.
+8) Supporto Macros: chiedere prove, approvare, negare, "grande caso".`,
+  thumbnail: ""
+},
 
-  {
-    id: "sop-pol-006",
-    title: "Términos y condiciones (resumen operativo) para cursos digitales",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Incluye licencias, acceso, propiedad intelectual, límites y conducta del alumno.",
-    prompt: `Curso: [ ]
-Acceso: [vitalicio/12 meses]
-Material descargable: [sí/no]
-Comunidad incluida: [sí/no]
-País: [ ]
+{
+  id: "sop-pol-006",
+  title: "Termini e condizioni (sommario operativo) per corsi digitali",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Include licenze, accesso, proprietà intellettuale, limiti e condotta studentesca.",
+  prompt: `[]
+Accesso: [vita / 12 mesi]
+Materiale monouso: [sì / no]
+Comunità inclusa: [sì / no]
+Paese: []
 
-Crea un resumen operativo de T&C con:
-1) Licencia de uso (personal/no transferible) y límites.
-2) Prohibiciones: compartir credenciales, reventa, scraping.
-3) Acceso: qué incluye, qué no incluye, cambios de contenido.
-4) Propiedad intelectual: marcas, materiales, grabaciones.
-5) Conducta: convivencia en comunidad, sanciones.
-6) Pagos y reembolsos: cómo se rige (sin contradicciones).
-7) Descargo de responsabilidad (resultados no garantizados) en lenguaje claro.
-8) Mini FAQ (10) y macros de soporte (8).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-007",
-    title: "Cláusula de limitación de responsabilidad (explicada para humanos) + versión legal",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Dos versiones: lenguaje simple para web y una versión formal para T&C.",
-    prompt: `Negocio: [ ]
-Riesgos: [financiero/salud/tecnología/consultoría]
-Jurisdicción: [ ]
+Crea un riepilogo operativo di T & C con:
+1) Licenza d'uso (personale / non trasferibile) e limiti.
+2) Proibizioni: condivisione delle credenziali, rivendita, scraping.
+3) Accesso: ciò che include, ciò che non include, modifiche dei contenuti.
+(4) Proprietà intellettuale: marchi, materiali, registrazioni.
+5) Condotto: coesistenza comunitaria, sanzioni.
+6) Pagamenti e rimborsi: come è regolato (senza contraddizioni).
+7) Disclaimer (risultati non garantiti) in lingua chiara.
+8) Mini FAQ (10) e supporto macro (8).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-007",
+  title: "Limitazione della clausola di responsabilità (spiegata per gli esseri umani) + versione legale",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Due versioni: linguaggio semplice per web e versione formale per T & C.",
+  prompt: `Affari: []
+Rischi: [finanziario / salute / tecnologia / consulenza]
+Giurisdizione: []
 
-Redacta:
-1) Versión simple (120–180 palabras) explicando:
-   - qué sí cubrimos
-   - qué no cubrimos
-   - límites razonables
-2) Versión formal (T&C) más completa.
-3) 6 ejemplos de interpretación (casos) para que soporte entienda.
-4) 8 frases prohibidas en soporte que podrían “admitir culpa” + alternativas seguras.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-008",
-    title: "Política anti-fraude y anti-abuso: reembolsos, múltiples cuentas, chargebacks, uso indebido",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define señales, umbrales, acciones y comunicación con el cliente sin acusar.",
-    prompt: `Producto: [ ]
-Señales de abuso conocidas: [ ]
-Herramientas: [Stripe Radar, logs, etc.]
+Progetto:
+1) Versione semplice (120-180 parole) spiegando:
+- Abbiamo coperto.
+- Non copriamo.
+- limiti ragionevoli
+2) Versione formale (T & C) più completa.
+3) 6 esempi di interpretazione (casi) per sostenere si capisce.
+4) 8 frasi proibite a sostegno che potrebbero "mettere senso di colpa" + alternative sicure.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-008",
+  title: "Politica antifrode e anti-abuso: rimborso, conti multipli, chargeback, abuso",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire segni, soglie, azioni e comunicazione con il cliente non caricato.",
+  prompt: `Uscita: []
+Segni noti di abuso: []
+Strumenti: [Stripe Radar, logs, ecc.]
 
 Crea:
-1) Definiciones: fraude vs abuso vs error.
-2) Señales y umbrales (lista de 20) con severidad.
-3) Acciones por severidad:
-   - pedir verificación
-   - limitar acceso
-   - suspender
-   - negar reembolso
-4) Plantillas de comunicación:
-   - solicitud de verificación (sin acusar)
-   - suspensión temporal
-   - decisión final
-5) Checklist interno para agentes (12).
-6) Registro interno (campos/tags) y escalación a legal.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-009",
-    title: "Guía legal-friendly para soporte: cómo disculparse y cómo NO (evitar admisiones)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Frases seguras, estructura de disculpa, y líneas rojas para agentes.",
-    prompt: `Tipo negocio: [ ]
-Riesgos: [bajo/alto]
-Canales: [chat/email]
+1) Definizioni: frode vs abuso vs errore.
+2) Segni e soglie (elenco di 20) con gravità.
+3) Azioni per gravità:
+- richiesta di verifica
+- accesso limitato
+- Suspend
+- negare il rimborso
+4) Modelli di comunicazione:
+- domanda di verifica (non addebitata)
+- sospensione temporanea
+- decisione finale
+5) Controllo interno degli agenti (12).
+6) Registrazione interna (campi / tag) e escalation legale.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-009",
+  title: "Guida legale per il supporto: come scusarsi e come NON (evitare ammissioni)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Bottiglie sicure, struttura di scuse e linee rosse per agenti.",
+  prompt: `Tipo di attività: []
+Rischi: [basso / alto]
+Canali: [chat / email]
 
-Crea una guía interna:
-1) Principios de comunicación segura (7).
-2) Disculpa en 5 pasos (sin admitir responsabilidad legal).
-3) 25 frases seguras (por situación).
-4) 20 frases peligrosas + reemplazo recomendado.
-5) Cuándo escalar a legal (matriz de decisiones).
-6) Plantilla de nota interna cuando hay riesgo legal.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-010",
-    title: "Política de cambios de precio: comunicación, grandfathering, avisos y excepciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define cómo se anuncian cambios de precio y qué derechos tiene el cliente.",
-    prompt: `Producto: [SaaS/membresía]
-Frecuencia de cambios: [ ]
-Grandfathering: [sí/no/por segmentos]
-Aviso previo: [días]
-País: [ ]
+Creare una guida interna:
+1) Principi di comunicazione sicura (7).
+2) Mi scusi in 5 passi (nessuna responsabilità legale consentita).
+3) 25 frasi sicure (per situazione).
+4) 20 frasi pericolose + sostituzione raccomandata.
+5) Quando scalare al legale (matrice delle decisioni).
+6) Modello di nota interna quando c'è rischio legale.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-010",
+  title: "Politica dei cambi di prezzo: comunicazione, nonni, comunicazioni e eccezioni",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire come i cambiamenti di prezzo sono annunciati e quali diritti ha il cliente.",
+  prompt: `Prodotto: [SaaS / membership]
+Frequenza dei cambiamenti: []
+Nonno: [sì / no / per segmenti]
+Avviso precedente: [giorni]
+Paese: []
 
-Redacta una política con:
-1) Principio: por qué cambian precios (lenguaje humano).
-2) Aviso: canales, tiempos, confirmación.
-3) Qué pasa con planes existentes (migración/grandfathering).
-4) Opciones del cliente: downgrade/cancelar/renovar anual antes.
-5) Casos especiales: promociones, cupones, enterprise.
+Essa definisce una politica con:
+1) Principio: perché cambiano i prezzi (lingua umana).
+2) Avvertenza: canali, tempi, conferma.
+3) Che cosa succede ai piani esistenti (migrazione / nonno).
+4) Opzioni del cliente: scaricare / cancellare / rinnovare annualmente prima.
+5) Casi speciali: promozioni, coupon, impresa.
 6) FAQ (12).
-7) Macros de soporte (10) para objeciones duras.`,
-    thumbnail: "",
-  },
+7) Macros de support (10) per obiezioni dure.`,
+  thumbnail: ""
+},
 
-  {
-    id: "sop-pol-011",
-    title: "Política de propiedad intelectual: licencia, usos permitidos y prohibidos (digital)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Evita reventa y filtraciones: licencia personal, límites, sanciones y evidencias.",
-    prompt: `Tipo contenido: [curso/plantillas/prompts/videos]
-Riesgos: [piratería/reventa]
-Acceso: [ ]
+{
+  id: "sop-pol-011",
+  title: "Politica di proprietà intellettuale: licenza, usi consentiti e vietati (digitali)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Evitare la rivendita e perdite: licenza personale, limiti, sanzioni e prove.",
+  prompt: `Tipo di contenuto: [corso / modelli / suggerimenti / video]
+Rischi: [pirateria / rivendita]
+Accesso: []
 
-Redacta:
-1) Licencia (personal, no transferible) con ejemplos.
-2) Usos permitidos (5–8) y prohibidos (10–15).
-3) Medidas ante incumplimiento:
-   - warnings
-   - revocación
-   - acciones legales (si aplica)
-4) Proceso de reporte de filtración.
-5) Macros de soporte:
-   - advertencia
-   - cierre por incumplimiento
-   - solicitud de retiro`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-012",
-    title: "Política de confidencialidad (NDA light) para consultoría/servicios",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Plantilla simple de NDA y explicación para clientes no legales.",
-    prompt: `Servicio: [consultoría/agencia/desarrollo]
-Información sensible: [ ]
-Duración: [ ]
-Jurisdicción: [ ]
+Progetto:
+(1) Licenza (personale, non trasferibile) con esempi.
+2) Uso consentito (5-8) e vietato (10-15).
+(3) Misure contro la non conformità:
+- Avvertenze.
+- revoca
+- azioni legali (se applicabili)
+4) Processo di relazione di filtrazione.
+5) Supporto macro:
+- avvertimento
+- chiusura per non conformità
+- domanda di ritiro`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-012",
+  title: "Informativa sulla privacy (NDA light) per la consulenza / servizi",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Semplice modello NDA e spiegazione per i clienti non legali.",
+  prompt: `Servizio: [consulente / agenzia / sviluppo]
+Informazioni sensibili: []
+Durata: []
+Giurisdizione: []
 
 Crea:
-1) NDA light (resumen contractual) con:
-   - definiciones
-   - obligaciones
-   - excepciones
-   - duración
-   - devolución/borrado
-2) Versión simple para explicar al cliente (120–180 palabras).
-3) Checklist interno antes de compartir documentos.
-4) Plantilla de email para enviar NDA y pedir firma.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-013",
-    title: "Política de datos y retención: cuánto guardamos, por qué y cómo borramos",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define retención por categorías y proceso interno de borrado.",
-    prompt: `Datos: [cuentas, pagos, tickets, analíticas]
-Herramientas: [CRM, Helpdesk, Stripe]
-Región: [ ]
+1) luce NDA (sommario contrattuale) con:
+- definizioni
+- obblighi
+- eccezioni
+- durata
+- ritorno / cancellazione
+2) Versione semplice per spiegare al cliente (120-180 parole).
+3) Controllo interno prima della condivisione dei documenti.
+4) E-mail modello per inviare NDA e firma ordine.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-013",
+  title: "Politica e conservazione dei dati: quanto salviamo, perché e come cancelliamo",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire la ritenzione per categorie e il processo interno di cancellazione.",
+  prompt: `Dati: [account, pagamenti, biglietti, analisi]
+Strumenti: [CRM, Helpdesk, Stripe]
+Regione: []
 
 Genera:
-1) Matriz de retención por tipo de dato:
-   - duración
-   - razón
-   - sistema donde vive
-2) Proceso interno de borrado/anónimo:
-   - pasos
-   - responsables
-   - verificación
-3) Comunicación al usuario:
-   - plantilla “confirmación de borrado”
-4) FAQ fácil (10) para soporte.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-014",
-    title: "Política de menores de edad: acceso, consentimiento, restricción y soporte",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define reglas claras para menores (registro, compras, comunidad).",
-    prompt: `Tipo producto: [ ]
-Mercado: [ ]
-Edad mínima deseada: [ ]
+1. Matrice di conservazione per tipo di dati:
+- durata
+- ragione
+- sistema dove vive
+2) Processo interno di cancellazione / anonimo:
+- passi
+- responsabile
+- verifica
+3) Comunicazione all'utente:
+- modello "di conferma di cancellazione"
+4) FAQ facile (10) per il supporto.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-014",
+  title: "Politica giovanile: accesso, consenso, restrizione e sostegno",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definisce regole chiare per i minori (registrazione, shopping, comunità).",
+  prompt: `Tipo di prodotto: []
+Mercato: []
+Età minima desiderata: []
 
-Redacta:
-1) Reglas de acceso (edad mínima y verificación si aplica).
-2) Consentimiento parental (cómo y cuándo).
-3) Restricciones en comunidad/contenidos.
-4) Proceso de soporte si detectamos menor:
-   - pausar cuenta
-   - solicitar confirmación
-   - reembolso si corresponde
-5) Macros de soporte (8) con tono respetuoso.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-015",
-    title: "Política de cookies y tracking: versión legal + versión humana + preferencias",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Crea textos para cookie banner, centro de preferencias y soporte.",
-    prompt: `Herramientas: [GA, Meta, Hotjar, etc.]
-Países: [UE/LatAm]
-Cookies: [necesarias/analíticas/marketing]
-
-Genera:
-1) Explicación humana (200–300 palabras).
-2) Sección legal más completa para política.
-3) Textos para:
-   - banner (aceptar/rechazar/personalizar)
-   - centro de preferencias (descripciones por categoría)
-4) Respuestas de soporte (6) a dudas frecuentes.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "sop-pol-016",
-    title: "Plantillas DSAR: acceso, portabilidad, corrección y borrado de datos (paso a paso)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Procedimiento para solicitudes de privacidad: identidad, plazos, ejecución y confirmación.",
-    prompt: `Región: [ ]
-Helpdesk/CRM: [ ]
-Tiempo objetivo: [ ]
-
-Crea:
-1) Proceso interno DSAR:
-   - verificación de identidad (métodos permitidos)
-   - búsqueda en sistemas (checklist)
-   - extracción/portabilidad
-   - corrección
-   - borrado/anónimo
-2) Plantillas al usuario:
-   - confirmación de recepción
-   - solicitud de verificación
-   - entrega de datos
-   - confirmación de borrado
-3) Matriz de excepciones (cuándo no se puede borrar todo) en lenguaje simple.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-017",
-    title: "Política de contenido generado por usuarios (UGC): licencias, moderación y remoción",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define licencia de UGC, derechos del usuario y cómo moderar/remover contenido.",
-    prompt: `Plataforma: [comunidad/app]
-Tipo de UGC: [posts, comentarios, archivos]
-Moderación: [ ]
-
-Redacta:
-1) Derechos del usuario (propiedad) vs licencia a la plataforma (uso).
-2) Contenidos prohibidos (categorías).
-3) Proceso de moderación y remoción:
-   - reportes
-   - tiempos
-   - apelación
-4) Plantillas:
-   - aviso de remoción
-   - aviso de warning
-   - confirmación de apelación`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-018",
-    title: "Política de garantías de resultados (descargo): sin humo, claro y justo",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Crea disclaimers honestos para cursos/consultoría sin sonar agresivo.",
-    prompt: `Oferta: [curso/consultoría]
-Promesas de marketing actuales: [ ]
-Riesgo: [alto/bajo]
+Progetto:
+1) Regole di accesso (età minima e verifica se applicabile).
+2) consenso genitoriale (come e quando).
+3) Comunità / restrizioni di contenuto.
+4) Processo di supporto se si rilevano minori:
+- conto di pausa
+- richiesta conferma
+- rimborso se applicabile
+5) Supporto Macros (8) con un tono rispettoso.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-015",
+  title: "Cookie e politica di tracciamento: versione legale + versione umana + preferenze",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Creare testi per banner cookie, centro di preferenza e supporto.",
+  prompt: `Strumenti: [GA, Meta, Hotjar, ecc.]
+Paesi: [EU / LatAm]
+Cookies: [necessario / analitico / marketing]
 
 Genera:
-1) Descargo “humano” (120–180 palabras) que:
-   - no prometa resultados
-   - explique variables
-   - sea empático
-2) Versión formal para T&C.
-3) 8 ejemplos de “qué sí decimos” en marketing vs “qué no decimos”.
-4) Macro soporte para clientes que exigen resultado/reembolso por expectativas.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-019",
-    title: "Política de préstamos/credenciales compartidas: detección, medidas y comunicación",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define uso personal y cómo actuar ante partage sin pelear con el cliente.",
-    prompt: `Producto: [curso/SaaS]
-Regla: [1 usuario / X dispositivos]
-Señales: [IPs, sesiones, etc.]
+1) spiegazione umana (200-300 parole).
+(2) Sezione giuridica più completa per la politica.
+3) Testi per:
+- banner (accettare / rifiutare / personalizzare)
+- centro di preferenze (descrizioni per categoria)
+4) Risposte di sostegno (6) a dubbi frequenti.`,
+  thumbnail: ""
+},
+
+{
+  id: "sop-pol-016",
+  title: "Modelli DSAR: accesso, portabilità, correzione e cancellazione dei dati (passo per passo)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Procedura per richieste di privacy: identità, limiti di tempo, esecuzione e conferma.",
+  prompt: `Regione: []
+Helpdesk / CRM: []
+Tempo di destinazione: []
 
 Crea:
-1) Regla clara (versión usuario).
-2) Regla formal (T&C).
-3) Proceso de enforcement:
-   - advertencia
-   - limitación
-   - suspensión
-4) Plantillas de soporte:
-   - primer aviso
-   - segundo aviso
-   - acción final
-5) Opciones para el cliente (upgrade, team plan, etc.).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-020",
-    title: "Política de promociones y cupones: condiciones, caducidad, combinaciones y disputas",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Evita guerras por cupones: define reglas y respuestas para soporte.",
-    prompt: `Promos típicas: [ ]
-Reglas deseadas: [no combinable, 1 por cuenta, etc.]
+1) Processo interno DSAR:
+- verifica dell'identità (metodi consentiti)
+- ricerca di sistema (checklist)
+- estrazione / portabilità
+- correzione
+- cancellato / anonimo
+2) Modelli utente:
+- conferma del ricevimento
+- richiesta di verifica
+- consegna dei dati
+- conferma della cancellazione
+3) Matrice di eccezioni (quando non tutti possono essere eliminati) in lingua semplice.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-017",
+  title: "Politica dei contenuti generati dall'utente (UGC): licenze, moderazione e rimozione",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire la licenza UGC, i diritti utente e come moderare / rimuovere i contenuti.",
+  prompt: `Piattaforma: [comunità / app]
+Tipo UGC: [post, commenti, file]
+Moderazione: []
 
-Redacta:
-1) Condiciones de uso de cupones/promos.
-2) Caducidad y disponibilidad.
-3) Errores comunes y cómo resolver:
-   - cupón no aplica
-   - cupón vencido
-   - cupón ya usado
-   - precio cambió
-4) Macros de soporte (10) para cada caso con alternativas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "sop-pol-021",
-    title: "Política de cumplimiento de pagos: impagos, suspensiones, reintentos y reactivación",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define el ciclo de cobro fallido y suspensión sin sorprender al usuario.",
-    prompt: `Producto: [SaaS/membresía]
-Reintentos: [ ]
-Suspensión: [día X]
-Notificaciones: [email/in-app]
+Progetto:
+1) Diritti dell'utente (proprietà) vs licenza di piattaforma (uso).
+2) Contenuto fornito (categorie).
+3) Processo di moderazione e rimozione:
+- relazioni
+- tempi
+- appello
+(4) Modelli:
+- avviso di rimozione
+- avviso
+- conferma del ricorso`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-018",
+  title: "Politica di garanzia dei risultati (scarico): nessun fumo, chiaro e giusto",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Creare disclaimer onesti per corsi / consulenza senza suonare aggressivo.",
+  prompt: `Offerta: [corso / consulenza]
+Promessi di marketing attuali: []
+Rischio: [alto / basso]
 
 Genera:
-1) Política: cronograma (día 0, 1, 3, 7…).
-2) Textos de notificación por etapa (4–6 mensajes).
-3) Qué pasa con datos/acceso durante suspensión.
-4) Proceso de reactivación.
-5) Macros de soporte y objeciones (10).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-022",
-    title: "Política de soporte (SLA): prioridades P1–P4, tiempos y canales",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define alcance del soporte, prioridades y tiempos para evitar expectativas irreales.",
-    prompt: `Canales: [email/chat/whatsapp]
-Horario: [ ]
-Equipo: [ ]
-Clientes VIP: [sí/no]
-
-Redacta:
-1) Alcance: qué cubre soporte y qué no.
-2) Prioridades P1–P4 con ejemplos claros.
-3) SLA por prioridad y por plan.
-4) Proceso de escalación.
-5) Política de emergencias y mantenimiento.
-6) Resumen público (8 bullets) + guía interna para agentes.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-023",
-    title: "Política de accesibilidad: compromisos, soporte y mejoras (versión humana)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Compromiso accesible: cómo pedir ayuda, cómo se tratan solicitudes y plazos.",
-    prompt: `Producto: [web/app]
-Audiencia: [ ]
-Recursos: [equipo/limitado]
+1) Scarico "umano" (120-180 parole) che:
+- non promette risultati
+- spiega le variabili
+- sia empatico.
+2) Versione formale per T & C
+3) 8 esempi di "cosa diciamo" nel marketing vs "cosa non diciamo".
+4) Supporto Macro per i clienti che richiedono il risultato / rimborso per le aspettative.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-019",
+  title: "Politica di prestito / credenziali condivise: rilevamento, misure e comunicazione",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire l'uso personale e come agire in collaborazione senza combattere con il cliente.",
+  prompt: `Prodotto: [corso / SaaS]
+Regola: [1 utente / X dispositivi]
+Segni: [PI, sessioni, ecc.]
 
 Crea:
-1) Declaración de accesibilidad (humana) con compromisos realistas.
-2) Canal para reportar problemas + qué info pedir.
-3) Proceso interno: evaluación → fix → comunicación.
-4) FAQ (8) y macros de soporte (6).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-024",
-    title: "Política de envíos internacionales: aduanas, impuestos, tiempos y responsabilidades",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Evita conflictos: define responsabilidades de aduanas y cómo informar al cliente.",
-    prompt: `Países destino: [ ]
-Courier: [ ]
-Incoterms (si aplica): [ ]
+1) Regola chiara (versione utente).
+(2) Regola formale (T & C).
+3) Processo di esecuzione:
+- avvertimento
+- limitazione
+- sospensione
+4) Modelli di supporto:
+- primo avviso
+- secondo avviso
+- azione finale
+5) Opzioni del cliente (aggiornamento, piano di squadra, ecc.).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-020",
+  title: "Politica di promozione e coupon: condizioni, scadenza, combinazioni e controversie",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Evitare guerre coupon: definire regole e risposte per il supporto.",
+  prompt: `Promessi tipici: []
+regole desiderate: [non-combinabile, 1 per conto, ecc.]
 
-Redacta:
-1) Tiempos estimados realistas y variaciones.
-2) Aduanas e impuestos: quién paga y cómo se informa.
-3) Qué pasa si el paquete es retenido o devuelto.
-4) Proceso de reclamo con courier.
-5) Macros de soporte (10) para casos típicos.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-025",
-    title: "Política anti-spam y comunicaciones: frecuencia, opt-out y preferencias",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Textos para newsletter/marketing: opt-out, preferencias y manejo de reclamos.",
-    prompt: `Canales: [email/WhatsApp/SMS]
-Tipo de mensajes: [marketing/operacionales]
-Preferencias: [sí/no]
+Progetto:
+1) Condizioni di utilizzo di coupon / promozioni.
+2) Assegnazione e disponibilità.
+3) Errori comuni e come risolvere:
+- coupon non si applica
+- coupon vinto
+- coupon già utilizzato
+- prezzo cambiato
+4) Supporto macro (10) per ogni caso con alternative.`,
+  thumbnail: ""
+},
 
-Crea:
-1) Política de comunicaciones (humana) con:
-   - qué enviamos
-   - frecuencia
-   - cómo darse de baja
-2) Texto para footer de emails.
-3) Macros de soporte (8) para:
-   - “no me escriban”
-   - “me di de baja y siguen”
-   - “nunca me suscribí”
-4) Proceso interno de supresión (checklist).`,
-    thumbnail: "",
-  },
+{
+  id: "sop-pol-021",
+  title: "Politica di conformità: non-pagamenti, sospensioni, reattivi e riattivazione",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire il ciclo di raccolta fallito e la sospensione senza sorprendere l'utente.",
+  prompt: `Prodotto: [SaaS / membership]
+[]
+Sospensione: [giorno X]
+Notifiche: [email / in-app]
 
-  {
-    id: "sop-pol-026",
-    title: "Plantillas legales para soporte: aprobado/negado/caso gris (tono humano + seguro)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Pack de macros para casos con riesgo legal: claridad sin admisión.",
-    prompt: `Tema: [reembolso/chargeback/infracción/privacidad]
-Tono: [ ]
+Genera:
+1) Politica: programma (giorno 0, 1, 3, 7...).
+2) Testi di notifica per fase (4-6 messaggi).
+3) Che cosa succede ai dati / accesso durante la sospensione.
+(4) Processo di riattivazione.
+5) Macros de support y objeres (10).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-022",
+  title: "Politica di sostegno (SLA): priorità P1-P4, tempi e canali",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire la portata, le priorità e i tempi di sostegno per evitare aspettative irrealistiche.",
+  prompt: `Canali: [email / chat / WhatsApp]
+[]
+Attrezzature: []
+Clienti VIP: [Si]
 
-Crea un pack con:
-1) Plantilla “aprobado” (2 versiones).
-2) Plantilla “negado” con alternativas (2 versiones).
-3) Plantilla “caso gris: pedir info” (2 versiones).
-4) 12 frases seguras y 12 frases peligrosas a evitar.
-5) Sección “nota interna” para agentes: qué registrar y cómo.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-027",
-    title: "Política de disputas y resolución: mediación, arbitraje (si aplica) y contacto",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Cómo manejar conflictos: escalación, contacto formal y pasos ordenados.",
-    prompt: `Jurisdicción: [ ]
-Canal legal: [email]
-Tipo negocio: [ ]
-
-Redacta:
-1) Proceso de reclamo formal (pasos).
-2) Plazos de respuesta.
-3) Qué información se solicita.
-4) Cómo se documenta internamente.
-5) Resumen para soporte (qué decir y qué no decir).
-6) Plantillas para:
-   - acuse de recibo
-   - solicitud de información
-   - resolución propuesta`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-028",
-    title: "Política de pruebas y trials: qué incluye, límites, conversión y reembolsos",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define pruebas gratis sin sorpresas: límites y conversión transparente.",
-    prompt: `Trial: [7/14/30 días]
-Requiere tarjeta: [sí/no]
-Límites: [features/uso]
-Conversión: [auto/manual]
-
-Redacta:
-1) Política de trial (humana + clara).
-2) Textos para checkout y email:
-   - inicio trial
-   - recordatorio antes de convertir
-   - confirmación de conversión
-3) Reembolsos relacionados con trial.
-4) FAQ (10) y macros de soporte (8).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-029",
-    title: "Política de cambios en el servicio: mantenimiento, cambios de features y deprecated",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Cómo comunicar cambios: avisos, alternativas y soporte sin prometer roadmap.",
-    prompt: `Producto: [ ]
-Cambios típicos: [ ]
-Canales aviso: [email/in-app/status]
+Progetto:
+1) Ambito: che copre il supporto e ciò che non lo fa.
+2) Priorità P1-P4 con esempi chiari.
+3) SLA per priorità e per piano.
+(4) Processo di scala.
+5) Politica di emergenza e di manutenzione.
+6) Riepilogo pubblico (8 proiettili) + guida interna per gli agenti.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-023",
+  title: "Politica di accessibilità: impegni, sostegno e miglioramenti (versione umana)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Impegno accessibile: come chiedere aiuto, come affrontare le domande e le scadenze.",
+  prompt: `Prodotto: [web / app]
+[]
+Risorse: [equipment / limited]
 
 Crea:
-1) Política de cambios con:
-   - mantenimiento programado
-   - cambios de features
-   - eliminaciones/deprecations
-2) Avisos modelo (3):
-   - anuncio
-   - recordatorio
-   - cierre
-3) FAQ (8) y macros (8) para objeciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-030",
-    title: "Política de uso de IA y contenido generado: responsabilidades y límites (para prompts/cursos IA)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define responsabilidades sobre outputs de IA, derechos y precauciones.",
-    prompt: `Producto: [prompts/curso IA/SaaS]
-Casos de uso sensibles: [salud/finanzas/legal]
-Jurisdicción: [ ]
+(1) Dichiarazione di accessibilità (umano) con impegni realistici.
+2) Canale per segnalare problemi + quali informazioni chiedere.
+3) Processo interno: valutazione → correzione → comunicazione.
+4) FAQ (8) e supporto macro (6).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-024",
+  title: "Politica marittima internazionale: dogane, tasse, tempi e responsabilità",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Evita i conflitti: definisce le responsabilità doganali e come informare il cliente.",
+  prompt: `Paesi di destinazione: []
+Corriere: []
+Incoterms (se applicabile): []
 
-Redacta:
-1) Descargo sobre outputs (no consejo profesional).
-2) Responsabilidad del usuario: verificación, cumplimiento, derechos de autor.
-3) Prohibiciones: uso ilegal, suplantación, etc.
-4) Guía de buenas prácticas (10).
-5) FAQ (10) y macros de soporte (8).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "sop-pol-031",
-    title: "Política de eliminación de cuenta: acceso, datos, facturación y efectos posteriores",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Cierra bien: qué se borra, qué se conserva y por qué (retención).",
-    prompt: `Producto: [ ]
-Región: [ ]
-Sistemas: [CRM/helpdesk/Stripe]
+Progetto:
+1) Tempo e variazioni stimate realistiche.
+2) Dogane e tasse: chi paga e come viene segnalato.
+3) Che cosa succede se il pacchetto viene mantenuto o restituito.
+4) Processo di richiesta del corriere.
+5) Macros de support (10) per i casi tipici.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-025",
+  title: "Politica antispam e comunicazioni: frequenza, opt-out e preferenze",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Testo per newsletter / marketing: opt-out, preferenze e gestione dei reclami.",
+  prompt: `Canali: [email / WhatsApp / SMS]
+Tipo di messaggi: [marketing / operativo]
+Impostazioni: [sì / no]
 
 Crea:
-1) Política de eliminación:
-   - qué se borra
-   - qué se anonimiza
-   - qué se conserva y por cuánto (razón)
-2) Proceso para el usuario (pasos).
-3) Plantillas de soporte:
-   - confirmación recepción
-   - solicitud verificación
-   - confirmación final
+(1) Politica delle comunicazioni (umane) con:
+- quello che abbiamo mandato
+- frequenza
+- come scaricare
+2) Testo per email footer.
+3) Supporto macro (8) per:
+- "Non scrivermi".
+- "Sono andata via e vado avanti."
+- "Non mi sono mai iscritto".
+4) Processo di soppressione interna (elenco di controllo).`,
+  thumbnail: ""
+},
+
+{
+  id: "sop-pol-026",
+  title: "Modelli di supporto legale: approvato / negato / grigio caso (tono umano + sicuro)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Macro pack per casi con rischio legale: chiarezza senza ammissione.",
+  prompt: `Oggetto: [rimborso / chargeback / violazione / privacy]
+[]
+
+Crea un pacchetto con:
+1) modello "approvato" (2 versioni).
+2) modello "negato" con alternative (2 versioni).
+3) "grande caso: ordine info" modello (2 versioni).
+4) 12 frasi sicure e 12 frasi pericolose da evitare.
+5. sezione "Nota interna" per gli agenti: cosa registrare e come.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-027",
+  title: "Politica di disputa e risoluzione: mediazione, arbitrato (se applicabile) e contatto",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Come gestire i conflitti: arrampicata, contatto formale e passi ordinari.",
+  prompt: `Giurisdizione: []
+Canale legale: [email]
+Tipo di attività: []
+
+Progetto:
+1) Processo formale di rivendicazione (steps).
+2) Limiti di tempo per la risposta.
+3) Quali informazioni sono richieste.
+4) Come è documentato internamente.
+5) Sommario per il sostegno (cosa dire e cosa non dire).
+6) Modelli per:
+- ricevimento
+- richiesta di informazioni
+- proposta di risoluzione`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-028",
+  title: "Politica di prova e di prova: ciò che include, limiti, conversione e rimborso",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire prove libere senza sorprese: limiti e conversione trasparente.",
+  prompt: `Prova: [7 / 14 / 30 giorni]
+Richiesta carta: [sì / no]
+Limiti: [funzioni / uso]
+Conversione: [auto / manuale]
+
+Progetto:
+1) Politica di prova (umano + chiaro).
+2) Checkout e messaggi e-mail:
+- inizio di prova
+- promemoria prima della conversione
+- conferma della conversione
+3) Rimborso relativo alla prova.
+4) FAQ (10) e supporto macro (8).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-029",
+  title: "Politica di cambio servizio: manutenzione, funzionalità e deprecazione",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Come comunicare i cambiamenti: avvisi, alternative e supporto senza promettere roadmap.",
+  prompt: `Uscita: []
+Variazioni tipiche: []
+Canali di avvertimento: [email / in-app / stato]
+
+Crea:
+1) Politica dei cambiamenti con:
+- manutenzione programmata
+- modifiche delle caratteristiche
+- smaltimento / deprecazioni
+2) Avvertenze di modello (3):
+- annuncio
+- promemoria
+- vicino
+3) FAQ (8) e macro (8) per obiezioni.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-030",
+  title: "Politica di utilizzo dei contenuti IA e generati: responsabilità e limiti (per i suggerimenti / corsi IA)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire le responsabilità per le uscite IA, i diritti e le precauzioni.",
+  prompt: `Prodotto: [Prompti / corso IA / SaaS]
+Casi di utilizzo sensibili: [salute / finanza / legale]
+Giurisdizione: []
+
+Progetto:
+1) Scarico su uscite (non consulenza professionale).
+2) Responsabilità dell'utente: verifica, conformità, copyright.
+3) Proibizioni: uso illegale, soppiantamento, ecc.
+(4) Guida alla buona pratica (10).
+5) FAQ (10) e supporto macro (8).`,
+  thumbnail: ""
+},
+
+{
+  id: "sop-pol-031",
+  title: "Politica di rimozione degli account: accesso, dati, fatturazione e effetti successivi",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Chiudere bene: ciò che viene cancellato, ciò che è conservato e perché (retenzione).",
+  prompt: `Uscita: []
+Regione: []
+Sistemi: [CRM / helpdesk / Stripe]
+
+Crea:
+(1) Politica di eliminazione:
+- da cancellare
+- che è anonimo
+- ciò che è conservato e per quanto (ragione)
+2) Processo utente (steps).
+3) Modelli di supporto:
+- conferma ricevuta
+- richiesta di verifica
+- conferma finale
 4) FAQ (8).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-032",
-    title: "Política de backups y recuperación: límites, tiempos y expectativas (SaaS)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define si hay backups, cuánto tiempo, y qué recuperaciones se pueden hacer.",
-    prompt: `Producto SaaS: [ ]
-Backups: [sí/no]
-Retención backups: [ ]
-Restauración: [sí/no/costo]
+  thumbnail: ""
+},
+{
+  id: "sop-pol-032",
+  title: "Politica di backup e recupero: limiti, tempi e aspettative (SaaS)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire se ci sono i backup, quanto tempo, e quali recuperi possono essere fatti.",
+  prompt: `Prodotto SaaS: []
+Backup: [sì / no]
+Retention backups: []
+Restauro: [sì / no / costo]
 
-Redacta:
-1) Política de backups (clara, sin prometer lo imposible).
-2) Qué se puede recuperar y qué no.
-3) Tiempos estimados y proceso.
-4) Plantillas de soporte (6) para solicitudes de restore.
-5) Nota interna: cuándo aprobar restore y qué registrar.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-033",
-    title: "Política de soporte a integraciones de terceros: límites y responsabilidades",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define qué soportas en Zapier/Meta/Google/etc. y dónde termina tu responsabilidad.",
-    prompt: `Integraciones: [lista]
-Soporte que sí das: [ ]
-Soporte que no das: [ ]
+Progetto:
+1) Politica di backup (chiaro, senza promettere l'impossibile).
+2) Che cosa può essere recuperato e cosa no.
+3) Tempi e processi stimati.
+4) Supporto (6) per applicazioni di ripristino.
+5) Nota interna: quando approvare il ripristino e cosa registrare.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-033",
+  title: "Politica di sostegno all'integrazione di terzi: limiti e responsabilità",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire ciò che si sta in Zapier / Meta / Google / ecc e dove la vostra responsabilità termina.",
+  prompt: `Integrazioni: [list]
+Supporto che si dà: []
+Sostenere che non date: []
 
 Crea:
-1) Política de integraciones:
-   - alcance (lo que sí)
-   - fuera de alcance (lo que no)
-2) Checklist de diagnóstico antes de escalar.
-3) Macros de soporte:
-   - “parece del tercero”
-   - “necesito estas capturas”
-   - “aquí está el workaround”
+1) Politica di integrazione:
+- portata (cosa è)
+- fuori dalla portata (che non è)
+2) Controllo diagnostico prima dell'arrampicata.
+3) Supporto macro:
+- "Sembra il terzo".
+- "Ho bisogno di queste catture".
+- "qui è il mondo."
 4) FAQ (10).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-034",
-    title: "Política de eventos y talleres presenciales: cancelación, asistencia y reembolsos",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Reglas claras para eventos: cambios de nombre, no-shows, fuerza mayor.",
-    prompt: `Evento: [ ]
-Fecha: [ ]
-Capacidad: [ ]
-Reembolso: [reglas]
+  thumbnail: ""
+},
+{
+  id: "sop-pol-034",
+  title: "Politica attuale dell'evento e del workshop: cancellazione, assistenza e rimborso",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Regole chiare per gli eventi: cambi di nome, no-show, forza maggiore.",
+  prompt: `Evento: []
+Data:
+Capacità: []
+Rimborso:
 
-Redacta:
-1) Cancelación por parte del cliente (ventanas y porcentajes si aplica).
-2) Cancelación por parte del organizador (fuerza mayor).
-3) Transferencia de entrada a otra persona.
-4) No-show y tardanzas.
-5) Cambios de fecha/lugar.
-6) Macros de soporte (10) para casos reales.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-035",
-    title: "Política de afiliados: términos, pagos, fraude y terminación (resumen operativo)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Estructura reglas para afiliados: atribución, pagos, devoluciones y abuso.",
-    prompt: `Programa afiliados: [ ]
-Comisión: [ ]
-Ventana de atribución: [ ]
-Pago mínimo: [ ]
-Herramienta: [ ]
-
-Crea:
-1) Términos operativos:
-   - atribución
-   - pagos
-   - devoluciones/chargebacks
-   - fraude y auto-compra
-   - terminación
-2) FAQ afiliados (12).
-3) Macros soporte (10) para disputas de comisión.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "sop-pol-036",
-    title: "Política de soporte para contenido sensible: salud/finanzas/legal (limitaciones y escalación)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Cubre límites: no dar consejo profesional; guías de escalación y plantillas.",
-    prompt: `Tema sensible: [salud/finanzas/legal]
-Producto/curso: [ ]
-Mercados: [ ]
+Progetto:
+1) Cancellazione da parte del cliente (finestre e percentuali se applicabile).
+2) Cancellazione da parte dell'organizzatore (forza maggiore).
+(3) Trasferimento di ingresso ad un'altra persona.
+4) Nessun spettacolo e ritardi.
+5) Data / luogo modifiche.
+6) Macros de support (10) per casi reali.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-035",
+  title: "Politica di affiliazione: termini, pagamenti, frode e cessazione (sommario operativo)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Regole di struttura per i membri: attribuzione, pagamenti, rendimenti e abuso.",
+  prompt: `Programma di partecipazione: []
+Commissione []
+Finestra di allocazione: []
+Pagamento minimo: []
+[]
 
 Crea:
-1) Política de limitaciones (humana).
-2) Mensajes de soporte para:
-   - solicitud de consejo profesional
-   - insistencia del cliente
-3) Cuándo escalar o rechazar.
-4) Recursos alternativos sugeridos (no específicos).
-5) Nota interna: frases seguras y prohibidas.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-037",
-    title: "Política de contenido y copyright: DMCA/takedowns (proceso y plantillas)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Proceso para reclamos de copyright: recepción, verificación, acción y apelación.",
-    prompt: `Plataforma: [web/comunidad]
-Canal legal: [email]
-País: [ ]
+1) Termini operativi:
+- attribuzione
+- pagamenti
+- restituzioni / addebiti
+- frode e autoacquisto
+- terminazione
+2) FAQ affiliata (12).
+3) Supporto Macros (10) per controversie di commissione.`,
+  thumbnail: ""
+},
+
+{
+  id: "sop-pol-036",
+  title: "Politica di supporto per contenuti sensibili: salute / finanza / legale (limitazioni e scaling)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Limiti di copertura: non dare consigli professionali; guide di arrampicata e modelli.",
+  prompt: `Tema sensibile: [salute / finanza / legale]
+Prodotto / corso: []
+Mercati: []
+
+Crea:
+(1) Politica delle limitazioni (umane).
+2) Messaggi di supporto per:
+- richiesta di consulenza professionale
+- insistenza del cliente
+3) Quando salire o rifiutare.
+4) Risorse alternative suggerite (non specifiche).
+5) Nota interna: frasi sicure e proibite.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-037",
+  title: "Politica dei contenuti e del copyright: DMCA / takedowns (processo e modelli)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Processo di diritto d'autore: ricezione, verifica, azione e appello.",
+  prompt: `Piattaforma: [web / community]
+Canale legale: [email]
+Paese: []
 
 Genera:
-1) Proceso de takedown:
-   - qué debe incluir el reclamo
-   - tiempos
-   - acciones
-2) Plantillas:
-   - acuse de recibo
-   - solicitud de info faltante
-   - confirmación de retiro
-   - aviso al usuario afectado
-3) Proceso de contra-notificación (si aplica) a nivel general.
-4) Checklist interno.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-038",
-    title: "Política de devoluciones por “producto no recibido”: criterios, investigación y resolución",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define cuándo reembolsas, cuándo reenvías y cómo investigas el courier.",
-    prompt: `Courier: [ ]
-Estatus: [entregado/pendiente]
-Prueba de entrega: [sí/no]
-Zona de riesgo: [sí/no]
+1) processo di rimozione:
+- che il reclamo dovrebbe includere
+- tempi
+- azioni
+(2) Modelli:
+- ricevimento
+- richiesta di informazioni mancanti
+- conferma del recesso
+- avviso all'utente interessato
+3) Processo di notificazione (se applicabile) a livello generale.
+4) Elenco di controllo interno.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-038",
+  title: "Politica di ritorno per \"prodotto non rinnovato\": criteri, ricerca e risoluzione",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire quando si ripaga, quando si ritorna e come si indaga il corriere.",
+  prompt: `Corriere: []
+Stato: [consegnato / in attesa]
+Test di consegna: [sì / no]
+Zona di rischio: [sì / no]
 
-Redacta:
-1) Criterios para investigar (plazos, evidencia).
-2) Qué pedir al cliente (mínimo).
-3) Proceso con courier (pasos).
-4) Resolución por escenarios:
-   - reenvío
-   - reembolso
-   - espera con update
-5) Macros soporte (10).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-039",
-    title: "Política de reembolso por error del cliente: compras duplicadas, plan equivocado, equivocación",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Reglas para casos humanos: compra incorrecta y cómo resolver sin abrir abuso.",
-    prompt: `Producto: [ ]
-Casos comunes: [duplicado/plan equivocado]
-Ventana “gracia”: [horas/días]
-
-Crea:
-1) Política de “gracia” (si aplica) con límites.
-2) Criterios de aprobación:
-   - tiempo desde compra
-   - uso/consumo
-   - historial
-3) Alternativas: cambio de plan, crédito, soporte.
-4) Plantillas de soporte (aprobado/negado/caso gris).
-5) Checklist interno anti-abuso.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-040",
-    title: "Política de reembolsos en cursos: progreso consumido, módulos vistos, descargas y excepciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Diseña una política justa basada en consumo real sin ser agresiva.",
-    prompt: `Curso: [ ]
-Plataforma: [ ]
-Se puede medir progreso: [sí/no]
-Material descargable: [sí/no]
-
-Redacta:
-1) Criterios por consumo:
-   - % visto
-   - descargas
-   - tiempo desde compra
-2) Excepciones razonables.
-3) Proceso de solicitud.
-4) Macros de soporte (12).
-5) Página “resumen simple” para checkout.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "sop-pol-041",
-    title: "Pack de cláusulas para checkout: términos, reembolsos, suscripción, licencia (copy corto)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Textos cortos para checkout que reducen disputas y confusión.",
-    prompt: `Producto: [ ]
-Modelo: [1 pago/suscripción]
-Reembolso: [sí/no/condiciones]
-Licencia: [personal/no transferible]
-
-Genera copies cortos para:
-1) Caja de términos (1–2 líneas).
-2) Caja de reembolso (1–2 líneas) clara.
-3) Caja de renovación automática (si aplica) (1–2 líneas).
-4) Caja de licencia/uso (1–2 líneas).
-5) Nota anti-chargeback (humana, no amenazante).
-6) 10 variantes por elemento (para A/B).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-042",
-    title: "Matriz interna de escalación legal: qué casos deben ir a legal y cómo documentarlos",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Guía para agentes: umbrales de riesgo, checklist y plantillas internas.",
-    prompt: `Tipo negocio: [ ]
-Riesgos: [ ]
+Progetto:
+1) Criteri di indagine (limiti di tempo, prove).
+2) Cosa chiedere al cliente (minimo).
+3) Processo con corriere (passi).
+4) Risoluzione dello scenario:
+- imbarco
+- rimborso
+- Attendere con aggiornamento
+5) Supporto Macros (10).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-039",
+  title: "Politica di rimborso degli errori del cliente: acquisti duplicati, piano sbagliato, sbagliato",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Regole per i casi umani: acquisto errato e come risolvere senza aprire abuso.",
+  prompt: `Uscita: []
+Casi comuni: [piano complicato / sbagliato]
+finestra "grace": [ore / giorni]
 
 Crea:
-1) Matriz de escalación (tabla lógica) con:
-   - tipo de caso
-   - severidad
-   - acción inmediata
-   - quién decide
-2) Checklist de documentación (15 campos).
-3) Plantilla de nota interna “legal risk”.
-4) Frases seguras para soporte mientras se investiga (10).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-043",
-    title: "Política de grabación de llamadas y consentimiento: textos por región y canal",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Incluye scripts de aviso, alternativas y cómo registrar consentimiento.",
-    prompt: `Canales: [llamada/zoom]
-Región: [ ]
-Finalidad: [calidad/seguridad]
+1) politica "grazia" (se applicabile) con limiti.
+2) Criteri di approvazione:
+- tempo di acquisto
+- uso / consumo
+- storia
+3) Alternative: cambiamento di piano, credito, supporto.
+4) Supporto (caso approvato / negato / grigio).
+5) Controllo interno anti-abuso.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-040",
+  title: "Politica di rimborso dei corsi: progressi raggiunti, moduli visti, download e eccezioni",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Progetta una politica equa basata sul consumo reale senza essere aggressivo.",
+  prompt: `[]
+Piattaforma []
+I progressi possono essere misurati: [Si]
+Materiale monouso: [sì / no]
+
+Progetto:
+(1) Criteri di consumo:
+-% visto
+- download
+- tempo di acquisto
+(2) Eccezioni ragionevoli.
+3) Processo di applicazione.
+4) Macros de support (12).
+5) Pagina "semplice riassunto" per il checkout.`,
+  thumbnail: ""
+},
+
+{
+  id: "sop-pol-041",
+  title: "Pacchetto clausola di controllo: termini, rimborsi, abbonamento, licenza (breve copia)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Testi brevi per il checkout che riducono le dispute e la confusione.",
+  prompt: `Uscita: []
+Modello: [1 pagamento / abbonamento]
+Rimborso: [sì / no / condizioni]
+Licenza: [personale / non trasferibile]
+
+Genera brevi copie per:
+1) (1-2 linee).
+2) casella di rimborso (1-2 linee) chiaro.
+3) Scatola di rinnovo automatico (se applicabile) (1-2 linee).
+4) Scatola di licenza / uso (1-2 linee).
+5) Nota anti-ritorno (umano, non minaccioso).
+6) 10 varianti per elemento (per A / B).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-042",
+  title: "Matrice di scalazione giuridica interna: quali casi dovrebbero andare a legale e come documentarli",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Guida per gli agenti: soglie di rischio, checklist e modelli interni.",
+  prompt: `Tipo di attività: []
+Rischi:
+
+Crea:
+1) Matrice di scala (tabella logica) con:
+- tipo di caso
+- gravità
+- azione immediata
+- Chi decide?
+2) Elenco di controllo della documentazione (15 campi).
+(3) modello di nota interna "rischio legale".
+4) Bottiglie di sostegno sicure durante l'indagine (10).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-043",
+  title: "Politica di registrazione e consenso delle chiamate: testi per regione e canale",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Include script di avviso, alternative e come registrare il consenso.",
+  prompt: `Canali: [call / zoom]
+Regione: []
+Scopo: [qualità / sicurezza]
 
 Genera:
-1) Script de aviso de grabación (3 tonos).
-2) Qué hacer si el cliente no consiente:
-   - alternativa (no grabar / email)
-3) Cómo registrar consentimiento internamente (campos).
-4) Texto para política pública (humano).
-5) FAQ (8) para clientes.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-044",
-    title: "Política de accesos compartidos en planes team: roles, límites y responsabilidad",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define roles, admins, responsabilidad por usuarios y seguridad.",
-    prompt: `Producto: [SaaS]
-Plan team: [sí/no]
-Roles: [admin/miembro/visor]
+1) Registrare lo script di avviso (3 toni).
+2) Cosa fare se il cliente non accetta:
+- alternativa (non record / email)
+3) Come registrare il consenso internamente (campi).
+(4) Testo della politica pubblica (umano).
+5) FAQ (8) per i clienti.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-044",
+  title: "Politica di accesso condiviso nei piani di squadra: ruoli, limiti e responsabilità",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire ruoli, amministratori, responsabilità dell'utente e sicurezza.",
+  prompt: `Prodotto: [SaaS]
+Squadra di piano: [sì / no]
+Roles: [admin / membro / visualizzatore]
 
-Redacta:
-1) Definición de roles y permisos.
-2) Responsabilidad del admin sobre accesos.
-3) Límites de dispositivos/sesiones.
-4) Proceso de alta/baja de usuarios.
-5) Macros soporte (10) para conflictos de roles y accesos.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-045",
-    title: "Política de “uso justo” (fair use) en planes ilimitados: límites razonables y enforcement",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Protege infraestructura sin engañar: define “ilimitado” con uso justo.",
-    prompt: `Plan “ilimitado”: [ ]
-Recursos críticos: [API/descargas/consultas]
-Señales abuso: [ ]
-
-Crea:
-1) Definición de fair use (humana) y formal.
-2) Ejemplos: 10 casos que sí y 10 que no.
-3) Proceso de enforcement escalonado.
-4) Plantillas de soporte (8) sin acusar.
-5) Alternativa: plan enterprise/upgrade.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "sop-pol-046",
-    title: "Política de devoluciones por daño en transporte: evidencia, plazos y resolución",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define qué fotos pedir, tiempos y decisiones (reenvío/reembolso).",
-    prompt: `Producto físico: [ ]
-Courier: [ ]
-Ventana para reportar: [ ]
-
-Redacta:
-1) Plazo para reportar daño (y por qué).
-2) Evidencia mínima:
-   - fotos del paquete
-   - etiquetas
-   - producto
-3) Proceso:
-   - revisión
-   - resolución
-   - logística
-4) Plantillas soporte (10).
-5) Checklist interno anti-fraude.`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-047",
-    title: "Política de cambios de dirección tras compra: criterios y límites",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Evita pérdidas: cuándo se puede cambiar dirección y qué comprobaciones hacer.",
-    prompt: `Tipo: [físico]
-Estado pedido: [preparación/enviado]
-Riesgo fraude: [alto/bajo]
+Progetto:
+1) Definizione di ruoli e autorizzazioni.
+2) responsabilità dell'amministratore per l'accesso.
+3) Limiti di dispositivo / sessione.
+4) Alta / basso processo utente.
+5) Supporto Macros (10) per ruoli e conflitti di accesso.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-045",
+  title: "Politica di uso equo nei piani illimitati: limiti ragionevoli e l'applicazione",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Protegge l'infrastruttura indecepita: definisce \"illimitata\" con un uso equo.",
+  prompt: `"Unlimited 'plan: []
+Risorse critiche: [API / download / query]
+Segni di abuso: []
 
 Crea:
-1) Política: cuándo sí y cuándo no se cambia dirección.
-2) Verificación de identidad (métodos permitidos).
-3) Procedimiento interno.
-4) Plantillas soporte (8) para:
-   - aprobado
-   - negado
-   - caso gris`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-048",
-    title: "Política de regalos (gift purchases): acceso, transferencias, reembolsos y disputas",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Reglas para compras regalo sin caos: quién es titular, cómo transferir y soporte.",
-    prompt: `Producto: [digital/físico]
-Regalo: [sí/no]
-Transferible: [sí/no]
+1) Definizione di uso equo (umano) e formale.
+2) Esempi: 10 casi sì e 10 casi no.
+3) Processo di applicazione valutato.
+4) Supporto non caricato (8).
+5) Alternativa: pianificare impresa / aggiornamento.`,
+  thumbnail: ""
+},
 
-Redacta:
-1) Quién es titular de compra y acceso.
-2) Cómo se entrega el regalo y se activa.
-3) Reembolsos: quién puede pedirlo y cuándo.
-4) Disputas frecuentes (8) y resolución.
-5) Macros soporte (10).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-049",
-    title: "Política de comunicación de cambios legales/políticas: avisos, aceptación y registro",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Define cómo notificas actualizaciones de términos, y cómo se registra aceptación.",
-    prompt: `Producto: [ ]
-Canales de aviso: [email/in-app]
-Aceptación: [clickwrap/browsewrap]
+{
+  id: "sop-pol-046",
+  title: "Politica di restituzione dei danni ai trasporti: prove, limiti di tempo e risoluzione",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire quali foto per ordinare, tempi e decisioni (rimborso / rimborso).",
+  prompt: `Prodotto fisico: []
+Corriere: []
+Finestra per segnalare: []
+
+Progetto:
+1) Termine ultimo per segnalare danni (e perché).
+(2) Evidenza minima:
+- foto del pacchetto
+- etichette
+- prodotto
+3) Processo:
+- revisione
+- risoluzione
+- logistica
+4) Supporto (10).
+(5) Controllo interno antifrode.`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-047",
+  title: "Politica di cambiamento di gestione dopo l'acquisto: criteri e limiti",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Evita le perdite: quando puoi cambiare direzione e quali controlli fare.",
+  prompt: `Tipo: [fisico]
+Stato richiesto: [preparazione / inviato]
+Rischio di frode: [alto / basso]
 
 Crea:
-1) Política de actualizaciones:
-   - cuándo se notifican
-   - cuándo entran en vigor
-2) Textos:
-   - email de actualización
-   - banner in-app
-   - modal de aceptación
-3) Proceso interno:
-   - versionado
-   - registro de aceptación
-4) FAQ (8) y macros de soporte (6).`,
-    thumbnail: "",
-  },
-  {
-    id: "sop-pol-050",
-    title: "Kit de ‘resumen para soporte’: convertir políticas largas en reglas accionables (cheat sheet)",
-    area: "Atención al Cliente & SOPs",
-    category: "Políticas & Legales",
-    summary:
-      "Transforma políticas en un manual operativo para agentes con decisiones rápidas y macros.",
-    prompt: `Pega aquí tus políticas (o resume): [ ]
-Objetivo: soporte rápido y consistente
+1) Politica: quando sì e quando la direzione non è cambiata.
+(2) Verifica dell'identità (metodi consentiti).
+3) Procedura interna.
+4) Supporto (8) per:
+- approvato
+- negato
+- caso grigio`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-048",
+  title: "Acquisti regalo: accesso, trasferimenti, rimborsi e controversie",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Regole per l'acquisto di regalo senza caos: chi è il titolare, come trasferire e sostenere.",
+  prompt: `Prodotto: [digitale / fisico]
+Regalo: [si / no]
+Trasferibile: [sì / no]
+
+Progetto:
+1) Chi è il titolare dell'acquisto e dell'accesso.
+2) Come il regalo viene consegnato e attivato.
+3) Rimborso: chi può ordinarlo e quando.
+4) Disturbi comuni (8) e risoluzione.
+5) Supporto Macros (10).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-049",
+  title: "Politica di comunicazione delle modifiche legali / politiche: comunicazioni, accettazione e registrazione",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Definire come si segnalano gli aggiornamenti dei termini e come l'accettazione è registrata.",
+  prompt: `Uscita: []
+Canali di avvertimento: [email / in-app]
+Accettazione: [clickwrap / sfogliare]
+
+Crea:
+1) Politica di aggiornamento:
+- quando notificato
+- quando entreranno in vigore
+2. Testi:
+- aggiornamento e-mail
+- banner in- app
+- modale di accettazione
+3) Processo interno:
+- versione
+- registrazione di accettazione
+4) FAQ (8) e supporto macro (6).`,
+  thumbnail: ""
+},
+{
+  id: "sop-pol-050",
+  title: "\"Summary for support\" kit: convertire le politiche lunghe in regole convertibili (scheat foglio)",
+  area: "Supporto clienti & SOP",
+  category: "Politica legale",
+  summary:
+  "Trasforma le politiche in un manuale operativo per gli agenti con decisioni rapide e macro.",
+  prompt: `Ecco la vostra politica (o sommario): []
+Obiettivo: sostegno rapido e coerente
 
 Genera:
-1) Cheat sheet en 1 página:
-   - reglas “si pasa X → hacemos Y”
-   - excepciones
-   - escalaciones
-2) Árbol de decisiones:
-   - reembolsos
-   - cancelaciones
-   - abuso/fraude
-3) 25 macros de soporte: aprobar/negado/caso gris/escala.
-4) Lista de “líneas rojas” (10) y frases seguras (10).
-5) Checklist de auditoría: cómo asegurar que agentes siguen políticas.`,
-    thumbnail: "",
-  },
-];
+1) Cheat foglio su 1 pagina:
+- regole "se passi X → facciamo Y"
+- eccezioni
+- Scalazioni
+2) Albero delle decisioni:
+- rimborso
+- cancellazioni
+- abuso / frode
+3) 25 supporto macro: approva / nega / grigio caso / scala.
+4) Elenco delle "linee rosse" (10) e frasi sicure (10).
+5) Checklist Audit: come garantire che gli attori seguano le politiche.`,
+  thumbnail: ""
+}];

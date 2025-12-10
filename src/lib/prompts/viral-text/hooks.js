@@ -1,582 +1,581 @@
 // src/lib/prompts/viral-text/hooks.js
 // Área y categoría ÚNICAS para TODO este archivo:
-const AREA = "Hooks";
+const AREA = "Ganci";
 const CATEGORY = "Sorpresa";
 
 export const viralTextPromptsHooks = [
-  {
-    id: "viral-hook-sorpresa-001",
-    title: "El error que todos cometen (y no lo notan)",
-    summary: "Hook de sorpresa + promesa de corrección inmediata.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Actúa como guionista de Reels/TikTok. Crea 10 hooks de 1 frase (máximo 9 palabras) para el nicho: [NICHO].
-Formato: Hook → (por qué engancha en 1 línea).
-Reglas:
-- Debe empezar con “Estás haciendo esto mal…”
-- Debe prometer un resultado concreto en 7 días.
-- Sin clickbait vacío: menciona una causa real.
-- Español neutro.`,
-  },
-  {
-    id: "viral-hook-sorpresa-002",
-    title: "Te están mintiendo con este consejo",
-    summary: "Hook de contradicción suave contra un “tip” popular.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 12 hooks virales atacando un consejo popular de [TEMA].
-Estructura obligatoria:
-1) “Te están mintiendo con…” + [CONSEJO]
-2) mini-prueba en 6–10 palabras
-3) promesa: “en 20 segundos te lo explico”
-Hazlo para audiencia: [AUDIENCIA].`,
-  },
-  {
-    id: "viral-hook-sorpresa-003",
-    title: "Lo probé y salió al revés",
-    summary: "Hook de experimento fallido que deja curiosidad.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 15 hooks estilo “experimento” para [OBJETIVO].
-Cada hook debe:
-- Empezar con “Lo probé y…”
-- Incluir un giro inesperado.
-- Cerrar con una pregunta.
-Ejemplo de tono: directo, callejero, pero profesional.`,
-  },
-  {
-    id: "viral-hook-sorpresa-004",
-    title: "Nadie te cuenta esta parte",
-    summary: "Hook de secreto/omisión, sin exagerar.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks para [TEMA] con la frase “Nadie te cuenta…”.
-Reglas:
-- 6 a 10 palabras.
-- Debe insinuar una “parte incómoda” o subestimada.
-- Evita promesas ilegales o garantizadas.
-- Incluye 5 variaciones más suaves (menos confrontativas).`,
-  },
-  {
-    id: "viral-hook-sorpresa-005",
-    title: "La verdad incómoda en 1 frase",
-    summary: "Hook corto, con punch, para abrir loop.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 25 hooks (máximo 8 palabras) para [NICHO] que suenen como “verdades incómodas”.
-Estructura:
-- Afirmación fuerte + detalle específico.
-- No insultos.
-- Deben invitar a “qué hago entonces”.
-Entrega en lista numerada.`,
-  },
-  {
-    id: "viral-hook-sorpresa-006",
-    title: "El truco más raro que sí funciona",
-    summary: "Hook de rareza + validación.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks para [RESULTADO] usando “El truco más raro que…”.
-Incluye:
-- 5 hooks para principiantes
-- 5 para nivel intermedio
-- 5 para avanzados
-Añade al final de cada hook: (qué promete en 3 palabras).`,
-  },
-  {
-    id: "viral-hook-sorpresa-007",
-    title: "Lo que haría si empezara desde cero",
-    summary: "Hook de reinicio con sorpresa + claridad.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 12 hooks en primera persona para [OBJETIVO] empezando con:
-“Si empezara desde cero, haría esto:”
-Reglas:
-- 1 sola frase.
-- Menciona un paso que contradiga la intuición común.
-- Tono: mentor cercano.`,
-  },
-  {
-    id: "viral-hook-sorpresa-008",
-    title: "Esto suena mal, pero es lo mejor",
-    summary: "Hook que juega con tensión moral/extrañeza.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 18 hooks para [TEMA] con esta plantilla:
-“Esto suena mal, pero… [beneficio]”
-Condiciones:
-- Que el “suena mal” sea ético (sin fraude/daño).
-- Que el beneficio sea tangible y específico.
-- 9–11 palabras máximo.`,
-  },
-  {
-    id: "viral-hook-sorpresa-009",
-    title: "Tu problema no es lo que crees",
-    summary: "Hook de reencuadre con sorpresa.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks que empiecen con:
-“Tu problema no es [X], es [Y]”
-Para industria: [INDUSTRIA].
-Incluye 5 ejemplos para cada subtema: [SUBTEMA1], [SUBTEMA2], [SUBTEMA3], [SUBTEMA4].`,
-  },
-  {
-    id: "viral-hook-sorpresa-010",
-    title: "Te voy a ahorrar 6 meses",
-    summary: "Hook con promesa de ahorro de tiempo.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 15 hooks para [RESULTADO] empezando con:
-“Te voy a ahorrar 6 meses…”
-Reglas:
-- Debe mencionar el error específico que evita.
-- Nada de “garantizado”.
-- Tono urgente pero realista.`,
-  },
+{
+  id: "viral-hook-sorpresa-001",
+  title: "L'errore che tutti fanno (e non notano)",
+  summary: "Gancio di sorpresa + promessa di correzione immediata.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Agisce come sceneggiatore Reels / TikTok. Creare 10 ganci di 1 frase (massimo 9 parole) per la nicchia: _ PH0 _.
+Formato: Gancio → (perchè il battito in 1 linea).
+Regole:
+- Devi iniziare con "Stai facendo questo male..."
+- No. Devi promettere un risultato concreto in 7 giorni.
+- No. Nessun clickbat vuoto: menziona una vera causa.
+- Lo spagnolo neutro.`
+},
+{
+  id: "viral-hook-sorpresa-002",
+  title: "Ti stanno mentendo con questo consiglio",
+  summary: "Uncino di morbida contraddizione contro una punta popolare.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 12 ganci virali che attaccano un popolare _ _ PH0 _ consigli.
+Struttura obbligatoria:
+1) "Ti stanno mentendo con..." + _ PH1 _
+2) mini-test in 6-10 parole
+3) prometto: "in 20 secondi te lo spiegherò."
+Fallo per il pubblico: _ _ PH2 _.`
+},
+{
+  id: "viral-hook-sorpresa-003",
+  title: "L'ho provato ed è andato dall'altra parte",
+  summary: "Uncino da esperimento fallito che lascia curiosità.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 15 ganci "esperimento" per _ PH0 _ _.
+Ogni foro deve:
+- Inizia con "ho provato e..."
+- Compresa una svolta inaspettata.
+- Chiudi con una domanda.
+Esempio di tono: diretto, strada, ma professionale.`
+},
+{
+  id: "viral-hook-sorpresa-004",
+  title: "Nessuno ti dice questa parte",
+  summary: "Gancio di segreto / omissione, senza reazione eccessiva.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci per _ _ PH0 _ _ con la frase "Nessuno ti dice..."
+Regole:
+- 6 a 10 parole.
+- No. È necessario insinuare una "parte non confortevole" o sottovalutata.
+- No. Evita promesse illegali o garantite.
+- No. Include 5 varianti più lisce (meno conflittuali).`
+},
+{
+  id: "viral-hook-sorpresa-005",
+  title: "Verità scomoda in 1 frase",
+  summary: "Uncino corto, pugno, per anello aperto.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 25 ganci (massimo 8 parole) per _ _ PH0 _ questo suono come "verità scomode".
+Struttura:
+- Forte affermazione + dettaglio specifico.
+- Niente insulti.
+- Devi invitare "cosa faccio allora".
+Consegna in lista numerata.`
+},
+{
+  id: "viral-hook-sorpresa-006",
+  title: "Il trucco più strano che funziona",
+  summary: "Gancio di rarità + convalida.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Creare 15 ganci per _ _ PH0 _ _ utilizzando "The Weird Trick..."
+Include:
+- 5 ganci per principianti
+- 5 per livello intermedio
+- 5 per avanzato
+Aggiungere alla fine di ogni foro: (che cosa promette in 3 parole).`
+},
+{
+  id: "viral-hook-sorpresa-007",
+  title: "Cosa farei se iniziassi da zero",
+  summary: "Reset Hook con sorpresa + chiarezza.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 12 ganci in prima persona per _ _ PH0 _ iniziare con:
+"Se iniziassi da zero, lo farei:"
+Regole:
+- 1 singola frase.
+- No. Cita un passo che contraddice l'intuizione comune.
+- Tono: vicino mentore.`
+},
+{
+  id: "viral-hook-sorpresa-008",
+  title: "Sembra brutto, ma è per il meglio",
+  summary: "Uncino che gioca con tensione morale / bizzarro.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 18 ganci per _ _ PH0 _ _ con questo modello:
+"Questo suona male, ma...
+Condizioni:
+- No. Che il "poco male" è etico (senza frode / danni).
+- No. Il beneficio è tangibile e specifico.
+- 9-11 parole massime.`
+},
+{
+  id: "viral-hook-sorpresa-009",
+  title: "Il tuo problema non e' quello che pensi",
+  summary: "Uncino da incontrare con sorpresa.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci che iniziano con:
+"Il tuo problema non è _ PH0 _, it's _ PH1 _ _ _ _ _ _ _ _ _ _ _ _ _ ____________
+Per l'industria: _ _ PH2 _ _.
+Include 5 esempi per ogni sub-item: _ _ PH3 _, _ _ PH4 _ _, _ _ _ PH5 _ _, _ _ _ PH6 _ _ _ _ _ _ _ _ _ _.`
+},
+{
+  id: "viral-hook-sorpresa-010",
+  title: "Ti salvo 6 mesi",
+  summary: "Uncino con una promessa per risparmiare tempo.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 15 ganci per _ _ PH0 _ Iniziare con:
+"Ti salverò sei mesi..."
+Regole:
+- No. Si dovrebbe menzionare l'errore specifico che si evita.
+- Niente "garantito".
+- Tono urgente ma realistico.`
+},
 
-  {
-    id: "viral-hook-sorpresa-011",
-    title: "El consejo que me costó dinero",
-    summary: "Hook de aprendizaje caro (sorpresa + historia).",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 12 hooks tipo historia corta (1 frase) para [NICHO] que empiecen con:
-“El consejo que me costó dinero fue…”
-Debe cerrar con “y te digo qué hacer.”
-Manténlo creíble y concreto.`,
-  },
-  {
-    id: "viral-hook-sorpresa-012",
-    title: "No hagas esto si quieres resultados",
-    summary: "Hook de prohibición con giro específico.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks que empiecen con:
-“No hagas esto si quieres [RESULTADO]”
-Incluye un “esto” muy específico (acción concreta).
-Máximo 10 palabras por hook.`,
-  },
-  {
-    id: "viral-hook-sorpresa-013",
-    title: "El detalle mínimo que lo cambia todo",
-    summary: "Hook microdetalle + impacto alto.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 25 hooks sobre microdetalles para [TEMA].
-Plantilla base:
-“El detalle mínimo que lo cambia todo: [DETALLE]”
-Haz que [DETALLE] sea accionable en 2 minutos.`,
-  },
-  {
-    id: "viral-hook-sorpresa-014",
-    title: "Deja de seguir esta regla",
-    summary: "Hook anti-regla popular (sorpresa).",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 15 hooks para [AUDIENCIA] usando:
-“Deja de seguir esta regla: [REGLA]”
-Luego agrega 1 mini-argumento (máximo 8 palabras).
-Sin agresividad. Simple, contundente.`,
-  },
-  {
-    id: "viral-hook-sorpresa-015",
-    title: "Esto arruinó mis resultados (hasta hoy)",
-    summary: "Hook dramático controlado con resolución cercana.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 12 hooks para [OBJETIVO] con:
-“Esto arruinó mis resultados… hasta hoy”
-Incluye una pista del “arreglo” pero no lo reveles completo.
-Tono: honesto, sin exagerar.`,
-  },
-  {
-    id: "viral-hook-sorpresa-016",
-    title: "El atajo no es un atajo",
-    summary: "Hook paradójico para abrir loop.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 20 hooks paradójicos sobre [TEMA].
-Estructura:
-“El atajo no es [X], es [Y]”
-Haz que [Y] sea sugerente y correcto.`,
-  },
-  {
-    id: "viral-hook-sorpresa-017",
-    title: "Tu fórmula está incompleta",
-    summary: "Hook de “te falta una pieza”.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 15 hooks que empiecen con:
-“Tu fórmula está incompleta: te falta [PIEZA]”
-Para: [AUDIENCIA].
-Cada [PIEZA] debe ser una acción concreta o un concepto claro.`,
-  },
-  {
-    id: "viral-hook-sorpresa-018",
-    title: "Si haces esto, te frenas solo",
-    summary: "Hook de autosabotaje específico.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 20 hooks de autosabotaje para [TEMA].
-Reglas:
-- Deben iniciar con “Si haces esto…”
-- Deben terminar con una consecuencia clara.
-- Sin generalidades (nada de “pensamiento negativo”).`,
-  },
-  {
-    id: "viral-hook-sorpresa-019",
-    title: "No es falta de talento, es esto",
-    summary: "Hook de reencuadre emocional + solución.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“No es falta de talento, es [CAUSA]”
-Para [NICHO].
-[CAUSA] debe ser específica y corregible en 1 semana.`,
-  },
-  {
-    id: "viral-hook-sorpresa-020",
-    title: "Lo estás midiendo mal",
-    summary: "Hook de métrica equivocada (sorpresa).",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 15 hooks para [TEMA] en forma de corrección de métricas.
-Plantilla:
-“Lo estás midiendo mal: mira [MÉTRICA REAL]”
-Haz que [MÉTRICA REAL] sea concreta y útil.`,
-  },
+{
+  id: "viral-hook-sorpresa-011",
+  title: "Il consiglio che mi costava soldi",
+  summary: "Uncino di apprendimento costoso (sorpresa + storia).",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 12 brevi storie ganci (1 frase) per _ PH0 _ _ per iniziare con:
+"Il consiglio che mi costava soldi era..."
+Deve chiudere con "e vi dico cosa fare".
+Tienilo credibile e concreto.`
+},
+{
+  id: "viral-hook-sorpresa-012",
+  title: "Non farlo se vuoi i risultati",
+  summary: "Proibizione gancio con torsione specifico.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci che iniziano con:
+"Non farlo se vuoi"
+Esso comprende un "questo" molto specifico (azione concreta).
+Massimo 10 parole per buco.`
+},
+{
+  id: "viral-hook-sorpresa-013",
+  title: "Il minimo dettaglio che cambia tutto",
+  summary: "Microdetail gancio + alto impatto.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 25 ganci su microdettagli per _ PH0 _.
+Base:
+"Il minimo dettaglio che cambia tutto: _ _ PH1 _ _ _ _"
+Fare _ _ _ _ PH2 _ essere attuabile in 2 minuti.`
+},
+{
+  id: "viral-hook-sorpresa-014",
+  title: "Smettila di seguire questa regola",
+  summary: "Regola anti-popolare del gancio (sorpresa).",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 15 ganci per _ _ PH0 _ utilizzando:
+"Smetti di seguire questa regola: _ _ PH1 _ _ _"
+Poi aggiunge 1 mini-argumento (massimo 8 parole).
+Nessuna aggressione. Semplice, sfocato.`
+},
+{
+  id: "viral-hook-sorpresa-015",
+  title: "Questo ha rovinato i miei risultati (fino ad oggi)",
+  summary: "Drama Hook controllato con risoluzione ravvicinata.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Creare 12 ganci per _ _ PH0 _ con:
+"Questo ha rovinato i miei risultati... fino ad oggi."
+Include una traccia del "arrangiamento" ma non lo rivela completo.
+Tono: onesto, inesagerato.`
+},
+{
+  id: "viral-hook-sorpresa-016",
+  title: "La scorciatoia non è un collegamento",
+  summary: "Paradossale Gancio per anello aperto.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 20 ganci paradossali su _ _ PH0 _ _ _.
+Struttura:
+"La scorciatoia non è _ _ PH1 _ _, is _ PH2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __________
+Fare _ _ _ PH3 _ Suggerire e correggere.`
+},
+{
+  id: "viral-hook-sorpresa-017",
+  title: "La tua formula è incompleta",
+  summary: "Uncino di \"ti manca un pezzo\".",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Generare 15 ganci che iniziano con:
+"La vostra formula è incompleta: vi manca _ PH0 _ _ _"
+Per...
+Ogni _ _ _ _ PH2 _ _ deve essere un'azione concreta o un concetto chiaro.`
+},
+{
+  id: "viral-hook-sorpresa-018",
+  title: "Se lo fai, fermati",
+  summary: "Uncino di specifico autosabotaggio.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 20 ganci di auto-sabotaggio per _ _ PH0 _ _.
+Regole:
+- No. Devono iniziare con "Se fai questo..."
+- No. Devono finire con una chiara conseguenza.
+- Nessuna generalità (nessun "pensante negativo").`
+},
+{
+  id: "viral-hook-sorpresa-019",
+  title: "Non è una mancanza di talento, è questo",
+  summary: "Ristrutturazione emotiva Gancio + soluzione.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci:
+"Non è una mancanza di talento, è _ _ PH0 _"
+Perche'?
+_ PH2 _ _ deve essere specifico e corretto entro 1 settimana.`
+},
+{
+  id: "viral-hook-sorpresa-020",
+  title: "Lo stai misurando male",
+  summary: "Gancio di metrica sbagliata (sorpresa).",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 15 ganci per _ _ PH0 _ sotto forma di correzione metrica.
+Template:
+"La stai misurando male: guarda _ PH1 _ _ _ _ _"
+Fare _ _ _ _ PH2 _ cemento e utile.`
+},
 
-  {
-    id: "viral-hook-sorpresa-021",
-    title: "Esto suena obvio, pero nadie lo hace",
-    summary: "Hook de obviedad ignorada.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 25 hooks para [OBJETIVO] que comiencen con:
-“Esto suena obvio, pero…”
-Debe incluir una acción simple que casi nadie ejecuta.
-Máximo 11 palabras.`,
-  },
-  {
-    id: "viral-hook-sorpresa-022",
-    title: "La razón por la que no te funciona",
-    summary: "Hook causal directo con sorpresa.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 20 hooks con:
-“La razón por la que [X] no te funciona…”
-Completa con una causa inesperada pero real.
-Enfocado en: [TEMA].`,
-  },
-  {
-    id: "viral-hook-sorpresa-023",
-    title: "El consejo que te da resultados opuestos",
-    summary: "Hook de inversión de expectativas.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 12 hooks sobre “consejos que salen al revés” para [NICHO].
-Estructura por hook:
-- Consejo típico
-- Resultado opuesto en 4–7 palabras
-Todo en una sola frase.`,
-  },
-  {
-    id: "viral-hook-sorpresa-024",
-    title: "Haz lo contrario (pero así)",
-    summary: "Hook contracorriente con instrucción.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 18 hooks:
-“Haz lo contrario: en vez de [X], haz [Y]”
-Para [AUDIENCIA].
-[X] y [Y] deben ser acciones concretas y realistas.`,
-  },
-  {
-    id: "viral-hook-sorpresa-025",
-    title: "Te falta una línea (literal)",
-    summary: "Hook de micro-cambio textual.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks para copy/marketing donde el giro sea “una línea”.
-Plantilla:
-“Te falta una línea: [LÍNEA]”
-La [LÍNEA] debe ser una frase exacta que puedan pegar.`,
-  },
-  {
-    id: "viral-hook-sorpresa-026",
-    title: "El truco es aburrido (por eso funciona)",
-    summary: "Hook anti-hype, creíble.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks con esta idea:
-“El truco es aburrido… por eso funciona.”
-Para [TEMA].
-Que cada hook termine con “Te muestro cómo.”`,
-  },
-  {
-    id: "viral-hook-sorpresa-027",
-    title: "Esto no es para todos",
-    summary: "Hook de exclusión suave (segmenta).",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 15 hooks que empiecen con:
-“Esto no es para todos, es para…”
-Define un perfil ultra específico de [AUDIENCIA].
-Sin elitismo agresivo.`,
-  },
-  {
-    id: "viral-hook-sorpresa-028",
-    title: "La parte que más ignoras (y más pesa)",
-    summary: "Hook de foco incorrecto.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks para [OBJETIVO]:
-“La parte que más ignoras es la que más pesa: [PARTE]”
-Haz [PARTE] algo concreto (ej: “tu cierre”, “tu oferta”, “tu primer párrafo”).`,
-  },
-  {
-    id: "viral-hook-sorpresa-029",
-    title: "Si solo haces 1 cosa hoy",
-    summary: "Hook de prioridad única (sorpresa).",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 25 hooks que empiecen con:
-“Si solo haces 1 cosa hoy…”
-Para [TEMA].
-Debe ser una acción de alto impacto, baja fricción.`,
-  },
-  {
-    id: "viral-hook-sorpresa-030",
-    title: "La regla del 3-1-1",
-    summary: "Hook con mini-framework numérico.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 12 hooks con frameworks numéricos inventados (pero útiles) para [TEMA].
-Ejemplo formato: “Regla del 3-1-1: [promesa]”
-Luego explica el nombre en 6 palabras dentro del hook.`,
-  },
+{
+  id: "viral-hook-sorpresa-021",
+  title: "Sembra ovvio, ma nessuno lo sa",
+  summary: "Uncino di ignoranza.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Generare 25 ganci per _ _ PH0 _ _ per iniziare con:
+"Questo sembra ovvio, ma..."
+Deve includere una semplice azione che quasi nessuno corre.
+Massimo 11 parole.`
+},
+{
+  id: "viral-hook-sorpresa-022",
+  title: "Il motivo per cui non funziona per te",
+  summary: "Uncino causa diretta con sorpresa.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 20 ganci con:
+"La ragione per cui non funziona per te"
+Completo di una causa inaspettata ma reale.
+Concentrati su: _ _ PH1 _ _ _.`
+},
+{
+  id: "viral-hook-sorpresa-023",
+  title: "Il consiglio che ti dà risultati opposti",
+  summary: "Gancio di investimenti di aspettative.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Creare 12 ganci su "tips che vanno indietro" per _ PH0 _ _.
+Struttura del gancio:
+- Consigli tipici
+- Di fronte al risultato di 4-7 parole
+Tutto in una sola frase.`
+},
+{
+  id: "viral-hook-sorpresa-024",
+  title: "Fai il contrario (ma così)",
+  summary: "Uncino controacorrient con istruzioni.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 18 ganci:
+"Fai il contrario: invece di _ _ PH0 _, do _ PH1 _ _ _ _ _
+Per...
+_ PH3 _ _ e _ _ PH4 _ _ deve essere azioni concrete e realistiche.`
+},
+{
+  id: "viral-hook-sorpresa-025",
+  title: "Ti manca una linea (letterale)",
+  summary: "Uncino testuale micro.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Creare 15 ganci per copia / marketing dove il turno è "una linea".
+Template:
+"Le manca una linea: _ _ PH0 _"
+Il _ _ PH1 _ dovrebbe essere una frase esatta che è possibile incollare.`
+},
+{
+  id: "viral-hook-sorpresa-026",
+  title: "Il trucco è noioso (per questo funziona)",
+  summary: "Uncino anti-hype, credibile.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Generare 20 ganci con questa idea:
+"Il trucco è noioso... ecco perché funziona."
+Perche'?
+Ti faccio vedere come. "`
+},
+{
+  id: "viral-hook-sorpresa-027",
+  title: "Non è per tutti",
+  summary: "Morbido gancio di esclusione (segmenta).",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivi 15 ganci che iniziano con:
+"Questo non è per tutti, è per..."
+Definire un profilo ultra specifico di _ _ PH0 _ _.
+Nessun elitismo aggressivo.`
+},
+{
+  id: "viral-hook-sorpresa-028",
+  title: "La parte che ignorate di più (e pesate di più)",
+  summary: "Uncino e' l'obiettivo sbagliato.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci per _ _ PH0 _:
+"La parte più ignorante è la più pesante: _ PH1 _ _ _"
+Do _ PH2 _ _ qualcosa di concreto (ad esempio "la vostra chiusura", "la vostra offerta", "il vostro primo paragrafo").`
+},
+{
+  id: "viral-hook-sorpresa-029",
+  title: "Se fai solo 1 cosa oggi",
+  summary: "Uncino di priorità unica (sorpresa).",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 25 ganci per iniziare con:
+"Se fai solo una cosa oggi..."
+Perche'?
+Dev'essere un'azione ad alto impatto, a bassa frizione.`
+},
+{
+  id: "viral-hook-sorpresa-030",
+  title: "La regola 3-1-1",
+  summary: "Gancio con struttura mini-numerical.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Creare 12 ganci con strutture numeriche inventate (ma utile) per _ PH0 _ _.
+Esempio di formattazione: "31-1 regola: _ PH1 _"
+Allora spiega il nome in 6 parole all'interno del buco.`
+},
 
-  {
-    id: "viral-hook-sorpresa-031",
-    title: "Te lo digo por experiencia (y duele)",
-    summary: "Hook de confesión + tensión.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 15 hooks para [NICHO] que empiecen con:
-“Te lo digo por experiencia…”
-Incluye un mini “dolor” y una promesa de solución.
-Máximo 12 palabras.`,
-  },
-  {
-    id: "viral-hook-sorpresa-032",
-    title: "Este hábito te roba resultados",
-    summary: "Hook de hábito invisible.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks sobre hábitos invisibles en [TEMA].
-Plantilla:
-“Este hábito te roba [RESULTADO]: [HÁBITO]”
-Que el hábito sea cotidiano y específico.`,
-  },
-  {
-    id: "viral-hook-sorpresa-033",
-    title: "No necesitas más info, necesitas esto",
-    summary: "Hook de saturación de información.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks para [AUDIENCIA] que estén sobrecargados de información.
-Plantilla:
-“No necesitas más info, necesitas [X]”
-[X] debe ser una acción o sistema simple.`,
-  },
-  {
-    id: "viral-hook-sorpresa-034",
-    title: "Lo que nadie hace en el primer segundo",
-    summary: "Hook de primer segundo específico.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 15 hooks sobre el “primer segundo” para [TEMA].
-Debe mencionar algo visual o verbal que se hace al inicio.
-Cierra con: “y por eso retiene.”`,
-  },
-  {
-    id: "viral-hook-sorpresa-035",
-    title: "El enemigo no es el algoritmo",
-    summary: "Hook anti-creencia popular.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 12 hooks con esta idea:
-“El enemigo no es el algoritmo, es [X]”
-Para creadores en [PLATAFORMA].
-[X] debe ser un error de contenido o de oferta.`,
-  },
-  {
-    id: "viral-hook-sorpresa-036",
-    title: "Tu contenido falla por esto (no por calidad)",
-    summary: "Hook de causa sorpresa no-obvia.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Tu contenido falla por [X], no por calidad.”
-[X] debe variar: estructura, claridad, oferta, fricción, contexto, timing.
-Enfocado a [NICHO].`,
-  },
-  {
-    id: "viral-hook-sorpresa-037",
-    title: "Esto te hace ver amateur sin que lo notes",
-    summary: "Hook de “detalle amateur”.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 25 hooks de “detalle amateur” para [TEMA].
-Plantilla:
-“Esto te hace ver amateur: [DETALLE]”
-[DETALLE] debe ser concreto y fácil de corregir.`,
-  },
-  {
-    id: "viral-hook-sorpresa-038",
-    title: "La frase que cambia tu respuesta",
-    summary: "Hook de guion/fórmula textual.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks basados en “UNA FRASE exacta”.
-Plantilla:
-“Di esta frase y cambia todo: ‘[FRASE]’”
-La [FRASE] debe estar lista para copiar y pegar para [AUDIENCIA].`,
-  },
-  {
-    id: "viral-hook-sorpresa-039",
-    title: "No lo hagas más difícil",
-    summary: "Hook simplificador con giro.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks que empiecen con:
-“No lo hagas más difícil…”
-Luego completa con una simplificación inesperada para [OBJETIVO].
-Máximo 10 palabras.`,
-  },
-  {
-    id: "viral-hook-sorpresa-040",
-    title: "El truco es quitar, no poner",
-    summary: "Hook de sustracción (sorpresa).",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 15 hooks con:
-“El truco es quitar [X], no poner [Y].”
-Para [TEMA].
-[X] y [Y] deben ser cosas reales (pasos, palabras, hábitos).`,
-  },
+{
+  id: "viral-hook-sorpresa-031",
+  title: "Ti sto dicendo dall'esperienza (e fa male)",
+  summary: "Uncino di confessione + tensione.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 15 ganci per _ _ PH0 _ che inizio con:
+"Ti sto dicendo dall'esperienza..."
+Include un mini "pain" e una promessa di soluzione.
+Massimo 12 parole.`
+},
+{
+  id: "viral-hook-sorpresa-032",
+  title: "Questa abitudine ruba i tuoi risultati",
+  summary: "Uncino di abitudine invisibile.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 20 ganci su abitudini invisibili in _ PH0 _.
+Template:
+"Questa abitudine ti ruba _ _ PH1 _: _ _ PH2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ____
+Lascia che l'abitudine sia quotidiana e specifica.`
+},
+{
+  id: "viral-hook-sorpresa-033",
+  title: "Non hai bisogno di altre informazioni, ne hai bisogno",
+  summary: "Informazioni saturazione gancio.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci per _ _ PH0 _ che sono sovraccaricati di informazioni.
+Template:
+"Non hai bisogno di maggiori informazioni, hai bisogno _ _ PH1 _ _ _ _ _ _
+_ PH2 _ _ deve essere una semplice azione o sistema.`
+},
+{
+  id: "viral-hook-sorpresa-034",
+  title: "Che nessuno fa nel primo secondo",
+  summary: "Primo secondo gancio specifico.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 15 ganci circa il "primo secondo" per _ PH0 _ _.
+Si dovrebbe menzionare qualcosa di visivo o verbale che è fatto all'inizio.
+Si chiude con "e per questo sta tenendo"`
+},
+{
+  id: "viral-hook-sorpresa-035",
+  title: "Il nemico non è l'algoritmo",
+  summary: "Uncino credenza anti-popolare.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 12 ganci con questa idea:
+"Il nemico non è l'algoritmo, è _ _ PH0 _ _"
+Per i creatori in _ PH1 _.
+_ PH2 _ _ deve essere un contenuto o un errore di offerta.`
+},
+{
+  id: "viral-hook-sorpresa-036",
+  title: "Il tuo contenuto fallisce per questo (non per qualità)",
+  summary: "Uncino di sorpresa causa no-obvious.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci:
+"Il tuo contenuto fallisce per _ _ PH0 _, non per qualità."
+_ PH1 _ _ deve variare: struttura, chiarezza, offerta, attrito, contesto, tempistica.
+Concentrati su _ _ PH2 _ _.`
+},
+{
+  id: "viral-hook-sorpresa-037",
+  title: "Questo ti fa sembrare amatoriale senza che tu noti",
+  summary: "Dettaglio amatoriale Hook.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 25 "particolari dilettanti" ganci per _ PH0 _.
+Template:
+"Questo ti fa sembrare amatoriale: _ _ PH1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _______
+_ PH2 _ deve essere concreto e facile da correggere.`
+},
+{
+  id: "viral-hook-sorpresa-038",
+  title: "La frase che cambia la tua risposta",
+  summary: "Uncino script / formula testuale.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 15 ganci basati su "Un'esatta FRASE".
+Template:
+"Salva questa frase e cambia tutto: "_ _ PH0 _ _"
+Il _ _ PH1 _ dovrebbe essere pronto a copiare e incollare per _ _ PH2 _ _.`
+},
+{
+  id: "viral-hook-sorpresa-039",
+  title: "Non rendere più difficile",
+  summary: "Uncino più semplice con giro.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Generare 20 ganci che iniziano con:
+"Non rendere più difficile..."
+Poi completo di una semplificazione inaspettata per _ PH0 _ _ _.
+Massimo 10 parole.`
+},
+{
+  id: "viral-hook-sorpresa-040",
+  title: "Il trucco è rimuovere, non mettere",
+  summary: "Gancio di rapimento (sorpresa).",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 15 ganci con:
+"Il trucco è quello di rimuovere _ _ PH0 _, non mettere _ PH1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _____
+Per...
+_ PH3 _ e _ _ PH4 __ deve essere cose reali (passaggi, parole, abitudini).`
+},
 
-  {
-    id: "viral-hook-sorpresa-041",
-    title: "Este cambio de orden lo mejora todo",
-    summary: "Hook de reordenar pasos.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks sobre “cambiar el orden” para [PROCESO].
-Plantilla:
-“Cambia el orden: primero [A], luego [B].”
-Que [A]/[B] sean acciones claras.`,
-  },
-  {
-    id: "viral-hook-sorpresa-042",
-    title: "Lo que haces por “seguridad” te frena",
-    summary: "Hook de comportamiento protector.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Eso que haces por seguridad… te frena.”
-Completa con una conducta típica de [AUDIENCIA].
-Añade un mini “por qué” en 5 palabras.`,
-  },
-  {
-    id: "viral-hook-sorpresa-043",
-    title: "Te estás saltando el paso invisible",
-    summary: "Hook de paso omitido.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks que incluyan la idea:
-“Paso invisible”
-Plantilla:
-“Te estás saltando el paso invisible: [PASO]”
-Para [TEMA]. [PASO] debe ser accionable.`,
-  },
-  {
-    id: "viral-hook-sorpresa-044",
-    title: "Si esto te pasa, es buena señal",
-    summary: "Hook de reencuadre positivo sorpresa.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Si [SÍNTOMA] te pasa, es buena señal.”
-Para [AUDIENCIA].
-[SÍNTOMA] debe ser algo común y no peligroso (ej: nervios, dudas, bajón).`,
-  },
-  {
-    id: "viral-hook-sorpresa-045",
-    title: "Esto es lo que yo no haría ni loco",
-    summary: "Hook de postura fuerte sin agresión.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 15 hooks estilo opinión firme:
-“Esto yo no lo haría ni loco: [X]”
-Para [NICHO].
-[X] debe ser una estrategia común pero mala en cierto contexto.
-Cierra con: “te digo qué sí haría.”`,
-  },
-  {
-    id: "viral-hook-sorpresa-046",
-    title: "El cambio de 5 palabras",
-    summary: "Hook de micro-edición textual.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 20 hooks:
-“El cambio de 5 palabras que mejora [RESULTADO]”
-Incluye en el hook las 5 palabras exactas entre comillas.
-Enfocado en [TEMA].`,
-  },
-  {
-    id: "viral-hook-sorpresa-047",
-    title: "La razón por la que te ignoran",
-    summary: "Hook que golpea un dolor real.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 18 hooks para [PLATAFORMA] con:
-“La razón por la que te ignoran es…”
-Completa con un error de enfoque (no con insultos).
-Que suene directo y útil.`,
-  },
-  {
-    id: "viral-hook-sorpresa-048",
-    title: "Esto es más importante que la estrategia",
-    summary: "Hook de prioridad sorpresa.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Esto es más importante que la estrategia: [X]”
-Para [TEMA].
-[X] debe ser un fundamento (claridad, oferta, consistencia, energía, etc.) pero explicado específico.`,
-  },
-  {
-    id: "viral-hook-sorpresa-049",
-    title: "Lo que hago antes de publicar",
-    summary: "Hook de ritual secreto (sorpresa).",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 15 hooks sobre “antes de publicar” para creadores de [NICHO].
-Plantilla:
-“Antes de publicar, hago esto: [ACCION]”
-[ACCION] debe ser simple y poco común.`,
-  },
-  {
-    id: "viral-hook-sorpresa-050",
-    title: "El secreto es el final, no el inicio",
-    summary: "Hook de inversión (final > inicio).",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 12 hooks sobre guiones donde la clave es el cierre.
-Plantilla:
-“El secreto es el final: [CLAVE]”
-[CLAVE] debe ser concreta (CTA, payoff, remate, prueba, ejemplo, etc.).
-Para [TEMA].`,
-  },
-];
+{
+  id: "viral-hook-sorpresa-041",
+  title: "Questo cambiamento di ordine migliora tutto",
+  summary: "Gancio per riordinare i passi.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci su "cambiare l'ordine" per _ PH0 _.
+Template:
+"Cambiare l'ordine: prima _ _ PH1 _, poi _ PH2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ______________________________________________________________________________________________________________
+Questo _ PH3 _ _ / _ PH4 _ _ sono azioni chiare.`
+},
+{
+  id: "viral-hook-sorpresa-042",
+  title: "Quello che fai per \"sicurezza\" ti tiene indietro",
+  summary: "Uncino di comportamento protettivo.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 15 ganci:
+"Quella cosa che fai per la sicurezza... Ti sta trattenendo."
+Completo di un tipico comportamento di _ PH0 _ _.
+Aggiungere un mini "perché" in 5 parole.`
+},
+{
+  id: "viral-hook-sorpresa-043",
+  title: "Stai saltando il passo invisibile",
+  summary: "Uncino in un passo omesso.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 20 ganci che includono l'idea:
+"Passo invisibile"
+Template:
+Stai saltando il passaggio invisibile: _ PH0 _ _ _ _ _ _ _ _ _ _ _ _
+Per _ _ PH1 _ _. _ PH2 _ _ _ deve essere fattibile.`
+},
+{
+  id: "viral-hook-sorpresa-044",
+  title: "Se succede, è un buon segno",
+  summary: "Uncino per incontrare una sorpresa positiva.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci:
+"Se ti succede, è un buon segno."
+Perche'?
+_ PH2 _ deve essere qualcosa di comune e non pericoloso (ad esempio nervi, dubbi, giù).`
+},
+{
+  id: "viral-hook-sorpresa-045",
+  title: "E' quello che non farei",
+  summary: "Gancio di postura forte senza aggressione.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 15 ganci solido stile di opinione:
+"Non farei nemmeno questo pazzo:
+Perche'?
+PH2 _ _ deve essere una strategia comune ma negativa in un determinato contesto.
+Ti diro' cosa farei. "`
+},
+{
+  id: "viral-hook-sorpresa-046",
+  title: "Il cambiamento di 5 parole",
+  summary: "Gancio di micro-edizione testuale.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 20 ganci:
+"Il cambiamento di 5 parole che migliora _ _ PH0 _ _"
+Include nel libro le 5 parole esatte tra citazioni.
+Concentrati su _ _ PH1 _ _.`
+},
+{
+  id: "viral-hook-sorpresa-047",
+  title: "Il motivo per cui ti ignorano",
+  summary: "Uncino che colpisce un vero dolore.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 18 ganci per _ _ PH0 _ con:
+"La ragione per cui ti ignorano è..."
+Completa di un errore di messa a fuoco (non con insulti).
+Sembra diretto e utile.`
+},
+{
+  id: "viral-hook-sorpresa-048",
+  title: "Questo è più importante della strategia",
+  summary: "Uncino di priorità di sorpresa.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci:
+"Questo è più importante della strategia: _ _ PH0 _ _ _"
+Perche'?
+_ PH2 _ _ deve essere una base specifica (larità, offerta, consistenza, energia, ecc.) ma spiegato.`
+},
+{
+  id: "viral-hook-sorpresa-049",
+  title: "Cosa faccio prima di pubblicare",
+  summary: "Uncino di rituale segreto.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 15 ganci su "prima di pubblicare" per _ PH0 _ creatori.
+Template:
+"Prima di pubblicare, faccio questo: _ _ PH1 _ _ _ _ _
+_ PH2 _ deve essere semplice e raro.`
+},
+{
+  id: "viral-hook-sorpresa-050",
+  title: "Il segreto è la fine, non l'inizio",
+  summary: "Gancio di investimento (finale > inizio).",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 12 ganci su script in cui la chiave è la chiusura.
+Template:
+"Il segreto è la fine:
+_ PH1 _ deve essere concreto (CTA, payoff, affare, test, esempio, ecc.).
+Per...`
+}];

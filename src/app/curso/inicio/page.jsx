@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { courseIntro } from "@/lib/course-intro";
 
-// 🔹 Helper para convertir tu "markdown light" a HTML
+// 🔹 Helper per convertire il tuo "markdown light" in HTML
 function formatRichText(text) {
   if (!text) return "";
   return text
@@ -15,7 +15,7 @@ function formatRichText(text) {
 export default function InicioCursoPage() {
   return (
     <div className="space-y-6 py-6">
-      {/* 🔙 Botón volver */}
+      {/* 🔙 Pulsante indietro */}
       <div className="flex items-center justify-between gap-3">
         <Button
           variant="ghost"
@@ -25,23 +25,12 @@ export default function InicioCursoPage() {
         >
           <Link href="/curso">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio del curso
+            Torna all&apos;inizio del corso
           </Link>
         </Button>
       </div>
 
-      {/* 🎥 Video introductorio (lo primero del curso) */}
-      <div className="overflow-hidden rounded-2xl border border-white/10 bg-black">
-        <div className="relative aspect-video w-full">
-          <iframe
-            src="https://www.youtube.com/embed/jvVKKSTt6Kk"
-            title="Clase introductoria - Banco Secreto de Prompts"
-            className="h-full w-full"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
-        </div>
-      </div>
+      {/* 🎥 Video introduttivo rimosso */}
 
       <h1 className="text-2xl md:text-3xl font-bold text-slate-50">
         {courseIntro.title}
@@ -69,7 +58,7 @@ export default function InicioCursoPage() {
               />
             ))}
 
-            {/* 🔹 Imagen opcional de la sección */}
+            {/* 🔹 Immagine opzionale della sezione */}
             {section.image && (
               <div className="mt-2 overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
                 <div className="relative h-40 w-full md:h-56">

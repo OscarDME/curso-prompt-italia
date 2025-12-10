@@ -1,534 +1,533 @@
 // src/lib/prompts/viral-text/hooks-contradiccion.js
 // Área y categoría ÚNICAS para TODO este archivo:
-const AREA = "Hooks";
-const CATEGORY = "Contradicción";
+const AREA = "Ganci";
+const CATEGORY = "Contradizioni";
 
 export const viralTextPromptsHooksContradiccion = [
-  {
-    id: "viral-hook-contradiccion-001",
-    title: "No hagas más X… haz menos",
-    summary: "Contradicción a la intuición común.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks (máx 9 palabras) para [NICHO] con estructura:
-“No hagas más [X]… haz menos [Y]”
-[X] y [Y] deben ser acciones reales del nicho.
-Al final de cada hook añade: (por qué funciona en 5 palabras).`,
-  },
-  {
-    id: "viral-hook-contradiccion-002",
-    title: "Lo que te dijeron es al revés",
-    summary: "Hook que invierte un consejo popular.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks para [TEMA] con la idea:
-“Te lo dijeron al revés…”
-Reglas:
-- 6–10 palabras
-- Debe insinuar el “por qué” sin explicarlo completo
-- Evita clickbait vacío
-Entrega lista numerada.`,
-  },
-  {
-    id: "viral-hook-contradiccion-003",
-    title: "No es motivación, es sistema",
-    summary: "Reencuadre clásico pero potente.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 25 hooks para [AUDIENCIA] usando:
-“No es [X], es [Y].”
-[X] debe ser la excusa común, [Y] la solución real.
-Máximo 9 palabras por hook.`,
-  },
-  {
-    id: "viral-hook-contradiccion-004",
-    title: "Lo simple gana (aunque suene aburrido)",
-    summary: "Contradicción contra lo “complejo/pro”.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks para [TEMA] con la premisa:
-“Lo simple gana.”
-Incluye un detalle específico por hook (herramienta, paso, frase, métrica).
-Máx 10 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-005",
-    title: "El problema no es la estrategia",
-    summary: "Cambia el foco a la base real.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“El problema no es la estrategia, es [BASE].”
-Para [NICHO].
-[BASE] debe ser concreta (claridad, oferta, estructura, mensaje, timing, etc.).`,
-  },
-  {
-    id: "viral-hook-contradiccion-006",
-    title: "Más contenido ≠ más resultados",
-    summary: "Contradicción matemática simple.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 20 hooks con símbolo ≠ o “no significa”.
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Reglas: 6–10 palabras, sin promesas imposibles.`,
-  },
-  {
-    id: "viral-hook-contradiccion-007",
-    title: "Deja de optimizar lo que no importa",
-    summary: "Golpea un comportamiento común.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks para [TEMA]:
-“Deja de optimizar [X], optimiza [Y].”
-[X] y [Y] deben ser cosas reales del proceso.
-Máximo 10 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-008",
-    title: "Tu método favorito te está frenando",
-    summary: "Ataque suave a una tendencia.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 12 hooks sobre [TENDENCIA/MÉTODO] en [NICHO].
-Estructura:
-“Tu método favorito te frena por [CAUSA]”
-[CAUSA] debe ser concreta (fricción, confusión, falta de foco, etc.).`,
-  },
-  {
-    id: "viral-hook-contradiccion-009",
-    title: "No necesitas más herramientas",
-    summary: "Contradicción a comprar apps/cursos.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“No necesitas más [HERRAMIENTAS], necesitas [HÁBITO/SISTEMA].”
-Para [AUDIENCIA]. Máx 11 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-010",
-    title: "Si te cuesta, vas bien (pero por esto)",
-    summary: "Reencuadre: dificultad = señal.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Si te cuesta [X], vas bien… por [Y].”
-Para [TEMA].
-[Y] debe ser una razón realista y útil.`,
-  },
+{
+  id: "viral-hook-contradiccion-001",
+  title: "Non fare più X... fare meno",
+  summary: "Contradizione all'intuizione comune.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Creare 15 ganci (max 9 parole) per _ PH0 _ _ con struttura:
+"Non fare di più _ PH1 _... fare di meno _ PH2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ______
+_ PH3 _ _ e _ _ PH4 _ deve essere azioni reali della nicchia.
+Alla fine di ogni gancio aggiunge: (perché funziona in 5 parole).`
+},
+{
+  id: "viral-hook-contradiccion-002",
+  title: "Quello che ti hanno detto e' il contrario",
+  summary: "Uncino che investe un consiglio popolare.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 20 ganci per _ _ PH0 _ _ con l'idea:
+"Ti hanno detto dall'altra parte..."
+Regole:
+- 6-10 parole
+- No. Devi insinuare il "perché" senza spiegarlo completamente.
+- Evita il clickbat vuoto
+Elenco numerato della consegna.`
+},
+{
+  id: "viral-hook-contradiccion-003",
+  title: "Non è motivazione, è sistema",
+  summary: "Ristrutturazione classica ma potente.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 25 ganci per _ _ PH0 _ utilizzando:
+"Non e' vero.
+_ PH3 _ dovrebbe essere la scusa comune, _ _ PH4 _ _ la soluzione reale.
+Massimo 9 parole per buco.`
+},
+{
+  id: "viral-hook-contradiccion-004",
+  title: "Le vincite semplici (anche se suona noioso)",
+  summary: "Contraddizione contro il \"complesso / pro\".",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci per _ _ PH0 _ con la premessa:
+"Il semplice vince."
+Include un dettaglio specifico per gancio (tool, step, frase, metrica).
+Max 10 parole.`
+},
+{
+  id: "viral-hook-contradiccion-005",
+  title: "Il problema non è la strategia",
+  summary: "Cambiare l'attenzione alla base reale.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 20 ganci:
+"Il problema non è la strategia, è _ PH0 _."
+Perche'?
+_ PH2 _ _ deve essere concreto (larità, offerta, struttura, messaggio, tempistica, ecc.).`
+},
+{
+  id: "viral-hook-contradiccion-006",
+  title: "Più contenuti - più risultati",
+  summary: "Dipendenza matematica semplice.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 20 ganci con un simbolo, o "non significa".
+Discussioni del Parlamento europeo Ascolto: _ _ PH1 _.
+Regole: 6-10 parole, nessuna promessa impossibile.`
+},
+{
+  id: "viral-hook-contradiccion-007",
+  title: "Smettere di ottimizzare ciò che non importa",
+  summary: "Colpisce un comportamento comune.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 15 ganci per _ _ PH0 _:
+"Stop optimizing _ _ PH1 _ _, ottimizzare _ _ PH2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ PH3 _ _ e _ _ PH4 _ _ deve essere realtà del processo.
+Massimo 10 parole.`
+},
+{
+  id: "viral-hook-contradiccion-008",
+  title: "Il tuo metodo preferito ti sta trattenendo",
+  summary: "Attacco morbido ad una tendenza.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 12 ganci su _ _ PH0 _ in _ _ PH1 _ _.
+Struttura:
+"Il tuo metodo preferito ti tiene indietro _ _ PH2 _ _ _ _ _
+_ PH3 _ _ deve essere concreto (frizione, confusione, mancanza di concentrazione, ecc.).`
+},
+{
+  id: "viral-hook-contradiccion-009",
+  title: "Non ti servono altri strumenti",
+  summary: "Contraddizione per acquistare applicazioni / corsi.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 20 ganci:
+"Non hai più bisogno di più _ _ PH0 _, you need _ PH1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _______________________________
+PH2 _ Max 11 parole.`
+},
+{
+  id: "viral-hook-contradiccion-010",
+  title: "Se ti costa, sei bravo (ma per questo)",
+  summary: "Incontro: difficoltà = segnale.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 15 ganci:
+"Se ti costa _ _ PH0 _, vai bene... by _ PH1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _________________________________
+Per...
+_ PH3 _ _ deve essere una ragione realistica e utile.`
+},
 
-  {
-    id: "viral-hook-contradiccion-011",
-    title: "Publicar más te puede hacer vender menos",
-    summary: "Contradicción con causa clara.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 18 hooks para creadores en [PLATAFORMA]:
-“Publicar más te hace vender menos cuando [CAUSA].”
-[CAUSA] concreta: CTA, oferta, enfoque, saturación, etc.`,
-  },
-  {
-    id: "viral-hook-contradiccion-012",
-    title: "Tu 'marca personal' no es tu logo",
-    summary: "Reencuadre de concepto.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 20 hooks sobre marca personal en [NICHO].
-Plantilla:
-“Tu marca personal no es [X], es [Y].”
-Máximo 11 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-013",
-    title: "El algoritmo no te odia",
-    summary: "Rompe la narrativa típica del creador.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“El algoritmo no te odia, te falta [X].”
-Para [PLATAFORMA]. [X] debe ser corregible.`,
-  },
-  {
-    id: "viral-hook-contradiccion-014",
-    title: "Deja de buscar viralidad",
-    summary: "Viralidad vs consistencia.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks para [TEMA]:
-“Deja de buscar viralidad. Busca [X].”
-[X] debe ser una meta concreta (retención, claridad, respuesta, leads, etc.).`,
-  },
-  {
-    id: "viral-hook-contradiccion-015",
-    title: "No fallas por falta de talento",
-    summary: "Reencuadre a proceso.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 25 hooks:
-“No fallas por talento. Fallas por [SISTEMA].”
-En [NICHO]. Máx 10 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-016",
-    title: "Lo 'pro' no siempre convierte",
-    summary: "Contra la estética perfecta.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks para [PLATAFORMA]:
-“Lo pro no siempre convierte: [RAZÓN].”
-[RAZÓN] debe ser específica (frío, distante, poca claridad, etc.).`,
-  },
-  {
-    id: "viral-hook-contradiccion-017",
-    title: "Más información te confunde",
-    summary: "Info overload.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 20 hooks:
-“Más información te confunde. Necesitas [X].”
-Para [AUDIENCIA]. Máx 10 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-018",
-    title: "El error NO es el que crees",
-    summary: "Inversión de culpa.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“El error no es [X], es [Y].”
-Tema: [TEMA]. Haz [X]/[Y] concretos.`,
-  },
-  {
-    id: "viral-hook-contradiccion-019",
-    title: "No necesitas disciplina, necesitas diseño",
-    summary: "Reencuadre: diseño de entorno.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks con:
-“No necesitas disciplina, necesitas [DISEÑO].”
-[DISEÑO] = sistema/entorno/recordatorio/planning.
-Para [AUDIENCIA].`,
-  },
-  {
-    id: "viral-hook-contradiccion-020",
-    title: "Lo caro te puede salir barato",
-    summary: "Contradicción de coste vs valor.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 12 hooks sobre [DECISIÓN] en [NICHO]:
-“Lo caro te sale barato si [CONDICIÓN].”
-CONDICIÓN concreta. Máx 11 palabras.`,
-  },
+{
+  id: "viral-hook-contradiccion-011",
+  title: "Pubblicazione più può farti vendere meno",
+  summary: "Contraddizione con causa chiara.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 18 ganci per creatori in _ PH0 _:
+"La pubblicazione di più ti fa vendere meno quando _ _ PH1 _ _ _ _.
+_ PH2 _ cemento: CTA, offerta, messa a fuoco, saturazione, ecc.`
+},
+{
+  id: "viral-hook-contradiccion-012",
+  title: "Il tuo marchio personale non è il tuo logo",
+  summary: "Raccogliere il concetto.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Datemi 20 ganci sul marchio personale a _ PH0 _.
+Template:
+"Il tuo marchio personale non è _ _ PH1 _, è _ _ PH2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _____________
+Massimo 11 parole.`
+},
+{
+  id: "viral-hook-contradiccion-013",
+  title: "L'algoritmo non ti odia",
+  summary: "Si rompe la narrazione tipica del creatore.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 15 ganci:
+"L'algoritmo non ti odia, ti manca.
+Per _ _ PH1 _. _ _ PH2 _ _ _ deve essere corretto.`
+},
+{
+  id: "viral-hook-contradiccion-014",
+  title: "Smettila di cercare la viralità",
+  summary: "Virality vs consistenza.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 20 ganci per _ _ PH0 _:
+"Smetti di cercare la viralità. Ricerca _ PH1 _."
+_ PH2 _ _ deve essere un obiettivo concreto (tenzione, chiarezza, risposta, lead, ecc.).`
+},
+{
+  id: "viral-hook-contradiccion-015",
+  title: "Non fallire a causa della mancanza di talento",
+  summary: "Rimbalzo al processo.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 25 ganci:
+"Non fallisci per il talento. E' fallita.
+In _ PH1 _. Max 10 parole.`
+},
+{
+  id: "viral-hook-contradiccion-016",
+  title: "Il 'pro' non sempre converte",
+  summary: "Contro l'estetica perfetta.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci per _ _ PH0 _:
+"Il pro non sempre converte: _ _ PH1 _ _ _."
+_ PH2 _ _ deve essere specifico (freddo, distante, poca chiarezza, ecc.).`
+},
+{
+  id: "viral-hook-contradiccion-017",
+  title: "Altre informazioni ti confonde",
+  summary: "Info sovraccarico.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 20 ganci:
+"More informazioni ti confonde. Hai bisogno di...
+Per _ _ PH1 _. Max 10 parole.`
+},
+{
+  id: "viral-hook-contradiccion-018",
+  title: "L'errore non è quello che credi",
+  summary: "Investimento in fiamme.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 20 ganci:
+"L'errore non è _ _ PH0 _ _, è _ _ PH1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _________
+Oggetto: _ _ PH2 _. Do _ _ PH3 _ _ _ _ PH4 _ concrete.`
+},
+{
+  id: "viral-hook-contradiccion-019",
+  title: "Non hai bisogno di disciplina, hai bisogno di design",
+  summary: "Reframe: progettazione dell'ambiente.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Creare 15 ganci con:
+"Non avete bisogno di disciplina, avete bisogno di _ PH0 _."
+_ PH1 _ _ = sistema / ambiente / promemoria / pianificazione.
+Per...`
+},
+{
+  id: "viral-hook-contradiccion-020",
+  title: "Il costo può andare a buon mercato",
+  summary: "Costo contro dipendenza dal valore.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 12 ganci su _ _ PH0 _ in _ _ PH1 _:
+"Il costo è a buon mercato se _ _ PH2 _."
+Situazione specifica. Max 11 parole.`
+},
 
-  {
-    id: "viral-hook-contradiccion-021",
-    title: "No es tu producto, es tu mensaje",
-    summary: "Foco en comunicación.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“No es tu producto, es tu mensaje: [PISTA].”
-Tema: [TEMA]. PISTA debe ser concreta.`,
-  },
-  {
-    id: "viral-hook-contradiccion-022",
-    title: "Trabajar más no es la respuesta",
-    summary: "Contra la cultura del hustle.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Trabajar más no es la respuesta. Es [X].”
-Para [AUDIENCIA]. X = prioridad/estructura/sistema/oferta.`,
-  },
-  {
-    id: "viral-hook-contradiccion-023",
-    title: "El problema no es tu cámara",
-    summary: "Redirige al guion/hook.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks para creadores:
-“El problema no es tu cámara, es [X].”
-[X] debe variar: guion, ritmo, claridad, primer segundo, CTA.`,
-  },
-  {
-    id: "viral-hook-contradiccion-024",
-    title: "Menos pasos, más ventas",
-    summary: "Reduce fricción.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 15 hooks:
-“Menos pasos, más [RESULTADO].”
-Incluye una pista de qué paso quitar (sin explicar todo).
-Tema: [TEMA].`,
-  },
-  {
-    id: "viral-hook-contradiccion-025",
-    title: "Lo que te funciona te puede estancar",
-    summary: "Éxito como trampa.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 12 hooks:
-“Lo que te funciona hoy te estanca mañana si [X].”
-Para [TEMA]. [X] debe ser específico.`,
-  },
-  {
-    id: "viral-hook-contradiccion-026",
-    title: "La consistencia sin dirección es ruido",
-    summary: "Contradicción para creadores ‘constantes’.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“La consistencia sin dirección es ruido.”
-Añade una segunda parte corta con pista de solución (máx 4 palabras).
-Tema: [TEMA].`,
-  },
-  {
-    id: "viral-hook-contradiccion-027",
-    title: "No es falta de ideas, es filtro",
-    summary: "Reencuadre creativo.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 20 hooks:
-“No es falta de ideas, es [FILTRO].”
-FILTRO = criterio, enfoque, audiencia, objetivo.
-Para [AUDIENCIA].`,
-  },
-  {
-    id: "viral-hook-contradiccion-028",
-    title: "La mejor estrategia es aburrida",
-    summary: "Antihype.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“La mejor estrategia es aburrida: [PISTA].”
-PISTA concreta (ej: repetir mensaje, mejorar CTA, etc.).`,
-  },
-  {
-    id: "viral-hook-contradiccion-029",
-    title: "No vendas más, vende mejor",
-    summary: "Calidad de oferta.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“No vendas más, vende mejor: [X].”
-X = propuesta/beneficio/claridad/prueba.
-Tema: [NICHO].`,
-  },
-  {
-    id: "viral-hook-contradiccion-030",
-    title: "Más opciones = menos acción",
-    summary: "Paradoja de elección.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 20 hooks sobre decisión en [TEMA]:
-“Más opciones = menos acción. Haz [X].”
-[X] debe ser acción concreta.`,
-  },
+{
+  id: "viral-hook-contradiccion-021",
+  title: "Non è il tuo prodotto, è il tuo messaggio",
+  summary: "Concentrati sulla comunicazione.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 20 ganci:
+"Non e' il tuo prodotto, e' il tuo messaggio: _ _ PH0 _ _ _ _ _ _ _ _________
+Oggetto: _ _ PH1 _. PISTA deve essere concreto.`
+},
+{
+  id: "viral-hook-contradiccion-022",
+  title: "Lavorare di più non è la risposta",
+  summary: "Contro la cultura del caos.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci:
+"Lavorare di più non è la risposta. E'...
+Per _ _ PH1 _. X = priorità / struttura / sistema / offerta.`
+},
+{
+  id: "viral-hook-contradiccion-023",
+  title: "Il problema non è la tua fotocamera",
+  summary: "Reindirizza lo script / hook.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 20 ganci per creatori:
+"Il problema non è la tua macchina fotografica, è _ PH0 _."
+_ PH1 _ _ deve variare: script, ritmo, chiarezza, primo secondo, CTA.`
+},
+{
+  id: "viral-hook-contradiccion-024",
+  title: "Meno passi, più vendite",
+  summary: "Riduce l'attrito.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 15 ganci:
+"Scendi passi, di più _ _ PH0 _ _ _ _ _ _ _ _ _ _ _ _______________
+Include un indizio di quale passo rimuovere (senza spiegare tutto).
+Discussioni del Parlamento europeo.`
+},
+{
+  id: "viral-hook-contradiccion-025",
+  title: "Quello che funziona per voi può mettere giù",
+  summary: "Il successo come una trappola.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 12 ganci:
+"Ciò che funziona per voi oggi vi farà scendere domani se _ PH0 _."
+Per _ _ PH1 _ _. _ _ PH2 _ _ _ deve essere specifico.`
+},
+{
+  id: "viral-hook-contradiccion-026",
+  title: "La consistenza senza direzione è il rumore",
+  summary: "Contraddizione per i creatori 'costanti'.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci:
+"La consistenza senza direzione è il rumore."
+Aggiungere una seconda parte corta con una traccia di soluzione (max 4 parole).
+Discussioni del Parlamento europeo.`
+},
+{
+  id: "viral-hook-contradiccion-027",
+  title: "Non manca di idee, è filtro",
+  summary: "Ristrutturazione creativa.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 20 ganci:
+"Non è una mancanza di idee, è _ _ PH0 _.
+FILTRO = criterio, messa a fuoco, pubblico, obiettivo.
+Perche'.`
+},
+{
+  id: "viral-hook-contradiccion-028",
+  title: "La migliore strategia è noiosa",
+  summary: "Antihype.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 15 ganci:
+"La migliore strategia è noiosa: _ _ PH0 _ _ _ _ _ _ _ _ _ _ _ _ _ ________________
+Specifico PISTA (ad esempio messaggio di ripetizione, migliorare CTA, ecc.).`
+},
+{
+  id: "viral-hook-contradiccion-029",
+  title: "Non vendere più, vendere meglio",
+  summary: "Qualità della fornitura.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci:
+"Non vendere più, vendere meglio:
+X = proposta / beneficio / chiarezza / prova.
+Discussioni del Parlamento europeo.`
+},
+{
+  id: "viral-hook-contradiccion-030",
+  title: "Più opzioni = meno azione",
+  summary: "Un paradosso di scelta.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 20 ganci su decisione in _ PH0 _:
+"Più opzioni = meno azione. # Do #
+_ PH2 _ deve essere azione concreta.`
+},
 
-  {
-    id: "viral-hook-contradiccion-031",
-    title: "No necesitas un plan, necesitas un ritmo",
-    summary: "Reencuadre: cadencia.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“No necesitas un plan, necesitas un ritmo: [RITMO].”
-RITMO = frecuencia simple (ej: 3 veces/semana) o rutina.`,
-  },
-  {
-    id: "viral-hook-contradiccion-032",
-    title: "El secreto no es empezar, es seguir",
-    summary: "Giro motivacional práctico.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“El secreto no es empezar, es seguir: [X].”
-[X] debe ser un sistema corto o regla.`,
-  },
-  {
-    id: "viral-hook-contradiccion-033",
-    title: "No copies, traduce",
-    summary: "Contra “copy-paste” de estrategias.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 20 hooks con:
-“No copies. Traduce a tu caso: [PISTA].”
-PISTA = variable clave (audiencia, oferta, tono, prueba, etc.).`,
-  },
-  {
-    id: "viral-hook-contradiccion-034",
-    title: "Deja de perseguir tendencias",
-    summary: "Evergreen vs trend.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Deja de perseguir tendencias. Construye [X].”
-[X] debe ser algo evergreen (mensaje base, oferta, sistema).`,
-  },
-  {
-    id: "viral-hook-contradiccion-035",
-    title: "Tu problema no es tráfico",
-    summary: "Reencuadre típico de ventas.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Tu problema no es tráfico, es [X].”
-[X] puede ser: conversión, oferta, claridad, seguimiento, prueba.`,
-  },
-  {
-    id: "viral-hook-contradiccion-036",
-    title: "Más calidad no arregla mala estructura",
-    summary: "Estructura > calidad.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Más calidad no arregla mala estructura.”
-Añade remate corto: “Haz esto: [X]” (máx 3 palabras).`,
-  },
-  {
-    id: "viral-hook-contradiccion-037",
-    title: "No es 'falta de tiempo'",
-    summary: "Reencuadre a prioridades.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Dame 20 hooks:
-“No es falta de tiempo. Es [X].”
-X = prioridad, enfoque, energía, sistema.
-Para [AUDIENCIA].`,
-  },
-  {
-    id: "viral-hook-contradiccion-038",
-    title: "La clave no es el inicio",
-    summary: "Invierte el foco al cierre/CTA.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“La clave no es el inicio, es [X].”
-[X] = cierre, CTA, prueba, ejemplo, ritmo.
-Para [PLATAFORMA].`,
-  },
-  {
-    id: "viral-hook-contradiccion-039",
-    title: "Tu 'mejor idea' puede ser la peor",
-    summary: "Contradicción para abrir loop.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 12 hooks:
-“Tu mejor idea puede ser la peor si [X].”
-X = falta de claridad, mala audiencia, exceso de fricción, etc.`,
-  },
-  {
-    id: "viral-hook-contradiccion-040",
-    title: "Aprender más te puede atrasar",
-    summary: "Reencuadre: acción > consumo.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Aprender más te atrasa si no haces [X].”
-[X] debe ser una acción verificable (publica, vende, prueba, mide).`,
-  },
+{
+  id: "viral-hook-contradiccion-031",
+  title: "Non hai bisogno di un piano, ti serve un ritmo",
+  summary: "Rebound: cadenza.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 15 ganci:
+"Non hai bisogno di un piano, hai bisogno di un ritmo: _ PH0 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _________
+RITMO = frequenza semplice (ad esempio 3 volte a settimana) o routine.`
+},
+{
+  id: "viral-hook-contradiccion-032",
+  title: "Il segreto non e' iniziare, deve continuare",
+  summary: "Pratico giro motivazionale.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci:
+"Il segreto non è quello di cominciare, è quello di seguire: _ _ PH0 _ _ _ _ _ _ _ _ _ _ _ _ __________
+_ PH1 _ _ deve essere un sistema o una regola breve.`
+},
+{
+  id: "viral-hook-contradiccion-033",
+  title: "Non copiare, tradurre",
+  summary: "Contro \"copia-copertura\" di strategie.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 20 ganci con:
+"Non copiare. Traduci il tuo caso: _ _ PH0 _."
+PISTA = variabile chiave (udience, offerta, tono, test, ecc.).`
+},
+{
+  id: "viral-hook-contradiccion-034",
+  title: "Smettila di inseguire le tendenze",
+  summary: "Evergreen vs trend.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 15 ganci:
+"Smetti di inseguire le tendenze. Costruire _ PH0 _."
+_ PH1 _ _ deve essere qualcosa di sempreverde (messaggio base, offerta, sistema).`
+},
+{
+  id: "viral-hook-contradiccion-035",
+  title: "Il tuo problema non è il traffico",
+  summary: "Tipica collezione di vendite.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 20 ganci:
+"Il tuo problema non è il traffico, è _ PH0 _."
+_ PH1 _ _ può essere: conversione, offerta, chiarezza, tracciamento, test.`
+},
+{
+  id: "viral-hook-contradiccion-036",
+  title: "Più qualità non risolve cattiva struttura",
+  summary: "Struttura > qualità.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci:
+"La migliore qualità non risolve la cattiva struttura."
+Aggiungi breve: "Fai questo: _ _ PH0 _ _" (max 3 parole).`
+},
+{
+  id: "viral-hook-contradiccion-037",
+  title: "Non e' una mancanza di tempo",
+  summary: "Rimborso alle priorità.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Dammi 20 ganci:
+"Non è una mancanza di tempo. E'...
+X = priorità, focus, energia, sistema.
+Perche'.`
+},
+{
+  id: "viral-hook-contradiccion-038",
+  title: "La chiave non è l'inizio",
+  summary: "Invertire l'attenzione alla chiusura / CTA.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 15 ganci:
+"La chiave non è l'inizio, è _ PH0 _."
+_ PH1 _ = chiusura, CTA, test, esempio, ritmo.
+Per...`
+},
+{
+  id: "viral-hook-contradiccion-039",
+  title: "La tua \"migliore idea\" potrebbe essere la peggiore",
+  summary: "Contraddizione a anello aperto.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Creare 12 ganci:
+"La tua migliore idea potrebbe essere la peggiore se...
+X = mancanza di chiarezza, cattivo pubblico, eccesso di attrito, ecc.`
+},
+{
+  id: "viral-hook-contradiccion-040",
+  title: "Imparare di più può ritardare",
+  summary: "Rimborso: azione > consumo.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 20 ganci:
+"Learning more delays you if you don't do _ PH0 _ _ _ _ _ _ _ _ ________
+_ PH1 _ _ deve essere un'azione verificabile (pubblico, vendo, test, misura).`
+},
 
-  {
-    id: "viral-hook-contradiccion-041",
-    title: "No es falta de seguidores",
-    summary: "Convierte con pocos.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“No es falta de seguidores, es [X].”
-[X] = posicionamiento, oferta, CTA, confianza, prueba.
-Enfocado a [NICHO].`,
-  },
-  {
-    id: "viral-hook-contradiccion-042",
-    title: "La comodidad es el enemigo",
-    summary: "Contradicción emocional.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“La comodidad es el enemigo de [RESULTADO].”
-Agrega un remate de solución en 3–5 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-043",
-    title: "No eres irregular: estás mal guiado",
-    summary: "Reencuadre de consistencia.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 18 hooks para [AUDIENCIA]:
-“No eres irregular, estás mal guiado por [X].”
-X = plan imposible, metas vagas, falta de estructura, etc.`,
-  },
-  {
-    id: "viral-hook-contradiccion-044",
-    title: "La perfección mata la velocidad",
-    summary: "Perfección vs ejecución.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“La perfección mata la velocidad. Haz [X].”
-[X] debe ser un paso simple para publicar/lanzar.`,
-  },
-  {
-    id: "viral-hook-contradiccion-045",
-    title: "Te conviene decir NO",
-    summary: "Límites = crecimiento real.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Te conviene decir NO a [X].”
-[X] = conducta común (clientes malos, ideas sueltas, proyectos, etc.)
-Tono firme, no agresivo.`,
-  },
-  {
-    id: "viral-hook-contradiccion-046",
-    title: "Tu estrategia de contenido está bien… para otro nicho",
-    summary: "Segmentación por contexto.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 12 hooks:
-“Tu estrategia está bien… para otro nicho.”
-Agrega una pista: “En [NICHO], lo que sirve es [X].”
-Máx 12 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-047",
-    title: "Más creatividad no arregla falta de claridad",
-    summary: "Claridad > creatividad.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Más creatividad no arregla falta de claridad.”
-Agrega remate corto con acción: “Define [X].”`,
-  },
-  {
-    id: "viral-hook-contradiccion-048",
-    title: "El “secreto” es repetición (bien hecha)",
-    summary: "Contradicción contra “ser original”.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Genera 15 hooks para [TEMA]:
-“El secreto es repetición… bien hecha.”
-Incluye una pista de “cómo” en 3–6 palabras.`,
-  },
-  {
-    id: "viral-hook-contradiccion-049",
-    title: "No necesitas más ideas: necesitas selección",
-    summary: "Filtro editorial.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“No necesitas más ideas, necesitas selección: [CRITERIO].”
-CRITERIO = dolor, demanda, prueba, claridad, etc.`,
-  },
-  {
-    id: "viral-hook-contradiccion-050",
-    title: "Lo que te enseñaron te cuesta caro",
-    summary: "Contradicción final con tensión.",
-    area: AREA,
-    category: CATEGORY,
-    prompt: `Escribe 12 hooks:
-“Lo que te enseñaron te cuesta caro: [X].”
-[X] debe ser un hábito/creencia común en [NICHO].
-Cierra con: “Te muestro la alternativa.”`,
-  },
-];
+{
+  id: "viral-hook-contradiccion-041",
+  title: "Nessuna mancanza di seguaci",
+  summary: "Diventa un po'.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 15 ganci:
+"Non è una mancanza di seguaci, è _ _ PH0 _ _.
+_ PH1 _ _ = posizionamento, offerta, CTA, fiducia, test.
+Concentrati su _ _ PH2 _ _.`
+},
+{
+  id: "viral-hook-contradiccion-042",
+  title: "Il comfort è il nemico",
+  summary: "Dipendenza emotiva.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 15 ganci:
+"Comfort è il nemico di _ PH0 _ _ _ _ _ ____________
+Aggiungi una soluzione in 3-5 parole.`
+},
+{
+  id: "viral-hook-contradiccion-043",
+  title: "Non sei irregolare",
+  summary: "Rimbalzo di consistenza.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrivere 18 ganci per _ _ PH0 _:
+"Non sei irregolare, sei mal gestito da _ PH1 _ _ _ _ _ _ _ _ _ _ __________
+X = piano impossibile, obiettivi vaghi, mancanza di struttura, ecc.`
+},
+{
+  id: "viral-hook-contradiccion-044",
+  title: "La perfezione uccide la velocità",
+  summary: "Perfezione contro esecuzione.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 20 ganci:
+"La perfezione uccide la velocità. # Do #
+_ PH1 _ _ deve essere un semplice passo per pubblicare / lanciare.`
+},
+{
+  id: "viral-hook-contradiccion-045",
+  title: "Dovresti dire di no",
+  summary: "Limiti = crescita reale.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 15 ganci:
+"Dovresti dire di no a...
+_ PH1 _ = comportamento comune (clienti cattivi, idee sciolte, progetti, ecc.)
+Tono fermo, non aggressivo.`
+},
+{
+  id: "viral-hook-contradiccion-046",
+  title: "La tua strategia di contenuti va bene... per un'altra nicchia",
+  summary: "Segmentazione per contesto.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 12 ganci:
+"La tua strategia va bene... per un'altra nicchia."
+Aggiungi una traccia: "In _ _ PH0 _ _, what it serve is _ _ PH1 _ _ _ _ _ _ _ _ _ _ _ _
+Max 12 parole.`
+},
+{
+  id: "viral-hook-contradiccion-047",
+  title: "Più creatività non risolve la mancanza di chiarezza",
+  summary: "Chiarezza > creatività.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 18 ganci:
+"La maggior creatività non risolve la mancanza di chiarezza."
+Aggiungi un breve giro con azione: "Define _ _ PH0 _ _ _"`
+},
+{
+  id: "viral-hook-contradiccion-048",
+  title: "Il \"segreto\" è ripetizione (ben fatto)",
+  summary: "Contraddizione contro \"essere originale\".",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Genera 15 ganci per _ _ PH0 _:
+"Il segreto è la ripetizione... ben fatto."
+Include una traccia "come" in 3-6 parole.`
+},
+{
+  id: "viral-hook-contradiccion-049",
+  title: "Non hai bisogno di altre idee: hai bisogno di selezione",
+  summary: "Filtro editoriale.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Crea 20 ganci:
+"Non hai bisogno di altre idee, hai bisogno di una selezione: _ _ PH0 _ _ _".
+CRITERIO = dolore, domanda, prova, chiarezza, ecc.`
+},
+{
+  id: "viral-hook-contradiccion-050",
+  title: "Quello che ti hanno insegnato costa molto",
+  summary: "Controllo finale con tensione.",
+  area: AREA,
+  category: CATEGORY,
+  prompt: `Scrive 12 ganci:
+"Quello che ti hanno insegnato costa molto: _ PH0 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _______
+_ PH1 _ deve essere un'abitudine comune / credenza in _ PH2 _ _ _ _
+"Ti mostrerò l'alternativa."`
+}];

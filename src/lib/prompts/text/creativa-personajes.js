@@ -1,1877 +1,1876 @@
 export const textPromptsCreativaPersonajes = [
-  {
-    id: "personajes-001",
-    title: "Creación de protagonista con conflicto interno profundo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Diseña un protagonista tridimensional con un conflicto interno poderoso y real.",
-    prompt: `Dame:
-- Contexto general de la historia (género, época, tono).
-- Rol del protagonista.
-- Qué quiere y qué teme.
+{
+  id: "personajes-001",
+  title: "Creazione di un protagonista con profondo conflitto interno",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Disegna un protagonista tridimensionale con un potente e reale conflitto interno.",
+  prompt: `Dammi...
+- contesto generale della storia (gender, tempo, tono).
+- Il ruolo del protagonista.
+- No. Quello che vuole e quello di cui ha paura.
 
 Genera:
-1) Un perfil psicológico profundo.
-2) Su conflicto interno explicado en 3 capas:
-   - Superficial (lo que dice querer).
-   - Intermedio (lo que realmente busca).
-   - Nuclear (herida emocional de infancia/adolescencia).
-3) Sus 5 mayores contradicciones humanas.
-4) Cómo evoluciona su conflicto a lo largo de la historia.
-5) 3 posibles escenas que revelan su herida sin decirla explícitamente.`,
-    thumbnail: "",
-  },
+1) Un profilo psicologico profondo.
+2) Il suo conflitto interno spiegato in 3 strati:
+- Superficie (quello che dici tu vuoi).
+- Intermedio (cosa vuoi davvero).
+- Nucleare ( ferita emotiva dell'infanzia / adolescenza).
+3) Le sue 5 più grandi contraddizioni umane.
+4) Come il vostro conflitto si evolve in tutta la storia.
+5) 3 possibili scene che rivelano la tua ferita senza dirlo esplicitamente.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-002",
-    title: "Creación de antagonista moralmente ambiguo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Genera un antagonista complejo con motivaciones lógicas, humanas y moralmente grises.",
-    prompt: `Dame:
-- Tipo de historia.
-- Qué representa el antagonista.
-- Qué valores defiende.
-
-Genera:
-1) Motivación primaria y secundaria.
-2) Su justificación moral — “por qué cree que está haciendo lo correcto”.
-3) 3 traumas o eventos que lo moldearon.
-4) Su relación con el protagonista (contrastes y similitudes).
-5) 2 giros argumentales en los que el lector puede empatizar con él.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-003",
-    title: "Dinamita de personaje secundario inolvidable",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Crea un personaje secundario memorable que robe escenas sin opacar la trama.",
-    prompt: `Dame:
-- Personalidad base deseada (gracioso, mentor, excéntrico, serio).
-- Función en la historia.
-- Un rasgo raro o único.
+{
+  id: "personajes-002",
+  title: "Creazione di antagonisti moralmente ambigui",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Genera un complesso antagonista con motivazioni logiche, umane e moralmente grigie.",
+  prompt: `Dammi...
+- Tipo di storia.
+- No. Cosa rappresenta l'antagonista?
+- No. Quali valori difende.
 
 Genera:
-1) Descripción memorable en 2 versiones (una seria y una humorística).
-2) Su impacto en el protagonista.
-3) 3 frases o tics verbales icónicos.
-4) Una mini escena donde se gana al lector.`,
-    thumbnail: "",
-  },
+(1) motivi primari e secondari.
+2) La sua giustificazione morale: "perché pensa di fare la cosa giusta".
+3) 3 traumi o eventi che lo hanno plasmato.
+4) Il loro rapporto con il protagonista (contrasti e somiglianze).
+5) 2 giri argomentativi in cui il lettore può empatizzare con lui.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-004",
-    title: "Creación de anti-héroe oscuro con moral retorcida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un anti-héroe profundo, contradictorio y fascinante.",
-    prompt: `Dame:
-- Su objetivo principal.
-- Su herida emocional.
-- Hasta dónde está dispuesto a llegar.
-
-Genera:
-1) 5 defectos claros.
-2) 5 virtudes que lo redimen.
-3) Línea moral exacta que sí NO cruza.
-4) Dos traiciones que podría hacer y por qué.
-5) Una escena profunda que revele su contradicción.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-005",
-    title: "Creación de pareja protagonista con química real",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Diseña dos personajes cuya química se sienta viva, real y explosiva.",
-    prompt: `Dame:
-- Nombre o tipo de relación.
-- Personalidades.
-- Punto de conflicto entre ellos.
+{
+  id: "personajes-003",
+  title: "Dinamite di carattere secondario rimovibile",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Crea un personaggio secondario memorabile che ruba scene senza oscurare la trama.",
+  prompt: `Dammi...
+- Personalità di base desiderata (funny, mentore, eccentrico, serio).
+- Role nella storia.
+- Un tratto raro o unico.
 
 Genera:
-1) Por qué funcionan juntos.
-2) Por qué NO deberían funcionar.
-3) 5 tensiones invisibles entre ellos.
-4) Una escena donde la química se siente sin contacto físico.
-5) Una escena donde estallan sus diferencias.`,
-    thumbnail: "",
-  },
+1) Descrizione rimovibile in 2 versioni (una seria e un divertente).
+2) Il suo impatto sul protagonista.
+3) 3 frasi o tics verbali iconici.
+4) Una mini scena dove il lettore è vinto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-006",
-    title: "Creación de mentor enigmático estilo arquetipo moderno",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Construye un mentor único, misterioso y con profundidad inédita.",
-    prompt: `Dame:
-- Qué enseña el mentor.
-- Su mayor secreto.
-- Qué error quiere evitar que el protagonista repita.
-
-Genera:
-1) Su filosofía en 3 axiomas.
-2) Un misterio no resuelto de su pasado.
-3) Su mayor contradicción como guía.
-4) Una escena de enseñanza simbólica.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-007",
-    title: "Creación de villano silencioso que aterra sin hablar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un antagonista cuyo poder es la presencia y el silencio.",
-    prompt: `Dame:
-- Género.
-- Qué miedo representa.
-- Qué hizo en el pasado que marcó la historia.
+{
+  id: "personajes-004",
+  title: "Creazione di eroe anti-dark con moralità contorta",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un eroe anti- profondo, contraddittorio e affascinante.",
+  prompt: `Dammi...
+- Il tuo obiettivo principale.
+- No. La sua ferita emotiva.
+- Per quanto sia disposto ad andare.
 
 Genera:
-1) Su lenguaje corporal.
-2) 5 detalles visuales icónicos.
-3) Cómo aterra con gestos mínimos.
-4) Una escena sin diálogos donde demuestra poder.`,
-    thumbnail: "",
-  },
+1) 5 difetti chiari.
+2) 5 virtù che lo riscattano.
+3) Linea morale esatta che non attraversa.
+4) Due tradimenti che potrei fare e perché.
+5) Una scena profonda che rivela la sua contraddizione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-008",
-    title: "Creación de personaje cómico con trasfondo trágico",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Combina humor con tragedia para un personaje inolvidable.",
-    prompt: `Dame:
-- Tipo de humor.
-- Trauma o herida emocional.
-- Cómo usa el humor para sobrevivir.
-
-Genera:
-1) Perfil psicológico.
-2) Sus momentos vulnerables.
-3) Cómo se quiebra cuando nadie lo ve.
-4) Una escena en la que su humor evita un colapso emocional.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-009",
-    title: "Construcción de personaje que oculta un secreto devastador",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje cuya vida gira alrededor de un secreto.",
-    prompt: `Dame:
-- El secreto.
-- Qué pasaría si se descubre.
-- Cómo condiciona su vida diaria.
+{
+  id: "personajes-005",
+  title: "Creazione coppia principale con vera chimica",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Disegna due personaggi la cui chimica si sente viva, reale ed esplosiva.",
+  prompt: `Dammi...
+- Nome o tipo di relazione.
+- Personalità.
+- Punto di conflitto tra loro.
 
 Genera:
-1) 5 micro-comportamientos para ocultarlo.
-2) Su paranoia y sus mecanismos de defensa.
-3) 2 escenas donde casi lo descubren.
-4) Su ruptura emocional final.`,
-    thumbnail: "",
-  },
+1) Perché lavorano insieme.
+2) Perché non dovrebbero lavorare.
+3) 5 tensioni invisibili tra di loro.
+4) Una scena in cui la chimica si sente senza contatto fisico.
+5) Una scena in cui le loro differenze si diffondono.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-010",
-    title: "Creación de personaje tipo 'elegido' sin clichés",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un 'elegido' moderno, profundo y creíble.",
-    prompt: `Dame:
-- La profecía o destino.
-- Por qué NO quiere ese rol.
-- Qué habilidad lo diferencia.
-
-Genera:
-1) 5 formas de romper clichés.
-2) Su relación con el deber vs deseo.
-3) Rival o sombra que cuestiona su destino.
-4) Una escena donde rechaza su llamado.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-011",
-    title: "Diseño de personaje niño con complejidad emocional real",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un niño complejo, creíble y emocionalmente profundo.",
-    prompt: `Dame:
-- Edad.
-- Entorno familiar.
-- Miedo principal.
+{
+  id: "personajes-006",
+  title: "Creazione di enigmatico moderno archetipo stile mentore",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Costruisce un mentore unico, misterioso e inedito.",
+  prompt: `Dammi...
+- No. Quello che insegna il mentore.
+- Il tuo piu' grande segreto.
+- No. Che errore vuoi mantenere il protagonista da ripetere.
 
 Genera:
-1) Forma en que procesa emociones.
-2) Cómo se expresa sin comprenderlo.
-3) Un gesto que lo hace entrañable.
-4) Una escena dolorosa que lo marcó.`,
-    thumbnail: "",
-  },
+1) La sua filosofia in 3 assiomi.
+2) Un mistero irrisolto del suo passato.
+3) La sua più grande contraddizione come guida.
+4) Una scena di insegnamento simbolica.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-012",
-    title: "Personaje anciano sabio con pasado oscuro",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un anciano con sabiduría y un pasado inquietante.",
-    prompt: `Dame:
-- Qué lo persigue del pasado.
-- Qué sabiduría transmite.
-- Qué hace que su consejo sea ambiguo.
-
-Genera:
-1) Su filosofía contradictoria.
-2) Su manera de hablar.
-3) Dos secretos que oculta.
-4) Una escena que revela su pasado.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-013",
-    title: "Creación de personaje con doble vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje con dos vidas totalmente opuestas.",
-    prompt: `Dame:
-- Vida pública.
-- Vida secreta.
-- Qué intenta proteger.
+{
+  id: "personajes-007",
+  title: "Creazione di un cattivo silenzioso che terrorizza senza parlare",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un antagonista il cui potere è presenza e silenzio.",
+  prompt: `Dammi...
+- Genere.
+- No. E' cosi' spaventato.
+- No. Quello che ha fatto in passato che ha segnato la storia.
 
 Genera:
-1) Cómo cambia su lenguaje corporal.
-2) Sus picos de ansiedad y culpa.
-3) Una escena donde ambas vidas chocan.
-4) Cómo se justifica ante sí mismo.`,
-    thumbnail: "",
-  },
+1) Il suo linguaggio del corpo.
+2) 5 iconici dettagli visivi.
+3) Come terrorizza con gesti minimi.
+4) Una scena senza dialoghi dove mostra il potere.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-014",
-    title: "Creación de personaje marginado que se convierte en líder",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un arco de outsider → líder poderoso.",
-    prompt: `Dame:
-- Por qué está marginado.
-- Qué lo convierte en líder.
-- Qué duda lo frena.
-
-Genera:
-1) Su arco emocional entero.
-2) 5 micro-momentos que muestran evolución.
-3) Una escena donde falla.
-4) Su momento de coronación simbólica.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-015",
-    title: "Personaje que se odia a sí mismo pero busca redención",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un arco de autodesprecio → redención fuerte.",
-    prompt: `Dame:
-- Culpa o error cometido.
-- Qué desea reparar.
-- Qué cree que merece.
+{
+  id: "personajes-008",
+  title: "Creazione di un personaggio comico con sfondo tragico",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Combina l'umorismo con la tragedia per un personaggio indimenticabile.",
+  prompt: `Dammi...
+- Un po' umorismo.
+- Trauma o ferita emotiva.
+- Come usa l'umorismo per sopravvivere.
 
 Genera:
-1) Su diálogo interno oscuro.
-2) Cómo sabotea sus propias oportunidades.
-3) 3 momentos de quiebre emocional.
-4) Su escena de redención.`,
-    thumbnail: "",
-  },
+1) Profilo psicologico.
+2) I loro momenti vulnerabili.
+3) Come si rompe quando nessuno lo vede.
+4) Una scena in cui il suo umore impedisce un crollo emotivo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-016",
-    title: "Personaje obsesivo que no puede parar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje dominado por una obsesión.",
-    prompt: `Dame:
-- Obsesión.
-- Qué la desencadenó.
-- Qué pone en riesgo.
-
-Genera:
-1) Su deterioro psicológico.
-2) Su relación con otros.
-3) 3 señales de que está perdiendo control.
-4) Una escena de colapso.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-017",
-    title: "Personaje que vive en negación",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje que evita la verdad a toda costa.",
-    prompt: `Dame:
-- La verdad que no acepta.
-- Razón emocional detrás.
-- Qué pasará cuando lo enfrente.
+{
+  id: "personajes-009",
+  title: "Edificio di carattere che nasconde un segreto devastante",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un personaggio la cui vita ruota intorno a un segreto.",
+  prompt: `Dammi...
+- Il segreto.
+- No. E se lo scoprisse.
+- No. Come condiziona la tua vita quotidiana.
 
 Genera:
-1) Sus mecanismos de negación.
-2) Cómo otros intentan abrirle los ojos.
-3) Escena donde la realidad lo arrincona.
-4) Su confrontación final.`,
-    thumbnail: "",
-  },
+1) 5 micro comportamenti per nasconderlo.
+2) La sua paranoia e i suoi meccanismi di difesa.
+3) 2 scene dove quasi l'hanno scoperto.
+4) La sua ultima pausa emotiva.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-018",
-    title: "Creación de personaje rebelde que desafía al sistema",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje rebelde con motivación profunda.",
-    prompt: `Dame:
-- Sistema que desafía.
-- Qué injusticia lo impulsa.
-- Qué arriesga.
-
-Genera:
-1) Su manifiesto personal.
-2) Su relación con aliados y traidores.
-3) Momento donde casi renuncia.
-4) Su acto de rebelión icónico.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-019",
-    title: "Personaje roto que aprende a amar de nuevo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Arco emocional de pérdida → vulnerabilidad → amor.",
-    prompt: `Dame:
-- Qué perdió.
-- Qué cree sobre el amor.
-- Quién aparece en su vida.
+{
+  id: "personajes-010",
+  title: "Creazione di carattere 'scelto' senza cliché",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Una scelta moderna, profonda e credibile.",
+  prompt: `Dammi...
+- Profezia o destino.
+- Perché non vuole quel ruolo.
+- No. Che abilità fa.
 
 Genera:
-1) Sus defensas emocionales.
-2) Momento donde se permite sentir.
-3) Escena donde retrocede por miedo.
-4) Su apertura final al amor.`,
-    thumbnail: "",
-  },
+1) 5 modi per rompere cliché.
+2) Il vostro rapporto con dovere vs desiderio.
+3) Rival o ombra che interroga il tuo destino.
+4) Una scena in cui rifiuta la sua chiamata.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-020",
-    title: "Personaje que se convierte en su peor enemigo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Un personaje que sabotea su propia vida de forma brillante y trágica.",
-    prompt: `Dame:
-- Su sueño más grande.
-- Qué miedo lo frena.
-- Qué decisiones equivocadas toma.
-
-Genera:
-1) Cómo se autodestruye sin querer.
-2) 5 patrones repetitivos dañinos.
-3) Una escena donde casi triunfa.
-4) La caída o liberación final.`,
-    thumbnail: "",
-  },
-  {
-    id: "personajes-021",
-    title: "Personaje que se enfrenta a una profecía auto-cumplida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Diseña un personaje atrapado en el ciclo de una profecía que se cumple por sus propios miedos.",
-    prompt: `Dame:
-- La profecía exacta.
-- Por qué el personaje teme que se cumpla.
-- Qué decisión equivocada toma por miedo.
+{
+  id: "personajes-011",
+  title: "Design del personaggio del bambino con una reale complessità emotiva",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un bambino complesso, credibile ed emotivamente profondo.",
+  prompt: `Dammi...
+- Età.
+- Ambiente familiare.
+- La paura principale.
 
 Genera:
-1) Su psicología y su paranoia.
-2) Cómo cada acción para evitar la profecía la acerca más a cumplirse.
-3) 3 escenas de tensión emocional.
-4) Una versión alternativa donde rompe el destino.`,
-    thumbnail: "",
-  },
+1) Come tratta le emozioni.
+2) Come si esprime senza comprensione.
+3) Un gesto che lo rende insopportabile.
+4) Una scena dolorosa che lo ha segnato.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-022",
-    title: "Personaje que carga con la culpa de un accidente",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje marcado por la culpa y el autosacrificio.",
-    prompt: `Dame:
-- Qué accidente ocurrió.
-- Por qué cree que es su culpa.
-- Cómo afecta sus relaciones.
-
-Genera:
-1) Su culpa internalizada.
-2) Cómo intenta compensarla con actos excesivos.
-3) 2 escenas donde la culpa explota de forma inesperada.
-4) Su camino hacia el perdón.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-023",
-    title: "Personaje visionario incomprendido por todos",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un genio rechazado, ridiculizado o aislado.",
-    prompt: `Dame:
-- Qué visión o idea está adelantada a su tiempo.
-- Qué lo hace difícil de entender.
-- Cómo reacciona el mundo a él.
+{
+  id: "personajes-012",
+  title: "Vecchio saggio con passato scuro",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un vecchio con saggezza e un passato inquietante.",
+  prompt: `Dammi...
+- Chi lo segue dal passato.
+- No. Che saggezza trasmette.
+- No. Ciò che rende il vostro consiglio ambiguo.
 
 Genera:
-1) Su mentalidad y forma única de pensar.
-2) Sus frustraciones sociales.
-3) 5 frases que demuestran su visión avanzada.
-4) Una escena donde finalmente lo reconocen… o lo rechazan más.`,
-    thumbnail: "",
-  },
+1) La sua filosofia contraddittoria.
+2) Il suo modo di parlare.
+3) Due segreti che nasconde.
+4) Una scena che rivela il suo passato.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-024",
-    title: "Personaje cuya fe se está quebrando",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Explora un personaje que pierde la fe: religiosa, moral o filosófica.",
-    prompt: `Dame:
-- En qué creía.
-- Qué evento detonó la crisis de fe.
-- Qué se derrumba internamente.
-
-Genera:
-1) Su conflicto espiritual.
-2) Sus dudas más profundas.
-3) Escena donde cuestiona todo.
-4) Escena donde encuentra una nueva fe o se queda vacío.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-025",
-    title: "Personaje impulsivo que actúa antes de pensar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje guiado por impulsos fuertes.",
-    prompt: `Dame:
-- Qué lo impulsa.
-- Qué problemas causa.
-- Qué intenta reparar.
+{
+  id: "personajes-013",
+  title: "Creazione di un carattere di doppia vita",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un personaggio con due vite totalmente opposte.",
+  prompt: `Dammi...
+- Vita pubblica.
+- Vita segreta.
+- No. Sta cercando di proteggere.
 
 Genera:
-1) Su mecanismo impulsivo.
-2) 3 detonantes emocionales.
-3) Una escena donde su impulso destruye algo.
-4) Una escena donde aprende a controlar, o falla estrepitosamente.`,
-    thumbnail: "",
-  },
+1) Come cambia il linguaggio del corpo.
+2) Le sue punte di ansia e colpa.
+3) Una scena in cui entrambe le vite si schiantano.
+4) Come è giustificato prima di sé.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-026",
-    title: "Personaje perfeccionista al borde de romperse",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un perfeccionista cuyo estándar lo destruye.",
-    prompt: `Dame:
-- Qué intenta hacer perfecto.
-- Por qué siente que debe serlo.
-- Qué teme que pase si falla.
+{
+  id: "personajes-014",
+  title: "Creare un personaggio emarginato che diventa un leader",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un arco di esterno → potente leader.",
+  prompt: `Dammi...
+- Perché è emarginato.
+- No. Questo lo rende un leader.
+- No. Che dubbio.
 
 Genera:
-1) Su diálogo interior cruel.
-2) Cómo afecta a otros su perfeccionismo.
-3) Escena de micro-colapso.
-4) Escena donde comprende que la imperfección lo libera… o lo aplasta.`,
-    thumbnail: "",
-  },
+1) Tutto il suo arco emotivo.
+2) 5 micro- momenti che mostrano l'evoluzione.
+3) Una scena in cui fallisce.
+4) Il suo momento di incoronazione simbolica.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-027",
-    title: "Personaje con miedo irracional que controla su vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje dominado por una fobia o miedo profundo.",
-    prompt: `Dame:
+{
+  id: "personajes-015",
+  title: "Persona che odia se stesso ma cerca la redenzione",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Progetta un arco di auto-consenso → redenzione forte.",
+  prompt: `Dammi...
+- Colpevole o errore.
+- No. Quello che vuoi sistemare.
+- No. Cosa pensi di meritare?
+
+Genera:
+1) Il vostro dialogo interno oscuro.
+2) Come sabota le proprie opportunità.
+3) 3 momenti di pausa emotiva.
+4) La sua scena di redenzione.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-016",
+  title: "Carattere ossessivo che non può fermare",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un personaggio dominato da un'ossessione.",
+  prompt: `Dammi...
+- Ossessione.
+- No. L'ha innescato.
+- No. Cosa ti mette a rischio.
+
+Genera:
+1) Il suo deterioramento psicologico.
+2) Il vostro rapporto con gli altri.
+3) 3 segni che stai perdendo il controllo.
+4) Una scena del crollo.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-017",
+  title: "Persona che vive nella negazione",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un personaggio che evita la verità a tutti i costi.",
+  prompt: `Dammi...
+- No. La verita' che non accetta.
+- Una ragione emotiva.
+- No. Cosa succede quando lo affronti.
+
+Genera:
+1) I loro meccanismi di negazione.
+2) Come gli altri cercano di aprire gli occhi.
+3) Scena dove la realtà la corrompe.
+4) Il vostro confronto finale.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-018",
+  title: "Creazione di un personaggio ribelle che sfida il sistema",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un carattere ribelle con profonda motivazione.",
+  prompt: `Dammi...
+- Sistema che sfida.
+- No. Che ingiustizia lo spinge.
+- No. Che rischio.
+
+Genera:
+1) Il tuo manifesto personale.
+2) Il suo rapporto con alleati e traditori.
+3) Tempo in cui ha quasi smesso.
+4) Il suo atto di ribellione iconica.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-019",
+  title: "Personaggio rotto che impara ad amare di nuovo",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Arco emotivo di perdita → vulnerabilità → amore.",
+  prompt: `Dammi...
+- No. Quello che ha perso.
+- No. Che ne pensi dell'amore?
+- Chi si presenta nella sua vita.
+
+Genera:
+1) Le sue difese emotive.
+2) Tempo quando si è autorizzati a sentirsi.
+3) Scena dove torna per paura.
+4) La sua ultima apertura all'amore.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-020",
+  title: "Persona che diventa il suo peggior nemico",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Un personaggio che sabota la propria vita in modo brillante e tragico.",
+  prompt: `Dammi...
+- Il suo sogno più grande.
+- No. E' cosi' spaventoso.
+- No. Quali decisioni sbagliate prendi.
+
+Genera:
+1) Come è involontariamente autodistrutto.
+2) 5 modelli ripetitivi dannosi.
+3) Una scena in cui ha quasi vinto.
+4) La caduta finale o il rilascio.`,
+  thumbnail: ""
+},
+{
+  id: "personajes-021",
+  title: "Persona di fronte a una profezia autocompiuta",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Disegna un personaggio intrappolato nel ciclo di una profezia che si compie con le proprie paure.",
+  prompt: `Dammi...
+- L'esatta profezia.
+- Perché il personaggio ha paura che sarà soddisfatto.
+- No. Che decisione sbagliata si prende per paura.
+
+Genera:
+1) La sua psicologia e paranoia.
+2) Come ogni azione per evitare la profezia lo avvicina al compimento.
+3) 3 scene di tensione emotiva.
+4) Una versione alternativa in cui la destinazione si rompe.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-022",
+  title: "Persona che porta la colpa di un incidente",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un personaggio segnato dalla colpa e dal sacrificio di sé.",
+  prompt: `Dammi...
+- No. Che incidente.
+- No. Perche' pensi che sia colpa sua.
+- No. Come influisce sulle tue relazioni.
+
+Genera:
+1) Il tuo senso di colpa interiorizzato.
+2) Come cerca di compensarlo con atti eccessivi.
+3) 2 scene in cui il senso di colpa sfrutta inaspettatamente.
+4) Il suo modo di perdonare.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-023",
+  title: "Carattere visionario non compreso da tutti",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un genio respinto, ridicolizzato o isolato.",
+  prompt: `Dammi...
+- No. Che visione o idea è davanti al vostro tempo.
+- No. Questo rende difficile da capire.
+- Come reagisce il mondo.
+
+Genera:
+1) La sua mentalità e il modo unico di pensare.
+2) Le loro frustrazioni sociali.
+3) 5 frasi che dimostrano la tua visione avanzata.
+4) Una scena in cui finalmente lo riconoscono... o lo rifiutano di più.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-024",
+  title: "Persona la cui fede si spezza",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Esplora un personaggio che perde fede: religioso, morale o filosofico.",
+  prompt: `Dammi...
+- In cosa ho creduto.
+- No. Che evento ha scatenato la crisi della fede.
+- No. Falla crollare internamente.
+
+Genera:
+1) Il suo conflitto spirituale.
+2) I tuoi dubbi più profondi.
+3) Scena dove si interroga tutto.
+4) Scena dove si trova una nuova fede o rimane vuoto.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-025",
+  title: "Carattere inimpulso che agisce prima di pensare",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un personaggio guidato da forti impulsi.",
+  prompt: `Dammi...
+- No. Questo lo guida.
+- No. Che problema.
+- No. Cosa stai cercando di risolvere?
+
+Genera:
+1) Il tuo meccanismo impulsivo.
+2) 3 detonanti emotivi.
+3) Una scena in cui il suo impulso distrugge qualcosa.
+4) Una scena in cui impara a controllare, o non riesce a svanire.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-026",
+  title: "Personaggio perfezionista sull'orlo della rottura",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un perfezionista il cui standard lo distrugge.",
+  prompt: `Dammi...
+- No. Cosa stai cercando di fare?
+- Perche' lo senti?
+- No. Che paura se fallisce.
+
+Genera:
+1) Il vostro crudele dialogo interiore.
+2) Come il loro perfezionismo colpisce gli altri.
+3) scena micro-collocamento.
+4) Scena dove capisci che l'imperfezione ti libera... o ti schiaccia.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-027",
+  title: "Carattere con paura irrazionale che controlla la tua vita",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un personaggio dominato da una profonda fobia o paura.",
+  prompt: `Dammi...
 - La fobia.
-- Cómo afecta su rutina.
-- Qué desencadenó el miedo.
+- No. Come influisce sulla tua routine.
+- No. Ha scatenato la paura.
 
 Genera:
-1) Su perfil psicológico.
-2) Cómo intenta evitar situaciones.
-3) Una escena límite donde enfrentarlo es inevitable.
-4) Su desenlace emocional.`,
-    thumbnail: "",
-  },
+1) Il suo profilo psicologico.
+2) Come cerca di evitare situazioni.
+3) Una scena limitante dove affrontare è inevitabile.
+4) Il suo risultato emotivo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-028",
-    title:
-      "Personaje que tiene un don extraordinario que percibe como maldición",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un don que duele más de lo que ayuda.",
-    prompt: `Dame:
-- El don.
-- Por qué le causa dolor.
-- Qué consecuencia ha sufrido.
-
-Genera:
-1) Su rechazo al don.
-2) 3 momentos donde el don arruina algo.
-3) Una escena donde comprende su utilidad real.
-4) Una escena donde lo pierde o aprende a usarlo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-029",
-    title: "Personaje extremadamente leal al punto del sacrificio",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña una lealtad casi peligrosa o destructiva.",
-    prompt: `Dame:
-- A quién es leal.
-- Por qué.
-- Qué está dispuesto a sacrificar.
+{
+  id: "personajes-028",
+  title:
+  "Una persona che ha un dono straordinario che percepisce come una maledizione",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un regalo che fa più male di quanto aiuta.",
+  prompt: `Dammi...
+- Il regalo.
+- No. Perché ti fa soffrire.
+- No. Che conseguenza ha sofferto.
 
 Genera:
-1) Su código de lealtad.
-2) Cómo otros se aprovechan.
-3) Una escena donde la lealtad lo quiebra.
-4) Una escena donde esa lealtad salva o destruye a alguien más.`,
-    thumbnail: "",
-  },
+1) Il suo rifiuto del dono.
+2) 3 momenti in cui il dono rovina qualcosa.
+3) Una scena in cui capisci la tua vera utilità.
+4) Una scena in cui lo perdi o impari ad usarlo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-030",
-    title: "Personaje que vive atrapado en recuerdos del pasado",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que se niega a vivir el presente.",
-    prompt: `Dame:
-- El recuerdo que lo persigue.
-- Qué perdió.
-- Qué intenta revivir.
-
-Genera:
-1) Su nostalgia cruda.
-2) Conversaciones imaginarias con el pasado.
-3) Escena donde el pasado choca con la realidad actual.
-4) Su momento de liberación o caída.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-031",
-    title: "Personaje cuya identidad depende de agradar a todos",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un complaciente crónico que pierde su esencia.",
-    prompt: `Dame:
-- A quién intenta agradar.
-- Qué miedo siente al desagradar.
-- Qué oculta de sí mismo.
+{
+  id: "personajes-029",
+  title: "Carattere estremamente leale al punto del sacrificio",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna una lealtà quasi pericolosa o distruttiva.",
+  prompt: `Dammi...
+- No. A chi è leale.
+- Perché?
+- No. Quello che vuole sacrificare.
 
 Genera:
-1) Sus máscaras sociales.
-2) Sus renuncias silenciosas.
-3) Una escena donde finalmente dice “no”.
-4) El costo emocional de definirse.`,
-    thumbnail: "",
-  },
+1) Il tuo codice fedeltà.
+2) Come gli altri approfittano.
+3) Una scena in cui la lealtà lo rompe.
+4) Una scena in cui tale lealtà salva o distrugge qualcun altro.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-032",
-    title: "Personaje con doble moral hipercínica pero encantadora",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje seductor, carismático y moralmente retorcido.",
-    prompt: `Dame:
-- Qué hace moralmente cuestionable.
-- Cómo lo justifica.
-- Quién lo sospecha.
-
-Genera:
-1) Su encanto superficial.
-2) Su mecanismo de manipulación.
-3) Escena donde casi lo descubren.
-4) Su dilema: cambiar o hundirse.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-033",
-    title: "Personaje con una promesa que juró no romper jamás",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un juramento que define su vida entera.",
-    prompt: `Dame:
-- La promesa.
-- A quién se la hizo.
-- Por qué es tan importante.
+{
+  id: "personajes-030",
+  title: "Persona che vive intrappolata nei ricordi del passato",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio che rifiuta di vivere il presente.",
+  prompt: `Dammi...
+- No. La memoria che lo segue.
+- No. Quello che ha perso.
+- No. Sta cercando di rianimare.
 
 Genera:
-1) Su código moral basado en esa promesa.
-2) Escena donde casi la rompe.
-3) Escena donde mantenerla implica dolor extremo.
-4) Un final donde la cumple o la traiciona.`,
-    thumbnail: "",
-  },
+1) La sua grezza nostalgia.
+2) Le discussioni immaginarie con il passato.
+3) Scena dove il passato scorre nella realtà attuale.
+4) Il tuo momento di rilascio o di caduta.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-034",
-    title: "Personaje que NO siente emociones de manera normal",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje emocionalmente atípico o neurodivergente.",
-    prompt: `Dame:
-- Cómo siente distinto.
-- Qué emociones le cuestan.
-- Qué lo desconecta del mundo.
-
-Genera:
-1) Su lógica interna.
-2) Malentendidos con otros.
-3) Una escena donde intenta explicar su mundo.
-4) Cómo logra conectar… o no.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-035",
-    title: "Personaje obligado a cargar un rol que nunca quiso",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje presionado por expectativas ajenas.",
-    prompt: `Dame:
-- El rol impuesto.
-- Quién lo obligó.
-- Qué sueño sacrificó.
+{
+  id: "personajes-031",
+  title: "Persona la cui identità dipende da tutti i gusti",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un cronico compiacente che perde la sua essenza.",
+  prompt: `Dammi...
+- Chi sta cercando di piacere.
+- No. E' cosi' spaventoso da non piacerti.
+- Come nascosto a se stesso.
 
 Genera:
-1) Su resentimiento silencioso.
-2) Su diálogo interno reprimido.
-3) Escena donde explota por primera vez.
-4) Una escena donde decide romper el rol o aceptarlo por voluntad propia.`,
-    thumbnail: "",
-  },
+1) Le sue maschere sociali.
+2) La loro rinuncia silenziosa.
+3) Una scena in cui finalmente dice "no".
+4) Il costo emotivo della definizione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-036",
-    title: "Personaje caótico que genera conflictos sin querer",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje impredecible, divertido y peligroso.",
-    prompt: `Dame:
-- Qué hace que cause caos.
-- Qué trauma o impulso lo guía.
-- Cómo lo ven los demás.
-
-Genera:
-1) Su energía caótica.
-2) 5 momentos hilarantes o tensos.
-3) Una escena donde su caos salva el día.
-4) Una donde casi lo arruina todo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-037",
-    title: "Personaje demasiado racional que no entiende las emociones",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje puramente lógico en un mundo emocional.",
-    prompt: `Dame:
-- Por qué piensa así.
-- Qué emoción no logra comprender.
-- Qué persona lo confronta.
+{
+  id: "personajes-032",
+  title: "Carattere con doppia moralità ipercinica ma affascinante",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un carattere seducente, carismatico e moralmente contorto.",
+  prompt: `Dammi...
+- No. Cosa lo rende moralmente discutibile.
+- Come lo giustifica.
+- Chi lo sospetta.
 
 Genera:
-1) Su marco lógico frío.
-2) Dilemas donde su lógica falla.
-3) Escena donde intenta sentir algo que no entiende.
-4) Su evolución hacia la humanidad… o hacia la frialdad total.`,
-    thumbnail: "",
-  },
+1) Il suo fascino superficiale.
+2) Il vostro meccanismo di gestione.
+3) Scena dove quasi l'hanno scoperto.
+4) Il dilemma: cambiamento o lavandino.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-038",
-    title: "Personaje manipulador que cree que está ayudando",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Manipulación disfrazada de “protección”.",
-    prompt: `Dame:
-- A quién manipula.
-- Qué quiere lograr.
-- Por qué cree que es por el bien del otro.
-
-Genera:
-1) Su autojustificación.
-2) 3 tácticas emocionales.
-3) Escena donde se enfrenta a las consecuencias.
-4) Su confrontación final consigo mismo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-039",
-    title: "Personaje incapaz de perdonar una traición",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje endurecido por una traición devastadora.",
-    prompt: `Dame:
-- Qué traición vivió.
-- Quién la causó.
-- Cómo le cambió la vida.
+{
+  id: "personajes-033",
+  title: "Carattere con una promessa ha giurato di non rompere mai",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un giuramento che definisce tutta la tua vita.",
+  prompt: `Dammi...
+- La promessa.
+- A chi e' stato.
+- No. Perché è così importante.
 
 Genera:
-1) Su resentimiento profundo.
-2) Cómo afecta su capacidad de confiar.
-3) Una escena donde la herida vuelve a abrirse.
-4) Su posible reconciliación… o venganza.`,
-    thumbnail: "",
-  },
+1) Il suo codice morale basato su quella promessa.
+2) Scena dove si è quasi rotto.
+3) Scena dove tenerlo comporta dolore estremo.
+4) Una fine in cui lei soddisfa o la tradisce.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-040",
-    title: "Personaje que busca desesperadamente validación",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje dependiente de la aprobación externa.",
-    prompt: `Dame:
-- De quién busca validación.
-- Qué vacío intenta llenar.
-- Qué miedo tiene a la soledad.
-
-Genera:
-1) Su identidad basada en elogios.
-2) Cómo cambia su comportamiento según la audiencia.
-3) Escena donde no recibe validación y colapsa.
-4) Su recuperación emocional… o deterioro.`,
-    thumbnail: "",
-  },
-  {
-    id: "personajes-021",
-    title: "Personaje que se enfrenta a una profecía auto-cumplida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Diseña un personaje atrapado en el ciclo de una profecía que se cumple por sus propios miedos.",
-    prompt: `Dame:
-- La profecía exacta.
-- Por qué el personaje teme que se cumpla.
-- Qué decisión equivocada toma por miedo.
+{
+  id: "personajes-034",
+  title: "Carattere che non prova emozioni normalmente",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio emotivamente atipico o neurodivergente.",
+  prompt: `Dammi...
+- No. Come ti senti diverso.
+- No. Che emozioni costa.
+- No. Questo lo scollega dal mondo.
 
 Genera:
-1) Su psicología y su paranoia.
-2) Cómo cada acción para evitar la profecía la acerca más a cumplirse.
-3) 3 escenas de tensión emocional.
-4) Una versión alternativa donde rompe el destino.`,
-    thumbnail: "",
-  },
+1) La sua logica interna.
+2) Incomprensione con gli altri.
+3) Una scena in cui cerca di spiegare il suo mondo.
+4) Come si riesce a connettersi... o no.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-022",
-    title: "Personaje que carga con la culpa de un accidente",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje marcado por la culpa y el autosacrificio.",
-    prompt: `Dame:
-- Qué accidente ocurrió.
-- Por qué cree que es su culpa.
-- Cómo afecta sus relaciones.
-
-Genera:
-1) Su culpa internalizada.
-2) Cómo intenta compensarla con actos excesivos.
-3) 2 escenas donde la culpa explota de forma inesperada.
-4) Su camino hacia el perdón.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-023",
-    title: "Personaje visionario incomprendido por todos",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un genio rechazado, ridiculizado o aislado.",
-    prompt: `Dame:
-- Qué visión o idea está adelantada a su tiempo.
-- Qué lo hace difícil de entender.
-- Cómo reacciona el mundo a él.
+{
+  id: "personajes-035",
+  title: "Persona costretta a svolgere un ruolo che non ha mai voluto",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un personaggio pressato dalle aspettative degli altri.",
+  prompt: `Dammi...
+- Il ruolo imposto.
+- Chi l'ha fatto.
+- No. Che sogno ha sacrificato.
 
 Genera:
-1) Su mentalidad y forma única de pensar.
-2) Sus frustraciones sociales.
-3) 5 frases que demuestran su visión avanzada.
-4) Una escena donde finalmente lo reconocen… o lo rechazan más.`,
-    thumbnail: "",
-  },
+1) Il tuo risentimento silenzioso.
+2) Il suo dialogo interno ha represso.
+3) Scena dove esplode per la prima volta.
+4) Una scena in cui si decide di rompere il ruolo o accettarlo del proprio libero arbitrio.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-024",
-    title: "Personaje cuya fe se está quebrando",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Explora un personaje que pierde la fe: religiosa, moral o filosófica.",
-    prompt: `Dame:
-- En qué creía.
-- Qué evento detonó la crisis de fe.
-- Qué se derrumba internamente.
-
-Genera:
-1) Su conflicto espiritual.
-2) Sus dudas más profundas.
-3) Escena donde cuestiona todo.
-4) Escena donde encuentra una nueva fe o se queda vacío.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-025",
-    title: "Personaje impulsivo que actúa antes de pensar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje guiado por impulsos fuertes.",
-    prompt: `Dame:
-- Qué lo impulsa.
-- Qué problemas causa.
-- Qué intenta reparar.
+{
+  id: "personajes-036",
+  title: "Carattere caotico che genera conflitti non intenzionali",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un personaggio imprevedibile, divertente e pericoloso.",
+  prompt: `Dammi...
+- No. Ciò che provoca il caos.
+- No. Quale trauma o impulso ti guida.
+- No. Come gli altri lo vedono.
 
 Genera:
-1) Su mecanismo impulsivo.
-2) 3 detonantes emocionales.
-3) Una escena donde su impulso destruye algo.
-4) Una escena donde aprende a controlar, o falla estrepitosamente.`,
-    thumbnail: "",
-  },
+1) La sua energia caotica.
+2) 5 momenti esilarante o teso.
+3) Una scena in cui il tuo caos salva il giorno.
+4) Uno dove ha quasi rovinato tutto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-026",
-    title: "Personaje perfeccionista al borde de romperse",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un perfeccionista cuyo estándar lo destruye.",
-    prompt: `Dame:
-- Qué intenta hacer perfecto.
-- Por qué siente que debe serlo.
-- Qué teme que pase si falla.
+{
+  id: "personajes-037",
+  title: "Troppo razionale una persona che non capisce le emozioni",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un carattere puramente logico in un mondo emotivo.",
+  prompt: `Dammi...
+- Perche' lo pensi?
+- No. Che emozione non puoi capire.
+- No. Che persona.
 
 Genera:
-1) Su diálogo interior cruel.
-2) Cómo afecta a otros su perfeccionismo.
-3) Escena de micro-colapso.
-4) Escena donde comprende que la imperfección lo libera… o lo aplasta.`,
-    thumbnail: "",
-  },
+1) La sua cornice logica fredda.
+2) Dilemmi dove la tua logica fallisce.
+3) Scena dove provi a sentire qualcosa che non capisci.
+4) La sua evoluzione verso l'umanità... o per totale freddezza.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-027",
-    title: "Personaje con miedo irracional que controla su vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje dominado por una fobia o miedo profundo.",
-    prompt: `Dame:
+{
+  id: "personajes-038",
+  title: "Personaggio manipolativo che pensa di aiutare",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Travestito da \"protezione\".",
+  prompt: `Dammi...
+- Chi manipola.
+- No. Quello che vuoi raggiungere.
+- No. Perche' pensi che sia per l'altro.
+
+Genera:
+1) La vostra auto-giustificazione.
+2) 3 tattiche emozionali.
+3) Scena dove si affrontano le conseguenze.
+4) Il suo confronto finale con se stesso.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-039",
+  title: "Persona incapace di perdonare un tradimento",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio indurito da un tradimento devastante.",
+  prompt: `Dammi...
+- No. Che tradimento ha vissuto.
+- Chi l'ha causato.
+- Come ha cambiato la sua vita.
+
+Genera:
+1) Il suo profondo risentimento.
+2) Come influisce sulla vostra capacità di fiducia.
+3) Una scena in cui la ferita riapriva.
+4) La sua possibile riconciliazione... o vendetta.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-040",
+  title: "Persona disperatamente alla ricerca di convalida",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio dipendente dall'approvazione esterna.",
+  prompt: `Dammi...
+- Chi sta cercando la convalida.
+- No. Che vuoto cerca di riempire.
+- No. Ha cosi' paura della solitudine.
+
+Genera:
+1) La sua identità basata sulla lode.
+2) Come il vostro comportamento cambia secondo il pubblico.
+3) Scena in cui non riceve convalida e collassa.
+4) Il vostro recupero emotivo... o deterioramento.`,
+  thumbnail: ""
+},
+{
+  id: "personajes-021",
+  title: "Persona di fronte a una profezia autocompiuta",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Disegna un personaggio intrappolato nel ciclo di una profezia che si compie con le proprie paure.",
+  prompt: `Dammi...
+- L'esatta profezia.
+- Perché il personaggio ha paura che sarà soddisfatto.
+- No. Che decisione sbagliata si prende per paura.
+
+Genera:
+1) La sua psicologia e paranoia.
+2) Come ogni azione per evitare la profezia lo avvicina al compimento.
+3) 3 scene di tensione emotiva.
+4) Una versione alternativa in cui la destinazione si rompe.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-022",
+  title: "Persona che porta la colpa di un incidente",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un personaggio segnato dalla colpa e dal sacrificio di sé.",
+  prompt: `Dammi...
+- No. Che incidente.
+- No. Perche' pensi che sia colpa sua.
+- No. Come influisce sulle tue relazioni.
+
+Genera:
+1) Il tuo senso di colpa interiorizzato.
+2) Come cerca di compensarlo con atti eccessivi.
+3) 2 scene in cui il senso di colpa sfrutta inaspettatamente.
+4) Il suo modo di perdonare.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-023",
+  title: "Carattere visionario non compreso da tutti",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un genio respinto, ridicolizzato o isolato.",
+  prompt: `Dammi...
+- No. Che visione o idea è davanti al vostro tempo.
+- No. Questo rende difficile da capire.
+- Come reagisce il mondo.
+
+Genera:
+1) La sua mentalità e il modo unico di pensare.
+2) Le loro frustrazioni sociali.
+3) 5 frasi che dimostrano la tua visione avanzata.
+4) Una scena in cui finalmente lo riconoscono... o lo rifiutano di più.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-024",
+  title: "Persona la cui fede si spezza",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary:
+  "Esplora un personaggio che perde fede: religioso, morale o filosofico.",
+  prompt: `Dammi...
+- In cosa ho creduto.
+- No. Che evento ha scatenato la crisi della fede.
+- No. Falla crollare internamente.
+
+Genera:
+1) Il suo conflitto spirituale.
+2) I tuoi dubbi più profondi.
+3) Scena dove si interroga tutto.
+4) Scena dove si trova una nuova fede o rimane vuoto.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-025",
+  title: "Carattere inimpulso che agisce prima di pensare",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un personaggio guidato da forti impulsi.",
+  prompt: `Dammi...
+- No. Questo lo guida.
+- No. Che problema.
+- No. Cosa stai cercando di risolvere?
+
+Genera:
+1) Il tuo meccanismo impulsivo.
+2) 3 detonanti emotivi.
+3) Una scena in cui il suo impulso distrugge qualcosa.
+4) Una scena in cui impara a controllare, o non riesce a svanire.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-026",
+  title: "Personaggio perfezionista sull'orlo della rottura",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un perfezionista il cui standard lo distrugge.",
+  prompt: `Dammi...
+- No. Cosa stai cercando di fare?
+- Perche' lo senti?
+- No. Che paura se fallisce.
+
+Genera:
+1) Il vostro crudele dialogo interiore.
+2) Come il loro perfezionismo colpisce gli altri.
+3) scena micro-collocamento.
+4) Scena dove capisci che l'imperfezione ti libera... o ti schiaccia.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-027",
+  title: "Carattere con paura irrazionale che controlla la tua vita",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un personaggio dominato da una profonda fobia o paura.",
+  prompt: `Dammi...
 - La fobia.
-- Cómo afecta su rutina.
-- Qué desencadenó el miedo.
+- No. Come influisce sulla tua routine.
+- No. Ha scatenato la paura.
 
 Genera:
-1) Su perfil psicológico.
-2) Cómo intenta evitar situaciones.
-3) Una escena límite donde enfrentarlo es inevitable.
-4) Su desenlace emocional.`,
-    thumbnail: "",
-  },
+1) Il suo profilo psicologico.
+2) Come cerca di evitare situazioni.
+3) Una scena limitante dove affrontare è inevitabile.
+4) Il suo risultato emotivo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-028",
-    title:
-      "Personaje que tiene un don extraordinario que percibe como maldición",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un don que duele más de lo que ayuda.",
-    prompt: `Dame:
-- El don.
-- Por qué le causa dolor.
-- Qué consecuencia ha sufrido.
-
-Genera:
-1) Su rechazo al don.
-2) 3 momentos donde el don arruina algo.
-3) Una escena donde comprende su utilidad real.
-4) Una escena donde lo pierde o aprende a usarlo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-029",
-    title: "Personaje extremadamente leal al punto del sacrificio",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña una lealtad casi peligrosa o destructiva.",
-    prompt: `Dame:
-- A quién es leal.
-- Por qué.
-- Qué está dispuesto a sacrificar.
+{
+  id: "personajes-028",
+  title:
+  "Una persona che ha un dono straordinario che percepisce come una maledizione",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un regalo che fa più male di quanto aiuta.",
+  prompt: `Dammi...
+- Il regalo.
+- No. Perché ti fa soffrire.
+- No. Che conseguenza ha sofferto.
 
 Genera:
-1) Su código de lealtad.
-2) Cómo otros se aprovechan.
-3) Una escena donde la lealtad lo quiebra.
-4) Una escena donde esa lealtad salva o destruye a alguien más.`,
-    thumbnail: "",
-  },
+1) Il suo rifiuto del dono.
+2) 3 momenti in cui il dono rovina qualcosa.
+3) Una scena in cui capisci la tua vera utilità.
+4) Una scena in cui lo perdi o impari ad usarlo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-030",
-    title: "Personaje que vive atrapado en recuerdos del pasado",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que se niega a vivir el presente.",
-    prompt: `Dame:
-- El recuerdo que lo persigue.
-- Qué perdió.
-- Qué intenta revivir.
-
-Genera:
-1) Su nostalgia cruda.
-2) Conversaciones imaginarias con el pasado.
-3) Escena donde el pasado choca con la realidad actual.
-4) Su momento de liberación o caída.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-031",
-    title: "Personaje cuya identidad depende de agradar a todos",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un complaciente crónico que pierde su esencia.",
-    prompt: `Dame:
-- A quién intenta agradar.
-- Qué miedo siente al desagradar.
-- Qué oculta de sí mismo.
+{
+  id: "personajes-029",
+  title: "Carattere estremamente leale al punto del sacrificio",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna una lealtà quasi pericolosa o distruttiva.",
+  prompt: `Dammi...
+- No. A chi è leale.
+- Perché?
+- No. Quello che vuole sacrificare.
 
 Genera:
-1) Sus máscaras sociales.
-2) Sus renuncias silenciosas.
-3) Una escena donde finalmente dice “no”.
-4) El costo emocional de definirse.`,
-    thumbnail: "",
-  },
+1) Il tuo codice fedeltà.
+2) Come gli altri approfittano.
+3) Una scena in cui la lealtà lo rompe.
+4) Una scena in cui tale lealtà salva o distrugge qualcun altro.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-032",
-    title: "Personaje con doble moral hipercínica pero encantadora",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje seductor, carismático y moralmente retorcido.",
-    prompt: `Dame:
-- Qué hace moralmente cuestionable.
-- Cómo lo justifica.
-- Quién lo sospecha.
-
-Genera:
-1) Su encanto superficial.
-2) Su mecanismo de manipulación.
-3) Escena donde casi lo descubren.
-4) Su dilema: cambiar o hundirse.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-033",
-    title: "Personaje con una promesa que juró no romper jamás",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un juramento que define su vida entera.",
-    prompt: `Dame:
-- La promesa.
-- A quién se la hizo.
-- Por qué es tan importante.
+{
+  id: "personajes-030",
+  title: "Persona che vive intrappolata nei ricordi del passato",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio che rifiuta di vivere il presente.",
+  prompt: `Dammi...
+- No. La memoria che lo segue.
+- No. Quello che ha perso.
+- No. Sta cercando di rianimare.
 
 Genera:
-1) Su código moral basado en esa promesa.
-2) Escena donde casi la rompe.
-3) Escena donde mantenerla implica dolor extremo.
-4) Un final donde la cumple o la traiciona.`,
-    thumbnail: "",
-  },
+1) La sua grezza nostalgia.
+2) Le discussioni immaginarie con il passato.
+3) Scena dove il passato scorre nella realtà attuale.
+4) Il tuo momento di rilascio o di caduta.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-034",
-    title: "Personaje que NO siente emociones de manera normal",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje emocionalmente atípico o neurodivergente.",
-    prompt: `Dame:
-- Cómo siente distinto.
-- Qué emociones le cuestan.
-- Qué lo desconecta del mundo.
-
-Genera:
-1) Su lógica interna.
-2) Malentendidos con otros.
-3) Una escena donde intenta explicar su mundo.
-4) Cómo logra conectar… o no.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-035",
-    title: "Personaje obligado a cargar un rol que nunca quiso",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje presionado por expectativas ajenas.",
-    prompt: `Dame:
-- El rol impuesto.
-- Quién lo obligó.
-- Qué sueño sacrificó.
+{
+  id: "personajes-031",
+  title: "Persona la cui identità dipende da tutti i gusti",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un cronico compiacente che perde la sua essenza.",
+  prompt: `Dammi...
+- Chi sta cercando di piacere.
+- No. E' cosi' spaventoso da non piacerti.
+- Come nascosto a se stesso.
 
 Genera:
-1) Su resentimiento silencioso.
-2) Su diálogo interno reprimido.
-3) Escena donde explota por primera vez.
-4) Una escena donde decide romper el rol o aceptarlo por voluntad propia.`,
-    thumbnail: "",
-  },
+1) Le sue maschere sociali.
+2) La loro rinuncia silenziosa.
+3) Una scena in cui finalmente dice "no".
+4) Il costo emotivo della definizione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-036",
-    title: "Personaje caótico que genera conflictos sin querer",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje impredecible, divertido y peligroso.",
-    prompt: `Dame:
-- Qué hace que cause caos.
-- Qué trauma o impulso lo guía.
-- Cómo lo ven los demás.
-
-Genera:
-1) Su energía caótica.
-2) 5 momentos hilarantes o tensos.
-3) Una escena donde su caos salva el día.
-4) Una donde casi lo arruina todo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-037",
-    title: "Personaje demasiado racional que no entiende las emociones",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje puramente lógico en un mundo emocional.",
-    prompt: `Dame:
-- Por qué piensa así.
-- Qué emoción no logra comprender.
-- Qué persona lo confronta.
+{
+  id: "personajes-032",
+  title: "Carattere con doppia moralità ipercinica ma affascinante",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un carattere seducente, carismatico e moralmente contorto.",
+  prompt: `Dammi...
+- No. Cosa lo rende moralmente discutibile.
+- Come lo giustifica.
+- Chi lo sospetta.
 
 Genera:
-1) Su marco lógico frío.
-2) Dilemas donde su lógica falla.
-3) Escena donde intenta sentir algo que no entiende.
-4) Su evolución hacia la humanidad… o hacia la frialdad total.`,
-    thumbnail: "",
-  },
+1) Il suo fascino superficiale.
+2) Il vostro meccanismo di gestione.
+3) Scena dove quasi l'hanno scoperto.
+4) Il dilemma: cambiamento o lavandino.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-038",
-    title: "Personaje manipulador que cree que está ayudando",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Manipulación disfrazada de “protección”.",
-    prompt: `Dame:
-- A quién manipula.
-- Qué quiere lograr.
-- Por qué cree que es por el bien del otro.
-
-Genera:
-1) Su autojustificación.
-2) 3 tácticas emocionales.
-3) Escena donde se enfrenta a las consecuencias.
-4) Su confrontación final consigo mismo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-039",
-    title: "Personaje incapaz de perdonar una traición",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje endurecido por una traición devastadora.",
-    prompt: `Dame:
-- Qué traición vivió.
-- Quién la causó.
-- Cómo le cambió la vida.
+{
+  id: "personajes-033",
+  title: "Carattere con una promessa ha giurato di non rompere mai",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un giuramento che definisce tutta la tua vita.",
+  prompt: `Dammi...
+- La promessa.
+- A chi e' stato.
+- No. Perché è così importante.
 
 Genera:
-1) Su resentimiento profundo.
-2) Cómo afecta su capacidad de confiar.
-3) Una escena donde la herida vuelve a abrirse.
-4) Su posible reconciliación… o venganza.`,
-    thumbnail: "",
-  },
+1) Il suo codice morale basato su quella promessa.
+2) Scena dove si è quasi rotto.
+3) Scena dove tenerlo comporta dolore estremo.
+4) Una fine in cui lei soddisfa o la tradisce.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-040",
-    title: "Personaje que busca desesperadamente validación",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje dependiente de la aprobación externa.",
-    prompt: `Dame:
-- De quién busca validación.
-- Qué vacío intenta llenar.
-- Qué miedo tiene a la soledad.
-
-Genera:
-1) Su identidad basada en elogios.
-2) Cómo cambia su comportamiento según la audiencia.
-3) Escena donde no recibe validación y colapsa.
-4) Su recuperación emocional… o deterioro.`,
-    thumbnail: "",
-  },
-  {
-    id: "personajes-061",
-    title: "Personaje que carga con la culpa de un futuro que aún no sucede",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje convencido de que causará una tragedia futura.",
-    prompt: `Dame:
-- Qué tragedia cree que causará.
-- Por qué cree que es su culpa.
-- Qué hace para intentar evitarlo.
+{
+  id: "personajes-034",
+  title: "Carattere che non prova emozioni normalmente",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio emotivamente atipico o neurodivergente.",
+  prompt: `Dammi...
+- No. Come ti senti diverso.
+- No. Che emozioni costa.
+- No. Questo lo scollega dal mondo.
 
 Genera:
-1) Su miedo anticipado y su paranoia.
-2) 3 escenas donde su intento de evitar el futuro lo acerca más a él.
-3) Escena climática donde enfrenta su destino y decide si cambiarlo o rendirse.`,
-    thumbnail: "",
-  },
+1) La sua logica interna.
+2) Incomprensione con gli altri.
+3) Una scena in cui cerca di spiegare il suo mondo.
+4) Come si riesce a connettersi... o no.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-062",
-    title: "Personaje que vive completamente para alguien más",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Identidad anulada por devoción extrema.",
-    prompt: `Dame:
-- A quién dedica su vida.
-- Por qué siente que su vida vale menos.
-- Qué momento marcó esa dependencia.
-
-Genera:
-1) Su psicología de auto borrado.
-2) 3 momentos donde sacrifica demasiado.
-3) Escena donde enfrenta la pregunta: “¿Quién soy si no soy su salvador?”`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-063",
-    title: "Personaje que se cree un monstruo… aunque no lo es",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Auto percepción distorsionada, traumas y sombras internas.",
-    prompt: `Dame:
-- Por qué se cree un monstruo.
-- Qué hizo o cree haber hecho.
-- Qué lo vuelve humano realmente.
+{
+  id: "personajes-035",
+  title: "Persona costretta a svolgere un ruolo che non ha mai voluto",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un personaggio pressato dalle aspettative degli altri.",
+  prompt: `Dammi...
+- Il ruolo imposto.
+- Chi l'ha fatto.
+- No. Che sogno ha sacrificato.
 
 Genera:
-1) Su sombra psicológica.
-2) 3 escenas donde se comporta como monstruo… pero con bondad debajo.
-3) Momento donde alguien lo ve como realmente es.`,
-    thumbnail: "",
-  },
+1) Il tuo risentimento silenzioso.
+2) Il suo dialogo interno ha represso.
+3) Scena dove esplode per la prima volta.
+4) Una scena in cui si decide di rompere il ruolo o accettarlo del proprio libero arbitrio.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-064",
-    title: "Personaje brillante que nadie toma en serio",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Genialidad ignorada, frustración, y obstinación.",
-    prompt: `Dame:
-- En qué es brillante.
-- Quién lo subestima.
-- Qué lo impulsa a seguir.
-
-Genera:
-1) Su lucha contra la mediocridad ajena.
-2) 3 momentos donde demuestra su genio pero lo ignoran.
-3) Escena donde por fin alguien lo reconoce… o lo vuelve a menospreciar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-065",
-    title: "Personaje que huye de algo que no entiende del todo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Huye de un peligro abstracto o desconocido.",
-    prompt: `Dame:
-- Qué lo persigue.
-- Qué cree que es.
-- Qué realmente es.
+{
+  id: "personajes-036",
+  title: "Carattere caotico che genera conflitti non intenzionali",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crea un personaggio imprevedibile, divertente e pericoloso.",
+  prompt: `Dammi...
+- No. Ciò che provoca il caos.
+- No. Quale trauma o impulso ti guida.
+- No. Come gli altri lo vedono.
 
 Genera:
-1) Su paranoia incompleta.
-2) 3 momentos donde el peligro se acerca.
-3) Revelación final que cambia todo.`,
-    thumbnail: "",
-  },
+1) La sua energia caotica.
+2) 5 momenti esilarante o teso.
+3) Una scena in cui il tuo caos salva il giorno.
+4) Uno dove ha quasi rovinato tutto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-066",
-    title: "Personaje que rechaza el poder que todos quieren que use",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje con talento o poder que teme usar.",
-    prompt: `Dame:
-- Qué poder es.
-- Por qué lo rechaza.
-- Qué le piden los demás.
-
-Genera:
-1) Su resistencia interna.
-2) 3 presiones externas cada vez más intensas.
-3) Escena donde usa el poder por primera vez… o lo destruye.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-067",
-    title: "Personaje que oculta su dolor con humor",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "El payaso triste, sarcástico o brillante.",
-    prompt: `Dame:
-- Qué dolor esconde.
-- Qué tipo de humor usa.
-- Quién sospecha que no está bien.
+{
+  id: "personajes-037",
+  title: "Troppo razionale una persona che non capisce le emozioni",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Disegna un carattere puramente logico in un mondo emotivo.",
+  prompt: `Dammi...
+- Perche' lo pensi?
+- No. Che emozione non puoi capire.
+- No. Che persona.
 
 Genera:
-1) Su máscara humorística.
-2) 3 chistes o bromas que revelan su herida real.
-3) Una escena donde el humor ya no lo salva.`,
-    thumbnail: "",
-  },
+1) La sua cornice logica fredda.
+2) Dilemmi dove la tua logica fallisce.
+3) Scena dove provi a sentire qualcosa che non capisci.
+4) La sua evoluzione verso l'umanità... o per totale freddezza.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-068",
-    title: "Personaje que descubre que quienes ama están equivocados",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crisis moral cuando descubre la verdad sobre su gente.",
-    prompt: `Dame:
-- Qué verdad descubre.
-- Qué creía antes.
-- Qué significan para él esas personas.
-
-Genera:
-1) Su conflicto moral inicial.
-2) 3 escenas de desilusión progresiva.
-3) La escena donde decide confrontar, callar o abandonar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-069",
-    title: "Personaje que está demasiado cansado para seguir siendo héroe",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un héroe agotado emocionalmente y sin fuerzas.",
-    prompt: `Dame:
-- Qué lo agotó.
-- Qué responsabilidad carga.
-- Qué aún espera de sí mismo.
+{
+  id: "personajes-038",
+  title: "Personaggio manipolativo che pensa di aiutare",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Travestito da \"protezione\".",
+  prompt: `Dammi...
+- Chi manipola.
+- No. Quello che vuoi raggiungere.
+- No. Perche' pensi che sia per l'altro.
 
 Genera:
-1) Su desgaste físico y emocional.
-2) 3 momentos donde casi renuncia.
-3) Escena donde encuentra un motivo final para seguir… o decide parar.`,
-    thumbnail: "",
-  },
+1) La vostra auto-giustificazione.
+2) 3 tattiche emozionali.
+3) Scena dove si affrontano le conseguenze.
+4) Il suo confronto finale con se stesso.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-070",
-    title:
-      "Personaje que vive como si tuviera una segunda oportunidad… aunque nadie se la dio",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Reinvención radical sin explicación externa.",
-    prompt: `Dame:
-- Qué vida dejó atrás.
-- Qué vida eligió ahora.
-- Qué lo impulsó a ese cambio.
-
-Genera:
-1) Su conflicto entre pasado y presente.
-2) 3 momentos donde el pasado vuelve por él.
-3) Escena donde debe demostrar quién es ahora.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-071",
-    title: "Personaje que sabe mentir demasiado bien",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un mentiroso brillante, peligroso o encantador.",
-    prompt: `Dame:
-- Por qué aprendió a mentir.
-- Qué obtiene con ello.
-- Qué intenta ocultar.
+{
+  id: "personajes-039",
+  title: "Persona incapace di perdonare un tradimento",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio indurito da un tradimento devastante.",
+  prompt: `Dammi...
+- No. Che tradimento ha vissuto.
+- Chi l'ha causato.
+- Come ha cambiato la sua vita.
 
 Genera:
-1) Su psicología del engaño.
-2) 3 mentiras maestras con consecuencias.
-3) Momento donde por primera vez dice la verdad.`,
-    thumbnail: "",
-  },
+1) Il suo profondo risentimento.
+2) Come influisce sulla vostra capacità di fiducia.
+3) Una scena in cui la ferita riapriva.
+4) La sua possibile riconciliazione... o vendetta.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-072",
-    title:
-      "Personaje cuya bondad es vista como una debilidad… hasta que deja de serlo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Bondad estratégica, inesperada y poderosa.",
-    prompt: `Dame:
-- Por qué es bueno.
-- Quién se aprovecha.
-- Qué línea no cruzará.
-
-Genera:
-1) Cómo lo minimizan.
-2) 3 escenas donde su bondad parece debilidad.
-3) Escena donde demuestra ser más fuerte de lo que parece.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-073",
-    title: "Personaje que busca venganza pero ya no recuerda por qué",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Motivación perdida, obsesión vacía.",
-    prompt: `Dame:
-- Cuál era la venganza.
-- Qué olvidó.
-- Qué lo mantiene buscando.
+{
+  id: "personajes-040",
+  title: "Persona disperatamente alla ricerca di convalida",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio dipendente dall'approvazione esterna.",
+  prompt: `Dammi...
+- Chi sta cercando la convalida.
+- No. Che vuoto cerca di riempire.
+- No. Ha cosi' paura della solitudine.
 
 Genera:
-1) Su obsesión vacía.
-2) 3 escenas donde duda de sí mismo.
-3) Final donde encuentra verdad o cae en nihilismo total.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-074",
-    title: "Personaje que ama más la idea de alguien que a la persona real",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Idealización romántica llevada al extremo.",
-    prompt: `Dame:
-- Quién es la persona real.
-- Qué rasgo idealiza.
-- Qué realidad ignora.
-
-Genera:
-1) Su amor ilusorio.
-2) 3 señales que muestran que la idealización es falsa.
-3) Escena donde la ilusión colapsa.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-075",
-    title: "Personaje que siempre dice la verdad… aunque destruya todo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Honestidad brutal como espada de doble filo.",
-    prompt: `Dame:
-- Por qué detesta mentir.
-- A quién ya ha herido con su sinceridad.
-- Qué teme que suceda.
+1) La sua identità basata sulla lode.
+2) Come il vostro comportamento cambia secondo il pubblico.
+3) Scena in cui non riceve convalida e collassa.
+4) Il vostro recupero emotivo... o deterioramento.`,
+  thumbnail: ""
+},
+{
+  id: "personajes-061",
+  title: "Carattere che porta la colpa di un futuro che non accade ancora",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio convinto che causerà una tragedia futura.",
+  prompt: `Dammi...
+- No. Che tragedia pensi che causerà.
+- No. Perche' pensi che sia colpa sua.
+- No. Cosa fai per cercare di evitarlo?
 
 Genera:
-1) Su filosofía de verdad absoluta.
-2) 3 momentos donde su sinceridad causa daño.
-3) Escena donde debe elegir entre verdad o amor.`,
-    thumbnail: "",
-  },
+1) La sua paura precoce e la sua paranoia.
+2) 3 scene in cui il suo tentativo di evitare il futuro lo avvicina.
+3) scena climatica in cui si affronta la vostra destinazione e decidere se cambiarla o arrendersi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-076",
-    title: "Personaje que tiene miedo de convertirse en lo que odia",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Miedo a repetir patrones familiares o históricos.",
-    prompt: `Dame:
-- Qué odia.
-- Quién representa eso en su vida.
-- Qué señales ya muestra de volverse igual.
-
-Genera:
-1) Su paranoia de repetición.
-2) 3 momentos donde casi cruza el límite.
-3) Escena donde reconoce si ya se transformó o si aún puede detenerse.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-077",
-    title: "Personaje que cree que está destinado a ser villano",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Profecía, trauma o creencia autoconstruida.",
-    prompt: `Dame:
-- Por qué cree que será villano.
-- Qué señal lo convenció.
-- Qué lucha interna tiene.
+{
+  id: "personajes-062",
+  title: "Persona che vive completamente per qualcun altro",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Identità annullata da estrema devozione.",
+  prompt: `Dammi...
+A chi fa la sua vita.
+- Perche' pensa che la sua vita valga di meno.
+- No. Che tempo ha segnato quella dipendenza.
 
 Genera:
-1) Su identidad rota.
-2) 3 escenas de tentación hacia la oscuridad.
-3) Final donde se confirma o rompe su destino.`,
-    thumbnail: "",
-  },
+1) La sua psicologia auto-erata.
+2) 3 momenti in cui sacrifica troppo.
+3) Scena dove affronta la domanda: "Chi sono io se non sono il suo salvatore?"`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-078",
-    title: "Personaje que quiere aprender a sentir de nuevo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Trauma emocional que apagó sus emociones.",
-    prompt: `Dame:
-- Qué lo desconectó emocionalmente.
-- Qué emoción extraña más.
-- Quién intenta ayudarlo.
-
-Genera:
-1) Su mundo emocional apagado.
-2) 3 momentos donde algo dentro de él intenta despertar.
-3) Escena donde siente algo por primera vez en años.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-079",
-    title: "Personaje que protege a otros ocultando su propia debilidad",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "El protector herido que finge fuerza.",
-    prompt: `Dame:
-- Qué debilidad oculta.
-- A quién protege.
-- Qué pasaría si lo vieran vulnerable.
+{
+  id: "personajes-063",
+  title: "Persona che pensa di essere un mostro, anche se non è un mostro",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Auto-percezione distorta, trauma e ombre interne.",
+  prompt: `Dammi...
+- Perche' pensa di essere un mostro.
+- No. Quello che ha fatto o pensa di aver fatto.
+- No. Questo lo rende davvero umano.
 
 Genera:
-1) Su máscara de fortaleza.
-2) 3 momentos donde casi descubren su fragilidad.
-3) Escena donde debe revelar la verdad para salvar a alguien.`,
-    thumbnail: "",
-  },
+1) La sua ombra psicologica.
+2) 3 scene in cui si comporta come un mostro... ma con bontà sotto.
+3) Tempo in cui qualcuno lo vede come è realmente.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-080",
-    title: "Personaje que vive atrapado entre lo que quiere y lo que debe ser",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Conflicto entre deseo personal y rol social impuesto.",
-    prompt: `Dame:
-- Qué quiere realmente.
-- Qué debe ser según su entorno.
-- Qué consecuencia tendría elegir el deseo.
-
-Genera:
-1) Su conflicto interno profundo.
-2) 3 escenas donde su rol y su deseo chocan.
-3) Escena final de elección devastadora o liberadora.`,
-    thumbnail: "",
-  },
-  {
-    id: "personajes-081",
-    title: "Personaje que vive resentido con el destino",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que siente que el universo le debe algo.",
-    prompt: `Dame:
-- Qué siente que el destino le arrebató.
-- En qué momento empezó su resentimiento.
-- Qué aún desea recuperar.
+{
+  id: "personajes-064",
+  title: "Carattere luminoso che nessuno prende sul serio",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Genialità ignorata, frustrazione e ostinazione.",
+  prompt: `Dammi...
+- No. Di cosa e' geniale.
+- Chi lo sottovaluta.
+- No. Questo lo spinge a seguire.
 
 Genera:
-1) Su relación con la idea de “destino”.
-2) 3 acciones impulsadas por rencor profundo.
-3) Escena donde enfrenta la verdad: ¿el destino lo traicionó o él mismo?`,
-    thumbnail: "",
-  },
+1) La sua lotta contro la mediocrità degli altri.
+2) 3 momenti in cui mostra il suo genio, ma lo ignorano.
+3) Scena dove qualcuno finalmente lo riconosce... o lo ignora di nuovo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-082",
-    title: "Personaje que ayuda a todos para no enfrentar su vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "El salvador compulsivo que evita su propio vacío.",
-    prompt: `Dame:
-- Qué evita en su vida.
-- A quién ayuda obsesivamente.
-- Qué teme enfrentar.
-
-Genera:
-1) Su compulsión por arreglar vidas ajenas.
-2) 3 escenas donde da demasiado.
-3) Momento donde alguien lo confronta: “¿Quién te ayuda a ti?”`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-083",
-    title: "Personaje que solo existe en los recuerdos de otro",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Personaje metafórico o simbólico.",
-    prompt: `Dame:
-- Quién lo recuerda.
-- Qué relación tenían.
-- Qué versión distorsionada existe de él en la memoria.
+{
+  id: "personajes-065",
+  title: "Carattere che scappa da qualcosa che non capisce completamente",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Viene da un pericolo astratto o sconosciuto.",
+  prompt: `Dammi...
+- Chi lo sta cercando.
+- No. Cosa pensi che sia?
+- No. Che cosa è veramente.
 
 Genera:
-1) Su identidad basada en recuerdos ajenos.
-2) 3 recuerdos contradictorios.
-3) Escena donde la verdad sale a la luz.`,
-    thumbnail: "",
-  },
+1) La sua paranoia incompleta.
+2) 3 momenti in cui il pericolo si avvicina.
+3) Rivelazione finale che cambia tutto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-084",
-    title: "Personaje que teme que la felicidad sea una trampa",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Trauma emocional que le impide confiar en lo bueno.",
-    prompt: `Dame:
-- Qué felicidad reciente experimentó.
-- Qué pérdida anterior lo marcó.
-- Qué señal percibe como amenaza.
-
-Genera:
-1) Su paranoia ante lo positivo.
-2) 3 momentos donde interpreta el amor como peligro.
-3) Escena donde debe decidir confiar o huir.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-085",
-    title: "Personaje que no cree merecer perdón",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Culpa profunda, real o imaginada.",
-    prompt: `Dame:
-- Qué hizo.
-- A quién dañó.
-- Por qué cree que el perdón es imposible.
+{
+  id: "personajes-066",
+  title: "Persona che rifiuta il potere che tutti vogliono che io usi",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio di talento o potente che ha paura di usare.",
+  prompt: `Dammi...
+- No. Che potere è.
+- Perché lo rifiuta.
+- No. Cosa ti chiedono gli altri?
 
 Genera:
-1) Su identidad marcada por culpa.
-2) 3 intentos fallidos de redención.
-3) Escena donde enfrenta el perdón… o la condena.`,
-    thumbnail: "",
-  },
+1) La sua resistenza interna.
+2) 3 pressioni esterne sempre più intense.
+3) Scena dove si utilizza il potere prima... o distruggerlo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-086",
-    title: "Personaje que no sabe si es el villano o el héroe",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Ambigüedad moral absoluta.",
-    prompt: `Dame:
-- Qué acción ambigua cometió.
-- Qué cree la gente.
-- Qué cree él.
-
-Genera:
-1) Su dilema moral.
-2) 3 escenas donde se comporta heroico y cruel al mismo tiempo.
-3) Final donde el lector decide quién es.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-087",
-    title: "Personaje que intenta revivir un momento que ya no existe",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Obsesión nostálgica destructiva.",
-    prompt: `Dame:
-- Qué momento fue.
-- Por qué no puede superarlo.
-- Qué hace para recrearlo.
+{
+  id: "personajes-067",
+  title: "Carattere che nasconde il suo dolore con umorismo",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Il triste, sarcastico, o pagliaccio brillante.",
+  prompt: `Dammi...
+- No. Che dolore.
+- No. Che tipo di umorismo usi.
+- Chi sospetta che non sia giusto.
 
 Genera:
-1) Su adicción a la nostalgia.
-2) 3 intentos fallidos de recreación.
-3) Momento donde acepta el duelo… o se hunde más.`,
-    thumbnail: "",
-  },
+1) La sua maschera umoristica.
+2) 3 battute o battute che rivelano la loro vera ferita.
+3) Una scena in cui l'umore non lo salva più.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-088",
-    title: "Personaje que se convierte en lo que prometió destruir",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Ironía trágica y evolución oscura.",
-    prompt: `Dame:
-- Qué juró destruir.
-- Por qué.
-- Qué lo hace caer en ello.
-
-Genera:
-1) Su hipocresía involuntaria.
-2) 3 escenas donde cruza líneas.
-3) Momento donde alguien le recuerda su promesa original.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-089",
-    title: "Personaje que no puede dejar de buscar la verdad, aunque duela",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Investigador obsesivo, periodista, detective o similar.",
-    prompt: `Dame:
-- Qué verdad busca.
-- Por qué se volvió obsesión.
-- Qué perderá si la encuentra.
+{
+  id: "personajes-068",
+  title: "Persona che scopre che chi ama è sbagliato",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Crisi morale quando scopri la verità sul tuo popolo.",
+  prompt: `Dammi...
+- No. Che verità trova.
+- Quello che pensavo prima.
+- No. Cosa significano quelle persone per lui?
 
 Genera:
-1) Su compulsión por conocer todo.
-2) 3 escenas donde la verdad lo hiere.
-3) Final donde decide revelar o silenciar la verdad.`,
-    thumbnail: "",
-  },
+1) Il suo primo conflitto morale.
+2) 3 scene di progressiva delusione.
+3) La scena in cui decide di confrontarsi, di chiudere o di andarsene.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-090",
-    title: "Personaje que tiene miedo de ser olvidado",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que lucha contra la insignificancia.",
-    prompt: `Dame:
-- Qué lo hace sentir invisible.
-- Qué logro desea ser recordado por.
-- Quién actúa como su espejo.
-
-Genera:
-1) Su miedo al olvido.
-2) 3 momentos donde hace cosas solo para ser visto.
-3) Escena donde enfrenta su verdadera relevancia.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-091",
-    title: "Personaje que quiere destruir todo lo que ama para no sufrirlo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Mecanismo de defensa extremo.",
-    prompt: `Dame:
-- Qué teme perder.
-- Qué destruye primero.
-- Qué lo gatilla emocionalmente.
+{
+  id: "personajes-069",
+  title: "Persona troppo stanca per rimanere un eroe",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un eroe emotivamente esausta e impotente.",
+  prompt: `Dammi...
+- No. Che l'ha esaurita.
+- No. Che responsabilità.
+- No. Quello che si aspetta ancora da se stesso.
 
 Genera:
-1) Su lógica del autosabotaje.
-2) 3 destrucciones simbólicas.
-3) Momento donde decide si destruye o salva lo que queda.`,
-    thumbnail: "",
-  },
+1) La sua usura fisica ed emotiva.
+2) 3 momenti in cui quasi si dimise.
+3) Scena dove si trova un motivo finale da seguire... o decidere di fermarsi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-092",
-    title: "Personaje que se inventa versiones de sí mismo para cada persona",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Identidad fracturada y camaleónica.",
-    prompt: `Dame:
-- Su versión pública.
-- Su versión íntima.
-- Su versión secreta.
-
-Genera:
-1) Cómo actúa con cada persona.
-2) 3 momentos donde sus versiones chocan.
-3) Escena donde sus máscaras se rompen todas a la vez.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-093",
-    title: "Personaje que ama a alguien que nunca existió realmente",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Idealización absoluta de un ser imaginado o reconstruido.",
-    prompt: `Dame:
-- Quién cree que es.
-- Quién era de verdad.
-- Qué verdad evita aceptar.
+{
+  id: "personajes-070",
+  title:
+  "Una persona che vive come se avesse una seconda possibilità... anche se nessuno gliel'ha data",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Reinvenzione radicale senza spiegazione esterna.",
+  prompt: `Dammi...
+- No. Che vita ha lasciato.
+- No. Che vita ha scelto adesso.
+- No. Questo lo ha portato a quel cambiamento.
 
 Genera:
-1) Su amor ilusorio.
-2) 3 contradicciones entre la realidad y su fantasía.
-3) Escena donde el espejismo se rompe.`,
-    thumbnail: "",
-  },
+1) Il loro conflitto tra passato e presente.
+2) 3 momenti in cui il passato torna per esso.
+3) Scena dove devi dimostrare chi sei ora.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-094",
-    title: "Personaje que cambia de moral según quién lo mire",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Ambigüedad social influenciable.",
-    prompt: `Dame:
-- Qué principio dice defender.
-- Qué persona influye en él.
-- Qué momento clave lo moldeó.
-
-Genera:
-1) Su moral moldeable.
-2) 3 escenas donde cambia según la compañía.
-3) Momento donde debe elegir una moral definitiva.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-095",
-    title: "Personaje que vive en negación absoluta",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Se niega a ver una verdad obvia para todos excepto él.",
-    prompt: `Dame:
-- Qué verdad rechaza.
-- Por qué es insoportable.
-- Quién intenta abrirle los ojos.
+{
+  id: "personajes-071",
+  title: "Una persona che può mentire troppo bene",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un bugiardo brillante, pericoloso o affascinante.",
+  prompt: `Dammi...
+- Perché ha imparato a mentire.
+- No. Quello che hai.
+- No. Cosa stai cercando di nascondere?
 
 Genera:
-1) Su mecanismo de negación.
-2) 3 momentos donde la verdad intenta entrar.
-3) Escena donde se rompe la negación.`,
-    thumbnail: "",
-  },
+1) La sua psicologia dell'inganno.
+2) 3 padrone sta con conseguenze.
+3) Il momento in cui prima dice la verità.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-096",
-    title: "Personaje que tiene un talento que arruina su vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un talento que se convierte en maldición.",
-    prompt: `Dame:
-- Qué talento es.
-- Cómo lo perjudica.
-- Quién lo exige o explota.
-
-Genera:
-1) Su relación amor-odio con su talento.
-2) 3 escenas donde su don lo destruye.
-3) Escena decisiva donde renuncia o lo abraza.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-097",
-    title: "Personaje que no soporta que lo amen",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que empuja a todos lejos por miedo a ser visto.",
-    prompt: `Dame:
-- Qué lo hace rechazar el amor.
-- Qué herida original tiene.
-- Quién intenta amarlo.
+{
+  id: "personajes-072",
+  title:
+  "Carattere la cui bontà è vista come debolezza... finché non cessa di essere",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "La gentilezza strategica, inaspettata e potente.",
+  prompt: `Dammi...
+- No. Perché è buono.
+- Chi se ne approfitta.
+- No. Che linea che non attraversa.
 
 Genera:
-1) Su miedo a la intimidad.
-2) 3 momentos donde huye del amor.
-3) Escena donde permite ser amado por primera vez… o destruye la relación.`,
-    thumbnail: "",
-  },
+1) Come minimizzano.
+2) 3 scene in cui la sua bontà sembra debole.
+3) Scena dove si dimostra più forte di quanto sembri.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-098",
-    title: "Personaje que vive bajo una mentira familiar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un secreto familiar que sostiene su identidad.",
-    prompt: `Dame:
-- La mentira.
-- Quién la creó.
-- Qué pasaría si se descubre.
-
-Genera:
-1) Su vida basada en ficción.
-2) 3 pistas crecientes sobre la verdad.
-3) Momento donde toda la estructura familiar colapsa.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-099",
-    title: "Personaje que nunca aprendió a decir 'no'",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "El complaciente eterno que se destruye por dentro.",
-    prompt: `Dame:
-- A quién no puede decirle no.
-- Qué consecuencia tiene.
-- Qué miedo lo detiene.
+{
+  id: "personajes-073",
+  title: "Una persona che cerca vendetta ma non ricorda più perché",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Motivazione persa, ossessione vuota.",
+  prompt: `Dammi...
+- No. Qual era la vendetta.
+- L'ha dimenticato.
+- No. Questo continua a cercarlo.
 
 Genera:
-1) Su compulsión de complacer.
-2) 3 momentos donde sacrifica demasiado.
-3) Escena donde por primera vez dice “no” y todo cambia.`,
-    thumbnail: "",
-  },
+1) La tua ossessione vuota.
+2) 3 scene dove dubitate di voi stessi.
+3) Finale dove si trova la verità o cadere nel nichilismo totale.`,
+  thumbnail: ""
+},
 
-  {
-    id: "personajes-100",
-    title: "Personaje que descubre que su mayor enemigo siempre fue él mismo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Autodestrucción interna, traumas y revelación final.",
-    prompt: `Dame:
-- Qué creía que era su enemigo externo.
-- Qué verdad descubre.
-- Qué parte de él lo saboteaba.
+{
+  id: "personajes-074",
+  title: "Persona che ama l'idea di qualcuno più della persona reale",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Idealizzazione romantica portata alla fine.",
+  prompt: `Dammi...
+- Chi e' la persona vera.
+- No. Che tratto idealizzato.
+- No. Che realtà ignora.
 
 Genera:
-1) Su viaje de autodescubrimiento oscuro.
-2) 3 escenas donde su enemigo interno actúa sin que él lo note.
-3) Final revelador donde se enfrenta a sí mismo literalmente o metafóricamente.`,
-    thumbnail: "",
-  },
-];
+1) Il suo amore illusorio.
+2) 3 segni che mostrano che l'idealizzazione è falsa.
+3) Scena dove l'illusione crolla.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-075",
+  title: "Persona che dice sempre la verità... anche se distrugge tutto",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "L'onestà brutale come una spada a doppio taglio.",
+  prompt: `Dammi...
+- Perche' odi mentire.
+- Chi ha già fatto del male con la sua sincerità.
+- No. Che paura accadrà.
+
+Genera:
+1) La sua filosofia di verità assoluta.
+2) 3 momenti in cui la loro sincerità provoca danni.
+3) Scena dove si dovrebbe scegliere tra verità o amore.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-076",
+  title: "Persona che ha paura di diventare ciò che odia",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Paura di ripetere modelli familiari o storici.",
+  prompt: `Dammi...
+- No. Quello che odia.
+- Chi lo rappresenta nella sua vita.
+- No. Quali segni si mostrano già di diventare lo stesso.
+
+Genera:
+1) La sua paranoia di ripetizione.
+2) 3 momenti in cui ha quasi attraversato il limite.
+3) Scena dove si riconosce se è già stato trasformato o può ancora essere fermato.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-077",
+  title: "Persona che pensa di essere un cattivo",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Profezia, trauma o convinzione autocostruita.",
+  prompt: `Dammi...
+- Perche' pensi che sara' un cattivo?
+- No. Che segno lo hai convinto.
+- No. Che lotta interna che hai.
+
+Genera:
+1) La sua identità è rotta.
+2) 3 scene di tentazione alle tenebre.
+3) Finale dove la vostra destinazione è confermata o rotta.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-078",
+  title: "Persona che vuole imparare a sentirsi di nuovo",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Trauma emotivo che ha spento le tue emozioni.",
+  prompt: `Dammi...
+- No. Che l'ha staccata emotivamente.
+- No. Che strana emozione.
+- Chi sta cercando di aiutarlo.
+
+Genera:
+1) Il tuo mondo emotivo è spento.
+2) 3 momenti in cui qualcosa dentro di lui cerca di svegliarsi.
+3) Scena dove si sente qualcosa per la prima volta in anni.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-079",
+  title: "Personaggio che protegge gli altri nascondendo la propria debolezza",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Il protettore ferito che finge la forza.",
+  prompt: `Dammi...
+- No. Che debolezza nascosta.
+- Chi protegge.
+- No. E se lo vedessero vulnerabile.
+
+Genera:
+1) La sua maschera di fortezza.
+2) 3 momenti in cui hanno quasi scoperto la loro fragilità.
+3) Scena dove si deve rivelare la verità per salvare qualcuno.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-080",
+  title: "Una persona che vive intrappolata tra quello che vuole e quello che deve essere",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Conflitto tra il desiderio personale e il ruolo sociale imposto.",
+  prompt: `Dammi...
+- No. Quello che vuole davvero.
+- No. Che cosa dovrebbe essere secondo il vostro ambiente.
+- No. Quale conseguenza dovrebbe scegliere il desiderio.
+
+Genera:
+1) Il tuo profondo conflitto interno.
+2) 3 scene in cui il loro ruolo e desiderio si scontrano.
+3) scena finale di scelta devastante o liberante.`,
+  thumbnail: ""
+},
+{
+  id: "personajes-081",
+  title: "Persona che vive in risentimento con il destino",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio che pensa che l'universo gli debba qualcosa.",
+  prompt: `Dammi...
+- No. Come ci si sente che il destino l'ha preso.
+- No. A che punto iniziò il suo risentimento.
+- No. Quello che vuoi ancora tornare.
+
+Genera:
+1) Il vostro rapporto con l'idea di "destiny".
+2) 3 azioni guidate da rancore profondo.
+3) Scena dove affronta la verità: il destino lo tradisce o se stesso?`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-082",
+  title: "Personaggio che aiuta tutti a non affrontare la loro vita",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Il salvatore compulsivo che evita il proprio vuoto.",
+  prompt: `Dammi...
+- No. Quello che sta evitando nella sua vita.
+- Che aiuti ossessivamente.
+- No. Cosa hai paura di affrontare?
+
+Genera:
+1) La sua costrizione a riparare la vita di altre persone.
+2) 3 scene in cui dà troppo.
+3) Un momento in cui qualcuno lo affronta: "Chi ti aiuta?"`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-083",
+  title: "Carattere che esiste solo nei ricordi di un altro",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Carattere metaforico o simbolico.",
+  prompt: `Dammi...
+- Chi se lo ricorda.
+- No. Avevano una relazione.
+- No. Che versione distorta di esso esiste in memoria.
+
+Genera:
+1) La sua identità basata sui ricordi di altre persone.
+2) 3 memorie contraddittorie.
+3) Scena dove esce la verità.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-084",
+  title: "Persona che teme che la felicità sarà una trappola",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Trauma emotivo che ti impedisce di fidarti del bene.",
+  prompt: `Dammi...
+- No. Che felicità recente ha sperimentato.
+- No. Che perdita precedente ha segnato.
+- No. Che segno percepisce come una minaccia.
+
+Genera:
+1) La sua paranoia al positivo.
+2) 3 momenti in cui si interpreta l'amore come pericolo.
+3) Scena dove si deve decidere di fidarsi o fuggire.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-085",
+  title: "Persona che non pensa di meritare il perdono",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Profonda, vera o immaginata colpa.",
+  prompt: `Dammi...
+- No. Cos'ha fatto?
+- Chi ha fatto male.
+- Perché pensi che il perdono sia impossibile.
+
+Genera:
+1) La sua identità segnata dal senso di colpa.
+2) 3 tentativi falliti di redenzione.
+3) Scena dove si affronta il perdono... o la condanna.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-086",
+  title: "Persona che non sa se è il cattivo o l'eroe",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Assoluta ambiguità morale.",
+  prompt: `Dammi...
+- No. Che azione ambigua ha commesso.
+- No. Quello che la gente pensa.
+- No. Quello che pensa.
+
+Genera:
+1) Il suo dilemma morale.
+2) 3 scene in cui si comporta eroico e crudele allo stesso tempo.
+3) Finale dove il lettore decide chi è.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-087",
+  title: "Persona che cerca di ravvivare un momento che non esiste più",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Ossessione nostalgica distruttiva.",
+  prompt: `Dammi...
+- No. Che momento.
+- Perche' non puo' superarlo?
+- No. Cosa fai per ricrearlo?
+
+Genera:
+1) La sua dipendenza dalla nostalgia.
+2) 3 tentativi ricreativi falliti.
+3) Tempo quando accetti il duello... o affonda di più.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-088",
+  title: "Persona che diventa ciò che ha promesso di distruggere",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Tragica ironia e oscura evoluzione.",
+  prompt: `Dammi...
+- No. Quello che ha giurato di distruggere.
+- Perché?
+- No. Ciò che lo fa cadere in esso.
+
+Genera:
+1) La sua ipocrisia involontaria.
+2) 3 scene in cui si attraversano le linee.
+3) Tempo in cui qualcuno ti ricorda la tua promessa originale.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-089",
+  title: "Persona che non può smettere di cercare la verità, anche se fa male",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Ricercatore ossessivo, giornalista, detective o simile.",
+  prompt: `Dammi...
+- No. Che verità stai cercando.
+- Perché è diventato ossessionato.
+- No. Quello che perderai se la troverai.
+
+Genera:
+1) La sua costrizione a conoscere tutto.
+2) 3 scene in cui la verità gli fa male.
+3) Finale dove si decide di rivelare o tacere la verità.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-090",
+  title: "Persona che ha paura di essere dimenticata",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio che combatte contro l'insegnanza.",
+  prompt: `Dammi...
+- No. Questo lo fa sentire invisibile.
+- No. Da che risultato vuoi essere ricordato.
+- Che si comporta come il suo specchio.
+
+Genera:
+1) La sua paura dell'oblio.
+2) 3 momenti in cui fate le cose solo da vedere.
+3) Scena dove affronta la sua vera rilevanza.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-091",
+  title: "Persona che vuole distruggere tutto ciò che ama così non lo soffre",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Meccanismo di difesa estrema.",
+  prompt: `Dammi...
+- No. Ha paura di perdere.
+- No. Quello che distrugge prima.
+- Lascialo innescare emotivamente.
+
+Genera:
+1) La sua logica di auto-sabotaggio.
+2) 3 distruzione simbolica.
+3) Tempo quando si decide se distruggere o salvare ciò che è rimasto.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-092",
+  title: "Carattere che inventa versioni di se stesso per ogni persona",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "IdentitÃ frattura e camaleonica.",
+  prompt: `Dammi...
+- La tua versione pubblica.
+- La tua versione intima.
+- La tua versione segreta.
+
+Genera:
+1) Come funziona con ogni persona.
+2) 3 momenti in cui le loro versioni si scontrano.
+3) Scena dove le loro maschere si rompono tutti in una volta.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-093",
+  title: "Persona che ama qualcuno che non esisteva mai",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Idealizzazione assoluta di un essere immaginato o ricostruito.",
+  prompt: `Dammi...
+- Chi credi di essere.
+- Chi era davvero.
+- No. Che verità evita di accettare.
+
+Genera:
+1) Il suo amore illusorio.
+2) 3 contraddizioni tra la realtà e la sua fantasia.
+3) Scena dove il miraggio si rompe.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-094",
+  title: "Un personaggio che cambia morale secondo chi lo guarda",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Ambiguità sociale influente.",
+  prompt: `Dammi...
+- No. Che principio dice di difendere.
+- No. Che persona influenza.
+- No. Che momento chiave lo stampi.
+
+Genera:
+1) La sua morale modellante.
+2) 3 scene in cui cambia secondo la società.
+3) Tempo in cui si deve scegliere una morale definitiva.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-095",
+  title: "Persona che vive in assoluta negazione",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Si rifiuta di vedere una verità evidente per tutti tranne lui.",
+  prompt: `Dammi...
+- No. Che verità rifiuta.
+- No. Perché è insopportabile.
+- Chi sta cercando di aprire gli occhi.
+
+Genera:
+1) Il suo meccanismo di negazione.
+2) 3 momenti in cui la verità cerca di entrare.
+3) Scena dove la negazione è rotta.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-096",
+  title: "Persona che ha un talento che rovina la sua vita",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un talento che diventa una maledizione.",
+  prompt: `Dammi...
+- No. E' cosi' talento.
+- Come fa male.
+- Chi lo richiede o lo sfrutta.
+
+Genera:
+1) La tua relazione d'amore - Odio il tuo talento.
+2) 3 scene in cui il suo dono lo distrugge.
+3) Scena decisa dove rinuncia o lo abbraccia.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-097",
+  title: "Persona che non sopporta di essere amata",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un personaggio che allontana tutti per paura di essere visto.",
+  prompt: `Dammi...
+- No. Questo lo fa rifiutare l'amore.
+- No. Che ferita originale hai.
+- Chi sta cercando di amarlo.
+
+Genera:
+1) La sua paura di intimità.
+2) 3 momenti in cui corre dall'amore.
+3) Scena dove si può essere amati per la prima volta... o distruggere il rapporto.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-098",
+  title: "Persona che vive sotto una menzogna di famiglia",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Un segreto di famiglia che tiene la sua identità.",
+  prompt: `Dammi...
+- La bugia.
+- Chi l'ha creato.
+- No. E se lo scoprisse.
+
+Genera:
+1) La sua vita basata sulla finzione.
+2) 3 indizi crescenti alla verità.
+3) Tempo in cui l'intera struttura familiare crolla.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-099",
+  title: "Persona che non ha mai imparato a dire 'no '",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "L'eterno compiacente che viene distrutto dentro.",
+  prompt: `Dammi...
+- Chi non può dirti di no.
+- No. Che conseguenza.
+- No. E' cosi' spaventoso.
+
+Genera:
+1) La vostra costrizione a piacere.
+2) 3 momenti in cui sacrifica troppo.
+3) Scena dove per la prima volta dice "no" e tutto cambia.`,
+  thumbnail: ""
+},
+
+{
+  id: "personajes-100",
+  title: "Persona che scopre che il suo più grande nemico era sempre se stesso",
+  area: "Scrittura creativa",
+  category: "Caratteri",
+  summary: "Autodistruzione interna, trauma e rivelazione finale.",
+  prompt: `Dammi...
+- No. Quello che pensava fosse il suo nemico esterno.
+- No. Che verità trova.
+- No. Che parte di lui l'ha sabotato.
+
+Genera:
+1) Il vostro viaggio di scoperta di sé oscura.
+2) 3 scene in cui il suo nemico interiore agisce senza di lui notando.
+3) fine di divulgazione dove si affronta letteralmente o metaforicamente.`,
+  thumbnail: ""
+}];

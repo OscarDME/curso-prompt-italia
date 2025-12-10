@@ -1,503 +1,502 @@
 // src/lib/prompts/text/programacion-ti-otros.js
 
 export const textPromptsProgramacionTiOtros = [
-  {
-    id: "proti-otr-001",
-    title: "Diagnóstico rápido de bug (pasos, hipótesis y fix)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Estructura un plan profesional para encontrar y arreglar un bug sin perder tiempo.",
-    prompt: `Actúa como ingeniero senior debugging.
+{
+  id: "proti-otr-001",
+  title: "Diagnosi rapida dei bug (passi, ipotesi e correzione)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Struttura un piano professionale per trovare e risolvere un bug senza perdere tempo.",
+  prompt: `Agisce come un ingegnere di debug senior.
 
-Inputs:
-- Síntoma exacto (qué se ve).
-- Cuándo ocurre (rutas, usuarios, dispositivos).
-- Logs/errores (si hay).
-- Qué cambió recientemente.
-
-Genera:
-1) 10 hipótesis priorizadas (más probable → menos).
-2) Qué evidencia confirmaría/refutaría cada hipótesis.
-3) Plan de reproducción mínima (minimal repro).
-4) Instrumentación útil (logs, traces, flags) y dónde ponerla.
-5) Fix propuesto con riesgos y rollback.
-6) Tests para evitar regresión.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-002",
-    title: "Optimización de rendimiento (p95/p99) con plan medible",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Reduce latencia identificando cuellos de botella y aplicando mejoras con métricas.",
-    prompt: `Actúa como performance engineer.
-
-Inputs:
-- Sistema afectado (API, web, job).
-- Métricas actuales (p50/p95/p99, RPS).
-- Costos (CPU/RAM/DB/IO).
-- Restricciones (serverless, DB compartida, etc.).
+Ingressi:
+- Sintesi esatta (cosa vedi).
+- No. Quando accade (routes, utenti, dispositivi).
+- Log / errori (se presenti).
+- No. Quello che è cambiato di recente.
 
 Genera:
-1) Mapa de la ruta crítica (etapas y tiempos).
-2) Top 8 causas probables y cómo medir cada una.
-3) Plan de optimización por impacto/risgo.
-4) Cambios concretos (caching, indices, batching, streaming, etc.).
-5) Metas objetivo (antes/después) y cómo validar.
-6) Plan de rollback + checklist de regresión.`,
-    thumbnail: "",
-  },
+1) 10 scenari prioritari (più probabilmente → meno).
+2) Quali prove confermerebbe / confutare ogni ipotesi.
+3) Piano di riproduzione minimo (minimo repro).
+4) strumentazione utile (log, tracce, lags) e dove metterlo.
+5) Corretto proposto con rischi e rollback.
+6) Test per evitare la regressione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-003",
-    title: "Revisión de PR como tech lead (calidad + seguridad)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Checklist para revisar pull requests sin dejar huecos.",
-    prompt: `Actúa como tech lead revisando un PR.
+{
+  id: "proti-otr-002",
+  title: "Ottimizzazione delle prestazioni (p95 / p99) con piano misurabile",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Riduce la latenza identificando i colli della bottiglia e applicando miglioramenti con le metriche.",
+  prompt: `Agisce come ingegnere delle prestazioni.
 
-Inputs:
-- Descripción del PR.
-- Archivos tocados.
-- Riesgo (alto/medio/bajo).
-- Contexto del feature.
-
-Genera:
-1) Preguntas clave a responder (propósito, impacto, tradeoffs).
-2) Checklist: correctness, edge cases, seguridad, performance.
-3) Lista de comentarios exactos (tipo “nit”, “blocking”, “suggestion”).
-4) Pruebas mínimas a exigir (unit/integration/e2e).
-5) Señales de deuda técnica y cómo mitigar.
-6) “Approved if” condiciones claras.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-004",
-    title: "Diseño de base de datos (schema + índices + migraciones)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Modela datos con integridad, performance y evolución en mente.",
-    prompt: `Actúa como arquitecto de datos.
-
-Inputs:
-- Entidades y relaciones.
-- Consultas críticas (top 10 queries).
-- Volumen esperado (mes 1, mes 12).
-- DB (Postgres/MySQL/Mongo).
+Ingressi:
+- Sistema interessato (API, web, job).
+- Tecniche attuali (p50 / p95 / p99, RPS).
+- Costi (CPU / RAM / DB / IO).
+- Restrizioni (serverless, DB condiviso, ecc.).
 
 Genera:
-1) Schema propuesto (tablas/colecciones + campos).
-2) Claves primarias/foráneas y constraints.
-3) Índices recomendados por query crítica.
-4) Estrategia de migración (pasos, online migrations si aplica).
-5) Política de borrado (soft delete vs hard) y auditoría.
-6) Tests de integridad y performance.`,
-    thumbnail: "",
-  },
+1) Mappa del percorso critico (staggi e tempi).
+2) Top 8 cause probabili e come misurare ciascuno.
+3) Piano di ottimizzazione di impatto / rischio.
+4) Modifiche specifiche (caching, indicatori, batching, streaming, ecc.).
+5) Target target (prima / dopo) e come convalidare.
+6) Piano di controllo Rollback + regressione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-005",
-    title: "Plan de monitoreo y alertas (SRE básico, práctico)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Define qué medir y cuándo alertar sin spam.",
-    prompt: `Actúa como SRE.
+{
+  id: "proti-otr-003",
+  title: "Recensione di PR come tech lead (qualità + sicurezza)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Lista di controllo per controllare le richieste di pull senza lasciare lacune.",
+  prompt: `Agisce come una guida tecnologica esaminando una PR.
 
-Inputs:
-- App (web/api/worker).
-- SLAs/SLOs (si existen).
-- Puntos críticos (pagos, login, checkout).
-- Stack (Vercel, AWS, etc).
-
-Genera:
-1) Golden signals: latencia, tráfico, errores, saturación.
-2) Métricas específicas por componente (DB, cache, colas).
-3) Alertas (umbral + ventana + severidad) con ejemplos.
-4) Dashboards mínimos (qué gráficas).
-5) Logs y trazas: qué campos incluir (traceId, userId, requestId).
-6) Runbook corto por alerta (qué hacer primero).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-006",
-    title: "Seguridad práctica: hardening de app web/APIs",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Checklist accionable para evitar los errores más comunes.",
-    prompt: `Actúa como AppSec engineer.
-
-Inputs:
-- Tipo de app (Next.js, API, mobile).
-- Auth usado (cookies/JWT/OAuth).
-- Datos sensibles (qué guardas).
-- Superficie pública (endpoints, uploads).
+Ingressi:
+- Descrizione del PR.
+- I file giocati.
+- Rischio (alto / medio / basso).
+- Contesto della funzione.
 
 Genera:
-1) Top riesgos aplicados a mi caso (IDOR, XSS, CSRF, SSRF, etc.).
-2) Controles concretos por riesgo (validaciones, headers, policies).
-3) Reglas de secretos (rotación, env vars, no loggear).
-4) Protecciones para uploads y endpoints caros.
-5) Checklist para despliegue (CSP, HSTS, rate limits).
-6) Tests o herramientas (linting/DAST/SAST) recomendados.`,
-    thumbnail: "",
-  },
+1) Domande chiave da rispondere (purpose, impatto, tradeoffs).
+2) Elenco di controllo: correttezza, casi di bordo, sicurezza, prestazioni.
+3) Elenco dei commenti esatti (tipo "nit", "blocking", "suggestion").
+4) Test minimi da richiedere (unità / integrazione / e2e).
+5) Segnali tecnici del debito e come mitigare.
+6) "Approvata se" condizioni chiare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-007",
-    title: "Estrategia de caching (CDN, server, client) sin romper datos",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Acelera sin servir información vieja o privada por error.",
-    prompt: `Actúa como arquitecto performance.
+{
+  id: "proti-otr-004",
+  title: "Database design (schema + indici + migrazione)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Modelli dati con integrità, prestazioni ed evoluzione in mente.",
+  prompt: `Agisce come architetto di dati.
 
-Inputs:
-- Qué quieres cachear (HTML, API, imágenes).
-- Frecuencia de cambios.
-- Sensibilidad (público/privado).
-- Infra (CDN, Redis, serverless).
-
-Genera:
-1) Qué cachear y dónde (CDN/server/client).
-2) TTL recomendado por tipo de contenido.
-3) Invalidación (cache busting, tags, purge).
-4) Headers (Cache-Control, Vary) con ejemplos.
-5) Riesgos (leaks, stale data) y mitigación.
-6) Plan de medición (hit ratio, p95).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-008",
-    title: "Plan de migración técnica (refactor grande sin apagar producción)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Divide un refactor grande en pasos seguros y deployables.",
-    prompt: `Actúa como tech lead.
-
-Inputs:
-- Qué se quiere migrar (framework, DB, auth, arquitectura).
-- Riesgo (alto/medio/bajo).
-- Ventana de cambios.
-- Equipo disponible.
+Ingressi:
+- Entità e relazioni.
+- Consultazioni critiche (top 10 reclami).
+- Volume previsto (mese 1, mese 12).
+- DB (Postgres / MySQL / Mongo).
 
 Genera:
-1) Enfoque (strangler fig, dual-write, feature flags).
-2) Fases de migración (milestones) con entregables.
-3) Señales de éxito por fase (métricas/QA).
-4) Plan de rollback.
-5) Comunicación y coordinación (quién valida qué).
-6) Checklist final antes de apagar lo viejo.`,
-    thumbnail: "",
-  },
+1) Schema proposto (tavole / collezioni + campi).
+2) chiavi e vincoli primari / stranieri.
+3) Indici consigliati da query critica.
+4) Strategia di migrazione (passi, migrazione online, se applicabile).
+5) Politica di smaltimento (soft delete vs hard) e audit.
+6) test di integrità e prestazioni.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-009",
-    title: "Diseño de arquitectura para feature (ADR rápido)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Documento corto para justificar decisiones técnicas.",
-    prompt: `Actúa como autor de un ADR (Architecture Decision Record).
+{
+  id: "proti-otr-005",
+  title: "Piano di monitoraggio e avviso (basic, pratico SRE)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Definire cosa misurare e quando avvisare senza spam.",
+  prompt: `Agite come SRE.
 
-Inputs:
+Ingressi:
+- App (web / api / lavoratore).
+- SLAs / SLOs (se presente).
+- Punti critici (pagamenti, login, checkout).
+- Stack (Vercel, AWS, ecc.).
+
+Genera:
+1) Segnali d'oro: latenza, traffico, errori, saturazione.
+2) Metalli specifici per componente (DB, cache, code).
+3) Avvisi (tenere + finestra + gravità) con esempi.
+4) Dashboard minimi (che grafica).
+5) Log e tracce: quali campi includere (traceId, userId, richiesta).
+6) Breve libro per avviso (cosa fare prima).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-006",
+  title: "Sicurezza pratica: indurimento web app / API",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "La lista di controllo può essere attivata per evitare gli errori più comuni.",
+  prompt: `Agisce come ingegnere dell'AppSec.
+
+Ingressi:
+- Tipo di app (Next.js, API, mobile).
+- Usato auth (cookies / JWT / OAuth).
+- Dati sensibili (quello che tieni).
+- Area pubblica (endpoint, upload).
+
+Genera:
+1) Principali rischi applicati al mio caso (IDOR, XSS, SSRF, SSRF, ecc.).
+2) Controlli specifici del rischio (validazioni, intestazioni, politiche).
+3) Regole di segreti (rotazione, inv vars, non loggear).
+4) Protezioni per upload e endpoint costosi.
+5) Lista di controllo per la distribuzione (CSP, HSTS, limiti di velocità).
+6) Test o strumenti consigliati (linting / DAST / SAST).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-007",
+  title: "Strategia di cache (CDN, server, client) senza rompere i dati",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Accelerare senza servire informazioni vecchie o private per errore.",
+  prompt: `Agisce come una performance di architetto.
+
+Ingressi:
+- No. Cosa vuoi cercare (HTML, API, immagini).
+- Frequenza dei cambiamenti.
+- Consapevolezza (pubblica / privata).
+- Infra (CDN, Reis, serverless).
+
+Genera:
+1) Cosa cercare e dove (CDN / server / client).
+2) TTL raccomandato per tipo di contenuto.
+3) Invalidazione (cache busting, tag, purge).
+4) Intestazioni (Cache-Control, Vary) con esempi.
+5) Rischi (leaks, dati stanti) e mitigazione.
+6) Piano di misura (tasso di frequenza, p95).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-008",
+  title: "Piano di migrazione tecnica (grande refattore senza spegnere la produzione)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Dividere un grande refactor in passi sicuri e deplorabili.",
+  prompt: `Comportati come un tecnico.
+
+Ingressi:
+- No. Ciò che si desidera migrare (framework, DB, auth, architettura).
+- Rischio (alto / medio / basso).
+- Cambia la finestra.
+- Attrezzatura disponibile.
+
+Genera:
+1) Avvicinamento (fico strangolato, doppia scrittura, bandiere di caratteristica).
+2) Tassi di migrazione (millestons) con consegnabili.
+3) Segnali di successo per fase (metrica / QA).
+4) Piano Rollback.
+5) Comunicazione e coordinamento (che valuta cosa).
+6) Elenco di controllo finale prima di spegnere il vecchio.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-009",
+  title: "Progettazione di architettura per caratteristiche (ADR veloce)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Breve documento per giustificare le decisioni tecniche.",
+  prompt: `Agisce come autore di un ADR (Architecture Decision Record).
+
+Ingressi:
 - Problema.
-- Opciones consideradas (A/B/C).
-- Restricciones (tiempo, costo, compatibilidad).
-- Requisitos no funcionales (perf, seguridad).
+- Opzioni considerate (A / B / C).
+- Restrizioni (tempo, costo, compatibilità).
+- Requisiti non funzionali (perf, sicurezza).
 
 Genera:
-1) Contexto y objetivo.
-2) Opciones + pros/contras.
-3) Decisión recomendada y por qué.
-4) Consecuencias y riesgos.
-5) Plan de implementación.
-6) Cómo medir que funcionó.`,
-    thumbnail: "",
-  },
+1) Contesto e obiettivo.
+2) Opzioni + pro / contro.
+3) Decisione raccomandata e perché.
+(4) Conseguenze e rischi.
+5) Piano di attuazione.
+6) Come misurarlo ha funzionato.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-010",
-    title: "Guía de logging: qué loggear y qué NO para debug real",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Logs útiles, consistentes y seguros (sin filtrar secretos).",
-    prompt: `Actúa como ingeniero senior.
+{
+  id: "proti-otr-010",
+  title: "Guida alla registrazione: cosa logger e cosa NON per il vero debug",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Utile, coerente e sicuro (segreti non filtrati) loghi.",
+  prompt: `Agisce come ingegnere senior.
 
-Inputs:
-- Tipo de servicio.
-- Errores comunes.
-- Datos sensibles (qué no se puede loggear).
-- Tooling (console, sentry, datadog, etc.).
-
-Genera:
-1) Campos estándar por log (level, requestId, userId, route, latency).
-2) Formato recomendado (JSON estructurado).
-3) Eventos clave a loggear (auth, pagos, errores, jobs).
-4) Redacción de datos sensibles (masking).
-5) Ejemplos de logs buenos y malos.
-6) Checklist para logs en producción.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-011",
-    title: "Testing strategy (unit/integration/e2e) realista por prioridad",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Construye una estrategia de tests con ROI alto.",
-    prompt: `Actúa como QA/tech lead.
-
-Inputs:
-- Tipo de app.
-- Flujos críticos (lista).
-- Stack de tests (si existe).
-- Tiempo disponible por semana.
+Ingressi:
+- Tipo di servizio.
+- Errori comuni.
+- Dati sensibili (che non possono essere registrati).
+- Strumenti (console, mittente, datadog, ecc.).
 
 Genera:
-1) Pirámide de tests adaptada a mi caso.
-2) Lista de 15 tests críticos (por flujo) con criterios.
-3) Qué mockear y qué NO mockear.
-4) Tests de contract (API) y snapshots si aplica.
-5) Pipeline CI (qué corre en PR vs nightly).
-6) Métricas de calidad (coverage útil, flaky rate).`,
-    thumbnail: "",
-  },
+1) Campi standard per log (livello, richiesta, uso, percorso, latenza).
+2) Formato consigliato (strutturato JSON).
+3) Eventi chiave per logger (auth, pagamenti, errori, lavori).
+(4) Dati sensibili (massaggio).
+5) Esempi di buon e cattivo login.
+6) Elenco di controllo per i registri di produzione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-012",
-    title: "Plan de CI/CD: pipeline simple pero sólido",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Automatiza builds, tests y deploy con gates claros.",
-    prompt: `Actúa como DevOps.
+{
+  id: "proti-otr-011",
+  title: "Strategia di test (unità / integrazione / e2e) realistica per priorità",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Costruire una strategia di test ROI elevata.",
+  prompt: `Agisce come QA / tech lead.
 
-Inputs:
-- Repo (monorepo sí/no).
-- Entornos (dev/staging/prod).
-- Herramienta (GitHub Actions, GitLab, etc.).
-- Requisitos (lint, tests, preview deploys).
-
-Genera:
-1) Pipeline recomendado paso a paso.
-2) Jobs y caches (node_modules, build cache).
-3) Gates para merge y release.
-4) Strategy de versionado y releases.
-5) Rollback plan y feature flags.
-6) Checklist de seguridad (secrets, permisos).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-013",
-    title: "Gestión de incidentes (postmortem sin culpas)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Estructura un postmortem con acciones reales.",
-    prompt: `Actúa como incident commander.
-
-Inputs:
-- Qué pasó (síntomas).
-- Duración del incidente.
-- Impacto (usuarios, $).
-- Línea del tiempo (eventos).
+Ingressi:
+- Tipo di app.
+- Flussi critici (elenco).
+- Mancanza di prove (se presenti).
+- Tempo disponibile a settimana.
 
 Genera:
-1) Resumen ejecutivo (1 párrafo).
-2) Timeline con horas/minutos.
-3) Root cause vs contributing factors.
-4) Qué detecciones fallaron (alertas, dashboards).
-5) Acciones correctivas (owner, prioridad, fecha).
-6) Mejoras de prevención y aprendizaje.`,
-    thumbnail: "",
-  },
+1) Piramide dei test adattati al mio caso.
+2) Elenco di 15 test critici (per flusso) con criteri.
+3) Che cosa spogliare e cosa non beccare.
+4) Test contrattuali (API) e snapshot se applicabili.
+5) Pipeline CI (che funziona in PR vs notte).
+6) Tecniche di qualità (copertura utile, tasso sfacciato).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-014",
-    title: "Estimación y plan de implementación (feature) con tareas claras",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Desglosa en tareas, riesgos, dependencias y entregables.",
-    prompt: `Actúa como tech lead planificando.
+{
+  id: "proti-otr-012",
+  title: "CI / CD plan: pipeline semplice ma solida",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Automatizza costruire, testare e distribuire con obiettivi chiari.",
+  prompt: `Comportati come DevOps.
 
-Inputs:
-- Feature description.
-- Restricciones (deadline, equipo).
-- Dependencias (APIs, DB, diseño).
-- Requisitos de calidad (tests, performance).
-
-Genera:
-1) Breakdown en tareas (frontend/backend/infra).
-2) Dependencias y bloqueos.
-3) Riesgos y mitigación.
-4) Estimación por tarea (t-shirt size + horas).
-5) Plan de release (staging, canary, flag).
-6) Definition of Done.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-015",
-    title: "Guía para documentación técnica (README + runbook)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Documenta de forma útil para ti y tu equipo futuro.",
-    prompt: `Actúa como technical writer.
-
-Inputs:
-- Proyecto.
-- Cómo se corre local.
-- Variables de entorno.
-- Deploy y operaciones.
+Ingressi:
+- Repo (monorep sì / no).
+- Ambiente (dev / staging / prod).
+- Strumento (GitHub Azioni, GitLab, ecc.).
+- Requisiti (lint, test, anteprima distribuisce).
 
 Genera:
-1) Estructura README ideal (secciones).
-2) Setup local paso a paso.
-3) Troubleshooting común (errores típicos).
-4) Runbook de producción (alertas y acciones).
+1) Pipeline consigliato passo dopo passo.
+2) Lavori e cache (ode _ moduli, costruire cache).
+3) Cancelli per fusione e rilascio.
+4) Versione strategia e versioni.
+5) Rollback piano e caratteristiche bandiere.
+6) Controllo di sicurezza (segreti, autorizzazioni).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-013",
+  title: "Gestione degli incidenti (post-mortem senza colpa)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Struttura un postmortem con azioni reali.",
+  prompt: `Agisce come comandante di incidente.
+
+Ingressi:
+- No. Quello che è successo (sintomi).
+- Durata dell'incidente.
+- Impatto (utenti, $).
+- Time line (eventi).
+
+Genera:
+1) Riepilogo esecutivo (1 paragrafo).
+2) Timeline con ore / minuti.
+3) Causa radice vs fattori di contributo.
+4) Quali rilevazioni sono fallite ( avvisi, dashboard).
+5) Azioni correttive (proprietario, priorità, data).
+6) Miglioramento della prevenzione e dell'apprendimento.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-014",
+  title: "Piano di valutazione e attuazione (funzione) con compiti chiari",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Sconti su compiti, rischi, dipendenze e consegnabili.",
+  prompt: `Comportati come la pianificazione dei lead.
+
+Ingressi:
+- Descrizione della caratteristica.
+- Restrizioni (Deadline, attrezzature).
+- Unità (API, DB, design).
+- Requisiti di qualità (test, prestazioni).
+
+Genera:
+(1) Ripartizione delle attività (fronte / retro / sotto).
+2) Dipendenze e blocchi.
+3) Rischi e mitigazione.
+4) Stime delle attività (taglietta + ore).
+5) Piano di rilascio (staging, Canary, Flag).
+6) Definizione di fatto.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-015",
+  title: "Guida documentazione tecnica (README + runbook)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Documento in modo utile per voi e il vostro team futuro.",
+  prompt: `Agisce come scrittore tecnico.
+
+Ingressi:
+- Progetto.
+- Come gestisci la locale.
+- Variabili ambientali.
+- Diploy e operazioni.
+
+Genera:
+1) Struttura ideale README (sezioni).
+2) Impostazione locale passo dopo passo.
+3) Risoluzione dei problemi comuni (errori fisici).
+4) Libro di produzione ( avvisi e azioni).
 5) Playbook de releases.
-6) Checklist para mantener docs actualizadas.`,
-    thumbnail: "",
-  },
+6) Elenco di controllo per mantenere i documenti aggiornati.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-016",
-    title: "Diseño de feature flags y experimentación (A/B) sin caos",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Lanza cambios gradualmente y mide impacto.",
-    prompt: `Actúa como ingeniero de plataforma.
+{
+  id: "proti-otr-016",
+  title: "Caratteristiche progettazione e sperimentazione (A / B) senza caos",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Lancia gradualmente i cambiamenti e misura l'impatto.",
+  prompt: `Agisce come ingegnere della piattaforma.
 
-Inputs:
-- Feature a controlar.
-- Segmentación (usuarios, % tráfico).
-- Métricas objetivo (conversión, errores).
-- Herramienta (si existe).
-
-Genera:
-1) Tipos de flags (release/ops/experiment).
-2) Naming convention y lifecycle.
-3) Reglas de targeting y rollout.
-4) Métricas y análisis A/B (qué medir).
-5) Plan de desactivación/cleanup.
-6) Riesgos comunes (flag debt) y mitigación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-017",
-    title: "Check de accesibilidad y UX técnica (web)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Mejora accesibilidad sin romper diseño ni performance.",
-    prompt: `Actúa como especialista en accesibilidad web.
-
-Inputs:
-- Página/flujo.
-- Componentes clave.
-- Framework (React/Next).
-- Problemas conocidos.
+Ingressi:
+- Caratteristica da controllare.
+- Segmentazione (utenti,% traffico).
+- Tecniche di destinazione (conversione, errori).
+- Strumento (se presente).
 
 Genera:
-1) Checklist WCAG práctico (keyboard, focus, labels, contrast).
-2) Cambios concretos en componentes.
-3) Reglas de ARIA (qué usar y qué evitar).
-4) Tests (manual + herramientas) y cómo ejecutarlos.
-5) Riesgos de regresión.
-6) Prioridad por impacto (alto/medio/bajo).`,
-    thumbnail: "",
-  },
+1) Tipi di lags (rilascio / operazioni / esperimento).
+2) Convegno di denominazione e ciclo di vita.
+3) Obiettivo e regole di rollout.
+(4) Analisi metrica e A / B (che misurare).
+5) Piano di disattivazione / pulizia.
+6) Rischi comuni (debito Flag) e mitigazione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-018",
-    title: "Refactor de código legacy (pasos seguros + pruebas)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Refactoriza sin miedo: primero pruebas, luego cambios pequeños.",
-    prompt: `Actúa como ingeniero senior.
+{
+  id: "proti-otr-017",
+  title: "Controllo di accessibilità e tecnico UX (web)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Migliorare l'accessibilità senza rompere il design o le prestazioni.",
+  prompt: `Agisce come specialista nell'accessibilità web.
 
-Inputs:
-- Archivo/área legacy.
-- Síntomas (difícil de cambiar, bugs, performance).
-- Tests existentes (sí/no).
-- Deadline.
-
-Genera:
-1) Estrategia de refactor (caracterización, golden master).
-2) Tests mínimos para actuar como red de seguridad.
-3) Secuencia de cambios pequeños (commit plan).
-4) Métricas para medir mejora (complejidad, cobertura, bugs).
-5) Señales para detener o revertir.
-6) Resultado final esperado (estructura/modularidad).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "proti-otr-019",
-    title: "Arquitectura de autenticación básica (cookies/JWT) para app web",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Implementa login simple pero seguro y mantenible.",
-    prompt: `Actúa como backend/frontend security engineer.
-
-Inputs:
-- Tipo de app (SPA + API, Next, etc.)
-- Tipo de login (email/password, magic link).
-- Requisitos (roles, sesión persistente).
-- Infra (serverless, db).
+Ingressi:
+- Pagina / flusso.
+- Componenti chiave.
+- Quadro (Riforma / Successivo).
+- Problemi noti.
 
 Genera:
-1) Flujo de login/logout/refresh.
-2) Cookies seguras (httpOnly, secure, sameSite) o JWT (tradeoffs).
-3) Middleware/guards (cómo proteger rutas).
-4) Manejo de sesión (expiración, revocación).
-5) Protección contra ataques comunes (CSRF, brute force).
-6) Tests mínimos y checklist para producción.`,
-    thumbnail: "",
-  },
+1) Pratico WCAG Checklist (tastiera, messa a fuoco, etichette, contrasto).
+2) Modifiche specifiche dei componenti.
+3) Regole ARIA (cosa usare e cosa evitare).
+4) Test (manuali + strumenti) e come eseguirli.
+5) Rischi di regressione.
+6) Priorità di impatto (alto / medio / basso).`,
+  thumbnail: ""
+},
 
-  {
-    id: "proti-otr-020",
-    title: "Checklist de deploy en producción (evitar caídas)",
-    area: "Programación & TI",
-    category: "Otros",
-    summary:
-      "Lista de verificación para lanzar sin romper ventas.",
-    prompt: `Actúa como release manager.
+{
+  id: "proti-otr-018",
+  title: "Fattore di codice legacy (passi sicuri + test)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Refactorizza senza paura: primi test, poi piccoli cambiamenti.",
+  prompt: `Agisce come ingegnere senior.
 
-Inputs:
-- Qué cambió (resumen).
-- Plataforma (Vercel, AWS, etc.).
-- Riesgo del cambio.
-- Ventana de release.
+Ingressi:
+- Area File / Legacy.
+- Sintomi (difficile da cambiare, bug, prestazioni).
+- Test esistenti (sì / no).
+- Scadenza.
 
 Genera:
-1) Checklist pre-deploy (env vars, migraciones, flags).
-2) Validación en staging (smoke tests).
-3) Plan de deploy (canary/gradual si aplica).
-4) Validación post-deploy (métricas, logs, errores).
-5) Plan de rollback inmediato.
-6) Comunicación mínima y registro del release.`,
-    thumbnail: "",
-  },
-];
+1) Strategia di Refactor (characterization, Golden Master).
+2) Test minimi per agire come rete di sicurezza.
+3) Sequenza di piccolo cambiamento (commettere piano).
+4) Medici per misurare il miglioramento (complessità, copertura, bug).
+5) Segni da fermare o invertire.
+6) Risultato finale previsto (struttura / modularità).`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-019",
+  title: "Architettura di autenticazione di base (cookies / JWT) per l'app web",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Applicare login semplice ma sicuro e sostenibile.",
+  prompt: `Agisce come backend / ingegnere di sicurezza anteriore.
+
+Ingressi:
+- Tipo di app (SPA + API, Next, ecc.)
+- Tipo di accesso (email / password, link magico).
+- Requisiti (roli, sessione persistente).
+- Infra (inserviente, db).
+
+Genera:
+1) Login / logout / aggiornamento flusso.
+2) Cookie sicuri (httpOnly, secure, sameSite) o JWT (tradeoff).
+3) Middleware / guardie (come proteggere i percorsi).
+(4) Gestione delle sessioni (espulsione, revoca).
+5) Protezione contro attacchi comuni (CSRF, forza bruta).
+6) Test minimi e checklist per la produzione.`,
+  thumbnail: ""
+},
+
+{
+  id: "proti-otr-020",
+  title: "Zoloy Checklist in produzione (evitare cadute)",
+  area: "Programmazione IT",
+  category: "Altri",
+  summary:
+  "Lista di controllo da lanciare senza rompere le vendite.",
+  prompt: `Comportati come se avessi rilasciato il manager.
+
+Ingressi:
+- No. Ciò che è cambiato (sommario).
+- Piattaforma (Vercel, AWS, ecc.).
+- Rischio di cambiamento.
+- Finestra di rilascio.
+
+Genera:
+1) Pre-deploy della lista di controllo (valori, migrazioni, ritardi).
+2) Convalida della stadiazione (test del fumo).
+3) Piano di Disperse (canaria / graduale se applicabile).
+4) convalida post-deploy (metriche, registri, errori).
+5) Piano di rollback immediatamente.
+6) Comunicazione minima e registrazione del rilascio.`,
+  thumbnail: ""
+}];

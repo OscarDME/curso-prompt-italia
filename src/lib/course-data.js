@@ -2,105 +2,105 @@
 import { heroCopy, bonusesSectionCopy } from "./copy";
 
 export const courseHero = {
-  title: "Arsenal Completo de IA",
-  subtitle: "Banco Secreto de Prompts",
+  title: "Arsenale Completo di IA",
+  subtitle: "Banca Segreta di Prompt",
   description: heroCopy.description,
   backgroundImage: "/hero-arsenal.png",
-  ctaLabel: "COMENZAR AHORA",
+  ctaLabel: "INIZIA ORA",
 };
 
 export const courseModuleRows = [
   {
     id: "main",
-    title: "Ruta principal — Banco Secreto de Prompts",
+    title: "Percorso principale — Banca Segreta di Prompt",
     modules: [
       {
         id: "home",
-        title: "Inicio",
+        title: "Inizio",
         subtitle:
-          "Visión general del curso, cómo navegar la plataforma y aprovechar al máximo el Banco Secreto de Prompts.",
+          "Panoramica del corso, come navigare la piattaforma e sfruttare al massimo la Banca Segreta di Prompt.",
         image: "/modules/inicio.png",
         href: "/curso/inicio",
-        tag: "Resumen",
+        tag: "Riepilogo",
       },
       {
         id: "text-prompts",
-        title: "Prompts de texto",
+        title: "Prompt di testo",
         subtitle:
-          "Biblioteca de prompts para copies, guiones, e-mails, posts, scripts de venta y mucho más.",
+          "Libreria di prompt per copy, script, e-mail, post, script di vendita e molto altro.",
         image: "/modules/prompts-texto.png",
         href: "/curso/prompts/texto",
-        tag: "Texto IA",
+        tag: "Testo IA",
       },
       {
         id: "viral-prompts-text",
-        title: "Prompts virales",
+        title: "Prompt virali",
         subtitle:
-          "Prompts listos para hooks, guiones, estructuras virales, CTAs, títulos y contenido diseñado para maximizar retención.",
-        image: "/modules/prompts-virales.png", // crea esta imagen o cambia la ruta
-        href: "/curso/prompts/virales", // crea esta ruta luego
-        tag: "Texto IA",
+          "Prompt pronti per hook, script, strutture virali, CTA, titoli e contenuti pensati per massimizzare la retention.",
+        image: "/modules/prompts-virales.png", // crea questa immagine o cambia il percorso
+        href: "/curso/prompts/virales", // crea poi questo percorso
+        tag: "Testo IA",
       },
 
       {
         id: "hyperrealism-pack-text",
-        title: "Pack de hiperrealismo",
+        title: "Pack di iperrealismo",
         subtitle:
-          "Prompts y frameworks para descripciones ultra realistas, consistencia, detalles y control de estilo (versión texto).",
-        image: "/modules/hiperrealismo-pro.png", // crea esta imagen o cambia la ruta
-        href: "/curso/prompts/hiperrealismo", // crea esta ruta luego
-        tag: "Texto IA",
+          "Prompt e framework per descrizioni ultra realistiche, coerenza, dettagli e controllo dello stile (versione testo).",
+        image: "/modules/hiperrealismo-pro.png", // crea questa immagine o cambia il percorso
+        href: "/curso/prompts/hiperrealismo", // crea poi questo percorso
+        tag: "Testo IA",
       },
 
       {
         id: "image-prompts",
-        title: "Prompts de imagen",
+        title: "Prompt per immagini",
         subtitle:
-          "Prompts listos para generar imágenes, portadas, anuncios y fotos profesionales con IA.",
+          "Prompt pronti per generare immagini, copertine, annunci e foto professionali con l'IA.",
         image: "/modules/prompts-imagen.png",
         href: "/curso/prompts/imagen",
-        tag: "Imagen IA",
+        tag: "Immagini IA",
       },
       {
         id: "video-prompts",
-        title: "Prompts de vídeo",
+        title: "Prompt per video",
         subtitle:
-          "Prompts para crear vídeos virales, anuncios, reels y contenido corto usando IA.",
+          "Prompt per creare video virali, annunci, reels e contenuti brevi usando l'IA.",
         image: "/modules/prompts-video.png",
         href: "/curso/prompts/video",
-        tag: "Vídeo IA",
+        tag: "Video IA",
       },
       {
         id: "ia-tools",
-        title: "Herramientas de IA",
+        title: "Strumenti di IA",
         subtitle:
-          "Tutoriales y recomendaciones de herramientas para crear webs, editar vídeos y automatizar tu negocio.",
+          "Tutorial e consigli su strumenti per creare siti web, montare video e automatizzare il tuo business.",
         image: "/modules/herramientas-ia.png",
         href: "/curso/herramientas-ia",
-        tag: "Herramientas",
+        tag: "Strumenti",
       },
       {
         id: "gpt-assistants",
-        title: "Asistentes GPTs",
+        title: "Assistenti GPT",
         subtitle:
-          "+30 asistentes virtuales entrenados como copywriter, social media, programador, consultor y más.",
+          "+30 assistenti virtuali addestrati come copywriter, social media, programmatore, consulente e altro.",
         image: "/modules/asistentes-gpts.png",
         href: "/curso/asistentes-gpts",
-        tag: "Asistentes",
+        tag: "Assistenti",
       },
       {
         id: "trainings",
-        title: "Entrenamientos",
+        title: "Formazioni",
         subtitle:
-          "Clases y entrenamientos para dominar ChatGPT, crear sistemas con IA y aplicar todo a tu realidad.",
+          "Lezioni e training per dominare ChatGPT, creare sistemi con l'IA e applicare tutto alla tua realtà.",
         image: "/modules/entrenamientos.png",
         href: "/curso/entrenamientos",
-        tag: "Clases",
+        tag: "Lezioni",
       },
     ],
   },
 
-  // Bonos bloqueados por ahora
+  // Bonus bloccati per ora
   {
     id: "bonuses",
     title: bonusesSectionCopy.title,
@@ -118,14 +118,14 @@ export const courseModuleRows = [
 
 export const promptEngineeringCourseCopy = {
   rowId: "prompt-engineering",
-  rowTitle: "Ingeniería de Prompts",
+  rowTitle: "Ingegneria dei Prompt",
   module: {
     id: "prompt-engineering-course",
-    label: "Curso",
-    title: "Curso de Ingeniería de Prompts",
+    label: "Corso",
+    title: "Corso di Ingegneria dei Prompt",
     description:
-      "Domina cómo adaptar, optimizar y crear prompts para resultados profesionales.",
-    imageSrc: "/modules/ingenieria-prompts.png", // cambia por tu imagen
+      "Impara a padroneggiare come adattare, ottimizzare e creare prompt per risultati professionali.",
+    imageSrc: "/modules/ingenieria-prompts.png", // cambia con la tua immagine
     href: "/curso/ingenieria-de-prompts",
     locked: false,
   },

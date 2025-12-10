@@ -1,1191 +1,1190 @@
 // src/lib/prompts/text/marketing-mensajes-rapidos.js
 
 export const textPromptsMarketingMensajesRapidos = [
-  {
-    id: "mmra-001",
-    title: "Banco de 50 respuestas rápidas para DMs (IG/TikTok) — convertir ‘info?’ en conversación",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Crea un banco completo de respuestas rápidas (snippets) para distintos escenarios de DM.",
-    prompt: `Contexto (rellena):
-- Oferta:
+{
+  id: "mmra-001",
+  title: "Banca di 50 risposte rapide per DMs (IG / TikTok) - convertire 'info?' in conversazione",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Creare una banca completa di risposte rapide (snippets) per diversi scenari DM.",
+  prompt: `Contesto (riempito):
+- Offerta:
 - Nicho:
-- CTA final (call/checkout/demo):
-- Tono (cercano/premium/directo):
-- Horarios / tiempo de respuesta (si aplica):
+- CTA finale (call / check / demo):
+- Tono (vicino / premium / diretto):
+- Tempo / tempo di risposta (se applicabile):
 
-Tarea:
-Genera 50 respuestas rápidas (listas para copiar/pegar) separadas por categorías:
-1) “Info?” (10)
-2) “Precio?” (10)
-3) “Me interesa pero…” (10) — tiempo, dinero, confianza
-4) “Mándame más detalles” (10)
-5) “Lo pensaré” / “Después” (10)
+Compito:
+Genera 50 risposte rapide (copie / liste di pasta) separate dalla categoria:
+1) "Info?" (10)
+2. "Prezzo?" (10)
+3) "Sono interessato ma..." (10) - tempo, denaro, fiducia
+4) "Inviami più dettagli" (10)
+5) "Ci penserò" / "Dopo" (10)
 
-Reglas:
-- Cada respuesta debe incluir: 1 línea de valor + 1 pregunta de calificación (A/B o opción) + micro-CTA.
-- Evita sonar robótico. Máximo 3–5 líneas por respuesta.
-- Incluye 3 versiones por estilo: (Suave / Directa / Premium) dentro de cada categoría.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-002",
-    title: "Respuestas rápidas para WhatsApp — flujo de calificación en 6 mensajes",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Guiones cortos para calificar leads rápido sin parecer interrogatorio.",
-    prompt: `Rellena:
-- Oferta:
-- Precio (o rango):
-- Público:
-- Principal resultado prometido (sin exagerar):
-- Duración/entrega:
-- Disponibilidad de cupos (si existe):
+Regole:
+- Ogni risposta dovrebbe includere: 1 linea di valore + 1 domanda di valutazione (A / B o opzione) + micro-CTA.
+- Evitare il suono robotico. Massimo 3-5 linee per risposta.
+- No. Include 3 versioni in stile: (Soft / Direct / Premium) in ogni categoria.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-002",
+  title: "Risposte rapide per WhatsApp - flusso di valutazione di 6 messaggi",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Brevi scritture per qualificare i leader velocemente senza guardare come mettere in discussione.",
+  prompt: `Riempimento:
+- Offerta:
+- Prezzo (o gamma):
+- Audience:
+- Il risultato principale promesso (non superato):
+- Durata / consegna:
+- Disponibilità di quote (se presenti):
 
-Tarea:
-Crea un flujo de 6 mensajes (WhatsApp) para:
-1) Saludo + contexto + permiso (“¿te hago 2 preguntas rápidas?”)
-2) Pregunta #1 (dolor/objetivo)
-3) Pregunta #2 (contexto/urgencia)
-4) Pregunta #3 (capacidad: tiempo/presupuesto/equipo)
-5) Resumen personalizado (2–4 líneas) + recomendación
-6) CTA (paso pequeño primero) + alternativa si no es fit
+Compito:
+Creare un flusso di 6 messaggi (WhatsApp) per:
+1) Saluto + contesto + permesso ("Ti faccio 2 domande rapide?")
+2) Domanda # 1 (pain / obiettivo)
+3) Domanda # 2 (contesto / urgenza)
+4) Domanda # 3 (capacità: tempo / budget / attrezzature)
+5) Riepilogo personalizzato (2-4 linee) + raccomandazione
+6) CTA (piccolo passo primo) + alternativa se non adatta
 
-Incluye variaciones:
-- si responden con audio
-- si responden con “sí/no”
-- si no responden (follow-up 24h y 72h).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-003",
-    title: "Plantillas de follow-up ultra corto — 20 mensajes (sin perseguir)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Follow-ups de 1–2 líneas que reabren conversación con elegancia y claridad.",
-    prompt: `Rellena:
-- Oferta:
-- Canal (WhatsApp/DM/email):
-- Tono (cercano/premium/directo):
+Include variazioni:
+- se rispondono con l'audio
+- se rispondono con "sì / no"
+- se non rispondono (segue 24h e 72h).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-003",
+  title: "Modelli di followup ultra brevi - 20 messaggi (non perseguiti)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "1-2 line Segui-up che riaprire la conversazione con eleganza e chiarezza.",
+  prompt: `Riempimento:
+- Offerta:
+- Canale (WhatsApp / DM / email):
+- Tono (vicino / premium / diretto):
 
-Tarea:
-Genera 20 follow-ups cortos agrupados:
-- 5 follow-ups “suaves” (empatía)
-- 5 follow-ups “valor” (recurso/checklist)
-- 5 follow-ups “pregunta A/B” (calificación)
-- 3 follow-ups “cierre de loop” (breakup elegante)
-- 2 follow-ups “urgencia ética” (deadline real)
+Compito:
+Genera 20 follow-up breve raggruppato:
+- 5 follow-up "soft" (empatia)
+- 5 follow-up "valore" (risorsa / lista di controllo)
+- 5 follow-up "questione A / B" (rating)
+- 3 follow-up "chiusura del cerchio" (equivalente rottura)
+- 2 follow-up "urgenza etica" (portale reale)
 
-Reglas:
-- Máx 220 caracteres por follow-up (si es WhatsApp/DM).
-- Sin culpa, sin presión.
-- Incluye 5 variantes para cuando dejan en visto.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-004",
-    title: "Respuestas rápidas para objeciones — 25 objeciones comunes (copy listo)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas rápidas por objeción con empatía, reframe y siguiente paso.",
-    prompt: `Rellena:
-- Oferta:
-- Precio:
-- Resultado:
-- Evidencia disponible (casos/garantía/proceso):
-- Canal:
+Regole:
+- max 220 caratteri per follow-up (se è WhatsApp / DM).
+- No. Nessun senso di colpa, nessuna pressione.
+- No. Include 5 varianti per quando vengono rilasciate.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-004",
+  title: "Risposte rapide per obiezioni - 25 obiezioni comuni (copia pronta)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Risposte rapide per obiezione con empatia, dicendo e passo successivo.",
+  prompt: `Riempimento:
+- Offerta:
+- Prezzo:
+- Risultato:
+- Prove disponibili (casi / garanzia / processo):
+- Canale:
 
-Tarea:
-Crea 25 objeciones comunes (adaptadas a tu oferta) y para cada una:
-- Respuesta rápida (3–7 líneas) con:
-  1) Validación
-  2) Reframe lógico
-  3) Mini prueba (proceso / experiencia)
-  4) Pregunta de calificación
-  5) Micro-CTA
+Compito:
+Crea 25 obiezioni comuni (adattate alla tua offerta) e per ciascuna:
+- Risposta rapida (3-7 linee) con:
+(1) Validazione
+2) Correzione logica
+3) Mini test (processo / esperienza)
+4) Domanda di qualifica
+5) MicroCTA
 
-Incluye al menos estas objeciones:
-- “Está caro”
-- “No tengo tiempo”
-- “Ya lo intenté”
-- “No confío”
-- “Tengo que consultarlo”
-- “Mándame info”
-- “No es prioridad”
-- “Lo veo después”
-- “¿Hay descuento?”`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-005",
-    title: "Respuestas rápidas para preguntas de precio (sin perder margen) — 15 variantes",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Cómo responder ‘¿cuánto cuesta?’ sin regalar contexto ni sonar evasivo.",
-    prompt: `Rellena:
-- Oferta:
-- Precio / rango:
-- Planes (si existen):
+Esso comprende almeno queste obiezioni:
+- "E' costoso".
+- "Non ho tempo"
+- "Ho già provato".
+- "Non mi fido"
+- Devo consultarlo.
+- "Inviami le informazioni".
+- "Non è una priorità"
+- Ci vediamo dopo.
+- "C'è uno sconto?"`,
+  thumbnail: ""
+},
+{
+  id: "mmra-005",
+  title: "Risposte rapide per domande di prezzo (senza margine di perdita) - 15 varianti",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Come rispondere 'quanto costa?' senza dare via contesto o suono evasivo.",
+  prompt: `Riempimento:
+- Offerta:
+- Prezzo/intervallo:
+- Piani (se presenti):
 - Tono:
 
-Tarea:
-Genera 15 respuestas para “¿cuánto cuesta?” en 3 estilos (5 cada uno):
-- Directo (precio + contexto)
-- Consultivo (pregunta primero)
-- Premium (valor + fit)
+Compito:
+Genera 15 risposte per "quanto?" in 3 stili (5 ciascuno):
+- Direct (prezzo + contesto)
+- (Domanda 1)
+- Premium (valore + vestibilità)
 
-Cada respuesta debe:
-- incluir el precio o rango (sin esconder)
-- agregar 1 línea de “para quién sí / no”
-- terminar con 1 pregunta simple para calificar.`,
-    thumbnail: "",
-  },
+Ogni risposta dovrebbe:
+- includere il prezzo o la gamma (non nascosto)
+- aggiungere 1 linea di "per chi sì / no"
+- terminare con 1 semplice domanda per qualificarsi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-006",
-    title: "Mensajes rápidos para comentarios (Instagram/TikTok) — convertir comentario en DM",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas públicas + transición a DM sin parecer spam.",
-    prompt: `Rellena:
-- Oferta:
-- Palabra clave (si usas):
-- Recurso gratuito (si existe):
+{
+  id: "mmra-006",
+  title: "Messaggi rapidi per commenti (Instagram / TikTok) - convertire commento a DM",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Risposte pubbliche + passaggio a DM senza spamming.",
+  prompt: `Riempimento:
+- Offerta:
+- Parola chiave (se usi):
+- Azione libera (se presente):
 - Tono:
 
-Tarea:
-Crea 30 respuestas:
-- 15 respuestas públicas a comentarios tipo:
-  “info”, “precio?”, “cómo lo hiciste?”, “sirve para X?”
-- 15 mensajes de DM de seguimiento (después de responder en público)
+Compito:
+Crea 30 risposte:
+- 15 risposte pubbliche ai commenti di tipo:
+"info," "prezzo?," "come hai fatto?", "serve X?"
+- 15 messaggi di follow-up DM (dopo aver risposto in pubblico)
 
-Reglas:
-- En público: breve, útil, 0 presión.
-- En DM: 1 pregunta de diagnóstico + 1 opción A/B + micro-CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-007",
-    title: "Mensajes rápidos de bienvenida (DM/WhatsApp) — 12 estilos según origen del lead",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Bienvenidas listas para 12 casos: ads, orgánico, referido, webinar, comment, etc.",
-    prompt: `Rellena:
-- Oferta:
-- Canal:
-- Orígenes típicos (ads, orgánico, referido, webinar, etc.):
+Regole:
+- No. In pubblico: breve, utile, 0 pressione.
+- In DM: 1 questione diagnostica + 1 opzione A / B + micro-CTA.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-007",
+  title: "Messaggi di benvenuto rapidi (DM / WhatsApp) - 12 stili in base all'origine del piombo",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Benvenuto pronto per 12 casi: annunci, organico, riferimento, webinar, commento, ecc.",
+  prompt: `Riempimento:
+- Offerta:
+- Canale:
+- Origini tipiche (ad, organico, rifatto, webinar, ecc.):
 - Tono:
 
-Tarea:
-Crea 12 mensajes de bienvenida (4–8 líneas) para estos orígenes:
-- Ads
-- Orgánico (vieron 3+ posts)
-- Comentario en post
-- Respuesta a story
-- Referido
+Compito:
+Crea 12 messaggi di benvenuto (4-8 righe) per queste origini:
+- Annunci
+- Organico (sabato 3 + post)
+- Recensione in post
+- Risposta alla storia
+- Riferimento
 - Webinar
-- Lead magnet
-- Carrito abandonado
-- Visita a pricing
-- Respuesta a email
-- Comunidad
-- Evento presencial/online
+- Magnete di piombo
+- Cart abbandonata
+- Visita in prigione
+- Risposta e-mail
+- Comunità
+- Evento attuale / online
 
-Cada uno con:
-- saludo + contexto
-- pregunta única de diagnóstico
+Ognuno con:
+- saluto + contesto
+- singola questione di diagnosi
 - micro-CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-008",
-    title: "Mensajes rápidos para cierre (sin presión) — 12 CTAs finales para convertir",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "CTAs listos para pedir el siguiente paso con claridad y urgencia ética.",
-    prompt: `Rellena:
-- Oferta:
-- CTA final (call/checkout/demo):
-- Deadline real (si existe):
-- Bonus (si existe):
+  thumbnail: ""
+},
+{
+  id: "mmra-008",
+  title: "Messaggi rapidi per la chiusura (senza pressione) - 12 CT finali da convertire",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Tis pronto a chiedere il prossimo passo con chiarezza e urgenza etica.",
+  prompt: `Riempimento:
+- Offerta:
+- CTA finale (call / check / demo):
+- Real Deadline (se presente):
+- Bonus (se presente):
 - Tono:
 
-Tarea:
-Crea 12 mensajes de cierre:
-- 4 cierres suaves (paso pequeño)
-- 4 cierres directos (calendly/checkout)
-- 2 cierres premium (aplicación/fit)
-- 2 cierres “breakup” (cierro el loop)
+Compito:
+Crea 12 messaggi di chiusura:
+- 4 chiusure morbide (piccolo passo)
+- 4 chiusure dirette (callly / checkout)
+- 2 chiusure premium (applicazione / vestibilità)
+- 2 chiusure di rottura (chiudi il loop)
 
-Incluye 3 variantes por cada mensaje:
-- corto (1–2 líneas)
-- medio (4–6 líneas)
-- largo (8–12 líneas).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-009",
-    title: "Respuestas rápidas para ‘mándame todo’ — redirigir a lo mínimo necesario (sin fricción)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Cómo responder cuando piden demasiada info: dar lo justo y calificar.",
-    prompt: `Rellena:
-- Oferta:
-- Página/folleto disponible (si existe):
+Include 3 varianti per ogni messaggio:
+- corto (1-2 linee)
+- media (4-6 linee)
+- lunghe (8-12 linee).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-009",
+  title: "Risposte rapide a 'send me everything' - reindirizzare al minimo necessario (senza attrito)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Come rispondere quando si chiede troppe informazioni: dare diritto e qualificarsi.",
+  prompt: `Riempimento:
+- Offerta:
+- Pagina/opuscolo disponibile (se presente):
 - Tono:
 
-Tarea:
-Crea 12 respuestas para:
-- “mándame info”
-- “mándame todo”
-- “explícame bien”
-Incluye:
-- 1 resumen de 3 líneas (qué es, para quién, resultado)
-- 1 pregunta de calificación
-- 1 opción A/B de siguiente paso (leer vs llamada).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-010",
-    title: "Mensajes rápidos para reactivar leads fríos — 15 re-engagements (sin vender)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Reactivación con valor, pregunta simple y limpieza elegante.",
-    prompt: `Rellena:
-- Oferta:
-- Canal:
-- Tiempo de inactividad típico (7/14/30 días):
+Compito:
+Crea 12 risposte per:
+- "Inviami le informazioni".
+- "Inviami tutto."
+- "Spiega bene".
+Include:
+- 1 sommario di 3 linee (che cosa è, per chi, risultato)
+- 1 questione di qualificazione
+- 1 opzione A / B del passo successivo (leggi vs chiamata).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-010",
+  title: "Messaggi rapidi per riattivare piste fredde - 15 re-engagements (non venduti)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Riattivazione con coraggio, semplice domanda e pulizia elegante.",
+  prompt: `Riempimento:
+- Offerta:
+- Canale:
+- Tempo di inattività tipico (7 / 14 / 30 giorni):
 - Tono:
 
-Tarea:
-Crea 15 mensajes de reactivación:
-- 5 con pregunta A/B
-- 5 con mini recurso (checklist, tip)
-- 3 con historia breve (insight)
-- 2 con limpieza elegante (si no te interesa te saco)
+Compito:
+Crea 15 messaggi di riattivazione:
+- 5 con domanda A / B
+- 5 con mini-resource (check, tip)
+- 3 con storia breve (sight)
+- 2 con pulizia elegante (se non sei interessato, ti porterò fuori)
 
-Reglas:
-- Nada de culpa
-- Máx 6 líneas
-- Siempre con micro-CTA.`,
-    thumbnail: "",
-  },
+Regole:
+- Nessuna colpa.
+- max 6 linee
+- Sempre con micro-CTA.`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-011",
-    title: "Mensajes rápidos para agendar llamada — 12 scripts (cuando dicen ‘me interesa’)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts para pasar de interés a agenda: fechas, expectativas, pre-call y confirmación.",
-    prompt: `Rellena:
-- Tipo de llamada:
-- Duración:
-- Link de agenda:
-- Requisitos mínimos para calificar:
+{
+  id: "mmra-011",
+  title: "Messaggi rapidi per programmare chiamato - 12 script (quando dicono 'Sono interessato')",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Gli script per passare dall'interesse all'ordine del giorno: date, aspettative, pre-call e conferma.",
+  prompt: `Riempimento:
+- Tipo di chiamata:
+- Durata:
+- Agenda link:
+- Requisiti minimi per la qualificazione:
 - Tono:
 
-Tarea:
-Crea 12 scripts:
-- 4 para ofrecer horarios (en texto)
-- 3 para enviar link + instrucción
-- 3 para confirmar + expectativas (qué preparar)
-- 2 para plan B si no califica (recurso / lista de espera)
+Compito:
+Crea 12 script:
+- 4 per offrire ore (in testo)
+- 3 per inviare link + istruzioni
+- 3 per confermare + aspettative (cosa preparare)
+- 2 per piano B se non qualificato (fonte / lista di attesa)
 
-Incluye versiones:
-- ultra corto
-- cercano
-- premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-012",
-    title: "Mensajes rápidos para ‘necesito pensarlo’ — 10 respuestas que mantienen intención",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas que abren conversación y avanzan sin presionar.",
-    prompt: `Rellena:
-- Oferta:
-- Principal objeción:
-- Deadline (si existe):
+Include le versioni:
+- ultra breve
+- Vicino.
+- premio.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-012",
+  title: "Messaggi rapidi a 'Ho bisogno di pensarci' - 10 risposte che mantengono l'intenzione",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Risposte che la conversazione aperta e andare avanti senza pressioni.",
+  prompt: `Riempimento:
+- Offerta:
+- Obiezione principale:
+- Scadenza (se presente):
 - Tono:
 
-Tarea:
-Crea 10 respuestas para “lo voy a pensar”, cada una con:
-- validación
-- 1 pregunta de claridad: “¿qué parte te hace dudar?”
-- 1 micro-CTA: elegir A/B, o responder con número
-Incluye 2 que sugieran un paso pequeño (audit/call corta).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-013",
-    title: "Respuestas rápidas para ‘¿tienes descuento?’ — 12 formas de mantener valor",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Maneja descuentos sin desvalorizar: alternativas, bonos, pagos, timing.",
-    prompt: `Rellena:
-- Oferta:
-- Precio:
-- Opciones (pago a plazos, plan básico, bono):
-- Política de descuentos:
+Compito:
+Crea 10 risposte per "Ci penserò", ognuna con:
+- validazione
+- 1 questione di chiarezza: "Quale parte ti fa dubitare?"
+- 1 micro-CTA: scegliere A / B, o rispondere con il numero
+Include 2 che suggeriscono un piccolo passo (audit / chiamata breve).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-013",
+  title: "Risposte rapide per 'Hai uno sconto?' - 12 modi per mantenere il valore",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Si occupa di sconti non svalutati: alternative, obbligazioni, pagamenti, tempi.",
+  prompt: `Riempimento:
+- Offerta:
+- Prezzo:
+- Opzioni (pagamento in tempo, piano base, bonus):
+- Politica di sconto:
 - Tono:
 
-Tarea:
-Crea 12 respuestas:
-- 4: “no descuento” con elegancia + reframe valor
-- 4: alternativa (plan básico / pago / bono)
-- 2: descuento condicionado (ej: pago hoy / cupos) si aplica
-- 2: descalificación elegante si solo buscan precio
-Cada una con pregunta de calificación final.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-014",
-    title: "Mensajes rápidos para stories (IG) — 20 respuestas a stickers/preguntas",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas DM para cuando contestan stories con sticker de pregunta o voto.",
-    prompt: `Rellena:
-- Oferta:
-- Sticker típico (encuesta, pregunta, slider):
+Compito:
+Crea 12 risposte:
+- 4: "nessuno sconto" con eleganza + aggiungere valore
+- 4: alternativa (piano base / pagamento / bonus)
+- 2: sconto condizionale (ad esempio pagamento oggi / quote) se applicabile
+- 2: squalifica elegante se solo alla ricerca di prezzo
+Ognuno con valutazione finale domanda.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-014",
+  title: "Messaggi rapidi per storie (IG) - 20 risposte agli adesivi / domande",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Risposte DM per quando si risponde a storie con domanda o segno di voto.",
+  prompt: `Riempimento:
+- Offerta:
+- Adesivo tipico (superficie, domanda, cursore):
 - Tono:
 
-Tarea:
-Crea 20 respuestas (DM):
-- 10 para encuesta (Sí/No)
-- 5 para slider (interés alto)
-- 5 para preguntas abiertas
-Incluye:
-- 1 pregunta de diagnóstico
-- 1 micro-CTA (recurso/agenda/keyword).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-015",
-    title: "Mensajes rápidos para ‘no soy tu público’ — descalificar con respeto y abrir alternativas",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Cómo responder cuando dicen que no es para ellos: ayudar y quedar bien.",
-    prompt: `Rellena:
-- Oferta:
-- Casos de NO fit típicos:
-- Alternativa gratis/entry:
+Compito:
+Crea 20 risposte (DM):
+- 10 per sondaggio (Sì / No)
+- 5 per cursore (alto interesse)
+- 5 per domande aperte
+Include:
+- 1 questione diagnostica
+- 1 micro-CTA (risorsa / agenda / parola chiave).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-015",
+  title: "Messaggi rapidi per 'Non sono il tuo pubblico' - squalifica con rispetto e alternative aperte",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Come rispondere quando dicono che non è per loro: aiutare e guardare bene.",
+  prompt: `Riempimento:
+- Offerta:
+- Tipico caso non adatto:
+- Gratis alternativa / ingresso:
 - Tono:
 
-Tarea:
-Crea 12 respuestas para:
-- “no es para mí”
-- “no me sirve”
-- “no tengo X”
-Incluye:
-- empatía + aclaración ‘para quién sí/no’
-- recomendación alternativa (resource)
-- puerta abierta futura.`,
-    thumbnail: "",
-  },
+Compito:
+Crea 12 risposte per:
+- "Non è per me."
+- "non serve a me"
+- "Non ho X"
+Include:
+- empatia + chiarificazione 'per chi sì / no '
+- raccomandazione alternativa (risorse)
+- porta aperta futura.`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-016",
-    title: "Mensajes rápidos de ‘valor instantáneo’ — 25 tips accionables en formato DM",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Tips cortos que generan reciprocidad y confianza (sin vender).",
-    prompt: `Rellena:
+{
+  id: "mmra-016",
+  title: "I messaggi rapidi di 'valore esistente' - 25 giri possono essere gestiti in formato DM",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Brevi consigli che generano reciprocità e fiducia (non venduti).",
+  prompt: `Riempimento:
 - Nicho:
-- Oferta:
-- 5 temas clave del nicho:
+- Offerta:
+- 5 temi chiave di nicchia:
 - Tono:
 
-Tarea:
-Crea 25 mensajes de valor (3–6 líneas) que incluyan:
-- un tip accionable
-- un ejemplo
-- una pregunta final para iniciar conversación
-Clasifica los 25 por tema (5 por tema).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-017",
-    title: "Respuestas rápidas para leads enojados/confundidos — desactivar tensión y ordenar",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts para manejar tensión: empatía, límites, claridad, siguiente paso.",
-    prompt: `Rellena:
-- Situaciones comunes (reclamos, confusión de precio, mala experiencia previa):
-- Política de marca (tono y límites):
-- Canal:
+Compito:
+Crea 25 messaggi di valore (3-6 linee) che includono:
+- una punta di azione
+- un esempio
+- una domanda finale per iniziare la conversazione
+Classifica il 25 per tema (5 per tema).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-017",
+  title: "Risposte rapide per cavi arrabbiati / confusi - disabilitare la tensione e l'ordine",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Script per gestire la tensione: empatia, limiti, chiarezza, passo successivo.",
+  prompt: `Riempimento:
+- Situazioni comuni (richiedi, confusione dei prezzi, cattiva esperienza precedente):
+- Politica del marchio (tono e limiti):
+- Canale:
 
-Tarea:
-Crea 15 respuestas:
-- 5 para confusión (“no entendí”, “explícame”)
-- 5 para reclamo (“esto no sirve”, “me estafaron antes”)
-- 5 para límites (“insultos”, “presión”, “spam”)
-Cada respuesta debe:
-- validar emoción
-- pedir 1 dato
-- proponer 1 siguiente paso claro.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-018",
-    title: "Mensajes rápidos para público B2B (LinkedIn DM) — 12 aperturas no cringe",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Aperturas de LinkedIn DM consultivas que evitan spam y maximizan reply.",
-    prompt: `Rellena:
-- Servicio B2B:
-- ICP (industria/tamaño):
-- Rol objetivo:
+Compito:
+Crea 15 risposte:
+- 5 per confusione ("Non ho capito", spiegami)
+- 5 per rivendicazione ("questo non è buono", "Sono stato truffato prima")
+- 5 per limiti ("insulti", "pressione", "spam")
+Ogni risposta dovrebbe:
+- convalidare l'emozione
+- ordine 1 dati
+- proponga 1 prossimo passo chiaro.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-018",
+  title: "B2B (LinkedIn DM) - 12 aperture non penali",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Consulente collegato Nelle aperture DM che evitano lo spam e massimizzano la risposta.",
+  prompt: `Riempimento:
+- Servizio B2B:
+- PCI (industria / dimensione):
+- ruolo obiettivo:
 - KPI:
 - Tono:
 
-Tarea:
-Crea 12 mensajes de apertura (LinkedIn DM) con:
-- observación relevante (no genérica)
-- hipótesis de mejora (1 línea)
-- pregunta simple (sí/no o A/B)
-No menciones ‘agendar llamada’ en el primer mensaje.
-Incluye 6 follow-ups (2do y 3er toque).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-019",
-    title: "Mensajes rápidos para enviar recursos (sin link dumping) — 10 plantillas",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Cómo enviar un recurso y garantizar que lo usan: contexto, instrucción y micro compromiso.",
-    prompt: `Rellena:
-- Recurso (video/guía/checklist):
-- Oferta:
-- Canal:
+Compito:
+Crea 12 messaggi di apertura (LinkedIn DM) con:
+- osservazione rilevante (non genetica)
+- ipotesi di miglioramento (1 linea)
+- domanda semplice (sì / no o A / B)
+Non menzionare 'add call' nel primo messaggio.
+Include 6 follow-up (2nd e 3rd touch).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-019",
+  title: "Messaggi rapidi per inviare risorse (senza link di dumping) - 10 modelli",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Come inviare una risorsa e assicurarsi di utilizzarla: contesto, istruzione e micro impegno.",
+  prompt: `Riempimento:
+- Risorse (video / guida / lista di controllo):
+- Offerta:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 10 plantillas para enviar recursos:
-- 4 para leads fríos
-- 4 para tibios
-- 2 para calientes
-Cada una debe incluir:
-- por qué ese recurso es el correcto
-- cómo usarlo (1–2 pasos)
-- micro compromiso (“respóndeme con ‘listo’ cuando…”)`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-020",
-    title: "Mensajes rápidos para convertir ‘me gusta’ en venta — 10 secuencias de 3 mensajes",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "10 secuencias cortas (3 mensajes) para convertir interés en acción.",
-    prompt: `Rellena:
-- Oferta:
-- Canal (DM/WhatsApp):
+Compito:
+Creare 10 modelli per inviare risorse:
+- 4 per piste fredde
+- 4 per piastre
+- 2 per caldo
+Ogni mosto comprende:
+- Perche' questo rimedio e' quello giusto?
+- come usarlo (1-2 passi)
+- micro impegno ("rispondimi con 'ready' quando...")`,
+  thumbnail: ""
+},
+{
+  id: "mmra-020",
+  title: "Messaggi rapidi per convertire 'like' in vendita - 10 sequenze di 3 messaggi",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "10 brevi sequenze (3 messaggi) per convertire l'interesse in azione.",
+  prompt: `Riempimento:
+- Offerta:
+- Canale (DM / WhatsApp):
 - Tono:
 
-Tarea:
-Crea 10 mini-secuencias de 3 mensajes:
-1) Mensaje 1: contexto + pregunta
-2) Mensaje 2: valor (mini tip) + calificación
-3) Mensaje 3: CTA suave (paso pequeño)
-Cada secuencia para un escenario distinto:
-- precio, tiempo, confianza, comparación, urgencia, etc.`,
-    thumbnail: "",
-  },
+Compito:
+Crea 10 mini-sequenze di 3 messaggi:
+1) Messaggio 1: contesto + domanda
+2) Messaggio 2: valore (mini punta) + valutazione
+3) Messaggio 3: Soft CTA (piccolo passo)
+Ogni sequenza per uno scenario diverso:
+- prezzo, tempo, fiducia, confronto, urgenza, ecc.`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-021",
-    title: "Mensajes rápidos de ‘pre-cierre’ — cuando el lead ya está caliente (8 scripts)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts para llevar a decisión con claridad: resumen, fit, condiciones, CTA.",
-    prompt: `Rellena:
-- Oferta:
-- CTA final:
-- Restricciones (cupos, fecha):
+{
+  id: "mmra-021",
+  title: "Messaggi rapidi di 'pre-close' - quando il piombo è già caldo (8 script)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Script per una decisione chiara: sommario, vestibilità, condizioni, CTA.",
+  prompt: `Riempimento:
+- Offerta:
+- Final CTA:
+- Restrizioni (quota, data):
 - Tono:
 
-Tarea:
-Crea 8 scripts de pre-cierre que incluyan:
-- resumen personalizado (lo que entendiste)
-- confirmación de fit (“si esto es lo que buscas…”)
-- CTA directo
-Incluye 4 versiones ultra cortas (2 líneas) y 4 largas (8–12 líneas).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-022",
-    title: "Mensajes rápidos para confirmar pago/inscripción — 10 respuestas (claridad + emoción)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Confirmaciones que reducen ansiedad y aumentan confianza: próximos pasos y expectativas.",
-    prompt: `Rellena:
-- Producto/servicio:
-- Qué pasa después de pagar:
-- Soporte disponible:
-- Canal:
+Compito:
+Crea 8 script pre-chiudi tra cui:
+- sommario personalizzato (cosa hai capito)
+- conferma della forma ("se questo è ciò che stai cercando...")
+- CTA diretta
+Include 4 versioni ultra brevi (2 linee) e 4 versioni lunghe (8-12 linee).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-022",
+  title: "Messaggi rapidi per confermare il pagamento / registrazione - 10 risposte (larity + emozione)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Confermazioni che riducono l'ansia e aumentano la fiducia: i prossimi passi e le aspettative.",
+  prompt: `Riempimento:
+- Prodotto / servizio:
+- No. Cosa succede dopo aver pagato:
+- Supporto disponibile:
+- Canale:
 
-Tarea:
-Crea 10 mensajes:
-- 5 confirmaciones post-pago (inmediatas)
-- 3 mensajes de onboarding (día 1–3)
-- 2 mensajes para pedir un dato clave (brief)
-Incluye tono cercano y premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-023",
-    title: "Mensajes rápidos para ‘clientes ideales’ — reconocer y acelerar (10 scripts)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts para cuando detectas fit perfecto: acelerar con respeto y claridad.",
-    prompt: `Rellena:
-- Oferta:
-- Señales de fit:
-- CTA final:
+Compito:
+Crea 10 messaggi:
+- 5 conferme di pagamento (immediato)
+- 3 messaggi di bordo (giorno 1-3)
+- 2 messaggi per ordinare i dati chiave (breve)
+Include tono vicino e premium.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-023",
+  title: "Messaggi rapidi per 'clienti ideali' - riconoscere e accelerare (10 script)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Script per quando si rileva una vestibilità perfetta: accelerare con rispetto e chiarezza.",
+  prompt: `Riempimento:
+- Offerta:
+- Indicazioni:
+- Final CTA:
 - Tono:
 
-Tarea:
-Crea 10 scripts:
-- reconocer explícitamente el fit
-- proponer siguiente paso inmediato
-- reducir fricción (horarios, link, alternativa)
-Incluye 5 scripts cortos y 5 largos.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-024",
-    title: "Mensajes rápidos para descalificar (sin quemar la relación) — 12 scripts",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Descalificación elegante: protege tu tiempo y deja puerta abierta.",
-    prompt: `Rellena:
-- Oferta:
-- Razones de no fit:
-- Alternativa (recurso/entry):
+Compito:
+Crea 10 script:
+- riconoscere esplicitamente la forma
+- proporre il prossimo passo immediatamente
+- ridurre l'attrito (schedule, link, alternativa)
+Include 5 brevi e 5 lunghi script.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-024",
+  title: "Messaggi rapidi per squalificare (senza bruciare il rapporto) - 12 script",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Squalifica elegante: proteggere il vostro tempo e lasciare una porta aperta.",
+  prompt: `Riempimento:
+- Offerta:
+- Motivi per nessuna misura:
+- Alternative (risorsa / voce):
 - Tono:
 
-Tarea:
-Crea 12 scripts:
-- 6 casos: no presupuesto / no urgencia / no autoridad / expectativas irreales
-- 4 casos: mala vibra / falta de respeto / spam
-- 2 casos: redirigir a otro producto
-Cada script con:
-- respeto + claridad
-- 1 recomendación
-- 1 cierre amable.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-025",
-    title: "Mensajes rápidos ‘anti-ghost’ — 12 cierres de loop (elegantes) para obtener sí/no",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Cierres que recuperan respuesta sin presión: opciones, claridad y salida digna.",
-    prompt: `Rellena:
-- Oferta:
-- Canal:
+Compito:
+Crea 12 script:
+- 6 casi: nessun budget / nessuna urgenza / nessuna autorità / aspettative irreali
+- 4 casi: cattiva atmosfera / disprezzo / spam
+- 2 casi: reindirizzare ad un altro prodotto
+Ogni script con:
+- rispetto + chiarezza
+- 1 raccomandazione
+- No. Un bel vicino.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-025",
+  title: "Chiusure anti-ghost '- 12 loop (elegant) per ottenere sì / no",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Close-up che recuperano la risposta senza pressione: opzioni, chiarezza e output dignitoso.",
+  prompt: `Riempimento:
+- Offerta:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 12 mensajes:
-- 6 con opción A/B
-- 4 con pregunta de prioridad (“¿sigue siendo importante?”)
-- 2 tipo breakup premium (“cierro el hilo para no molestarte”)
-Máx 5 líneas por mensaje.`,
-    thumbnail: "",
-  },
+Compito:
+Crea 12 messaggi:
+- 6 con opzione A / B
+- 4 con domanda prioritaria ("è ancora importante?")
+- 2 tipo di rottura premium ("Chiudo il filo in modo da non disturbarti")
+Max 5 linee per messaggio.`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-026",
-    title: "Mensajes rápidos para remarketing (ads → DM) — 15 scripts por estado de intención",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts para respuestas cuando viene de remarketing: pricing visitor, ATC, IC, etc.",
-    prompt: `Rellena:
-- Oferta:
-- Eventos (pricing visit, ATC, IC, etc.):
-- Canal DM:
+{
+  id: "mmra-026",
+  title: "Messaggi rapidi per remarketing (ads → DM) - 15 script per stato di intenti",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Script per le risposte quando si tratta di remarketing: visitatore dei prezzi, ATC, IC, ecc.",
+  prompt: `Riempimento:
+- Offerta:
+- Eventi (visita di formazione, ATC, IC, ecc):
+- Canale DM:
 - Tono:
 
-Tarea:
-Crea 15 scripts:
-- 5 para ‘visitó pricing’
-- 5 para ‘inició checkout’
-- 5 para ‘carrito abandonado’
-Cada script con:
-- referencia sutil del contexto
-- pregunta de bloqueo
+Compito:
+Crea 15 script:
+- 5 per 'visitato pricy '
+- 5 per il checkout '
+- 5 per 'carro abbandonato '
+Ogni script con:
+- sottile riferimento di contesto
+- bloccare la domanda
 - micro-CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-027",
-    title: "Mensajes rápidos para agendar sin link — propuesta de horarios (12 plantillas)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Plantillas para agendar manualmente con opciones de horario y confirmación.",
-    prompt: `Rellena:
-- Zona horaria:
-- Días disponibles:
-- Ventanas horarias:
-- Duración:
+  thumbnail: ""
+},
+{
+  id: "mmra-027",
+  title: "Messaggi rapidi per la pianificazione senza link - proposta di pianificazione (12 modelli)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Modelli per la programmazione manuale con opzioni di tempo e conferma.",
+  prompt: `Riempimento:
+- fuso orario:
+- Giorni disponibili:
+- Finestre del tempo:
+- Durata:
 - Tono:
 
-Tarea:
-Crea 12 plantillas:
-- 6 con 2 opciones de horario
-- 4 con 3 opciones + alternativa de link
-- 2 para reprogramación
-Incluye mensaje de confirmación y recordatorio 2h antes.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-028",
-    title: "Mensajes rápidos para enviar propuesta (B2B) — 10 scripts de ‘te mando el PDF’ + seguimiento",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts para entregar propuesta sin ghost: resumen, próximos pasos y seguimiento.",
-    prompt: `Rellena:
-- Servicio:
-- Qué incluye la propuesta:
-- Plazo de decisión:
-- Canal:
+Compito:
+Crea 12 modelli:
+- 6 con 2 opzioni di tempo
+- 4 con 3 opzioni + link alternativo
+- 2 per la riprogrammazione
+Include messaggio di conferma e promemoria 2h prima.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-028",
+  title: "Messaggi rapidi per inviare la proposta (B2B) - 10 script di 'invii il PDF' + tracking",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Script per consegnare la proposta senza fantasma: sommario, passi successivi e seguire.",
+  prompt: `Riempimento:
+- Servizio:
+- No. La proposta comprende:
+- Termine per la decisione:
+- Canale:
 
-Tarea:
-Crea 10 scripts:
-- 4 para enviar propuesta (con resumen en texto)
-- 3 para follow-up (24h, 72h, 7 días)
-- 2 para resolver objeciones
-- 1 breakup elegante
-Incluye 1 pregunta de decisión en cada follow-up.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-029",
-    title: "Mensajes rápidos para ‘prueba social’ — 20 mini testimonios en formato conversacional",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Plantillas para compartir prueba social en DM sin sonar falso ni exagerado.",
-    prompt: `Rellena:
-- Oferta:
-- Tipos de clientes:
-- Resultados típicos (cualitativos/cuantitativos):
+Compito:
+Crea 10 script:
+- 4 per inviare una proposta (con sintesi nel testo)
+- 3 per follow-up (24h, 72h, 7 giorni)
+- 2 per risolvere obiezioni
+- 1 elegante rottura
+Include 1 domanda di decisione in ogni followup.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-029",
+  title: "Messaggi rapidi per 'social test' - 20 mini testimonianze in formato conversazione",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Modelli per la condivisione di prove sociali in DM senza suono falso o esagerato.",
+  prompt: `Riempimento:
+- Offerta:
+- Tipi di clienti:
+- Risultati tipici (qualitativi / quantitativi):
 - Tono:
 
-Tarea:
-Crea 20 mensajes de prueba social:
-- 10: mini historia (antes → proceso → después) en 6–10 líneas
-- 10: formato ‘bullet’ (3 bullets) + pregunta final
-Reglas:
-- no inventes cifras; usa lenguaje cuidadoso (‘en nuestra experiencia’, ‘suele pasar’)
-- siempre termina con pregunta para calificar.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-030",
-    title: "Pack de mensajes rápidos tipo ‘scripts de venta’ — 10 scripts completos (DM)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "10 scripts DM completos desde apertura hasta CTA final (con ramificaciones).",
-    prompt: `Rellena:
-- Oferta:
-- Precio:
-- CTA final:
-- Objeciones top 3:
+Compito:
+Crea 20 messaggi di test sociali:
+- 10: mini storia (prima → processo → dopo) in 6-10 linee
+- 10: formato "bullet" (3 proiettili) + domanda finale
+Regole:
+- non inventare figure; usare un linguaggio attento ('nella nostra esperienza', 'di solito passa')
+- finisce sempre con una domanda per qualificarsi.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-030",
+  title: "Tipo di pacchetto di messaggi rapido 'sales scripts' - 10 script completi (DM)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "10 script di DM completi dall'apertura al CTA finale (con ramificazioni).",
+  prompt: `Riempimento:
+- Offerta:
+- Prezzo:
+- Final CTA:
+- Top 3 oggetti:
 - Tono:
 
-Tarea:
-Crea 10 scripts completos con estructura:
-1) Apertura (contexto)
-2) Pregunta de diagnóstico
-3) Resumen + reframe
-4) Prueba/proceso
+Compito:
+Crea 10 script completi con la struttura:
+(1) Apertura (contesto)
+2) Domanda diagnostica
+3) Sommario + cancellazione
+(4) Test / processo
 5) CTA
-Incluye ramificaciones:
-- si dicen “precio?”
-- si dicen “no tengo tiempo”
-- si dicen “lo pensaré”
-Todo listo para copiar/pegar.`,
-    thumbnail: "",
-  },
+Include ramificazioni:
+- se dicono "prezzo"?
+- se dicono "Non ho tempo".
+- se dicono "ci penserò".
+Tutto pronto per copiare / incollare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-031",
-    title: "Mensajes rápidos de ‘mini diagnóstico’ — 12 plantillas para analizar en 60 segundos",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Plantillas para pedir 3 datos y devolver un mini diagnóstico útil que abre la venta.",
-    prompt: `Rellena:
-- Oferta:
-- 3 datos mínimos:
-- Canal:
+{
+  id: "mmra-031",
+  title: "Messaggi rapidi di 'mini-diagnosi' - 12 modelli da analizzare in 60 secondi",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Modelli per ordinare 3 dati e restituire una mini-diagnosi utile che apre la vendita.",
+  prompt: `Riempimento:
+- Offerta:
+- 3 dati minimi:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 12 plantillas:
-- 6 para leads fríos (más educativos)
-- 4 para tibios (más directos)
-- 2 para calientes (pre-cierre)
-Cada una debe:
-- pedir datos
-- entregar mini diagnóstico (estructura fija)
-- proponer siguiente paso.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-032",
-    title: "Mensajes rápidos para “¿sirve para mi caso?” — 15 respuestas consultivas",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas que validan, preguntan lo mínimo y convierten en una recomendación clara.",
-    prompt: `Rellena:
-- Oferta:
-- Casos típicos de fit y no fit:
-- Canal:
+Compito:
+Crea 12 modelli:
+- 6 per piombo freddo (più educativo)
+- 4 per piastre (più diretto)
+- 2 per caldo (pre-chiusura)
+Ogni mosto:
+- richiesta dei dati
+- fornire mini-diagnosi (struttura fissa)
+- proponga il prossimo passo.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-032",
+  title: "Messaggi rapidi per \"è buono per il mio caso?\" - 15 risposte consultive",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Le risposte che convalidano, chiedono il minimo e fanno una raccomandazione chiara.",
+  prompt: `Riempimento:
+- Offerta:
+- Tipici casi di vestibilità e no fit:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 15 respuestas para “¿sirve para mi caso?” que:
-- expliquen para quién sí / no
-- hagan 1–2 preguntas
-- sugieran el mejor camino (oferta/alternativa)
-Incluye 5 para no-fit (redirigir sin perder).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-033",
-    title: "Mensajes rápidos para convertir audio a texto — 10 respuestas a notas de voz",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Plantillas para cuando el lead te manda audio: resumir, validar y avanzar.",
-    prompt: `Rellena:
-- Oferta:
+Compito:
+Creare 15 risposte per "è buono per il mio caso?" che:
+- spiega per chi sì / no
+- fare 1-2 domande
+- consiglia il modo migliore (offerta / alternativa)
+Include 5 per no-fit (redirect senza perdere).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-033",
+  title: "Messaggi rapidi per convertire l'audio in testo - 10 risposte a note vocali",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Modelli per quando il piombo invia audio: riassunto, convalida e anticipo.",
+  prompt: `Riempimento:
+- Offerta:
 - Tono:
 
-Tarea:
-Crea 10 plantillas:
-- 5 para cuando el audio expresa interés
-- 3 para cuando el audio expresa objeción
-- 2 para cuando el audio está confuso/largo
-Cada plantilla debe:
-- resumir en 1–2 líneas lo que entendiste
-- validar
-- hacer una pregunta clara
-- proponer micro-CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-034",
-    title: "Mensajes rápidos para enlaces — pedir permiso y evitar links fríos (10 scripts)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Cómo enviar links sin bajar conversion: permiso, contexto y ‘qué mirar’.",
-    prompt: `Rellena:
-- Tipo de link (checkout, calendly, video, caso):
-- Oferta:
-- Canal:
+Compito:
+Creare 10 modelli:
+- 5 per quando l'audio esprime interesse
+- 3 per quando l'audio esprime obiezioni
+- 2 per quando l'audio è confuso / lungo
+Ogni modello deve:
+- riassumere in 1-2 linee quello che hai capito
+- validare
+- fare una domanda chiara
+- proporre micro-CTA.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-034",
+  title: "Messaggi rapidi per i collegamenti - autorizzazione dell'ordine ed evitare collegamenti freddi (10 script)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Come inviare link senza abbassare la conversione: permesso, contesto e 'cosa guardare'.",
+  prompt: `Riempimento:
+- Tipo di collegamento (checkout, callly, video, caso):
+- Offerta:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 10 scripts para compartir links:
-- 3 para checkout
-- 3 para agenda
-- 2 para casos
-- 2 para video/cómo funciona
-Cada uno con:
-- permiso (“¿te lo paso?”)
-- instrucción (“mira esta sección…”)
-- micro-CTA final.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-035",
-    title: "Mensajes rápidos para cerrar por chat (B2C) — 12 cierres con opción A/B",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Cierres simples para que el lead elija: plan, fecha, o siguiente paso.",
-    prompt: `Rellena:
-- Oferta:
-- Planes:
-- Deadline:
+Compito:
+Crea 10 script per condividere link:
+- 3 per il checkout
+- 3 per l'ordine del giorno
+- 2 per i casi
+- 2 per il video / come funziona
+Ognuno con:
+- permesso ("Posso passarlo?")
+- istruzioni ("guarda questa sezione...")
+- finale micro-CTA.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-035",
+  title: "Messaggi rapidi per la chiusura tramite chat (B2C) - 12 chiusure con opzione A / B",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Serrature semplici per il piombo a scegliere: piano, data o passo successivo.",
+  prompt: `Riempimento:
+- Offerta:
+- Piani:
+- Scadenza:
 - Tono:
 
-Tarea:
-Crea 12 cierres con A/B:
-- 6 sobre elegir plan (A/B)
-- 4 sobre elegir fecha/hora (A/B)
-- 2 sobre elegir formato (call vs checkout)
-Mantén cada cierre en máx 6 líneas.`,
-    thumbnail: "",
-  },
+Compito:
+Crea 12 chiusure con A / B:
+- 6 sulla scelta di un piano (A / B)
+- 4 sulla data di scelta / ora (A / B)
+- 2 over scegliere formato (call vs checkout)
+Tenere ogni serratura su max 6 linee.`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-036",
-    title: "Mensajes rápidos para “¿qué incluye?” — 12 respuestas con bullets y límites",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas con bullets: qué incluye, qué no incluye y qué resultado esperar.",
-    prompt: `Rellena:
-- Oferta:
-- Incluye (lista):
-- No incluye (lista):
+{
+  id: "mmra-036",
+  title: "Messaggi rapidi per \"che cosa include?\" - 12 risposte con proiettili e limiti",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Risposte con proiettili: cosa include, cosa non include e quale risultato aspettarsi.",
+  prompt: `Riempimento:
+- Offerta:
+- Include (lista):
+- Non incluso (elenco):
 - Tono:
 
-Tarea:
-Crea 12 respuestas para “¿qué incluye?”:
-- 6 cortas (bullets 3–5)
-- 4 medias (bullets 6–8 + para quién sí/no)
-- 2 largas (bloques: incluye/no incluye/next step)
-Siempre termina con 1 pregunta de calificación.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-037",
-    title: "Mensajes rápidos para “quiero ver ejemplos” — 10 respuestas + mini portafolio en texto",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Cómo mostrar ejemplos sin mandar 20 links: mini portafolio explicado en texto.",
-    prompt: `Rellena:
-- Oferta:
-- Tipos de ejemplos:
-- Canal:
+Compito:
+Crea 12 risposte per "che cosa include?":
+- 6 corto (3-5 proiettili)
+- 4 calze (6-8 + proiettili per chi sì / no)
+- 2 lunghi (blocchi inclusi / non inclusi / passo successivo)
+Si conclude sempre con 1 domanda di valutazione.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-037",
+  title: "Messaggi rapidi per \"Voglio vedere esempi\" - 10 risposte + mini portfolio in testo",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Come mostrare esempi senza inviare 20 link: mini portfolio spiegato nel testo.",
+  prompt: `Riempimento:
+- Offerta:
+- Tipi di esempi:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 10 respuestas:
-- 6 con 1 ejemplo descrito (contexto→acción→resultado/insight)
-- 4 con 3 ejemplos en bullets
-Incluye 1 pregunta final para elegir el ejemplo más relevante (A/B).`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-038",
-    title: "Mensajes rápidos para traducción y claridad — cuando el lead escribe mal o se expresa raro",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Plantillas para pedir aclaración con tacto y mantener momentum.",
-    prompt: `Rellena:
-- Canal:
+Compito:
+Crea 10 risposte:
+- 6 con 1 esempio descritto (contesto → azione → risultato / insight)
+- 4 con 3 esempi nei proiettili
+Include 1 domanda finale per scegliere l'esempio più rilevante (A / B).`,
+  thumbnail: ""
+},
+{
+  id: "mmra-038",
+  title: "Messaggi rapidi per la traduzione e la chiarezza - quando il piombo scrive sbagliato o si esprime raro",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Modelli per chiedere chiarificazione con tocco e per mantenere slancio.",
+  prompt: `Riempimento:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 15 respuestas para cuando:
-- escriben confuso
-- mezclan idiomas
-- mandan un mensaje incompleto
-Que incluyan:
-- validación
-- reformulación de lo que crees entender
-- 1 pregunta clara (A/B si posible)
+Compito:
+Crea 15 risposte per quando:
+- scrivono confuso
+- lingue miste
+- inviare un messaggio incompleto
+Compreso:
+- validazione
+- la riformulazione di quello che pensi di capire
+- 1 domanda chiara (A / B se possibile)
 - micro-CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-039",
-    title: "Mensajes rápidos para “¿me garantizas resultados?” — 12 respuestas éticas",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas que no prometen de más: marco de variables, proceso, soporte y garantías reales.",
-    prompt: `Rellena:
-- Oferta:
-- Garantía real (si existe):
-- Variables fuera de tu control:
+  thumbnail: ""
+},
+{
+  id: "mmra-039",
+  title: "Messaggi rapidi per \"mi garantite i risultati?\" - 12 risposte etiche",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Risposte che non promettono di fare di più: quadro di variabili, processi, supporto e diritti di sicurezza.",
+  prompt: `Riempimento:
+- Offerta:
+- Diritto di sicurezza (se del caso):
+- Variabili fuori dal tuo controllo:
 - Tono:
 
-Tarea:
-Crea 12 respuestas:
-- 4 educativas (variables + expectativas)
-- 4 con enfoque en proceso (qué controlas)
-- 2 con garantía/condiciones (si existe)
-- 2 para descalificar si buscan certeza imposible
-Cada una cierra con pregunta para calificar.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-040",
-    title: "Mensajes rápidos para audiencias sensibles (compliance) — evitar promesas y claims",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts que venden sin claims: enfoque en proceso, beneficios no absolutos y lenguaje seguro.",
-    prompt: `Rellena:
-- Industria regulada (si aplica):
-- Palabras prohibidas:
-- Oferta:
-- Canal:
+Compito:
+Crea 12 risposte:
+- 4 educativo (variabili + aspettative)
+- 4 con approccio in processo (che si controlla)
+- 2 con garanzia / condizioni (se presenti)
+- 2 per squalificare se cercano certezza impossibile
+Ogni chiude con domanda per qualificarsi.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-040",
+  title: "Messaggi rapidi per il pubblico sensibile (conformità) - evitare promesse e reclami",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Script che vendono senza pretese: focus in-process, benefici non assoluti e linguaggio sicuro.",
+  prompt: `Riempimento:
+- industria regolamentata (se applicabile):
+- Parole proibite:
+- Offerta:
+- Canale:
 
-Tarea:
-Crea 20 mensajes (cortos) con lenguaje seguro:
-- 10 para “info/precio”
-- 10 para objeciones
-Incluye una lista de “frases seguras” y “frases a evitar” (10 y 10).`,
-    thumbnail: "",
-  },
+Compito:
+Crea 20 (brevi) messaggi in lingua sicura:
+- 10 per "info / prezzo"
+- 10 per obiezioni
+Esso comprende una lista di "frasi sicure" e "evitare frasi" (10 e 10).`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-041",
-    title: "Mensajes rápidos para lista de espera — 12 mensajes para mantener interés hasta apertura",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Mensajes para waitlist: valor, sneak peeks, prueba y CTA a apertura.",
-    prompt: `Rellena:
-- Oferta:
-- Fecha de apertura:
+{
+  id: "mmra-041",
+  title: "Messaggi rapidi per l'elenco di attesa - 12 messaggi per mantenere l'interesse fino all'apertura",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Messaggi per la lista di attesa: valore, snoak peeks, test e CTA per aprire.",
+  prompt: `Riempimento:
+- Offerta:
+- Data di apertura:
 - Bonus:
-- Canal:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 12 mensajes:
-- 4 valor (tips)
-- 3 sneak peeks (qué incluye)
-- 3 prueba social (sin inventar)
-- 2 CTA (apertura + último recordatorio)
-Incluye 2 versiones: cercano y premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-042",
-    title: "Mensajes rápidos para post-evento/webinar — convertir asistentes en citas (12 scripts)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts post-evento según asistencia: completo, parcial, no asistió.",
-    prompt: `Rellena:
+Compito:
+Crea 12 messaggi:
+- 4 valore (tip)
+- 3 sbirri (compresi)
+- 3 prove sociali (non inventate)
+- 2 CTA (apertura + ultimo promemoria)
+Include 2 versioni: chiuso e premium.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-042",
+  title: "Messaggi rapidi per post-evento / webinar - convertire i partecipanti alle date (12 script)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Scrittori post-evento secondo la frequenza: completo, parziale, non ha partecipato.",
+  prompt: `Riempimento:
 - Evento:
-- Oferta:
-- Canal:
+- Offerta:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 12 scripts:
-- 4 para asistentes completos
-- 4 para parciales
-- 4 para no asistentes
-Cada script incluye:
-- recap 1 línea
-- pregunta de diagnóstico
-- CTA suave (paso pequeño)`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-043",
-    title: "Mensajes rápidos para ‘recomendaciones’ — cuando te preguntan qué herramienta usar",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas tipo consultor: recomendar sin vender agresivo y conducir a tu oferta.",
-    prompt: `Rellena:
+Compito:
+Crea 12 script:
+- 4 per assistenti completi
+- 4 per parziale
+- 4 per non addetti
+Ogni script include:
+- Recepp 1 linea
+- questione diagnostica
+- Soft CTA (piccolo passo)`,
+  thumbnail: ""
+},
+{
+  id: "mmra-043",
+  title: "Messaggi rapidi per 'raccomandazioni' - quando chiesto quale strumento utilizzare",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Risposte di tipo consultivo: consigliare senza vendere aggressivo e portare alla vostra offerta.",
+  prompt: `Riempimento:
 - Nicho:
-- Oferta:
-- Herramientas frecuentes:
-- Canal:
+- Offerta:
+- Strumenti comuni:
+- Canale:
 
-Tarea:
-Crea 20 respuestas rápidas:
-- 10 recomendando opción A vs B (con criterio)
-- 10 con checklist de elección (3–5 criterios)
-Cada respuesta termina con una pregunta para entender mejor su caso.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-044",
-    title: "Mensajes rápidos para “no puedo ahora” — 12 rutas: pausa, reprograma, entry, recurso",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Maneja falta de tiempo/prioridad: ofrece rutas alternativas y mantén relación.",
-    prompt: `Rellena:
-- Oferta:
-- Alternativa entry:
-- Recurso gratis:
-- Canal:
+Compito:
+Crea 20 risposte rapide:
+- 10 opzione raccomandante A vs B (con criterio)
+- 10 con lista di controllo scelta (3-5 criteri)
+Ogni risposta termina con una domanda per capire meglio il tuo caso.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-044",
+  title: "Messaggi rapidi per \"Non posso ora\" - 12 percorsi: pausa, riprogrammazione, entrata, risorsa",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Gestisce la mancanza di tempo / priorità: offre percorsi alternativi e mantiene un rapporto.",
+  prompt: `Riempimento:
+- Offerta:
+- Ingresso alternativo:
+- Risorse gratuite:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 12 respuestas para “no puedo ahora”:
-- 4: pausar y volver en X (con permiso)
-- 4: paso pequeño (entry/audit)
-- 2: recurso gratis + micro-CTA
-- 2: cierre de loop elegante`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-045",
-    title: "Mensajes rápidos para “ya compré algo parecido” — 10 respuestas para diferenciar sin atacar",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Respuestas para cuando ya compraron otra cosa: diferenciar por proceso y fit.",
-    prompt: `Rellena:
-- Oferta:
-- Diferenciador real:
-- Alternativas comunes:
-- Canal:
+Compito:
+Crea 12 risposte per "Non posso ora":
+- 4: pausa e ritorno a X (con permesso)
+- 4: piccolo passo (ingresso / audit)
+- 2: risorsa gratuita + micro-CTA
+- 2: chiusura a loop elegante`,
+  thumbnail: ""
+},
+{
+  id: "mmra-045",
+  title: "Messaggi rapidi per \"Ho già comprato qualcosa di simile\" - 10 risposte per differenziare senza attaccare",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Risposte per quando hanno già comprato qualcos'altro: differenziarsi per processo e vestirsi.",
+  prompt: `Riempimento:
+- Offerta:
+- Differenziatore reale:
+- Alternative comuni:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 10 respuestas:
-- validar su compra previa
-- preguntar qué les funcionó/no
-- explicar diferencia (proceso/soporte/alcance)
-- CTA a diagnóstico/breve evaluación`,
-    thumbnail: "",
-  },
+Compito:
+Crea 10 risposte:
+- convalidare l'acquisto precedente
+- chiedere cosa ha funzionato per loro / non
+- spiega la differenza (processo / supporto / gamma)
+- CTA alla diagnosi / valutazione breve`,
+  thumbnail: ""
+},
 
-  {
-    id: "mmra-046",
-    title: "Mensajes rápidos para upsell/cross-sell (post-compra) — 12 scripts basados en progreso",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Ofrece el siguiente producto basándote en señales de progreso, no en catálogo.",
-    prompt: `Rellena:
-- Producto comprado:
-- Complemento:
-- Señales de progreso:
-- Canal:
+{
+  id: "mmra-046",
+  title: "Messaggi rapidi per upsell / crosssell (post-purchase) - 12 script basati sui progressi",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Offre il seguente prodotto in base ai segnali di progresso, non catalogo.",
+  prompt: `Riempimento:
+- Prodotto acquistato:
+- Completo:
+- Segnali di progresso:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 12 scripts:
-- 6 para sugerir complemento (educativo)
-- 4 para upsell (valor/ROI)
-- 2 para cierre suave
-Incluye 1 pregunta final que confirme readiness.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-047",
-    title: "Mensajes rápidos para manejar ‘spam de mensajes’ — respuestas con límites y cortesía",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Plantillas para poner límites cuando te escriben en exceso o fuera de lugar.",
-    prompt: `Rellena:
-- Política de horarios:
-- Canal:
-- Tono (firme pero amable):
+Compito:
+Crea 12 script:
+- 6 per suggerire ulteriori (educativi)
+- 4 per upsell (valore / ROI)
+- 2 per chiusura morbida
+Include 1 domanda finale che conferma la disponibilità.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-047",
+  title: "Messaggi rapidi per gestire 'spam messaggi' - risposte con limiti e cortesia",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Modelli per impostare limiti quando si è sovrascritti o fuori luogo.",
+  prompt: `Riempimento:
+- Politica di sincronizzazione:
+- Canale:
+- Tono (fermo ma gentile):
 
-Tarea:
-Crea 15 mensajes:
-- 5 para horarios
-- 5 para mensajes repetidos/poco respeto
-- 5 para cerrar conversación
-Incluye versión:
-- cercana
-- formal
-- premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-048",
-    title: "Mensajes rápidos para enviar checklist de decisión — 10 scripts (auto-calificación)",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Scripts que entregan checklist y convierten en ‘sí/no’ natural.",
-    prompt: `Rellena:
-- Oferta:
-- 5 criterios de fit:
-- Canal:
+Compito:
+Crea 15 messaggi:
+- 5 per ore
+- 5 per messaggi ripetuti / poco rispetto
+- 5 per chiudere la conversazione
+Include la versione:
+- Vicino.
+- formale
+- premio.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-048",
+  title: "Messaggi rapidi per inviare la lista di controllo delle decisioni - 10 script (auto-rating)",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Gli script che forniscono la lista di controllo e diventano naturali 'sì / no'.",
+  prompt: `Riempimento:
+- Offerta:
+- 5 criteri di misura:
+- Canale:
 - Tono:
 
-Tarea:
-Crea 10 scripts que incluyan:
-- checklist (5 criterios)
-- instrucción: “si tienes 4/5, te conviene…”
-- CTA suave
-Incluye 2 versiones ultra cortas.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-049",
-    title: "Mensajes rápidos para responder rápido pero personal — sistema ‘plantilla + variable’",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Crea un sistema de plantillas con variables para personalizar en 10 segundos.",
-    prompt: `Rellena:
-- Oferta:
-- Variables disponibles (nombre, objetivo, nicho, urgencia):
-- Canal:
+Compito:
+Crea 10 script che includono:
+- controllo (5 criteri)
+- istruzioni: "Se hai 4 / 5, ti fa bene..."
+- Soft CTA
+Include 2 versioni ultra brevi.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-049",
+  title: "Messaggi rapidi per rispondere rapidamente ma personalmente - 'template + variabile' sistema",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Creare un sistema di modelli con variabili da personalizzare in 10 secondi.",
+  prompt: `Riempimento:
+- Offerta:
+- Variabili disponibili (nome, obiettivo, nicchia, emergenza):
+- Canale:
 - Tono:
 
-Tarea:
-1) Crea 20 plantillas con variables (ej: {nombre}, {objetivo}).
-2) Incluye 5 categorías:
-   - bienvenida
-   - precio
-   - objeciones
-   - agenda
-   - cierre de loop
-3) Da 5 ejemplos completados con datos ficticios realistas.`,
-    thumbnail: "",
-  },
-  {
-    id: "mmra-050",
-    title: "SOP de Mensajes Rápidos — biblioteca, etiquetas, reglas de uso y mejora continua",
-    area: "Marketing & ventas",
-    category: "Mensajes Rápidos",
-    summary:
-      "Crea un SOP para organizar, usar y mejorar mensajes rápidos sin perder humanidad.",
-    prompt: `Rellena:
-- Canales:
-- Oferta:
-- Equipo (quién responde):
-- Herramienta (CRM/WhatsApp Business/IG quick replies):
-- Métricas (reply rate, booking rate, tiempo de respuesta):
+Compito:
+1) Creare 20 modelli con variabili (ad esempio: _ PH0 _ _, _ _ PH1 _ _).
+2) Include 5 categorie:
+- Benvenuto.
+- prezzo
+- obiezioni
+- agenda
+- chiusura a ciclo
+3) Fornisce 5 esempi completati con dati fittizi realistici.`,
+  thumbnail: ""
+},
+{
+  id: "mmra-050",
+  title: "Messaggi rapidi SOP - biblioteca, etichette, regole di utilizzo e miglioramento continuo",
+  area: "Marketing e vendita",
+  category: "Messaggi rapidi",
+  summary:
+  "Creare un SOP per organizzare, utilizzare e migliorare i messaggi veloci senza perdere l'umanità.",
+  prompt: `Riempimento:
+- Canali:
+- Offerta:
+- Attrezzatura (che risponde):
+- Strumento (CRM / WhatsApp Business / IG risposte rapide):
+- Metric (tasso di rimborso, tariffa di prenotazione, tempo di risposta):
 
-Tarea:
-Escribe un SOP que incluya:
-1) Estructura de la biblioteca (carpetas/categorías).
-2) Convenciones de nombre (ej: [DM] Precio - Consultivo).
-3) Reglas de personalización obligatoria (mínimo 1 variable).
-4) Árbol de decisión: qué plantilla usar según mensaje del lead.
-5) Métricas a revisar semanalmente + cómo iterar.
-6) Checklist anti-spam / compliance.
-Formato: headings + bullets + ejemplos concretos.`,
-    thumbnail: "",
-  },
-];
+Compito:
+Scrivere un SOP che include:
+1) Struttura della biblioteca (cartelle / categorie).
+2) Nomi convenzioni (ad esempio: [DM] Prezzo - Advisory).
+3) Regole di personalizzazione obbligatoria (minimo 1 variabile).
+4) Albero di decisione: quale modello da utilizzare secondo il messaggio di piombo.
+5) Medici da rivedere settimanale + come iterare.
+6) Elenco di controllo antispam / conformità.
+Formato: voci + proiettili + esempi concreti.`,
+  thumbnail: ""
+}];

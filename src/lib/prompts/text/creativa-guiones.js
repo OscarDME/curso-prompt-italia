@@ -1,1211 +1,1210 @@
 // src/lib/prompts/text/creativa-guiones.js
 
 export const textPromptsCreativaGuiones = [
-  {
-    id: "crea-gui-001",
-    title: "Corto cinematográfico (5–7 min): premisa simple, final que cambia todo",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Guion de corto con estructura clásica, escenas visuales y giro final significativo.",
-    prompt: `Dame:
-1) Género (drama, thriller, comedia negra, sci-fi íntima, terror psicológico).
+{
+  id: "crea-gui-001",
+  title: "Film corto (5-7 min): semplice premessa, finale che cambia tutto",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Breve sceneggiatura con struttura classica, scene visive e significativo giro finale.",
+  prompt: `Dammi...
+1) Genere (dramma, thriller, commedia nera, sci-fi intimo, terrore psicologico).
 2) Logline (1 frase).
-3) Protagonista (deseo, miedo, defecto, habilidad).
-4) Antagonista (persona, sistema o fuerza interna).
-5) Lugar principal (1–2 locaciones máximo).
-6) Objeto simbólico (aparece 3 veces).
-7) Tema (la verdad humana que quieres decir).
-8) Final deseado (amargo, esperanzador, shock, poético).
+3) Protagonista (desiderio, paura, difetto, abilità).
+4) Antagonista (persona, sistema o forza interna).
+5) Posizione principale (1-2 posizioni massime).
+6) Oggetto simbolico (appare 3 volte).
+7) Oggetto (la verità umana che intendete).
+8) La fine desiderata (più grande, speranza, shock, poetico).
 
-Escribe un guion de corto de 5–7 minutos, formato guion:
-- Encabezados de escena (INT./EXT. — LUGAR — DÍA/NOCHE).
-- Acción en presente, visual, concreta (sin explicar emociones).
-- Diálogo natural (subtexto).
-- Máximo 10 escenas.
+Scrivere un breve script di 5-7 minuti, formato script:
+- Teste di scenario (INT. / EXT. - Lugar - DAY / NIGHT).
+- Azione presente, visiva, concreta (senza spiegare emozioni).
+- Dialogo naturale (sottotesto).
+- Massimo 10 scene.
 
-Estructura obligatoria:
-A) Hook visual (primeros 20–30 segundos).
-B) Incidente incitador (min 1).
-C) Punto medio: revelación o decisión.
-D) Clímax con elección moral.
-E) Final con giro que reinterpreta el objeto simbólico.
+Struttura obbligatoria:
+A) Gancio visivo (prima 20-30 secondi).
+B) Incidente (min 1).
+C) Punto centrale: comunicazione o decisione.
+D) Climax con scelta morale.
+E) Finale con un tocco che reinterpreta l'oggetto simbolico.
 
-Incluye:
-- Lista de “beats” antes del guion (10–14 puntos).
-- Al final: 3 opciones alternativas de final (2–4 líneas cada una).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-002",
-    title: "Guion tipo Black Mirror íntimo: tecnología + costo humano",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Historia sci-fi cercana: un invento plausible que rompe una relación o identidad.",
-    prompt: `Dame:
-- Tecnología (qué hace, por qué existe, quién la usa).
-- Protagonista (herida emocional).
-- Relación central (pareja, madre/hija, amigos, jefe/empleado).
-- Regla del mundo (qué NO puede hacer la tecnología).
-- Precio oculto (qué se pierde).
-- Final (castigo, aprendizaje, ironía, ambigüedad).
+Include:
+- Elenco dei "beats" prima dello script (10-14 punti).
+- No. Alla fine: 3 opzioni finali alternative (2-4 linee ciascuna).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-002",
+  title: "Specchio nero Intimo: tecnologia + costo umano",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Vicina storia della fantascienza: un'invenzione plausibile che spezza un rapporto o un'identità.",
+  prompt: `Dammi...
+- Tecnologia (che cosa fa, perché esiste, chi lo usa).
+- Staragonista ( ferita emotiva).
+- Rapporto centrale (coppia, madre / figlia, amici, capo / dipendente).
+- Regola mondiale (che tecnologia NON può fare).
+- Prezzo nascosto (cosa si perde).
+- Finale (punizione, apprendimento, ironia, ambiguità).
 
-Escribe un guion de 8–10 min:
-- 12–18 escenas.
-- 2 locaciones principales + 1 secundaria.
-- 1 escena “feliz” al inicio para contraste.
-- 1 escena de descubrimiento (visual).
-- 1 decisión final irreversible.
+Scrivere uno script di 8-10 min:
+- 12-18 scene.
+- 2 posizioni principali + 1 secondario.
+- 1 scena "felice" all'inizio per contrasto.
+- 1 scena di scoperta (visivi).
+- 1 decisione definitiva irreversibile.
 
 Extra:
-- Logline + sinopsis (120–160 palabras).
-- 5 ideas de título “Black Mirror style”.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-003",
-    title: "Guion de terror psicológico (6–8 min): miedo sin monstruo",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Terror basado en tensión, sonido, repetición y una verdad interna.",
-    prompt: `Dame:
-- Miedo primario (abandono, culpa, persecución, pérdida de control).
-- Lugar: uno solo (casa, motel, ascensor, oficina nocturna).
-- Elemento sonoro recurrente (goteo, zumbido, mensaje, pasos).
-- Objeto que “aparece” (real o alucinación).
-- Final: revelación (¿era real o era el protagonista?).
+- Logline + panoramica (120-160 parole).
+- 5 "Black Mirror Style" idee titolo.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-003",
+  title: "Scritto di terrore psicologico (6-8 min): paura senza mostro",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Terrore basato sulla tensione, il suono, la ripetizione e una verità interna.",
+  prompt: `Dammi...
+- Teme primaria (abbandono, colpa, persecuzione, perdita di controllo).
+- Posizione: una (casa, motel, ascensore, ufficio notturno).
+- Elemento sonoro ricorrente (drip, buzzing, messaggio, passaggi).
+- No. Oggetto che "appare" (reale o allucinazione).
+- Finale: rivelazione (è vero o è stato il protagonista?).
 
-Escribe guion 6–8 min:
-- Ritmo: escenas cortas, silencios, acciones pequeñas.
-- No mostrar criatura explícita.
-- Usa el sonido como protagonista (descríbelo en acción).
-- Incluye 3 “falsos sustos” y 1 susto verdadero.
+Scrivere script 6-8 min:
+- Rhythm: brevi scene, silenzi, piccole azioni.
+- No. Non mostrare creature esplicite.
+- Utilizzare il suono come protagonista (descrivilo in azione).
+- No. Comprende 3 "falsi motivi" e 1 vera paura.
 
-Incluye:
-- Lista de recursos de dirección (luz, cámara, ritmo) para 8 momentos clave.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-004",
-    title: "Comedia de situación (sitcom) 10 min: conflicto tonto, emoción real",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Episodio breve con gags, running joke y un cierre emocional sincero.",
-    prompt: `Dame:
-- Setting (cafetería, cowork, casa compartida, tienda, oficina).
-- 3 personajes principales (defecto + deseo + manía cómica).
-- Problema del episodio (pequeño pero urgente).
-- Running gag (se repite 3–5 veces).
-- Momento emocional real (1 minuto).
+Include:
+- Lista delle risorse di indirizzo (luce, fotocamera, ritmo) per 8 momenti chiave.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-004",
+  title: "Situazione Commedia (sitcom) 10 min: sciocco conflitto, vera emozione",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Breve episodio con gags, in esecuzione scherzo e una sincera chiusura emotiva.",
+  prompt: `Dammi...
+- Impostazione (cafe, colavoro, casa in comune, negozio, ufficio).
+- 3 personaggi principali (difetto + desiderio + mania comica).
+- problema episodio (piccolo ma urgente).
+- Esecuzione tag (ripettato 3-5 volte).
+- Un vero momento emotivo (1 minuto).
 
-Escribe guion de 10 min:
-- Cold open (1–2 min) con chiste fuerte.
-- Acto A: plan absurdo.
-- Acto B: complicación peor.
-- Tag final: broma corta de cierre.
+Scrivere 10 script min:
+- Freddo aperto (1-2 min) con una battuta forte.
+- Atto A: piano assurdo.
+- Atto B: complicazione peggiore.
+- Ultimo tag: breve battuta di chiusura.
 
-Incluye:
-- 12 chistes “alt” (alternativas) para remates (1 línea).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-005",
-    title: "Escena maestra: discusión de pareja con subtexto (no gritos)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Una sola escena intensa donde nadie dice lo que realmente duele.",
-    prompt: `Dame:
-- Quiénes son (edad, dinámica).
-- Qué conflicto visible discuten.
-- Qué conflicto real ocultan.
-- Lugar (cocina, coche, pasillo, cama, supermercado).
-- 3 objetos en la escena que sirvan de subtexto.
-- Final (silencio, abrazo, ruptura, frase devastadora).
+Include:
+- 12 battute "alt" (alternatives) per uscite (1 linea).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-005",
+  title: "Scena degli insegnanti: discussione di coppia con sottotesto (senza urla)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Una sola scena intensa in cui nessuno dice cosa fa veramente male.",
+  prompt: `Dammi...
+- Chi sono (età, dinamica).
+- No. Che conflitto visibile stanno discutendo.
+- No. Che vero conflitto che nascondono.
+- Luogo (cucina, auto, disimpegno, letto, supermercato).
+- 3 oggetti nella scena che servono come sottotesto.
+- Finale (silenza, abbraccio, rottura, frase devastante).
 
-Escribe 4–6 páginas de guion:
-- Diálogo natural, interrupciones, respiraciones.
-- Subtexto: el conflicto real solo se revela por acciones.
-- 2 momentos de humor involuntario (para realismo).
-- 1 línea final que cambie la escena.
+Scrivi 4-6 pagine di script:
+- Dialogo naturale, interruzioni, respirazione.
+- Sottotesto: Il vero conflitto è rivelato solo da azioni.
+- 2 momenti di umorismo involontario (per il realismo).
+- 1 linea finale per cambiare la scena.
 
-Añade:
-- Notas de actor: objetivo, obstáculo, táctica por personaje.`,
-    thumbnail: "",
-  },
+Aggiungi:
+- Nota attore: obiettivo, ostacolo, tattica per carattere.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-006",
-    title: "Guion de thriller (7–9 min): reloj en cuenta regresiva",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Thriller con deadline, pista falsa y revelación en el clímax.",
-    prompt: `Dame:
-- Deadline (cuánto tiempo y por qué).
-- Protagonista (habilidad + defecto).
-- Lo que está en juego (personal, no abstracto).
-- Pista inicial.
-- Sospechoso o sospecha.
-- Twist final.
+{
+  id: "crea-gui-006",
+  title: "Thriller script (7-9 min): guarda il conto alla rovescia",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Thriller con Deadline, falsa traccia e divulgazione nel climax.",
+  prompt: `Dammi...
+- Scadenza (per quanto tempo e perché).
+- Protagonista (capacità + difetto).
+- No. Che cosa è in gioco (personale, non astratto).
+- Una traccia iniziale.
+Sospetto o sospettato.
+- Twist finale.
 
-Escribe guion 7–9 min:
-- Abre con acción (en medias res).
-- Incluye 3 pistas reales y 2 pistas falsas.
-- 1 escena de interrogatorio o confrontación.
-- Final: twist lógico, sembrado antes.
+Scrivere script 7-9 min:
+- Aperto con azione (in metà re).
+- No. Include 3 tracce reali e 2 tracce false.
+- 1 scena di interrogatorio o di confronto.
+- Finale: torsione logico, seminato prima.
 
-Incluye:
-- Lista de pistas (dónde aparecen, qué significan) para continuidad.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-007",
-    title: "Guion poético (5–6 min): poco diálogo, mucha imagen",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Corto contemplativo: acciones pequeñas, símbolos y un final abierto pero claro.",
-    prompt: `Dame:
-- Tema (perdón, soledad, identidad, tiempo).
-- Protagonista (qué rutina lo define).
-- 1 locación principal.
-- 1 objeto simbólico.
+Include:
+- Lista di tracce (dove appaiono, cosa significano) per continuità.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-007",
+  title: "Scritto poetico (5-6 min): piccolo dialogo, molta immagine",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Breve contemplativo: piccole azioni, simboli e un finale aperto ma chiaro.",
+  prompt: `Dammi...
+- Soggetto (fortezza, solitudine, identità, tempo).
+- Protagonista (che routine definisce).
+- 1 posizione principale.
+- 1 oggetto simbolico.
 - 1 cambio interno.
 
-Escribe guion 5–6 min:
-- Máximo 20 líneas de diálogo en todo el guion.
-- Acciones sensoriales (luz, textura, sonido).
-- El objeto aparece 4 veces, cada vez cambia su significado.
-- Final: gesto mínimo que signifique transformación.
+Scrivere script 5-6 min:
+- Massimo 20 linee di dialogo in tutto lo script.
+- Azioni sensoriali (luce, texture, suono).
+- No. L'oggetto appare 4 volte, ogni volta che cambia il suo significato.
+- Finale: minimo gesto che significa trasformazione.
 
-Incluye:
-- Nota de dirección: color/luz/sonido dominantes.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-008",
-    title: "Guion de animación (2–3 min): sin palabras, emoción completa",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Corto animado mudo con gag visual y emoción, perfecto para festival.",
-    prompt: `Dame:
-- Personaje (forma, rasgo, limitación).
-- Mundo (regla física extraña).
-- Deseo simple del personaje.
-- Obstáculo visual.
-- Final (giro tierno o irónico).
+Include:
+- Nota indirizzo: colore dominante / luce / suono.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-008",
+  title: "Script di animazione (2-3 min): nessuna parola, emozione completa",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Mute taglio animato con gag visiva e emozione, perfetto per il festival.",
+  prompt: `Dammi...
+- Carattere (forma, tratto, limitazione).
+- Mondo (regolazione fisica limitata).
+- Semplice desiderio del personaggio.
+- Oggetti visivi.
+- Finale (tender o ironico).
 
-Escribe guion 2–3 min:
-- Sin diálogo.
-- Describe acción con claridad para animación.
-- 1 gag visual recurrente.
-- Final emocional (no triste por triste).
+Scrivere script 2-3 min:
+- Niente dialogo.
+- Descrivi chiaramente l'azione per l'animazione.
+- 1 gag visivo ricorrente.
+- Fine emotivo (non triste per triste).
 
-Incluye:
-- Lista de 8 planos clave (qué se ve, propósito emocional).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-009",
-    title: "Escena de interrogatorio (5–7 min): verdad vs protección",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Interrogatorio donde la verdad existe, pero alguien la protege por amor o miedo.",
-    prompt: `Dame:
-- Quién interroga (motivación).
-- Quién es interrogado (qué oculta).
-- Qué pasó (hecho objetivo).
-- Mentira que se sostiene.
-- Detalle mínimo que delata.
-- Final (confesión parcial, silencio, giro).
+Include:
+- Elenco di 8 piani chiave (che cosa vedi, scopo emotivo).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-009",
+  title: "Interrogazione scena (5-7 min): verità contro protezione",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Interrogatorio dove esiste la verità, ma qualcuno la protegge per amore o paura.",
+  prompt: `Dammi...
+- Che domande (motivazione).
+- Chi è interrogato (che cosa è nascosto).
+- No. Che cosa è successo (fatto oggettivo).
+- Menzogne che tengono in piedi.
+- Minimo dettaglio che date via.
+- Finale ( confessione parziale, silenzio, turno).
 
-Escribe escena 5–7 min:
-- Ritmo: preguntas cortas, evasivas, pausa.
-- 2 cambios de poder (quién domina).
-- 1 momento donde el interrogador muestra humanidad.
-- Final: un detalle que cambie el caso.
+Scrivi scena 5-7 min:
+- Rhythm: domande brevi, evasive, pausa.
+- 2 cambiamenti di potenza (che dominano).
+- Un momento in cui l'interrogatore mostra l'umanità.
+- Finale: un dettaglio che cambia il caso.
 
-Incluye:
-- Subtexto en notas (no en diálogo): qué quiere cada uno realmente.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-010",
-    title: "Guion estilo ‘found footage’: realismo, restricciones, miedo",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Terror o thriller grabado ‘en vivo’: cámara limitada y tensión auténtica.",
-    prompt: `Dame:
-- Quién graba y por qué (motivo creíble).
-- Locación cerrada.
-- Evento inicial extraño.
-- Regla de cámara (no cortar, batería, señal, etc.).
-- Final (escape, loop, revelación).
+Include:
+- Sottotesto nelle note (non in dialogo): ciò che ognuno vuole veramente.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-010",
+  title: "Script style 'found football': realismo, restrizioni, paura",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Terrore o thriller registrato \"live ': fotocamera limitata e tensione autentica.",
+  prompt: `Dammi...
+- Chi registra e perché (credibile).
+- Posizione chiusa.
+- Strano evento iniziale.
+- Regola della fotocamera (non tagliata, batteria, segnale, ecc.).
+- Finale (fuga, loop, rivelazione).
 
-Escribe guion 6–8 min:
-- Describe “lo que ve la cámara”.
-- Incluye fallos reales: foco, audio, batería, respiración.
-- 3 señales pequeñas antes de la crisis.
-- Clímax: algo que se ve solo un segundo.
+Scrivere script 6-8 min:
+- Descrivi cosa vede la telecamera.
+- No. Include veri difetti: messa a fuoco, audio, batteria, respirazione.
+- 3 piccoli segni prima della crisi.
+- Climax: qualcosa che sembra solo per un secondo.
 
-Incluye:
-- Lista de 10 “detalles de realismo” para dirección.`,
-    thumbnail: "",
-  },
+Include:
+- Lista di 10 "realismo dettagli" per direzione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-011",
-    title: "Episodio piloto (12–15 min): presentar mundo, promesa y gancho",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Mini-piloto que presenta protagonista, objetivo, conflicto central y cliffhanger.",
-    prompt: `Dame:
-- Género y tono.
-- Mundo/setting.
-- Protagonista (deseo, herida, secreto).
-- Antagonista o tensión principal.
-- “Promesa de serie” (qué veremos cada episodio).
-- Cliffhanger del final.
+{
+  id: "crea-gui-011",
+  title: "Pilot Episodio (12-15 min): mondo attuale, promessa e gancio",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Mini-pilota che presenta protagonista, obiettivo, conflitto centrale e cliffhanger.",
+  prompt: `Dammi...
+- Genere e tono.
+- Mondo / ambiente.
+- Protagonisti (desira, ferita, segreto).
+- Antagonista o tensione principale.
+- "Promessa seriale" (che vedremo ogni episodio).
+- Scogliera dalla fine.
 
-Escribe guion 12–15 min:
-- Teaser inicial potente.
-- Presenta 3 personajes secundarios con función clara.
-- 2 escenas que muestren reglas del mundo (sin explicar).
-- Final: cliffhanger que obliga a ver el siguiente.
+Scrivere script 12-15 min:
+- Un potente teaser iniziale.
+- No. Ha 3 caratteri secondari con funzione chiara.
+- 2 scene che mostrano regole del mondo (non spiegate).
+- Finale: falesia che costringe a vedere il seguente.
 
-Incluye:
-- Biblos de personajes (1 párrafo cada uno).
-- 6 loglines de episodios futuros (1 frase).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-012",
-    title: "Guion de radio/voz (podcast ficción): tensión solo con sonido",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Episodio de ficción sonora: ritmo, efectos, silencios y voces distintivas.",
-    prompt: `Dame:
-- Género.
-- Duración (8–12 min).
-- Personajes (2–4) y su relación.
-- Lugar y evento central.
-- Twist final.
+Include:
+- Bibbie di caratteri (1 paragrafo ciascuno).
+- 6 logline degli episodi futuri (1 frase).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-012",
+  title: "Radio / script vocale (podcast fiction): tensione solo con suono",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Episodio di finzione sonora: ritmo, effetti, silenzi e voci distintive.",
+  prompt: `Dammi...
+- Genere.
+- Durata (8-12 min).
+- Caratteri (2-4) e loro relazione.
+- Luogo e evento centrale.
+- Twist finale.
 
-Escribe guion de audio:
-- Marca SFX (efectos), AMB (ambiente), MUSIC (cues).
-- Diálogos con voces diferenciables.
-- 3 silencios significativos (marcados).
-- Twist final que se entienda por sonido, no por explicación.
+Scrivere lo script audio:
+- Marchio SFX (effetti), AMB (ambiente), MUSIC (cues).
+- Dialogo con voci diverse.
+- 3 silenzi significativi (segnati).
+- Twist finale capito dal suono, non da spiegazione.
 
-Incluye:
-- Lista de efectos necesarios (10–18).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-013",
-    title: "Guion experimental: dos escenas a la vez (paralelo)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Estructura paralela: dos escenas alternadas que se responden emocionalmente.",
-    prompt: `Dame:
-- Escena A (lugar, conflicto).
-- Escena B (lugar, conflicto).
-- Vínculo oculto entre ambas.
-- Objeto o frase que conecte.
-- Final (cómo se revela el vínculo).
+Include:
+- Elenco degli effetti necessari (10-18).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-013",
+  title: "Scrittura sperimentale: due scene alla volta (parallel)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Struttura parallela: due scene alternative che rispondono emotivamente.",
+  prompt: `Dammi...
+- Scena A (luogo, conflitto).
+- Scena B (luogo, conflitto).
+- Collegamento nascosto tra i due.
+- No. Oggetto o frase che si collega.
+- Finale (come viene rivelato il link).
 
-Escribe guion 6–8 min:
-- Alterna A/B cada 6–12 líneas.
-- Debe sentirse como conversación a distancia.
-- Revelación final que conecte ambas de manera lógica y emocional.
+Scrivere script 6-8 min:
+- Alterna A / B ogni 6-12 linee.
+- No. Deve sentirsi come una conversazione a distanza.
+- Rivelazione finale che collega logicamente ed emotivamente.
 
-Incluye:
-- Nota de montaje: ritmo de cortes y por qué.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-014",
-    title: "Guion de fantasía íntima (7–10 min): magia con reglas duras",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Fantasía enfocada en emoción: magia limitada que exige sacrificio real.",
-    prompt: `Dame:
-- Regla de magia (qué puede, qué no puede).
-- Costo de usarla (físico/emocional/social).
-- Protagonista y su deseo.
-- Antagonista (o presión).
-- Objeto mágico.
-- Final (sacrificio).
+Include:
+- Nota di montaggio: tasso di taglio e perché.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-014",
+  title: "Script fantasy intimo (7-10 min): magia con regole dure",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "La fantasia si è concentrata sull'emozione: la magia limitata che richiede un vero sacrificio.",
+  prompt: `Dammi...
+- Regola magica (cosa può, cosa non può).
+- Costo dell'uso (fisico / emotivo / sociale).
+- Protagonista e desiderio.
+- Antagonista (o pressione).
+- Oggetti magici.
+- Finale (sacrifico).
 
-Escribe guion 7–10 min:
-- 2 escenas donde se muestra la magia sin explicar.
-- 1 escena donde se paga el costo.
-- Clímax: decisión moral sobre usar o no la magia.
-- Final: consecuencias.
+Scrivere script 7-10 min:
+- 2 scene in cui si mostra la magia inspiegabile.
+- 1 scena in cui il costo è pagato.
+- Climax: decisione morale se usare o meno la magia.
+- Finale: conseguenze.
 
-Incluye:
-- Lista de reglas de mundo (8 bullets) para consistencia.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-015",
-    title: "Escena de primera cita (4–6 min): tensión, humor, vulnerabilidad",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Cita realista: el chiste tapa el miedo, hasta que aparece algo honesto.",
-    prompt: `Dame:
-- Quiénes son (2 personajes).
-- Qué esperan de la cita (deseo oculto).
-- Qué temen que pase.
-- Lugar y un elemento que interrumpa (mesero, música, lluvia).
-- Final (beso, no beso, promesa, huida).
+Include:
+- Elenco delle regole del mondo (8 proiettili) per coerenza.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-015",
+  title: "Prima data scena (4-6 min): tensione, umorismo, vulnerabilità",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Citazione realistica: la battuta copre la paura, fino a quando qualcosa di onesto appare.",
+  prompt: `Dammi...
+- Chi sono (2 caratteri).
+- No. Cosa si aspettano dall'appuntamento (desiderio nascosto).
+- No. Quello che hanno paura accadrà.
+- Luogo e un elemento che interrompa (waiter, musica, pioggia).
+- Finale (kiss, no bacio, promessa, fuga).
 
-Escribe escena 4–6 min:
-- 2 momentos de incomodidad real (silencio, malentendido).
-- 2 momentos de humor natural.
-- 1 confesión pequeña que cambie el tono.
+Scrivi scena 4-6 min:
+- 2 momenti di vero disagio (lento, incomprensione).
+- 2 momenti di umorismo naturale.
+- 1 piccola confessione che cambia il tono.
 
-Incluye:
-- 8 líneas alternativas para la mejor broma.`,
-    thumbnail: "",
-  },
+Include:
+- 8 linee alternative per la migliore battuta.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-016",
-    title: "Guion de viaje en el tiempo (8–10 min): una regla, una tragedia",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Time travel minimalista con regla clara y final inevitable.",
-    prompt: `Dame:
-- Regla (solo 5 min, solo un lugar, solo un objeto, etc.).
-- Protagonista (qué quiere cambiar).
-- Precio (qué empeora/qué pierde).
-- Escena “antes” y “después”.
-- Final (inevitable o aprendizaje).
+{
+  id: "crea-gui-016",
+  title: "Tempo di viaggio copione (8-10 min): una regola, una tragedia",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Tempo di viaggio minimalista con regola chiara e fine inevitabile.",
+  prompt: `Dammi...
+- Regola (solo 5 min, un solo posto, un solo oggetto, ecc.).
+- Protagonisti (cosa vuoi cambiare).
+- Prezzo (cosa peggiora / cosa perde).
+- Scena "prima" e "dopo".
+- Finale (inviabile o apprendimento).
 
-Escribe guion 8–10 min:
-- Muestra la regla en acción rápido.
-- 2 intentos fallidos (variaciones).
-- Clímax: aceptar el costo o renunciar.
-- Final: eco emocional.
+Scrivere script 8-10 min:
+- Mostra la regola in azione rapida.
+- 2 tentativi falliti (variazioni).
+- Climax: accettare il costo o rinunciare.
+- Finale: eco emotivo.
 
-Incluye:
-- Diagrama de tiempo (lista de eventos en orden).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-017",
-    title: "Guion de misterio en una habitación (locked-room) (7–9 min)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Misterio con puzzle: todos los elementos están presentes desde el inicio.",
-    prompt: `Dame:
-- Habitación y por qué están ahí.
-- 3 personajes y sus secretos.
-- Objeto clave.
-- Pista visual #1, #2, #3.
-- Solución final (cómo se resuelve).
+Include:
+- Time diagram (elenco degli eventi in ordine).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-017",
+  title: "Mystery script in una stanza (camera chiusa) (7-9 min)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Mistero con puzzle: tutti gli elementi sono presenti fin dall'inizio.",
+  prompt: `Dammi...
+- Stanza e perche' sono li'.
+- 3 personaggi e i loro segreti.
+- Oggetto chiave.
+- Circuito visivo # 1, # 2, # 3.
+- Soluzione finale (come si risolve).
 
-Escribe guion 7–9 min:
-- Todo ocurre en una sola habitación.
-- 3 pistas deben ser visibles para el espectador.
-- 1 pista debe parecer decorativa al inicio.
-- Final: explicación breve y elegante (sin monólogo largo).
+Scrivere script 7-9 min:
+- No. Succede tutto in una stanza.
+- 3 tracce devono essere visibili allo spettatore.
+- 1 traccia deve guardare decorativo all'inizio.
+- Finale: spiegazione breve ed elegante (senza lungo monologo).
 
-Incluye:
-- Lista de utilería (props) con propósito narrativo.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-018",
-    title: "Guion de superhéroe íntimo (8–10 min): poder pequeño, dilema grande",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Historia de poder limitado (realista) con dilema moral humano.",
-    prompt: `Dame:
-- Poder (limitado y original).
-- Costo del poder.
-- Protagonista (vida normal).
-- Dilema moral.
-- Antagonista (puede ser sistema).
-- Final.
+Include:
+- Elenco di oggetti per scopi narrativi.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-018",
+  title: "Script supereroe intimo (8-10 min): piccolo potere, grande dilemma",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Storia del potere limitato (realistico) con dilemma morale umano.",
+  prompt: `Dammi...
+- Potenza (limitata e originale).
+- Costo del potere.
+- Protagonista (vita normale).
+- Dilema morale.
+- Antagonista (può essere sistema).
+- Finale.
 
-Escribe guion 8–10 min:
-- 1 escena donde el poder ayuda en algo pequeño.
-- 1 escena donde el poder arruina algo importante.
-- Clímax: elección moral, no pelea.
-- Final: consecuencia.
+Scrivere script 8-10 min:
+- 1 scena in cui il potere aiuta in qualcosa di piccolo.
+- 1 scena in cui il potere rovina qualcosa di importante.
+- Climax: scelta morale, nessuna lotta.
+- Finale: conseguenza.
 
-Incluye:
-- “Reglas del poder” (6–10 bullets).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-019",
-    title: "Guion noir (7–9 min): voz en off + culpa + humo",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Noir moderno: voz en off que no explica, sino que contradice lo que vemos.",
-    prompt: `Dame:
-- Caso/misterio.
-- Protagonista (detective, periodista, ex algo).
-- Culpa del pasado.
-- Femme fatale u objeto de deseo.
-- Final (castigo, ironía).
+Include:
+- Ruolo di potere (6-10 proiettili).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-019",
+  title: "Noir script (7-9 min): voce fuori + colpa + fumo",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Modern Noir: una voce off che non spiega, ma contraddice ciò che vediamo.",
+  prompt: `Dammi...
+- Caso / mistero.
+- Protagonista (detective, giornalista, ex-qualcosa).
+- Colpevole del passato.
+- Femme fatale o oggetto di desiderio.
+- Finale (punizione, ironia).
 
-Escribe guion 7–9 min:
-- Voz en off en 6–10 momentos (corta).
-- Lo que la voz dice debe chocar con lo que vemos (subtexto).
-- 1 escena en un bar/calle nocturna.
-- Final: ironía moral.
+Scrivere script 7-9 min:
+- Voce a 6-10 momenti (breve).
+- No. Ciò che la voce dice deve collidere con ciò che vediamo (sottotesto).
+- 1 scena in un bar / notte.
+- Finale: ironia morale.
 
-Incluye:
-- 10 líneas de voz en off alternativas (una-liners).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-020",
-    title: "Guion de ciencia ficción realista (near future): decisión política personal",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Sci-fi cercana donde una política/tecnología afecta lo íntimo.",
-    prompt: `Dame:
-- Política o norma del mundo (ej. créditos sociales, privacidad, licencias emocionales).
-- Protagonista (qué pierde).
-- Relación central.
-- Qué está prohibido.
-- Final (obedecer, rebelarse, pago).
+Include:
+- 10 linee vocali alternative su off (one-liners).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-020",
+  title: "Scrittura di fantascienza realistica (vicino al futuro): decisione politica personale",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Sci-fi vicino dove una politica / tecnologia colpisce l'intimo.",
+  prompt: `Dammi...
+- Politica mondiale o standard (ad esempio crediti sociali, privacy, licenze emotive).
+- Protagonista (cosa perde).
+- Rapporto centrale.
+- No. E' proibito.
+- Finale (obey, ribelle, pay).
 
-Escribe guion 8–12 min:
-- Mostrar la norma en lo cotidiano (no exposición).
-- 2 escenas donde la norma lastima en pequeño.
-- 1 escena donde amenaza destruir algo íntimo.
-- Clímax: decisión y consecuencia inmediata.
+Scrivere script 8-12 min:
+- Mostrare lo standard nel quotidiano (non-espositivo).
+- 2 scene in cui lo standard fa male in piccolo.
+- 1 scena in cui minacciate di distruggere qualcosa di intimo.
+- Climax: decisione e immediata conseguenza.
 
-Incluye:
-- 8 detalles de worldbuilding (objetos/gestos/rituales).`,
-    thumbnail: "",
-  },
+Include:
+- 8 dettagli di costruzione del mondo (oggetti / gesti / rituali).`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-021",
-    title: "Plantilla de guion: estructura universal + beats rellenables",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Plantilla completa para crear guiones rápidos con beats y preguntas guía.",
-    prompt: `Crea una PLANTILLA rellenable para guion de corto (6–10 min) que incluya:
-1) Hook visual (preguntas guía + ejemplos)
-2) Presentación del protagonista (deseo/defecto)
-3) Incidente incitador
-4) Reacción / plan
-5) Complicación 1
-6) Complicación 2
-7) Punto medio (revelación)
-8) Crisis
-9) Clímax (elección moral)
-10) Resolución (eco del tema)
+{
+  id: "crea-gui-021",
+  title: "Sceneggiatura: struttura universale + battiti ricaricabili",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Modello completo per creare script rapidi con beat e domande guida.",
+  prompt: `Creare un PLANTILLA lampeggiante per breve script (6-10 min) tra cui:
+1) Visual Hook (problemi guida + esempi)
+2) Presentazione del protagonista (desiderio / difetto)
+3) Incident inciter
+(4) Reazione / piano
+5) Complicazione 1
+(6) Complicazione 2
+7) Punto medio (rivelazione)
+(8) Crisi
+9) Climax (scelta morale)
+(10) Risoluzione (eco della voce)
 
-Para cada bloque:
-- Objetivo del bloque
-- Preguntas que debo responder (3–6)
-- Ejemplo de acción visual
-- Ejemplo de diálogo con subtexto
-- Errores comunes a evitar
+Per ogni blocco:
+- Obiettivo del blocco
+- Devo rispondere (3-6)
+- Esempio di azione visiva
+- Esempio di dialogo con il sottotesto
+- Errori comuni per evitare
 
-Al final:
-- Checklist de calidad (15 puntos) y tabla de “pistas + payoff”.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-022",
-    title: "Guion ‘una conversación y un objeto’: drama minimalista (6–8 min)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Dos personas y un objeto central; el objeto cambia de manos y revela verdad.",
-    prompt: `Dame:
-- Dos personajes (relación).
-- Objeto (qué significa).
-- Qué quiere cada personaje del otro.
-- Mentira que se dicen.
-- Lugar (uno solo).
-- Final (quién se queda el objeto y por qué).
+Alla fine:
+- Checklist di qualità (15 punti) e tabella "track + payoff".`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-022",
+  title: "Script 'una conversazione e un oggetto': dramma minimalista (6-8 min)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Due persone e un oggetto centrale; l'oggetto cambia le mani e rivela la verità.",
+  prompt: `Dammi...
+- Due caratteri (relazione).
+- Oggetto (che cosa significa).
+- No. Quello che ogni personaggio vuole dall'altro.
+- Stronzate dicono.
+- Luogo (uno).
+- Finale (che rimane l'oggetto e perché).
 
-Escribe guion 6–8 min:
-- Todo en una sola locación.
-- El objeto cambia de manos 3 veces.
-- Cada cambio revela una capa emocional.
-- Final: una acción silenciosa que diga lo que no se dijo.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-023",
-    title: "Guion de comedia romántica (10–12 min): tropo + subversión",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Romcom breve: usa un tropo clásico y lo rompe con un giro honesto.",
-    prompt: `Dame:
-- Tropo (enemigos a amantes, reunión, falsa cita, etc.).
-- Protagonista A (herida).
-- Protagonista B (miedo).
-- Lugar.
-- Qué malentendido los separa.
-- Qué verdad los une.
+Scrivere script 6-8 min:
+- Tutto in una posizione.
+- No. L'oggetto cambia le mani 3 volte.
+- Ogni cambiamento rivela uno strato emotivo.
+- Finale: un'azione silenziosa che dice ciò che non è stato detto.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-023",
+  title: "Commedia romantica script (10-12 min): tropo + sovversione",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Short Romcom: usa un tropo classico e lo rompe con una svolta onesta.",
+  prompt: `Dammi...
+- Trope (nemici agli amanti, incontro, falso appuntamento, ecc.).
+- Staragonista A (wound).
+- Protagonista B (fear).
+- Posto.
+- No. Che malinteso.
+- No. Che verità.
 
-Escribe 10–12 min:
-- Meet-cute con detalle visual memorable.
-- 1 escena de química (sin cliché).
-- 1 escena de conflicto real.
-- Final: gesto pequeño más que discurso.
+Scrivi 10-12 min:
+- Incontra- taglio con memorabile dettaglio visivo.
+- 1 scena chimica (senza cliché).
+- 1 scena di vero conflitto.
+- Finale: piccolo gesto piuttosto che discorso.
 
-Incluye:
-- 12 “momentos” románticos originales (no clichés) para elegir.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-024",
-    title: "Guion de acción contenida (6–8 min): persecución sin autos",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Secuencia de acción tensa en espacios pequeños (pasillos, mercado, azotea).",
-    prompt: `Dame:
-- Quién persigue a quién y por qué.
-- Espacio (mercado, metro, edificio, feria).
-- Objeto que debe llegar a destino.
-- Obstáculos físicos.
-- Final (escape, captura, intercambio).
+Include:
+- 12 momenti romantici originali (non cliché) tra cui scegliere.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-024",
+  title: "Script d'azione contenuto (6-8 min): persecuzione senza auto",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Sequenza di tensione di azione in piccoli spazi (corridoi, mercato, tetto).",
+  prompt: `Dammi...
+- Chi cerca chi e perché.
+- Spazio (mercato, metropolitana, edificio, fiera).
+- Oggetto da raggiungere.
+- ostacoli fisici.
+- Finale (fuga, cattura, scambio).
 
-Escribe guion 6–8 min:
-- Descripción de acción clara, coreografiable.
-- 6–10 beats de acción.
-- 2 falsos escapes.
-- 1 uso creativo del entorno.
-- Final: consecuencia emocional (no solo “ganó”).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-025",
-    title: "Guion de drama familiar (8–10 min): comida, tensión y verdad",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Cena familiar donde un secreto aparece por acciones pequeñas y frases inocentes.",
-    prompt: `Dame:
-- Familia (quiénes están).
-- Secreto.
-- Quién lo sabe y quién no.
-- Motivo de la cena.
-- Objeto o plato que detona algo.
-- Final (explota o se guarda).
+Scrivere script 6-8 min:
+- Descrizione dell'azione coreografica chiara.
+- 6-10 battute d'azione.
+- Due false fughe.
+- 1 uso creativo dell'ambiente.
+- Finale: conseguenza emotiva (non solo "won").`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-025",
+  title: "Family dramma script (8-10 min): cibo, tensione e verità",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Cena di famiglia dove un segreto appare per piccole azioni e frasi innocenti.",
+  prompt: `Dammi...
+- Famiglia (che sono).
+- Segreto.
+- Chi lo sa e chi no.
+- Il motivo della cena.
+- Oggetti o piatti che detonano qualcosa.
+- Finale (esplorato o memorizzato).
 
-Escribe guion 8–10 min:
-- 1 mesa, 1 cena, 1 tensión.
-- Diálogos con subtexto (lo importante se sugiere).
-- 2 momentos de humor involuntario.
-- Final con una frase que quede en el aire.`,
-    thumbnail: "",
-  },
+Scrivere script 8-10 min:
+- 1 tavolo, 1 cena, 1 tensione.
+- Dialogo con sottotesto (si suggerisce l'importante).
+- 2 momenti di umorismo involontario.
+- Finale con una frase rimasta nell'aria.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-026",
-    title: "Guion de fantasmas emocional (7–9 min): el fantasma es un duelo",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Fantasma como metáfora: presencia ligada a culpa o amor, con cierre catártico.",
-    prompt: `Dame:
-- Quién murió y quién quedó.
-- Qué culpa o promesa existe.
-- Lugar embrujado (cotidiano).
-- Señal del fantasma (no visual explícita).
-- Final (despedida, aceptación, loop).
+{
+  id: "crea-gui-026",
+  title: "Script fantasma emotivo (7-9 min): il fantasma è un duello",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Fantasma come metafora: presenza legata al senso di colpa o all'amore, con chiusura catartica.",
+  prompt: `Dammi...
+- Chi e' morto e chi e' rimasto.
+- No. Che colpa o promessa c'è.
+- Posto stregato (daily).
+- Segno fantasma (non visivo esplicito).
+- Finale (addio, accettazione, loop).
 
-Escribe guion 7–9 min:
-- 3 manifestaciones sutiles (sonido, temperatura, objetos).
-- 1 escena de confrontación emocional.
-- Final: un acto de despedida (visual).
+Scrivere script 7-9 min:
+- 3 manifestazioni sottili (suono, temperatura, oggetti).
+- 1 scena di confronto emotivo.
+- Finale: un atto di addio (visuale).
 
-Incluye:
-- 8 ideas de “manifestaciones” no cliché.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-027",
-    title: "Guion de sátira social (8–10 min): humor incómodo con verdad",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Sátira sobre una tendencia (redes, productividad, reputación) sin moralina.",
-    prompt: `Dame:
-- Tema social.
-- Protagonista (quiere encajar).
-- Regla absurda del mundo.
-- Castigo del sistema.
-- Final (ironía o ruptura).
+Include:
+- 8 idee di "manifestazioni" non cliché.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-027",
+  title: "Social satire script (8-10 min): umorismo scomodo con verità",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Rimuovere su una tendenza (rete, produttività, reputazione) senza moraline.",
+  prompt: `Dammi...
+- Questione sociale.
+- Protagonista (vuoto per adattarsi).
+- L'assurda regola del mondo.
+- Una punizione di sistema.
+- Finale (ironia o rottura).
 
-Escribe guion 8–10 min:
-- Presenta regla absurda como normal.
-- 3 escenas donde la regla se vuelve cruel.
-- Clímax: protagonista intenta romperla.
-- Final: ironía o pequeño triunfo.
+Scrivere script 8-10 min:
+- No. Presenta una regola assurda come normale.
+- 3 scene in cui la regola diventa crudele.
+- Climax: protagonista cerca di romperlo.
+- Finale: ironia o piccolo trionfo.
 
-Incluye:
-- 10 líneas de chiste “incómodo” que también digan verdad.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-028",
-    title: "Guion “una llamada”: todo cambia por teléfono (6–8 min)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Corto centrado en una llamada: tensión, silencios, subtexto y giro final.",
-    prompt: `Dame:
-- Quién llama a quién.
-- Qué quiere el que llama.
-- Qué teme el que recibe.
-- Lugar del receptor.
-- Mentira que se sostiene.
-- Final.
+Include:
+- 10 battute "incomfortabili" di scherzo che dicono anche la verità.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-028",
+  title: "Script \"One call\": tutto cambia per telefono (6-8 min)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Breve focalizzato su una chiamata: tensione, silenzi, sottotesto e giro finale.",
+  prompt: `Dammi...
+- Chi chiama chi.
+- No. Cosa vuole il chiamante?
+- No. Chi riceve ha paura.
+- Il posto del ricevitore.
+- Menzogne che tengono in piedi.
+- Finale.
 
-Escribe guion 6–8 min:
-- Todo desde el punto de vista del receptor (cámara/escena).
-- La otra voz se escucha solo a veces (o nunca).
-- Usa silencios y acciones para subtexto.
-- Final: revelación por un detalle (notificación, foto, objeto).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-029",
-    title: "Guion de juicio/tribunal (9–12 min): verdad relativa",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Drama judicial breve: testimonio, contradicción y giro por evidencia pequeña.",
-    prompt: `Dame:
+Scrivere script 6-8 min:
+- Tutto dal punto di vista del ricevitore (camera / scena).
+- No. L'altra voce si sente solo a volte (o mai).
+- Utilizzare silenzi e azioni per il sottotesto.
+- Finale: divulgazione di un dettaglio (notifica, foto, oggetto).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-029",
+  title: "Trial / script di corte (9-12 min): verità relativa",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Breve dramma giudiziario: testimonianza, contraddizione e svolta per piccole prove.",
+  prompt: `Dammi...
 - Caso.
-- Acusado.
-- Víctima.
-- Abogado/a protagonista.
-- Evidencia clave (pequeña).
-- Final (veredicto o revelación moral).
+- Esatto.
+- Vittima.
+- Avvocato.
+- Prove chiave (piccolo).
+- Finale (verdict o rivelazione morale).
 
-Escribe guion 9–12 min:
-- Alterna interrogatorio y objeciones.
-- 2 testimonios que chocan.
-- 1 detalle de evidencia que parecía nada.
-- Final: verdad moral aunque el veredicto sea ambiguo.
+Scrivi 9-12 min:
+- Interrogazioni e obiezioni.
+- Due testimonianze in collisione.
+- 1 dettaglio di prove che non sembravano nulla.
+- Finale: verità morale anche se il verdetto è ambiguo.
 
-Incluye:
-- Lista de objeciones y recursos de tensión (8–12).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-030",
-    title: "Guion de ciencia ficción ‘copia de ti’: identidad y reemplazo",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Historia sobre doble/copia: ¿qué te hace tú? final inquietante.",
-    prompt: `Dame:
-- Cómo existe la copia (IA, clon, recuerdo, simulación).
-- Qué ventaja ofrece.
-- Qué amenaza trae.
-- Relación afectada (pareja, familia, trabajo).
-- Final.
+Include:
+- Elenco delle obiezioni e delle risorse di tensione (8-12).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-030",
+  title: "Scrittura di fantascienza 'copia di voi': identità e sostituzione",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Storia del doppio / copia: cosa fai a te.",
+  prompt: `Dammi...
+- Come esiste la copia (IA, clone, memoria, simulazione).
+- No. Che vantaggio offre.
+- No. Che minaccia.
+- Rapporto interessato (coppia, famiglia, lavoro).
+- Finale.
 
-Escribe guion 8–12 min:
-- 1 escena donde la copia es “mejor”.
-- 1 escena donde algo se siente mal (uncanny).
-- Clímax: confrontación con pregunta existencial.
-- Final: imagen inquietante.
+Scrivere script 8-12 min:
+- 1 scena in cui la copia è "migliore".
+- 1 scena in cui qualcosa si sente male (uncanny).
+- Climax: confronto con domanda esistenziale.
+- Finale: immagine inquietante.
 
-Incluye:
-- 6 preguntas filosóficas para subtexto.`,
-    thumbnail: "",
-  },
+Include:
+- 6 domande filosofiche per il sottotesto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-031",
-    title: "Guion para videojuego (misión): narrativa + objetivos + diálogo",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Diseña una misión con objetivos, NPCs, diálogo ramificado y recompensa narrativa.",
-    prompt: `Dame:
-- Género del juego.
-- Mundo/setting.
+{
+  id: "crea-gui-031",
+  title: "Video game script (missione): narrazione + obiettivi + dialogo",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Progetta una missione con obiettivi, NPC, dialogo ramificata e ricompensa narrativa.",
+  prompt: `Dammi...
+- Genere di gioco.
+- Mondo / ambiente.
 - Protagonista.
-- NPC clave (aliado o rival).
-- Objetivo de la misión.
-- Dilema moral.
-- Recompensa (objeto o info).
+- Key NPC (da parte o rivale).
+- Obiettivo missione.
+- Dilema morale.
+- Reward (oggetto o informazioni).
 
-Crea documento de misión:
-1) Sinopsis (120–180 palabras)
-2) Objetivos (primarios/ secundarios)
-3) Beats narrativos (10–14)
-4) Diálogo del NPC (con 2 ramas: amable/hostil)
-5) Eventos de gameplay (3 setpieces)
-6) Finales alternativos (2)
-7) Recompensa y cómo impacta historia
+Creare un documento di missione:
+1) Panoramica (120-180 parole)
+2) Obiettivi (primario / secondario)
+3) Beats narrativi (10-14)
+4) dialogo NPC (con 2 rami: amichevole / ostile)
+5) Eventi di gioco (3 volte)
+(6) Finestre alternative (2)
+7) Ricompense e come influenzare la storia
 
-Incluye:
-- 12 líneas de barks (frases cortas) para combate/exploración.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-032",
-    title: "Guion para tráiler (1 min): vender tono y misterio",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Tráiler con voces, planos, text cards y crescendo final.",
-    prompt: `Dame:
-- Proyecto (película/serie/juego).
-- Género y tono.
-- 5 momentos clave de historia (sin spoilers).
-- Frase gancho.
-- Música (tipo).
+Include:
+- 12 linee di bar (breve frasi) per il combattimento / esplorazione.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-032",
+  title: "Trailer script (1 min): vendere tono e mistero",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Rimorchio con voci, piani, schede di testo e mezzaluna finale.",
+  prompt: `Dammi...
+- Progetto (film / serie / gioco).
+- Genere e tono.
+- 5 momenti chiave della storia (senza spoiler).
+- Uncino.
+- Musica (tipo).
 
-Escribe guion de tráiler 60–75s:
-- Lista de planos (12–20) con duración aproximada.
-- Texto en pantalla (3–6 tarjetas).
-- 1 línea de voz en off (máx. 4 apariciones).
-- Crescendo final con golpe.
+Scrivere lo script trailer 60-75s:
+- Elenco dei piani (12-20) con durata approssimativa.
+- Testo a schermo (3-6 carte).
+- 1 linea di voce in movimento (massimo 4 presenze).
+- Finale Crescendo con un colpo.
 
-Incluye:
-- 6 taglines alternativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-033",
-    title: "Guion de monólogo (teatro/cine) 3–5 min: confesión con giro",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Monólogo intenso con subtexto, humor mínimo y un giro al final.",
-    prompt: `Dame:
-- Personaje (edad, contexto).
-- A quién habla (público, juez, amante, espejo).
-- Secreto.
-- Mentira que se repite.
-- Final (revelación).
+Include:
+- 6 slogan alternativi.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-033",
+  title: "Scritto monologo (teatro / cinema) 3-5 min: confessione a turno",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Intenso monologo con sottotesto, umorismo minimo e un giro alla fine.",
+  prompt: `Dammi...
+- Carattere (età, contesto).
+- A chi parla (pubblico, giudice, amante, specchio).
+- Segreto.
+- No. E' una bugia ripetuta.
+- Finale (rivelazione).
 
-Escribe monólogo 3–5 min:
-- Ritmo oral real.
-- 2 momentos de risa nerviosa.
-- 1 silencio marcado.
-- Final: frase de confesión que reordena todo.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-034",
-    title: "Guion tipo ‘cámara fija’: un plano, una verdad (4–6 min)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Corto de plano fijo: la puesta en escena hace el drama, no la edición.",
-    prompt: `Dame:
-- Locación.
-- Qué entra y qué sale del encuadre.
-- Dos personajes (o uno solo).
-- Conflicto.
-- Objeto clave.
-- Final.
+Scrive monologo 3-5 min:
+- Vero ritmo orale.
+- Due momenti di risata nervosa.
+- 1 silenzio segnato.
+- Finale: frase di confessione che riordina tutto.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-034",
+  title: "Tipo 'camera fissa' script: un aereo, una verità (4-6 min)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Taglio fisso: l'ambientazione fa il dramma, non l'edizione.",
+  prompt: `Dammi...
+- Posizione.
+- No. Quello che entra e quello che esce dalla cornice.
+- Due caratteri (o solo uno).
+- Conflitto.
+- Oggetto chiave.
+- Finale.
 
-Escribe guion 4–6 min:
-- Todo ocurre en un solo plano fijo (asume eso).
-- Acciones deben revelar tensión.
-- Diálogo mínimo (o ninguno).
-- Final: algo cambia en el encuadre.
+Scrivi 4-6 min:
+- Tutto accade in un unico piano fisso (supponga che).
+- Le azioni devono rivelare la tensione.
+- Dialogo minimo (o nessuno).
+- Finale: qualcosa cambia nella cornice.
 
-Incluye:
-- Nota de dirección sobre composición y uso de silencio.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-035",
-    title: "Guion de road movie mini (10–12 min): viaje externo e interno",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Viaje corto con paradas significativas; el destino real es emocional.",
-    prompt: `Dame:
-- Quién viaja con quién.
-- Por qué viajan (excusa) y por qué de verdad (subtexto).
-- 3 paradas/escenas.
-- Objeto en el auto.
-- Final.
+Include:
+- Nota di indirizzo sulla composizione e l'uso del silenzio.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-035",
+  title: "Guida al film su strada mini (10-12 min): viaggi esterni e interni",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Breve viaggio con fermate significative; il vero destino è emotivo.",
+  prompt: `Dammi...
+- Chi viaggia con chi.
+- Perché viaggiano (scusa) e perché realmente (sottotesto).
+- 3 fermate / scene.
+- Oggetti in macchina.
+- Finale.
 
-Escribe guion 10–12 min:
-- 3 paradas, cada una cambia la relación.
-- 2 momentos de humor.
-- 1 discusión que no se resuelve, se transforma.
-- Final: gesto pequeño al llegar (o al no llegar).`,
-    thumbnail: "",
-  },
+Scrivi 10-12 min:
+- 3 fermate, ogni cambia la relazione.
+- Due momenti di umorismo.
+- 1 discussione non risolta, si trasforma.
+- Finale: piccolo gesto quando arriva (o non arriva).`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-036",
-    title: "Guion de heist (robo) en pequeño (8–10 min): plan + caos",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Robo minimalista con planificación, fallo inesperado y salida creativa.",
-    prompt: `Dame:
-- Qué se roba y por qué importa.
-- Equipo (2–4 personas) con habilidades.
-- Plan (3 pasos).
-- Complicación inesperada.
-- Final (escape o caída).
+{
+  id: "crea-gui-036",
+  title: "Heist (furto) piccolo copione (8-10 min): piano + caos",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Furto minimalista con pianificazione, fallimento inaspettato e produzione creativa.",
+  prompt: `Dammi...
+- No. Quello che rubi e perche' importa.
+- Team (2-4 persone) con competenze.
+- Piano (3 gradini).
+- Complimenti inaspettati.
+- Finale (fuga o caduta).
 
-Escribe guion 8–10 min:
-- Montaje de preparación (rápido).
-- 1 fallo que obliga a improvisar.
-- 1 traición o sospecha (opcional).
-- Final: consecuencia moral (no solo adrenalina).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-037",
-    title: "Guion de crimen moral: ‘lo hice por amor’ (7–9 min)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Crimen con motivación humana; el dilema importa más que el acto.",
-    prompt: `Dame:
-- Qué crimen (pequeño/grande).
-- A quién se protege.
-- Qué alternativa tenía.
-- Señal que lo delata.
-- Final (pago, perdón, vacío).
+Scrivere script 8-10 min:
+- Montaggio di preparazione (veloce).
+- 1 fallimento che ti costringe a improvvisare.
+- 1 tradimento o sospetto (opzionale).
+- Finale: conseguenza morale (non solo adrenalina).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-037",
+  title: "Crimine morale: 'L'ho fatto per amore' (7-9 min)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Crimine con motivazione umana; il dilemma conta più dell'atto.",
+  prompt: `Dammi...
+- No. Che crimine (piccolo / grande).
+- Chi e' protetto.
+- Ho avuto una scelta.
+- Segnale che lo abbandona.
+- Finale (pagamento, perdono, vuoto).
 
-Escribe guion 7–9 min:
-- 1 escena que muestre el amor antes del crimen.
-- 1 escena del acto (sin glorificar).
-- 1 escena de consecuencia inmediata.
-- Final: elección moral final.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-038",
-    title: "Guion de ficción histórica (8–12 min): detalle de época + emoción universal",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Corto histórico con precisión sensorial y conflicto humano atemporal.",
-    prompt: `Dame:
-- Época y lugar.
+Scrivere script 7-9 min:
+- Una scena che mostra l'amore prima del crimine.
+- 1 scena dell'atto (unglorified).
+- 1 scena di immediata conseguenza.
+- Finale: scelta morale finale.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-038",
+  title: "Scene storiche (8-12 min): dettagli del tempo + emozione universale",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Taglio storico con precisione sensoriale e conflitto umano senza tempo.",
+  prompt: `Dammi...
+- Tempo e posto.
 - Protagonista.
-- Restricción social/política.
-- Objeto de época.
-- Final.
+- restrizione sociale / politica.
+- Punto oggetto.
+- Finale.
 
-Escribe guion 8–12 min:
-- 8–14 escenas.
-- 10 detalles de época integrados en acción (no exposición).
-- Conflicto universal (amor, libertad, dignidad).
-- Final: consecuencia realista.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-039",
-    title: "Guion para videoclip musical: historia fragmentada por imágenes",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Tratamiento de videoclip: narrativa visual, símbolos, repetición y clímax.",
-    prompt: `Dame:
-- Canción (tema, energía, tempo aproximado).
-- Artista (estética).
-- Historia o emoción central.
-- 5 símbolos visuales.
-- Locaciones posibles (2–4).
+Scrivere script 8-12 min:
+- 8-14 scene.
+- 10 dettagli temporali integrati in azione (non espositiva).
+- conflitto universale (amore, libertà, dignità).
+- Finale: conseguenze realistiche.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-039",
+  title: "Sceneggiatura videoclip musicale: storia frammentata dall'immagine",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Trattamento video-lip: narrazione visiva, simboli, ripetizione e culmine.",
+  prompt: `Dammi...
+- Canzone (tema, energia, tempo approssimativo).
+- Artista (estetico).
+- Storia o emozione centrale.
+5 simboli visivi.
+- Possibili posizioni (2-4).
 
-Crea tratamiento de videoclip:
-- Sinopsis (100–150 palabras)
-- Paleta emocional (5 adjetivos)
-- Lista de 20–30 planos/ideas visuales
-- 3 momentos de clímax visual alineados al coro/puente
-- Final visual
+Creare un trattamento video oclip:
+- Panoramica (100-150 parole)
+- tavolozza emotiva (5 aggettivi)
+- Lista di 20-30 piani / idee visive
+- 3 momenti di climax visivo allineati al coro / ponte
+- Fine visivo
 
-Incluye:
-- 5 ideas de “motivo recurrente” para edición.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-040",
-    title: "Guion ‘finales alternativos’: 1 historia, 3 cierres (moral distinto)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Misma premisa con tres finales distintos para explorar tema y moral.",
-    prompt: `Dame:
-- Premisa (1 frase).
-- Protagonista y deseo.
-- Obstáculo.
-- Tema.
+Include:
+- 5 idee "ricercanti" per la modifica.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-040",
+  title: "Script 'alternative endings': 1 storia, 3 chiusure (diverso morale)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Stessa premessa con tre finali differenti per esplorare il tema e la moralità.",
+  prompt: `Dammi...
+- PreMass (1 frase).
+- Protagonista e desiderio.
+- Ostacolo.
+- Soggetto.
 
-Escribe:
-A) Beat sheet (12–16 beats) de la historia base.
-B) 3 finales alternativos (cada uno 1–2 páginas de guion):
-   - Final 1: castigo/ironía
-   - Final 2: redención
-   - Final 3: ambigüedad poética
+Scrivi:
+A) Beat foglio (12-16 battiti) di storia di base.
+B) 3 finali alternativi (ogni 1-2 pagine di script):
+- Finale 1: punizione / ironia
+- Finale 2: redenzione
+- Finale 3: ambiguità poetica
 
-Incluye:
-- Qué cambia del tema en cada final (5–7 líneas).`,
-    thumbnail: "",
-  },
+Include:
+- No. Ciò che cambia il tema in ogni fine (5-7 linee).`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-041",
-    title: "Pack de diálogos: 30 líneas subtexto (para reusar en guiones)",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Genera líneas reutilizables con subtexto para escenas de tensión, amor, culpa, poder.",
-    prompt: `Dame:
-- Tono general (realista, lírico, sarcástico, oscuro).
-- 6 contextos (ej. ruptura, negociación, secreto, despedida, invitación, amenaza).
-- Nivel de vulgaridad permitido (nada / suave / realista).
+{
+  id: "crea-gui-041",
+  title: "Dialogo Pack: sottotesto di 30 righe (da riutilizzare negli script)",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Genera linee riutilizzabili con sottotesto per scene di tensione, amore, colpa, potere.",
+  prompt: `Dammi...
+- Tono generale (realistico, lirico, sarcastico, scuro).
+- 6 contesti (ad esempio pausa, negoziazione, segreto, addio, invito, minaccia).
+- Livello di volgarità ammesso (niente / morbido / realistico).
 
-Genera 30 líneas de diálogo:
-- 5 por contexto.
-- Cada línea debe tener subtexto (lo que se dice ≠ lo que se quiere).
-- Incluye 10 líneas “cortas” (máx 6 palabras) y 10 “largas” (12–18 palabras).
+Genera 30 linee di dialogo:
+- Cinque per contesto.
+- Ogni riga deve avere il sottotesto (cosa si dice che sia ciò che è desiderato).
+- No. Include 10 linee "corte" (max 6 parole) e 10 linee "lungo" (12-18 parole).
 
-Añade:
-- Nota de intención (1 frase) para cada contexto.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-042",
-    title: "Guion ‘cambio de POV’: misma escena en dos perspectivas",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Escribe una escena y luego reescríbela mostrando que alguien estaba equivocado.",
-    prompt: `Dame:
-- Escena (lugar, evento).
-- Personaje A y B.
-- Qué cree A.
-- Qué cree B.
-- Verdad real.
-- Final.
+Aggiungi:
+- Nota intent (1 frase) per ogni contesto.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-042",
+  title: "Script 'change of POV': stessa scena in due prospettive",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Scrivi una scena e poi riscrivilo mostrando che qualcuno aveva torto.",
+  prompt: `Dammi...
+- Scena (luogo, evento).
+- Carattere A e B.
+- No. Cosa ne pensi A.
+- No. Cosa ne pensi B.
+- Davvero.
+- Finale.
 
-Escribe:
-1) Escena versión A (3–5 páginas) con su percepción.
-2) Misma escena versión B (3–5 páginas) revelando lo que A no vio.
-3) Nota final: lista de 8 detalles que cambian significado según POV.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-043",
-    title: "Guion de ‘puzzle emocional’: piezas fuera de orden",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Narrativa no lineal donde el orden final revela el verdadero conflicto.",
-    prompt: `Dame:
-- Evento final (lo que pasa).
-- 5 piezas/escenas que llevan ahí.
-- Objeto o frase recurrente.
-- Tema.
-- Final (cómo se revela).
+Scrivi:
+1) Versione scenica A (3-5 pagine) con la tua percezione.
+2) Stessa scena versione B (3-5 pagine) rivelando ciò che A non ha visto.
+3) Nota finale: elenco di 8 dettagli che cambiano significato secondo POV.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-043",
+  title: "Script 'Emotional puzzle': pezzi fuori ordine",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Narrativa non lineare dove l'ordine finale rivela il vero conflitto.",
+  prompt: `Dammi...
+- Evento finale (cosa succede).
+- 5 pezzi / scene ci sono.
+- Oggetto o frase ricorrente.
+- Soggetto.
+- Finale (come viene rivelato).
 
-Escribe guion 8–12 min:
-- Orden no cronológico (marca cada escena con “ANTES/ DESPUÉS/ HACE X DÍAS”).
-- Cada escena debe ser corta y con propósito.
-- Final: reordenar mentalmente al espectador con una revelación.
+Scrivere script 8-12 min:
+- Ordine non cronologico (segnare ogni scena con "BEFORE / AFTER / HACE X DAY").
+- Ogni scena deve essere breve e con lo scopo.
+- Finale: riordinare mentalmente lo spettatore con una rivelazione.
 
-Incluye:
-- Versión cronológica (lista de escenas en orden real).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-044",
-    title: "Guion de romance triste (8–10 min): amor que no puede ser",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Romance con obstáculo real (no tonto) y final elegante, no melodramático.",
-    prompt: `Dame:
-- Quiénes son.
-- Por qué no pueden estar juntos (realista).
-- Lugar de encuentro.
-- Objeto símbolo.
-- Final (despedida, promesa, renuncia).
+Include:
+- Versione cronologica (elenco delle scene in ordine reale).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-044",
+  title: "Sad romantic script (8-10 min): l'amore che non può essere",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Romanzo con vero ostacolo (non sciolto) ed elegante finitura, non melodrammatico.",
+  prompt: `Dammi...
+- Chi sono.
+- No. Perché non possono stare insieme (realistico).
+- Sala riunioni.
+- Simbolo.
+- Finale (addio, promessa, dimissioni).
 
-Escribe guion 8–10 min:
-- 2 escenas de conexión real (no solo coqueteo).
-- 1 escena donde se enfrentan a la realidad.
-- Final: gesto de amor que no sea posesivo.
+Scrivere script 8-10 min:
+- 2 vere scene di connessione (non solo flirtare).
+- 1 scena in cui affrontano la realtà.
+- Finale: un gesto di amore che non è possessivo.
 
-Incluye:
-- 6 líneas de despedida alternativas (no cliché).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-045",
-    title: "Guion de ‘amigo imaginario’ adulto: ternura + inquietud",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Historia donde un amigo imaginario vuelve en la adultez con propósito ambiguo.",
-    prompt: `Dame:
-- Protagonista adulto (herida).
-- Cómo era el amigo imaginario (regla).
-- Por qué vuelve.
-- Qué quiere.
-- Final.
+Include:
+- 6 linee alternative di addio (non cliché).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-045",
+  title: "Adulto 'amico immaginario' script: tenerezza + inquietudine",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Storia dove un amico immaginario ritorna all'età adulta con scopo ambiguo.",
+  prompt: `Dammi...
+- Adulto protagonista (wound).
+- No. Com'era l'amico immaginario (rule).
+- Perché torna.
+- No. Cosa vuoi?
+- Finale.
 
-Escribe guion 8–12 min:
-- 1 escena de reencuentro.
-- 1 escena donde el amigo ayuda.
-- 1 escena donde el amigo asusta (no monstruo, verdad).
-- Final: despedida o integración.
+Scrivere script 8-12 min:
+- 1 scena del narratore.
+- 1 scena dove aiuta l'amico.
+- 1 scena in cui l'amico spaventa (non mostro, destra).
+- Finale: addio o integrazione.
 
-Incluye:
-- 8 ideas de “interacciones” visuales entre ambos.`,
-    thumbnail: "",
-  },
+Include:
+- 8 idee di "interazione visiva" tra loro.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-gui-046",
-    title: "Guion con narrador poco fiable: mentira bonita, verdad fea",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Narrador que se cuenta una historia… hasta que la realidad se impone.",
-    prompt: `Dame:
-- Qué mentira se cuenta el protagonista.
-- Qué verdad evita.
-- Evidencia real que lo contradice (3 detalles).
-- Final (cuando cae).
+{
+  id: "crea-gui-046",
+  title: "Script con narratore inaffidabile: bella bugia, brutta verità",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Narratore che racconta una storia... finche' la realta' non e' imposta.",
+  prompt: `Dammi...
+- No. Che bugia dice il protagonista.
+- No. Che verità sta evitando.
+- Prova reale che lo contraddice (3 dettagli).
+- Finale (quando cade).
 
-Escribe guion 7–10 min:
-- Voz en off o diarios (opcional), pero no explique: distorsione.
-- 3 momentos donde la realidad se filtra.
-- Final: colisión directa con la verdad.
+Scrivere script 7-10 min:
+- Voce su off o diari (opzionale), ma non spiegare: distorto.
+- 3 momenti in cui la realtà è trapelata.
+- Finale: scontro diretto con la verità.
 
-Incluye:
-- Lista de 10 técnicas de narrador poco fiable aplicables (breve).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-047",
-    title: "Guion de ‘final en silencio’: clímax sin palabras",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Construye hasta un clímax donde nadie habla y aun así se entiende todo.",
-    prompt: `Dame:
-- Conflicto.
-- Dos personajes.
-- Lugar.
-- Objeto.
-- Final (qué se decide).
+Include:
+- Elenco di 10 tecniche di narratore inaffidabili applicabili (breve).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-047",
+  title: "Script 'silent end': word-free climax",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Si costruisce fino a un culmine dove nessuno parla e tuttavia si capisce tutto.",
+  prompt: `Dammi...
+- Conflitto.
+- Due personaggi.
+- Posto.
+- Oggetto.
+- Finale (da decidere).
 
-Escribe guion 6–9 min:
-- Diálogo normal al inicio.
-- En el clímax (últimas 2–3 escenas) NO hay diálogo.
-- Acciones y objetos cuentan la verdad.
-- Final: imagen final clara.
+Scrivere script 6-9 min:
+- Dialogo normale all'inizio.
+- Nel climax (ultimi 2-3 scene) non c'è dialogo.
+- Azioni e oggetti dicono la verità.
+- Finale: immagine finale chiara.
 
-Incluye:
-- Notas de actuación para el silencio (intención por beat).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-048",
-    title: "Guion de ‘giro moral’: el protagonista no era héroe",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Historia donde el espectador se alinea con alguien… y luego descubre el costo.",
-    prompt: `Dame:
-- Premisa.
-- Protagonista (querible).
-- Acto cuestionable (qué hace).
-- A quién afecta.
-- Pista sembrada.
-- Final (revelación y consecuencia).
+Include:
+- Note d'azione per il silenzio (intentato da beat).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-048",
+  title: "Uno script 'moral turn': il protagonista non era un eroe",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Storia in cui lo spettatore si allinea con qualcuno... e poi scopre il costo.",
+  prompt: `Dammi...
+- PreMass.
+- Protagonista (benevole).
+- Atto indiscutibile (cosa fa).
+- Chi colpisce.
+- Una pista solita.
+- Finale (rivelazione e conseguenza).
 
-Escribe guion 8–10 min:
-- Haz que el espectador empatice con el protagonista.
-- Siembra 3 señales pequeñas de que algo no cuadra.
-- Revelación en clímax: el costo humano.
-- Final: consecuencia moral, no sermón.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-049",
-    title: "Guion para escena de acción emocional: pelea que es conversación",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Pelea/acción que representa una conversación emocional (coreografía con subtexto).",
-    prompt: `Dame:
-- Relación (hermanos, pareja, rivales).
-- Tema emocional (traición, abandono, control).
-- Espacio (cocina, patio, taller).
-- Objeto peligroso (pero realista).
-- Final (quién cede y cómo).
+Scrivere script 8-10 min:
+- Abbiate lo spettatore con il protagonista.
+- Tre piccoli segni che qualcosa non si adatta.
+- Rivelazione Clemax: il costo umano.
+- Finale: conseguenza morale, non predica.`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-049",
+  title: "Script per azione emotiva scena: una lotta che è conversazione",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Lotta / azione che rappresenta una conversazione emotiva (choreography with subtext).",
+  prompt: `Dammi...
+- Rapporto (fratelli, coppia, rivali).
+- Tema emotivo (tradimento, abbandono, controllo).
+- Spazio (cucina, patio, officina).
+- Oggetti pericolosi (ma realistici).
+- Finale (che cede e come).
 
-Escribe guion 6–8 min:
-- Acción coreografiable, sin violencia gráfica excesiva.
-- Cada golpe/acción representa una frase no dicha (anótalo).
-- 2 pausas donde casi se hablan.
-- Final: rendición emocional.
+Scrivere script 6-8 min:
+- Azione coreografica, senza eccessiva violenza grafica.
+- Ogni colpo / azione rappresenta una frase non scritta (scrivilo giù).
+- Due pause dove hanno quasi parlato.
+- Finale: resa emotiva.
 
-Incluye:
-- Tabla: acción → subtexto (8–12 filas).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-gui-050",
-    title: "Guion de ‘micro-historia’ para festival (3 min): simple e inolvidable",
-    area: "Escritura Creativa",
-    category: "Guiones",
-    summary:
-      "Corto de 3 minutos con una idea clara y final memorable; perfecto para práctica.",
-    prompt: `Dame:
-- Tema.
-- Personaje.
-- 1 objeto.
-- 1 lugar.
-- Final (imagen).
+Include:
+- Tavola: azione → sottotesto (8-12 righe).`,
+  thumbnail: ""
+},
+{
+  id: "crea-gui-050",
+  title: "Script \"Micro-storia\" per festival (3 min): semplice e indimenticabile",
+  area: "Scrittura creativa",
+  category: "Schermo",
+  summary:
+  "Breve di 3 minuti con un'idea finale chiara e memorabile; perfetta per la pratica.",
+  prompt: `Dammi...
+- Soggetto.
+- Carattere.
+- 1 oggetto.
+- 1 posto.
+- Finale (immagine).
 
-Escribe guion 3 min:
-- 3–5 escenas máximo.
-- Muy visual.
-- 1 línea de diálogo (máximo) o ninguna.
-- Final: imagen que se queda.
+Scrivere script 3 min:
+- 3-5 scene al massimo.
+- Molto visivo.
+- 1 linea di dialogo (massimo) o nessuna.
+- Finale: immagine che rimane.
 
-Incluye:
-- 5 variaciones de la misma historia (cambiar género/tono).`,
-    thumbnail: "",
-  },
-];
+Include:
+- 5 varianti della stessa storia (cambio di genere / tono).`,
+  thumbnail: ""
+}];

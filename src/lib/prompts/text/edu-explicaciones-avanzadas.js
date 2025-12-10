@@ -1,1269 +1,1268 @@
 // src/lib/prompts/text/edu-explicaciones-avanzadas.js
 
 export const textPromptsEduExplicacionesAvanzadas = [
-  {
-    id: "edu-adv-001",
-    title: "Explicación avanzada tipo ‘capas’: intuición → formalismo → práctica",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Descompone un tema complejo en 3 capas: intuición, rigor y aplicación con ejercicios.",
-    prompt: `Tema a explicar: [ESCRIBE AQUÍ]
+{
+  id: "edu-adv-001",
+  title: "Spiegazione avanzata degli 'strati': intuito → formalismo → pratica",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Si rompe un tema complesso in 3 strati: intuito, rigore e applicazione con esercizi.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Contexto:
-- Nivel del estudiante (universidad, máster, profesional).
-- Área (matemáticas, programación, economía, medicina, etc.).
-- Objetivo (entender, resolver problemas, pasar examen, aplicar en trabajo).
-- Conocimientos previos (lista corta).
-- Restricciones (sin notación avanzada / sí notación / con ejemplos reales).
+Contesto:
+- Livello degli studenti (università, master, professionale).
+- Area (matematica, programmazione, economia, medicina, ecc.).
+- Obiettivo (sostituire, risolvere problemi, rivedere i passaggi, applicare sul lavoro).
+- Conoscenza precedente (elenco breve).
+- Restrizioni (non notazione avanzata / sì notazione / con esempi reali).
 
-Entrega una explicación en 3 capas:
+Fornire una spiegazione in 3 strati:
 
-CAPA 1 — Intuición (para “entender de verdad”):
-- Explica la idea con 2 analogías potentes (distintas entre sí).
-- Describe el “error mental típico” que hace que la gente no lo entienda.
-- Da una mini-historia o caso real que lo vuelva memorable.
+CAPA 1 - Intuzione (per "realmente capire"):
+- No. Spiega l'idea con 2 potenti analogie (diverso l'un l'altro).
+- No. Descrive il "errore mentale" che rende le persone non capiscono.
+- No. Dà un mini-story o un caso reale che lo rende memorabile.
 
-CAPA 2 — Formalismo (rigor sin humo):
-- Define conceptos clave (glosario de 8–12 términos).
-- Explica los supuestos y límites (lo que NO cubre).
-- Incluye 1 demostración o derivación guiada (paso a paso) o un argumento riguroso equivalente según el área.
+CAPA 2 - Formalismo (rigor senza fumo):
+- Definire concetti chiave (glossario di 8-12 termini).
+- Spiega i presupposti e i limiti (che NON copre).
+- No. Esso comprende 1 dimostrazione guidata o derivazione (passo per passo) o un argomento rigoroso equivalente a seconda della zona.
 
-CAPA 3 — Práctica (transferencia):
-- 3 ejemplos resueltos (de fácil → medio → difícil).
-- 5 ejercicios propuestos (con pistas, no la solución).
-- Checklist para detectar si lo entendí (10 ítems).
+CAPA 3 - Pratica (trasferimento):
+- 3 esempi risolti (facile → medio → difficile).
+- 5 esercizi proposti (con tracce, non la soluzione).
+- Lista di controllo per rilevare se lo capisco (10 elementi).
 
-Cierre:
-- 5 preguntas tipo examen (con criterios de evaluación).
-- “Mapa mental” en bullets (jerarquía, máximo 20 líneas).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-002",
-    title: "Tutor socrático avanzado: aprende guiado por preguntas (sin spoon-feeding)",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Enseña un concepto mediante preguntas graduadas que obligan a razonar.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio / avanzado]
-Formato: [texto / programación / cálculo / estudio de caso]
+Vicino:
+- 5 domande di esame (con criteri di valutazione).
+- "Mental map" in pallottole ( gerarchia, massimo 20 linee).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-002",
+  title: "Tutor socratico avanzato: imparare guidato da domande (senza cucchiaio)",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Insegna un concetto per mezzo di domande laureate che forzano la ragione.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [intermedio / avanzato]
+Formato: [testo / programmazione / calcolo / caso studio]
 
-Actúa como tutor socrático.
-Reglas:
-- No des la solución directa al inicio.
-- Haz preguntas en escalera: de comprensión → inferencia → aplicación → crítica.
-- Cuando el estudiante “falle”, da una pista mínima y pregunta de nuevo.
+Agisce come un tutor socratico.
+Regole:
+- No. Non dare la soluzione diretta all'inizio.
+- Fai domande in scala: comprensione → inferenza → applicazione → critica.
+- Quando lo studente "fails", dà un minimo di piombo e chiede di nuovo.
 
-Estructura:
-1) Diagnóstico rápido (5 preguntas) para detectar brechas.
-2) Ruta de aprendizaje (8–12 pasos), cada paso contiene:
-   - 1 pregunta
-   - respuesta esperada (oculta entre corchetes al final)
-   - error común
-   - pista
-3) Mini-reto final (problema integrador) con rúbrica de evaluación (criterios).
+Struttura:
+1) diagnosi rapida (5 domande) per rilevare lacune.
+2) percorso di apprendimento (8-12 passi), ogni passo contiene:
+- 1 questione
+- risposta prevista (nascosto in parentesi quadrate alla fine)
+- errore comune
+- piombo
+3) Mini-finale (problema integrato) con voce di valutazione (criteria).
 
-Al final:
-- Resumen en 12 bullets de lo aprendido (sin tecnicismos innecesarios).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-003",
-    title: "Explicación con ‘principios primero’: derive todo desde axiomas",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Construye un tema desde fundamentos: axiomas, principios, consecuencias y límites.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Campo: [física / finanzas / ML / derecho / etc.]
-Nivel: [avanzado]
+Alla fine:
+- Astratto in 12 proiettili del imparato (senza tecniche inutili).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-003",
+  title: "Spiegazione con 'principi primi': derivato tutto da assiomi",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Costruisce un tema delle basi: assioma, principi, conseguenze e limiti.",
+  prompt: `Oggetto: [CREAMS QUI]
+Campo: [fisica / finanza / ML / destra / ecc.]
+Livello: [avanzato]
 
-Entrega:
-A) Principios base (3–7) como “leyes” del tema.
-B) Para cada principio:
-   - Qué afirma
-   - Por qué es razonable
-   - Implicación inmediata
-   - Contraejemplo o caso límite
-C) Derivación: usa los principios para construir:
-   - 2 teoremas/insights principales
-   - 2 herramientas prácticas (métodos/procedimientos)
-D) Aplicación avanzada:
-   - 2 problemas estilo examen (resueltos paso a paso)
-   - 1 caso real (con datos hipotéticos) y tu análisis
+Consegna:
+A) Principi fondamentali (3-7) come "leggi" dell'argomento.
+B) Per ogni principio:
+- No. Che ne dici?
+- Perché è ragionevole?
+- coinvolgimento immediato
+- Contraexample o limite di caso
+C) Derivation: utilizzare i principi per costruire:
+- 2 teoremi principali / approfondimenti
+- 2 strumenti pratici (metodo / procedure)
+(D) implementazione avanzata:
+- 2 problemi di stile di esame (solto passo dopo passo)
+- 1 caso reale (con dati ipotetici) e la tua analisi
 
-Cierre:
-- “Dónde esto se rompe” (5 límites).
-- Bibliografía conceptual (3–6 ideas/temas para estudiar después).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-004",
-    title: "Explica como paper: abstract, método, resultados, discusión",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Estructura de paper académico para entender un concepto con rigor.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Audiencia: [ingenieros / economistas / médicos / etc.]
+Vicino:
+- "Dove si rompe" (5 limiti).
+- Letteratura concettuale (3-6 idee / argomenti da studiare in seguito).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-004",
+  title: "Spiega come carta: astratto, metodo, risultati, discussione",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Struttura di carta accademica per comprendere rigorosamente un concetto.",
+  prompt: `Oggetto: [CREAMS QUI]
+Audizione: [ingegneria / economisti / medici / ecc.]
 
-Redacta la explicación como si fuera un mini-paper:
-- Título
-- Abstract (100–150 palabras)
-- Introducción (problema y motivación)
-- Marco teórico (definiciones + supuestos)
-- Método (procedimiento o derivación)
-- Resultados (ejemplos o implicaciones clave)
-- Discusión (limitaciones, interpretaciones)
-- Conclusión (3 aportes claros)
-- “Lectura recomendada” (sin links, solo temas/obras)
+Scrivere la spiegazione come se fosse un mini-carta:
+- Titolo
+- Astratto (100-150 parole)
+- Introduzione (problema e motivazione)
+- Quadro teorico (definizioni + ipotesi)
+- Metodo (procedure o derivazione)
+- Risultati (esempio o implicazioni chiave)
+- Discussione (limitazioni, interpretazioni)
+- Conclusione (3 ingressi chiari)
+- "Recommended reading" (senza link, solo temi / lavori)
 
-Incluye:
-- 1 figura descrita en texto (qué sería el gráfico/diagrama y cómo leerlo).
-- 2 preguntas de revisión (tipo peer-review).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-005",
-    title: "Explicación avanzada con comparación de modelos (A vs B vs C)",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Compara 2–3 enfoques del mismo tema: supuestos, trade-offs y cuándo usar cada uno.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Modelos/enfoques a comparar: [A], [B], [C] (si no los sabes, proponlos tú)
+Include:
+- 1 figura descritta nel testo (cosa sarebbe il grafico / diagramma e come leggerlo).
+- 2 domande di revisione (peer-review).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-005",
+  title: "Spiegazione avanzata con confronto modello (A vs B vs C)",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Confronta 2-3 approcci allo stesso tema: assunzioni, trade-off e quando usare ciascuno.",
+  prompt: `Oggetto: [CREAMS QUI]
+Modelli / approcci per confrontare: [A], [B], [C] (se non lo sapete, proponete loro voi)
 
-Entrega:
-1) Tabla conceptual (sin formato tabla, en bullets) con:
-   - Objetivo de cada enfoque
-   - Supuestos
-   - Ventajas
-   - Desventajas
-   - Cuándo falla
-2) Ejemplo único (mismo problema) resuelto con cada enfoque.
-3) “Guía de decisión” en forma de árbol:
-   - Si tienes X → usa A
-   - Si tienes Y → usa B
-   - Etc.
-4) 10 preguntas tipo examen que confunden A y B (y cómo distinguirlos).
+Consegna:
+1) Tavola concettuale (senza formato tabella, in proiettili) con:
+- Obiettivo di ogni approccio
+- Presumo
+- Benefici
+- Svantaggi
+- No. Quando fallisce
+2) Esempio singolo (stesso problema) risolto con ogni approccio.
+3. "Guida della precisione" sotto forma di un albero:
+- No. Se hai X → utilizzare A
+- No. Se avete Y → utilizzare B
+- Etc.
+4) 10 domande di tipo test che confondono A e B (e come distinguerle).
 
-Cierre:
-- Errores de principiante (8) y errores de experto (5).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-006",
-    title: "Explicable + demostración guiada: prueba paso a paso (nivel alto)",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Demostración o argumentación formal guiada con checkpoints de comprensión.",
-    prompt: `Enuncia el resultado a demostrar/justificar: [ESCRIBE AQUÍ]
-Campo: [matemáticas / CS / economía / física / filosofía]
+Vicino:
+- Errori principianti (8) e errori di esperti (5).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-006",
+  title: "Spiegabile + dimostrazione guidata: test passo-passo (alto livello)",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Prove o argomentazioni formali guidate dalla comprensione dei checkpoint.",
+  prompt: `Dichiara il risultato di dimostrare / giustificare: [SCREAMS QUI]
+Campo: [matematica / CS / economia / fisica / filosofia]
 
-Crea una demostración guiada:
-A) Intuición previa (por qué debería ser cierto).
-B) Preparación:
-   - Definiciones necesarias
-   - Lemas previos (1–3)
-   - Notación (clara)
-C) Demostración en pasos numerados con checkpoints:
-   - Paso i: qué hacemos
-   - Por qué lo hacemos
-   - Qué podría salir mal
-   - Mini-chequeo: “si entiendes esto, responde X”
-D) Interpretación:
-   - Qué significa el resultado en el mundo real
-   - 2 corolarios útiles
-E) Ejercicio espejo:
-   - Plantea un resultado parecido y guía cómo probarlo (sin resolverlo).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-007",
-    title: "Explicación como ingeniería: especificación → casos borde → verificación",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Ideal para temas técnicos: define, prueba contra casos límite y valida.",
-    prompt: `Tema/herramienta: [ESCRIBE AQUÍ]
-Contexto de uso: [producción / academia / investigación]
+Crea una dimostrazione guidata:
+A) Intrusione precedente (perché dovrebbe essere vero).
+(B) Preparazione:
+- Definizioni richieste
+- slogan precedenti (1-3)
+- Notazione (chiaro)
+C) Dimostrazione in gradini numerati con punti di controllo:
+- Passo I: cosa facciamo?
+- Perché lo facciamo?
+- No. Cosa potrebbe andare storto?
+- Mini-check: "Se capisci questo, rispondi X"
+(D) Interpretazione:
+- No. Cosa significa il risultato nel mondo reale
+- 2 corollari utili
+(E) Specchio esercizio:
+- Pianifica un risultato simile e guida come dimostrarlo (senza risolverlo).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-007",
+  title: "Spiegazione come ingegneria: specificazione → casi confine → verifica",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Ideale per materie tecniche: definisce, testa contro casi limitati e validi.",
+  prompt: `Tema / strumento: [SCREAMS QUI]
+Uso del contesto: [produzione / accademia / ricerca]
 
-Estructura la explicación así:
-1) Especificación (qué hace EXACTAMENTE y qué no hace).
-2) Invariantes / garantías (3–7).
-3) Casos borde (mínimo 10) con:
-   - Entrada/condición
-   - Comportamiento esperado
-   - Por qué es importante
-4) Pruebas de verificación:
-   - 6 tests mentales
-   - 6 tests prácticos
-5) Troubleshooting:
-   - 8 fallos comunes
-   - diagnóstico
-   - solución
+Struttura della spiegazione come segue:
+1) Specificazione (cosa fa EXACTLY e cosa non).
+2) Invarianti / garanzie (3-7).
+3) Bordo (minimo 10) con:
+- Entrata / condizione
+- Comportamento previsto
+- Perché è importante?
+4) Test di verifica:
+- 6 test mentali
+- 6 prove pratiche
+(5) Risoluzione dei problemi:
+- 8 guasti comuni
+- diagnosi
+- soluzione
 
-Cierre:
-- Checklist para implementación/aplicación segura (12 ítems).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-008",
-    title: "Explicación con ‘mapa de dependencia’: qué aprender primero y por qué",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Construye un mapa de prerequisitos y ruta óptima de estudio para un tema difícil.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tiempo disponible: [X horas/semana]
-Objetivo: [examen / proyecto / trabajo]
+Vicino:
+- Lista di controllo per l'implementazione sicura / applicazione (12 articoli).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-008",
+  title: "Spiegazione con ' mappa della dipendenza': cosa imparare prima e perché",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Costruisce una mappa di orgoglio e un percorso di studio ottimale per un soggetto difficile.",
+  prompt: `Oggetto: [CREAMS QUI]
+Tempo disponibile: [X ore / settimana]
+Obiettivo: [recensione / progetto / lavoro]
 
-Entrega:
-A) Prerrequisitos:
-- Lista de conceptos mínimos (10–20)
-- Qué tan críticos son (alto/medio/bajo)
-B) Mapa de dependencias (en bullets con indentación):
-- Concepto raíz
-  - subtema
-    - subsubtema
-C) Ruta de estudio (14 días o 4 semanas):
-- Día/semana: objetivo, lectura/práctica, mini-evaluación
-D) Evaluaciones:
-- 2 mini-exámenes de 10 preguntas (con respuestas)
-- 1 proyecto integrador (enunciado + rúbrica)
+Consegna:
+(A) Prerequisiti:
+- Elenco dei concetti minimi (10-20)
+- Quanto sono critici (alto / medio / basso)
+B) Mappa delle dipendenze (in proiettili con indentazione):
+- Concetto di radice
+- sub-item
+- sub-item
+C) percorso di studio (14 giorni o 4 settimane):
+- Giorno / settimana: obiettivo, lettura / pratica, mini-valutazione
+(D) Valutazioni:
+- 2 minim- 10 test di domanda (con risposte)
+- 1 progetto integrativo (intestazione + titolo)
 
-Cierre:
-- Señales de que estás listo (10).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-009",
-    title: "Explicación avanzada con analogías múltiples (y límites de cada analogía)",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Explica con analogías, pero también explica cuándo fallan para no confundir.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Audiencia: [técnica / no técnica / mixta]
+Vicino:
+- Segni che siete pronti (10).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-009",
+  title: "Spiegazione avanzata con più analogie (e limiti di ogni analogia)",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Spiega con analogie, ma spiega anche quando non riescono a confondersi.",
+  prompt: `Oggetto: [CREAMS QUI]
+Audizione: [tecnico / non tecnico / misto]
 
 Crea:
-1) Explicación base (clara y rigurosa).
-2) 4 analogías desde dominios distintos (ej. cocina, música, tráfico, biología).
-3) Por cada analogía:
-   - Qué mapea a qué (correspondencias)
-   - Qué ayuda a entender
-   - Dónde se rompe (caso límite)
-4) Mini-prueba:
-   - 6 preguntas que solo puedes contestar si entendiste y no te quedaste en la analogía.
+1) Spiegazione di base (chiaro e rigoroso).
+2) 4 analogie da diversi domini (ad esempio cucina, musica, traffico, biologia).
+3) Per ogni analogia:
+- No. Che mappa a cosa (correspondenze)
+- No. Cosa ti aiuta a capire
+- No. Dove si rompe (limite di caso)
+4) Mini-test:
+- 6 domande che puoi rispondere solo se hai capito e non sei rimasto nell'analogia.
 
-Cierre:
-- Una analogía “anti-analogía”: ejemplo que demuestra el límite.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-010",
-    title: "Explicación con errores: aprende por contraejemplos y fallos típicos",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Enseña a nivel alto mostrando fallos comunes y cómo diagnosticarlos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [avanzado]
+Vicino:
+- No. Un'analogia "anti-analogia": un esempio che mostra il limite.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-010",
+  title: "Spiegazione con errori: imparare da controesempi e guasti tipici",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Egli insegna alto livello mostrando i fallimenti comuni e come diagnosticarli.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [avanzato]
 
 Genera:
-A) 12 errores típicos (principiante→intermedio→avanzado).
-B) Para cada error:
-   - Síntoma (cómo se ve)
-   - Causa conceptual
-   - Ejemplo mínimo que lo produce
-   - Cómo corregirlo (procedimiento)
-C) 3 contraejemplos clásicos (casos donde “intuición” falla).
-D) 2 problemas trampas, con solución explicada y “por qué esto engaña”.
+A) 12 errori tipici (precedente → intermedio → avanzato).
+B) Per ogni errore:
+- Sintomi (come sembra)
+- Causa concettuale
+- Esempio minimo che lo produce
+- Come correggerlo (procedure)
+C) 3 controcampioni classici (casi in cui "intuizione" fallisce).
+D) 2 problemi intrappolano, con una soluzione spiegata e "perché questo è barare".
 
-Cierre:
-- Checklist mental de 10 preguntas para evitar esos errores.`,
-    thumbnail: "",
-  },
+Vicino:
+- Lista di controllo mentale di 10 domande per evitare quegli errori.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-adv-011",
-    title: "Explicación avanzada para presentar en clase: guion + diapositivas",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Prepara una clase avanzada: narrativa, pizarra, ejercicios y ritmo.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Duración: [45/60/90 minutos]
-Nivel: [avanzado]
+{
+  id: "edu-adv-011",
+  title: "Spiegazione avanzata per presentare in classe: script + diapositive",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Preparare una classe avanzata: narrativa, ardesia, esercizi e ritmo.",
+  prompt: `Oggetto: [CREAMS QUI]
+Durata: [45 / 60 / 90 minuti]
+Livello: [avanzato]
 
-Entrega:
-1) Objetivos de aprendizaje (5–8).
-2) Estructura minuto a minuto (timeline).
-3) Guion del docente (lo que dirías) con:
-   - 3 momentos de “pregunta al grupo”
-   - 2 mini demostraciones
-   - 1 pausa de síntesis
-4) Contenido de diapositivas:
-   - Título de slide
-   - 3–5 bullets por slide
-   - 1 figura sugerida
-5) Práctica:
-   - 8 ejercicios (de fácil a difícil) + respuestas breves
-6) Evaluación final (10 preguntas) + rúbrica.
+Consegna:
+1) Obiettivi di apprendimento (5-8).
+2) Struttura da minuto a minuto (linea temporale).
+3) Scrittura del Maestro (cosa direbbe) con:
+- 3 momenti di "chiedere al gruppo"
+- 2 mini dimostrazioni
+- 1 sospensione della sintesi
+4) Contenuto dello scorrevole:
+- Titolo slide
+- 3-5 proiettili per diapositive
+- 1 figura suggerita
+(5) Pratica:
+- 8 esercizi (facile da difficile) + risposte brevi
+6) Valutazione finale (10 domande) + sezione.
 
-Cierre:
-- Cómo adaptar la clase si el grupo se pierde (plan B).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-012",
-    title: "Explicación para autodidacta: de cero a experto con checkpoints",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Diseña aprendizaje autónomo: teoría mínima, práctica intensa, métricas y feedback.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tu objetivo final: [resultados concretos]
-Tiempo: [horas/semana]
-Nivel actual: [novato/intermedio]
+Vicino:
+- Come adattare la classe se il gruppo è perso (piano B).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-012",
+  title: "Spiegazione per autodidatta: da zero a esperto con checkpoint",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Progetta l'apprendimento autonomo: teoria minima, pratica intensa, metriche e feedback.",
+  prompt: `Oggetto: [CREAMS QUI]
+Il vostro obiettivo finale: [risultati concreti]
+Tempo: [ore / settimana]
+Livello attuale: [rookie / intermedio]
 
-Crea un plan de 30 días:
-- Semana 1: fundamentos (qué medir y por qué)
-- Semana 2: problemas típicos
-- Semana 3: casos reales
-- Semana 4: proyecto final
+Crea un piano di 30 giorni:
+- Settimana 1: fondazioni (che misurare e perché)
+- Settimana 2: problemi tipici
+- Settimana 3: casi reali
+- Settimana 4: progetto finale
 
-Para cada día:
-- Objetivo
-- Conceptos
-- Ejercicio práctico
-- Mini-test (3 preguntas) con respuestas
-- Señal de progreso (métrica concreta)
+Per ogni giorno:
+- Obiettivo
+- Concetti
+- Esercizio pratico
+- Mini-test (3 domande) con risposte
+- Segnale di progresso (concrete metrica)
 
-Incluye:
-- Lista de 20 problemas estilo “drill”
-- Proyecto final con rúbrica detallada (criterios y puntajes).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-013",
-    title: "Explicación avanzada con ‘modelo mental’: dibuja la idea en tu cabeza",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Construye un modelo mental explícito con piezas, flechas, dinámica y predicciones.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Include:
+- Lista di 20 problemi di stile "drill"
+- Progetto finale con titolo dettagliato (criteri e punteggi).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-013",
+  title: "Spiegazione avanzata con 'modello mentale': disegna l'idea nella tua testa",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Costruisce un modello mentale esplicito con pezzi, frecce, dinamiche e previsioni.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Construye un modelo mental:
-1) Componentes (8–12 piezas).
-2) Relaciones (flechas): qué causa qué.
-3) Variables clave (qué cambia y qué se mantiene).
-4) Predicciones del modelo:
-   - Si sube X, baja Y (mínimo 10 predicciones).
-5) Casos donde el modelo falla (5).
-6) Cómo “simular” mentalmente un caso (paso a paso).
-7) 3 ejercicios para practicar el modelo (con solución).
+Costruisce un modello mentale:
+1) Componenti (8-12 pezzi).
+2) Relazioni (frecce): cosa provoca cosa.
+3) variabili chiave (che cosa cambia e che cosa viene mantenuto).
+4) Previsioni del modello:
+- No. Se si sale X, basso Y (minimo 10 previsioni).
+5) Casi in cui il modello non riesce (5).
+6) Come "simolare" mentalmente un caso (passo per passo).
+7) 3 esercizi per praticare il modello (con soluzione).
 
-Cierre:
-- “Reglas de bolsillo” (10 heurísticas).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-014",
-    title: "Explicación en forma de debate: tesis, antítesis y síntesis",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Explora un tema complejo con argumentos opuestos y una síntesis útil.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Pregunta polémica del tema: [ESCRIBE AQUÍ]
+Vicino:
+- "Le regole di tasca" (10 euristica).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-014",
+  title: "Spiegazione sotto forma di dibattito: tesi, antitesi e sintesi",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Esplora un argomento complesso con argomenti opposti e una sintesi utile.",
+  prompt: `Oggetto: [CREAMS QUI]
+Domanda dell'argomento: [SCREAMS QUI]
 
-Crea un debate estructurado:
-A) Tesis (postura A): 5 argumentos fuertes + evidencia/razonamiento.
-B) Antítesis (postura B): 5 argumentos fuertes + evidencia/razonamiento.
-C) Refutaciones cruzadas (A refuta B y B refuta A) con 6 puntos por lado.
-D) Síntesis: cuándo A tiene razón, cuándo B tiene razón, y cómo decidir en la práctica.
+Crea un dibattito strutturato:
+A) Tesi (Una posizione): 5 argomenti forti + prove / ragionamento.
+B) Antitesi (posizione B): 5 argomenti forti + prove / ragionamento.
+C) Rifutazioni incrociate (A refuta B e B refuta A) con 6 punti per lato.
+D) Sintesi: quando A ha ragione, quando B ha ragione, e come decidere in pratica.
 
-Incluye:
-- 8 preguntas para moderar el debate.
-- Conclusión práctica en 7 bullets.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-015",
-    title: "Explicación con ‘caso de estudio’: datos → hipótesis → decisión",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Aprende un concepto aplicándolo a un caso realista con datos hipotéticos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Industria/contexto: [ESCRIBE AQUÍ]
+Include:
+- 8 domande per moderare il dibattito.
+- Conclusione pratica in 7 proiettili.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-015",
+  title: "Spiegazione con 'caso studio': dati → ipotesi → decisione",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Impara un concetto applicandolo a un caso realistico con dati ipotetici.",
+  prompt: `Oggetto: [CREAMS QUI]
+Industria / contesto: [CREAMS QUI]
 
-Construye un caso de estudio:
-1) Contexto y objetivo.
-2) Datos (inventados pero plausibles): 10–20 variables.
-3) Preguntas guía (10).
-4) Análisis paso a paso aplicando el tema.
-5) 3 decisiones posibles y trade-offs.
-6) Recomendación final con justificación.
+Costruisci uno studio di caso:
+1) Contesto e obiettivo.
+2) Dati (inventati ma plausibili): 10-20 variabili.
+3) Domande di orientamento (10).
+(4) Analisi graduale dell'argomento.
+5) 3 decisioni possibili e di scambio.
+6) Raccomandazione finale con giustificazione.
 
-Incluye:
-- “Qué información faltaría” (8 ítems).
-- 5 errores que un analista cometería aquí.`,
-    thumbnail: "",
-  },
+Include:
+- "Quale informazione sarebbe scomparsa" (8 articoli).
+- 5 errori che un analista farebbe qui.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-adv-016",
-    title: "Explicación avanzada para entrevistas técnicas/exámenes orales",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Entrena respuestas de alto nivel: claridad, estructura, rigor y ejemplos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tipo de evaluación: [entrevista técnica / examen oral / defensa de tesis]
+{
+  id: "edu-adv-016",
+  title: "Spiegazione avanzata per interviste tecniche / esami orali",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Fornisce risposte di alto livello: chiarezza, struttura, rigore ed esempi.",
+  prompt: `Oggetto: [CREAMS QUI]
+Tipo di valutazione: [intervista tecnica / esame orale / difesa della tesi]
 
-Entrega:
-1) Respuesta ideal de 2 minutos (estructura: definición → intuición → ejemplo → límite).
-2) Respuesta ideal de 8 minutos (más profunda con derivación).
-3) 12 preguntas difíciles que te podrían hacer.
-4) Para cada pregunta:
-   - respuesta modelo
-   - error común
-   - “señal de madurez” (qué menciona un experto)
+Consegna:
+1) Risposta ideale di 2 minuti (struttura: definizione → intuito → esempio → limite).
+2) Risposta ideale di 8 minuti (deeper con derivazione).
+3) 12 domande difficili che potrebbero essere poste.
+4) Per ogni domanda:
+- risposta modello
+- errore comune
+- "segno di maturità" (ciò che un esperto menziona)
 
-Incluye:
-- 5 analogías rápidas que puedes usar si el entrevistador no entiende.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-017",
-    title: "Explicación avanzada con ejercicios resueltos estilo ‘cadena de razonamiento’",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Resuelve problemas mostrando decisiones, alternativas y verificación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Include:
+- 5 brevi analogie che puoi usare se l'intervistatore non capisce.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-017",
+  title: "Spiegazione avanzata con risolto 'catena degli esercizi di ragionamento '-stile",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Valuta i problemi mostrando decisioni, alternative e verifica.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Genera 3 problemas (fácil/medio/difícil) y resuélvelos así:
-- Replanteo del problema (qué pide realmente)
-- Datos y variables
-- Estrategias posibles (2–3) y por qué eliges una
-- Solución paso a paso
-- Verificación (cómo compruebas que está bien)
-- “Si cambias X, qué pasa” (sensibilidad)
+Genera 3 problemi (facile / medio / difficile) e li riassume come segue:
+- Pensare al problema (cosa chiedi davvero)
+- Dati e variabili
+- Possibili strategie (2-3) e perché si sceglie una
+- Soluzione passo dopo passo
+- Verifica (come si verifica che va bene)
+- "Se cambi X, cosa succede" (sensibilità)
 
-Cierra con:
-- 8 ejercicios adicionales con pistas
-- 10 errores al resolverlos y cómo evitarlos`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-018",
-    title: "Explicación con ‘construcción desde ejemplo’: generaliza a teoría",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Empieza por ejemplos concretos y deriva la teoría general y sus límites.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino con:
+- 8 esercizi aggiuntivi con tracce
+- 10 errori quando li risolve e come evitarli`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-018",
+  title: "Spiegazione con 'costruzione dall'esempio': generalizza alla teoria",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Comincia con esempi concreti e deriva la teoria generale e i suoi limiti.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Estructura:
-1) 3 ejemplos concretos (muy diferentes).
-2) Para cada ejemplo:
-   - qué patrón aparece
-   - qué variable manda
-3) Generalización:
-   - formula la “regla” o teoría
-   - define condiciones
-4) Contraejemplo:
-   - caso donde falla
-5) Aplicación:
-   - 2 problemas nuevos resueltos
+Struttura:
+1) 3 esempi specifici (molto diversi).
+2) Per ogni esempio:
+- quale modello appare
+- quali ordini variabili
+(3) Generale:
+- formula il "rulo" o la teoria
+- definisce le condizioni
+(4) Contraexample:
+- caso in cui fallisce
+5. Attuazione:
+- 2 nuovi problemi risolti
 
-Cierre:
-- “Reglas de decisión” (8 bullets) y “alertas” (5).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-019",
-    title: "Explicación avanzada ‘de caja negra a caja blanca’: cómo funciona por dentro",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Pasa de uso práctico a entendimiento interno: componentes, flujo y fallos.",
-    prompt: `Tema/herramienta: [ESCRIBE AQUÍ]
+Vicino:
+- "Regole di decisione" (8 proiettili) e "alerts" (5).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-019",
+  title: "Spiegazione avanzata 'black box to white box': come funziona dentro",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Si muove dall'uso pratico alla comprensione interna: componenti, flussi e guasti.",
+  prompt: `Tema / strumento: [SCREAMS QUI]
 
-Entrega:
-A) Caja negra:
-- Qué entra, qué sale, qué optimiza (si aplica)
-- 5 ejemplos de uso correcto
-B) Caja blanca:
-- Componentes internos (8–12)
-- Flujo paso a paso (como diagrama descrito)
-- Parámetros y su efecto
-C) Fallos y diagnósticos:
-- 10 fallos típicos
-- señales
-- causas internas
-- solución
-D) Profundización:
-- 6 preguntas avanzadas con respuestas modelo
+Consegna:
+A) scatola nera:
+- No. Ciò che entra, ciò che esce, che ottimizza (se applicato)
+- 5 esempi di utilizzo corretto
+(B) scatola bianca:
+- Componenti interni (8-12)
+- Flusso passo dopo passo (come descritto)
+- Parametri e loro effetto
+(C) Non riuscita e diagnosticata:
+- 10 guasti tipici
+- segni
+- casi domestici
+- soluzione
+(D) Ampliamento:
+- 6 domande avanzate con risposte ai modelli
 
-Cierre:
-- Checklist de buena práctica (12).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-020",
-    title: "Explicación avanzada para ‘transferencia’: aplica lo aprendido a un dominio nuevo",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Enseña el concepto y luego obliga a aplicarlo fuera de su contexto típico.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Dominio típico: [A]
-Dominio nuevo: [B] (elige uno distinto: medicina, economía, deporte, arte, etc.)
+Vicino:
+- Elenco di buona pratica (12).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-020",
+  title: "Spiegazione avanzata per 'trasferire': applica quello che hai imparato a un nuovo dominio",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Insegna il concetto e poi lo costringe ad essere applicato al di fuori del suo contesto tipico.",
+  prompt: `Oggetto: [CREAMS QUI]
+Dominio tipico: [A]
+Nuovo dominio: [B] (scegliere uno diverso: medicina, economia, sport, arte, ecc.)
 
-Entrega:
-1) Explica el tema en dominio A (con rigor).
-2) Identifica su “núcleo transferible” (5–8 principios).
-3) Replantea el tema en dominio B:
-   - mapeo de variables
-   - ajustes de supuestos
-4) Resuelve 2 casos en dominio B (paso a paso).
-5) 6 ejercicios de transferencia (enunciado + pista).
+Consegna:
+1) Spiega l'argomento nel dominio A (rigorosamente).
+2) identifica il suo "core trasferibile" (5-8 principi).
+3) Repose l'argomento nel dominio B:
+- mappatura delle variabili
+- adeguamenti delle ipotesi
+4) Risolvere 2 casi in dominio B (passo per passo).
+5) 6 esercizi di trasferimento (stato + traccia).
 
-Cierre:
-- Lista de “trampas” de transferencia (8) y cómo evitarlas.`,
-    thumbnail: "",
-  },
+Vicino:
+- Lista di trasferimento "trappole" (8) e come evitarle.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-adv-021",
-    title: "Explicación avanzada ‘con historia’: narrativa para recordar (sin perder rigor)",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Enmarca el concepto como historia (problema, tensión, descubrimiento) con formalismo integrado.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Contexto histórico o ficticio: [elige: laboratorio, empresa, guerra, expedición, startup, hospital]
-Tono: [serio / épico / cercano]
+{
+  id: "edu-adv-021",
+  title: "Spiegazione avanzata 'con storia': narrazione da ricordare (senza perdere rigore)",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Esso definisce il concetto di storia (problema, tensione, scoperta) con il formalismo integrato.",
+  prompt: `Oggetto: [CREAMS QUI]
+Contesto storico o fittizio: [scegliere: laboratorio, azienda, guerra, spedizione, startup, ospedale]
+Tono: [serioso / epico / vicino]
 
-Crea una explicación narrativa:
-- Acto 1: problema real (por qué importa)
-- Acto 2: intento fallido (error común)
-- Acto 3: insight (formalismo y definición)
-- Acto 4: aplicación (ejemplo resuelto)
-- Acto 5: límite y lección
+Crea una spiegazione narrativa:
+- Atto 1: problema reale (perché conta)
+- Atto 2: tentativo fallito (errore comune)
+- Atto 3: Insight (formalismo e definizione)
+- Atto 4: attuazione (esempio risolto)
+- Atto 5: limite e lezione
 
-Incluye:
-- Glosario (10 términos)
-- 5 preguntas de comprensión
-- 5 ejercicios de aplicación con pistas`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-022",
-    title: "Explicación avanzada ‘con simulación mental’: predice resultados",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Aprende prediciendo: cambia variables y pronostica; luego verifica con reglas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Include:
+- Glossario (10 termini)
+- 5 domande di comprensione
+- 5 esercizi di applicazione con tracce`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-022",
+  title: "Spiegazione avanzata 'con simulazione mentale': prevede i risultati",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Imparare a prevedere: cambiare variabili e prognostici; quindi controllare con le regole.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega:
-1) Modelo simplificado (variables, relaciones).
-2) 12 escenarios “¿qué pasa si...?”
-   - cambia 1 variable por vez
-   - luego cambia 2 variables combinadas (interacciones)
-3) Para cada escenario:
-   - predicción razonada
-   - explicación (qué regla aplica)
-4) 3 escenarios sorpresa (“intuición falla”) y por qué.
+Consegna:
+1) Modello semplificato (variabili, relazioni).
+2) 12 scenari "e se...?"
+- cambia 1 variabile alla volta
+- poi cambia 2 variabili combinate (interazione)
+3) Per ogni scenario:
+- Previsione ragionata
+- spiegazione (quale regola si applica)
+4) 3 scenari di sorpresa ("l'intuizione fallisce") e perché.
 
-Cierre:
-- 10 preguntas ‘si esto, entonces qué’ para autoevaluación.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-023",
-    title: "Explicación avanzada con ‘notación mínima’: rigor con símbolos necesarios",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Usa solo la notación imprescindible; define todo y evita símbolos innecesarios.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [avanzado]
-Restricción: “notación mínima”
+Vicino:
+- 10 domande se questo, allora che 'per autovalutazione.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-023",
+  title: "Spiegazione avanzata con 'notazione minima': rigore con simboli necessari",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Utilizzare solo la notazione necessaria; definire tutto ed evitare simboli inutili.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [avanzato]
+Restrizione: "Notazione minima"
 
-Entrega:
-- Define notación (5–10 símbolos máximo).
-- Explica el concepto usando esa notación con claridad.
-- 2 derivaciones cortas (o argumentos), completamente explicadas.
-- 3 ejemplos resueltos.
-- 6 ejercicios con pistas.
+Consegna:
+- Definire la notazione (5-10 simboli massimi).
+- No. Spiega chiaramente il concetto che usa quella notazione.
+- 2 brevi derivazioni (o argomenti), completamente spiegato.
+- 3 esempi risolti.
+- Sei esercizi.
 
-Cierre:
-- Lista de 8 errores de notación que crean confusión.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-024",
-    title: "Explicación avanzada ‘para programar’: del concepto al algoritmo",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Convierte teoría en pasos algorítmicos: pseudocódigo, complejidad y tests.",
-    prompt: `Concepto: [ESCRIBE AQUÍ]
-Lenguaje objetivo: [Python/JS/Java/etc.]
+Vicino:
+- Elenco di 8 errori di notazione che creano confusione.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-024",
+  title: "Spiegazione avanzata 'a programma': dal concetto all'algoritmo",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Converte la teoria in passi algoritmici: pseudocodice, complessità e test.",
+  prompt: `Concetto:
+Lingua di destinazione: [Python / JS / Java / ecc.]
 
-Entrega:
-1) Explicación conceptual (qué, por qué).
-2) Especificación: entradas/salidas, supuestos.
+Consegna:
+1) spiegazione concettuale (cosa, perché).
+2) Specifica: ingressi / uscite, assunzioni.
 3) Algoritmo:
-   - pseudocódigo
-   - análisis de complejidad
-   - casos borde
-4) Implementación orientativa (código ejemplo si aplica).
-5) Tests:
-   - 8 pruebas unitarias sugeridas
-   - 5 pruebas de estrés
+- pseudo-codice
+- analisi della complessità
+- casi
+4) implementazione della guida (codice example se applicabile).
+5) Test:
+- 8 prove di unità suggerite
+- 5 test di stress
 
-Cierre:
-- 6 errores de implementación y cómo detectarlos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-025",
-    title: "Explicación avanzada ‘para investigación’: preguntas abiertas y límites",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Enseña y luego conecta con fronteras: límites, controversias, investigación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- 6 errori di implementazione e come rilevarli.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-025",
+  title: "Spiegazione avanzata «per la ricerca»: domande aperte e limiti",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Insegna e poi si collega con i confini: confini, dispute, ricerca.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega:
-A) Explicación rigurosa del estado “estándar” del tema.
-B) Limitaciones (técnicas, conceptuales, empíricas).
-C) Controversias o debates (3–6) con:
-   - postura A
-   - postura B
-   - evidencia
-D) Preguntas abiertas (8–12) que aún se investigan.
-E) Propuesta de mini-proyecto (1–2 semanas) para explorar una pregunta.
+Consegna:
+A) Spiegazione rigorosa dello stato "standard" dell'argomento.
+B) Limitazioni (tecniche, concettuali, empiriche).
+C) Controversie o discussioni (3-6) con:
+- posizione A
+- posizione B
+- prove
+D) Domande aperte (8-12) ancora sotto indagine.
+E) Proposta di un mini-progetto (1-2 settimane) per esplorare una domanda.
 
-Cierre:
-- Cómo evaluar papers del tema (checklist de 12 puntos).`,
-    thumbnail: "",
-  },
+Vicino:
+- Come valutare i documenti di argomento (12-point checklist).`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-adv-026",
-    title: "Explicación avanzada ‘con rúbrica’: cómo evaluar soluciones de estudiantes",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Crea criterios de evaluación y ejemplos de respuestas buenas/malas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tipo de tarea: [problema / ensayo / proyecto / presentación]
+{
+  id: "edu-adv-026",
+  title: "Spiegazione avanzata «con voce»: come valutare le soluzioni degli studenti",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Crea criteri di valutazione ed esempi di buone / cattive risposte.",
+  prompt: `Oggetto: [CREAMS QUI]
+Tipo di attività: [problema / test / progetto / presentazione]
 
-Entrega:
-1) Enunciado de tarea (claro, no ambiguo).
-2) Rúbrica:
-   - criterios (6–10)
-   - niveles (excelente/bien/regular/mal)
-   - descriptores concretos
-3) Ejemplos:
-   - 1 respuesta excelente (modelo)
-   - 1 respuesta media (con fallas)
-   - 1 respuesta mala (con fallas)
-4) Feedback tipo:
-   - 10 comentarios reutilizables (constructivos)
+Consegna:
+1) Compiti (ovviamente, non ambigui).
+2. Denominazione:
+- criteri (6-10)
+- livelli (ottimo / buono / regolare / cattivo)
+- descrittori specifici
+3) Esempi:
+- 1 risposta eccellente (modello)
+- 1 risposta media (con guasto)
+- 1 risposta negativa (con guasti)
+4) Tipo Feedback:
+- 10 commenti riutilizzabili (costruttivi)
 
-Cierre:
-- 8 errores que penalizar sí o sí y por qué.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-027",
-    title: "Explicación avanzada ‘para memoria’: mnemotecnia + estructura",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Crea técnicas para recordar temas complejos: chunking, historias, palacio mental.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- 8 errori per penalizzare sì o sì e perché.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-027",
+  title: "Spiegazione avanzata 'per memoria': mnemotecnia + struttura",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Crea tecniche per ricordare problemi complessi: schizzi, storie, palazzo mentale.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega:
-1) Chunking: divide el tema en 6–10 “bloques”.
+Consegna:
+1) Copertina: dividere il tema in 6-10 "blocchi".
 2) Mnemotecnia:
-   - acrónimo o frase recordatoria (sin cringe)
-   - historia corta que encodee conceptos
-3) Palacio mental:
-   - 8–12 “estaciones” con objetos simbólicos
-4) Tarjetas (flashcards):
-   - 20 Q/A avanzadas
-5) Prueba:
-   - mini-examen de 15 preguntas
+- frase acronimo o promemoria (senza cringe)
+- breve storia che codifica concetti
+3) Palazzo mentale:
+- 8-12 "stazioni" con oggetti simbolici
+4) Flashcards:
+- 20 Q / A avanzato
+5) Prove:
+- mini-esame di 15 domande
 
-Cierre:
-- Plan de repaso espaciado de 14 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-028",
-    title: "Explicación ‘con visualización’: describe 3 diagramas imprescindibles",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Aunque no dibujes, define diagramas clave: ejes, variables, lectura e interpretación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- Ampio piano di revisione di 14 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-028",
+  title: "Spiegazione 'con display': descrive 3 diagrammi essenziali",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Anche se non disegna, definisce diagrammi chiave: assi, variabili, lettura e interpretazione.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega:
-- 3 diagramas/figuras clave (descríbelos con precisión):
-  1) Qué muestra (ejes/elementos)
-  2) Cómo se lee
-  3) Qué insight da
-  4) Errores de interpretación
-- Luego, explica el tema referenciando esos diagramas como anclas.
-- 2 ejemplos resueltos usando cada diagrama.
-- 6 ejercicios donde el estudiante elige el diagrama correcto.
+Consegna:
+- 3 diagrammi / cifre chiave (esattamente li descrivono):
+1) Qual è il campione (assi / elementi)
+2) Come leggere
+3) Che intuizione dà
+4) Misinterpretazione
+- Poi spiega il soggetto facendo riferimento a quei diagrammi come ancoraggi.
+- 2 esempi risolti utilizzando ogni diagramma.
+- 6 esercizi in cui lo studente sceglie il diagramma corretto.
 
-Cierre:
-- “Guía de lectura de figuras” (10 reglas).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-029",
-    title: "Explicación avanzada ‘tipo consultoría’: problema → diagnóstico → recomendación",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Aplica un concepto a un problema práctico con estilo consultoría (MECE, hipótesis).",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Problema práctico: [ESCRIBE AQUÍ]
-Contexto: [empresa/escuela/lab/etc.]
+Vicino:
+- "Guida alle figure di lettura" (10 regole).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-029",
+  title: "Spiegazione avanzata 'tipo di isolamento': problema → diagnosi → raccomandazione",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Si applica un concetto a un problema pratico con lo stile di consulenza (MECE, ipotesi).",
+  prompt: `Oggetto: [CREAMS QUI]
+Problema pratico: [CREAMS QUI]
+Contesto: [azienda / scuola / laboratorio / ecc.]
 
-Entrega:
-1) Clarificación del problema (preguntas MECE).
-2) Hipótesis (3–5) y qué datos validarían cada una.
-3) Marco del tema aplicado al problema (paso a paso).
-4) Diagnóstico con datos hipotéticos.
-5) Recomendaciones (priorizadas) + riesgos + plan de implementación.
-6) Métricas de éxito (6–10 KPIs).
+Consegna:
+1) Chiarificazione del problema (problemi MEC).
+2) Ipotesi (3-5) e quali dati convalidano ciascuno.
+(3) Quadro del tema applicato al problema (passo per passo).
+4) Diagnosi con dati ipotetici.
+5) Raccomandazioni (prioritizzate) + rischi + piano di attuazione.
+6) Successo (6-10 KPI).
 
-Cierre:
-- “Qué haría si me equivoco” (plan de contingencia).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-030",
-    title: "Explicación avanzada ‘dual’: para matemáticos y para practicantes",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Dos explicaciones paralelas: una formal y una aplicada, conectadas por mapeo.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- "Cosa farei se mi sbagliassi" (piano di emergenza).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-030",
+  title: "Spiegazione \"duale\" avanzata: per matematici e praticanti",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Due spiegazioni parallele: una formale e una applicata, collegate da mappatura.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega dos versiones:
-A) Versión formal:
-- definiciones
-- teorema/resultado
-- derivación o demostración corta
-- 2 ejercicios formales
-B) Versión aplicada:
-- intuición
-- reglas de uso
-- 3 casos reales
-- checklist para aplicar
+Due versioni sono consegnate:
+A) Versione formale:
+- definizioni
+- teorema / risultato
+- breve derivazione o dimostrazione
+- 2 esercizi formali
+(B) Versione applicata:
+- intuito
+- regole d'uso
+- 3 casi reali
+- controllo da applicare
 
-Luego:
-- Mapeo: por cada elemento formal, cuál es su interpretación práctica (10 pares).
+Allora:
+- Mappa: per ogni elemento formale, qual è la sua interpretazione pratica (10 coppie).
 
-Cierre:
-- 10 preguntas de examen mixtas (formal + aplicada).`,
-    thumbnail: "",
-  },
+Vicino:
+- 10 domande di esame congiunto (formale + applicata).`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-adv-031",
-    title: "Explicación avanzada ‘con trampas’ (estilo olimpíada/examen difícil)",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Entrena para dificultad alta con problemas trampa, estrategias y verificación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
+{
+  id: "edu-adv-031",
+  title: "Spiegazione avanzata 'con trappole' (stile olissido / esame difficile)",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Formazione ad alta difficoltà con problemi di trappola, strategie e verifica.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
 
-Entrega:
-- 6 problemas trampa (progresivos).
-- Para cada problema:
-  - por qué es trampa
-  - estrategia correcta
-  - solución paso a paso
-  - verificación
-- 10 heurísticas para detectar trampas.
-- 8 ejercicios extra (sin solución) con pistas.
+Consegna:
+- 6 problemi intrappolano (progressivo).
+- Per ogni problema:
+- Perché sta barando?
+- strategia corretta
+- soluzione passo dopo passo
+- verifica
+- 10 euristiche per rilevare trappole.
+- 8 esercizi extra (nessuna soluzione) con tracce.
 
-Cierre:
-- Plan de práctica (7 sesiones) para dominar estas trampas.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-032",
-    title: "Explicación avanzada ‘con preguntas de seguimiento’: estilo profesor estricto",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Explica y luego presiona con repreguntas; ideal para consolidar dominio.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- Piano di pratica (7 sessioni) per padroneggiare queste trappole.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-032",
+  title: "Spiegazione avanzata 'con domande di follow-up': stile insegnante rigoroso",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Esplorare e quindi premere con richieste; ideale per consolidare il dominio.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-1) Explica el tema (rigurosamente, sin exceso de jerga).
-2) Luego haz 15 repreguntas difíciles:
-   - “¿y si…?”
-   - “¿bajo qué condiciones…?”
-   - “¿qué pasa si se viola el supuesto…?”
-   - “compara con…”
+1) Spiega l'argomento (rigorosamente, senza gergo in eccesso).
+2) Allora faccia 15 domande dure:
+- E se...?
+- "in quali condizioni..."
+- E se la presunta...?
+- "rispetto a..."
 
-Para cada pregunta:
-- respuesta modelo (concisa, precisa)
-- error típico
-- cómo detecto si realmente lo entendí
+Per ogni domanda:
+- risposta modello (concisa, precisa)
+- errore tipico
+- come scopro se ho capito
 
-Cierre:
-- 12 bullets de “señales de dominio” del tema.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-033",
-    title: "Explicación avanzada: construye un ‘cheat sheet’ de una página",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Resumen ultra denso pero entendible: fórmulas/ideas, casos, límites y pasos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- 12 proiettili di "segni domini" dell'argomento.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-033",
+  title: "Spiegazione avanzata: costruire un 'scheat foglio' di una pagina",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Riepilogo ultra denso ma comprensibile: formule / idee, casi, limiti e passi.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Crea un cheat sheet de 1 página (en texto):
-- Definiciones esenciales (10)
-- Fórmulas/leyes/reglas (si aplica) con interpretación
-- Procedimiento paso a paso (checklist)
-- Casos típicos (6)
-- Casos borde (6)
-- Errores comunes (10)
-- 8 preguntas flash con respuestas
-- 3 mini-ejemplos resueltos
+Creare un foglio di scacchi di 1 pagina (in testo):
+- Definizioni essenziali (10)
+- Formula / leggi / regole (se applicabili) con interpretazione
+- Procedura passo-passo (elenco di controllo)
+- Tipici casi (6)
+- Bordo (6)
+- Errori comuni (10)
+- 8 domande flash con risposte
+- 3% - esempi risolti
 
-Regla:
-- Todo debe caber en formato compacto, estilo apuntes.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-034",
-    title: "Explicación avanzada para ‘enseñar a otros’: el alumno se vuelve profesor",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Crea material para que el estudiante explique el tema: guion, ejemplos y preguntas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Regola:
+- No. Tutto deve adattarsi in formato compatto, stile appuntito.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-034",
+  title: "Spiegazione avanzata per 'insegnare gli altri': lo studente diventa insegnante",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Creare materiale per lo studente per spiegare il tema: script, esempi e domande.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega un kit para enseñar:
-1) Explicación de 5 minutos (guion).
-2) Explicación de 20 minutos (estructura + puntos).
-3) 3 analogías con límites.
-4) 3 demostraciones o ejemplos en pizarra (paso a paso).
-5) 12 preguntas para evaluar comprensión (con respuestas).
-6) 6 ejercicios para practicar (con pistas).
+Consegnare un kit per insegnare:
+1) Spiegazione di 5 minuti (scritto).
+2) spiegazione di 20 minuti (struttura + punti).
+3) 3 analogie con limiti.
+4) 3 dimostrazioni o esempi su ardesia (passo per passo).
+5) 12 domande per valutare la comprensione (con risposte).
+6) 6 esercizi di pratica (con indizi).
 
-Cierre:
-- Errores al enseñar este tema (8) y cómo evitarlos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-035",
-    title: "Explicación avanzada con ‘metacognición’: cómo pensar el tema",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "No solo explica el tema: enseña el tipo de pensamiento que requiere.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- Errori nell'insegnamento di questo tema (8) e come evitarli.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-035",
+  title: "Spiegazione avanzata con 'metacognition': come pensare al soggetto",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Non solo spiega il soggetto: insegna il tipo di pensiero che richiede.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega:
-A) Qué tipo de pensamiento requiere:
-- matemático, causal, probabilístico, sistémico, clínico, etc.
-B) 10 preguntas metacognitivas para resolver problemas del tema.
-C) Estrategias:
-- cómo empezar
-- cómo verificar
-- cómo detectar supersimplificación
-D) 3 problemas resueltos destacando el pensamiento (no solo pasos).
-E) 6 ejercicios con “qué pensamiento practicar”.
+Consegna:
+A) Che tipo di pensiero richiede:
+- matematico, causale, probabilistico, sistemico, clinico, ecc.
+B) 10 domande metacognitive per risolvere i problemi del soggetto.
+(C) Strategie:
+- come iniziare
+- come verificare
+- come rilevare la supersemplificazione
+D) 3 problemi risolti evidenziando il pensiero (non solo passi).
+E) 6 esercizi con "che cosa pensa di praticare".
 
-Cierre:
-- Checklist mental para cuando te atasques (12).`,
-    thumbnail: "",
-  },
+Vicino:
+- Elenco di controllo mentale per quando si rimane bloccati (12).`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-adv-036",
-    title: "Explicación avanzada ‘de intuición errónea a intuición correcta’",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Corrige intuiciones equivocadas con ejemplos, contraejemplos y reconstrucción mental.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+{
+  id: "edu-adv-036",
+  title: "Spiegazione avanzata 'da intuito sbagliato a correggere l'intuizione '",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Corregge intuizioni sbagliate con esempi, controesempi e ricostruzione mentale.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Estructura:
-1) Intuición errónea típica (cómo piensa la mayoría).
-2) Por qué parece razonable (empatía).
-3) Contraejemplo mínimo (lo rompe).
-4) Reconstrucción de intuición correcta:
-   - nueva metáfora
-   - nueva regla
-   - nuevo hábito mental
-5) 3 ejemplos resueltos mostrando el nuevo hábito.
-6) 8 ejercicios para practicar.
+Struttura:
+1) Un errore tipico (come la maggior parte pensano).
+2) Perché sembra ragionevole (empatia).
+3) Controcampione minimo (si rompe).
+4) Ricostruzione dell'intuizione corretta:
+- nuova metafora
+- nuova regola
+- nuova abitudine mentale
+5) 3 esempi risolti mostrando la nuova abitudine.
+6) 8 esercizi da praticare.
 
-Cierre:
-- 10 señales de que volviste a la intuición errónea y cómo volver.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-037",
-    title: "Explicación avanzada con ‘interrogatorio de supuestos’: qué asumes sin ver",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Hace explícitos supuestos ocultos y cómo cambian el resultado si se alteran.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- 10 segni che hai restituito all'intuizione sbagliata e come tornare.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-037",
+  title: "Spiegazione avanzata con 'domanda di assunzioni': cosa si assume senza vedere",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Rende esplicite ipotesi nascoste e come cambiano il risultato se sono alterate.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega:
-1) Lista de supuestos (12–20).
-2) Clasifica: esenciales vs convenientes.
-3) Para 6 supuestos:
-   - qué pasa si se viola
-   - ejemplo de fallo
-   - corrección o alternativa
-4) 2 problemas resueltos, uno con supuestos “bonitos” y otro con supuestos “rotos”.
-5) Guía de decisión: qué versión usar según situación.
+Consegna:
+1) Elenco delle ipotesi (12-20).
+2) Classificazione: essenziale vs auspicabile.
+3) Per 6 casi:
+- e se fosse stuprata
+- esempio di fallimento
+- correzione o alternativa
+4) 2 problemi risolti, uno con il cosiddetto "bello" e uno con il cosiddetto "rotto".
+5) Guida alla decisione: quale versione da utilizzare in base alla situazione.
 
-Cierre:
-- Checklist de supuestos antes de aplicar el tema en el mundo real.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-038",
-    title: "Explicación avanzada tipo ‘libro’: capítulo completo con secciones",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Capítulo estilo libro: teoría, ejemplos, ejercicios, notas y resumen.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Longitud objetivo: [1200–2500 palabras]
+Vicino:
+- Elenco delle ipotesi prima di applicare il soggetto nel mondo reale.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-038",
+  title: "Tipo di spiegazione avanzata 'libro': capitolo completo con sezioni",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Capitolo stile libro: teoria, esempi, esercizi, note e riepilogo.",
+  prompt: `Oggetto: [CREAMS QUI]
+Lunghezza obiettivo: [1200-2500 parole]
 
-Escribe un “capítulo” con:
-1) Introducción motivadora (con caso real).
-2) Conceptos y definiciones (glosario).
-3) Desarrollo formal (rigor).
-4) Ejemplos resueltos (3).
-5) Notas y advertencias (casos borde y límites).
-6) Ejercicios (10) con pistas.
-7) Resumen del capítulo (15 bullets).
-8) “Para ir más allá” (temas siguientes).
+Scrivi un "chapter" con:
+1) Introduzione stimolante (con caso reale).
+2) Concetti e definizioni (glossario).
+(3) Sviluppo formale (rigour).
+4) Esempi risolti (3).
+5) Note e avvisi (limiti e limiti dei casi).
+6) Esercizi (10) con tracce.
+7) Riepilogo del capitolo (15 proiettili).
+8) "Per andare oltre" (segue argomenti).
 
-Regla:
-- Mantén coherencia pedagógica y progresión.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-039",
-    title: "Explicación avanzada ‘con visualización mental de procesos’: flujo dinámico",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Para procesos: explica como flujo con estados, transiciones y condiciones.",
-    prompt: `Tema/proceso: [ESCRIBE AQUÍ]
+Regola:
+- Mantenere coerenza pedagogica e progressione.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-039",
+  title: "Avanzato 'con display mentale di processo': flusso dinamico",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Per i processi: spiega come scorrere con stati, transizioni e condizioni.",
+  prompt: `Oggetto/processo: [GRIDA QUI]
 
-Entrega:
-- Estados (6–12).
-- Transiciones: condición → acción → nuevo estado.
-- Variables que afectan transiciones.
-- 3 recorridos completos del flujo (casos distintos).
-- 5 casos borde (qué se rompe y por qué).
-- 2 ejercicios: “dado este estado y datos, ¿a dónde vas?”
+Consegna:
+- Stati (6-12).
+- Transizioni: stato → azione → nuovo stato.
+- Variabili che influiscono sulle transizioni.
+- 3 percorsi a flusso completo (casi diversi).
+- 5 casi di confine (che è rotto e perché).
+- 2 esercizi: "Dati questo stato e i dati, dove vai?"
 
-Cierre:
-- Checklist para depurar errores en el flujo (12).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-040",
-    title: "Explicación avanzada con ‘micro-derivaciones’: mini pruebas a lo largo",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Explica con pequeños argumentos formales insertados, para sostener rigor sin abrumar.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- Elenco di controllo per errori di debug (12).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-040",
+  title: "Spiegazione avanzata con 'micro-derivazioni': mini test lungo",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Spiega con piccoli argomenti formali inseriti, per tenere il rigore senza abrupting.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Escribe una explicación donde:
-- Cada sección incluye una mini-derivación/prueba (4–10 líneas) que justifique el punto.
-- Mantén continuidad: intuición → mini-prueba → ejemplo.
+Scrivere una spiegazione dove:
+- Ogni sezione comprende una mini-derivation / test (4-10 linee) che giustifica il punto.
+- Mantenere continuità: intuito → mini-test → esempio.
 
-Estructura:
-1) Idea central
-2) Herramienta 1 (mini-prueba + ejemplo)
-3) Herramienta 2 (mini-prueba + ejemplo)
-4) Herramienta 3 (mini-prueba + ejemplo)
-5) Integración: caso real (resuelto)
-6) Límites: cuándo no usarlo
+Struttura:
+1) Idea centrale
+2) Strumento 1 (mini-test + esempio)
+3) Strumento 2 (mini-test + esempio)
+4) Strumento 3 (mini-test + esempio)
+(5) Integrazione: caso reale (risolto)
+6) Limiti: quando non usare
 
-Cierre:
-- 8 ejercicios con pistas
-- 10 preguntas flash con respuestas`,
-    thumbnail: "",
-  },
+Vicino:
+- 8 esercizi con tracce
+- 10 domande flash con risposte`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-adv-041",
-    title: "Explicación avanzada: crea un banco de preguntas tipo examen (con soluciones)",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Genera preguntas difíciles y sus soluciones, con criterios de calificación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Formato: [opción múltiple / desarrollo / problemas]
+{
+  id: "edu-adv-041",
+  title: "Spiegazione avanzata: creare una banca di domande tipo esame (con soluzioni)",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Genera domande difficili e le loro soluzioni, con criteri di qualificazione.",
+  prompt: `Oggetto: [CREAMS QUI]
+Livello: [alto]
+Formato: [opzione multipla / sviluppo / problemi]
 
 Genera:
-- 20 preguntas (mix: 8 conceptuales, 8 de cálculo/aplicación, 4 de crítica/ensayo).
-- Solución completa para cada una.
-- Para cada pregunta:
-  - qué evalúa
-  - error común
-  - puntaje y criterios
+- 20 domande (mix: 8 concettuale, 8 calcolo / applicazione, 4 recensione / prova).
+- Soluzione completa per ciascuno.
+- Per ogni domanda:
+- quello che valuta
+- errore comune
+- punteggio e criteri
 
-Cierre:
-- “Mapa de cobertura”: qué subtemas tocaste y cuáles faltan.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-042",
-    title: "Explicación avanzada ‘de laboratorio’: hipótesis, experimento, análisis",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Convierte el tema en un laboratorio: qué medir, cómo probar y cómo interpretar.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- "Coverage map": quali sottotemi hai toccato e quali sono mancanti.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-042",
+  title: "Spiegazione \"laboratorio\" avanzata: ipotesi, esperimento, analisi",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Trasformare il soggetto in un laboratorio: cosa misurare, come provare e come interpretare.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Diseña un laboratorio:
-1) Pregunta de investigación.
-2) Hipótesis (3).
-3) Variables: dependiente, independiente, control.
-4) Procedimiento (pasos).
-5) Datos simulados (pequeña tabla en texto: 12–20 filas).
-6) Análisis e interpretación.
-7) Amenazas a validez (8).
+Progetta un laboratorio:
+1) Domanda di ricerca.
+2) Ipotesi (3).
+3) Variabili: dipendente, indipendente, controllo.
+4) Procedura (passi).
+5) Dati simulati (piccola tabella nel testo: 12-20 righe).
+6) Analisi e interpretazione.
+7) Minacce alla validità (8).
 
-Cierre:
-- 10 preguntas de reporte y rúbrica de evaluación.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-043",
-    title: "Explicación avanzada con ‘diferenciación’: versión para 3 perfiles de alumno",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Mismo tema adaptado a 3 estilos: teórico, práctico, visual/verbal.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- 10 relazioni e sezione valutazione.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-043",
+  title: "Spiegazione avanzata con 'differenziazione': versione per 3 profili studenteschi",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Stesso tema adattato a 3 stili: teorico, pratico, visivo / verbale.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Crea 3 versiones:
-A) Perfil teórico: definiciones, derivaciones, precisión.
-B) Perfil práctico: reglas de uso, checklists, casos reales.
-C) Perfil visual/verbal: diagramas descritos, analogías, metáforas con límites.
+Creare 3 versioni:
+A) Profilo teorico: definizioni, derivazioni, precisione.
+(B) Profilo pratico: regole d'uso, liste di controllo, casi reali.
+C) Profilo visivo / verbale: diagrammi descritti, analogie, metafore con limiti.
 
-Para cada versión:
-- Explicación (500–900 palabras)
-- 2 ejemplos resueltos
-- 6 ejercicios con pistas
+Per ogni versione:
+- Spiegazione (500-900 parole)
+- 2 esempi risolti
+- 6 esercizi con tracce
 
-Cierre:
-- Recomienda cuál perfil es el mío con 7 preguntas diagnóstico.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-044",
-    title: "Explicación avanzada ‘con síntesis’: resume el tema en 5 representaciones",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Transforma el tema en: definición, analogía, fórmula/procedimiento, ejemplo, contraejemplo.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Vicino:
+- Raccomanda quale profilo è mio con 7 domande diagnostiche.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-044",
+  title: "Spiegazione avanzata 'con sintesi': riassume il tema in 5 rappresentazioni",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Trasforma il tema in: definizione, analogia, formula / procedura, esempio, contraexample.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Crea 5 representaciones:
-1) Definición rigurosa (2–4 líneas)
-2) Analogía (y su límite)
-3) Procedimiento o fórmula (con interpretación)
-4) Ejemplo trabajado (paso a paso)
-5) Contraejemplo (donde falla la intuición)
+Crea 5 rappresentazioni:
+1) Definizione rigorosa (2-4 linee)
+2) Analogo (e il suo limite)
+3) Procedura o formula (con interpretazione)
+4) Esempio di lavoro (passo per passo)
+5) Contraexample (dove l'intuizione fallisce)
 
-Luego:
-- Conecta las 5 con un “mapa” de 12 bullets.
-- 10 preguntas flash con respuestas.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-045",
-    title: "Explicación avanzada ‘para dominar’: 80/20 + profundización estratégica",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Identifica el 20% que da el 80% del dominio y luego cómo profundizar sin perderse.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+Allora:
+- Collegare il 5 con una "mappa" a 12 bobine.
+- 10 domande flash con risposte.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-045",
+  title: "Spiegazione avanzata 'di padrone': 80 / 20 + approfondimento strategico",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Si identifica il 20% che dà l'80% del dominio e poi come approfondire senza perdere.",
+  prompt: `Oggetto: [CREAMS QUI]
 
-Entrega:
-1) 80/20: 6–10 ideas que explican el 80% (por qué).
-2) Los 10 errores que más te frenan.
-3) Práctica deliberada:
-   - 12 ejercicios clave (con soluciones)
-   - orden recomendado
-4) Profundización:
-   - 6 subtemas avanzados
-   - en qué orden estudiarlos
-   - cómo saber que los dominas
+Consegna:
+1) 80 / 20: 6-10 idee che spiegano 80% (perché).
+2) I 10 errori che ti trattengono di più.
+(3) Pratica deliberata:
+- 12 esercizi chiave (con soluzioni)
+- ordine raccomandato
+(4) Finanziamento:
+- 6 sottotemi avanzati
+- per studiarli
+- come sapere che le domine
 
-Cierre:
-- Plan de 2 semanas (día a día) con métricas de progreso.`,
-    thumbnail: "",
-  },
+Vicino:
+- Piano di 2 settimane (giorno-giorno) con metriche di progresso.`,
+  thumbnail: ""
+},
 
-  {
-    id: "edu-adv-046",
-    title: "Explicación avanzada ‘con traducción de jerga’: diccionario experto → claro",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Convierte jerga técnica en explicaciones claras sin perder precisión.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Lista de términos técnicos (si tienes): [PEGAR]
+{
+  id: "edu-adv-046",
+  title: "Spiegazione avanzata 'con traduzione gergo': dizionario esperto → chiaro",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Convertire gergo tecnico in chiare spiegazioni senza perdere precisione.",
+  prompt: `Oggetto: [CREAMS QUI]
+Elenco dei termini tecnici (se avete): [PEGAR]
 
-Entrega:
-- Diccionario de 25 términos:
-  - definición técnica (1–2 líneas)
-  - traducción a lenguaje claro (1–2 líneas)
-  - ejemplo breve
-  - error común al usar el término
-- Luego una explicación completa (700–1200 palabras) usando:
-  - 70% lenguaje claro
-  - 30% técnica (solo cuando aporte)
+Consegna:
+- Dizionario di 25 termini:
+- definizione tecnica (1-2 linee)
+- traduzione in lingua chiara (1-2 linee)
+- breve esempio
+- errore comune quando si utilizza il termine
+- Allora una spiegazione completa (700-1200 parole) usando:
+- 70% lingua chiara
+- 30% tecnico (solo se fornito)
 
-Cierre:
-- 10 preguntas para asegurar que entendí la jerga sin memorizarla.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-047",
-    title: "Explicación avanzada ‘causal vs correlación’: razonamiento y pruebas",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Plantilla robusta para explicar y analizar causalidad en cualquier campo.",
-    prompt: `Fenómeno/afirmación: [ESCRIBE AQUÍ]
+Vicino:
+- 10 domande per assicurarmi di aver capito il gergo senza memorizzarlo.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-047",
+  title: "Spiegazione \"causal vs correlazione\": ragionamento e prova",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Robusto modello per spiegare e analizzare la causalità in qualsiasi campo.",
+  prompt: `Phenomenum / affermazione: [GRIDA QUI]
 
-Entrega:
-1) Define causalidad vs correlación (rigurosamente).
-2) Lista de 10 sesgos/errores (confusores, selección, reverse causality, etc.) con ejemplos.
-3) Marco de prueba:
-   - qué evidencia serviría
-   - qué diseños de estudio existen (y trade-offs)
-4) Caso de estudio con datos hipotéticos:
-   - identifica confusores
-   - propone estrategia de identificación
-5) Ejercicios:
-   - 8 afirmaciones para clasificar (causal/correlación/indeterminado)
-   - y justificar
+Consegna:
+1) Definire la causalità contro la correlazione (rigorosamente).
+2) Elenco di 10 bias / errori (confusione, selezione, causalità inversa, ecc.) con esempi.
+3) Struttura di prova:
+- quali prove sarebbero utili
+- che esistono progetti di studio (e di scambio)
+4) Studio caso con dati ipotetici:
+- identifica la confusione
+- propone una strategia di identificazione
+(5) Esercizi:
+- 8 dichiarazioni per classificare (causale / correlazione / non determinato)
+- e giustifica
 
-Cierre:
-- Checklist de causalidad (12 ítems).`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-048",
-    title: "Explicación avanzada ‘probabilística’: incertidumbre, intervalos y decisión",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Enseña a pensar probabilísticamente: distribución, riesgo, utilidad y decisiones.",
-    prompt: `Tema o decisión: [ESCRIBE AQUÍ]
+Vicino:
+- Elenco di controllo cautistico (12 articoli).`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-048",
+  title: "Spiegazione «probabilistica» avanzata: incertezza, intervalli e decisione",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Insegna a pensare con probabilità: distribuzione, rischio, utilità e decisioni.",
+  prompt: `Oggetto o decisione: [CREAMS QUI]
 
-Entrega:
-1) Qué es incertidumbre aquí (fuentes).
-2) Modelado:
-   - distribuciones plausibles (2–3)
-   - supuestos
-3) Intervalos/escenarios:
-   - mejor caso / base / peor caso
-4) Decisión:
-   - criterio (utilidad esperada, robustez, minimax, etc.)
-   - sensibilidad (qué variable manda)
-5) Ejemplo numérico completo (con cálculos claros).
-6) Ejercicios (6) con pistas.
+Consegna:
+1) Che cosa è l'incertezza qui (fonte).
+(2) Modellazione:
+- distribuzione plausibile (2-3)
+- assunzioni
+3) Intervales / scenari:
+- miglior caso / base / peggiore caso
+4. Decisione:
+- criterio (utilità prevista, robustezza, minimax, ecc.)
+- sensibilità (che variabile ordini)
+5) Esempio numerico completo (con calcoli chiari).
+6) Esercizi (6) con tracce.
 
-Cierre:
-- 10 errores de pensamiento probabilístico y cómo corregirlos.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-049",
-    title: "Explicación avanzada ‘con diseño curricular’: módulo completo de aprendizaje",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Diseña un módulo: objetivos, contenidos, actividades, evaluación y recursos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Duración del módulo: [1–4 semanas]
-Nivel: [avanzado]
+Vicino:
+- 10 errori di pensiero probabilistico e come correggerli.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-049",
+  title: "Spiegazione avanzata 'con curriculum design': modulo di apprendimento completo",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Progetta un modulo: obiettivi, contenuti, attività, valutazione e risorse.",
+  prompt: `Oggetto: [CREAMS QUI]
+Durata del modulo: [1-4 settimane]
+Livello: [avanzato]
 
-Entrega:
-- Objetivos (Bloom) (8–12)
-- Contenidos por unidad
-- Actividades prácticas (mínimo 10)
-- Lecturas/recursos sugeridos (por tema, sin links)
-- Evaluación:
-  - diagnóstico
-  - formativa (quizzes, tareas)
-  - sumativa (proyecto/examen)
-- Proyecto final con rúbrica detallada (criterios/puntajes)
-- Plan de retroalimentación (cómo dar feedback)
+Consegna:
+- Obiettivi (Bloom) (8-12)
+- Contenuto per unità
+- Attività pratiche (minimo 10)
+- Lettura consigliata / risorse (per tema, senza link)
+- Valutazione:
+- diagnosi
+- formazione (quizze, compiti)
+- sintesi (progetto / recensione)
+- Progetto finale con intestazione dettagliata (criteri / punteggi)
+- piano di feedback (come dare feedback)
 
-Cierre:
-- Riesgos pedagógicos (5) y mitigaciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "edu-adv-050",
-    title: "Explicación avanzada ‘masterclass’: guion de 30 min + ejercicios + Q&A",
-    area: "Educación & Formación",
-    category: "Explicaciones Avanzadas",
-    summary:
-      "Masterclass completa: narrativa, rigor, demos, ejercicios y sección de preguntas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Audiencia: [profesionales/estudiantes]
-Duración: 30 minutos
+Vicino:
+- Rischi educativi (5) e mitigazione.`,
+  thumbnail: ""
+},
+{
+  id: "edu-adv-050",
+  title: "Spiegazione avanzata 'masterclass': 30 min + script di esercizio + Q & A",
+  area: "Formazione",
+  category: "Spiegazioni avanzate",
+  summary:
+  "Full Masterclass: narrativa, rigore, demo, esercizi e sezione domande.",
+  prompt: `Oggetto: [CREAMS QUI]
+Audizione: [professionali / studenti]
+Durata: 30 minuti
 
 Crea una masterclass:
-1) Apertura (2 min): historia/caso que enganche.
-2) Núcleo (20 min): 3 ideas principales con rigor:
-   - idea 1: definición + mini-derivación + ejemplo
-   - idea 2: definición + mini-derivación + ejemplo
-   - idea 3: definición + mini-derivación + ejemplo
-3) Ejercicio en vivo (5 min): enunciado + solución guiada.
-4) Cierre (3 min): síntesis + checklist aplicable.
+1) Apertura (2 min): storia / caso che è agganciato.
+2) Core (20 min): 3 idee principali con rigore:
+- idea 1: definizione + minim- derivazione + esempio
+- idea 2: definizione + minim- derivazione + esempio
+- idea 3: definizione + minim- derivazione + esempio
+3) Esercizio dal vivo (5 min): enunciato + soluzione guidata.
+4) Chiudere (3 min): sintesi + lista di controllo applicabile.
 
-Incluye:
-- 12 preguntas de Q&A difíciles con respuestas modelo.
-- 6 “errores comunes” y cómo responderlos en vivo.`,
-    thumbnail: "",
-  },
-];
+Include:
+- 12 domande difficili Q & A con risposte modello.
+- 6 "comune errori" e come rispondere dal vivo.`,
+  thumbnail: ""
+}];

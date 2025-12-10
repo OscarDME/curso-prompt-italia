@@ -1,686 +1,685 @@
 export const textPromptsCopyHumoristico = [
-  {
-    id: "copy-humor-001",
-    title: "Copy humorístico basado en exageración estratégica",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Usa la exageración como recurso persuasivo sin perder elegancia.",
-    prompt: `Dame:
-- Producto/servicio.
-- Dolor del cliente.
-- Beneficio principal.
+{
+  id: "copy-humor-001",
+  title: "Copia emozionale basata sull'overstatement strategico",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Utilizzare l'overstatement come risorsa persuasiva senza perdere l'eleganza.",
+  prompt: `Dammi...
+- Prodotto / servizio.
+- Dolore al cliente.
+- Principale vantaggio.
 
 Genera:
-1) 3 versiones de copy usando exageración humorística.
-2) Una comparación absurda pero relevante.
-3) Remate final cómico pero persuasivo.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-002",
-    title: "Copy humorístico estilo sarcasmo suave",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Sarcamos elegante sin ofender ni sonar agresivo.",
-    prompt: `Dame:
-- Producto.
-- Comportamiento típico del usuario.
-- Resultado que buscan.
+1) 3 versioni di copia utilizzando overstatement umoristico.
+2) Un confronto assurdo ma rilevante.
+3) Finale comico ma persuasivo.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-002",
+  title: "Humorous morbido sarcasmo stile copia",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Guardiamo elegante, senza offesa o suono aggressivo.",
+  prompt: `Dammi...
+- Prodotto.
+- Tipico comportamento degli utenti.
+- Risultato che stanno cercando.
 
 Genera:
-1) Copy con sarcasmo suave.
-2) Versión más picante.
-3) Versión corporativa con toque humorístico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-003",
-    title: "Copy con humor basado en metáforas absurdas",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Metáforas inesperadas que provocan risa y memorabilidad.",
-    prompt: `Dame:
-- Tema.
-- Beneficio principal.
-- Tono (irreverente, casual, elegante).
+1) Copia con sarcasmo morbido.
+2) Versione piccante.
+3) Versione aziendale con tocco umorismo.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-003",
+  title: "Copia emozionale basata su assurde metafore",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Metafore inaspettate che causano risate e memorabilità.",
+  prompt: `Dammi...
+- Soggetto.
+- Principale vantaggio.
+- Tono (irreverente, informale, elegante).
 
 Genera:
-1) 3 metáforas absurdas aplicadas al producto.
-2) Un copy corto usando la mejor de ellas.
-3) Una punchline final memorable.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-004",
-    title: "Copy estilo meme sin ser un meme",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Comunica humor con estructura memética sin imágenes.",
-    prompt: `Dame:
+1) 3 assurde metafore applicate al prodotto.
+2) Una breve copia utilizzando il meglio di loro.
+3) Una battuta finale memorabile.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-004",
+  title: "Copia stile meme senza essere un meme",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Comunica l'umorismo con la struttura memetica senza immagini.",
+  prompt: `Dammi...
 - Problema del cliente.
-- Reacción típica.
-- Solución que ofreces.
+- Reazione tipica.
+- Soluzione che offri.
 
 Genera:
-1) Estructura tipo meme en texto.
-2) Versión larga con storytelling gracioso.
-3) CTA humorística.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-005",
-    title: "Copy tipo ‘humor incómodo’ bien hecho",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Humor que señala la verdad incómoda sin incomodar demasiado.",
-    prompt: `Dame:
-- Verdad incómoda del nicho.
-- Situación típica del usuario.
-- Resultado deseado.
+1) Struttura del meme del testo.
+2) versione lunga con narrazione divertente.
+3) CTA umoristica.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-005",
+  title: "Copia tipo 'umorismo sconveniente' ben fatto",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Humor che punta alla verità scomoda senza sentirsi troppo a disagio.",
+  prompt: `Dammi...
+- Verità scomoda della nicchia.
+- Situazione tipica dell'utente.
+- Il risultato desiderato.
 
 Genera:
-1) Hook humorístico-incómodo.
-2) Copy que refleja al usuario (con gracia).
-3) Remate persuasivo.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-006",
-    title: "Copy humorístico con analogías culinarias",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Metáforas gastronómicas para hacer el mensaje delicioso.",
-    prompt: `Dame:
-- Producto.
-- Diferencial.
-- Público.
+1) Uncino umoristico-incomfortabile.
+2) Copia che riflette l'utente (con grazia).
+3) Remate persuasive.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-006",
+  title: "Copia emozionale con analogie culinarie",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Gourmet metafore per rendere il messaggio delizioso.",
+  prompt: `Dammi...
+- Prodotto.
+- Diverso.
+- Pubblico.
 
 Genera:
-1) Copy con analogía culinaria.
-2) Versión estilo chef.
-3) Versión estilo restaurante barato humorística.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-007",
-    title: "Copy humorístico estilo diálogo absurdo",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Mini diálogo con humor absurdo que explique el beneficio.",
-    prompt: `Dame:
-- Producto.
-- Objeción típica.
-- Tono del humor.
+1) Copia con analogia culinaria.
+2) Versione in stile chef.
+3) Versione di stile ristorante umoristico economico.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-007",
+  title: "Dialogo assurdissimo stile copia",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Mini dialogo con umorismo assurdo che spiega il beneficio.",
+  prompt: `Dammi...
+- Prodotto.
+- Obiezione tipica.
+- Tono dell'umorismo.
 
 Genera:
-1) Diálogo absurdo de 4 líneas.
-2) Versión más larga tipo escena cómica.
-3) CTA final en tono humorístico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-008",
-    title: "Copy humorístico estilo parodia",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Parodia un estilo, personaje o situación para generar impacto.",
-    prompt: `Dame:
-- Producto.
-- Personaje o estilo a parodiar.
-- Resultado final.
+1) Dialogo assurdo a 4 linee.
+2) versione più lunga della scena comica.
+3) CTA finale in tono umorismo.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-008",
+  title: "Copia divertente stile parodia",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Parodia uno stile, carattere o situazione per generare impatto.",
+  prompt: `Dammi...
+- Prodotto.
+- Carattere o stile alla parodia.
+- Risultato finale.
 
 Genera:
-1) Parodia corta.
-2) Parodia estilo épico.
-3) Versión más sutil para marcas sobrias.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-009",
-    title: "Copy humorístico basado en hipérboles negativas",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Exagera lo malo de forma graciosa para generar contraste.",
-    prompt: `Dame:
-- Dolor del cliente.
-- Consecuencia si no actúan.
-- Solución que ofreces.
+1) Breve parodia.
+2) Parody stile epico.
+3) versione più sottile per segni sobri.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-009",
+  title: "Copia emozionale basata su ipertree negative",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Espira il male in modo divertente per generare contrasto.",
+  prompt: `Dammi...
+- Dolore al cliente.
+- Conseguenze se non agiscono.
+- Soluzione che offri.
 
 Genera:
-1) 3 hipérboles humorísticas.
-2) Copy de contraste.
-3) Remate final memorable.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-010",
-    title: "Copy humorístico estilo narración dramática exagerada",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Historia con drama exageradísimo para hacer reír.",
-    prompt: `Dame:
+1) 3 ipertree umoristiche.
+2) Copia contrasto.
+3) finale rimovibile.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-010",
+  title: "Humorous copia stile esagerato narrazione drammatica",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Storia con un dramma eccessivo per farti ridere.",
+  prompt: `Dammi...
 - Problema del cliente.
-- Momento más frustrante.
-- Tono dramático deseado.
+- Più frustrante.
+- Il tono drammatico desiderato.
 
 Genera:
-1) Narración dramática exagerada.
-2) Versión corta estilo tráiler dramático.
-3) CTA divertida.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-011",
-    title: "Copy humorístico basado en comparaciones ridículas",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary:
-      "Comparaciones sin sentido que hacen reír pero explican el mensaje.",
-    prompt: `Dame:
-- Beneficio del producto.
-- Público.
-- Estilo de humor.
+1) Eccessiva narrazione drammatica.
+2) Breve versione drammatica stile trailer.
+3) Funny CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-011",
+  title: "Copia emozionale basata su ridicoli confronti",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary:
+  "Confronti inutili che ti fanno ridere ma spiegano il messaggio.",
+  prompt: `Dammi...
+- Beneficio del prodotto.
+- Pubblico.
+- Stile umorismo.
 
 Genera:
-1) 5 comparaciones ridículas.
-2) Copy usando la mejor.
-3) CTA graciosa.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-012",
-    title: "Copy humorístico tipo ‘lo que dices vs lo que quieres decir’",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Formato irónico que revela la verdadera intención del usuario.",
-    prompt: `Dame:
-- Problema real del cliente.
-- Lo que dicen normalmente.
-- Lo que realmente quieren decir.
+1) 5 confronti ridicoli.
+2) Copia utilizzando il migliore.
+(3) Divertente CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-012",
+  title: "Tipo di copia Humorous 'quello che dici contro quello che vuoi dire '",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Formato ironico che rivela la vera intenzione dell'utente.",
+  prompt: `Dammi...
+- Un vero problema per i clienti.
+- No. Quello che dicono normalmente.
+- No. Quello che vogliono dire davvero.
 
 Genera:
-1) Tabla graciosa.
-2) Versión narrativa.
-3) CTA humorística.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-013",
-    title: "Copy humorístico estilo lista absurda",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Lista de cosas que nadie haría, excepto tu cliente.",
-    prompt: `Dame:
-- Tema.
-- Comportamiento ilógico del usuario.
-- Solución.
+1) tavolo divertente.
+2) versione narrativa.
+3) CTA umoristica.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-013",
+  title: "Annoying lista copia umoristica",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Elenco delle cose che nessuno farebbe, tranne il tuo cliente.",
+  prompt: `Dammi...
+- Soggetto.
+- comportamento illogico dell'utente.
+- Soluzione.
 
 Genera:
-1) Lista absurda (7 ítems).
-2) Copy conectándolo al mensaje principal.
-3) CTA divertida.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-014",
-    title: "Copy tipo comedia de observación",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Humor que describe comportamientos reales de forma graciosa.",
-    prompt: `Dame:
-- Situación típica del usuario.
-- Emoción dominante.
-- Resultado esperado.
+1) Elenco Angry (7 elementi).
+2) Copia che lo collega al messaggio principale.
+3) Funny CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-014",
+  title: "Osservazione della commedia di tipo Cope",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Humor che descrive il comportamento reale in modo divertente.",
+  prompt: `Dammi...
+- Situazione tipica dell'utente.
+- Una mozione dominante.
+- Esito previsto.
 
 Genera:
-1) Observación graciosa.
-2) Exageración humorística.
-3) Conexión con el beneficio.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-015",
-    title: "Copy humorístico estilo confesión",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Un humor auto-incriminante que genera empatía.",
-    prompt: `Dame:
-- Error común del usuario.
-- Cómo se sienten al hacerlo.
-- Cómo tu producto ayuda.
+(1) Osservazione divertente.
+2) Esagerazione emozionale.
+3) Connessione al beneficio.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-015",
+  title: "Humorous copia stile confessione",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Un umore auto-incriminante che genera empatia.",
+  prompt: `Dammi...
+- Errore utente comune.
+- No. Come si sentono al riguardo.
+- Come aiuta il prodotto.
 
 Genera:
-1) Confesión graciosa.
-2) Versión tipo diario personal.
-3) CTA irónica.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-016",
-    title: "Copy humorístico con storytelling absurdo",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Micro historia absurda con giro humorístico final.",
-    prompt: `Dame:
-- Escenario.
-- Personaje.
+1) Confessione divertente.
+2) Versione quotidiana personale.
+3) CTA ironico.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-016",
+  title: "Copia emozionale con narrazione assurda",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Micro storia assurda con finale umorismo.",
+  prompt: `Dammi...
+- Scenario.
+- Carattere.
 - Problema.
 
 Genera:
-1) Historia absurda.
-2) Giro inesperado.
-3) Remate humorístico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-017",
-    title: "Copy humorístico basado en preguntas ridículas",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary:
-      "Preguntas incómodas, absurdas o inesperadas para captar atención.",
-    prompt: `Dame:
-- Tema.
-- Tonalidad (tonto, sarcástico, elegante).
-- Beneficio del producto.
+1) storia assurda.
+2) Rivolta inaspettata.
+3) Rimozione emozionale.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-017",
+  title: "Copia emozionale basata su domande ridicole",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary:
+  "Domande facili, assurde o inaspettate per ottenere l'attenzione.",
+  prompt: `Dammi...
+- Soggetto.
+- Tonality (silly, sarcastico, elegante).
+- Beneficio del prodotto.
 
 Genera:
-1) 7–10 preguntas ridículas.
-2) Copy final explicativo.
-3) CTA graciosa.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-018",
-    title: "Copy humorístico estilo marketing anti-ventas",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Humor que se burla de las tácticas de venta obvias.",
-    prompt: `Dame:
-- Producto.
-- Táctica de venta que quieres parodiar.
-- Público objetivo.
+1) 7-10 domande ridicole.
+2) Copia finale esplicativa.
+(3) Divertente CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-018",
+  title: "Humorous copia stile anti-vendita marketing",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Umorismo che infuria di tattiche di vendita ovvie.",
+  prompt: `Dammi...
+- Prodotto.
+- La vendita tattica che vuoi fare.
+- Al pubblico.
 
 Genera:
-1) Antiventa humorística.
-2) Remate que sí venda.
-3) CTA paródico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-019",
-    title: "Copy humorístico estilo entrevista falsa",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Mini entrevista ficticia con preguntas absurdas.",
-    prompt: `Dame:
-- Producto.
-- Objeción típica.
-- Tono de humor.
+1) Antidoto emozionale.
+2) Ricordatelo di vendere.
+3) CTA parodica.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-019",
+  title: "Humorous copia stile falso intervista",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Una mini intervista fittizia con domande assurde.",
+  prompt: `Dammi...
+- Prodotto.
+- Obiezione tipica.
+- Tono dell'umorismo.
 
 Genera:
-1) 6–8 preguntas absurdas.
-2) Respuestas graciosas.
-3) Cierre persuasivo.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-020",
-    title: "Copy humorístico basado en analogías animales",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Explica el beneficio usando comparaciones animales graciosas.",
-    prompt: `Dame:
-- Producto.
-- Tipo de animal (opcional).
-- Beneficio principal.
+1) 6-8 domande assurde.
+2) risposte divertenti.
+3) chiusura persuasiva.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-020",
+  title: "Copia emozionale basata su analogie animali",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Spiega il beneficio utilizzando confronti animali divertenti.",
+  prompt: `Dammi...
+- Prodotto.
+- Tipo di animale (opzionale).
+- Principale vantaggio.
 
 Genera:
-1) 3 comparaciones animales.
-2) Copy corto aplicando la mejor.
-3) CTA humorístico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-021",
-    title: "Copy humorístico estilo ‘tu vida antes y después del producto’",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Contraste extremo entre lo caótico antes y lo glorioso después.",
-    prompt: `Dame:
-- Producto.
-- Problema real del usuario.
-- Resultado deseado.
+1) 3 confronti animali.
+2) Breve copia che applica il migliore.
+3) CTA emozionale.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-021",
+  title: "Stile di copia emozionante 'la tua vita prima e dopo il prodotto '",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Hai contrasto estremo tra il caotico prima e il glorioso dopo.",
+  prompt: `Dammi...
+- Prodotto.
+- Un vero problema utente.
+- Il risultato desiderato.
 
 Genera:
-1) Comparación humorística antes vs después.
-2) Versión exagerada estilo telenovela.
-3) Cierre cómico + CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-022",
-    title: "Copy humorístico basado en confesiones incómodas del cliente",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Confesiones divertidas que hacen al lector verse reflejado.",
-    prompt: `Dame:
-- Error típico del cliente.
-- Situación en la que lo comete.
-- Producto que soluciona.
+1) Confronto emozionante prima vs dopo.
+2) Eccessiva versione in stile telenovela.
+3) Chiusura combinata + CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-022",
+  title: "Copia emozionale basata sulle scomode confessioni dei clienti",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Confessioni divertenti che fanno riflettere il lettore.",
+  prompt: `Dammi...
+- Un errore tipico del cliente.
+- Situazione in cui lo impegna.
+- Prodotto che risolve.
 
 Genera:
-1) Confesión humorística.
-2) Versión estilo terapia de grupo.
-3) Remate gracioso que impulse acción.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-023",
-    title: "Copy humorístico estilo manual absurdo de instrucciones",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Instrucciones que nadie usaría, pero que hacen reír y venden.",
-    prompt: `Dame:
-- Producto.
-- Resultado.
-- Tono (corporativo, caótico, instructivo absurdo).
+1) Confessione emozionale.
+2) Versione in stile di terapia di gruppo.
+3) Una cosa divertente che guida l'azione.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-023",
+  title: "Annoying manuale stile umoristico copia di istruzioni",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Istruzioni che nessuno userebbe, ma che li fanno ridere e vendere.",
+  prompt: `Dammi...
+- Prodotto.
+- Uscite.
+- Tono (corporato, caotico, istruttore assurdo).
 
 Genera:
-1) Manual ridículo paso a paso.
-2) Versión corta estilo etiqueta de shampoo.
-3) CTA humorística.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-024",
-    title: "Copy humorístico estilo ‘si tu producto fuera una persona’",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Humaniza el producto con una personalidad graciosa.",
-    prompt: `Dame:
-- Producto.
-- Rasgos antropomórficos.
-- Beneficio principal.
+1) Un manuale ridicolo passo dopo passo.
+2) Shampoo di hashtag di versione di stile breve.
+3) CTA umoristica.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-024",
+  title: "Stile di copia emozionante 'se il tuo prodotto era una persona '",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Umanizzare il prodotto con una personalità divertente.",
+  prompt: `Dammi...
+- Prodotto.
+- Tratti antropomorfi.
+- Principale vantaggio.
 
 Genera:
-1) Presentación del producto-personaje.
-2) Mini diálogo humorístico.
-3) CTA divertida.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-025",
-    title: "Copy humorístico tipo conspiración absurda",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Crea una teoría loca para exagerar un beneficio.",
-    prompt: `Dame:
-- Producto.
-- Beneficio principal.
-- Tono (dramático, irónico, loco).
+1) Presentazione del prodotto -character.
+2) Mini dialogo umoristico.
+3) Funny CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-025",
+  title: "Una copia umile tipo di cospirazione assurda",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Crea una teoria folle per esagerare un profitto.",
+  prompt: `Dammi...
+- Prodotto.
+- Principale vantaggio.
+- Tono (drammatico, ironico, pazzo).
 
 Genera:
-1) Conspiración absurda.
-2) Explicación exagerada.
-3) CTA graciosa que rompa el chiste.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-026",
-    title:
-      "Copy humorístico basado en consejos pésimos (que nadie debería seguir)",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Da consejos horribles para luego ofrecer la solución real.",
-    prompt: `Dame:
-- Tema.
-- Error del cliente.
-- Solución real.
+1) assurda cospirazione.
+(2) Eccessiva spiegazione.
+3) Divertente CTA per rompere la battuta.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-026",
+  title:
+  "Copia emozionale basata su consigli pessimistici (che nessuno dovrebbe seguire)",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Dà consigli orribili per poi offrire la vera soluzione.",
+  prompt: `Dammi...
+- Soggetto.
+- Errore cliente.
+- Una vera soluzione.
 
 Genera:
-1) 5 consejos absurdamente malos.
-2) Giro de humor revelando la verdad.
-3) CTA con remate cómico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-027",
-    title: "Copy humorístico estilo narrador dramático deportivo",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Convierte un problema simple en una final de campeonato.",
-    prompt: `Dame:
-- Producto.
-- Problema a resolver.
-- Resultado deseado.
+1) 5 assurdamente cattivo consiglio.
+2) Mi giro dell'umorismo rivelando la verità.
+3) CTA con affare comico.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-027",
+  title: "Humorous copia stile drammatico narratore sportivo",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Si trasforma un semplice problema in una finale di campionato.",
+  prompt: `Dammi...
+- Prodotto.
+- Problema da risolvere.
+- Il risultato desiderato.
 
 Genera:
-1) Narración estilo comentarista apasionado.
-2) Juego de palabras deportivos.
-3) CTA épico humorístico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-028",
-    title: "Copy humorístico con giro inesperado al final",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Crea una historia normal que termina en un punchline.",
-    prompt: `Dame:
-- Escenario.
-- Personaje.
-- Producto.
+1) Compositore appassionato di stile Narration.
+2) Gioco di parole sportive.
+3) TC epica Humorous.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-028",
+  title: "Copia emozionale con giro inaspettato alla fine",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Crea una storia normale che finisce in una battuta.",
+  prompt: `Dammi...
+- Scenario.
+- Carattere.
+- Prodotto.
 
 Genera:
-1) Historia normal.
-2) Giro humorístico inesperado.
-3) Cierre persuasivo + risa.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-029",
-    title: "Copy humorístico estilo horóscopo ridículo",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Convierte el producto en una predicción absurda.",
-    prompt: `Dame:
-- Producto.
-- Beneficio.
-- Signo zodiacal (opcional).
+1) Storia normale.
+2) Inaspettato giro divertente.
+3) Chiusura conpersuasiva + risata.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-029",
+  title: "Humorous copia ridicolo stile oroscopo",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Trasforma il prodotto in una previsione assurda.",
+  prompt: `Dammi...
+- Prodotto.
+- Bene.
+- Segno zodiacale (opzionale).
 
 Genera:
-1) Horóscopo cómico.
-2) Versión exagerada estilo astrólogo viral.
-3) CTA mística-humorística.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-030",
-    title: "Copy humorístico estilo trailer de película",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Crea un trailer épico y absurdo sobre el problema del cliente.",
-    prompt: `Dame:
-- Problema dramático.
-- Producto como héroe.
-- Antagonista (la excusa del cliente).
+1) Oroscopo comico.
+2) Eccessiva stile astrologo virale.
+3) CTA emozionale.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-030",
+  title: "Humorous copia film trailer stile",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Crea un trailer epico e assurdo sul problema del cliente.",
+  prompt: `Dammi...
+- Problemi di dramma.
+- Prodotto come eroe.
+- Antagonista (la scusa del cliente).
 
 Genera:
-1) Trailer estilo voz épica.
-2) Versión corta tipo tagline.
-3) CTA cinematográfica.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-031",
-    title: "Copy humorístico basado en confesiones del propio producto",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Haz que el producto admita verdades graciosas.",
-    prompt: `Dame:
-- Producto.
-- Lo que “oculta”.
-- Beneficio final.
+1) Trailer stile epico voce.
+2) Breve versione tipo slogan.
+3) Film CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-031",
+  title: "Copia emozionale basata sulle confessioni del prodotto stesso",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Fai ammettere al prodotto verità divertenti.",
+  prompt: `Dammi...
+- Prodotto.
+- No. Quello che "nasconde".
+- Beneficio finale.
 
 Genera:
-1) 3 confesiones humorísticas.
-2) Copy narrado en primera persona por el producto.
-3) CTA divertida.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-032",
-    title: "Copy humorístico estilo comparación con ex tóxico",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Humor basado en relaciones disfuncionales (suave, no ofensivo).",
-    prompt: `Dame:
-- Producto.
+1) 3 confessioni umoristiche.
+2) Copia narrata in prima persona dal prodotto.
+3) Funny CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-032",
+  title: "Stile di copia emozionale rispetto all'ex tossico",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Humor basato su relazioni disfunzionali (soft, non offensiva).",
+  prompt: `Dammi...
+- Prodotto.
 - Problema del cliente.
-- Tipo de tono (suave/sarcástico).
+- Tipo di tono (soft / sarcastico).
 
 Genera:
-1) Comparación humorística con un ex.
-2) Versión más dramática.
-3) CTA irónica.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-033",
-    title: "Copy humorístico tipo ‘esta es tu señal’ pero absurdo",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Parodia del cliché “esta es tu señal”.",
-    prompt: `Dame:
-- Producto.
-- Objeción.
-- Resultado deseado.
+1) Confronto emozionante con un ex.
+2) versione più drammatica.
+3) CTA ironico.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-033",
+  title: "Humorous tipo di copia 'questo è il tuo segno' ma assurdo",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Parodia del cliché \"questo è il tuo segno.\".",
+  prompt: `Dammi...
+- Prodotto.
+- Obiezione.
+- Il risultato desiderato.
 
 Genera:
-1) Señal absurda.
-2) Argumento gracioso.
-3) CTA humorística.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-034",
-    title: "Copy humorístico estilo carta dramática",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Carta emocional exagerada que termina en venta.",
-    prompt: `Dame:
-- Producto.
-- Dolor del cliente.
-- Tono emocional.
+1) segno assurdo.
+2) Strano argomento.
+3) CTA umoristica.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-034",
+  title: "Copia emozionante stile lettera drammatica",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Eccessiva carta emotiva che finisce in vendita.",
+  prompt: `Dammi...
+- Prodotto.
+- Dolore al cliente.
+- Tono emotivo.
 
 Genera:
-1) Carta dramática exagerada.
-2) Versión corta estilo mensaje de despedida.
-3) CTA emocional + chistosa.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-035",
-    title: "Copy humorístico basado en objetos que hablan",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Dale voz graciosa a objetos relacionados con el producto.",
-    prompt: `Dame:
-- Producto.
-- Objeto que hablará.
-- Mensaje clave.
+1) Lettera drammatica sovrastata.
+2) Breve versione del messaggio di addio.
+3) Emozionale CTA + divertente.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-035",
+  title: "Copia emozionale basata su oggetti che parlano",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Dare voce divertente agli oggetti relativi al prodotto.",
+  prompt: `Dammi...
+- Prodotto.
+- No. L'oggetto che parlerà.
+- Un messaggio chiave.
 
 Genera:
-1) Diálogo entre objeto y usuario.
-2) Diálogo entre dos objetos.
-3) CTA gracioso.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-036",
-    title: "Copy humorístico tipo ‘si tu día fuera un meme’",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Narración cómica de un día malo que se resuelve con tu producto.",
-    prompt: `Dame:
-- Dolor del cliente.
-- Peor momento del día.
-- Producto que lo salva.
+1) Dialogo tra oggetto e utente.
+2) Dialogo tra due oggetti.
+(3) Divertente CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-036",
+  title: "Humorous tipo di copia 'se il vostro giorno era un meme '",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Restringimento comico di una brutta giornata che viene risolto con il vostro prodotto.",
+  prompt: `Dammi...
+- Dolore al cliente.
+- E' peggio.
+- Prodotto che lo salva.
 
 Genera:
-1) Secuencia estilo meme en texto.
-2) Versión más narrativa.
-3) Remate final humorístico.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-037",
-    title: "Copy humorístico estilo review absurda",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Crea una reseña ridícula pero memorable.",
-    prompt: `Dame:
-- Producto.
-- Resultado.
-- Tipo de humor.
+1) Sequenza meme stile nel testo.
+2) Più versione narrativa.
+3) finale emozionante.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-037",
+  title: "Annoying recensione stile divertente copia",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Crea una recensione ridicola ma memorabile.",
+  prompt: `Dammi...
+- Prodotto.
+- Uscite.
+- Un po' umorismo.
 
 Genera:
-1) Reseña absurda.
-2) Versión estilo cliente exagerado.
-3) CTA graciosa.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-038",
-    title: "Copy humorístico basado en prioridades ridículas",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Ordena prioridades absurdas, terminando con tu producto.",
-    prompt: `Dame:
+1) recensione inquietante.
+2) Eccessiva versione di stile del cliente.
+(3) Divertente CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-038",
+  title: "Copia emozionale basata su priorità ridicole",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Ordina priorità assurde, termina il tuo prodotto.",
+  prompt: `Dammi...
 - Problema del cliente.
-- Beneficio del producto.
-- Tonalidad humorística.
+- Beneficio del prodotto.
+- Tonalità emozionale.
 
 Genera:
-1) Lista de prioridades ridículas.
-2) Versión en formato ranking.
-3) CTA irónica.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-039",
-    title: "Copy humorístico estilo ‘manual para evitar el fracaso’",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary: "Una guía absurda de todo lo que NO deberías hacer.",
-    prompt: `Dame:
-- Tema.
-- Error más común.
-- Producto.
+1) Elenco delle priorità ridicole.
+2) Versione di valutazione.
+3) CTA ironico.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-039",
+  title: "Copia emozionale 'manuale per evitare il fallimento' stile",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary: "Una guida assurda a tutto ciò che non dovreste fare.",
+  prompt: `Dammi...
+- Soggetto.
+- Errore più comune.
+- Prodotto.
 
 Genera:
-1) Manual absurdo anti-éxito.
-2) Giro humorístico revelando la solución.
-3) CTA divertida.`,
-    thumbnail: "",
-  },
-  {
-    id: "copy-humor-040",
-    title: "Copy humorístico estilo interrogatorio policial",
-    area: "Copywriting Profesional",
-    category: "Copy Humorístico",
-    summary:
-      "Interroga humorísticamente al cliente sobre sus malas decisiones.",
-    prompt: `Dame:
+1) Angry manuale anti-successo.
+2) Rivolta emozionale rivelando la soluzione.
+3) Funny CTA.`,
+  thumbnail: ""
+},
+{
+  id: "copy-humor-040",
+  title: "Humorous copia polizia interrogatorio stile",
+  area: "Copyright professionale",
+  category: "Copia emozionale",
+  summary:
+  "Lui interroga umoriticamente il cliente sulle sue decisioni sbagliate.",
+  prompt: `Dammi...
 - Problema.
-- Excusa típica del cliente.
-- Producto como ‘evidencia’.
+- Una tipica scusa per i clienti.
+- Prodotto come prova.
 
 Genera:
-1) Interrogatorio cómico.
-2) Confesión humorística final.
-3) CTA persuasiva.`,
-    thumbnail: "",
-  },
-];
+1) Interrogatorio comico.
+2) confessione umoristica finale.
+3) CTA persuasivo.`,
+  thumbnail: ""
+}];

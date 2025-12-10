@@ -3,293 +3,293 @@
 export const videoPromptsStorytellingMarcaPersonal = [
   {
     id: "video-storytelling-mp-01",
-    title: "Mi punto de partida: trabajando desde un rincón pequeño",
+    title: "Il mio punto di partenza: lavorare da un angolo piccolo",
     summary:
-      "Mini historia visual de cómo empezaste en un espacio pequeño y simple, ideal para hablar de inicios humildes.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Mini storia visiva di come hai iniziato in uno spazio piccolo e semplice, ideale per parlare di inizi umili.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos en formato horizontal 16:9, sin texto en pantalla.
+Genera un video di 8 secondi in formato orizzontale 16:9, senza testo sullo schermo.
 
-Tema: origen humilde de tu proyecto, empezando desde un espacio pequeño en casa.
+Tema: origine umile del tuo progetto, iniziando da un piccolo spazio in casa.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–3:
-  • Plano general de una habitación pequeña o rincón de casa: una mesa sencilla pegada a la pared, silla básica, portátil viejo o poco moderno, algunos libros apilados.
-  • Se ve a una persona sentada, con postura ligeramente encorvada, trabajando concentrada en el portátil.
-  • La luz es suave, pero se nota que el espacio es muy reducido y sencillo.
+- Secondi 0–3:
+  • Inquadratura ampia di una stanza piccola o di un angolo di casa: un tavolo semplice appoggiato alla parete, sedia basica, laptop vecchio o poco moderno, alcuni libri impilati.
+  • Si vede una persona seduta, con postura leggermente curva, che lavora concentrata al laptop.
+  • La luce è morbida, ma si nota che lo spazio è molto ridotto e semplice.
 
-- Segundos 3–5:
-  • La persona se recuesta un momento hacia atrás, se frota los ojos y suspira, como si estuviera cansada pero decidida.
-  • Mira alrededor de la habitación con una mezcla de cansancio y esperanza.
+- Secondi 3–5:
+  • La persona si appoggia un attimo all’indietro, si strofina gli occhi e sospira, come se fosse stanca ma determinata.
+  • Guarda intorno alla stanza con un mix di stanchezza e speranza.
 
-- Segundos 5–8:
-  • La cámara hace un pequeño movimiento de acercamiento al rostro de la persona.
-  • La expresión cambia a determinación: se endereza, vuelve a colocar las manos sobre el teclado con energía renovada.
-  • Plano final con el reflejo tenue de la pantalla del portátil iluminando su cara, simbolizando “así empezó todo”.
-`
+- Secondi 5–8:
+  • La camera fa un piccolo movimento di avvicinamento al volto della persona.
+  • L’espressione cambia in determinazione: si raddrizza, rimette le mani sulla tastiera con energia rinnovata.
+  • Piano finale con il riflesso tenue dello schermo del laptop che illumina il viso, simbolizzando “così è iniziato tutto”.
+`,
   },
   {
     id: "video-storytelling-mp-02",
-    title: "Mi momento ‘basta ya’ trabajando para otros",
+    title: "Il mio momento “basta” lavorando per gli altri",
     summary:
-      "Historia visual del momento en que decides dejar de trabajar solo para otros y apostar por tu proyecto.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Storia visiva del momento in cui decidi di smettere di lavorare solo per gli altri e puntare sul tuo progetto.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Genera un video di 8 secondi, formato orizzontale 16:9, senza testo sullo schermo.
 
-Tema: momento de quiebre en el que decides cambiar de rumbo profesional.
+Tema: momento di svolta in cui decidi di cambiare direzione professionale.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–3:
-  • Plano medio de una persona en una oficina gris, frente a un escritorio con papeles, teclado y monitor genérico.
-  • La persona mira la pantalla con expresión agotada: hombros caídos, ojeras sutiles, palma de la mano sosteniendo la frente.
-  • El ambiente es frío, con luz blanca poco cálida.
+- Secondi 0–3:
+  • Piano medio di una persona in un ufficio grigio, davanti a una scrivania con fogli, tastiera e monitor generico.
+  • La persona guarda lo schermo con espressione esausta: spalle cadenti, occhiaie sottili, una mano che sostiene la fronte.
+  • L’ambiente è freddo, con luce bianca poco calda.
 
-- Segundos 3–5:
-  • La persona suelta lentamente el teclado, se recuesta en la silla y mira por la ventana con una mezcla de frustración y deseo de algo distinto.
-  • Durante un segundo, cierra los ojos y respira hondo.
+- Secondi 3–5:
+  • La persona lascia lentamente la tastiera, si appoggia allo schienale e guarda fuori dalla finestra con un mix di frustrazione e desiderio di qualcosa di diverso.
+  • Per un secondo chiude gli occhi e respira profondamente.
 
-- Segundos 5–8:
-  • Transición suave: la persona abre los ojos con una nueva expresión de determinación.
-  • Se ve cómo recoge sus cosas en una pequeña mochila o bolso, apaga el monitor y se levanta de la silla.
-  • La cámara la sigue mientras se aleja del escritorio; justo antes de salir del plano, se detiene un segundo y suelta una pequeña sonrisa confiada, como diciendo “aquí empieza lo mío”.
-`
+- Secondi 5–8:
+  • Transizione morbida: la persona apre gli occhi con una nuova espressione di determinazione.
+  • Si vede che raccoglie le sue cose in un piccolo zaino o borsa, spegne il monitor e si alza dalla sedia.
+  • La camera la segue mentre si allontana dalla scrivania; appena prima di uscire dall’inquadratura, si ferma un istante e accenna un sorriso sicuro, come a dire “qui inizia il mio”.
+`,
   },
   {
     id: "video-storytelling-mp-03",
-    title: "El primer cliente que lo cambió todo",
+    title: "Il primo cliente che ha cambiato tutto",
     summary:
-      "Mini historia del momento en que recibes el mensaje o notificación de tu primer cliente/pago.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Mini storia del momento in cui ricevi il messaggio o la notifica del tuo primo cliente/primo pagamento.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Genera un video di 8 secondi, orizzontale 16:9, senza testo sullo schermo.
 
-Tema: la emoción de recibir tu primer cliente o tu primer pago online.
+Tema: l’emozione di ricevere il primo cliente o il primo pagamento online.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–2:
-  • Plano detalle de un smartphone sobre un escritorio, boca arriba.
-  • La pantalla está oscura, al lado hay una taza de café a medio tomar y un cuaderno con bolígrafo.
+- Secondi 0–2:
+  • Dettaglio di uno smartphone su una scrivania, a faccia in su.
+  • Lo schermo è spento; accanto c’è una tazza di caffè a metà e un quaderno con penna.
 
-- Segundos 2–3:
-  • El móvil vibra y se enciende la pantalla, mostrando una notificación de pago o mensaje de nuevo cliente.
-  • Que se vea claramente que es una notificación importante, pero sin texto legible, solo iconos y formas.
+- Secondi 2–3:
+  • Il telefono vibra e lo schermo si accende mostrando una notifica di pagamento o un messaggio di nuovo cliente.
+  • Deve essere chiaro che è una notifica importante, ma senza testo leggibile: solo icone e forme.
 
-- Segundos 3–5:
-  • Una mano entra rápido, toma el móvil y lo acerca hacia el cuerpo.
-  • Corte a plano medio: persona con el móvil en la mano, leyendo la notificación con cara de sorpresa.
+- Secondi 3–5:
+  • Una mano entra veloce, prende il telefono e lo avvicina al corpo.
+  • Stacco su piano medio: la persona con il telefono in mano legge la notifica con faccia sorpresa.
 
-- Segundos 5–8:
-  • La expresión de sorpresa se convierte en una sonrisa amplia y auténtica.
-  • La persona se cubre la boca un segundo con la mano libre, luego levanta el móvil hacia la cámara como queriendo compartir la buena noticia.
-  • Da un pequeño salto o hace un mini giro sobre sí misma, celebrando ese primer logro.
-`
+- Secondi 5–8:
+  • La sorpresa diventa un sorriso grande e autentico.
+  • La persona si copre la bocca per un istante con la mano libera, poi alza il telefono verso la camera come per condividere la buona notizia.
+  • Fa un piccolo saltello o un mini giro su sé stessa, celebrando quel primo traguardo.
+`,
   },
   {
     id: "video-storytelling-mp-04",
-    title: "La primera vez que nadie vio mi contenido",
+    title: "La prima volta che nessuno ha visto il mio contenuto",
     summary:
-      "Story de fracaso suave: publicas algo, revisas las estadísticas y casi nadie lo ve.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Story di fallimento “soft”: pubblichi qualcosa, controlli le statistiche e quasi nessuno lo vede.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Genera un video di 8 secondi, orizzontale 16:9, senza testo sullo schermo.
 
-Tema: historia de cuando tu contenido no tuvo resultados, para humanizar tu marca.
+Tema: storia di quando i tuoi contenuti non hanno avuto risultati, per rendere il brand più umano.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–2:
-  • Plano medio de una persona sentada en el sofá con el móvil en la mano.
-  • Se ve cómo desplaza el dedo en la pantalla revisando algo, con expresión expectante.
+- Secondi 0–2:
+  • Piano medio di una persona seduta sul divano con il telefono in mano.
+  • Si vede che scorre sullo schermo controllando qualcosa, con espressione in attesa.
 
-- Segundos 2–4:
-  • La cámara hace un ligero zoom a su rostro mientras la expresión cambia a decepción suave: cejas hacia abajo, pequeña mueca.
-  • La persona ladea la cabeza, mira la pantalla otra vez como intentando entender.
+- Secondi 2–4:
+  • La camera fa un leggero zoom sul volto mentre l’espressione cambia in una lieve delusione: sopracciglia che scendono, piccola smorfia.
+  • La persona inclina la testa e guarda di nuovo lo schermo, come cercando di capire.
 
-- Segundos 4–6:
-  • La persona suelta el móvil sobre el sofá suavemente, se deja caer hacia atrás con un suspiro profundo, cubriéndose el rostro un momento con las manos.
+- Secondi 4–6:
+  • La persona appoggia il telefono sul divano con delicatezza, si lascia andare all’indietro con un sospiro profondo, coprendosi il viso per un attimo con le mani.
 
-- Segundos 6–8:
-  • Se reincorpora, vuelve a tomar el móvil, esta vez con expresión de determinación.
-  • Abre una libreta sobre la mesa y empieza a escribir ideas, mientras mira de reojo el móvil, simbolizando que decide aprender y seguir intentándolo.
-`
+- Secondi 6–8:
+  • Si rialza, riprende il telefono, stavolta con espressione determinata.
+  • Apre un quaderno sul tavolino e inizia a scrivere idee, lanciando uno sguardo al telefono, simbolizzando che decide di imparare e continuare a provarci.
+`,
   },
   {
     id: "video-storytelling-mp-05",
-    title: "De cero equipo a colaborar con otras personas",
+    title: "Da solo a collaborare con altre persone",
     summary:
-      "Historia de pasar de trabajar solo a empezar a colaborar con otras personas en tu proyecto.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Storia del passaggio dal lavorare da solo al collaborare con altre persone nel tuo progetto.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Genera un video di 8 secondi, formato orizzontale 16:9, senza testo sullo schermo.
 
-Tema: evolución de trabajar solo a empezar a crear un pequeño equipo o red de colaboradores.
+Tema: evoluzione dal lavorare da soli al creare un piccolo team o una rete di collaboratori.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–3:
-  • Plano general de un escritorio con un solo portátil, una libreta y una silla.
-  • Una persona está sentada sola, trabajando concentrada; el espacio se siente algo silencioso y vacío.
+- Secondi 0–3:
+  • Inquadratura ampia di una scrivania con un solo laptop, un quaderno e una sedia.
+  • Una persona è seduta da sola, lavora concentrata; lo spazio sembra silenzioso e un po’ vuoto.
 
-- Segundos 3–5:
-  • Transición: la cámara hace un ligero zoom out.
-  • Ahora se ve que en la misma mesa aparece otra persona con su propio portátil, saludando con una pequeña sonrisa.
-  • Después aparece una tercera persona más, colocando una libreta sobre la mesa y sentándose.
+- Secondi 3–5:
+  • Transizione: la camera fa un leggero zoom out.
+  • Ora si vede che allo stesso tavolo appare un’altra persona con il proprio laptop, che saluta con un piccolo sorriso.
+  • Poi arriva una terza persona, appoggia un quaderno sul tavolo e si siede.
 
-- Segundos 5–8:
-  • Los tres están sentados alrededor de la mesa; se miran unos a otros, asienten y comienzan a interactuar.
-  • Uno señala la pantalla de otro, todos se inclinan hacia el centro, gesto de lluvia de ideas.
-  • El protagonista mira un momento a cámara con una sonrisa de “ahora ya no estoy solo”, y vuelve al grupo.
-`
+- Secondi 5–8:
+  • I tre sono seduti attorno al tavolo; si guardano, annuiscono e iniziano a interagire.
+  • Uno indica lo schermo dell’altro, tutti si avvicinano verso il centro, gesto da brainstorming.
+  • Il/la protagonista guarda un attimo in camera con un sorriso da “ora non sono più solo/a”, poi torna al gruppo.
+`,
   },
   {
     id: "video-storytelling-mp-06",
-    title: "Cómo se ve un día malo en mi proyecto",
+    title: "Come appare una giornata storta nel mio progetto",
     summary:
-      "Escena honesta de un día difícil: muchas tareas, cansancio, pero sin drama extremo.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Scena onesta di una giornata difficile: tante attività, stanchezza, ma senza dramma eccessivo.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, formato 16:9 horizontal, sin texto en pantalla.
+Genera un video di 8 secondi, formato 16:9 orizzontale, senza testo sullo schermo.
 
-Tema: mostrar de forma honesta cómo se ve un día difícil trabajando en tu proyecto.
+Tema: mostrare in modo onesto come appare una giornata difficile lavorando al tuo progetto.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–3:
-  • Plano medio de un escritorio lleno de tareas: portátil con varias ventanas abiertas, libreta con muchas anotaciones, taza de café vacía, bolígrafos sueltos.
-  • La persona está sentada con la mano apoyando la cabeza, mirando la pantalla con expresión cansada.
+- Secondi 0–3:
+  • Piano medio di una scrivania piena di cose da fare: laptop con più finestre aperte, quaderno con molte annotazioni, tazza di caffè vuota, penne sparse.
+  • La persona è seduta con una mano che sostiene la testa, guarda lo schermo con espressione stanca.
 
-- Segundos 3–5:
-  • Hace un gesto de frustración suave: se pasa las manos por la cara, se frota los ojos, se estira hacia atrás en la silla.
-  • Mira la pila de notas o post-its a un lado con una pequeña mueca.
+- Secondi 3–5:
+  • Fa un gesto di lieve frustrazione: si passa le mani sul viso, si strofina gli occhi, si stiracchia all’indietro sulla sedia.
+  • Guarda una pila di note o post-it di lato con una piccola smorfia.
 
-- Segundos 5–8:
-  • Respira hondo, toma la taza, se levanta y va hacia la cocina o hacia otro lado (aunque no se vea completa la cocina).
-  • La cámara se queda enfocando el escritorio, donde se ve el portátil con una lista de tareas abierta, simbolizando que el trabajo sigue ahí, pero la persona se da una pausa.
-`
+- Secondi 5–8:
+  • Respira profondamente, prende la tazza, si alza e va verso la cucina o altrove (anche se la cucina non si vede completamente).
+  • La camera resta sul desk: si vede il laptop con una lista di attività aperta, simbolizzando che il lavoro resta lì, ma la persona si concede una pausa.
+`,
   },
   {
     id: "video-storytelling-mp-07",
-    title: "Detrás de cámaras de grabar mi contenido",
+    title: "Dietro le quinte mentre registro i miei contenuti",
     summary:
-      "Mini detrás de cámaras mostrando el caos simpático que no se ve en el contenido final.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Mini backstage che mostra il caos simpatico che non si vede nel contenuto finale.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Genera un video di 8 secondi, orizzontale 16:9, senza testo sullo schermo.
 
-Tema: detrás de cámaras real de cómo grabas tu contenido.
+Tema: backstage realistico di come registri i tuoi contenuti.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–2:
-  • Plano general de una pequeña habitación de grabación o rincón improvisado: trípode con móvil o cámara, aro de luz encendido, fondo algo ordenado.
-  • El protagonista está delante de la cámara intentando colocarse bien, ajustando su ropa o pelo.
+- Secondi 0–2:
+  • Inquadratura ampia di una piccola stanza o angolo improvvisato: treppiede con telefono/camera, ring light acceso, sfondo abbastanza ordinato.
+  • Il/la protagonista è davanti alla camera e cerca di sistemarsi, aggiustando vestiti o capelli.
 
-- Segundos 2–4:
-  • La persona empieza a hablar a la cámara (moviéndose los labios), pero se equivoca y hace una cara graciosa, rodando los ojos o riéndose de sí misma.
-  • Levanta una mano como diciendo “otra vez”.
+- Secondi 2–4:
+  • La persona inizia a parlare alla camera (si muovono le labbra), ma sbaglia e fa una faccia divertente, alza gli occhi al cielo o ride di sé.
+  • Alza una mano come a dire “da capo”.
 
-- Segundos 4–6:
-  • La persona pulsa un botón en el móvil/cámara para cortar, se coloca más recta, sacude los hombros como para resetear.
-  • Respira hondo y sonríe con decisión, lista para otro intento.
+- Secondi 4–6:
+  • La persona preme un pulsante su telefono/camera per fermare, si mette più dritta, scuote le spalle come per resettare.
+  • Respira a fondo e sorride con decisione, pronta per un altro tentativo.
 
-- Segundos 6–8:
-  • Mira a la cámara con una sonrisa confiada, hace una pequeña señal con la mano (como un mini saludo o chasquido de dedos) y empieza de nuevo a hablar (sin escuchar el audio).
-  • Se queda congelado el plano unos instantes en esa sonrisa segura, mostrando que detrás del contenido hay muchos intentos.
-`
+- Secondi 6–8:
+  • Guarda la camera con un sorriso sicuro, fa un piccolo segnale con la mano (mini saluto o schiocco di dita) e ricomincia a parlare (senza ascoltare l’audio).
+  • Il frame resta fermo per un istante su quel sorriso, mostrando che dietro ai contenuti ci sono tanti tentativi.
+`,
   },
   {
     id: "video-storytelling-mp-08",
-    title: "Cómo se ve trabajar en mi proyecto desde un café",
+    title: "Com’è lavorare al mio progetto da un bar",
     summary:
-      "Story que humaniza tu rutina, mostrando que trabajas desde cafeterías o espacios bonitos.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Story che rende la tua routine più umana: lavori da caffetterie o spazi carini.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Genera un video di 8 secondi, formato orizzontale 16:9, senza testo sullo schermo.
 
-Tema: trabajar en tu proyecto desde una cafetería.
+Tema: lavorare al tuo progetto da una caffetteria.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–3:
-  • Plano general de una mesa en una cafetería: portátil abierto, taza de café con vapor, libreta, bolígrafo.
-  • El protagonista está sentado, con auriculares puestos, escribiendo o tecleando con concentración.
+- Secondi 0–3:
+  • Inquadratura ampia di un tavolo in un bar: laptop aperto, tazza di caffè fumante, quaderno, penna.
+  • Il/la protagonista è seduto/a con cuffie, scrive o digita concentrato/a.
 
-- Segundos 3–5:
-  • La persona mira hacia la ventana, se quita un auricular, toma la taza y da un sorbo, respirando hondo con expresión de calma y gratitud.
-  • La cámara se acerca un poco al rostro, mostrando la tranquilidad del momento.
+- Secondi 3–5:
+  • La persona guarda verso la finestra, toglie un auricolare, prende la tazza e beve un sorso, respirando a fondo con espressione di calma e gratitudine.
+  • La camera si avvicina un po’ al volto, mostrando la tranquillità del momento.
 
-- Segundos 5–8:
-  • Vuelve a colocar la taza en la mesa, se inclina hacia el portátil, y con una mano hace un pequeño gesto de “vamos” o “a darle”.
-  • La cámara hace un ligero movimiento hacia atrás, mostrando la cafetería de fondo con otros clientes desenfocados, reforzando el mood de vida flexible.
-`
+- Secondi 5–8:
+  • Rimette la tazza sul tavolo, si inclina verso il laptop e con una mano fa un piccolo gesto tipo “andiamo” o “dai”.
+  • La camera si sposta leggermente indietro mostrando il bar sullo sfondo con altri clienti sfocati, rafforzando il mood di vita flessibile.
+`,
   },
   {
     id: "video-storytelling-mp-09",
-    title: "De compararme con otros a enfocarme en mi proceso",
+    title: "Dal confrontarmi con gli altri al concentrarmi sul mio processo",
     summary:
-      "Historia visual de cómo pasas de ver el progreso de otros a concentrarte en tu propio camino.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Storia visiva: smetti di guardare i risultati degli altri e torni sul tuo percorso.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Genera un video di 8 secondi, orizzontale 16:9, senza testo sullo schermo.
 
-Tema: dejar de compararte con otros creadores y enfocarte en tu proceso.
+Tema: smettere di paragonarsi agli altri creator e concentrarsi sul proprio processo.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–3:
-  • Plano medio de una persona en el sofá con el móvil en la mano.
-  • Desplaza el dedo por la pantalla, viendo contenidos de otros (se intuyen perfiles exitosos, imágenes llamativas, sin texto).
-  • La expresión es de ligera inseguridad o comparación: cejas fruncidas suavemente.
+- Secondi 0–3:
+  • Piano medio di una persona sul divano con il telefono in mano.
+  • Scorre sullo schermo guardando contenuti altrui (si intuiscono profili “di successo”, immagini vistose, senza testo).
+  • L’espressione è di lieve insicurezza o confronto: sopracciglia leggermente corrugate.
 
-- Segundos 3–5:
-  • La persona suspira, baja el móvil y se queda mirando al vacío unos segundos.
-  • Luego endereza la espalda, mira al frente con otra expresión, más decidida.
+- Secondi 3–5:
+  • La persona sospira, abbassa il telefono e resta a fissare il vuoto per un attimo.
+  • Poi si raddrizza, guarda davanti a sé con un’espressione più decisa.
 
-- Segundos 5–8:
-  • Se levanta del sofá, deja el móvil en la mesa y camina hacia su escritorio, donde hay un portátil, una libreta y bolígrafos.
-  • Se sienta frente al escritorio, abre la libreta y empieza a escribir o dibujar, totalmente concentrado en su propio trabajo.
-  • La cámara se queda en un plano general desde atrás, mostrando el cambio de actitud.
-`
+- Secondi 5–8:
+  • Si alza dal divano, lascia il telefono sul tavolo e cammina verso la scrivania con laptop, quaderno e penne.
+  • Si siede, apre il quaderno e inizia a scrivere o disegnare, totalmente concentrato/a sul proprio lavoro.
+  • La camera resta su un’inquadratura ampia da dietro, mostrando il cambio di atteggiamento.
+`,
   },
   {
     id: "video-storytelling-mp-10",
-    title: "Lo que no se ve en un ‘resultado final perfecto’",
+    title: "Quello che non si vede in un “risultato finale perfetto”",
     summary:
-      "Contraste rápido entre el resultado final bonito y el proceso desordenado que hubo detrás.",
-    area: "Storytelling / Marca personal",
-    category:"Storytelling/Marca Personal",
+      "Contrasto rapido tra risultato finale bello e processo disordinato che c’è stato dietro.",
+    area: "Storytelling / Personal brand",
+    category: "Storytelling/Personal Brand",
     prompt: `
-Genera un vídeo de 8 segundos, formato 16:9 horizontal, sin texto en pantalla.
+Genera un video di 8 secondi, formato 16:9 orizzontale, senza testo sullo schermo.
 
-Tema: mostrar el contraste entre proceso caótico y resultado final pulido.
+Tema: mostrare il contrasto tra processo caotico e risultato finale rifinito.
 
-Guion visual:
+Storyboard visivo:
 
-- Segundos 0–3:
-  • Plano detalle de una pantalla mostrando un resultado final perfecto: puede ser un diseño, una web, un vídeo en pausa, una ilustración o un documento bien formateado (sin texto legible, solo visual limpio).
-  • La cámara se acerca un poco, resaltando lo “perfecto”.
+- Secondi 0–3:
+  • Dettaglio di uno schermo che mostra un risultato finale perfetto: può essere un design, un sito, un video in pausa, un’illustrazione o un documento ben impaginato (senza testo leggibile, solo visual pulito).
+  • La camera si avvicina leggermente, enfatizzando il “perfetto”.
 
-- Segundos 3–5:
-  • Corte rápido al mismo escritorio pero ahora desde otro ángulo más abierto.
-  • Se ve el caos del proceso: bocetos arrugados, hojas con anotaciones, tazas de café vacías, post-its pegados, cables de cargadores, etc.
-  • El protagonista aparece recogiendo algunos papeles y riéndose un poco de todo el desorden.
+- Secondi 3–5:
+  • Taglio rapido sulla stessa scrivania ma da un’angolazione più ampia.
+  • Si vede il caos del processo: bozze stropicciate, fogli con appunti, tazze di caffè vuote, post-it, cavi, ecc.
+  • Il/la protagonista raccoglie alcuni fogli e ride un po’ del disordine.
 
-- Segundos 5–8:
-  • La persona junta todos los papeles en una pila, los coloca a un lado, se sienta frente al portátil y mira a la cámara con una sonrisa cómplice, como diciendo “esto es lo que no se ve”.
-  • Vuelve la mirada a la pantalla y sigue trabajando, mientras la cámara hace un pequeño movimiento de alejamiento.
-`
+- Secondi 5–8:
+  • La persona mette tutti i fogli in una pila, li sposta di lato, si siede davanti al laptop e guarda la camera con un sorriso complice, come a dire “questo è quello che non si vede”.
+  • Torna a guardare lo schermo e continua a lavorare, mentre la camera fa un piccolo movimento di allontanamento.
+`,
   },
 ];

@@ -2,1206 +2,1237 @@
 
 export const imagePromptsAvatarsIAVSL = [
   // =========================
-  // CATEGORY: Avatars de IA (VSL) — 20 prompts
+  // CATEGORY: Avatar IA (VSL) — 20 prompt
   // =========================
   {
     id: "img-avatar-vsl-001",
-    title: "Presentador/a VSL en estudio limpio (look noticiero)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Presentador/a mirando a cámara en estudio limpio, iluminación pro, sin texto.",
-    prompt: `Genera una imagen REALISTA tipo frame de VSL con un avatar humano hablando a cámara.
+    title: "Presentatore/Presentatrice VSL in studio pulito (stile telegiornale)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Presentatore/Presentatrice che guarda in camera in uno studio pulito, illuminazione professionale, senza testo.",
+    prompt: `Genera un’immagine REALISTICA tipo frame di VSL con un avatar umano che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–40]
-- Tono de piel: [clara / morena / negra / oliva]
-- Vestuario: blazer [azul marino/gris] + camisa/blusa [blanca], estilo presentador/a
-- Peinado: prolijo, profesional
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–40]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Abbigliamento: blazer [blu navy/grigio] + camicia/camicia-blusa [bianca], stile presentatore/presentatrice
+- Acconciatura: ordinata, professionale
 
-POSE / EXPRESIÓN:
-- Plano medio (pecho a cabeza)
-- Mirada directa a cámara, expresión segura y amable
-- Boca ligeramente entreabierta como si estuviera hablando (natural)
+POSA / ESPRESSIONE:
+- Mezzo busto (dal petto alla testa)
+- Sguardo diretto in camera, espressione sicura e cordiale
+- Bocca leggermente socchiusa come se stesse parlando (naturale)
 
-ESCENA:
-- Estudio limpio con luces suaves y bokeh discreto (sin logos, sin texto)
+SCENA:
+- Studio pulito con luci morbide e bokeh discreto (senza loghi, senza testo)
 
-CÁMARA / LUZ:
+CAMERA / LUCE:
 - Full-frame, 50mm, f/2.2, ISO 100
-- Three-point lighting suave, piel natural (sin plástico)
+- Illuminazione morbida a tre punti, pelle naturale (senza effetto “plastica”)
 
-RESTRICCIONES:
-- Sin texto, sin watermark
-- Evitar manos extra, ojos raros, dientes deformes`,
+RESTRIZIONI:
+- Niente testo, niente watermark
+- Evitare mani extra, occhi strani, denti deformi`,
     thumbnail: "/images/avatars/vsl001.webp",
   },
   {
     id: "img-avatar-vsl-002",
-    title: "CEO premium en oficina con ventanal (autoridad calmada)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar tipo CEO, oficina premium con ventanal, estética limpia y lujosa.",
-    prompt: `Genera una imagen REALISTA estilo VSL con un avatar humano hablando a cámara en oficina premium.
+    title: "CEO premium in ufficio con vetrata (autorità calma)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar stile CEO, ufficio premium con vetrata, estetica pulita e lussuosa.",
+    prompt: `Genera un’immagine REALISTICA stile VSL con un avatar umano che parla in camera in un ufficio premium.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [35–50]
-- Tono de piel: [clara / morena / negra / oliva]
-- Vestuario: traje premium [gris carbón/azul marino], sin corbata, accesorios mínimos
-- Expresión: autoridad tranquila, ligera sonrisa
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [35–50]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Abbigliamento: completo premium [grigio antracite/blu navy], senza cravatta, accessori minimi
+- Espressione: autorità tranquilla, lieve sorriso
 
-POSE:
-- Plano medio-corto, hombros ligeramente girados, mirada directa
-- Boca semiabierta como si explicara algo
+POSA:
+- Mezzo busto ravvicinato, spalle leggermente ruotate, sguardo diretto
+- Bocca semiaperta come se stesse spiegando qualcosa
 
-ESCENA:
-- Oficina moderna: ventanal lateral con luz natural suave, escritorio minimal, fondo bokeh
+SCENA:
+- Ufficio moderno: vetrata laterale con luce naturale morbida, scrivania minimal, sfondo bokeh
 
-CÁMARA / LUZ:
+CAMERA / LUCE:
 - 85mm, f/2, ISO 100
-- Key light lateral suave + fill mínimo + rim light sutil
+- Key light laterale morbida + fill minimo + rim light sottile
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar deformaciones faciales o manos extra`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare deformazioni del viso o mani extra`,
     thumbnail: "/images/avatars/vsl002.webp",
   },
   {
     id: "img-avatar-vsl-003",
-    title: "Influencer casual hablando a cámara (habitación moderna)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Influencer selfie estable, vibe cercana, luz natural, look cotidiano.",
-    prompt: `Genera una imagen REALISTA tipo VSL orgánica (frame) de un avatar humano hablando a cámara.
+    title: "Influencer casual che parla in camera (stanza moderna)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Influencer tipo selfie stabile, vibe vicina, luce naturale, look quotidiano.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL “organica” (frame) di un avatar umano che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [21–29]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: hoodie/sudadera oversize, accesorios discretos
-- Expresión: cercana y amigable
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [21–29]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: hoodie/felpa oversize, accessori discreti
+- Espressione: vicina e amichevole
 
-POSE:
-- Plano medio corto (hombros a cabeza), mirada directa
-- Boca ligeramente abierta como hablando
+POSA:
+- Mezzo busto corto (spalle-testa), sguardo diretto
+- Bocca leggermente aperta come se stesse parlando
 
-ESCENA:
-- Habitación moderna limpia: estante minimal, planta, luz de ventana, fondo desenfocado
+SCENA:
+- Stanza moderna pulita: mensola minimal, pianta, luce da finestra, sfondo sfocato
 
-CÁMARA:
-- 35mm–50mm, f/2, look realista
+CAMERA:
+- 35mm–50mm, f/2, look realistico
 
-RESTRICCIONES:
-- Sin texto, sin logos, sin watermark
-- Evitar letras legibles en fondo`,
+RESTRIZIONI:
+- Niente testo, niente loghi, niente watermark
+- Evitare scritte leggibili sullo sfondo`,
     thumbnail: "/images/avatars/vsl003.webp",
   },
   {
     id: "img-avatar-vsl-004",
-    title: "Creador/a urbano/a en estudio con neón sutil (moderno)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar creativo/a con estética moderna, estudio con luces de neón suaves.",
-    prompt: `Genera una imagen REALISTA estilo VSL (frame) con un avatar humano hablando a cámara en estudio creativo.
+    title: "Creator urbano/a in studio con neon leggero (moderno)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar creativo/a con estetica moderna, studio con luci al neon morbide.",
+    prompt: `Genera un’immagine REALISTICA stile VSL (frame) con un avatar umano che parla in camera in uno studio creativo.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [25–38]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: chaqueta bomber o cuero + camiseta básica
-- Expresión: seguro/a, inspirador/a
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [25–38]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: giubbotto bomber o pelle + t-shirt basic
+- Espressione: sicura, ispirazionale
 
-POSE:
-- Plano medio, mirada directa
-- Boca semiabierta (hablando), microexpresión natural
+POSA:
+- Mezzo busto, sguardo diretto
+- Bocca semiaperta (parlando), micro-espressione naturale
 
-ESCENA:
-- Estudio creativo con neón MUY sutil, mesa con laptop/cámara sin texto legible, fondo bokeh
+SCENA:
+- Studio creativo con neon MOLTO sottile, tavolo con laptop/fotocamera senza testo leggibile, sfondo bokeh
 
-CÁMARA / COLOR:
-- 50mm, f/1.8, ISO 200, contraste suave, grading moderno
+CAMERA / COLORE:
+- 50mm, f/1.8, ISO 200, contrasto morbido, grading moderno
 
-RESTRICCIONES:
-- Sin texto, sin marcas
-- Evitar piel plástica, manos deformes`,
+RESTRIZIONI:
+- Niente testo, niente marchi
+- Evitare pelle “plastica”, mani deformi`,
     thumbnail: "/images/avatars/vsl004.webp",
   },
   {
     id: "img-avatar-vsl-005",
-    title: "Mentor/a en biblioteca cálida (sabio/a y calmado/a)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar mentor/a en biblioteca/estudio con luz cálida, autoridad tranquila.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar humano estilo mentor/a hablando a cámara.
+    title: "Mentore/Mentore in biblioteca calda (saggio/a e calmo/a)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar mentore in biblioteca/studio con luce calda, autorità tranquilla.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar umano stile mentore che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [45–60]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: suéter cuello alto o blazer casual
-- Expresión: calmada, confiable
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [45–60]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: maglione a collo alto o blazer casual
+- Espressione: calma, affidabile
 
-POSE:
-- Plano medio-corto, mirada a cámara
-- Boca ligeramente abierta como hablando
+POSA:
+- Mezzo busto ravvicinato, sguardo in camera
+- Bocca leggermente aperta come se parlasse
 
-ESCENA:
-- Estudio/biblioteca: libros desenfocados, lámpara cálida, ambiente premium
+SCENA:
+- Studio/biblioteca: libri sfocati, lampada calda, atmosfera premium
 
-CÁMARA / LUZ:
+CAMERA / LUCE:
 - 85mm, f/2.2, ISO 160
-- Luz lateral cálida + fill mínimo
+- Luce laterale calda + fill minimo
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar ojos raros, dientes extra`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare occhi strani, denti extra`,
     thumbnail: "/images/avatars/vsl005.webp",
   },
   {
     id: "img-avatar-vsl-006",
-    title: "Doctor/a en consultorio (bata blanca, pro)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar médico/a hablando a cámara en consultorio moderno, estética limpia.",
-    prompt: `Genera una imagen REALISTA tipo VSL con un avatar doctor/a hablando a cámara.
+    title: "Dottore/Dottoressa in ambulatorio (camice bianco, pro)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar medico/a che parla in camera in un ambulatorio moderno, estetica pulita.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con un avatar medico che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [32–50]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: bata blanca, estetoscopio, credencial sin texto legible
-- Expresión: serena, profesional
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [32–50]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: camice bianco, stetoscopio, tesserino senza testo leggibile
+- Espressione: serena, professionale
 
-POSE:
-- Plano medio, mirada directa
-- Boca semiabierta (hablando), gesto suave opcional
+POSA:
+- Mezzo busto, sguardo diretto
+- Bocca semiaperta (parlando), gesto morbido opzionale
 
-ESCENA:
-- Consultorio moderno: pared clara, escritorio limpio, instrumentos desenfocados
+SCENA:
+- Ambulatorio moderno: parete chiara, scrivania pulita, strumenti sfocati
 
-CÁMARA / LUZ:
-- 50mm, f/2.2, ISO 100, luz suave
+CAMERA / LUCE:
+- 50mm, f/2.2, ISO 100, luce morbida
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar estética caricatura`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare estetica da cartone animato`,
     thumbnail: "/images/avatars/vsl006.webp",
   },
   {
     id: "img-avatar-vsl-007",
-    title: "Ingeniero/a en obra (casco y chaleco, día)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar ingeniero/a explicando a cámara en obra, fondo desenfocado.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar ingeniero/a hablando a cámara en una obra.
+    title: "Ingegnere/Ingegnera in cantiere (casco e gilet, giorno)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar ingegnere/a che spiega in camera in un cantiere, sfondo sfocato.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar ingegnere che parla in camera in un cantiere.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: casco + chaleco reflectante + camisa manga larga
-- Expresión: práctica y segura
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: casco + gilet riflettente + camicia a maniche lunghe
+- Espressione: pratica e sicura
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Obra en construcción desenfocada, andamios/maquinaria al fondo, luz natural
+SCENA:
+- Cantiere sfocato, ponteggi/macchinari sullo sfondo, luce naturale
 
-CÁMARA:
-- 50mm, f/2.8, ISO 200, nitidez alta en ojos
+CAMERA:
+- 50mm, f/2.8, ISO 200, nitidezza alta sugli occhi
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar manos extra, proporciones raras`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare mani extra, proporzioni strane`,
     thumbnail: "/images/avatars/vsl007.webp",
   },
   {
     id: "img-avatar-vsl-008",
-    title: "Abogado/a en despacho (formal, persuasión sobria)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar abogado/a hablando a cámara en oficina elegante, look formal.",
-    prompt: `Genera una imagen REALISTA tipo VSL con un avatar abogado/a hablando a cámara.
+    title: "Avvocato/Avvocata in studio (formale, persuasione sobria)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar avvocato/a che parla in camera in un ufficio elegante, look formale.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con un avatar avvocato che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–44]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: blazer oscuro + camisa/blusa clara, formal
-- Expresión: firme y confiable
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–44]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: blazer scuro + camicia/blusa chiara, formale
+- Espressione: ferma e affidabile
 
-POSE:
-- Plano medio-corto, mirada directa, boca semiabierta (hablando)
-- Gestos mínimos con una mano opcional (anatomía correcta)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca semiaperta (parlando)
+- Gesti minimi con una mano opzionale (anatomia corretta)
 
-ESCENA:
-- Despacho elegante: estantería con libros desenfocados (sin texto legible), lámpara cálida
+SCENA:
+- Studio elegante: libreria con libri sfocati (senza testo leggibile), lampada calda
 
-CÁMARA / LUZ:
-- 85mm, f/2.2, ISO 125, luz lateral suave
+CAMERA / LUCE:
+- 85mm, f/2.2, ISO 125, luce laterale morbida
 
-RESTRICCIONES:
-- Sin texto/logos/watermark
-- Evitar dientes raros, ojos desalineados`,
+RESTRIZIONI:
+- Niente testo/loghi/watermark
+- Evitare denti strani, occhi disallineati`,
     thumbnail: "/images/avatars/vsl008.webp",
   },
   {
     id: "img-avatar-vsl-009",
-    title: "Programador/a en setup tech (luz LED, minimal)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Programmatore/Programmatrice in setup tech (LED, minimal)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar dev hablando a cámara en escritorio con monitores desenfocados y luz LED suave.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar programador/a hablando a cámara.
+      "Avatar dev che parla in camera alla scrivania con monitor sfocati e luce LED morbida.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar programmatore che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [22–35]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: hoodie minimal o camiseta lisa, auriculares al cuello opcional
-- Expresión: lógica, segura
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [22–35]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: hoodie minimal o t-shirt tinta unita, cuffie al collo opzionali
+- Espressione: logica, sicura
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Setup tech: dos monitores desenfocados con UI genérica sin texto legible, luz LED suave, escritorio limpio
+SCENA:
+- Setup tech: due monitor sfocati con UI generica senza testo leggibile, luce LED morbida, scrivania pulita
 
-CÁMARA:
-- 35mm–50mm, f/2, ISO 200, look realista
+CAMERA:
+- 35mm–50mm, f/2, ISO 200, look realistico
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar reflejos extraños en ojos, manos extra`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare riflessi strani negli occhi, mani extra`,
     thumbnail: "/images/avatars/vsl009.webp",
   },
   {
     id: "img-avatar-vsl-010",
-    title: "Entrenador/a fitness en gimnasio (energía motivadora)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Personal trainer in palestra (energia motivazionale)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar coach fitness hablando a cámara, gimnasio moderno desenfocado, vibe motivadora.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar entrenador/a fitness hablando a cámara.
+      "Avatar coach fitness che parla in camera, palestra moderna sfocata, vibe motivazionale.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar personal trainer che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [22–34]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: ropa deportiva moderna, look coach
-- Expresión: motivadora, sonrisa segura
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [22–34]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: abbigliamento sportivo moderno, look da coach
+- Espressione: motivazionale, sorriso sicuro
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
-- Un gesto de mano tipo “vamos” muy sutil (opcional, anatomía correcta)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
+- Un gesto di mano tipo “andiamo” molto sottile (opzionale, anatomia corretta)
 
-ESCENA:
-- Gimnasio moderno: pesas desenfocadas, luz fría suave, bokeh
+SCENA:
+- Palestra moderna: pesi sfocati, luce fredda morbida, bokeh
 
-CÁMARA:
-- 50mm, f/2.2, ISO 250, nitidez en ojos
+CAMERA:
+- 50mm, f/2.2, ISO 250, nitidezza sugli occhi
 
-RESTRICCIONES:
-- Sin texto/logos/watermark
-- Evitar músculos irreales, manos deformes`,
+RESTRIZIONI:
+- Niente testo/loghi/watermark
+- Evitare muscoli irreali, mani deformi`,
     thumbnail: "/images/avatars/vsl010.webp",
   },
   {
     id: "img-avatar-vsl-011",
-    title: "Chef en cocina profesional (cercano/a y expresivo/a)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Chef in cucina professionale (cordiale e espressivo/a)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar chef hablando a cámara en cocina pro, gesto suave tipo explicación, luz limpia.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar chef hablando a cámara.
+      "Avatar chef che parla in camera in cucina pro, gesto morbido tipo spiegazione, luce pulita.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar chef che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [26–40]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: filipina de chef + delantal, gorro o bandana
-- Expresión: simpática y segura
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [26–40]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: giacca da chef + grembiule, cappello o bandana
+- Espressione: simpatica e sicura
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Cocina profesional: acero inoxidable, luces limpias, fondo desenfocado
+SCENA:
+- Cucina professionale: acciaio inox, luci pulite, sfondo sfocato
 
-CÁMARA:
-- 50mm, f/2.8, ISO 200, nitidez alta
+CAMERA:
+- 50mm, f/2.8, ISO 200, nitidezza alta
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar manos extra y objetos deformes`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare mani extra e oggetti deformi`,
     thumbnail: "/images/avatars/vsl011.webp",
   },
   {
     id: "img-avatar-vsl-012",
-    title: "Profesor/a en aula moderna (didáctico/a)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar docente hablando a cámara, aula moderna sin texto legible.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar profesor/a hablando a cámara.
+    title: "Insegnante in aula moderna (didattico/a)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar docente che parla in camera, aula moderna senza testo leggibile.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar insegnante che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [35–58]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: camisa formal sin corbata + blazer o suéter
-- Expresión: paciente, clara
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [35–58]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: camicia formale senza cravatta + blazer o maglione
+- Espressione: paziente, chiara
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Aula moderna: pizarra desenfocada SIN letras legibles, iluminación neutra suave
+SCENA:
+- Aula moderna: lavagna sfocata SENZA scritte leggibili, illuminazione neutra morbida
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.8, ISO 200
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar pizarras con escritura legible`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare lavagne con scritte leggibili`,
     thumbnail: "/images/avatars/vsl012.webp",
   },
   {
     id: "img-avatar-vsl-013",
-    title: "Agente inmobiliario/a en showroom (amable y convincente)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Agente immobiliare in showroom (cordiale e convincente)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar sales en departamento modelo, look elegante, luz natural, vibe confiable.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar agente inmobiliario/a hablando a cámara.
+      "Avatar sales in appartamento campione, look elegante, luce naturale, vibe affidabile.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar agente immobiliare che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [27–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: blazer claro o atuendo formal sobrio
-- Expresión: amable, convincente
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [27–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: blazer chiaro o abbigliamento formale sobrio
+- Espressione: cordiale, convincente
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Departamento modelo/showroom: decoración moderna, luz natural, fondo desenfocado
+SCENA:
+- Appartamento modello/showroom: arredamento moderno, luce naturale, sfondo sfocato
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.2, ISO 160, look premium
 
-RESTRICCIONES:
-- Sin texto/logos/watermark`,
+RESTRIZIONI:
+- Niente testo/loghi/watermark`,
     thumbnail: "/images/avatars/vsl013.webp",
   },
   {
     id: "img-avatar-vsl-014",
-    title: "Asesora de belleza / skincare (set clean, lujo suave)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Consulente beauty/skincare (set pulito, lusso morbido)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar beauty hablando a cámara en set limpio tipo skincare, piel realista y luz suave.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar asesor/a de skincare hablando a cámara.
+      "Avatar beauty che parla in camera in set pulito stile skincare, pelle realistica e luce morbida.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar consulente skincare che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [24–38]
-- Tono de piel: [clara / morena / negra / oliva]
-- Makeup/grooming: natural, piel cuidada (textura real)
-- Outfit: top neutro + bata ligera o blazer claro minimal
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [24–38]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Makeup/grooming: naturale, pelle curata (texture reale)
+- Outfit: top neutro + camice leggero o blazer chiaro minimal
 
-POSE:
-- Plano medio-corto, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Set clean tipo beauty: fondo crema/blanco, frascos genéricos desenfocados SIN marcas
+SCENA:
+- Set pulito stile beauty: sfondo crema/bianco, flaconi generici sfocati SENZA marchi
 
-CÁMARA / LUZ:
-- 85mm, f/2.5, ISO 100, softbox frontal suave
+CAMERA / LUCE:
+- 85mm, f/2.5, ISO 100, softbox frontale morbido
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar piel plástica, evitar productos con marcas reales`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare pelle “plastica”, evitare prodotti con marchi reali`,
     thumbnail: "/images/avatars/vsl014.webp",
   },
   {
     id: "img-avatar-vsl-015",
-    title: "Trader/finanzas (pantallas bokeh, look serio)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Trader/finanza (schermi bokeh, look serio)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar de finanzas hablando a cámara, fondo con pantallas desenfocadas y luz fría.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar de finanzas/trader hablando a cámara.
+      "Avatar finanza che parla in camera, sfondo con schermi sfocati e luce fredda.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar finanza/trader che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [27–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: camisa formal + reloj, o blazer sobrio
-- Expresión: seria, analítica, confiable
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [27–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: camicia formale + orologio, o blazer sobrio
+- Espressione: seria, analitica, affidabile
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando), gestos mínimos
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando), gesti minimi
 
-ESCENA:
-- Oficina/desk financiera: pantallas y gráficas desenfocadas (sin texto legible), luz fría suave, fondo bokeh
+SCENA:
+- Ufficio/scrivania finanziaria: schermi e grafici sfocati (senza testo leggibile), luce fredda morbida, sfondo bokeh
 
-CÁMARA:
-- 50mm, f/2, ISO 200, nitidez en ojos
+CAMERA:
+- 50mm, f/2, ISO 200, nitidezza sugli occhi
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar números/labels legibles en pantallas`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare numeri/etichette leggibili sugli schermi`,
     thumbnail: "/images/avatars/vsl015.webp",
   },
   {
     id: "img-avatar-vsl-016",
-    title: "Vendedor/a e-commerce (setup con productos genéricos)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Venditore/Venditrice e-commerce (setup con prodotti generici)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar hablando a cámara junto a mesa con productos genéricos sin marca, vibe e-commerce.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar vendedor/a e-commerce hablando a cámara.
+      "Avatar che parla in camera accanto a un tavolo con prodotti generici senza marca, vibe e-commerce.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar venditore e-commerce che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [24–40]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: smart casual (polo/camisa/blazer ligero)
-- Expresión: entusiasta pero profesional
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [24–40]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: smart casual (polo/camicia/blazer leggero)
+- Espressione: entusiasta ma professionale
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Mesa con cajas y productos GENÉRICOS sin marcas (desenfocados), fondo limpio tipo home studio, luz suave
+SCENA:
+- Tavolo con scatole e prodotti GENERICI senza marchi (sfocati), sfondo pulito tipo home studio, luce morbida
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.2, ISO 160
 
-RESTRICCIONES:
-- Sin texto/logos/watermark
-- Evitar packaging con letras legibles`,
+RESTRIZIONI:
+- Niente testo/loghi/watermark
+- Evitare packaging con scritte leggibili`,
     thumbnail: "/images/avatars/vsl016.webp",
   },
   {
     id: "img-avatar-vsl-017",
-    title: "Supervisor/a de logística (bodega, chaleco, profesional)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Responsabile logistica (magazzino, gilet, professionale)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar de logística hablando a cámara en bodega moderna, uniformado/a, fondo desenfocado.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar supervisor/a de logística hablando a cámara.
+      "Avatar logistica che parla in camera in magazzino moderno, in uniforme, sfondo sfocato.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar responsabile logistica che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–50]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: chaleco de seguridad o uniforme logístico, guantes opcionales
-- Expresión: responsable, clara
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–50]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: gilet di sicurezza o uniforme logistica, guanti opzionali
+- Espressione: responsabile, chiara
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Bodega moderna: estanterías y cajas desenfocadas, luz industrial suave, sin marcas
+SCENA:
+- Magazzino moderno: scaffali e scatole sfocati, luce industriale morbida, senza marchi
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.8, ISO 250
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar etiquetas legibles en cajas`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare etichette leggibili sulle scatole`,
     thumbnail: "/images/avatars/vsl017.webp",
   },
   {
     id: "img-avatar-vsl-018",
-    title: "Diseñador/a UX (oficina creativa minimal, pizarra sin texto)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Designer UX (ufficio creativo minimal, lavagna senza testo)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar de diseño UX hablando a cámara en oficina creativa con pizarra sin escritura legible.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar diseñador/a UX/UI hablando a cámara.
+      "Avatar UX che parla in camera in ufficio creativo con lavagna senza scritte leggibili.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar designer UX/UI che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [24–40]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: casual creativo (camisa oversize/chaqueta ligera), limpio
-- Expresión: creativa, segura
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [24–40]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: casual creativo (camicia oversize/giacca leggera), pulito
+- Espressione: creativa, sicura
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Oficina creativa minimal: pizarra desenfocada sin textos legibles, post-its SIN letras legibles, luz suave
+SCENA:
+- Ufficio creativo minimal: lavagna sfocata senza testi leggibili, post-it SENZA scritte leggibili, luce morbida
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.2, ISO 200
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar post-its o pantallas con letras legibles`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare post-it o schermi con scritte leggibili`,
     thumbnail: "/images/avatars/vsl018.webp",
   },
   {
     id: "img-avatar-vsl-019",
-    title: "Artista musical/creador (home studio, luces cálidas)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Artista musicale/creator (home studio, luci calde)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar músico/a o creador/a hablando a cámara en home studio con estética cálida.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar creador/a musical hablando a cámara.
+      "Avatar musicista/creator che parla in camera in home studio con estetica calda.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar creator musicale che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [20–35]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: streetwear limpio o camiseta + chaqueta ligera
-- Expresión: carismática, relajada
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [20–35]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: streetwear pulito o t-shirt + giacca leggera
+- Espressione: carismatica, rilassata
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Home studio musical: micrófono, interfaz, instrumento (guitarra/teclado) desenfocado, luces cálidas, bokeh
+SCENA:
+- Home studio musicale: microfono, interfaccia, strumento (chitarra/tastiera) sfocati, luci calde, bokeh
 
-CÁMARA:
-- 35mm–50mm, f/2, ISO 320, vibe cálida
+CAMERA:
+- 35mm–50mm, f/2, ISO 320, vibe calda
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar marcas visibles en equipo`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare marchi visibili sull’attrezzatura`,
     thumbnail: "/images/avatars/vsl019.webp",
   },
   {
     id: "img-avatar-vsl-020",
-    title: "Servicio al cliente (set neutral, sonrisa profesional)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
+    title: "Customer service (set neutro, sorriso professionale)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
     summary:
-      "Avatar de soporte/atención al cliente hablando a cámara, set neutral y amable.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar de servicio al cliente hablando a cámara.
+      "Avatar supporto/assistenza clienti che parla in camera, set neutro e cordiale.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar assistenza clienti che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [22–40]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: smart casual, headset opcional sin marcas
-- Expresión: amable, resolutiva
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [22–40]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: smart casual, headset opzionale senza marchi
+- Espressione: cordiale, risolutiva
 
-POSE:
-- Plano medio-corto, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Fondo neutral minimal con luz suave, escritorio limpio, sin logos, sin texto
+SCENA:
+- Sfondo neutro minimal con luce morbida, scrivania pulita, senza loghi, senza testo
 
-CÁMARA / LUZ:
-- 50mm, f/2.5, ISO 125, iluminación suave y uniforme
+CAMERA / LUCE:
+- 50mm, f/2.5, ISO 125, illuminazione morbida e uniforme
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar manos extra, ojos asimétricos`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare mani extra, occhi asimmetrici`,
     thumbnail: "/images/avatars/vsl020.webp",
   },
-   {
+
+  // EXTRA (come nel file originale)
+  {
     id: "img-avatar-vsl-021",
-    title: "Startup founder en cowork (casual premium, energía enfocada)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Founder hablando a cámara en cowork moderno, vibe startup, luz natural.",
-    prompt: `Genera una imagen REALISTA tipo frame de VSL con avatar humano hablando a cámara.
+    title: "Founder startup in coworking (casual premium, energia focalizzata)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Founder che parla in camera in coworking moderno, vibe startup, luce naturale.",
+    prompt: `Genera un’immagine REALISTICA tipo frame di VSL con avatar umano che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [26–38]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: blazer ligero + camiseta lisa (startup casual), reloj discreto
-- Expresión: enfocada, optimista
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [26–38]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: blazer leggero + t-shirt tinta unita (startup casual), orologio discreto
+- Espressione: focalizzata, ottimista
 
-POSE:
-- Plano medio (pecho a cabeza), mirada directa
-- Boca ligeramente entreabierta como si estuviera explicando
+POSA:
+- Mezzo busto (dal petto alla testa), sguardo diretto
+- Bocca leggermente socchiusa come se stesse spiegando
 
-ESCENA:
-- Cowork moderno: mesas, lámparas, gente MUY desenfocada al fondo, bokeh suave
-- Sin logos, sin pantallas con texto legible
+SCENA:
+- Coworking moderno: tavoli, lampade, persone MOLTO sfocate sullo sfondo, bokeh morbido
+- Niente loghi, niente schermi con testo leggibile
 
-CÁMARA / LUZ:
-- 50mm, f/2.0, ISO 160, nitidez alta en ojos
-- Luz natural lateral + fill suave
+CAMERA / LUCE:
+- 50mm, f/2.0, ISO 160, nitidezza alta sugli occhi
+- Luce naturale laterale + fill morbido
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar manos extra, ojos raros, dientes deformes`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare mani extra, occhi strani, denti deformi`,
     thumbnail: "/images/avatars/vsl021.webp",
   },
   {
     id: "img-avatar-vsl-022",
-    title: "Mamá/papá emprendedor/a en cocina (real, cercano, mañana)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar emprendedor/a en casa, cocina luminosa, vibe real y relatable.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar humano hablando a cámara en ambiente hogareño.
+    title: "Mamma/papà imprenditore in cucina (reale, vicino, mattina)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar imprenditore a casa, cucina luminosa, vibe reale e relatable.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar umano che parla in camera in un ambiente domestico.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: ropa casual limpia (camiseta lisa, suéter ligero)
-- Detalle: ojeras suaves realistas, look humano
-- Expresión: cálida, honesta
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: abbigliamento casual pulito (t-shirt tinta unita, maglione leggero)
+- Dettaglio: leggere occhiaie realistiche, look umano
+- Espressione: calda, onesta
 
-POSE:
-- Plano medio-corto, mirada directa
-- Boca semiabierta como hablando, gesto mínimo con mano opcional
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto
+- Bocca semiaperta come se parlasse, gesto minimo con mano opzionale
 
-ESCENA:
-- Cocina luminosa por la mañana: taza de café, luz de ventana, fondo desenfocado
-- Sin letras legibles en envases, sin marcas
+SCENA:
+- Cucina luminosa al mattino: tazza di caffè, luce da finestra, sfondo sfocato
+- Niente scritte leggibili sulle confezioni, niente marchi
 
-CÁMARA / LUZ:
-- 35mm–50mm, f/2.2, ISO 200, tonos cálidos suaves
+CAMERA / LUCE:
+- 35mm–50mm, f/2.2, ISO 200, toni caldi morbidi
 
-RESTRICCIONES:
-- Sin texto/logos/watermark
-- Evitar manos extra, objetos deformes`,
+RESTRIZIONI:
+- Niente testo/loghi/watermark
+- Evitare mani extra, oggetti deformi`,
     thumbnail: "/images/avatars/vsl022.webp",
   },
   {
     id: "img-avatar-vsl-023",
-    title: "Analista de datos (oficina, look sobrio, pizarrón sin texto)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar analítico hablando a cámara, estética data/tech limpia y seria.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar analista de datos hablando a cámara.
+    title: "Analista dati (ufficio, look sobrio, lavagna senza testo)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar analitico che parla in camera, estetica data/tech pulita e seria.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar analista dati che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [25–40]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: camisa sobria o suéter fino, look profesional tech
-- Expresión: analítica, tranquila
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [25–40]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: camicia sobria o maglione sottile, look tech professionale
+- Espressione: analitica, tranquilla
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Oficina moderna: pizarrón o glassboard desenfocado SIN texto legible, laptop desenfocado, luz neutra
+SCENA:
+- Ufficio moderno: lavagna o glassboard sfocata SENZA testo leggibile, laptop sfocato, luce neutra
 
-CÁMARA:
-- 50mm, f/2.4, ISO 160, enfoque en ojos
+CAMERA:
+- 50mm, f/2.4, ISO 160, fuoco sugli occhi
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar gráficos o letras legibles en fondo`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare grafici o scritte leggibili sullo sfondo`,
     thumbnail: "/images/avatars/vsl023.webp",
   },
   {
     id: "img-avatar-vsl-024",
-    title: "Constructor/a de marca personal (set minimal con planta)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar hablando a cámara en set minimal, vibra coach/creador de marca.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar humano hablando a cámara en set minimal.
+    title: "Personal brand builder (set minimal con pianta)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar che parla in camera in set minimal, vibe coach/creator di brand.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar umano che parla in camera in un set minimal.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [24–40]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: smart casual (camisa lisa, blazer ligero)
-- Expresión: segura, cercana
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [24–40]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: smart casual (camicia tinta unita, blazer leggero)
+- Espressione: sicura, vicina
 
-POSE:
-- Plano medio-corto, mirada directa
-- Boca semiabierta (hablando), sonrisa leve
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto
+- Bocca semiaperta (parlando), lieve sorriso
 
-ESCENA:
-- Set minimal: pared clara, planta desenfocada, lámpara suave, escritorio limpio
-- Sin posters con texto, sin marcas
+SCENA:
+- Set minimal: parete chiara, pianta sfocata, lampada morbida, scrivania pulita
+- Niente poster con testo, niente marchi
 
-CÁMARA / LUZ:
-- 85mm, f/2.2, ISO 125, bokeh suave
-- Luz frontal suave tipo softbox
+CAMERA / LUCE:
+- 85mm, f/2.2, ISO 125, bokeh morbido
+- Luce frontale morbida tipo softbox
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar piel plástica`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare pelle “plastica”`,
     thumbnail: "/images/avatars/vsl024.webp",
   },
   {
     id: "img-avatar-vsl-025",
-    title: "Gamer/streamer (setup RGB suave, look friendly)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar streamer hablando a cámara, setup gamer con RGB discreto.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar humano hablando a cámara en setup gamer/streaming.
+    title: "Gamer/streamer (setup RGB morbido, look friendly)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar streamer che parla in camera, setup gamer con RGB discreto.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar umano che parla in camera in un setup gaming/streaming.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [18–30]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: hoodie o camiseta gráfica SIN texto legible
-- Accesorio: audífonos grandes, estilo streamer
-- Expresión: carismática, divertida
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [18–30]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: hoodie o t-shirt grafica SENZA testo leggibile
+- Accessorio: cuffie grandi, stile streamer
+- Espressione: carismatica, divertente
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Setup con luces RGB suaves y bokeh, micrófono desenfocado, monitores desenfocados sin texto legible
+SCENA:
+- Setup con luci RGB morbide e bokeh, microfono sfocato, monitor sfocati senza testo leggibile
 
-CÁMARA:
-- 35mm–50mm, f/2, ISO 320, look realista
+CAMERA:
+- 35mm–50mm, f/2, ISO 320, look realistico
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar marcas visibles en periféricos`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare marchi visibili sulle periferiche`,
     thumbnail: "/images/avatars/vsl025.webp",
   },
   {
     id: "img-avatar-vsl-026",
-    title: "Emprendedor/a de lujo (hotel lobby, outfit elegante)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar hablando a cámara en lobby de hotel premium, estética aspiracional.",
-    prompt: `Genera una imagen REALISTA estilo VSL con avatar humano hablando a cámara en un lobby premium.
+    title: "Imprenditore/Imprenditrice di lusso (lobby hotel, outfit elegante)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar che parla in camera in lobby hotel premium, estetica aspirazionale.",
+    prompt: `Genera un’immagine REALISTICA stile VSL con avatar umano che parla in camera in una lobby premium.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: abrigo elegante o blazer premium, accesorios mínimos (lujo discreto)
-- Expresión: confiada, aspiracional
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: cappotto elegante o blazer premium, accessori minimi (lusso discreto)
+- Espressione: sicura, aspirazionale
 
-POSE:
-- Plano medio-corto, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Lobby de hotel moderno: luces cálidas, sofás y decoraciones desenfocadas, bokeh suave
-- Sin logos de hotel, sin carteles con texto
+SCENA:
+- Lobby di hotel moderno: luci calde, divani e decorazioni sfocati, bokeh morbido
+- Niente loghi hotel, niente cartelli con testo
 
-CÁMARA / LUZ:
-- 85mm, f/2, ISO 200, iluminación cálida premium
+CAMERA / LUCE:
+- 85mm, f/2, ISO 200, illuminazione calda premium
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar joyería exagerada, evitar deformaciones`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare gioielli eccessivi, evitare deformazioni`,
     thumbnail: "/images/avatars/vsl026.webp",
   },
   {
     id: "img-avatar-vsl-027",
-    title: "Vendedor/a B2B (sala de juntas, serio/a, confiable)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar corporativo hablando a cámara, sala de juntas moderna sin logos.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar vendedor/a B2B hablando a cámara.
+    title: "Venditore/Venditrice B2B (sala riunioni, serio/a, affidabile)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar corporate che parla in camera, sala riunioni moderna senza loghi.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar venditore B2B che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [30–48]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: traje o business formal, colores sobrios
-- Expresión: segura, profesional
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [30–48]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: completo o business formal, colori sobri
+- Espressione: sicura, professionale
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Sala de juntas moderna: mesa y sillas desenfocadas, ventanal, luz neutra
-- Sin pantallas con texto, sin logos de empresa
+SCENA:
+- Sala riunioni moderna: tavolo e sedie sfocati, vetrata, luce neutra
+- Niente schermi con testo, niente loghi aziendali
 
-CÁMERA:
-- 50mm, f/2.4, ISO 160, enfoque en ojos
+CAMERA:
+- 50mm, f/2.4, ISO 160, fuoco sugli occhi
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar manos extra`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare mani extra`,
     thumbnail: "/images/avatars/vsl027.webp",
   },
   {
     id: "img-avatar-vsl-028",
-    title: "Psicólogo/a en consulta (calma, empatía, tonos cálidos)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar empático hablando a cámara en consulta cálida, bokeh y plantas.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar psicólogo/a hablando a cámara.
+    title: "Psicologo/Psicologa in studio (calma, empatia, toni caldi)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar empatico che parla in camera in studio caldo, bokeh e piante.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar psicologo che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [35–55]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: suéter ligero o blazer casual, colores suaves
-- Expresión: empática y tranquila
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [35–55]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: maglione leggero o blazer casual, colori morbidi
+- Espressione: empatica e tranquilla
 
-POSE:
-- Plano medio-corto, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Consulta acogedora: plantas desenfocadas, lámpara cálida, sillón, ambiente calmado
-- Sin cuadros con frases, sin texto visible
+SCENA:
+- Studio accogliente: piante sfocate, lampada calda, poltrona, atmosfera calma
+- Niente quadri con frasi, niente testo visibile
 
-CÁMARA / LUZ:
-- 85mm, f/2.2, ISO 160, luz cálida suave
+CAMERA / LUCE:
+- 85mm, f/2.2, ISO 160, luce calda morbida
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar piel plástica, evitar ojos raros`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare pelle “plastica”, evitare occhi strani`,
     thumbnail: "/images/avatars/vsl028.webp",
   },
   {
     id: "img-avatar-vsl-029",
-    title: "Científico/a en laboratorio (bata, luz blanca, pro)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar científico/a hablando a cámara en lab (sin marcas), estética limpia.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar científico/a hablando a cámara en laboratorio.
+    title: "Scienziato/Scienziata in laboratorio (camice, luce bianca, pro)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar scienziato/a che parla in camera in lab (senza marchi), estetica pulita.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar scienziato che parla in camera in laboratorio.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [26–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: bata de laboratorio, guantes opcionales, gafas de seguridad opcionales
-- Expresión: seria, didáctica
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [26–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: camice da laboratorio, guanti opzionali, occhiali di sicurezza opzionali
+- Espressione: seria, didattica
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Laboratorio: estanterías y equipo desenfocados, luz blanca suave, sin logos, sin etiquetas legibles
+SCENA:
+- Laboratorio: scaffali e attrezzatura sfocati, luce bianca morbida, niente loghi, niente etichette leggibili
 
-CÁMARA:
-- 50mm, f/2.8, ISO 200, nitidez alta
+CAMERA:
+- 50mm, f/2.8, ISO 200, nitidezza alta
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar frascos con etiquetas legibles`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare flaconi con etichette leggibili`,
     thumbnail: "/images/avatars/vsl029.webp",
   },
   {
     id: "img-avatar-vsl-030",
-    title: "Fotógrafo/a en estudio (cámara al cuello, look creativo)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar fotógrafo/a hablando a cámara en estudio con softboxes desenfocados.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar fotógrafo/a hablando a cámara.
+    title: "Fotografo/Fotografa in studio (camera al collo, look creativo)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar fotografo/a che parla in camera in studio con softbox sfocati.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar fotografo che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [24–40]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: camiseta negra + chaqueta ligera
-- Accesorio: cámara al cuello sin marca visible
-- Expresión: creativa, segura
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [24–40]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: t-shirt nera + giacca leggera
+- Accessorio: camera al collo senza marchio visibile
+- Espressione: creativa, sicura
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Estudio fotográfico: softboxes y fondos desenfocados, bokeh suave
+SCENA:
+- Studio fotografico: softbox e fondali sfocati, bokeh morbido
 
-CÁMARA:
-- 50mm, f/2.2, ISO 200, enfoque en ojos
+CAMERA:
+- 50mm, f/2.2, ISO 200, fuoco sugli occhi
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar marcas visibles en cámara`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare marchi visibili sulla camera`,
     thumbnail: "/images/avatars/vsl030.webp",
   },
   {
     id: "img-avatar-vsl-031",
-    title: "Barista (cafetería cálida, vibe cotidiana)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar barista hablando a cámara en cafetería, luz cálida, fondo bokeh.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar barista hablando a cámara.
+    title: "Barista (caffetteria calda, vibe quotidiana)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar barista che parla in camera in caffetteria, luce calda, sfondo bokeh.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar barista che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [20–35]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: delantal de barista, camiseta lisa, look limpio
-- Expresión: amable, enérgica
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [20–35]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: grembiule da barista, t-shirt tinta unita, look pulito
+- Espressione: cordiale, energica
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Cafetería cálida: máquina de espresso desenfocada, tazas desenfocadas, bokeh
-- Sin logos, sin menús con texto legible
+SCENA:
+- Caffetteria calda: macchina espresso sfocata, tazze sfocate, bokeh
+- Niente loghi, niente menu con testo leggibile
 
-CÁMERA:
-- 50mm, f/2.2, ISO 250, tonos cálidos
+CAMERA:
+- 50mm, f/2.2, ISO 250, toni caldi
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar letras legibles en menús`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare scritte leggibili sui menu`,
     thumbnail: "/images/avatars/vsl031.webp",
   },
   {
     id: "img-avatar-vsl-032",
-    title: "Consultor/a de viajes (mapa desenfocado, set minimal)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar travel advisor hablando a cámara, vibe aspiracional y ordenada.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar consultor/a de viajes hablando a cámara.
+    title: "Consulente viaggi (mappa sfocata, set minimal)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar travel advisor che parla in camera, vibe aspirazionale e ordinata.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar consulente viaggi che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [25–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: smart casual (camisa lisa, blazer ligero)
-- Expresión: entusiasta, profesional
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [25–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: smart casual (camicia tinta unita, blazer leggero)
+- Espressione: entusiasta, professionale
 
-POSE:
-- Plano medio-corto, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Set minimal: mapa/muro o fotos de viaje MUY desenfocadas SIN texto legible, maleta o planta desenfocada
+SCENA:
+- Set minimal: mappa/parete o foto viaggio MOLTO sfocate SENZA testo leggibile, valigia o pianta sfocata
 
-CÁMERA / LUZ:
-- 85mm, f/2.5, ISO 125, luz suave
+CAMERA / LUCE:
+- 85mm, f/2.5, ISO 125, luce morbida
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar mapas con nombres legibles`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare mappe con nomi leggibili`,
     thumbnail: "/images/avatars/vsl032.webp",
   },
   {
     id: "img-avatar-vsl-033",
-    title: "Arquitecto/a (casco blanco en oficina, planos sin texto)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar arquitecto/a hablando a cámara con planos desenfocados, estética clean.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar arquitecto/a hablando a cámara.
+    title: "Architetto/Architetta (casco bianco in ufficio, planimetrie senza testo)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar architetto/a che parla in camera con planimetrie sfocate, estetica pulita.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar architetto che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–50]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: camisa formal + casco blanco (opcional), look profesional
-- Expresión: segura, enfocada
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–50]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: camicia formale + casco bianco (opzionale), look professionale
+- Espressione: sicura, concentrata
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Oficina de arquitectura: planos y maquetas desenfocados SIN textos legibles, luz neutra suave
+SCENA:
+- Studio di architettura: planimetrie e modellini sfocati SENZA testi leggibili, luce neutra morbida
 
-CÁMERA:
+CAMERA:
 - 50mm, f/2.8, ISO 160
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar planos con letras legibles`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare planimetrie con scritte leggibili`,
     thumbnail: "/images/avatars/vsl033.webp",
   },
   {
     id: "img-avatar-vsl-034",
-    title: "Recepcionista/hospitality (hotel desk, sonrisa pro)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar hospitality hablando a cámara en recepción, estética premium sin logos.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar de hospitality hablando a cámara.
+    title: "Receptionist/hospitality (desk hotel, sorriso pro)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar hospitality che parla in camera in reception, estetica premium senza loghi.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar hospitality che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [22–38]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: uniforme elegante (blazer + camisa) sin marca
-- Expresión: sonrisa profesional, amable
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [22–38]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: uniforme elegante (blazer + camicia) senza marchi
+- Espressione: sorriso professionale, cordiale
 
-POSE:
-- Plano medio-corto, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Recepción de hotel: lobby desenfocado, luz cálida, bokeh
-- Sin logos, sin señalética con texto legible
+SCENA:
+- Reception hotel: lobby sfocata, luce calda, bokeh
+- Niente loghi, niente segnaletica con testo leggibile
 
-CÁMERA:
+CAMERA:
 - 85mm, f/2.2, ISO 200
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar placas con nombres legibles`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare targhette con nomi leggibili`,
     thumbnail: "/images/avatars/vsl034.webp",
   },
   {
     id: "img-avatar-vsl-035",
-    title: "Mecánico/a automotriz (taller limpio, uniforme, pro)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar mecánico/a hablando a cámara en taller limpio, fondo bokeh.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar mecánico/a hablando a cámara.
+    title: "Meccanico/Meccanica auto (officina pulita, uniforme, pro)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar meccanico/a che parla in camera in officina pulita, sfondo bokeh.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar meccanico che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [24–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: uniforme de taller limpio, guantes opcional
-- Expresión: directo/a, confiable
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [24–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: uniforme da officina pulita, guanti opzionali
+- Espressione: diretto/a, affidabile
 
-POSE:
-- Plano medio, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Taller automotriz limpio: elevador/auto desenfocado, herramientas desenfocadas, sin marcas visibles
+SCENA:
+- Officina auto pulita: ponte sollevatore/auto sfocati, attrezzi sfocati, senza marchi visibili
 
-CÁMERA:
+CAMERA:
 - 50mm, f/2.8, ISO 250
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar marcas visibles en autos/herramientas`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare marchi visibili su auto/attrezzi`,
     thumbnail: "/images/avatars/vsl035.webp",
   },
   {
     id: "img-avatar-vsl-036",
-    title: "Enfermero/a (clínica, scrubs, tono calmado)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar enfermero/a hablando a cámara, scrubs, ambiente clínico desenfocado.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar enfermero/a hablando a cámara.
+    title: "Infermiere/Infermiere (clinica, scrubs, tono calmo)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar infermiere/a che parla in camera, scrubs, ambiente clinico sfocato.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar infermiere che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [24–45]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: scrubs (uniforme médico) color sólido, credencial sin texto legible
-- Expresión: calmada, de confianza
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [24–45]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: scrubs (divisa medica) tinta unita, tesserino senza testo leggibile
+- Espressione: calma, rassicurante
 
-POSE:
-- Plano medio-corto, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Clínica moderna: pasillo o estación desenfocada, luz blanca suave, sin logos
+SCENA:
+- Clinica moderna: corridoio o postazione sfocata, luce bianca morbida, senza loghi
 
-CÁMERA:
+CAMERA:
 - 50mm, f/2.5, ISO 200
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar etiquetas legibles en credenciales`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare etichette leggibili sui tesserini`,
     thumbnail: "/images/avatars/vsl036.webp",
   },
   {
     id: "img-avatar-vsl-037",
-    title: "Terapeuta/coach de negocios (set minimal, tono serio)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar coach de negocios hablando a cámara, estética minimal y premium.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar coach/consultor/a hablando a cámara.
+    title: "Coach/consulente business (set minimal, tono serio)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar business coach che parla in camera, estetica minimal e premium.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar coach/consulente che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [30–55]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: blazer o suéter fino, colores neutros
-- Expresión: firme, calmada
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [30–55]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: blazer o maglione sottile, colori neutri
+- Espressione: ferma, calma
 
-POSE:
-- Plano medio-corto, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Set minimal premium: pared lisa, cuadro desenfocado sin texto, lámpara suave, bokeh
+SCENA:
+- Set minimal premium: parete liscia, quadro sfocato senza testo, lampada morbida, bokeh
 
-CÁΜERA / LUZ:
-- 85mm, f/2.2, ISO 125, softbox frontal suave
+CAMERA / LUCE:
+- 85mm, f/2.2, ISO 125, softbox frontale morbido
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar piel plástica, ojos raros`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare pelle “plastica”, occhi strani`,
     thumbnail: "/images/avatars/vsl037.webp",
   },
   {
     id: "img-avatar-vsl-038",
-    title: "Creador/a de contenido en exterior (calle día, bokeh urbano)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar hablando a cámara en exterior urbano, luz de día, look moderno.",
-    prompt: `Genera una imagen REALISTA tipo VSL en exterior con avatar humano hablando a cámara.
+    title: "Content creator all’aperto (strada di giorno, bokeh urbano)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar che parla in camera in esterno urbano, luce diurna, look moderno.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL in esterno con avatar umano che parla in camera.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [20–35]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: streetwear limpio (chaqueta ligera, camiseta lisa)
-- Expresión: carismática, segura
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [20–35]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: streetwear pulito (giacca leggera, t-shirt tinta unita)
+- Espressione: carismatica, sicura
 
-POSE:
-- Plano medio-corto, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Calle urbana de día: fondo con gente y autos MUY desenfocados, bokeh suave, luz natural
+SCENA:
+- Strada urbana di giorno: sfondo con persone e auto MOLTO sfocati, bokeh morbido, luce naturale
 
-CÁMERA:
-- 85mm, f/2, ISO 100–200, nitidez alta en ojos
+CAMERA:
+- 85mm, f/2, ISO 100–200, nitidezza alta sugli occhi
 
-RESTRICCIONES:
-- Sin texto/logos/watermark
-- Evitar carteles con letras legibles`,
+RESTRIZIONI:
+- Niente testo/loghi/watermark
+- Evitare cartelli con scritte leggibili`,
     thumbnail: "/images/avatars/vsl038.webp",
   },
   {
     id: "img-avatar-vsl-039",
-    title: "Representante de ONG/impacto social (tono humano, limpio)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar hablando a cámara con tono humano, fondo neutro cálido, sin logos.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar humano hablando a cámara con tono humano.
+    title: "Rappresentante ONG/impatto sociale (tono umano, pulito)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar che parla in camera con tono umano, sfondo neutro caldo, senza loghi.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar umano che parla in camera con tono umano.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–55]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: smart casual simple (camisa lisa o suéter)
-- Expresión: empática, honesta
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–55]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: smart casual semplice (camicia tinta unita o maglione)
+- Espressione: empatica, onesta
 
-POSE:
-- Plano medio-corto, mirada directa, boca ligeramente abierta (hablando)
+POSA:
+- Mezzo busto ravvicinato, sguardo diretto, bocca leggermente aperta (parlando)
 
-ESCENA:
-- Fondo neutral cálido: pared beige, planta desenfocada, luz suave
-- Sin símbolos, sin logos, sin letreros
+SCENA:
+- Sfondo neutro caldo: parete beige, pianta sfocata, luce morbida
+- Niente simboli, niente loghi, niente cartelli
 
-CÁMERA:
-- 50mm, f/2.5, ISO 125, piel natural
+CAMERA:
+- 50mm, f/2.5, ISO 125, pelle naturale
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar pose artificial o sonrisa falsa`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare pose artificiali o sorrisi finti`,
     thumbnail: "/images/avatars/vsl039.webp",
   },
   {
     id: "img-avatar-vsl-040",
-    title: "Real estate luxury (exterior edificio premium, atardecer)",
-    area: "Avatars IA",
-    category: "Avatars de IA (VSL)",
-    summary: "Avatar hablando a cámara en exterior premium al atardecer, look elegante.",
-    prompt: `Genera una imagen REALISTA tipo VSL con avatar humano hablando a cámara en exterior premium.
+    title: "Real estate luxury (esterno edificio premium, tramonto)",
+    area: "Avatar IA",
+    category: "Avatar IA (VSL)",
+    summary:
+      "Avatar che parla in camera in esterno premium al tramonto, look elegante.",
+    prompt: `Genera un’immagine REALISTICA tipo VSL con avatar umano che parla in camera in un esterno premium.
 
-SUJETO:
-- Género: [hombre o mujer]
-- Edad: [28–48]
-- Tono de piel: [clara / morena / negra / oliva]
-- Outfit: blazer premium o abrigo elegante, look ventas luxury
-- Expresión: segura, persuasiva
+SOGGETTO:
+- Genere: [uomo o donna]
+- Età: [28–48]
+- Carnagione: [chiara / scura / nera / olivastra]
+- Outfit: blazer premium o cappotto elegante, look vendite luxury
+- Espressione: sicura, persuasiva
 
-POSE:
-- Plano medio, mirada directa, boca semiabierta (hablando)
+POSA:
+- Mezzo busto, sguardo diretto, bocca semiaperta (parlando)
 
-ESCENA:
-- Exterior de edificio premium al atardecer: luces cálidas, fondo desenfocado, bokeh
-- Sin nombres de edificios, sin texto en señalización
+SCENA:
+- Esterno di edificio premium al tramonto: luci calde, sfondo sfocato, bokeh
+- Niente nomi degli edifici, niente testo sulla segnaletica
 
-CÁMERA:
-- 85mm, f/2, ISO 200, look cinematográfico suave
+CAMERA:
+- 85mm, f/2, ISO 200, look cinematografico morbido
 
-RESTRICCIONES:
-- Sin texto/logos/watermark
-- Evitar carteles legibles`,
+RESTRIZIONI:
+- Niente testo/loghi/watermark
+- Evitare cartelli leggibili`,
     thumbnail: "/images/avatars/vsl040.webp",
   },
 ];

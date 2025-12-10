@@ -1,868 +1,867 @@
 export const textPromptsNegocioPlanesRapidos = [
-  {
-    id: "neg-planes-001",
-    title: "Plan de negocio exprés en 10 minutos (versión consultor senior)",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Crea un plan ultra sintetizado para validar y lanzar sin perder rigor.",
-    prompt: `Actúa como consultor senior en creación de negocios rápidos.
+{
+  id: "neg-planes-001",
+  title: "Express business plan in 10 minuti (versione di consulenza)",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Crea un piano ultra sintetizzato per convalidare e lanciare senza perdere rigore.",
+  prompt: `Agisce come consulente senior nella creazione di business veloce.
 
-Dame:
+Dammi...
 - Idea.
-- Público.
-- Precio.
-- Competencia.
+- Pubblico.
+- Prezzo.
+- Concorso.
 
 Genera:
-1) Propuesta de valor clara en una frase.
-2) Modelo de ingresos simplificado.
-3) Canal principal de adquisición.
-4) Métrica única de éxito (North Star).
-5) Paso 1, 2 y 3 para lanzar hoy mismo.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-002",
-    title: "Plan rápido para validar una idea en 48 horas",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Define un camino de validación ultra concreto sin producto final.",
-    prompt: `Actúa como experto en validación acelerada.
+1) Una proposta di valore chiaro in una frase.
+2) Modello di reddito semplificato.
+(3) Principale canale di approvvigionamento.
+4) Successo unico (North Star).
+5) Passo 1, 2 e 3 per lanciare oggi.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-002",
+  title: "Piano rapido per convalidare un'idea in 48 ore",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Definire un percorso di validazione ultra concreto senza prodotto finale.",
+  prompt: `Agisce come esperto nella convalida accelerata.
 
-Dame:
+Dammi...
 - Idea.
-- Público objetivo.
-- Hipótesis que quieres validar.
+- Al pubblico.
+- Ipotesi che vuoi convalidare.
 
 Genera:
-1) Supuesto crítico que debe demostrarse.
-2) Método de validación en 48h.
-3) Experimento simple (landing, anuncio, DM o encuesta).
-4) Resultados mínimos para considerar validado.
-5) Decisión final: avanzar, ajustar o matar.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-003",
-    title: "Plan rápido para lanzar oferta mínima viable (OMV)",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Define una versión mínima pero vendible en menos de una semana.",
-    prompt: `Actúa como consultor experto en lanzamiento lean.
+1) Presunzione critica da dimostrare.
+2) Metodo di convalida in 48h.
+3) esperimento semplice (terraggio, annuncio, DM o indagine).
+4) Risultati minimi da considerare validati.
+5) Decisione finale: anticipo, regolare o uccidere.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-003",
+  title: "Piano rapido per lanciare l'offerta minima praticabile (MVO)",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Definire una versione minima ma venable in meno di una settimana.",
+  prompt: `Agisce come consulente esperto nel lancio di Lean.
 
-Dame:
-- Producto/servicio.
-- Resultado que promete.
-- Nivel de urgencia del cliente.
-
-Genera:
-1) Oferta mínima viable (OMV).
-2) Qué incluir y qué NO incluir.
-3) Mensaje de venta simple.
-4) Proceso de entrega rápido.
-5) Primer funnel exprés para vender en 72h.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-004",
-    title: "Plan rápido para escalar un negocio ya validado",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Define foco, métricas, canales y palancas para escalar sin caos.",
-    prompt: `Actúa como consultor senior en escalamiento.
-
-Dame:
-- Modelo de negocio.
-- Ingreso actual.
-- Meta de crecimiento.
-- Recursos disponibles.
+Dammi...
+- Prodotto / servizio.
+- Il risultato che prometti.
+- Livello di emergenza del cliente.
 
 Genera:
-1) Palancas principales de escalamiento.
-2) Canal con mayor potencial.
-3) Métrica de eficiencia clave.
-4) Eliminación de desperdicio.
-5) Roadmap de 30 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-005",
-    title: "Plan de negocio ultra minimalista (1 página)",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Estructura un plan completo pero sin texto innecesario.",
-    prompt: `Actúa como consultor experto en síntesis estratégica.
+1) Offerta minima valida (MVO).
+2) Che includere e cosa non includere.
+3) Semplice messaggio di vendita.
+4) Processo di consegna rapido.
+5) Primo fondo espresso da vendere in 72h.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-004",
+  title: "Piano rapido per scalare un business già convalidato",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Definire messa a fuoco, metriche, canali e leve per salire senza caos.",
+  prompt: `Agisce come scalatore senior.
 
-Dame:
-- Producto.
+Dammi...
+- Modello aziendale.
+- Entrata attuale.
+- Obiettivo della crescita.
+- Risorse disponibili.
+
+Genera:
+1) Principali passi di arrampicata.
+2) Canale con maggiore potenziale.
+3) Tecnica di efficienza chiave.
+4) smaltimento dei rifiuti.
+5) 30 giorni Roadmap.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-005",
+  title: "Piano aziendale ultra minimalista (1 pagina)",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Struttura un piano completo ma senza testo inutile.",
+  prompt: `Agisce come consulente esperto nella sintesi strategica.
+
+Dammi...
+- Prodotto.
 - Cliente.
-- Beneficio principal.
+- Principale vantaggio.
 
-Genera un plan de 1 página con:
+Genera un piano di 1 pagina con:
 1) Problema.
-2) Solución.
-3) Diferenciador.
-4) Canal principal.
-5) Monetización.
-6) Métrica crítica.
-7) Próximas acciones.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-006",
-    title: "Plan rápido para crear una oferta irresistible en 24h",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Define valor, bonuses, precios y mensajes para vender de inmediato.",
-    prompt: `Actúa como consultor experto en creación de ofertas.
+2) Soluzione.
+(3) Differenziatore.
+(4) Canale principale.
+(5) Monetizzazione.
+(6) Chimica critica.
+7) Prossime azioni.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-006",
+  title: "Piano rapido per creare un'offerta irresistibile in 24h",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Definire valore, bonus, prezzi e messaggi da vendere immediatamente.",
+  prompt: `Agisce come consulente esperto nella creazione di offerte.
 
-Dame:
-- Producto.
-- Transformación.
-- Precio ideal.
+Dammi...
+- Prodotto.
+- Trasformazione.
+- Prezzo ideale.
 
 Genera:
-1) Oferta irresistible.
-2) Valor percibido detallado.
-3) Bonus estratégicos.
-4) Garantía adecuada.
-5) Script de venta breve.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-007",
-    title: "Plan rápido para lanzar un servicio high-ticket",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Define posicionamiento, entrega, precio y proceso de venta consultiva.",
-    prompt: `Actúa como consultor experto en servicios premium.
+1) offerta irresistibile.
+2) Valore percepito dettagliato.
+3) Bonus strategico.
+(4) Garanzia adeguate.
+5) script di breve vendita.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-007",
+  title: "Piano rapido per lanciare un servizio ad alta velocità",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Definire il posizionamento, la consegna, il prezzo e il processo di vendita consultivo.",
+  prompt: `Agisce come consulente esperto nei servizi premium.
 
-Dame:
-- Servicio.
+Dammi...
+- Servizio.
 - Nicho.
-- Precio objetivo.
+- Prezzo indicativo.
 
 Genera:
-1) Posicionamiento premium.
-2) Estructura del servicio high-ticket.
-3) Proceso de venta tipo llamada.
-4) Criterios de cliente ideal.
-5) Primer funnel de captación.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-008",
-    title: "Plan para crear un negocio digital desde cero en 7 días",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Estructura un camino claro para lanzar un negocio digital rápido.",
-    prompt: `Actúa como consultor experto en creación rápida de negocios.
+1) Posizione Premium.
+2) Struttura del servizio ad alto rendimento.
+3) processo di vendita chiamato.
+4) Criteri di cliente ideali.
+5) Prima unità di cattura.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-008",
+  title: "Pianificare per creare un business digitale da zero in 7 giorni",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Struttura un modo chiaro per lanciare un business digitale veloce.",
+  prompt: `Agisce come consulente esperto nella rapida creazione di business.
 
-Dame:
-- Modelo deseado.
+Dammi...
+- Modello desiderato.
 - Nicho.
-- Experiencia previa.
+- Esperienza precedente.
 
 Genera:
-1) Modelo ideal (consultoría, curso, ecommerce, agencia, etc.).
-2) Oferta mínima viable.
-3) Canal principal.
-4) Sistema de captación.
-5) Roadmap día por día para los 7 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-009",
-    title: "Plan para validar idea usando anuncios con bajo presupuesto",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Valida con $20–$50 y mide intención real.",
-    prompt: `Actúa como consultor en validación con ads.
+1) Modello ideale (consulting, course, ecommerce, agenzia, ecc.).
+(2) Offerta minima valida.
+(3) Canale principale.
+4) Sistema di reclutamento.
+5) Roadmap giorno per giorno per 7 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-009",
+  title: "Pianificare per convalidare l'idea utilizzando annunci a basso costo",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Vale $20 - $50 e misura l'intento reale.",
+  prompt: `Agisce come consulente nella convalida degli annunci.
 
-Dame:
+Dammi...
 - Idea.
-- Beneficio principal.
+- Principale vantaggio.
 - Avatar.
 
 Genera:
-1) Hipótesis a validar.
-2) Creativo y ángulo de ad.
-3) Landing mínima para captar leads.
-4) KPIs para validar.
-5) Decisión final basada en datos.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-010",
-    title: "Plan rápido para aumentar ventas en 72 horas",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Define acciones de impacto inmediato sin cambiar toda la estructura del negocio.",
-    prompt: `Actúa como consultor experto en aceleración de ventas.
+1) Ipotesi da convalidare.
+2) Angolo creativo e ad.
+3) atterraggio minimo per catturare conduce.
+4) KPis per convalidare.
+5) Decisione finale basata sui dati.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-010",
+  title: "Piano rapido per aumentare le vendite in 72 ore",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Definire azioni di impatto immediato senza cambiare l'intera struttura aziendale.",
+  prompt: `Agisce come consulente esperto sull'accelerazione delle vendite.
 
-Dame:
-- Negocio.
-- Producto principal.
-- Canal actual.
+Dammi...
+- Affari.
+- Prodotto principale.
+- Canale attuale.
 
 Genera:
-1) Acción rápida para aumentar conversión.
-2) Acción rápida para aumentar ticket.
-3) Acción rápida para aumentar frecuencia.
-4) Mensaje para impulsar urgencia.
-5) Plan de 3 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-011",
-    title: "Plan rápido para encontrar 10 clientes potenciales hoy",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Acciones directas, sin anuncios y sin complicaciones.",
-    prompt: `Actúa como consultor experto en prospección rápida.
+1) Azione rapida per aumentare la conversione.
+2) Azione rapida per aumentare il biglietto.
+3) Azione rapida per aumentare la frequenza.
+4) Messaggio per aumentare l'urgenza.
+5) Piano di tre giorni.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-011",
+  title: "Piano rapido per trovare 10 potenziali clienti oggi",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Azioni dirette, non annunciate e semplici.",
+  prompt: `Agisce come consulente esperto per la prospezione rapida.
 
-Dame:
-- Servicio.
+Dammi...
+- Servizio.
 - Nicho.
-- Precio.
+- Prezzo.
 
 Genera:
-1) Lugares exactos donde encontrar clientes hoy.
-2) Mensaje directo de apertura.
-3) Guion para DM.
-4) Oferta irresistible para primeras ventas.
-5) Checklist para cerrar rápido.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-012",
-    title: "Plan rápido para pivotar una idea que no está funcionando",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Redirige el negocio sin perder lo avanzado.",
-    prompt: `Actúa como consultor experto en pivotes estratégicos.
+1) luoghi esatti per trovare i clienti oggi.
+2) Messaggio diretto di apertura.
+3) Script per DM.
+4) Offerta irresistibile per le prime vendite.
+5) Lista di controllo per la chiusura rapida.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-012",
+  title: "Piano rapido per fare un'idea che non funziona",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Reindirizza l'azienda senza perdere l'anticipo.",
+  prompt: `Agisce come consulente esperto sui perni strategici.
 
-Dame:
-- Idea actual.
-- Problemas actuales.
-- Meta de negocio.
-
-Genera:
-1) Diagnóstico rápido.
-2) Elemento que sí funciona.
-3) Qué eliminar.
-4) Nuevo rumbo.
-5) Plan de los próximos 7 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-013",
-    title: "Plan rápido para crear un MVP funcional en 5 días",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Construye versión mínima funcional sin código o con herramientas simples.",
-    prompt: `Actúa como experto en MVPs rápidos.
-
-Dame:
-- Producto digital.
-- Características esenciales.
-- Nivel técnico.
+Dammi...
+- L'idea attuale.
+- Problemi attuali.
+- Obiettivo aziendale.
 
 Genera:
-1) MVP mínimo.
-2) Herramientas recomendadas.
-3) Flujo del usuario.
-4) Métrica de validación.
-5) Plan día a día (5 días).`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-014",
-    title: "Plan rápido para crear un pitch de venta en 15 minutos",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Genera un pitch potente, claro y directo en tiempo récord.",
-    prompt: `Actúa como consultor de pitch y comunicación.
+1) diagnosi rapida.
+2) Elemento che funziona.
+3) Che eliminare.
+4) Nuovo corso.
+5) Piano per i prossimi 7 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-013",
+  title: "Piano rapido per creare un MVP funzionale in 5 giorni",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Costruisce la versione minima funzionale senza codice o con semplici strumenti.",
+  prompt: `Agisce come esperto di MVP veloci.
 
-Dame:
-- Producto.
-- Cliente ideal.
-- Resultado prometido.
-
-Genera:
-1) Estructura del pitch.
-2) Frase de apertura potente.
-3) Beneficios clave.
-4) Diferenciador.
-5) Cierre con CTA.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-015",
-    title: "Plan rápido para mejorar conversión de una oferta existente",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Optimiza sin reconstruir todo el negocio.",
-    prompt: `Actúa como consultor experto en conversión.
-
-Dame:
-- Oferta.
-- Público.
-- Resultado actual.
+Dammi...
+- Prodotto digitale.
+- Caratteristiche essenziali.
+- Livello tecnico.
 
 Genera:
-1) Diagnóstico rápido.
-2) Fricción principal.
-3) Oportunidad inmediata.
-4) Cambios rápidos al mensaje.
-5) Micro mejoras para +15% conversión.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-016",
-    title: "Plan rápido para monetizar una audiencia pequeña",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Define oferta, formato y estrategia de monetización.",
-    prompt: `Actúa como consultor experto en monetización.
+1) MVP minimo.
+2) Strumenti consigliati.
+3) Flusso dell'utente.
+4) Tecnica di convalida.
+5) Pianificare giorno per giorno (5 giorni).`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-014",
+  title: "Piano rapido per creare un campo in vendita in 15 minuti",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Genera un pitch potente, chiaro e diretto nel tempo record.",
+  prompt: `Agisce come consulente di pitch and communication.
 
-Dame:
-- Tamaño de la audiencia.
+Dammi...
+- Prodotto.
+- Un cliente ideale.
+- Promesso risultato.
+
+Genera:
+1) Struttura del tubo.
+2) Frasse di apertura potente.
+3) Vantaggi chiave.
+(4) Differenziatore.
+5) Chiudi con CTA.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-015",
+  title: "Piano rapido per migliorare la conversione di un'offerta esistente",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Ottimizzare senza ricostruire l'intero business.",
+  prompt: `Agisce come consulente esperto nella conversione.
+
+Dammi...
+- Offerta.
+- Pubblico.
+- Esito attuale.
+
+Genera:
+1) diagnosi rapida.
+2) attrito principale.
+(3) Opportunità immediata.
+4) rapidi cambiamenti al messaggio.
+5) Micro miglioramenti per la conversione + 15%.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-016",
+  title: "Piano rapido per monetizzare un piccolo pubblico",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Definire la strategia di fornitura, formato e monetizzazione.",
+  prompt: `Agisce come consulente esperto in monetizzazione.
+
+Dammi...
+- Dimensioni dell'udienza.
 - Nicho.
-- Intereses.
+- Interessante.
 
 Genera:
-1) Oferta adecuada.
-2) Precio.
-3) Mensaje central.
-4) Plan de 3 días para monetizar.
-5) CTA perfecto.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-017",
-    title: "Plan rápido para validar pricing correcto",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Encuentra el precio que maximiza ventas sin perder margen.",
-    prompt: `Actúa como consultor experto en pricing.
+(1) Fornitura adeguata.
+2) Prezzo.
+3) Messaggio centrale.
+4) Piano di monetizzazione di tre giorni.
+5) Perfetto CTA.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-017",
+  title: "Piano rapido per convalidare i prezzi corretti",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Trova il prezzo che massimizza le vendite senza perdere margine.",
+  prompt: `Agisce come consulente esperto nel pricing.
 
-Dame:
-- Producto.
-- Precio actual.
-- Mercado objetivo.
+Dammi...
+- Prodotto.
+- Prezzo attuale.
+- Mercato di destinazione.
 
 Genera:
-1) Hipótesis de pricing.
-2) Método para testear precios.
-3) Señales de precio demasiado bajo.
-4) Señales de precio demasiado alto.
-5) Recomendación final.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-018",
-    title: "Plan rápido para captar leads sin presupuesto",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Genera oportunidades sin pagar anuncios.",
-    prompt: `Actúa como consultor experto en captación orgánica.
+1) Prestazioni di prezzo.
+2) Metodo dei prezzi di prova.
+3) Segni di prezzo troppo basso.
+4) Segnali di prezzo troppo alti.
+5) Raccomandazione finale.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-018",
+  title: "Piano rapido per catturare teste senza budget",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Esso genera opportunità senza pagare per gli annunci.",
+  prompt: `Agisce come consulente esperto nel reclutamento biologico.
 
-Dame:
+Dammi...
 - Nicho.
-- Producto.
-- Recurso disponible.
+- Prodotto.
+- Risorse disponibili.
 
 Genera:
-1) Estrategia orgánica de 24h.
-2) Mensaje de captación.
-3) Contenido rápido que genera leads.
-4) Lugares donde encontrar prospectos hoy.
-5) Primer funnel gratuito.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-019",
-    title: "Plan rápido para crear un negocio freelance en 72h",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Define servicios, precios, prospección y cierre.",
-    prompt: `Actúa como consultor para freelancers.
+(1) Strategia organizzativa di 24h.
+2) Messaggio di assunzione.
+3) Contenuto veloce che genera lead.
+4) Luoghi per trovare prospettive oggi.
+5) Prima rete libera.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-019",
+  title: "Piano rapido per creare un business freelance in 72h",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Definisce servizi, prezzi, prospettive e chiusura.",
+  prompt: `Agisce come consulente per i freelance.
 
-Dame:
-- Habilidad.
+Dammi...
+- Abilità.
 - Nicho.
-- Experiencia.
+- Esperienza.
 
 Genera:
-1) Servicio principal.
-2) Oferta mínima.
-3) Precios iniciales.
-4) Mensaje de prospección.
-5) Plan completo de 3 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-020",
-    title: "Plan rápido para relanzar un producto estancado",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Reposiciona, actualiza y relanza con nuevo ángulo potente.",
-    prompt: `Actúa como consultor experto en relanzamientos.
+(1) Servizio principale.
+(2) Offerta minima.
+3) Prezzi iniziali.
+4) Messaggio di prospezione.
+5) Piano completo di 3 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-020",
+  title: "Piano rapido per rilanciare un prodotto stagnante",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Riposizionamento, aggiornamento e rilancio con un nuovo angolo potente.",
+  prompt: `Agisce come consulente esperto per il rilancio.
 
-Dame:
-- Producto.
-- Problema actual.
-- Público objetivo.
-
-Genera:
-1) Nuevo ángulo de marketing.
-2) Ajustes rápidos al producto.
-3) Mensajes clave del relanzamiento.
-4) Oferta mejorada.
-5) Plan de 7 días para relanzar.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-021",
-    title:
-      "Plan rápido para identificar la oportunidad más rentable de tu skillset",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Analiza tus habilidades, cruza mercado y urgencias, y genera la oportunidad más lucrativa.",
-    prompt: `Actúa como consultor experto en generación rápida de oportunidades de negocio.
-
-Dame:
-- Tus 3 habilidades principales.
-- Nicho donde quieres entrar.
-- Tiempo disponible para emprender.
+Dammi...
+- Prodotto.
+- Problemi attuali.
+- Al pubblico.
 
 Genera:
-1) Oportunidad con mayor ROI inmediato.
-2) Qué problema crítico resuelves.
-3) Segmento exacto que más pagaría.
-4) Oferta exprés.
-5) Pasos de ejecución en 48 horas.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-022",
-    title:
-      "Plan rápido para validar una hipótesis de mercado sin construir nada",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Define validación ultra rápida sin producto, sin landing, sin anuncios.",
-    prompt: `Actúa como consultor senior en validación de mercado ultra lean.
+1) Nuovo angolo di marketing.
+2) Regolazioni rapide del prodotto.
+3) Messaggi chiave del rilancio.
+(4) Fornitura migliorata.
+5) Piano di 7 giorni per rilanciare.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-021",
+  title:
+  "Piano rapido per identificare l'opportunità più conveniente del vostro skillet",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Analizzare le vostre abilità, cross-market e di emergenza, e generare l'opportunità più lucrativa.",
+  prompt: `Agisce come consulente esperto sulla rapida generazione di opportunità di business.
 
-Dame:
-- Idea o producto.
-- Cliente ideal.
-- Hipótesis principal.
+Dammi...
+- Le tue tre abilità principali.
+- Nicho dove vuoi andare.
+- E' ora di iniziare.
 
 Genera:
-1) Método de validación sin construir nada.
-2) Preguntas exactas para validar (sin sesgos).
-3) Señales fuertes de interés.
-4) Señales fuertes de rechazo.
-5) Conclusión accionable en menos de 24h.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-023",
-    title: "Plan rápido para detectar un nicho hiper específico en 30 minutos",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Encuentra un subnicho rentable al instante con demanda comprobable.",
-    prompt: `Actúa como consultor experto en nichos de alta rentabilidad.
+1) Opportunità con più ROI immediatamente.
+2) Che problema critico risolvete.
+3) Il segmento esatto che pagherei di più.
+4) Offerta Express.
+5) Procedura di esecuzione in 48 ore.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-022",
+  title:
+  "Piano rapido per convalidare un'ipotesi di mercato senza costruire nulla",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Definire la validazione ultra veloce senza prodotto, senza atterraggio, senza annunci.",
+  prompt: `Agisce come consulente senior nella convalida del mercato ultra-lean.
 
-Dame:
+Dammi...
+- Idea o prodotto.
+- Un cliente ideale.
+- L'ipotesi principale.
+
+Genera:
+1) Metodo di convalida senza costruire nulla.
+2) Accurate domande da convalidare (senza pregiudizi).
+3) forti segni di interesse.
+4) forti segni di rifiuto.
+5) Conclusione condivisa in meno di 24h.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-023",
+  title: "Piano rapido per rilevare una specifica nicchia hiper in 30 minuti",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Trova una subniche economica istantanea con domanda verificabile.",
+  prompt: `Agisce come consulente esperto in nicchie ad alto costo.
+
+Dammi...
 - Industria.
-- Skill principal.
-- Tipo de cliente que deseas.
+- Abilità principale.
+- Tipo di cliente che vuoi.
 
 Genera:
-1) 5 subnichos hiper específicos.
-2) Señal de demanda para cada uno.
-3) Dolor más rentable de cada subnicho.
-4) Oferta exprés adaptada.
-5) Recomendación de nicho final.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-024",
-    title:
-      "Plan rápido para lanzar una prueba piloto pagada en menos de 7 días",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Consigue clientes que paguen antes de construir la versión completa.",
-    prompt: `Actúa como consultor experto en pruebas piloto rentables.
+1) 5 subnicoli iper specifici.
+2) segno di domanda per ciascuno.
+3) Dolore più conveniente di ogni sottoniche.
+4) Express offerta adattata.
+5) Raccomandazione finale di nicchia.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-024",
+  title:
+  "Piano rapido per lanciare un test pilota a pagamento in meno di 7 giorni",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Ottenere i clienti a pagare prima di costruire la versione completa.",
+  prompt: `Agisce come consulente esperto sui test pilota convenienti.
 
-Dame:
-- Producto o servicio.
-- Resultado que promete.
-- Precio ideal.
-
-Genera:
-1) Piloto mínimo funcional.
-2) Qué incluye y qué no incluye.
-3) Oferta para que el cliente pague por probar.
-4) Mensaje exacto para vender el piloto.
-5) Plan de 7 días para llenarlo.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-025",
-    title:
-      "Plan rápido para reposicionar un negocio en 24h sin cambiar el producto",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Cambia percepción, no producto, para aumentar valor.",
-    prompt: `Actúa como consultor experto en reposicionamiento.
-
-Dame:
-- Producto actual.
-- Público actual.
-- Competencia.
-- Problema de posicionamiento.
+Dammi...
+- Prodotto o servizio.
+- Il risultato che prometti.
+- Prezzo ideale.
 
 Genera:
-1) Nuevo posicionamiento premium.
-2) Nuevo ángulo de marketing.
-3) Mensaje central actualizado.
-4) Ajustes mínimos en oferta.
-5) Checklist de reposicionamiento en 24h.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-026",
-    title:
-      "Plan rápido para crear tu primera venta en menos de 48 horas (sin anuncios)",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Consigue ventas directas aplicando prospección inteligente.",
-    prompt: `Actúa como consultor experto en ventas rápidas sin ads.
+1) Minimo pilota funzionale.
+2) Che cosa include e cosa non lo fa.
+3) Offerta per il cliente da pagare per la prova.
+4) messaggio esatto per vendere il pilota.
+5) piano di 7 giorni per riempirlo.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-025",
+  title:
+  "Piano rapido per riposizionare un business in 24h senza cambiare il prodotto",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Cambia la percezione, non il prodotto, per aumentare il valore.",
+  prompt: `Agisce come consulente esperto nel riposizionamento.
 
-Dame:
-- Producto o servicio.
+Dammi...
+- Prodotto attuale.
+- Il pubblico attuale.
+- Concorso.
+- Problemi di posizionamento.
+
+Genera:
+1) Nuovo posizionamento premium.
+2) Nuovo angolo di marketing.
+3) Messaggio centrale aggiornato.
+4) Regolazioni minime di alimentazione.
+5) Lista di controllo del riposizionamento in 24h.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-026",
+  title:
+  "Piano rapido per creare la tua prima vendita in meno di 48 ore (senza annunci)",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Ottenere vendite dirette utilizzando la prospettiva intelligente.",
+  prompt: `Agisce come consulente esperto in vendite veloci senza annunci.
+
+Dammi...
+- Prodotto o servizio.
 - Nicho.
-- Precio.
+- Prezzo.
 
 Genera:
-1) Lista de lugares exactos para encontrar clientes hoy.
-2) Mensaje inicial para contacto en frío (DM).
-3) Conversación tipo para avanzar a venta.
-4) Oferta irresistible para cerrar en 48h.
-5) Secuencia de seguimiento.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-027",
-    title: "Plan rápido para convertir seguidores en compradores en 72h",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Convierte audiencia en clientes sin funnels complicados.",
-    prompt: `Actúa como consultor experto en monetización de audiencias pequeñas.
+1) Elenco dei luoghi esatti per trovare i clienti oggi.
+2) Messaggio iniziale per il contatto freddo (DM).
+3) Tipo conversazione per avanzare in vendita.
+4) Offerta irresistibile per chiudere a 48h.
+5) Sequenza di monitoraggio.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-027",
+  title: "Piano rapido per convertire i seguaci in acquirenti in 72h",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Convertire il pubblico in clienti senza imbuti complicati.",
+  prompt: `Agisce come consulente esperto sulla monetizzazione di piccoli pubblici.
 
-Dame:
-- Tamaño de tu audiencia.
+Dammi...
+- La tua dimensione del pubblico.
 - Nicho.
-- Producto.
-- Nivel de confianza actual.
+- Prodotto.
+- Livello attuale di fiducia.
 
 Genera:
-1) Diagnóstico de madurez de la audiencia.
-2) 3 estímulos para activar interés inmediato.
-3) Oferta exprés.
-4) Mensaje de venta ideal.
-5) Calendario de 72h para convertir seguidores en compras.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-028",
-    title:
-      "Plan rápido para crear un negocio automatizado de mínima intervención",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Define un negocio que funcione con el mínimo tiempo posible.",
-    prompt: `Actúa como consultor experto en negocios semiautomatizados.
+1) Diagnosi della maturità dell'udito.
+2) 3 stimoli per attivare l'interesse immediato.
+3) offerta Express.
+4) messaggio di vendita ideale.
+5) 72h calendario per convertire i seguaci in shopping.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-028",
+  title:
+  "Piano rapido per creare un'attività automatizzata di intervento minimo",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Definire un business che funziona il più a lungo possibile.",
+  prompt: `Agisce come consulente esperto in attività semiautomatiche.
 
-Dame:
+Dammi...
 - Nicho.
-- Tipo de producto.
-- Tiempo disponible semanal.
+- Tipo di prodotto.
+- Tempo disponibile settimanale.
 
 Genera:
-1) Modelo de negocio ideal con mínima intervención.
-2) Procesos que sí o sí deben automatizarse.
-3) Funnel de ventas simple.
-4) Sistema de entrega o fulfillment eficiente.
-5) Plan de implementación de 14 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-029",
-    title: "Plan rápido para vender un servicio B2B en 48h",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary:
-      "Método directo para cerrar primeras oportunidades B2B sin burocracia.",
-    prompt: `Actúa como consultor experto en ventas B2B rápidas.
+1) Modello di business ideale con intervento minimo.
+2) I processi che fanno o fanno devono essere automatizzati.
+3) Rete di vendita semplice.
+4) Consegna efficiente o sistema di riempimento.
+5) Piano di implementazione di 14 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-029",
+  title: "Piano rapido per vendere un servizio B2B a 48h",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary:
+  "Metodo diretto per chiudere le prime opportunità B2B senza burocrazia.",
+  prompt: `Agisce come consulente esperto sulle vendite B2B veloci.
 
-Dame:
-- Servicio B2B.
-- Tipo de empresa.
-- Decisor de compra.
-
-Genera:
-1) Lista de 10 empresas objetivo ideales.
-2) Ángulo de entrada.
-3) Mensaje perfecto para decisores.
-4) Oferta irresistible B2B.
-5) Plan de contacto para cerrar en 48h.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-030",
-    title: "Plan rápido para detectar fugas de dinero en tu negocio digital",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Identifica dónde estás perdiendo dinero sin darte cuenta.",
-    prompt: `Actúa como consultor experto en optimización financiera express.
-
-Dame:
-- Tipo de negocio.
-- Ingresos actuales.
-- Procesos actuales.
+Dammi...
+- Servizio B2B.
+- Tipo di azienda.
+- La decisione di acquisto.
 
 Genera:
-1) Auditoría rápida de fugas.
-2) 3 fugas críticas a eliminar ya.
-3) Métricas mal interpretadas.
-4) Cambios rápidos que aumentan margen.
-5) Plan de corrección en 5 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-031",
-    title: "Plan rápido para duplicar el valor percibido sin cambiar el precio",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Aumenta la percepción de valor en minutos.",
-    prompt: `Actúa como consultor senior en valor percibido.
+1) Elenco di 10 società di destinazione ideali.
+2) Angolo di ingresso.
+3) messaggio perfetto per i decisori.
+(4) B2B irresistibile offerta.
+5) Piano di contatto per chiudere a 48h.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-030",
+  title: "Piano rapido per rilevare perdite di denaro nel vostro business digitale",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Identificare dove si sta perdendo soldi senza rendersene conto.",
+  prompt: `Agisce come consulente esperto nell'ottimizzazione finanziaria espressa.
 
-Dame:
-- Producto.
-- Mensaje actual.
-- Objeción común.
-
-Genera:
-1) Nuevo framing del producto.
-2) Aumento de valor percibido inmediato.
-3) Lenguaje premium.
-4) Diferenciadores fuertes.
-5) Versión actualizada del mensaje.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-032",
-    title: "Plan rápido para crear un funnel simple y efectivo en 2 pasos",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "El funnel más sencillo posible que aún convierte.",
-    prompt: `Actúa como consultor en funnels minimalistas.
-
-Dame:
-- Producto.
-- Público.
-- Precio.
+Dammi...
+- Tipo di affari.
+- Il reddito attuale.
+- Processi attuali.
 
 Genera:
-1) Funnel de 2 pasos.
-2) Página exprés (estructura).
-3) Mensaje corto y convincente.
-4) CTA ideal.
-5) Métrica de éxito principal.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-033",
-    title: "Plan rápido para crear una campaña de escasez real y ética",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Activar urgencia sin manipulación.",
-    prompt: `Actúa como consultor experto en psicología ética de ventas.
+1) Controllo rapido delle perdite.
+2) 3 perdite critiche da eliminare già.
+(3) Tecniche interpretate male.
+4) Rapidi cambiamenti che aumentano il margine.
+5) Piano di correzione in 5 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-031",
+  title: "Piano rapido per raddoppiare il valore percepito senza cambiare il prezzo",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Aumenta la percezione del valore in pochi minuti.",
+  prompt: `Agisce come consulente senior in valore percepito.
 
-Dame:
-- Producto.
-- Motivo real de la escasez.
-- Fecha límite.
-
-Genera:
-1) Argumento de escasez ética.
-2) Mensaje convincente.
-3) Recordatorios estratégicos.
-4) Estructura de campaña.
-5) Plan de 72h.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-034",
-    title: "Plan rápido para convertir un contenido viral en ventas inmediatas",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Capitaliza la atención reciente antes de que desaparezca.",
-    prompt: `Actúa como consultor experto en monetización de viralidad.
-
-Dame:
-- Contenido viral.
-- Producto.
-- Tipo de audiencia alcanzada.
+Dammi...
+- Prodotto.
+- Il messaggio attuale.
+- Obiezione comune.
 
 Genera:
-1) Diagnóstico de intención comercial.
-2) Cambio rápido al contenido viral para vender.
-3) Oferta puente.
-4) CTA perfecto.
-5) Plan de monetización en 48h.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-035",
-    title: "Plan rápido para convertir objeciones en argumentos de venta",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Transforma objeciones críticas en motivos para comprar.",
-    prompt: `Actúa como consultor experto en objeciones estratégicas.
+1) Nuova struttura del prodotto.
+2) Aumento del valore percepito immediato.
+3) Lingua Premium.
+4) forti differenziatori.
+5) Versione aggiornata del messaggio.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-032",
+  title: "Piano rapido per creare una rete a 2 passi semplice ed efficace",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Il più semplice imbuto possibile che converte ancora.",
+  prompt: `Agisce come consulente su imbuti minimalisti.
 
-Dame:
-- Producto.
-- Objeción principal.
-- Cliente ideal.
-
-Genera:
-1) Reversión de objeción.
-2) Ángulo psicológico poderoso.
-3) Mensaje actualizado.
-4) CTA adaptado.
-5) Versión en formato de respuesta corta.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-036",
-    title: "Plan rápido para crear un flujo de presell eficaz en 48h",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Genera deseo antes de abrir ventas.",
-    prompt: `Actúa como consultor experto en pre-ventas.
-
-Dame:
-- Producto.
-- Público.
-- Fecha de lanzamiento.
+Dammi...
+- Prodotto.
+- Pubblico.
+- Prezzo.
 
 Genera:
-1) Mensaje de presell.
-2) Secuencia de contenido teaser.
-3) Micro pruebas de interés.
-4) Expectativa que genera deseo.
-5) Plan completo de 48h.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-037",
-    title:
-      "Plan rápido para construir autoridad en 7 días sin contenido diario",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Construye autoridad estratégica con menos esfuerzo.",
-    prompt: `Actúa como consultor experto en autoridad rápida.
+1) progetto a 2 fasi.
+2) pagina Express (struttura).
+3) breve e convincente messaggio.
+4) CTA ideale.
+5) Principale tecnica di successo.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-033",
+  title: "Piano rapido per creare una campagna di penuria reale ed etica",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Attivare l'emergenza senza manipolazioni.",
+  prompt: `Agisce come consulente esperto nell'etica delle vendite.
 
-Dame:
+Dammi...
+- Prodotto.
+- La vera ragione della carenza.
+- Scadenza.
+
+Genera:
+1) Argomento della scarsità etica.
+2) Un messaggio convincente.
+3) Promemoria strategica.
+(4) Struttura del campo.
+5) 72h piano.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-034",
+  title: "Piano rapido per convertire il contenuto virale in vendite immediate",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Capitalizzare la recente attenzione prima che sparisca.",
+  prompt: `Agisce come consulente esperto nella monetizzazione della viralità.
+
+Dammi...
+- Contenuto virale.
+- Prodotto.
+- Tipo di pubblico raggiunto.
+
+Genera:
+1) Diagnosi di intenti commerciali.
+2) Cambio rapido al contenuto virale da vendere.
+3) Offerta ponte.
+4) CTA perfetto.
+5) Piano di Monetizzazione in 48h.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-035",
+  title: "Piano rapido per trasformare le obiezioni in argomenti di vendita",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Trasforma le obiezioni critiche in motivi da acquistare.",
+  prompt: `Agisce come consulente esperto sulle obiezioni strategiche.
+
+Dammi...
+- Prodotto.
+- Obiezione principale.
+- Un cliente ideale.
+
+Genera:
+(1) Reversione delle obiezioni.
+2) Angolo psicologico potente.
+3) Messaggio aggiornato.
+4) CTA adattato.
+5) Versione del formato di risposta breve.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-036",
+  title: "Piano rapido per creare un flusso preimpostato di 48 ore efficace",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Generare il desiderio prima di aprire le vendite.",
+  prompt: `Agisce come consulente esperto in pre-vendita.
+
+Dammi...
+- Prodotto.
+- Pubblico.
+- Data di lancio.
+
+Genera:
+1) Messaggio precedente.
+2) Sequenza di contenuto Teaser.
+3) Micro prova di interesse.
+4) Aspettativo che genera desiderio.
+5) Piano completo di 48 ore.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-037",
+  title:
+  "Piano rapido per costruire autorità in 7 giorni senza contenuto quotidiano",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Costruisce l'autorità strategica con meno sforzo.",
+  prompt: `Agisce come consulente esperto in rapida autorità.
+
+Dammi...
 - Nicho.
-- Experticia.
-- Público.
+- Esperto.
+- Pubblico.
 
 Genera:
-1) Diagnóstico de autoridad actual.
-2) 3 acciones de autoridad rápida.
-3) Activos que aumentan credibilidad.
-4) Mensaje central de autoridad.
-5) Plan de 7 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-038",
-    title: "Plan rápido para crear una suite de ofertas en 24h",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Define low ticket, core offer y high ticket de forma coherente.",
-    prompt: `Actúa como consultor experto en estrategia de ofertas.
+1) Diagnosi dell'autorità corrente.
+(2) 3 azioni di autorità rapida.
+3) Beni che aumentano la credibilità.
+4) Messaggio centrale di autorità.
+5) Piano di 7 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-038",
+  title: "Piano rapido per creare una suite di offerta 24h",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Definire il biglietto basso, l'offerta core e il biglietto alto in modo coerente.",
+  prompt: `Agisce come consulente esperto nella strategia di offerta.
 
-Dame:
-- Producto principal.
-- Transformación.
-- Público.
+Dammi...
+- Prodotto principale.
+- Trasformazione.
+- Pubblico.
 
 Genera:
-1) Low ticket estratégico.
-2) Oferta principal (core offer).
+1) Basso biglietto strategico.
+2) Offerta principale.
 3) High-ticket premium.
-4) Mensaje que conecta las 3.
-5) Funnel exprés que las integra.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-039",
-    title: "Plan rápido para aumentar tickets sin perder clientes",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Sube precios inteligentemente sin afectar ventas.",
-    prompt: `Actúa como consultor experto en pricing psicológico.
+4) Messaggio che collega tutti e tre.
+5) Progetto espresso che li integra.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-039",
+  title: "Piano rapido per aumentare i biglietti senza perdere clienti",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Esso aumenta i prezzi in modo intelligente senza influenzare le vendite.",
+  prompt: `Agisce come consulente esperto in formazione psicologica.
 
-Dame:
-- Producto.
-- Precio actual.
-- Perfil del cliente.
-
-Genera:
-1) Diagnóstico de pricing.
-2) Justificación de valor.
-3) Lenguaje para subir precios.
-4) Mejoras de percepción.
-5) Nuevo precio sugerido.`,
-    thumbnail: "",
-  },
-  {
-    id: "neg-planes-040",
-    title:
-      "Plan rápido para encontrar ‘quick wins’ en cualquier negocio en 24h",
-    area: "Negocios & Emprendimiento",
-    category: "Planes Rápidos",
-    summary: "Detecta oportunidades ocultas de beneficio inmediato.",
-    prompt: `Actúa como consultor senior especializado en quick wins.
-
-Dame:
-- Negocio.
-- Ingresos actuales.
-- Modelo de monetización.
+Dammi...
+- Prodotto.
+- Prezzo attuale.
+- Profilo del cliente.
 
 Genera:
-1) Lista de quick wins.
-2) Quick win de impacto inmediato.
-3) Quick win de conversión.
-4) Quick win de monetización.
-5) Plan de implementación de 24h.`,
-    thumbnail: "",
-  },
-];
+1) Diagnosi dei prezzi.
+2) Giustificazione del valore.
+3) Lingua per aumentare i prezzi.
+4) Migliorata la percezione.
+5) Nuovo prezzo suggerito.`,
+  thumbnail: ""
+},
+{
+  id: "neg-planes-040",
+  title:
+  "Piano rapido per trovare 'quick wins' in qualsiasi attività in 24h",
+  area: "Affari & Imprenditoria",
+  category: "Piani rapidi",
+  summary: "Rileva le opportunità nascoste a beneficio immediato.",
+  prompt: `Agisce come consulente senior specializzato in vincite rapide.
+
+Dammi...
+- Affari.
+- Il reddito attuale.
+- Modello di Monetizzazione.
+
+Genera:
+1) Elenco delle vincite rapide.
+2) Vittoria rapida con impatto immediato.
+3) Conversione di vincita rapida.
+4) Monetizzazione di vincita rapida.
+5) 24h piano di attuazione.`,
+  thumbnail: ""
+}];

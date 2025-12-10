@@ -1,917 +1,916 @@
 // src/lib/prompts/text/salud-clinica-triage-y-anamnesis.js
 
 export const textPromptsSaludClinicaTriageYAnamnesis = [
-  {
-    id: "saludtri-001",
-    title: "Triage rápido: clasificar urgencia en 60 segundos (sin diagnosticar)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Estructura preguntas clave para estimar gravedad, priorizar y decidir escalamiento.",
-    prompt: `Actúa como médico haciendo triage inicial (no diagnóstico definitivo).
+{
+  id: "saludtri-001",
+  title: "Prova rapida: per classificare l'urgenza in 60 secondi (non diagnosticato)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Struttura domande chiave per stimare la gravità, priorità e decidere l'arrampicata.",
+  prompt: `Agisce come medico facendo triage iniziale (non diagnosi definitiva).
 
-Inputs:
-- Motivo de consulta.
-- Edad.
-- Comorbilidades relevantes.
-- Contexto (embarazo, inmunosupresión, anticoagulantes).
-
-Genera:
-1) 8–12 preguntas cerradas esenciales (sí/no o opción múltiple).
-2) 6–10 preguntas abiertas para contexto (inicio, evolución, severidad).
-3) Lista priorizada de “banderas rojas” específicas para este motivo.
-4) Clasificación orientativa de urgencia en 4 niveles:
-   - Emergencia (ahora)
-   - Urgente (hoy)
-   - Prioritario (24–72h)
-   - Seguimiento programable
-5) Recomendación de próximo paso (consulta, urgencias, vigilancia) con una frase de razón.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-002",
-    title: "Anamnesis completa tipo HPI (Historia del Problema Actual)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Convierte un síntoma en una historia clínica bien estructurada y completa.",
-    prompt: `Actúa como médico. Estructura la Historia del Problema Actual (HPI).
-
-Inputs:
-- Síntoma principal.
-- Narrativa del paciente (texto libre).
-- Signos vitales si existen.
+Ingressi:
+- Motivo di consultazione.
+- Età.
+- Comporbidità rilevanti.
+- Contesto (pregnanza, immunosoppressione, anticoagulanti).
 
 Genera:
-1) HPI en formato OLDCARTS o equivalente (inicio, localización, duración, carácter, agravantes, atenuantes, irradiación, tiempo, severidad).
-2) Síntomas asociados positivos y negativos relevantes (en lista).
-3) Impacto funcional (sueño, trabajo, actividad).
-4) Percepción del paciente: miedos, expectativas, objetivo de la visita.
-5) 5 preguntas de “siguiente capa” para profundizar según lo encontrado.`,
-    thumbnail: "",
-  },
+1) 8-12 domande chiuse essenziali (sì / no o opzione multipla).
+2) 6-10 domande aperte per contesto (inizio, evoluzione, gravità).
+3) Elenco prioritario di "bandiere rosse" specifica a questo motivo.
+4) Classificazione di guida di emergenza a 4 livelli:
+- Emergenza (ora)
+- Urgente (oggi)
+- Priorità (24-72h)
+- Monitoraggio programmabile
+5) Prossimo passo raccomandazione (consultazione, emergenza, sorveglianza) con una frase di ragione.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-003",
-    title: "Anamnesis por sistemas (Review of Systems) enfocada",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Genera ROS breve pero completo, adaptado al motivo de consulta.",
-    prompt: `Actúa como médico. Genera un Review of Systems enfocado.
+{
+  id: "saludtri-002",
+  title: "Anamnesis tipo completo HPI (Storia del problema attuale)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Trasforma un sintomo in una storia medica ben strutturata e completa.",
+  prompt: `Agisce come medico. Struttura della storia del problema attuale (HPI).
 
-Inputs:
-- Motivo de consulta.
-- Edad y sexo.
-- Antecedentes principales.
-
-Genera:
-1) ROS por sistemas (general, respiratorio, CV, GI, GU, neuro, MSK, piel, endocrino, psiquiátrico) con 2–4 preguntas por sistema.
-2) Marca cuáles son “must ask” vs “nice to ask”.
-3) Señales que cambian la prioridad (red flags) por cada sistema relevante.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-004",
-    title: "Plantilla de triage para dolor torácico (seguridad primero)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Preguntas críticas y banderas rojas para dolor torácico sin generar pánico.",
-    prompt: `Actúa como médico en triage. Dolor torácico.
-
-Inputs:
-- Edad.
-- Descripción del dolor.
-- Factores de riesgo (tabaco, HTA, DM, dislipidemia).
+Ingressi:
+- Il sintomo principale.
+- Il nativo del paziente (testo libero).
+- Vitali se esistono.
 
 Genera:
-1) Preguntas críticas (12–18) que no se pueden omitir.
-2) Lista clara de banderas rojas (10) y por qué importan.
-3) Diferenciales “a descartar primero” vs “frecuentes y menos graves” (lista).
-4) Recomendación orientativa de urgencia (ahora / hoy / 24–72h / programable).
-5) Mensaje para el paciente (3–5 frases) que explique por qué se deriva o no.`,
-    thumbnail: "",
-  },
+1) HPI in formato OLDCARTS o equivalente (start, posizione, durata, carattere, aggravante, attenuante, irradiazione, tempo, gravità).
+2) Sintomi associati positivi e negativi rilevanti (in elenco).
+3) Impatto funzionale (sleep, lavoro, attività).
+4) Percezione del paziente: paure, aspettative, obiettivo della visita.
+5) 5 domande da "lo strato negativo" per approfondire come trovato.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-005",
-    title: "Plantilla de triage para falta de aire / disnea",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Algoritmo de preguntas y escalamiento para disnea incluyendo asma, infección y riesgo trombótico.",
-    prompt: `Actúa como médico en triage: disnea.
+{
+  id: "saludtri-003",
+  title: "Sistema Anamnesis (Review of Systems) focalizzato",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Generare ROS breve ma completo, adattato alla ragione di consultazione.",
+  prompt: `Agisce come medico. Genera una recensione focalizzata dei sistemi.
 
-Inputs:
-- Edad y comorbilidades.
-- Inicio (súbito/gradual).
-- Síntomas asociados (fiebre, dolor torácico, tos, sibilancias).
-- Saturación si existe.
-
-Genera:
-1) Preguntas esenciales (15).
-2) Checklist de riesgo alto (TEP, neumonía, insuficiencia cardiaca, anafilaxia).
-3) Señales que requieren urgencias inmediata (lista).
-4) Qué datos pedir si hay acceso (SatO2, FC, FR, temperatura).
-5) Siguiente paso sugerido y justificación (1–2 frases).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-006",
-    title: "Plantilla de triage para dolor abdominal",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Estructura preguntas por cuadrantes, síntomas asociados y riesgo quirúrgico.",
-    prompt: `Actúa como médico. Triage para dolor abdominal.
-
-Inputs:
-- Localización del dolor.
-- Edad/sexo.
-- Embarazo posible sí/no.
-- Cirugías previas.
+Ingressi:
+- Motivo di consultazione.
+- Età e sesso.
+- Sfondo chiave.
 
 Genera:
-1) Preguntas de caracterización (12).
-2) Síntomas asociados críticos (vómito persistente, sangrado, fiebre, ictericia, rigidez).
-3) Banderas rojas quirúrgicas (lista).
-4) Diferenciales por localización (CUADRANTE/REGIÓN en lista corta).
-5) Urgencia orientativa y siguiente paso.`,
-    thumbnail: "",
-  },
+1) ROS da sistemi (generale, respiratoria, CV, GI, GU, neuro, MSK, pelle, endocrino, psichiatrico) con 2-4 domande per sistema.
+2) Marco che sono "deve chiedere" contro "bello chiedere".
+3) Segni che cambiano la priorità (bandiere di rete) per ogni sistema rilevante.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-007",
-    title: "Plantilla de triage para cefalea (descartar emergencias)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Detecta signos de alarma (SNOOP10) y guía preguntas clave.",
-    prompt: `Actúa como médico. Triage de dolor de cabeza.
+{
+  id: "saludtri-004",
+  title: "Modello di prova per dolore al petto (sicurezza prima)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Domande critiche e bandiere rosse per il dolore al petto senza panico.",
+  prompt: `Agisce come medico di triage. Dolore al petto.
 
-Inputs:
-- Inicio (súbito/gradual).
-- Intensidad.
-- Síntomas neurológicos sí/no.
-- Antecedentes (migraña, HTA, anticoagulantes).
+Ingressi:
+- Età.
+- Descrizione del dolore.
+- Fattori di rischio (tabacco, HTA, DM, dislipidemia).
 
 Genera:
-1) 12–16 preguntas críticas.
-2) Lista de alarmas (peor cefalea de la vida, focalidad, fiebre, rigidez nuca, post-trauma, inmunosupresión, embarazo, etc.).
-3) Diferenciales comunes si NO hay alarmas (migraña, tensional, sinusitis) sin diagnosticar.
-4) Recomendación de urgencia y explicación breve para el paciente.`,
-    thumbnail: "",
-  },
+1) Domande critiche (12-18) che non possono essere omesse.
+2) Elenco chiaro di bandiere rosse (10) e perché importa.
+3) Diverso "da escludere prima" contro "frequente e meno grave" (lista).
+4) Raccomandazione di guida di emergenza (ora / oggi / 24-72h / programmabile).
+5) Messaggio per il paziente (3-5 frasi) per spiegare perché è derivato o no.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-008",
-    title: "Triage pediátrico: fiebre en niño (enfoque seguro)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Guía preguntas y banderas rojas por edad y estado general sin generar alarma excesiva.",
-    prompt: `Actúa como médico. Triage pediátrico por fiebre.
+{
+  id: "saludtri-005",
+  title: "Triage per mancanza di aria / dispnea",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Algoritmo di domande e scaling per dispnoea tra cui asma, infezione e rischio trombotico.",
+  prompt: `Agisce come medico in triage: dispnoea.
 
-Inputs:
-- Edad del niño.
-- Días de fiebre.
-- Temperatura máxima.
-- Vacunas completas sí/no.
-- Síntomas (respiratorios, GI, rash).
-
-Genera:
-1) Preguntas esenciales (15) enfocadas a hidratación, alerta, respiración.
-2) Lista de banderas rojas (somnolencia marcada, rigidez, dificultad respiratoria, petequias, rechazo total de líquidos).
-3) Recomendación orientativa de urgencia (ahora/hoy/observación) con justificación.
-4) Checklist de datos que los padres pueden registrar (ingesta, pañales, temperatura, conducta).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-009",
-    title: "Triage ginecológico: sangrado uterino anormal",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Preguntas clave para severidad, embarazo, anemia y urgencia.",
-    prompt: `Actúa como médico. Triage por sangrado uterino anormal.
-
-Inputs:
-- Edad.
-- Fecha de última menstruación.
-- Posible embarazo sí/no.
-- Cantidad de sangrado (toallas/hora).
-- Dolor sí/no.
+Ingressi:
+- Età e comorbidità.
+- Avvio (sudden / graduale).
+- Sintomi associati (febbre, dolore toracico, tosse, respiro).
+- Saturazione se esiste.
 
 Genera:
-1) Preguntas esenciales (15) para cuantificar sangrado y riesgo.
-2) Banderas rojas (inestabilidad, síncope, embarazo ectópico, coágulos grandes, dolor severo).
-3) Recomendación de urgencia y siguiente paso.
-4) Qué información llevar a consulta (registro, medicamentos, pruebas previas).`,
-    thumbnail: "",
-  },
+1) Domande essenziali (15).
+2) Lista di controllo ad alto rischio (PTE, polmonite, insufficienza cardiaca, anafilassi).
+3) Segni che richiedono un'emergenza immediata (elenco).
+4) Quali dati chiedere se c'è accesso (SatO2, FC, FR, temperatura).
+5) Prossimo passo suggerito e giustificazione (1-2 frasi).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-010",
-    title: "Triage de salud mental: ataque de pánico vs urgencias",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Preguntas para diferenciar ansiedad de causas médicas y evaluar riesgo.",
-    prompt: `Actúa como médico. Triage ante crisis de ansiedad/pánico.
+{
+  id: "saludtri-006",
+  title: "Modello di prova per dolore addominale",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Struttura domande per quadrante, sintomi associati e rischio chirurgico.",
+  prompt: `Agisce come medico. Triage per dolore addominale.
 
-Inputs:
-- Síntomas (palpitaciones, disnea, opresión).
-- Inicio y desencadenante.
-- Antecedentes médicos.
-- Uso de sustancias/cafeína.
-
-Genera:
-1) Preguntas para descartar causas médicas urgentes (dolor torácico típico, síncope, focalidad, fiebre, etc.).
-2) Preguntas de seguridad (riesgo de autolesión, apoyo social).
-3) Señales para urgencias inmediata.
-4) Plan de contención inicial (no farmacológico) y seguimiento recomendado.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-011",
-    title: "Triage para infección urinaria vs pielonefritis",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Detecta datos de infección alta y redirige a atención urgente cuando aplica.",
-    prompt: `Actúa como médico. Triage urinario.
-
-Inputs:
-- Síntomas (disuria, urgencia, frecuencia).
-- Fiebre sí/no.
-- Dolor en costado/lumbar sí/no.
-- Embarazo sí/no.
+Ingressi:
+- Posizione del dolore.
+- Età / sesso.
+- Gravidanza possibile sì / no.
+- Chirurgia precedente.
 
 Genera:
-1) Preguntas esenciales (12).
-2) Checklist de infección alta/complicada.
-3) Recomendación de urgencia (hoy vs programable) con razón.
-4) Datos útiles: EGO/urocultivo si se pide, hidratación y señales de alarma.`,
-    thumbnail: "",
-  },
+1) Domande di caratterizzazione (12).
+2) Sintomi associati critici (persistente vomito, sanguinamento, febbre, ittero, rigidità).
+3) Bandiere rosse chirurgiche (lista).
+4) Differenze di posizione (TAURING / REGION in breve elenco).
+5) urgenza di orientamento e passo successivo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-012",
-    title: "Anamnesis de medicamentos y alergias (evitar errores)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Recolecta lista de fármacos, dosis, adherencia, reacciones y suplementos.",
-    prompt: `Actúa como médico. Elicita medicación y alergias de forma completa.
+{
+  id: "saludtri-007",
+  title: "Modello di prova per mal di testa (emergenze fuoriuscita)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Rileva i segnali di allarme (SNOOP10) e guida le domande chiave.",
+  prompt: `Agisce come medico. Triage di mal di testa.
 
-Inputs:
-- Lista parcial del paciente (si existe).
-- Motivo de consulta.
-
-Genera:
-1) Preguntas para obtener: nombre, dosis, horario, motivo, quién lo indicó, adherencia.
-2) Preguntas sobre OTC, suplementos, herbolaria, “remedios”.
-3) Alergias: tipo de reacción, gravedad, fecha, sospecha real vs intolerancia.
-4) Red flags de interacciones según el motivo de consulta (lista genérica).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-013",
-    title: "Historia clínica breve para telemedicina (máxima eficiencia)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Formato corto para consulta remota: datos clave, alarmas y plan de escalamiento.",
-    prompt: `Actúa como médico en telemedicina. Debes ser eficiente.
-
-Inputs:
-- Motivo de consulta.
-- Edad/sexo.
-- Comorbilidades.
-- Acceso a toma de signos vitales sí/no.
+Ingressi:
+- Avvio (sudden / graduale).
+- Intensita'.
+- Sintomi neurologici sì / no.
+- Sfondo (migrania, HTA, anticoagulanti).
 
 Genera:
-1) 10 preguntas indispensables (ordenadas).
-2) 5 preguntas opcionales según respuesta.
-3) “Si dice X → pregunta Y” (árbol simple de decisión en texto).
-4) Cierre: resumen + cuándo urgencias + cuándo seguimiento.`,
-    thumbnail: "",
-  },
+1) 12-16 domande critiche.
+2) Elenco degli allarmi (emicrania infantile nella vita, focalità, febbre, rigidità, post-trauma, immunosoppressione, gravidanza, ecc.).
+3) Differenze comuni se non ci sono allarmi (micrania, tensione, sinusiti) non diagnosticati.
+4) Raccomandazione di emergenza e breve spiegazione per il paziente.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-014",
-    title: "Anamnesis de dolor: escala, limitación y objetivos del paciente",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Estructura dolor en dimensiones clínicas y metas funcionales medibles.",
-    prompt: `Actúa como médico. Elicita historia de dolor de forma completa.
+{
+  id: "saludtri-008",
+  title: "Triage pediatrico: febbre nel bambino (approccio sicuro)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Guidare domande rosse e bandiere per età e stato generale senza generare allarme eccessivo.",
+  prompt: `Agisce come medico. Triage pediatrico per febbre.
 
-Inputs:
-- Zona y tipo de dolor.
-- Tiempo de evolución.
-- Tratamientos previos.
-
-Genera:
-1) Preguntas para: intensidad (0–10), calidad, irradiación, periodicidad, desencadenantes.
-2) Impacto funcional (qué cosas dejó de hacer).
-3) Objetivo del paciente (qué sería “mejorar” para él).
-4) Banderas rojas del dolor (neurológicas, fiebre, peso, trauma).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-015",
-    title: "Triage respiratorio: tos (aguda vs crónica) + banderas rojas",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Clasifica tos por duración y detecta señales de alarma de forma estructurada.",
-    prompt: `Actúa como médico. Triage por tos.
-
-Inputs:
-- Duración de la tos.
-- Fiebre sí/no.
-- Dolor torácico sí/no.
-- Expectoración (color/sangre).
-- Contactos/enfermedades recientes.
+Ingressi:
+- Età del bambino.
+- Giorni fa.
+- Temperatura massima.
+- Vaccini completi sì / no.
+- Sintomi (respiratorio, GI, rash).
 
 Genera:
-1) Preguntas clave (15) separadas en: aguda (<3 semanas) vs subaguda/crónica.
-2) Red flags (hemoptisis, pérdida de peso, disnea, saturación baja, dolor pleurítico).
-3) Recomendación de urgencia y siguiente paso.`,
-    thumbnail: "",
-  },
+1) Domande essenziali (15) focalizzate sull'idratazione, l'allarme, la respirazione.
+2) Elenco delle bandiere rosse (sonolenza marcata, rigidità, difficoltà respiratorie, petechiae, rifiuto totale del fluido).
+3) Raccomandazione di guida di emergenza (ora / oggi / osservazione) con giustificazione.
+4) Elenco dei dati che i genitori possono registrare (assunzione, pannolini, temperatura, comportamento).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-016",
-    title: "Triage dermatológico: erupción / rash (descartar urgencias)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Preguntas para identificar alergia severa, infección grave y necesidad de atención inmediata.",
-    prompt: `Actúa como médico. Triage por rash.
+{
+  id: "saludtri-009",
+  title: "Triage ginecologico: sanguinamento uterino anormale",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Domande chiave per gravità, gravidanza, anemia e urgenza.",
+  prompt: `Agisce come medico. Triage da sanguinamento uterino anormale.
 
-Inputs:
-- Inicio y distribución.
-- Prurito/dolor.
-- Fiebre sí/no.
-- Medicamentos nuevos sí/no.
-- Dificultad respiratoria sí/no.
-
-Genera:
-1) Preguntas esenciales (15).
-2) Lista de urgencias: anafilaxia, Stevens-Johnson sospecha (lesiones mucosas), petequias con fiebre, celulitis extensa.
-3) Clasificación orientativa y siguiente paso.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-017",
-    title: "Triage musculoesquelético: lesión aguda (esguince/trauma)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Evalúa mecanismo, incapacidad funcional, neurovascular y necesidad de RX.",
-    prompt: `Actúa como médico. Triage por lesión aguda.
-
-Inputs:
-- Zona lesionada.
-- Mecanismo (torsión, golpe, caída).
-- Capacidad de apoyar o mover.
-- Hinchazón/deformidad.
+Ingressi:
+- Età.
+- Data dell'ultima mestruazione.
+- Possibile gravidanza sì / no.
+- Numero di sanguinamento (asciugamani / ora).
+- Dolore sì / no.
 
 Genera:
-1) Preguntas esenciales (12).
-2) Checklist neurovascular (sensibilidad, color, temperatura, pulso distal).
-3) Señales para urgencias y cuándo indicar imagen.
-4) Recomendación de manejo inicial general (RICE/medidas) sin prescribir dosis.`,
-    thumbnail: "",
-  },
+1) Domande essenziali (15) per quantificare sanguinamento e rischio.
+2) Bandiere rosse (instabilità, sincope, gravidanza ectopica, grandi coaguli, dolore grave).
+3) Raccomandazione di emergenza e passo successivo.
+4) Quali informazioni portare alla consultazione (registrazione, medicine, test precedenti).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-018",
-    title: "Anamnesis familiar y social enfocada a riesgo",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Estructura antecedentes familiares y sociales útiles sin hacerlo eterno.",
-    prompt: `Actúa como médico. Recolecta antecedentes familiares/sociales relevantes.
+{
+  id: "saludtri-010",
+  title: "Triage salute mentale: attacco di panico contro emergenze",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Domande per differenziare l'ansia da cause mediche e valutare il rischio.",
+  prompt: `Agisce come medico. Triage a ansia / crisi di panico.
 
-Inputs:
-- Motivo de consulta.
-- Edad.
-- Diagnósticos actuales.
-
-Genera:
-1) Preguntas familiares “alto impacto” (cardio, diabetes, cánceres clave, trombosis).
-2) Social: tabaco, alcohol, sustancias, ocupación, sueño, actividad, dieta.
-3) Indicadores de riesgo y cómo cambian el plan (lista corta).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-019",
-    title: "Triage para mareo/síncope (descartar causas graves)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Diferencia vértigo, presíncope y causas cardiacas/neurológicas con preguntas dirigidas.",
-    prompt: `Actúa como médico. Triage por mareo/síncope.
-
-Inputs:
-- Tipo (giro del entorno, inestabilidad, desmayo).
-- Desencadenante (posición, esfuerzo).
-- Duración.
-- Medicamentos.
+Ingressi:
+- Sintomi (palpitazioni, dispnoea, oppressione).
+- Inizia e attiva.
+- Sfondo medico.
+- Uso di sostanze / caffeina.
 
 Genera:
-1) Preguntas críticas (16).
-2) Banderas rojas (dolor torácico, palpitaciones, focalidad, trauma, embarazo).
-3) Recomendación de urgencia y siguiente paso.`,
-    thumbnail: "",
-  },
+1) Domande per escludere cause mediche urgenti (dolore toracico, sincope, focale, febbre, ecc.).
+2) Domande di sicurezza (rischio di auto-armo, sostegno sociale).
+3) Segni di emergenza immediata.
+4) Piano di contenimento iniziale (non farmacologico) e follow-up raccomandato.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-020",
-    title: "Triage para dolor de garganta (evitar antibióticos innecesarios)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Recolecta datos tipo Centor y red flags de absceso/peritonsilar.",
-    prompt: `Actúa como médico. Triage por odinofagia/faringitis.
+{
+  id: "saludtri-011",
+  title: "Triage per l'infezione urinaria vs pyelonephritis",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Rileva i dati di alta infezione e reindirizza a cure urgenti durante l'applicazione.",
+  prompt: `Agisce come medico. Triage urinario.
 
-Inputs:
-- Días de evolución.
-- Fiebre sí/no.
-- Tos sí/no.
-- Exudado/amígdalas sí/no.
-- Ganglios dolorosos sí/no.
-
-Genera:
-1) Preguntas esenciales (12).
-2) Signos de alarma (voz apagada, trismus, desviación de úvula, dificultad para tragar saliva).
-3) Clasificación orientativa y si requiere evaluación hoy.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-021",
-    title: "Anamnesis de síntomas crónicos (convertir caos en estructura)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Organiza síntomas múltiples en línea de tiempo y patrones para avanzar en diagnóstico diferencial.",
-    prompt: `Actúa como médico. El paciente tiene muchos síntomas crónicos.
-
-Inputs:
-- Lista de síntomas.
-- Tiempo total de evolución.
-- Estudios previos.
+Ingressi:
+- Sintomi (disuria, urgenza, frequenza).
+- Sì, niente febbre.
+- Dolore laterale / lombare sì / no.
+- Gravidanza sì / no.
 
 Genera:
-1) Línea de tiempo (primer síntoma → cambios).
-2) Agrupación por sistemas.
-3) 10 preguntas para encontrar patrón (relación con comida, ciclo, sueño, estrés, ejercicio).
-4) 5 banderas rojas y 5 datos tranquilizadores.
-5) Próximos pasos para clarificar (sin prescribir).`,
-    thumbnail: "",
-  },
+1) Domande essenziali (12).
+2) Lista di controllo delle infezioni elevata / complicata.
+3) Raccomandazione di emergenza (oggi vs. programmabile) giustamente.
+4) Dati utili: EGO / urocoltura se richiesto, segnali di idratazione e allarme.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-022",
-    title: "Triage de heridas: corte/quemadura/mordedura",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Evalúa profundidad, sangrado, infección y necesidad de vacuna/tétanos (sin indicar esquema exacto).",
-    prompt: `Actúa como médico. Triage de heridas.
+{
+  id: "saludtri-012",
+  title: "Anamnesis di farmaci e allergie (evitare errori)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Raccogliere elenco di farmaci, dosi, adesione, reazioni e integratori.",
+  prompt: `Agisce come medico. Licita i farmaci e le allergie completamente.
 
-Inputs:
-- Tipo (corte/quemadura/mordedura).
-- Tiempo desde el evento.
-- Profundidad/área.
-- Dolor, enrojecimiento, pus, fiebre.
-- Estado de vacunación antitetánica (si se sabe).
+Ingressi:
+- Elenco paziente parziale (se presente).
+- Motivo di consultazione.
 
 Genera:
-1) Preguntas esenciales (14).
-2) Señales de urgencia (sangrado que no cede, pérdida de sensibilidad, quemadura extensa, mordedura profunda en mano/cara, signos sistémicos).
-3) Manejo inicial seguro (limpieza, cobertura, elevación) sin recomendaciones peligrosas.
-4) Cuándo reevaluar y qué vigilar.`,
-    thumbnail: "",
-  },
+1) Domande per ottenere: nome, dose, orario, movente, che lo ha indicato, aderenza.
+2) Domande su OTC, integratori, erbe, "remedies".
+3) Allergie: tipo di reazione, gravità, data, reale sospetto contro intolleranza.
+4) Rete di interazioni in base alla ragione di consultazione (elenco generico).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-023",
-    title: "Triage cardiometabólico: presión alta detectada en casa",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Distingue urgencia hipertensiva de lectura aislada, y qué datos recabar.",
-    prompt: `Actúa como médico. Triage por presión alta en casa.
+{
+  id: "saludtri-013",
+  title: "Breve storia clinica per la telemedicina (efficienza massima)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Formato breve per la consultazione remota: dati chiave, allarmi e piano di arrampicata.",
+  prompt: `Agisce come medico in telemedicina. Devi essere efficiente.
 
-Inputs:
-- Lecturas (PA y hora).
-- Síntomas (dolor de cabeza, visión borrosa, dolor torácico, disnea).
-- Medicación antihipertensiva actual.
-
-Genera:
-1) Preguntas sobre técnica de medición (posición, reposo, brazalete).
-2) Síntomas de daño agudo (red flags).
-3) Recomendación de urgencia vs seguimiento.
-4) Protocolo de registro de PA por 3–7 días (en texto).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-024",
-    title: "Anamnesis de hábitos (alimentación/actividad) sin juicio",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Recolecta hábitos de forma amable y útil para plan clínico.",
-    prompt: `Actúa como médico. Pregunta hábitos sin juzgar.
-
-Inputs:
-- Diagnóstico o objetivo (peso, lípidos, glucosa, HTA).
-- Preferencias culturales de comida.
-- Tiempo disponible.
+Ingressi:
+- Motivo di consultazione.
+- Età / sesso.
+- Comorbidità.
+- Accesso ai segni vitali, sì / no.
 
 Genera:
-1) Preguntas para entender patrón real (24h recall + fines de semana).
-2) Preguntas de actividad física (tipo, frecuencia, barreras).
-3) Sueño y estrés (2–3 preguntas cada uno).
-4) Resumen en 6 bullets: “lo que ya haces bien” + “oportunidades”.`,
-    thumbnail: "",
-  },
+1) 10 domande essenziali (ordinate).
+2) 5 domande facoltative secondo la risposta.
+3) "Se si dice X → domanda Y" (decisione semplice albero nel testo).
+4) Chiudere: sommario + quando emergenze + quando il follow-up.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-025",
-    title: "Triage para diarrea/vómito: hidratación y riesgo",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Detecta deshidratación, sangre, fiebre alta y necesidad de atención urgente.",
-    prompt: `Actúa como médico. Triage por gastroenteritis.
+{
+  id: "saludtri-014",
+  title: "Anamnesis del dolore: scala del paziente, limitazione e obiettivi",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Struttura dolore in dimensioni cliniche e obiettivi funzionali misurabili.",
+  prompt: `Agisce come medico. E' una storia completa di dolore.
 
-Inputs:
-- Días de síntomas.
-- Nº de evacuaciones/vómitos.
-- Sangre en heces sí/no.
-- Fiebre sí/no.
-- Capacidad de ingerir líquidos.
+Ingressi:
+- Zona e tipo di dolore.
+- Tempo di evoluzione.
+- Trattamenti precedenti.
 
 Genera:
-1) Preguntas esenciales (14).
-2) Señales de deshidratación por gravedad.
-3) Señales de alarma (sangre, dolor severo localizado, fiebre persistente, inmunosupresión).
-4) Recomendación de urgencia y próximos pasos.`,
-    thumbnail: "",
-  },
+1) Domande per: intensità (0-10), qualità, irradiazione, periodicità, trigger.
+2) Impatto funzionale (quale cosa ha smesso di fare).
+3) Obiettivo del paziente (che cosa sarebbe "migliorare" per lui).
+4) Bandiere rosse di dolore (neurologica, febbre, peso, trauma).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-026",
-    title: "Anamnesis orientada a trombosis/TEP (riesgo) sin alarmismo",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Preguntas clave sobre inmovilización, cirugía, anticonceptivos y síntomas asociados.",
-    prompt: `Actúa como médico. Anamnesis de riesgo trombótico.
+{
+  id: "saludtri-015",
+  title: "Triage respiratorio: tosse (acute vs cronica) + bandiere rosse",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Classifica tosse per durata e rileva segnali di allarme in modo strutturato.",
+  prompt: `Agisce come medico. Triage per tosse.
 
-Inputs:
-- Síntoma principal (disnea, dolor torácico, pierna hinchada).
-- Edad.
-- Situaciones recientes (viajes, cirugía, parto, inmovilización).
-
-Genera:
-1) Preguntas de riesgo (12).
-2) Síntomas asociados críticos.
-3) Lista de signos para urgencias inmediata.
-4) Cómo explicarle al paciente por qué preguntas esto (3 frases).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-027",
-    title: "Triage para dolor ocular/visión borrosa",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Evalúa síntomas visuales que pueden ser urgencia (glaucoma, desprendimiento, queratitis).",
-    prompt: `Actúa como médico. Triage ocular.
-
-Inputs:
-- Dolor ocular sí/no.
-- Pérdida visual súbita sí/no.
-- Fotofobia sí/no.
-- Secreción sí/no.
-- Uso de lentes de contacto sí/no.
+Ingressi:
+- Lunghezza della tosse.
+- Sì, niente febbre.
+- Dolore al petto sì / no.
+- Aspettativa (colore / sangue).
+- Contatti / malattie recenti.
 
 Genera:
-1) Preguntas esenciales (12).
-2) Banderas rojas para urgencias (pérdida súbita, halos, dolor severo, trauma, contacto + dolor).
-3) Recomendación de acción (urgencias/oftalmo hoy/seguimiento).`,
-    thumbnail: "",
-  },
+1) Domande chiave (15) separate in: acuto (± 3 settimane) vs subacuto / cronico.
+2) Lags rossi (emotosi, perdita di peso, dispnoea, bassa saturazione, dolore pleurico).
+3) Raccomandazione di emergenza e passo successivo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-028",
-    title: "Triage de alergia: urticaria vs anafilaxia",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Identifica compromiso respiratorio/circulatorio y decide urgencia inmediata.",
-    prompt: `Actúa como médico. Triage de reacción alérgica.
+{
+  id: "saludtri-016",
+  title: "Triage dermatologica: rash / rash (espulsioni fuori strada)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Domande per identificare l'allergia grave, l'infezione grave e la necessità di attenzione immediata.",
+  prompt: `Agisce come medico. Triage by rash.
 
-Inputs:
-- Síntomas (ronchas, hinchazón, dificultad respiratoria).
-- Exposición probable (alimento, medicamento, picadura).
-- Tiempo desde exposición.
-
-Genera:
-1) Preguntas esenciales (12).
-2) Criterios de posible anafilaxia (simple).
-3) Señales de urgencia inmediata y qué hacer.
-4) Si no es anafilaxia: qué vigilar y seguimiento.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-029",
-    title: "Triage endocrino: hipoglucemia/hiperglucemia en casa",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Guía preguntas seguras para síntomas y valores extremos sin dar tratamiento específico.",
-    prompt: `Actúa como médico. Triage de glucosa en casa.
-
-Inputs:
-- Lectura(s) de glucosa y hora.
-- Síntomas (temblor, sudoración, confusión, sed, vómito).
-- Tratamiento actual (insulina/hipoglucemiantes).
+Ingressi:
+- Casa e distribuzione.
+- Prurito / dolore.
+- Sì, niente febbre.
+- Nuovo sì / no medicine.
+- Difficoltà respiratoria sì / no.
 
 Genera:
-1) Preguntas esenciales (12).
-2) Señales de urgencia (alteración mental, vómito persistente, respiración anormal, deshidratación severa).
-3) Recomendación de acción (urgencias hoy vs contacto con médico vs vigilancia) con razón.`,
-    thumbnail: "",
-  },
+1) Domande essenziali (15).
+2) Elenco delle emergenze: anafilassi, sospetti di Stevens-Johnson (lesioni mucose), petechiae con febbre, ampia cellulite.
+3) classificazione di orientamento e passo successivo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-030",
-    title: "Anamnesis para dolor articular: inflamatorio vs mecánico",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Preguntas para definir rigidez matutina, articulaciones afectadas y síntomas sistémicos.",
-    prompt: `Actúa como médico. Historia de dolor articular.
+{
+  id: "saludtri-017",
+  title: "Triage muscoloscheletrico: lesioni acute (spraina / trauma)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Valuta il meccanismo, la disabilità funzionale, neurovascolare e la necessità di RX.",
+  prompt: `Agisce come medico. Triage da lesioni acute.
 
-Inputs:
-- Articulaciones afectadas.
-- Duración.
-- Rigidez matutina y duración.
-- Hinchazón/calor sí/no.
-
-Genera:
-1) 12 preguntas clave para patrón inflamatorio vs mecánico.
-2) Síntomas sistémicos a buscar (fiebre, pérdida de peso, rash).
-3) Banderas rojas (monoartritis aguda, fiebre + articulación, incapacidad total).
-4) Próximo paso recomendado (evaluación, estudios) sin prescribir.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-031",
-    title: "Triage neurológico: debilidad/entumecimiento súbito",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Detecta posibles eventos neurológicos agudos y activa urgencia inmediata.",
-    prompt: `Actúa como médico. Triage neurológico por debilidad/entumecimiento.
-
-Inputs:
-- Inicio (hora exacta).
-- Zonas afectadas.
-- Alteración del habla/visión sí/no.
-- Dolor de cabeza severo sí/no.
+Ingressi:
+- Area ferita.
+- Meccanismo (torsione, colpo, caduta).
+- Capacità di sostenere o muoversi.
+- Gonfiore/deformità.
 
 Genera:
-1) Preguntas críticas (12) enfocadas a EVC y emergencias.
-2) Señales para urgencias inmediata (claras).
-3) Mensaje al paciente explicando por qué es urgente (3 frases).`,
-    thumbnail: "",
-  },
+1) Domande essenziali (12).
+2) Controllo neurovascolare (sensibilità, colore, temperatura, impulso distale).
+3) Segni di emergenza e quando indicare l'immagine.
+4) Raccomandazione generale di gestione iniziale (RICE / misure) senza dose.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-032",
-    title: "Triage obstétrico: dolor abdominal en embarazo",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Evalúa sangrado, movimientos fetales, contracciones y urgencias.",
-    prompt: `Actúa como médico. Triage en embarazo.
+{
+  id: "saludtri-018",
+  title: "Famiglia e anamnesi sociali focalizzate sul rischio",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Famiglia utile e struttura di sfondo sociale senza renderlo eterno.",
+  prompt: `Agisce come medico. Raccoglie familiari / background sociale rilevanti.
 
-Inputs:
-- Semanas de gestación.
-- Dolor y localización.
-- Sangrado sí/no.
-- Fiebre sí/no.
-- Movimientos fetales (si aplica).
-
-Genera:
-1) Preguntas esenciales (14).
-2) Banderas rojas (sangrado abundante, dolor intenso, fiebre, disminución de movimientos, pérdida de líquido).
-3) Recomendación inmediata (urgencias hoy vs valoración prioritaria).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-033",
-    title: "Anamnesis rápida para consulta de seguimiento (control)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Checklist para visitas de control: adherencia, efectos, objetivos y ajustes.",
-    prompt: `Actúa como médico. Consulta de seguimiento.
-
-Inputs:
-- Diagnóstico en control.
-- Tratamiento actual.
-- Objetivo (ej. PA, A1c, síntomas).
+Ingressi:
+- Motivo di consultazione.
+- Età.
+- Diagnostica attuale.
 
 Genera:
-1) 10 preguntas clave para adherencia, efectos, cambios.
-2) “Qué mejoró” vs “qué empeoró” (2 listas).
-3) Señales de alarma entre consultas.
-4) Próximos pasos y plan de seguimiento (general).`,
-    thumbnail: "",
-  },
+1) Questioni familiari "alto impatto" (cardio, diabete, tumori chiave, trombosi).
+2) Sociale: tabacco, alcol, sostanze, occupazione, sonno, attività, dieta.
+3) Indicatori di rischio e come il piano cambia (elenco breve).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-034",
-    title: "Triage en adultos mayores: caídas y riesgo",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Evalúa trauma, anticoagulantes, síncope y deterioro funcional.",
-    prompt: `Actúa como médico. Triage por caída en adulto mayor.
+{
+  id: "saludtri-019",
+  title: "Triage per vertigini / sincope (suscita cause gravi)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Differenza vertigine, presyncopo e cuore / cause neurologiche con domande dirette.",
+  prompt: `Agisce come medico. Triage per vertigini / sincope.
 
-Inputs:
-- Edad.
-- Cómo fue la caída.
-- Golpe en cabeza sí/no.
-- Anticoagulantes sí/no.
-- Pérdida de conciencia sí/no.
+Ingressi:
+- Tipo (torno dell'ambiente, instabilità, svenimento).
+- Scatenamento (posizione, sforzo).
+- Durata.
+- Droga.
 
 Genera:
-1) Preguntas esenciales (14).
-2) Red flags para urgencias (cefalea intensa, vómito, somnolencia, dolor intenso, deformidad).
-3) Evaluación orientativa de causa (mecánica vs síncope) con preguntas guía.
-4) Próximo paso recomendado.`,
-    thumbnail: "",
-  },
+1) Questioni critiche (16).
+2) Bandiere rosse (dolore di petto, palpitazioni, focalità, trauma, gravidanza).
+3) Raccomandazione di emergenza e passo successivo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-035",
-    title: "Triage para dolor de oído / otitis vs urgencias",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Estructura preguntas de severidad, fiebre, secreción, mastoiditis sospecha.",
-    prompt: `Actúa como médico. Triage por dolor de oído.
+{
+  id: "saludtri-020",
+  title: "Triage per mal di gola (evitare antibiotici inutili)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Raccogliere dati di tipo Centor e fori di rete di ascesso / peritonsilar.",
+  prompt: `Agisce come medico. Triage per odinofagia / faringite.
 
-Inputs:
-- Edad.
-- Fiebre sí/no.
-- Secreción sí/no.
-- Dolor al mover pabellón sí/no.
-
-Genera:
-1) Preguntas esenciales (12).
-2) Señales de alarma (dolor severo + fiebre alta, inflamación detrás de oreja, vértigo intenso, parálisis facial).
-3) Recomendación de urgencia y siguiente paso.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-036",
-    title: "Anamnesis de infecciones recurrentes (buscar patrón)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Convierte episodios repetidos en hipótesis: exposición, comorbilidades, inmunidad.",
-    prompt: `Actúa como médico. Infecciones recurrentes.
-
-Inputs:
-- Tipo de infecciones (respiratorias, urinarias, piel).
-- Frecuencia y fechas aproximadas.
-- Tratamientos previos.
+Ingressi:
+- Giorni di evoluzione.
+- Sì, niente febbre.
+- Lo sei.
+- Exused / amygdals sì / no.
+- Dei gangli dolorosi sì / no.
 
 Genera:
-1) Línea de tiempo de episodios (estructura).
-2) 12 preguntas para factores predisponentes (diabetes, tabaquismo, higiene, anatomía, sexualidad, trabajo).
-3) Señales para evaluación más profunda (inmunodeficiencia, pérdida de peso, fiebre prolongada).
-4) Próximos pasos generales.`,
-    thumbnail: "",
-  },
+1) Domande essenziali (12).
+2) Segnali di allarme (voce off, trismus, deviazione uvula, difficoltà a deglutire la saliva).
+3) classificazione dell'orientamento e se richiede la valutazione oggi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-037",
-    title: "Triage para dolor dental / infección odontogénica",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Identifica absceso, celulitis facial y compromiso de vía aérea.",
-    prompt: `Actúa como médico. Triage dental.
+{
+  id: "saludtri-021",
+  title: "Anamnesis dei sintomi cronici (convertire il caos nella struttura)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Organizza più sintomi e modelli online per avanzare nella diagnosi differenziale.",
+  prompt: `Agisce come medico. Il paziente ha molti sintomi cronici.
 
-Inputs:
-- Dolor dental.
-- Hinchazón facial sí/no.
-- Fiebre sí/no.
-- Dificultad para abrir la boca o tragar sí/no.
+Ingressi:
+- Elenco dei sintomi.
+- Tempo totale di evoluzione.
+- Studi precedenti.
 
 Genera:
-1) Preguntas esenciales (12).
-2) Banderas rojas (trismus, disnea, fiebre alta, hinchazón rápida, compromiso ocular).
-3) Recomendación: urgencias vs odontólogo hoy.
-4) Mensaje al paciente explicando la prioridad.`,
-    thumbnail: "",
-  },
+1) Time line (primo sintomo → modifiche).
+2) raggruppamento di sistema.
+3) 10 domande per trovare modello (relazione con cibo, ciclo, sonno, stress, esercizio).
+4) 5 bandiere rosse e 5 dati rassicuranti.
+5) Prossimo passo per chiarire (non prescritta).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-038",
-    title: "Triage para dolor pélvico (mujer): descartar urgencias",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Evalúa embarazo ectópico, torsión ovárica, EPI con preguntas clave.",
-    prompt: `Actúa como médico. Triage por dolor pélvico.
+{
+  id: "saludtri-022",
+  title: "Triaggio di ferite: taglio / ustione / morso",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Valuta la profondità, sanguinamento, infezione, e la necessità di vaccino / tetano (senza indicare lo schema esatto).",
+  prompt: `Agisce come medico. Triage delle ferite.
 
-Inputs:
-- Edad.
-- Fecha de última regla.
-- Embarazo posible sí/no.
-- Fiebre sí/no.
-- Flujo vaginal anormal sí/no.
-
-Genera:
-1) Preguntas esenciales (15).
-2) Red flags (dolor súbito severo, síncope, sangrado, fiebre alta, embarazo).
-3) Recomendación de urgencia y siguiente paso.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saludtri-039",
-    title: "Triage para dolor testicular (urgencia tiempo-dependiente)",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Detecta torsión testicular y prioriza derivación inmediata.",
-    prompt: `Actúa como médico. Triage de dolor testicular.
-
-Inputs:
-- Inicio (hora exacta).
-- Dolor súbito/gradual.
-- Náuseas/vómito sí/no.
-- Trauma sí/no.
-- Fiebre/disuria sí/no.
+Ingressi:
+- Tipo (taglio / bruciore / morso).
+- E' ora dell'evento.
+- Profondità / area.
+- Dolore, rossore, pus, febbre.
+- Stato di vaccinazione del tetano (se noto).
 
 Genera:
-1) Preguntas críticas (12).
-2) Señales de torsión (súbito, intenso, náusea, elevación testicular) en lenguaje simple.
-3) Recomendación clara de urgencias inmediata si aplica (sin ambigüedad).
-4) Mensaje al paciente explicando por qué el tiempo importa.`,
-    thumbnail: "",
-  },
+1) Domande essenziali (14).
+2) Segni di emergenza (emorragia inflessibile, perdita di sensibilità, ustione estesa, morso profondo in mano / faccia, segni sistemici).
+3) Gestione iniziale sicura (pulizia, copertura, sollevamento) senza raccomandazioni pericolose.
+4) Quando rivalutare e cosa guardare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saludtri-040",
-    title: "Resumen de triage listo para pegar en nota clínica",
-    area: "Salud & Clínica",
-    category: "Triage y anamnesis",
-    summary:
-      "Convierte respuestas del paciente en un resumen clínico breve y útil.",
-    prompt: `Actúa como médico. Resume triage en formato clínico.
+{
+  id: "saludtri-023",
+  title: "Triage cardiometabolico: elevata pressione rilevata a casa",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Distinguere l'urgenza ipertensiva dalla lettura isolata, e quali dati raccogliere.",
+  prompt: `Agisce come medico. Triage ad alta pressione a casa.
 
-Inputs:
-- Motivo de consulta.
-- Respuestas a preguntas clave.
-- Signos vitales si hay.
+Ingressi:
+- Lettura (PA e ora).
+- Sintomi (headache, visione offuscata, dolore toracico, dispnoea).
+- Trattamento antipertensivo attuale.
 
 Genera:
-1) Resumen en 6–10 líneas, clínico, sin adjetivos.
-2) Positivos y negativos relevantes.
-3) Evaluación de riesgo (bajo/moderado/alto) con una frase.
-4) Plan inmediato recomendado (sin prescribir).`,
-    thumbnail: "",
-  },
-];
+1) Domande sulla tecnica di misura (posizione, riposo, bracciale).
+2) Sintomi di danni acuti (gri rossi).
+3) Raccomandazione di emergenza vs follow-up.
+4) Protocollo di registrazione PA per 3-7 giorni (in testo).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-024",
+  title: "Anamnesis delle abitudini (cibo / attività) senza giudizio",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Raccoglie abitudini in modo gentile e utile per il piano clinico.",
+  prompt: `Agisce come medico. Chiede abitudini non coniugate.
+
+Ingressi:
+- Diagnosi o bersaglio (peso, lipidi, glucosio, HTA).
+- Preferenze alimentari culturali.
+- Tempo disponibile.
+
+Genera:
+1) Domande per capire il modello reale (24h richiamo + fine settimana).
+2) Questioni di attività fisica (tipo, frequenza, barriere).
+3) Sogno e stress (2-3 domande ciascuno).
+4) Astratto in 6 proiettili: "ciò che già fai bene" + "opportunità".`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-025",
+  title: "Triage per diarrea / vomito: idratazione e rischio",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Rileva disidratazione, sangue, febbre alta e attenzione urgente.",
+  prompt: `Agisce come medico. Triage per la gastroenterite.
+
+Ingressi:
+- Giorni di sintomi.
+- Numero di evacuazioni / vomito.
+- Sangue nelle feci sì / no.
+- Sì, niente febbre.
+- Capacità di ingerire liquidi.
+
+Genera:
+1) Domande essenziali (14).
+2) Segni di grave disidratazione.
+3) Segnali di allarme (sangue, dolore localizzato grave, febbre persistente, immunosoppressione).
+4) Raccomandazione per l'urgenza e i prossimi passi.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-026",
+  title: "Anamnesi orientata alla trazione / PTE (rischio) senza allarme",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Domande chiave su immobilizzazione, chirurgia, contraccettivi e sintomi associati.",
+  prompt: `Agisce come medico. Anamnesi a rischio trobotico.
+
+Ingressi:
+- sintomo principale (dispnoea, dolore al petto, gamba gonfia).
+- Età.
+- Situazioni recenti (travel, chirurgia, consegna, immobilizzazione).
+
+Genera:
+1) Domande sul rischio (12).
+2) Sintomi associati critici.
+3) Elenco dei segni per l'emergenza immediata.
+4) Come spiegare al paziente perché si chiede questo (3 frasi).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-027",
+  title: "Triage per il dolore oculare / visione offuscata",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Valuta i sintomi visivi che possono essere urgenti (glaucoma, distacco, cheratite).",
+  prompt: `Agisce come medico. Triage degli occhi.
+
+Ingressi:
+- Dolore agli occhi sì / no.
+- Perdita visiva improvvisa sì / no.
+- Fotofobia sì / no.
+- Segreto sì / no.
+- Uso di sì / no lenti a contatto.
+
+Genera:
+1) Domande essenziali (12).
+2) Bandiere rosse per emergenze (perdita sudden, halos, dolore grave, trauma, contatto + dolore).
+3) Raccomandazione per l'azione (emergenza / ophthalm oggi / follow-up).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-028",
+  title: "Triage allergico: urticaria vs anaphylaxis",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Identificare l'impegno respiratorio / circolatorio e decidere l'urgenza immediata.",
+  prompt: `Agisce come medico. Triage di reazione allergica.
+
+Ingressi:
+- Sintomi (alveari, gonfiore, difficoltà respiratoria).
+- esposizione probabile (cibo, medicina, morso).
+- E' ora dell'esposizione.
+
+Genera:
+1) Domande essenziali (12).
+2) Criteri di possibile anafilassi (semplice).
+3) Segni di immediata urgenza e cosa fare.
+4) Se non anafilassi: cosa monitorare e seguire.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-029",
+  title: "Triage endocrino: ipoglicemia / iperglicemia a casa",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Guidare domande sicure per sintomi estremi e valori senza trattamento specifico.",
+  prompt: `Agisce come medico. Triage di glucosio a casa.
+
+Ingressi:
+- Letture di glucosio (s) e tempo.
+- Sintomi (tremor, sudorazione, confusione, sete, vomito).
+- Trattamento attuale (insulina / ipoglicaemica).
+
+Genera:
+1) Domande essenziali (12).
+2) Segni di urgenza (disturbo mentale, vomito persistente, respirazione anormale, grave disidratazione).
+3) Raccomandazione per l'azione (emergenza oggi vs contatto con medico vs sorveglianza) con la ragione.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-030",
+  title: "Anamnesis per dolori articolari: infiammatorio vs meccanico",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Domande per definire rigidità mattutina, articolazioni colpite e sintomi sistemici.",
+  prompt: `Agisce come medico. Storia del dolore alle articolazioni.
+
+Ingressi:
+- Articolazioni.
+- Durata.
+- rigidità e durata del mattino.
+- Gonfiore / calore sì / no.
+
+Genera:
+1) 12 domande chiave per modello infiammatorio vs meccanico.
+2) Sintomi sistemici per cercare (fever, perdita di peso, rash).
+3) Bandiere rosse (monartrite acuta, febbre + giunto, disabilità totale).
+4) Prossimo passo raccomandato (valutazione, studi) senza prescrizione.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-031",
+  title: "Triage neurologico: debolezza improvvisa / intorpidimento",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Rileva possibili eventi neurologici acuti e attiva immediata urgenza.",
+  prompt: `Agisce come medico. Triage neurologico per debolezza / intorpidimento.
+
+Ingressi:
+- Casa (ora esatta).
+- Aree interessate.
+- Disturbo visivo sì / no.
+- Severe mal di testa sì / no.
+
+Genera:
+1) Questioni critiche (12) focalizzate sull'EVC e sulle emergenze.
+2) Segni per emergenze immediate (chiare).
+3) Messaggio al paziente spiegando perché è urgente (3 frasi).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-032",
+  title: "Triage ostetrico: dolore addominale in gravidanza",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Valuta il sanguinamento, i movimenti fetali, le contrazioni e le urgenze.",
+  prompt: `Agisce come medico. Triage in gravidanza.
+
+Ingressi:
+- Settimane di gestazione.
+- Dolore e posizione.
+- Bleeding sì / no.
+- Sì, niente febbre.
+- Movimenti fetali (se applicabili).
+
+Genera:
+1) Domande essenziali (14).
+2) Bandiere rosse (emorragia inondante, dolore grave, febbre, movimento diminuito, perdita di liquido).
+3) Raccomandazione immediata (emergenza oggi contro valutazione prioritaria).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-033",
+  title: "Anamnesis veloce per la consultazione di follow-up (controllo)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Elenco di controllo per visite di controllo: adesione, effetti, obiettivi e regolazioni.",
+  prompt: `Agisce come medico. Consultazione successiva.
+
+Ingressi:
+- Diagnosi nel controllo.
+- Trattamento attuale.
+- Obiettivo (ad esempio PA, A1c, sintomi).
+
+Genera:
+1) 10 domande chiave per adesione, effetti, cambiamenti.
+2) "Che cosa è migliorato" contro "che cosa è peggiorato" (2 liste).
+3) Segnali di allarme tra query.
+4) Prossimo passo e piano di follow-up (generale).`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-034",
+  title: "Triage in adulti anziani: cadute e rischi",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Valuta trauma, anticoagulanti, sincope e deterioramento funzionale.",
+  prompt: `Agisce come medico. Triage per caduta in adulto maggiore.
+
+Ingressi:
+- Età.
+- Come è andata la caduta.
+- No. Ha colpito la testa sì / no.
+- Sì, niente anticoagulanti.
+- Perdita di coscienza sì / no.
+
+Genera:
+1) Domande essenziali (14).
+2) Lag rossi per emergenze (intenso mal di testa, vomito, somnolenza, dolore grave, deformità).
+3) Orientamento causa valutazione (meccanica vs sincope) con domande guida.
+4) Prossimo passo consigliato.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-035",
+  title: "Triage per il dolore dell'orecchio / otite vs urgenze",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Struttura domande di gravità, febbre, secrezione, mastoidite sospetti.",
+  prompt: `Agisce come medico. Triage per il dolore alle orecchie.
+
+Ingressi:
+- Età.
+- Sì, niente febbre.
+- Segreto sì / no.
+- Dolore quando si sposta il padiglione sì / no.
+
+Genera:
+1) Domande essenziali (12).
+2) Segni di allarme (ogni dolore + febbre alta, infiammazione dietro l'orecchio, vertigine grave, paralisi facciale).
+3) Raccomandazione di emergenza e passo successivo.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-036",
+  title: "Anamnesis delle infezioni ricorrenti (guarda il modello)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Trasforma episodi ripetuti in ipotesi: esposizione, comorbidità, immunità.",
+  prompt: `Agisce come medico. Infezioni ricorrenti.
+
+Ingressi:
+- Tipo di infezioni (respiratorio, urinario, pelle).
+- Frequenza e date approssimative.
+- Trattamenti precedenti.
+
+Genera:
+1) Time line episodio (struttura).
+2) 12 domande per i fattori di predisposizione (diabete, fumo, igiene, anatomia, sessualità, lavoro).
+3) Segni per una valutazione più approfondita (immunodeficienza, perdita di peso, febbre prolungata).
+4) Prossimo passo generale.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-037",
+  title: "Triage per il dolore dentale / infezione odontogenica",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Identificare l'ascesso, la cellulite facciale e il fidanzamento delle vie aeree.",
+  prompt: `Agisce come medico. Triage dentale.
+
+Ingressi:
+- Dolore dentale.
+- Facial gonfiore sì / no.
+- Sì, niente febbre.
+- Difficoltà che ti apre la bocca o ingoia sì / no.
+
+Genera:
+1) Domande essenziali (12).
+2) Bandiere rosse (trismus, dispnoea, febbre alta, gonfiore rapido, coinvolgimento degli occhi).
+3) Raccomandazione: emergenza contro dentista oggi.
+4) Messaggio al paziente che spiega la priorità.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-038",
+  title: "Triage per il dolore pelvico (donna): Eliminare l'emergenza",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Valuta la gravidanza ectopica, torsione ovarica, EPI con domande chiave.",
+  prompt: `Agisce come medico. Prova per il dolore pelvico.
+
+Ingressi:
+- Età.
+- Ultimo appuntamento.
+- Gravidanza possibile sì / no.
+- Sì, niente febbre.
+- Flusso vaginale anormale sì / no.
+
+Genera:
+1) Domande essenziali (15).
+2) Lags rossi (ogni dolore improvviso, sincope, sanguinamento, febbre alta, gravidanza).
+3) Raccomandazione di emergenza e passo successivo.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-039",
+  title: "Triage per il dolore testicolare (urgenza dipendente dal tempo)",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Rileva la torsione testicolare e privilegia la derivazione immediata.",
+  prompt: `Agisce come medico. Triage di dolore testicolare.
+
+Ingressi:
+- Casa (ora esatta).
+- Dolore improvviso / graduale.
+- Nausea / vomito sì / no.
+- Trauma sì / no.
+- Sì / nessuna febbre / disuria.
+
+Genera:
+1) Questioni critiche (12).
+2) Segni di torsione (sudden, intenso, nausea, elevazione testicolare) in linguaggio semplice.
+3) Raccomandazioni chiare di urgenza immediata se attuate (senza ambiguità).
+4) Messaggio al paziente spiegando perché il tempo conta.`,
+  thumbnail: ""
+},
+
+{
+  id: "saludtri-040",
+  title: "Riepilogo di prova pronto per incollare nella nota clinica",
+  area: "Salute e Clinica",
+  category: "Triage e anamnesi",
+  summary:
+  "Convertire le risposte dei pazienti in un breve e utile riassunto clinico.",
+  prompt: `Agisce come medico. Riprendi triage in formato clinico.
+
+Ingressi:
+- Motivo di consultazione.
+- Risposte a domande chiave.
+- Vitali, se ci sono.
+
+Genera:
+1) Astratto in 6-10 linee, clinico, senza aggettivi.
+(2) positivo e negativo rilevante.
+3) Valutazione del rischio (basso / moderato / alto) con una frase.
+4) Piano immediato consigliato (non prescritta).`,
+  thumbnail: ""
+}];

@@ -2,632 +2,632 @@
 
 export const imagePromptsFotoFitnessDeporte = [
   // =========================
-  // CATEGORY: Gym / entrenamiento
+  // CATEGORY: Palestra / allenamento
   // =========================
   {
     id: "img-fit-001",
-    title: "Entrenamiento en gimnasio (sentadilla, luz dramática suave, realista)",
-    area: "Fotografía Pro",
-    category: "Gym / entrenamiento",
+    title: "Allenamento in palestra (squat, luce drammatica morbida, realistico)",
+    area: "Fotografia Pro",
+    category: "Palestra / allenamento",
     summary:
-      "Foto fitness realista en gym: sentadilla con luz dramática suave tipo campaña.",
-    prompt: `Genera una fotografía REALISTA de fitness en gimnasio.
+      "Foto fitness realistica in palestra: squat con luce drammatica morbida in stile campagna.",
+    prompt: `Genera una fotografia REALISTICA di fitness in palestra.
 
-DATOS:
-- Persona: [mujer/hombre/persona] de [edad], atlético/a, sudor sutil realista
-- Acción: sentadilla con barra (técnica correcta, postura real)
-- Outfit: ropa deportiva minimal (sin logos), colores neutros
-- Ubicación: gimnasio moderno, fondo desenfocado con máquinas
+DATI:
+- Persona: [donna/uomo/persona] di [età], atletica/o, sudore leggero e realistico
+- Azione: squat con bilanciere (tecnica corretta, postura reale)
+- Outfit: abbigliamento sportivo minimal (senza loghi), colori neutri
+- Location: palestra moderna, sfondo sfocato con macchinari
 
-ILUMINACIÓN:
-- Luz lateral suave + rim light sutil (look campaña, sin exagerar)
-- Contraste medio-alto con detalle en sombras
+ILLUMINAZIONE:
+- Luce laterale morbida + rim light sottile (look da campagna, senza esagerare)
+- Contrasto medio-alto con dettaglio nelle ombre
 
-CÁMARA:
+CAMERA:
 - 35mm o 50mm, f/2.2, ISO 800
-- Congelar movimiento, enfoque en rostro y torso
+- Congelare il movimento, fuoco su viso e torso
 
-COMPOSICIÓN:
-- Plano 3/4, barra visible, postura fuerte
-- Estética motivacional premium
+COMPOSIZIONE:
+- Inquadratura 3/4, bilanciere visibile, postura forte
+- Estetica motivazionale premium
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Anatomía correcta (manos, dedos, articulaciones)
-- Evitar deformación de barra/pesas`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Anatomia corretta (mani, dita, articolazioni)
+- Evitare deformazioni di bilanciere/pesi`,
     thumbnail: "/images/foto-pro/deporte1.webp",
   },
   {
     id: "img-fit-002",
-    title: "Entrenamiento con mancuernas (press hombros, look editorial gym)",
-    area: "Fotografía Pro",
-    category: "Gym / entrenamiento",
+    title: "Allenamento con manubri (shoulder press, look editoriale palestra)",
+    area: "Fotografia Pro",
+    category: "Palestra / allenamento",
     summary:
-      "Press de hombros con mancuernas, enfoque en esfuerzo real, estética gym editorial.",
-    prompt: `Genera una foto REALISTA en gimnasio entrenando con mancuernas.
+      "Shoulder press con manubri, focus su sforzo reale, estetica palestra editoriale.",
+    prompt: `Genera una foto REALISTICA in palestra mentre ci si allena con i manubri.
 
-DATOS:
-- Persona: [persona], [edad], expresión de esfuerzo auténtica
-- Acción: press de hombros con mancuernas (técnica correcta)
-- Outfit: deportivo sin logos, colores sobrios
-- Fondo: gym moderno desenfocado
+DATI:
+- Persona: [persona], [età], espressione di sforzo autentica
+- Azione: shoulder press con manubri (tecnica corretta)
+- Outfit: sportivo senza loghi, colori sobri
+- Sfondo: palestra moderna sfocata
 
-ILUMINACIÓN:
-- Luz suave superior + relleno sutil
-- Piel realista, sudor sutil
+ILLUMINAZIONE:
+- Luce morbida dall’alto + riempimento sottile
+- Pelle realistica, sudore leggero
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.0, ISO 1000
-- Enfoque en ojos y brazos, bokeh al fondo
+- Fuoco su occhi e braccia, bokeh sullo sfondo
 
-COMPOSICIÓN:
-- Plano medio/3/4, mancuernas visibles completas
+COMPOSIZIONE:
+- Mezzo busto / 3/4, manubri completamente visibili
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar dedos extra o pesas deformes`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare dita extra o pesi deformati`,
     thumbnail: "/images/foto-pro/deporte2.webp",
   },
   {
     id: "img-fit-003",
-    title: "Cuerda de batalla (acción congelada, energía alta, gym industrial)",
-    area: "Fotografía Pro",
-    category: "Gym / entrenamiento",
+    title: "Battle ropes (azione congelata, alta energia, palestra industriale)",
+    area: "Fotografia Pro",
+    category: "Palestra / allenamento",
     summary:
-      "Battle ropes con acción congelada y energía alta, estética industrial realista.",
-    prompt: `Genera una foto REALISTA de entrenamiento con cuerda de batalla (battle ropes).
+      "Battle ropes con azione congelata e alta energia, estetica industriale realistica.",
+    prompt: `Genera una foto REALISTICA di allenamento con battle ropes.
 
-DATOS:
-- Persona: [persona], [edad], postura fuerte, expresión concentrada
-- Acción: golpeando cuerdas, ondas visibles realistas
-- Outfit: deportivo sin logos
-- Ubicación: gym industrial (cemento, metal), fondo desenfocado
+DATI:
+- Persona: [persona], [età], postura forte, espressione concentrata
+- Azione: colpendo le corde, onde visibili e realistiche
+- Outfit: sportivo senza loghi
+- Location: palestra industriale (cemento, metallo), sfondo sfocato
 
-ILUMINACIÓN:
-- Luz lateral dura-suave controlada (look potente)
-- Contraste medio-alto, detalle en músculos y cuerdas
+ILLUMINAZIONE:
+- Luce laterale controllata tra dura e morbida (look potente)
+- Contrasto medio-alto, dettaglio su muscoli e corde
 
-CÁMARA:
+CAMERA:
 - 35mm, f/2.5, ISO 1250
-- Velocidad alta para congelar ondas
+- Tempi rapidi per congelare le onde
 
-COMPOSICIÓN:
-- Plano completo o 3/4, cuerdas dominan el frente
-- Sensación dinámica, potente
+COMPOSIZIONE:
+- Inquadratura intera o 3/4, corde dominanti in primo piano
+- Sensazione dinamica e potente
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar cuerdas deformes o manos irreales`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare corde deformi o mani irreali`,
     thumbnail: "/images/foto-pro/deporte3.webp",
   },
   {
     id: "img-fit-004",
-    title: "Peso muerto (técnica correcta, low-key, campaña fitness)",
-    area: "Fotografía Pro",
-    category: "Gym / entrenamiento",
+    title: "Stacco da terra (tecnica corretta, low-key, campagna fitness)",
+    area: "Fotografia Pro",
+    category: "Palestra / allenamento",
     summary:
-      "Peso muerto con técnica realista y estética low-key tipo campaña fitness.",
-    prompt: `Genera una foto REALISTA en gimnasio haciendo peso muerto.
+      "Stacco da terra con tecnica realistica e estetica low-key stile campagna fitness.",
+    prompt: `Genera una foto REALISTICA in palestra mentre si esegue lo stacco da terra.
 
-DATOS:
-- Persona: [persona], [edad], atlético/a
-- Acción: peso muerto con barra (espalda neutra, técnica correcta)
-- Outfit: deportivo minimal sin logos
-- Fondo: gym oscuro con racks desenfocados
+DATI:
+- Persona: [persona], [età], atletica/o
+- Azione: stacco da terra con bilanciere (schiena neutra, tecnica corretta)
+- Outfit: sportivo minimal senza loghi
+- Sfondo: palestra scura con rack sfocati
 
-ILUMINACIÓN:
-- Low-key: luz lateral suave + rim light sutil
-- Contraste alto pero con detalle en sombras
+ILLUMINAZIONE:
+- Low-key: luce laterale morbida + rim light sottile
+- Contrasto alto ma con dettaglio nelle ombre
 
-CÁMARA:
+CAMERA:
 - 35mm, f/2.2, ISO 1250
-- Enfoque en cara y barra, congelar movimiento
+- Fuoco su volto e bilanciere, congelare il movimento
 
-COMPOSICIÓN:
-- Plano 3/4, barra completa visible, postura poderosa
+COMPOSIZIONE:
+- Inquadratura 3/4, bilanciere completamente visibile, postura potente
 
-RESTRICCIONES:
-- Sin texto/logos
-- Barra y discos perfectamente circulares, sin deformación`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Bilanciere e dischi perfettamente circolari, senza deformazioni`,
     thumbnail: "/images/foto-pro/deporte4.webp",
   },
   {
     id: "img-fit-005",
-    title: "Entrenamiento funcional (kettlebell swing, gym moderno)",
-    area: "Fotografía Pro",
-    category: "Gym / entrenamiento",
+    title: "Allenamento funzionale (kettlebell swing, palestra moderna)",
+    area: "Fotografia Pro",
+    category: "Palestra / allenamento",
     summary:
-      "Kettlebell swing realista con dinámica, enfoque en postura y movimiento controlado.",
-    prompt: `Genera una foto REALISTA de entrenamiento funcional con kettlebell swing.
+      "Kettlebell swing realistico e dinamico, focus su postura e movimento controllato.",
+    prompt: `Genera una foto REALISTICA di allenamento funzionale con kettlebell swing.
 
-DATOS:
-- Persona: [persona], [edad], postura atlética
-- Acción: kettlebell swing (cadera atrás, espalda neutral, técnica correcta)
-- Outfit: deportivo sin logos
-- Ubicación: gym moderno, fondo desenfocado
+DATI:
+- Persona: [persona], [età], postura atletica
+- Azione: kettlebell swing (anche indietro, schiena neutra, tecnica corretta)
+- Outfit: sportivo senza loghi
+- Location: palestra moderna, sfondo sfocato
 
-ILUMINACIÓN:
-- Luz suave superior + relleno leve
-- Sudor sutil, textura de piel real
+ILLUMINAZIONE:
+- Luce morbida dall’alto + riempimento leggero
+- Sudore leggero, texture della pelle reale
 
-CÁMERA:
+CAMERA:
 - 35mm, f/2.5, ISO 1000
-- Congelar movimiento (sin blur fuerte)
+- Congelare il movimento (senza blur forte)
 
-COMPOSICIÓN:
-- Plano 3/4, kettlebell visible completo
+COMPOSIZIONE:
+- Inquadratura 3/4, kettlebell completamente visibile
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar pesas deformes o manos raras`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare pesi deformati o mani strane`,
     thumbnail: "/images/foto-pro/deporte5.webp",
   },
 
   // =========================
-  // CATEGORY: Running / exterior
+  // CATEGORY: Corsa / esterni
   // =========================
   {
     id: "img-fit-006",
-    title: "Running en ciudad (golden hour, movimiento congelado, realista)",
-    area: "Fotografía Pro",
-    category: "Running / exterior",
+    title: "Corsa in città (golden hour, movimento congelato, realistico)",
+    area: "Fotografia Pro",
+    category: "Corsa / esterni",
     summary:
-      "Corredor en ciudad al atardecer, acción congelada y estética deportiva premium.",
-    prompt: `Genera una foto REALISTA de running en exterior urbano.
+      "Runner in città al tramonto, azione congelata ed estetica sportiva premium.",
+    prompt: `Genera una foto REALISTICA di corsa in esterno urbano.
 
-DATOS:
-- Persona: [persona], [edad], ropa running sin logos
-- Acción: corriendo (paso congelado, postura creíble)
-- Ubicación: boulevard o calle amplia, edificios/árboles desenfocados
+DATI:
+- Persona: [persona], [età], abbigliamento da running senza loghi
+- Azione: correre (passo congelato, postura credibile)
+- Location: boulevard o strada ampia, edifici/alberi sfocati
 
-ILUMINACIÓN:
-- Golden hour cálida, luz lateral suave
-- Sombras ligeras, tonos naturales
+ILLUMINAZIONE:
+- Golden hour calda, luce laterale morbida
+- Ombre leggere, toni naturali
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.2, ISO 400
-- Velocidad alta para congelar movimiento
+- Tempi rapidi per congelare il movimento
 
-COMPOSICIÓN:
-- Plano completo, espacio hacia donde corre
-- Estética de campaña fitness
+COMPOSIZIONE:
+- Inquadratura intera, spazio davanti nella direzione di corsa
+- Estetica da campagna fitness
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar piernas/pies deformes`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare gambe/piedi deformati`,
     thumbnail: "/images/foto-pro/deporte6.webp",
   },
   {
     id: "img-fit-007",
-    title: "Running en parque (mañana nublada, look natural, bokeh suave)",
-    area: "Fotografía Pro",
-    category: "Running / exterior",
+    title: "Corsa al parco (mattina nuvolosa, look naturale, bokeh morbido)",
+    area: "Fotografia Pro",
+    category: "Corsa / esterni",
     summary:
-      "Runner en parque con luz suave y bokeh, estilo natural y creíble para redes.",
-    prompt: `Genera una foto REALISTA de running en parque.
+      "Runner al parco con luce morbida e bokeh, stile naturale e credibile per i social.",
+    prompt: `Genera una foto REALISTICA di corsa al parco.
 
-DATOS:
-- Persona: [persona], [edad], outfit deportivo minimal sin logos
-- Escena: parque con árboles, sendero, fondo desenfocado
-- Acción: trote suave o sprint ligero, postura natural
+DATI:
+- Persona: [persona], [età], outfit sportivo minimal senza loghi
+- Scena: parco con alberi, sentiero, sfondo sfocato
+- Azione: jogging leggero o sprint moderato, postura naturale
 
-ILUMINACIÓN:
-- Luz suave (nublado/mañana), colores naturales
-- Piel realista, sin filtros extremos
+ILLUMINAZIONE:
+- Luce morbida (nuvoloso/mattina), colori naturali
+- Pelle realistica, senza filtri estremi
 
-CÁMERA:
+CAMERA:
 - 85mm, f/2.0, ISO 500
-- Enfoque en rostro, fondo bokeh
+- Fuoco sul volto, sfondo bokeh
 
-COMPOSICIÓN:
-- Plano 3/4 o completo, sensación aire fresco
+COMPOSIZIONE:
+- Inquadratura 3/4 o intera, sensazione di aria fresca
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar duplicación de extremidades`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare duplicazione degli arti`,
     thumbnail: "/images/foto-pro/deporte7.webp",
   },
   {
     id: "img-fit-008",
-    title: "Sprint en pista (look atleta, contraste medio, realista)",
-    area: "Fotografía Pro",
-    category: "Running / exterior",
+    title: "Sprint in pista (look atletico, contrasto medio, realistico)",
+    area: "Fotografia Pro",
+    category: "Corsa / esterni",
     summary:
-      "Atleta en pista haciendo sprint, energía alta, técnica creíble y estética deportiva.",
-    prompt: `Genera una foto REALISTA de sprint en pista de atletismo.
+      "Atleta in pista in sprint, alta energia, tecnica credibile ed estetica sportiva.",
+    prompt: `Genera una foto REALISTICA di sprint su pista di atletica.
 
-DATOS:
-- Persona: [persona], [edad], atleta
-- Acción: sprint (posición de carrera realista, músculos en tensión)
-- Outfit: ropa deportiva sin logos
-- Fondo: pista y gradas desenfocadas
+DATI:
+- Persona: [persona], [età], atleta
+- Azione: sprint (posizione realistica, muscoli in tensione)
+- Outfit: abbigliamento sportivo senza loghi
+- Sfondo: pista e tribune sfocate
 
-ILUMINACIÓN:
-- Luz natural clara, contraste medio
-- Sombras suaves, detalle visible
+ILLUMINAZIONE:
+- Luce naturale chiara, contrasto medio
+- Ombre morbide, dettaglio visibile
 
-CÁMERA:
+CAMERA:
 - 70mm, f/2.8, ISO 400
-- Velocidad alta para congelar movimiento
+- Tempi rapidi per congelare il movimento
 
-COMPOSICIÓN:
-- Ángulo bajo lateral 3/4, sensación de velocidad
+COMPOSIZIONE:
+- Angolo basso laterale 3/4, sensazione di velocità
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar pies deformes o pista “derretida”`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare piedi deformati o pista “fusa”`,
     thumbnail: "/images/foto-pro/deporte8.webp",
   },
   {
     id: "img-fit-009",
-    title: "Running nocturno (faroles, look cinematográfico, lluvia sutil)",
-    area: "Fotografía Pro",
-    category: "Running / exterior",
+    title: "Corsa notturna (lampioni, look cinematografico, pioggia leggera)",
+    area: "Fotografia Pro",
+    category: "Corsa / esterni",
     summary:
-      "Corredor de noche con faroles y vibe cinematográfico (opcional lluvia sutil y reflejos).",
-    prompt: `Genera una foto REALISTA de running nocturno cinematográfico.
+      "Runner di notte con lampioni e vibe cinematografica (pioggia leggera e riflessi opzionali).",
+    prompt: `Genera una foto REALISTICA cinematografica di corsa notturna.
 
-DATOS:
-- Persona: [persona], [edad], outfit running oscuro sin logos
-- Escena: calle con faroles cálidos, suelo ligeramente mojado (opcional)
-- Acción: correr (postura natural), respiración visible sutil opcional
+DATI:
+- Persona: [persona], [età], outfit running scuro senza loghi
+- Scena: strada con lampioni caldi, asfalto leggermente bagnato (opzionale)
+- Azione: correre (postura naturale), respiro visibile molto leggero opzionale
 
-ILUMINACIÓN:
-- Faroles como luz principal + relleno suave
-- Reflejos realistas en asfalto
+ILLUMINAZIONE:
+- Lampioni come luce principale + riempimento morbido
+- Riflessi realistici sull’asfalto
 
-CÁMERA:
+CAMERA:
 - 35mm, f/1.8, ISO 1600
-- Enfoque en rostro y torso, bokeh de luces
+- Fuoco su volto e torso, bokeh di luci
 
-COMPOSICIÓN:
-- Plano 3/4, ambiente profundo urbano
+COMPOSIZIONE:
+- Inquadratura 3/4, ambiente urbano profondo
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar ruido excesivo o blur artificial`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare rumore eccessivo o blur artificiale`,
     thumbnail: "/images/foto-pro/deporte9.webp",
   },
   {
     id: "img-fit-010",
-    title: "Running en montaña (amanecer, épico pero realista, aire libre)",
-    area: "Fotografía Pro",
-    category: "Running / exterior",
+    title: "Corsa in montagna (alba, epico ma realistico, outdoor)",
+    area: "Fotografia Pro",
+    category: "Corsa / esterni",
     summary:
-      "Trail running al amanecer: sensación épica con realismo, paisaje y deportista protagonista.",
-    prompt: `Genera una foto REALISTA de trail running en montaña.
+      "Trail running all’alba: sensazione epica ma realistica, paesaggio e atleta protagonisti.",
+    prompt: `Genera una foto REALISTICA di trail running in montagna.
 
-DATOS:
-- Persona: [persona], [edad], outfit trail sin logos
-- Escena: sendero de montaña, paisaje amplio, niebla ligera opcional
-- Acción: corriendo cuesta arriba, postura creíble
+DATI:
+- Persona: [persona], [età], outfit trail senza loghi
+- Scena: sentiero di montagna, panorama ampio, leggera nebbia opzionale
+- Azione: correre in salita, postura credibile
 
-ILUMINACIÓN:
-- Amanecer con luz suave dorada
-- Contraste medio, colores naturales
+ILLUMINAZIONE:
+- Alba con luce morbida dorata
+- Contrasto medio, colori naturali
 
-CÁMERA:
+CAMERA:
 - 35mm, f/2.8, ISO 400
-- Enfoque en atleta, fondo con profundidad
+- Fuoco sull’atleta, sfondo con profondità
 
-COMPOSICIÓN:
-- Plano completo, atleta en tercio inferior, paisaje protagonista
+COMPOSIZIONE:
+- Inquadratura intera, atleta nel terzo inferiore, paesaggio protagonista
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar montañas irreales o extremidades deformes`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare montagne irreali o arti deformati`,
     thumbnail: "/images/foto-pro/deporte10.webp",
   },
 
   // =========================
-  // CATEGORY: Yoga / bienestar
+  // CATEGORY: Yoga / benessere
   // =========================
   {
     id: "img-fit-011",
-    title: "Yoga en estudio (luz suave, minimal, postura correcta)",
-    area: "Fotografía Pro",
-    category: "Yoga / bienestar",
+    title: "Yoga in studio (luce morbida, minimal, postura corretta)",
+    area: "Fotografia Pro",
+    category: "Yoga / benessere",
     summary:
-      "Yoga minimal en estudio con luz suave y estética calm, postura realista.",
-    prompt: `Genera una foto REALISTA de yoga en estudio minimal.
+      "Yoga minimal in studio con luce morbida ed estetica calm, postura realistica.",
+    prompt: `Genera una foto REALISTICA di yoga in uno studio minimal.
 
-DATOS:
-- Persona: [persona], [edad], expresión calmada
-- Acción: postura de yoga [guerrero/perro boca abajo/árbol], técnica correcta
-- Outfit: yoga minimal sin logos
-- Escena: estudio minimal con pared clara, planta desenfocada opcional
+DATI:
+- Persona: [persona], [età], espressione calma
+- Azione: posizione yoga [guerriero/cane a testa in giù/albero], tecnica corretta
+- Outfit: abbigliamento yoga minimal senza loghi
+- Scena: studio minimal con parete chiara, pianta sfocata opzionale
 
-ILUMINACIÓN:
-- Luz suave natural (ventana) + sombras delicadas
-- Colores neutros, look wellness
+ILLUMINAZIONE:
+- Luce naturale morbida (finestra) + ombre delicate
+- Colori neutri, look wellness
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.5, ISO 200
-- Enfoque en rostro y torso, fondo suave
+- Fuoco su volto e torso, sfondo morbido
 
-COMPOSICIÓN:
-- Plano 3/4 o completo, espacio negativo
+COMPOSIZIONE:
+- Inquadratura 3/4 o intera, spazio negativo
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar articulaciones imposibles`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare articolazioni impossibili`,
     thumbnail: "/images/foto-pro/deporte11.webp",
   },
   {
     id: "img-fit-012",
-    title: "Yoga al amanecer en exterior (playa o parque, vibe wellness)",
-    area: "Fotografía Pro",
-    category: "Yoga / bienestar",
+    title: "Yoga all’alba all’aperto (spiaggia o parco, vibe wellness)",
+    area: "Fotografia Pro",
+    category: "Yoga / benessere",
     summary:
-      "Yoga al amanecer con luz dorada suave y ambiente wellness natural.",
-    prompt: `Genera una foto REALISTA de yoga al amanecer en exterior.
+      "Yoga all’alba con luce dorata morbida e ambiente wellness naturale.",
+    prompt: `Genera una foto REALISTICA di yoga all’alba all’aperto.
 
-DATOS:
-- Persona: [persona], [edad], postura de yoga realista
-- Escena: playa o parque, fondo suave con horizonte
-- Outfit: yoga sin logos, colores neutros
+DATI:
+- Persona: [persona], [età], postura yoga realistica
+- Scena: spiaggia o parco, sfondo morbido con orizzonte
+- Outfit: yoga senza loghi, colori neutri
 
-ILUMINACIÓN:
-- Amanecer (golden light suave), sombras delicadas
-- Atmósfera calmada, tonos cálidos suaves
+ILLUMINAZIONE:
+- Alba (golden light morbida), ombre delicate
+- Atmosfera calma, toni caldi morbidi
 
-CÁMARA:
+CAMERA:
 - 35mm, f/2.8, ISO 250
-- Enfoque en persona, fondo con profundidad suave
+- Fuoco sulla persona, sfondo con profondità morbida
 
-COMPOSICIÓN:
-- Plano completo, persona centrada o en tercios, paisaje respirable
+COMPOSIZIONE:
+- Inquadratura intera, persona centrata o nei terzi, paesaggio “respirabile”
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar rasgos faciales raros o extremidades extra`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare tratti del viso strani o arti extra`,
     thumbnail: "/images/foto-pro/deporte12.webp",
   },
   {
     id: "img-fit-013",
-    title: "Meditación close-up (rostro sereno, luz suave, estilo wellness)",
-    area: "Fotografía Pro",
-    category: "Yoga / bienestar",
+    title: "Meditazione close-up (viso sereno, luce morbida, stile wellness)",
+    area: "Fotografia Pro",
+    category: "Yoga / benessere",
     summary:
-      "Retrato wellness: meditación con calma, piel realista y luz suave tipo ventana.",
-    prompt: `Genera un retrato REALISTA estilo wellness de meditación.
+      "Ritratto wellness: meditazione con calma, pelle realistica e luce morbida tipo finestra.",
+    prompt: `Genera un ritratto REALISTICO in stile wellness di meditazione.
 
-DATOS:
-- Persona: [persona], [edad], ojos cerrados, rostro sereno
-- Outfit: ropa cómoda minimal sin logos
-- Fondo: interior minimal o naturaleza desenfocada
+DATI:
+- Persona: [persona], [età], occhi chiusi, volto sereno
+- Outfit: abbigliamento comodo minimal senza loghi
+- Sfondo: interno minimal o natura sfocata
 
-ILUMINACIÓN:
-- Luz suave de ventana (lateral) + relleno leve
-- Piel realista con textura natural
+ILLUMINAZIONE:
+- Luce morbida da finestra (laterale) + riempimento leggero
+- Pelle realistica con texture naturale
 
-CÁMERA:
+CAMERA:
 - 85mm, f/2.0, ISO 200
-- Enfoque en rostro, bokeh suave
+- Fuoco sul volto, bokeh morbido
 
-COMPOSICIÓN:
-- Primer plano o plano medio-corto, ambiente calm
+COMPOSIZIONE:
+- Primo piano o mezzo primo piano, ambiente calm
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar piel plástica o ojos deformes`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare pelle “di plastica” o occhi deformi`,
     thumbnail: "/images/foto-pro/deporte13.webp",
   },
   {
     id: "img-fit-014",
-    title: "Stretching post-entreno (luz natural, gimnasio o parque, realista)",
-    area: "Fotografía Pro",
-    category: "Yoga / bienestar",
+    title: "Stretching post-allenamento (luce naturale, palestra o parco, realistico)",
+    area: "Fotografia Pro",
+    category: "Yoga / benessere",
     summary:
-      "Estiramiento realista post-entreno con luz natural suave y vibe saludable.",
-    prompt: `Genera una foto REALISTA de stretching/post-entreno.
+      "Stretching realistico post-allenamento con luce naturale morbida e vibe salutare.",
+    prompt: `Genera una foto REALISTICA di stretching/post-allenamento.
 
-DATOS:
-- Persona: [persona], [edad], postura de estiramiento real
-- Escena: gimnasio con fondo desenfocado o parque
-- Outfit: deportivo sin logos
-- Props: mat/esterilla opcional
+DATI:
+- Persona: [persona], [età], postura di stretching reale
+- Scena: palestra con sfondo sfocato o parco
+- Outfit: sportivo senza loghi
+- Props: tappetino/fitness mat opzionale
 
-ILUMINACIÓN:
-- Luz suave natural, sombras mínimas
-- Colores reales, vibe saludable
+ILLUMINAZIONE:
+- Luce naturale morbida, ombre minime
+- Colori reali, vibe salutare
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.8, ISO 400
-- Enfoque en persona, fondo bokeh
+- Fuoco sulla persona, sfondo bokeh
 
-COMPOSICIÓN:
-- Plano 3/4 o completo, postura visible correctamente
+COMPOSIZIONE:
+- Inquadratura 3/4 o intera, postura visibile correttamente
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar articulaciones imposibles o manos raras`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare articolazioni impossibili o mani strane`,
     thumbnail: "/images/foto-pro/deporte14.webp",
   },
   {
     id: "img-fit-015",
-    title: "Yoga con luz de ventana (silhouette suave, editorial calm)",
-    area: "Fotografía Pro",
-    category: "Yoga / bienestar",
+    title: "Yoga con luce dalla finestra (silhouette morbida, editoriale calm)",
+    area: "Fotografia Pro",
+    category: "Yoga / benessere",
     summary:
-      "Yoga editorial calm con luz de ventana y silueta suave, minimal y realista.",
-    prompt: `Genera una foto REALISTA editorial calm de yoga con luz de ventana.
+      "Yoga editoriale calm con luce da finestra e silhouette morbida, minimal e realistico.",
+    prompt: `Genera una foto REALISTICA editoriale calm di yoga con luce da finestra.
 
-DATOS:
-- Persona: [persona], [edad], postura [guerrero/triángulo], técnica correcta
-- Escena: interior minimal con gran ventana, cortinas suaves
-- Outfit: yoga sin logos, tonos neutros
+DATI:
+- Persona: [persona], [età], postura [guerriero/triangolo], tecnica corretta
+- Scena: interno minimal con grande finestra, tende morbide
+- Outfit: yoga senza loghi, toni neutri
 
-ILUMINACIÓN:
-- Contraluz suave de ventana (silhouette leve pero con detalle)
-- Sombras suaves, ambiente calm
+ILLUMINAZIONE:
+- Controluce morbido da finestra (silhouette leggera ma con dettaglio)
+- Ombre morbide, atmosfera calm
 
-CÁMERA:
+CAMERA:
 - 35mm, f/2.8, ISO 400
-- Enfoque en cuerpo, fondo suave
+- Fuoco sul corpo, sfondo morbido
 
-COMPOSICIÓN:
-- Plano completo, mucho espacio negativo, estética editorial wellness
+COMPOSIZIONE:
+- Inquadratura intera, molto spazio negativo, estetica editoriale wellness
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar sombras “empastadas” sin detalle`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare ombre “impastate” senza dettaglio`,
     thumbnail: "/images/foto-pro/deporte15.webp",
   },
 
   // =========================
-  // CATEGORY: Deportes de equipo / acción
+  // CATEGORY: Sport di squadra / azione
   // =========================
   {
     id: "img-fit-016",
-    title: "Fútbol (disparo a portería, acción congelada, estadio desenfocado)",
-    area: "Fotografía Pro",
-    category: "Deportes de equipo / acción",
+    title: "Calcio (tiro in porta, azione congelata, stadio sfocato)",
+    area: "Fotografia Pro",
+    category: "Sport di squadra / azione",
     summary:
-      "Acción de fútbol congelada con postura creíble, estadio desenfocado y vibra deportiva.",
-    prompt: `Genera una foto REALISTA de acción deportiva (fútbol).
+      "Azione di calcio congelata con postura credibile, stadio sfocato e vibe sportiva.",
+    prompt: `Genera una foto REALISTICA di azione sportiva (calcio).
 
-DATOS:
-- Jugador/a: [persona], [edad], uniforme genérico sin logos
-- Acción: disparando a portería (postura realista, balón nítido)
-- Escena: cancha, estadio/gradas desenfocadas
-- Polvo/cesped levantándose sutil opcional
+DATI:
+- Giocatore/trice: [persona], [età], divisa generica senza loghi
+- Azione: tiro in porta (postura realistica, pallone nitido)
+- Scena: campo, stadio/tribune sfocate
+- Polvere/erba sollevata leggermente opzionale
 
-ILUMINACIÓN:
-- Luz natural o estadio, contraste medio
-- Congelar movimiento
+ILLUMINAZIONE:
+- Luce naturale o da stadio, contrasto medio
+- Congelare il movimento
 
-CÁMARA:
-- 70–200mm look, f/2.8, ISO 800
-- Enfoque en jugador y balón
+CAMERA:
+- Look 70–200mm, f/2.8, ISO 800
+- Fuoco su giocatore e pallone
 
-COMPOSICIÓN:
-- Ángulo lateral bajo, sensación de velocidad
+COMPOSIZIONE:
+- Angolo laterale basso, sensazione di velocità
 
-RESTRICCIONES:
-- Sin texto/watermark/logos
-- Evitar piernas/ball deformes`,
+RESTRIZIONI:
+- Niente testo/watermark/loghi
+- Evitare gambe o pallone deformati`,
     thumbnail: "/images/foto-pro/deporte16.webp",
   },
   {
     id: "img-fit-017",
-    title: "Básquet (salto a canasta, motion freeze, luz indoor realista)",
-    area: "Fotografía Pro",
-    category: "Deportes de equipo / acción",
+    title: "Basket (salto a canestro, motion freeze, luce indoor realistica)",
+    area: "Fotografia Pro",
+    category: "Sport di squadra / azione",
     summary:
-      "Básquet indoor: salto a canasta con acción congelada y estética deportiva realista.",
-    prompt: `Genera una foto REALISTA de acción deportiva (básquet) en interior.
+      "Basket indoor: salto a canestro con azione congelata ed estetica sportiva realistica.",
+    prompt: `Genera una foto REALISTICA di azione sportiva (basket) al coperto.
 
-DATOS:
-- Jugador/a: [persona], [edad], uniforme genérico sin logos
-- Acción: salto hacia la canasta con balón (postura creíble)
-- Escena: cancha indoor, público desenfocado
+DATI:
+- Giocatore/trice: [persona], [età], divisa generica senza loghi
+- Azione: salto verso il canestro con palla (postura credibile)
+- Scena: campo indoor, pubblico sfocato
 
-ILUMINACIÓN:
-- Luz indoor de gimnasio, realista
-- Congelar acción, sin blur fuerte
+ILLUMINAZIONE:
+- Luce indoor da palestra, realistica
+- Congelare l’azione, senza blur forte
 
-CÁMERA:
+CAMERA:
 - 85mm, f/2.0, ISO 1600
-- Enfoque en jugador y balón, fondo bokeh
+- Fuoco su giocatore e palla, sfondo bokeh
 
-COMPOSICIÓN:
-- Ángulo bajo hacia el aro, sensación épica
+COMPOSIZIONE:
+- Angolo basso verso il ferro, sensazione epica
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar manos deformes o balón raro`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare mani deformi o palla strana`,
     thumbnail: "/images/foto-pro/deporte17.webp",
   },
   {
     id: "img-fit-018",
-    title: "Box / sparring (guantes, sudor sutil, low-key potente)",
-    area: "Fotografía Pro",
-    category: "Deportes de equipo / acción",
+    title: "Boxe / sparring (guanti, sudore leggero, low-key potente)",
+    area: "Fotografia Pro",
+    category: "Sport di squadra / azione",
     summary:
-      "Boxeo low-key potente: guantes, movimiento congelado y sensación de intensidad real.",
-    prompt: `Genera una foto REALISTA de boxeo/sparring.
+      "Boxe low-key potente: guanti, movimento congelato e sensazione di intensità reale.",
+    prompt: `Genera una foto REALISTICA di boxe/sparring.
 
-DATOS:
-- Persona: [persona], [edad], guantes de box, postura realista
-- Acción: golpe en el aire o sparring (sin violencia gráfica, solo deporte)
-- Escena: gimnasio de box, fondo oscuro desenfocado
+DATI:
+- Persona: [persona], [età], guanti da boxe, postura realistica
+- Azione: colpo a vuoto o sparring (senza violenza grafica, solo sport)
+- Scena: palestra di boxe, sfondo scuro sfocato
 
-ILUMINACIÓN:
-- Low-key: luz lateral + rim light suave
-- Sudor sutil realista, textura de piel
+ILLUMINAZIONE:
+- Low-key: luce laterale + rim light morbida
+- Sudore leggero realistico, texture della pelle
 
-CÁMERA:
+CAMERA:
 - 50mm, f/2.2, ISO 1600
-- Congelar movimiento (sin blur exagerado)
+- Congelare il movimento (senza blur esagerato)
 
-COMPOSICIÓN:
-- Plano medio/3/4, guantes en primer plano
-- Estética de campaña
+COMPOSIZIONE:
+- Mezzo busto / 3/4, guanti in primo piano
+- Estetica da campagna
 
-RESTRICCIONES:
-- Sin sangre/heridas
-- Sin texto/logos/watermark`,
+RESTRIZIONI:
+- Niente sangue/ferite
+- Niente testo/loghi/watermark`,
     thumbnail: "/images/foto-pro/deporte18.webp",
   },
   {
     id: "img-fit-019",
-    title: "Tenis (golpe de derecha, outdoor, acción congelada, realista)",
-    area: "Fotografía Pro",
-    category: "Deportes de equipo / acción",
+    title: "Tennis (dritto, outdoor, azione congelata, realistico)",
+    area: "Fotografia Pro",
+    category: "Sport di squadra / azione",
     summary:
-      "Tenis en exterior: golpe de derecha con acción congelada y estética deportiva premium.",
-    prompt: `Genera una foto REALISTA de tenis en exterior.
+      "Tennis outdoor: dritto con azione congelata ed estetica sportiva premium.",
+    prompt: `Genera una foto REALISTICA di tennis all’aperto.
 
-DATOS:
-- Jugador/a: [persona], [edad], outfit deportivo sin logos
-- Acción: golpe de derecha o saque (técnica creíble)
-- Escena: cancha de tenis, fondo desenfocado
+DATI:
+- Giocatore/trice: [persona], [età], outfit sportivo senza loghi
+- Azione: dritto o servizio (tecnica credibile)
+- Scena: campo da tennis, sfondo sfocato
 
-ILUMINACIÓN:
-- Luz natural clara, contraste medio
-- Congelar acción (raqueta y pelota nítidas)
+ILLUMINAZIONE:
+- Luce naturale chiara, contrasto medio
+- Congelare l’azione (racchetta e palla nitide)
 
-CÁMERA:
-- 70–200mm look, f/2.8, ISO 800
-- Enfoque en jugador y pelota
+CAMERA:
+- Look 70–200mm, f/2.8, ISO 800
+- Fuoco su giocatore e palla
 
-COMPOSICIÓN:
-- Ángulo lateral, sensación de velocidad
+COMPOSIZIONE:
+- Angolo laterale, sensazione di velocità
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar raqueta/pelota deformes`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare racchetta/palla deformate`,
     thumbnail: "/images/foto-pro/deporte19.webp",
   },
   {
     id: "img-fit-020",
-    title: "Ciclismo (ruta, golden hour, motion realista, campaña)",
-    area: "Fotografía Pro",
-    category: "Deportes de equipo / acción",
+    title: "Ciclismo (strada, golden hour, motion realistico, campagna)",
+    area: "Fotografia Pro",
+    category: "Sport di squadra / azione",
     summary:
-      "Ciclismo ruta al atardecer con estética de campaña, velocidad creíble y realismo.",
-    prompt: `Genera una foto REALISTA de ciclismo en ruta.
+      "Ciclismo su strada al tramonto con estetica da campagna, velocità credibile e realismo.",
+    prompt: `Genera una foto REALISTICA di ciclismo su strada.
 
-DATOS:
-- Ciclista: [persona], [edad], casco, outfit sin logos
-- Bicicleta: de ruta, proporciones realistas (ruedas perfectas)
-- Escena: carretera abierta, golden hour, fondo desenfocado
-- Acción: pedaleando, sensación de velocidad
+DATI:
+- Ciclista: [persona], [età], casco, outfit senza loghi
+- Bicicletta: da strada, proporzioni realistiche (ruote perfette)
+- Scena: strada aperta, golden hour, sfondo sfocato
+- Azione: pedalare, sensazione di velocità
 
-ILUMINACIÓN:
-- Luz dorada lateral, sombras suaves, reflejos realistas
+ILLUMINAZIONE:
+- Luce dorata laterale, ombre morbide, riflessi realistici
 
-CÁMERA:
+CAMERA:
 - 35mm, f/2.8, ISO 400
-- Un poco de motion blur controlado en fondo opcional (mínimo)
+- Un leggero motion blur controllato sullo sfondo opzionale (minimo)
 
-COMPOSICIÓN:
-- Plano 3/4, ciclista protagonista, paisaje respirable
+COMPOSIZIONE:
+- Inquadratura 3/4, ciclista protagonista, paesaggio “respirabile”
 
-RESTRICCIONES:
-- Sin texto/watermark/logos
-- Evitar ruedas ovaladas o bicicleta deformada`,
+RESTRIZIONI:
+- Niente testo/watermark/loghi
+- Evitare ruote ovali o bicicletta deformata`,
     thumbnail: "/images/foto-pro/deporte20.webp",
   },
 ];

@@ -2,624 +2,624 @@
 
 export const imagePromptsFotoGastronomia = [
   // =========================
-  // CATEGORY: Platos (restaurant / editorial)
+  // CATEGORY: Piatti (ristorante / editoriale)
   // =========================
   {
     id: "img-food-001",
-    title: "Plato gourmet en restaurante (luz cálida, shallow depth, realista)",
-    area: "Fotografía Pro",
-    category: "Platos (restaurant / editorial)",
+    title: "Piatto gourmet al ristorante (luce calda, profondità ridotta, realistico)",
+    area: "Fotografia Pro",
+    category: "Piatti (ristorante / editoriale)",
     summary:
-      "Foto editorial de restaurante: plato gourmet con luz cálida y fondo bokeh premium.",
-    prompt: `Genera una fotografía REALISTA de gastronomía estilo restaurante (editorial).
+      "Foto editoriale da ristorante: piatto gourmet con luce calda e sfondo bokeh premium.",
+    prompt: `Genera una fotografia REALISTICA di gastronomia in stile ristorante (editoriale).
 
-DATOS:
-- Plato: [describir plato gourmet] (presentación cuidada, porciones reales)
-- Vajilla: plato de cerámica premium (sin logos)
-- Fondo: restaurante elegante desenfocado (bokeh de luces cálidas)
+DATI:
+- Piatto: [descrivi piatto gourmet] (presentazione curata, porzioni realistiche)
+- Stoviglie: piatto in ceramica premium (senza loghi)
+- Sfondo: ristorante elegante sfocato (bokeh di luci calde)
 
-ILUMINACIÓN:
-- Luz cálida suave lateral (tipo lámpara/ambiente restaurante)
-- Brillos controlados en salsas/aceites, textura real
+ILLUMINAZIONE:
+- Luce calda morbida laterale (tipo lampada/atmosfera da ristorante)
+- Luci controllate su salse/oli, texture realistica
 
-CÁMARA:
-- 50mm u 85mm, f/2.0, ISO 400
-- Enfoque en punto principal del plato (proteína o garnish)
+FOTOCAMERA:
+- 50mm o 85mm, f/2.0, ISO 400
+- Fuoco sul punto principale del piatto (proteina o garnish)
 
-COMPOSICIÓN:
-- Plano 3/4 (ángulo de 45°), plato centrado
-- Estética de revista, colores naturales
+COMPOSIZIONE:
+- Angolo 3/4 (45°), piatto centrato
+- Estetica da rivista, colori naturali
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar comida “plástica” o irreal`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare cibo “di plastica” o irreale`,
     thumbnail: "/images/foto-pro/food1.webp",
   },
   {
     id: "img-food-002",
-    title: "Plato minimalista fine dining (fondo oscuro, low-key elegante)",
-    area: "Fotografía Pro",
-    category: "Platos (restaurant / editorial)",
+    title: "Piatto minimalista fine dining (sfondo scuro, low-key elegante)",
+    area: "Fotografia Pro",
+    category: "Piatti (ristorante / editoriale)",
     summary:
-      "Fine dining low-key: fondo oscuro, plato minimalista y luces controladas tipo campaña.",
-    prompt: `Genera una foto REALISTA fine dining low-key (elegante).
+      "Fine dining low-key: sfondo scuro, piatto minimal e luci controllate in stile campagna.",
+    prompt: `Genera una foto REALISTICA fine dining low-key (elegante).
 
-DATOS:
-- Plato: minimalista (pocos elementos), emplatado artístico
-- Vajilla: negra o gris carbón (sin logos)
-- Fondo: oscuro desenfocado, ambiente sofisticado
+DATI:
+- Piatto: minimalista (pochi elementi), impiattamento artistico
+- Stoviglie: nere o grigio antracite (senza loghi)
+- Sfondo: scuro e sfocato, atmosfera sofisticata
 
-ILUMINACIÓN:
-- Key light lateral suave, sombras con detalle
-- Reflejos controlados, contraste medio-alto
+ILLUMINAZIONE:
+- Key light laterale morbida, ombre con dettaglio
+- Riflessi controllati, contrasto medio-alto
 
-CÁMARA:
+FOTOCAMERA:
 - 85mm, f/2.2, ISO 500
-- Enfoque nítido en el elemento principal
+- Fuoco nitido sull’elemento principale
 
-COMPOSICIÓN:
-- Ángulo 45° o muy bajo (hero), enfoque selectivo
-- Estética premium de campaña
+COMPOSIZIONE:
+- Angolo 45° o molto basso (hero), fuoco selettivo
+- Estetica premium da campagna
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar sombras empastadas (quiero detalle)`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare ombre “chiuse” senza dettaglio (voglio dettaglio)`,
     thumbnail: "/images/foto-pro/food2.webp",
   },
   {
     id: "img-food-003",
-    title: "Pasta cremosa en mesa de madera (luz natural, estilo hogar premium)",
-    area: "Fotografía Pro",
-    category: "Platos (restaurant / editorial)",
+    title: "Pasta cremosa su tavolo in legno (luce naturale, stile casa premium)",
+    area: "Fotografia Pro",
+    category: "Piatti (ristorante / editoriale)",
     summary:
-      "Foto realista de pasta en mesa de madera, luz natural de ventana, vibe hogareña premium.",
-    prompt: `Genera una foto REALISTA de un plato de pasta cremosa en mesa.
+      "Foto realistica di pasta su tavolo in legno, luce naturale da finestra, vibe domestica premium.",
+    prompt: `Genera una foto REALISTICA di un piatto di pasta cremosa su un tavolo.
 
-DATOS:
-- Plato: pasta cremosa con toppings realistas (queso, hierbas, pimienta)
-- Props: tenedor, servilleta de tela, vaso (sin marcas)
-- Superficie: mesa de madera cálida
-- Fondo: cocina o comedor desenfocado
+DATI:
+- Piatto: pasta cremosa con topping realistici (formaggio, erbe, pepe)
+- Props: forchetta, tovagliolo in tessuto, bicchiere (senza marchi)
+- Superficie: tavolo in legno caldo
+- Sfondo: cucina o sala da pranzo sfocata
 
-ILUMINACIÓN:
-- Luz natural lateral de ventana
-- Texturas visibles (pasta, salsa), vapor sutil opcional
+ILLUMINAZIONE:
+- Luce naturale laterale da finestra
+- Texture visibili (pasta, salsa), vapore leggero opzionale
 
-CÁMARA:
+FOTOCAMERA:
 - 50mm, f/2.2, ISO 250
-- Enfoque en centro del plato
+- Fuoco al centro del piatto
 
-COMPOSICIÓN:
-- Ángulo 45°, composición acogedora
+COMPOSIZIONE:
+- Angolo 45°, composizione accogliente
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar ingredientes irreales o deformes`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare ingredienti irreali o deformati`,
     thumbnail: "/images/foto-pro/food3.webp",
   },
   {
     id: "img-food-004",
-    title: "Hamburguesa jugosa estilo anuncio (macro detalle, realista)",
-    area: "Fotografía Pro",
-    category: "Platos (restaurant / editorial)",
+    title: "Hamburger succoso stile pubblicità (macro dettaglio, realistico)",
+    area: "Fotografia Pro",
+    category: "Piatti (ristorante / editoriale)",
     summary:
-      "Hamburguesa estilo campaña: macro de textura, ingredientes realistas y luz controlada.",
-    prompt: `Genera una foto REALISTA estilo anuncio de una hamburguesa.
+      "Hamburger stile campagna: macro su texture, ingredienti realistici e luce controllata.",
+    prompt: `Genera una foto REALISTICA in stile pubblicità di un hamburger.
 
-DATOS:
-- Comida: hamburguesa grande pero realista (pan, carne, queso, vegetales)
-- Detalles: textura de pan y carne, brillo sutil en salsa
-- Fondo: desenfocado, oscuro o neutro, estilo campaña
+DATI:
+- Cibo: hamburger grande ma realistico (pane, carne, formaggio, verdure)
+- Dettagli: texture del pane e della carne, lucentezza sottile sulla salsa
+- Sfondo: sfocato, scuro o neutro, stile campagna
 
-ILUMINACIÓN:
-- Luz lateral suave + relleno mínimo
-- Alto detalle, sin look “fake”
+ILLUMINAZIONE:
+- Luce laterale morbida + riempimento minimo
+- Alto dettaglio, senza look “finto”
 
-CÁMARA:
+FOTOCAMERA:
 - 85mm, f/2.8, ISO 200
-- Enfoque en el centro (carne/queso), bokeh en fondo
+- Fuoco al centro (carne/formaggio), bokeh sullo sfondo
 
-COMPOSICIÓN:
-- Plano frontal ligeramente bajo (hero)
-- Estética publicitaria premium
+COMPOSIZIONE:
+- Inquadratura frontale leggermente bassa (hero)
+- Estetica pubblicitaria premium
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar ingredientes flotantes o formas imposibles`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare ingredienti sospesi o forme impossibili`,
     thumbnail: "/images/foto-pro/food4.webp",
   },
   {
     id: "img-food-005",
-    title: "Postre de chocolate (bokeh cálido, estilo cafetería premium)",
-    area: "Fotografía Pro",
-    category: "Platos (restaurant / editorial)",
+    title: "Dessert al cioccolato (bokeh caldo, stile caffetteria premium)",
+    area: "Fotografia Pro",
+    category: "Piatti (ristorante / editoriale)",
     summary:
-      "Postre de chocolate con luz cálida y fondo tipo cafetería desenfocado, estética premium.",
-    prompt: `Genera una foto REALISTA de un postre de chocolate estilo cafetería premium.
+      "Dessert al cioccolato con luce calda e sfondo da caffetteria sfocato, estetica premium.",
+    prompt: `Genera una foto REALISTICA di un dessert al cioccolato in stile caffetteria premium.
 
-DATOS:
-- Postre: [brownie/tarta/mousse] con detalles (cacao, frutos rojos)
-- Vajilla: plato pequeño cerámica, sin logos
-- Fondo: cafetería cálida desenfocada con bokeh
+DATI:
+- Dessert: [brownie/torta/mousse] con dettagli (cacao, frutti rossi)
+- Stoviglie: piattino in ceramica, senza loghi
+- Sfondo: caffetteria calda sfocata con bokeh
 
-ILUMINACIÓN:
-- Luz cálida suave (ambiente cafetería) + reflejos controlados
-- Textura real del chocolate, brillo sutil
+ILLUMINAZIONE:
+- Luce calda morbida (ambiente caffetteria) + riflessi controllati
+- Texture reale del cioccolato, lucentezza sottile
 
-CÁMARA:
+FOTOCAMERA:
 - 50mm, f/2, ISO 400
-- Enfoque en el postre, fondo bokeh
+- Fuoco sul dessert, sfondo bokeh
 
-COMPOSICIÓN:
-- Ángulo 45°, props sutiles: taza café desenfocada opcional
+COMPOSIZIONE:
+- Angolo 45°, props sottili: tazza di caffè sfocata opzionale
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar chocolate “plástico”`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare cioccolato “di plastica”`,
     thumbnail: "/images/foto-pro/food5.webp",
   },
 
   // =========================
-  // CATEGORY: Top-down / flat lay
+  // CATEGORY: Dall’alto / flat lay
   // =========================
   {
     id: "img-food-006",
-    title: "Flat lay desayuno saludable (top-down, luz natural, minimal)",
-    area: "Fotografía Pro",
-    category: "Top-down / flat lay",
+    title: "Flat lay colazione sana (dall’alto, luce naturale, minimal)",
+    area: "Fotografia Pro",
+    category: "Dall’alto / flat lay",
     summary:
-      "Flat lay minimal: desayuno saludable con luz natural y composición limpia para redes.",
-    prompt: `Genera una foto REALISTA top-down (flat lay) de desayuno saludable.
+      "Flat lay minimal: colazione sana con luce naturale e composizione pulita per i social.",
+    prompt: `Genera una foto REALISTICA dall’alto (flat lay) di una colazione sana.
 
-DATOS:
-- Elementos: bowl de fruta + yogurt, café/té, pan tostado, frutos secos
-- Superficie: mesa clara o madera, estética minimal
-- Props: cubiertos y servilleta de tela, sin marcas
+DATI:
+- Elementi: bowl di frutta + yogurt, caffè/tè, pane tostato, frutta secca
+- Superficie: tavolo chiaro o legno, estetica minimal
+- Props: posate e tovagliolo in tessuto, senza marchi
 
-ILUMINACIÓN:
-- Luz natural suave desde un lado, sombras finas
+ILLUMINAZIONE:
+- Luce naturale morbida da un lato, ombre sottili
 
-CÁMARA:
-- Top-down 90°, nitidez uniforme
-- 35mm equivalente, f/4, ISO 200
+FOTOCAMERA:
+- Dall’alto 90°, nitidezza uniforme
+- Equivalente 35mm, f/4, ISO 200
 
-COMPOSICIÓN:
-- Orden limpio, espacio negativo para usar en diseño (pero NO pongas texto)
+COMPOSIZIONE:
+- Ordine pulito, spazio negativo per uso grafico (ma NON inserire testo)
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar objetos duplicados o deformes`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare oggetti duplicati o deformati`,
     thumbnail: "/images/foto-pro/food6.webp",
   },
   {
     id: "img-food-007",
-    title: "Flat lay pizza artesanal (top-down, textura real, apetecible)",
-    area: "Fotografía Pro",
-    category: "Top-down / flat lay",
+    title: "Flat lay pizza artigianale (dall’alto, texture reale, invitante)",
+    area: "Fotografia Pro",
+    category: "Dall’alto / flat lay",
     summary:
-      "Pizza artesanal top-down con textura real del queso y masa, look apetecible para anuncios.",
-    prompt: `Genera una foto REALISTA top-down de una pizza artesanal.
+      "Pizza artigianale dall’alto con texture reale di formaggio e impasto, look appetitoso per annunci.",
+    prompt: `Genera una foto REALISTICA dall’alto di una pizza artigianale.
 
-DATOS:
-- Pizza: masa artesanal, queso derretido realista, toppings coherentes
-- Props: tabla de madera, cortador/rodaja, servilleta
-- Fondo: mesa rústica limpia, sin marcas
+DATI:
+- Pizza: impasto artigianale, formaggio fuso realistico, topping coerenti
+- Props: tagliere in legno, rotella/tagliapizza, tovagliolo
+- Sfondo: tavolo rustico pulito, senza marchi
 
-ILUMINACIÓN:
-- Luz natural suave, resaltar textura del queso
-- Sombras leves
+ILLUMINAZIONE:
+- Luce naturale morbida, evidenziare la texture del formaggio
+- Ombre leggere
 
-CÁMARA:
-- Top-down 90°, 35mm, f/4, ISO 200
-- Nitidez uniforme
+FOTOCAMERA:
+- Dall’alto 90°, 35mm, f/4, ISO 200
+- Nitidezza uniforme
 
-COMPOSICIÓN:
-- Pizza centrada con props alrededor
+COMPOSIZIONE:
+- Pizza centrata con props intorno
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar queso “plástico” o toppings flotando`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare formaggio “di plastica” o topping sospesi`,
     thumbnail: "/images/foto-pro/food7.webp",
   },
   {
     id: "img-food-008",
-    title: "Flat lay café y postre (estética cozy, tonos cálidos)",
-    area: "Fotografía Pro",
-    category: "Top-down / flat lay",
+    title: "Flat lay caffè e dolce (estetica cozy, toni caldi)",
+    area: "Fotografia Pro",
+    category: "Dall’alto / flat lay",
     summary:
-      "Flat lay cozy de café y postre con tonos cálidos y composición instagrammable.",
-    prompt: `Genera una foto REALISTA flat lay (top-down) de café + postre.
+      "Flat lay cozy di caffè e dolce con toni caldi e composizione instagrammabile.",
+    prompt: `Genera una foto REALISTICA flat lay (dall’alto) di caffè + dolce.
 
-DATOS:
-- Elementos: taza de café (latte) + postre pequeño + cuchara + servilleta
-- Superficie: mesa de madera cálida
-- Estilo: cozy, minimal, sin marcas ni logos
+DATI:
+- Elementi: tazza di caffè (latte) + piccolo dessert + cucchiaino + tovagliolo
+- Superficie: tavolo in legno caldo
+- Stile: cozy, minimal, senza marchi né loghi
 
-ILUMINACIÓN:
-- Luz cálida suave (tarde), sombras delicadas
+ILLUMINAZIONE:
+- Luce calda morbida (pomeriggio), ombre delicate
 
-CÁMARA:
-- Top-down 90°, f/3.5, ISO 250
-- Nitidez clara, sin blur excesivo
+FOTOCAMERA:
+- Dall’alto 90°, f/3.5, ISO 250
+- Nitidezza chiara, senza blur eccessivo
 
-COMPOSICIÓN:
-- Colocar elementos en diagonal, con espacio negativo
+COMPOSIZIONE:
+- Disporre gli elementi in diagonale, con spazio negativo
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar espuma del café irreal`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare schiuma del caffè irreale`,
     thumbnail: "/images/foto-pro/food8.webp",
   },
   {
     id: "img-food-009",
-    title: "Flat lay ingredientes para cocinar (mise en place, limpio y realista)",
-    area: "Fotografía Pro",
-    category: "Top-down / flat lay",
+    title: "Flat lay ingredienti per cucinare (mise en place, pulito e realistico)",
+    area: "Fotografia Pro",
+    category: "Dall’alto / flat lay",
     summary:
-      "Mise en place top-down: ingredientes ordenados para receta, estilo limpio y didáctico.",
-    prompt: `Genera una foto REALISTA top-down de mise en place (ingredientes listos para cocinar).
+      "Mise en place dall’alto: ingredienti ordinati per ricetta, stile pulito e didattico.",
+    prompt: `Genera una foto REALISTICA dall’alto di mise en place (ingredienti pronti da cucinare).
 
-DATOS:
-- Ingredientes: [verduras, especias, aceite, sal, pasta/arroz], todo realista
-- Contenedores: bowls pequeños de cerámica, tabla de cortar
-- Superficie: encimera clara o cemento suave, estética moderna
+DATI:
+- Ingredienti: [verdure, spezie, olio, sale, pasta/riso], tutto realistico
+- Contenitori: piccole ciotole in ceramica, tagliere
+- Superficie: piano chiaro o cemento morbido, estetica moderna
 
-ILUMINACIÓN:
-- Luz natural suave, sombras finas
+ILLUMINAZIONE:
+- Luce naturale morbida, ombre sottili
 
-CÁMARA:
-- Top-down 90°, 35mm, f/4, ISO 200
-- Nitidez uniforme
+FOTOCAMERA:
+- Dall’alto 90°, 35mm, f/4, ISO 200
+- Nitidezza uniforme
 
-COMPOSICIÓN:
-- Orden prolijo, cada ingrediente visible, look didáctico premium
+COMPOSIZIONE:
+- Ordine impeccabile, ogni ingrediente visibile, look didattico premium
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar ingredientes deformes o repetidos`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare ingredienti deformati o ripetuti`,
     thumbnail: "/images/foto-pro/food9.webp",
   },
   {
     id: "img-food-010",
-    title: "Flat lay sushi premium (minimal, vajilla negra, estilo editorial)",
-    area: "Fotografía Pro",
-    category: "Top-down / flat lay",
+    title: "Flat lay sushi premium (minimal, piatti neri, stile editoriale)",
+    area: "Fotografia Pro",
+    category: "Dall’alto / flat lay",
     summary:
-      "Sushi top-down premium con vajilla negra, composición minimal y look editorial.",
-    prompt: `Genera una foto REALISTA top-down de sushi premium.
+      "Sushi dall’alto premium con stoviglie nere, composizione minimal e look editoriale.",
+    prompt: `Genera una foto REALISTICA dall’alto di sushi premium.
 
-DATOS:
-- Sushi: nigiri y makis con textura real, pescado realista
-- Vajilla: negra o pizarra, sin logos
-- Props: palillos, salsa soja en bowl, jengibre (sin exceso)
+DATI:
+- Sushi: nigiri e maki con texture realistica, pesce realistico
+- Stoviglie: nere o ardesia, senza loghi
+- Props: bacchette, salsa di soia in ciotolina, zenzero (senza eccessi)
 
-ILUMINACIÓN:
-- Luz suave con contraste moderado para resaltar textura del pescado
-- Reflejos controlados
+ILLUMINAZIONE:
+- Luce morbida con contrasto moderato per evidenziare la texture del pesce
+- Riflessi controllati
 
-CÁMARA:
-- Top-down 90°, 50mm, f/4, ISO 250
-- Nitidez uniforme
+FOTOCAMERA:
+- Dall’alto 90°, 50mm, f/4, ISO 250
+- Nitidezza uniforme
 
-COMPOSICIÓN:
-- Minimal, mucho espacio negativo
+COMPOSIZIONE:
+- Minimal, molto spazio negativo
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar pescado “plástico” o repetición de piezas`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare pesce “di plastica” o ripetizione di pezzi`,
     thumbnail: "/images/foto-pro/food10.webp",
   },
 
   // =========================
-  // CATEGORY: Bebidas
+  // CATEGORY: Bevande
   // =========================
   {
     id: "img-food-011",
-    title: "Latte art en cafetería (macro suave, bokeh cálido, realista)",
-    area: "Fotografía Pro",
-    category: "Bebidas",
+    title: "Latte art in caffetteria (macro morbido, bokeh caldo, realistico)",
+    area: "Fotografia Pro",
+    category: "Bevande",
     summary:
-      "Latte art realista con bokeh cálido de cafetería, estilo premium y natural.",
-    prompt: `Genera una foto REALISTA de una bebida de cafetería (latte art).
+      "Latte art realistico con bokeh caldo da caffetteria, stile premium e naturale.",
+    prompt: `Genera una foto REALISTICA di una bevanda da caffetteria (latte art).
 
-DATOS:
-- Bebida: latte en taza cerámica sin logos, latte art claro y realista
-- Escena: mesa de cafetería, fondo con bokeh cálido
-- Props: cuchara, servilleta de tela, opcional: croissant desenfocado
+DATI:
+- Bevanda: latte in tazza di ceramica senza loghi, latte art chiaro e realistico
+- Scena: tavolo da caffetteria, sfondo con bokeh caldo
+- Props: cucchiaino, tovagliolo in tessuto, opzionale: croissant sfocato
 
-ILUMINACIÓN:
-- Luz cálida suave, reflejos controlados en la taza
-- Textura realista de espuma
+ILLUMINAZIONE:
+- Luce calda morbida, riflessi controllati sulla tazza
+- Texture realistica della schiuma
 
-CÁMARA:
+FOTOCAMERA:
 - 85mm, f/2, ISO 400
-- Enfoque en latte art, bokeh fuerte atrás
+- Fuoco sul latte art, bokeh forte sullo sfondo
 
-COMPOSICIÓN:
-- Ángulo 45°, taza protagonista
+COMPOSIZIONE:
+- Angolo 45°, tazza protagonista
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar latte art “perfecto irreal”`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare latte art “perfetto ma irreale”`,
     thumbnail: "/images/foto-pro/food11.webp",
   },
   {
     id: "img-food-012",
-    title: "Smoothie saludable (colores naturales, fondo claro, estilo wellness)",
-    area: "Fotografía Pro",
-    category: "Bebidas",
+    title: "Smoothie salutare (colori naturali, sfondo chiaro, stile wellness)",
+    area: "Fotografia Pro",
+    category: "Bevande",
     summary:
-      "Smoothie estilo wellness con fondo claro y luz natural, look limpio para redes.",
-    prompt: `Genera una foto REALISTA de smoothie saludable estilo wellness.
+      "Smoothie stile wellness con sfondo chiaro e luce naturale, look pulito per i social.",
+    prompt: `Genera una foto REALISTICA di smoothie salutare in stile wellness.
 
-DATOS:
-- Bebida: smoothie en vaso transparente sin marcas, color natural (frutas reales)
-- Props: frutas alrededor (plátano, berries), pajilla simple
-- Fondo: claro (blanco/crema), minimal
+DATI:
+- Bevanda: smoothie in bicchiere trasparente senza marchi, colore naturale (frutta vera)
+- Props: frutta intorno (banana, berries), cannuccia semplice
+- Sfondo: chiaro (bianco/crema), minimal
 
-ILUMINACIÓN:
-- Luz natural suave, sombras mínimas
-- Colores reales, no saturación excesiva
+ILLUMINAZIONE:
+- Luce naturale morbida, ombre minime
+- Colori reali, senza saturazione eccessiva
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.8, ISO 200
-- Enfoque en vaso, fondo ligeramente desenfocado
+- Fuoco sul bicchiere, sfondo leggermente sfocato
 
-COMPOSICIÓN:
-- Vaso centrado con props sutiles
+COMPOSIZIONE:
+- Bicchiere centrato con props sottili
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar líquidos con textura “gelatina” irreal`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare liquidi con texture “gelatina” irreale`,
     thumbnail: "/images/foto-pro/food12.webp",
   },
   {
     id: "img-food-013",
-    title: "Cóctel nocturno (bar elegante, luces bokeh, realista)",
-    area: "Fotografía Pro",
-    category: "Bebidas",
+    title: "Cocktail notturno (bar elegante, luci bokeh, realistico)",
+    area: "Fotografia Pro",
+    category: "Bevande",
     summary:
-      "Cóctel en bar elegante con bokeh nocturno, estética premium y reflejos controlados.",
-    prompt: `Genera una foto REALISTA de un cóctel en bar elegante.
+      "Cocktail in un bar elegante con bokeh notturno, estetica premium e riflessi controllati.",
+    prompt: `Genera una foto REALISTICA di un cocktail in un bar elegante.
 
-DATOS:
-- Bebida: cóctel en copa (sin marcas), garnish realista (cítrico/hierbas)
-- Escena: bar de lujo, fondo oscuro con luces cálidas desenfocadas
-- Superficie: barra pulida con reflejos sutiles
+DATI:
+- Bevanda: cocktail in coppa (senza marchi), garnish realistico (agrumi/erbe)
+- Scena: bar di lusso, sfondo scuro con luci calde sfocate
+- Superficie: bancone lucido con riflessi sottili
 
-ILUMINACIÓN:
-- Luz cálida lateral, contraste medio-alto
-- Reflejos realistas en cristal (sin brillos quemados)
+ILLUMINAZIONE:
+- Luce calda laterale, contrasto medio-alto
+- Riflessi realistici sul vetro (senza bruciature)
 
-CÁMERA:
+FOTOCAMERA:
 - 85mm, f/1.8, ISO 1000
-- Enfoque en la copa, bokeh fuerte atrás
+- Fuoco sul bicchiere, bokeh forte sullo sfondo
 
-COMPOSICIÓN:
-- Ángulo 45°, copa protagonista
+COMPOSIZIONE:
+- Angolo 45°, coppa protagonista
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar hielo o garnish imposible`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare ghiaccio o garnish impossibili`,
     thumbnail: "/images/foto-pro/food13.webp",
   },
   {
     id: "img-food-014",
-    title: "Té con vapor sutil (cozy, luz suave, estilo hogar)",
-    area: "Fotografía Pro",
-    category: "Bebidas",
+    title: "Tè con vapore leggero (cozy, luce morbida, stile casa)",
+    area: "Fotografia Pro",
+    category: "Bevande",
     summary:
-      "Taza de té con vapor sutil, estética cozy y realista para contenido calm.",
-    prompt: `Genera una foto REALISTA de una taza de té caliente con vapor sutil.
+      "Tazza di tè con vapore leggero, estetica cozy e realistica per contenuti calm.",
+    prompt: `Genera una foto REALISTICA di una tazza di tè caldo con vapore leggero.
 
-DATOS:
-- Bebida: té en taza sin logos
-- Props: libro desenfocado, manta o servilleta, estilo cozy
-- Fondo: interior hogar, cálido, desenfocado
+DATI:
+- Bevanda: tè in tazza senza loghi
+- Props: libro sfocato, coperta o tovagliolo, stile cozy
+- Sfondo: interno domestico caldo, sfocato
 
-ILUMINACIÓN:
-- Luz suave cálida (tarde), sombras delicadas
-- Vapor MUY sutil y realista
+ILLUMINAZIONE:
+- Luce calda morbida (pomeriggio), ombre delicate
+- Vapore MOLTO leggero e realistico
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2, ISO 400
-- Enfoque en taza, bokeh en fondo
+- Fuoco sulla tazza, bokeh sullo sfondo
 
-COMPOSICIÓN:
-- Ángulo 45°, atmósfera acogedora
+COMPOSIZIONE:
+- Angolo 45°, atmosfera accogliente
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar vapor exagerado o falso`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare vapore esagerato o finto`,
     thumbnail: "/images/foto-pro/food14.webp",
   },
   {
     id: "img-food-015",
-    title: "Agua saborizada (look fresco, luz brillante, estilo verano)",
-    area: "Fotografía Pro",
-    category: "Bebidas",
+    title: "Acqua aromatizzata (look fresco, luce brillante, stile estivo)",
+    area: "Fotografia Pro",
+    category: "Bevande",
     summary:
-      "Bebida fresca tipo verano con frutas, luz brillante y estética limpia.",
-    prompt: `Genera una foto REALISTA de agua saborizada estilo verano.
+      "Bevanda fresca estiva con frutta, luce brillante ed estetica pulita.",
+    prompt: `Genera una foto REALISTICA di acqua aromatizzata in stile estivo.
 
-DATOS:
-- Bebida: jarra o vaso con agua + rodajas de cítrico + menta (realista)
-- Condensación: gotas sutiles en el cristal
-- Fondo: claro, minimal, vibe fresco
+DATI:
+- Bevanda: caraffa o bicchiere con acqua + fette di agrumi + menta (realistico)
+- Condensa: goccioline sottili sul vetro
+- Sfondo: chiaro, minimal, vibe fresca
 
-ILUMINACIÓN:
-- Luz brillante natural, sombras suaves
-- Colores frescos, contraste moderado
+ILLUMINAZIONE:
+- Luce naturale brillante, ombre morbide
+- Colori freschi, contrasto moderato
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.8, ISO 100–200
-- Enfoque en el vaso, fondo suave
+- Fuoco sul bicchiere, sfondo morbido
 
-COMPOSICIÓN:
-- Vaso centrado, props mínimos
+COMPOSIZIONE:
+- Bicchiere centrato, props minimi
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar hielo irreal o frutas deformes`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare ghiaccio irreale o frutta deformata`,
     thumbnail: "/images/foto-pro/food15.webp",
   },
 
   // =========================
-  // CATEGORY: Cocina / proceso (hands in frame)
+  // CATEGORY: Cucina / processo (mani in scena)
   // =========================
   {
     id: "img-food-016",
-    title: "Manos preparando ensalada (proceso real, luz natural, sin deformaciones)",
-    area: "Fotografía Pro",
-    category: "Cocina / proceso (hands in frame)",
+    title: "Mani che preparano un’insalata (processo reale, luce naturale, senza deformazioni)",
+    area: "Fotografia Pro",
+    category: "Cucina / processo (mani in scena)",
     summary:
-      "Foto de proceso: manos preparando ensalada en tabla, look auténtico y didáctico.",
-    prompt: `Genera una foto REALISTA de proceso en cocina con manos en escena.
+      "Foto di processo: mani che preparano un’insalata sul tagliere, look autentico e didattico.",
+    prompt: `Genera una foto REALISTICA di processo in cucina con mani in scena.
 
-DATOS:
-- Acción: manos cortando verduras para ensalada en tabla
-- Ingredientes: tomates, pepino, hojas verdes, aceite, sal (realistas)
-- Utensilios: cuchillo y bowl, sin marcas
-- Fondo: cocina desenfocada
+DATI:
+- Azione: mani che tagliano verdure per insalata su un tagliere
+- Ingredienti: pomodori, cetriolo, foglie verdi, olio, sale (realistici)
+- Utensili: coltello e ciotola, senza marchi
+- Sfondo: cucina sfocata
 
-ILUMINACIÓN:
-- Luz natural de ventana, suave
-- Texturas reales, colores naturales
+ILLUMINAZIONE:
+- Luce naturale da finestra, morbida
+- Texture reali, colori naturali
 
-CÁMERA:
+FOTOCAMERA:
 - 35mm, f/2.8, ISO 250
-- Enfoque en manos e ingredientes
+- Fuoco su mani e ingredienti
 
-COMPOSICIÓN:
-- Ángulo 45° o semitop-down
-- Estética auténtica, no “perfecta de estudio”
+COMPOSIZIONE:
+- Angolo 45° o semi top-down
+- Estetica autentica, non “perfetta da studio”
 
-RESTRICCIONES CRÍTICAS:
-- Manos anatómicamente perfectas (5 dedos, sin deformaciones)
-- Sin texto/logos/watermark`,
+RESTRIZIONI CRITICHE:
+- Mani anatomicamente perfette (5 dita, nessuna deformazione)
+- Niente testo/loghi/watermark`,
     thumbnail: "/images/foto-pro/food16.webp",
   },
   {
     id: "img-food-017",
-    title: "Vertiendo salsa sobre plato (acción congelada, detalle real)",
-    area: "Fotografía Pro",
-    category: "Cocina / proceso (hands in frame)",
+    title: "Versando salsa sul piatto (azione congelata, dettaglio reale)",
+    area: "Fotografia Pro",
+    category: "Cucina / processo (mani in scena)",
     summary:
-      "Acción culinaria: salsa cayendo sobre el plato, congelada, con textura real.",
-    prompt: `Genera una foto REALISTA de acción culinaria (pour shot).
+      "Azione culinaria: salsa che cade sul piatto, congelata, con texture realistica.",
+    prompt: `Genera una foto REALISTICA di azione culinaria (pour shot).
 
-DATOS:
-- Acción: mano vertiendo salsa sobre un plato (la salsa en caída congelada)
-- Plato: comida [describir] lista para servir
-- Fondo: cocina o mesa desenfocada, sin marcas
+DATI:
+- Azione: mano che versa salsa su un piatto (caduta della salsa congelata)
+- Piatto: pietanza [descrivi] pronta da servire
+- Sfondo: cucina o tavolo sfocato, senza marchi
 
-ILUMINACIÓN:
-- Luz suave lateral para resaltar brillo de la salsa
-- Reflejos controlados, textura real
+ILLUMINAZIONE:
+- Luce laterale morbida per evidenziare la lucentezza della salsa
+- Riflessi controllati, texture reale
 
-CÁMERA:
+FOTOCAMERA:
 - 85mm, f/2.8, ISO 400
-- Velocidad alta (acción congelada), enfoque en zona de la salsa y plato
+- Tempi rapidi (azione congelata), fuoco sulla zona della salsa e sul piatto
 
-COMPOSICIÓN:
-- Ángulo 45°, plato protagonista
-- Estética tipo publicidad culinaria
+COMPOSIZIONE:
+- Angolo 45°, piatto protagonista
+- Estetica tipo pubblicità food
 
-RESTRICCIONES:
-- Manos perfectas (sin dedos extra)
-- Sin texto/logos`,
+RESTRIZIONI:
+- Mani perfette (senza dita extra)
+- Niente testo/loghi`,
     thumbnail: "/images/foto-pro/food17.webp",
   },
   {
     id: "img-food-018",
-    title: "Espolvoreando azúcar/cacao (macro de postre, partículas realistas)",
-    area: "Fotografía Pro",
-    category: "Cocina / proceso (hands in frame)",
+    title: "Spolverando zucchero/cacao (macro dessert, particelle realistiche)",
+    area: "Fotografia Pro",
+    category: "Cucina / processo (mani in scena)",
     summary:
-      "Macro espolvoreando cacao/azúcar sobre postre, detalle realista y look premium.",
-    prompt: `Genera una foto REALISTA macro de proceso espolvoreando.
+      "Macro mentre si spolvera cacao/zucchero sul dessert, dettaglio realistico e look premium.",
+    prompt: `Genera una foto REALISTICA macro di processo mentre si spolvera.
 
-DATOS:
-- Acción: mano espolvoreando cacao o azúcar sobre un postre
-- Postre: [tarta/brownie/capuchino], textura real
-- Fondo: desenfocado, tonos cálidos y premium
+DATI:
+- Azione: mano che spolvera cacao o zucchero su un dessert
+- Dessert: [torta/brownie/cappuccino], texture reale
+- Sfondo: sfocato, toni caldi e premium
 
-ILUMINACIÓN:
-- Luz suave lateral, partículas visibles y realistas
-- No exagerar partículas
+ILLUMINAZIONE:
+- Luce laterale morbida, particelle visibili e realistiche
+- Non esagerare con le particelle
 
-CÁMERA:
+FOTOCAMERA:
 - Macro o 85mm, f/2.8, ISO 400
-- Enfoque en la caída del polvo y superficie del postre
+- Fuoco sulla caduta della polvere e sulla superficie del dessert
 
-COMPOSICIÓN:
-- Encuadre cerrado, look publicitario
+COMPOSIZIONE:
+- Inquadratura ravvicinata, look pubblicitario
 
-RESTRICCIONES:
-- Mano anatómicamente correcta
-- Sin texto/watermark`,
+RESTRIZIONI:
+- Mano anatomicamente corretta
+- Niente testo/watermark`,
     thumbnail: "/images/foto-pro/food18.webp",
   },
   {
     id: "img-food-019",
-    title: "Cocinando en sartén (vapor sutil, proceso realista)",
-    area: "Fotografía Pro",
-    category: "Cocina / proceso (hands in frame)",
+    title: "Cucinando in padella (vapore leggero, processo realistico)",
+    area: "Fotografia Pro",
+    category: "Cucina / processo (mani in scena)",
     summary:
-      "Foto de proceso en sartén: salteado con vapor sutil, luz natural y realismo.",
-    prompt: `Genera una foto REALISTA de proceso cocinando en sartén.
+      "Foto di processo in padella: salto/rosolatura con vapore leggero, luce naturale e realismo.",
+    prompt: `Genera una foto REALISTICA di processo mentre si cucina in padella.
 
-DATOS:
-- Acción: salteado en sartén (verduras o proteína), espátula visible
-- Vapor: sutil, realista
-- Cocina: moderna, limpia, desenfocada
-- Ingredientes coherentes, sin deformaciones
+DATI:
+- Azione: salto in padella (verdure o proteina), spatola visibile
+- Vapore: leggero, realistico
+- Cucina: moderna, pulita, sfocata
+- Ingredienti coerenti, senza deformazioni
 
-ILUMINACIÓN:
-- Luz natural suave o luz cálida de cocina
-- Brillos controlados en aceite, textura real
+ILLUMINAZIONE:
+- Luce naturale morbida o luce calda da cucina
+- Riflessi controllati sull’olio, texture reale
 
-CÁMERA:
+FOTOCAMERA:
 - 35mm, f/2.8, ISO 500
-- Enfoque en la sartén y comida, fondo bokeh
+- Fuoco su padella e cibo, sfondo bokeh
 
-COMPOSICIÓN:
-- Ángulo 45° cercano, dinámica de cocina real
+COMPOSIZIONE:
+- Angolo 45° ravvicinato, dinamica da cucina reale
 
-RESTRICCIONES:
-- Sin logos/texto
-- Evitar humo excesivo o comida irreal`,
+RESTRIZIONI:
+- Niente loghi/testo
+- Evitare fumo eccessivo o cibo irreale`,
     thumbnail: "/images/foto-pro/food19.webp",
   },
   {
     id: "img-food-020",
-    title: "Sirviendo plato en mesa (mano colocando plato, estilo hogar premium)",
-    area: "Fotografía Pro",
-    category: "Cocina / proceso (hands in frame)",
+    title: "Servendo il piatto a tavola (mano che appoggia il piatto, stile casa premium)",
+    area: "Fotografia Pro",
+    category: "Cucina / processo (mani in scena)",
     summary:
-      "Momento de servir: mano colocando el plato en mesa, vibe hogar premium auténtico.",
-    prompt: `Genera una foto REALISTA de servir un plato en mesa.
+      "Momento del servizio: mano che appoggia il piatto sul tavolo, vibe domestica premium e autentica.",
+    prompt: `Genera una foto REALISTICA di un piatto servito a tavola.
 
-DATOS:
-- Acción: mano colocando un plato terminado sobre la mesa
-- Plato: [describir], presentación realista
-- Mesa: madera o mantel neutro, props mínimos (vaso, cubiertos)
-- Fondo: comedor/cocina desenfocado
+DATI:
+- Azione: mano che appoggia un piatto finito sul tavolo
+- Piatto: [descrivi], presentazione realistica
+- Tavolo: legno o tovaglia neutra, props minimi (bicchiere, posate)
+- Sfondo: sala da pranzo/cucina sfocata
 
-ILUMINACIÓN:
-- Luz suave natural, tonos cálidos
-- Textura real en comida y vajilla
+ILLUMINAZIONE:
+- Luce naturale morbida, toni caldi
+- Texture reale su cibo e stoviglie
 
-CÁMERA:
+FOTOCAMERA:
 - 50mm, f/2.5, ISO 300
-- Enfoque en plato y mano, fondo bokeh suave
+- Fuoco su piatto e mano, bokeh morbido sullo sfondo
 
-COMPOSICIÓN:
-- Ángulo 45°, sensación acogedora
+COMPOSIZIONE:
+- Angolo 45°, sensazione accogliente
 
-RESTRICCIONES CRÍTICAS:
-- Mano perfecta (5 dedos, articulaciones reales)
-- Sin texto/watermark`,
+RESTRIZIONI CRITICHE:
+- Mano perfetta (5 dita, articolazioni realistiche)
+- Niente testo/watermark`,
     thumbnail: "/images/foto-pro/food20.webp",
   },
 ];

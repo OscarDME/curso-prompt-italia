@@ -2,218 +2,217 @@
 
 export const bonus08MegaPrompt = {
   id: "bonus-08",
-  title: "El Mega Prompt Millonario",
+  title: "Il Mega Prompt Milionario",
   subtitle:
-    "Tu “cerebro estratégico” de negocio digital traducido a un solo comando de IA.",
-  heroText: `Este bono es un **prompt maestro** diseñado para pensar tu negocio como un ecosistema completo:
+    "Il tuo “cervello strategico” per il business digitale tradotto in un solo comando IA.",
+  heroText: `Questo bonus è un **prompt maestro** progettato per pensare al tuo business come un ecosistema completo:
 
-• Múltiples fuentes de ingreso.  
-• Productos conectados entre sí.  
-• Sistemas de contenido, venta y automatización.  
+• Più fonti di reddito.  
+• Prodotti collegati tra loro.  
+• Sistemi di contenuto, vendita e automazione.  
 
-La idea es que uses este Mega Prompt como si fuera tu “socio estratégico” para diseñar y optimizar tu negocio, una y otra vez.`,
-
+L’idea è che tu usi questo Mega Prompt come se fosse il tuo “socio strategico” per progettare e ottimizzare il tuo business, ancora e ancora.`,
   sections: [
     {
-      id: "que-es",
-      title: "1. Qué es el Mega Prompt Millonario y para qué usarlo",
+      id: "cos-e",
+      title: "1. Cos’è il Mega Prompt Milionario e perché usarlo",
       body: [
-        `Piensa en este Mega Prompt como un **arquitecto de negocio en texto**. No es un prompt cualquiera para escribir un post: es una instrucción larga y estratégica que le dice a la IA cómo pensar contigo sobre tu negocio.`,
-        `Lo puedes usar para:`,
+        `Pensa a questo Mega Prompt come a un **architetto di business in formato testo**. Non è un prompt qualunque per scrivere un post: è un’istruzione lunga e strategica che dice all’IA come ragionare con te sul tuo business.`,
+        `Puoi usarlo per:`,
       ],
       bullets: [
         {
-          label: "Diseñar tu ecosistema de productos",
+          label: "Progettare il tuo ecosistema di prodotti",
           description:
-            "Mapear ofertas principales, complementarias, de entrada, de continuidad, etc."
+            "Mappare offerte principali, complementari, entry-level, di continuità, ecc.",
         },
         {
-          label: "Detectar nuevas fuentes de ingreso",
+          label: "Scoprire nuove fonti di reddito",
           description:
-            "Servicios, infoproductos, membresías, consultorías, bundles, upsells y downsells."
+            "Servizi, infoprodotti, membership, consulenze, bundle, upsell e downsell.",
         },
         {
-          label: "Optimizar lo que ya tienes",
+          label: "Ottimizzare ciò che hai già",
           description:
-            "Reordenar, empaquetar mejor, subir percepciones de valor y alinear todo con tu contenido."
-        }
+            "Riordinare, impacchettare meglio, aumentare la percezione di valore e allineare tutto ai tuoi contenuti.",
+        },
       ],
       highlight:
-        "La clave no es solo el prompt, sino repetir el proceso a medida que tu negocio crece o cambia."
+        "La chiave non è solo il prompt, ma ripetere il processo man mano che il tuo business cresce o cambia.",
     },
     {
-      id: "preparacion",
-      title: "2. Preparación: qué datos tener antes de usar el Mega Prompt",
+      id: "preparazione",
+      title: "2. Preparazione: quali dati avere prima di usare il Mega Prompt",
       body: [
-        `Cuanto mejor llegues preparado, más fino será el resultado. Antes de lanzar el Mega Prompt, ten a mano:`,
+        `Più ti presenti preparato, più il risultato sarà preciso. Prima di lanciare il Mega Prompt, tieni a portata di mano:`,
       ],
       bullets: [
         {
-          label: "Foto actual de tu negocio",
+          label: "Foto attuale del tuo business",
           description:
-            "Qué vendes, a quién, cómo cobras, cómo te llega el tráfico, qué ya está funcionando."
+            "Cosa vendi, a chi, come incassi, da dove arriva il traffico, cosa sta già funzionando.",
         },
         {
-          label: "Recursos y limitaciones",
+          label: "Risorse e limiti",
           description:
-            "Tiempo disponible, equipo (si tienes), herramientas que usas, presupuesto, país/idioma."
+            "Tempo disponibile, team (se c’è), strumenti che usi, budget, paese/lingua.",
         },
         {
-          label: "Objetivos",
+          label: "Obiettivi",
           description:
-            "Ingresos deseados, tipo de vida que quieres, cuánto quieres automatizar, cuánto quieres seguir haciendo tú."
-        }
+            "Reddito desiderato, stile di vita che vuoi, quanto vuoi automatizzare e quanto vuoi continuare a fare tu.",
+        },
       ],
       highlight:
-        "No hace falta que tengas todo perfecto por escrito, pero mientras más claro seas, mejor pensará contigo el Mega Prompt."
+        "Non serve che sia tutto perfetto per iscritto, ma più sei chiaro, meglio il Mega Prompt ragionerà con te.",
     },
     {
       id: "mega-prompt",
-      title: "3. El Mega Prompt Millonario (para copiar y pegar)",
+      title: "3. Il Mega Prompt Milionario (da copiare e incollare)",
       body: [
-        `A continuación tienes el prompt maestro. Puedes pegarlo en tu IA favorita (por ejemplo, ChatGPT) y adaptarlo a tu contexto.`,
-        `**Sugerencia:** guarda este texto en tu propio banco de prompts favoritos. Es una pieza que usarás muchas veces.`,
-        `**MEGA PROMPT MILLONARIO — VERSIÓN PRINCIPAL**`,
-        `Quiero que actúes como un **arquitecto estratégico de negocios digitales** con amplia experiencia en:
+        `Qui sotto trovi il prompt maestro. Puoi incollarlo nella tua IA preferita (per esempio ChatGPT) e adattarlo al tuo contesto.`,
+        `**Suggerimento:** salva questo testo nella tua libreria di prompt preferiti. È un pezzo che userai molte volte.`,
+        `**MEGA PROMPT MILIONARIO — VERSIONE PRINCIPALE**`,
+        `Voglio che tu agisca come un **architetto strategico di business digitali** con ampia esperienza in:
 
-- infoproductos,  
-- servicios de alto valor,  
-- membresías,  
-- programas grupales,  
-- consultorías y  
-- sistemas basados en contenido y automatización.
+- infoprodotti,  
+- servizi ad alto valore,  
+- membership,  
+- programmi di gruppo,  
+- consulenze e  
+- sistemi basati su contenuti e automazione.
 
-Tu misión es ayudarme a diseñar y optimizar un **ecosistema de negocios con múltiples fuentes de ingreso**, alineado con mi situación actual, mis habilidades y mis objetivos.
+La tua missione è aiutarmi a progettare e ottimizzare un **ecosistema di business con più fonti di reddito**, allineato alla mia situazione attuale, alle mie competenze e ai miei obiettivi.
 
-### FASE 0 — Entender mi contexto
+### FASE 0 — Capire il mio contesto
 
-Antes de darme recomendaciones, quiero que me hagas una ronda de preguntas para entender:
+Prima di darmi raccomandazioni, voglio che tu mi faccia un giro di domande per capire:
 
-1) Mi nicho y audiencia principal.  
-2) Qué ofrezco actualmente (productos, servicios, precios).  
-3) Mis canales de tráfico y contenido (redes, email, SEO, etc.).  
-4) Mis resultados actuales aproximados (ingresos, volumen de clientes, etc.).  
-5) Mis fortalezas y habilidades clave (ej. enseñar, vender, escribir, sistema, networking, etc.).  
-6) Mis limitaciones y restricciones (tiempo, equipo, presupuesto, país, idioma).  
-7) Mis objetivos a 12 meses (económicos y de estilo de vida).  
+1) Il mio settore (niche) e la mia audience principale.  
+2) Cosa offro oggi (prodotti, servizi, prezzi).  
+3) I miei canali di traffico e contenuto (social, email, SEO, ecc.).  
+4) I miei risultati attuali indicativi (ricavi, volume clienti, ecc.).  
+5) Le mie forze e competenze chiave (es. insegnare, vendere, scrivere, sistemi, networking, ecc.).  
+6) I miei limiti e vincoli (tempo, team, budget, paese, lingua).  
+7) I miei obiettivi a 12 mesi (economici e di stile di vita).  
 
-Empieza por **hacerme estas preguntas de forma ordenada**, una por una, y espera mis respuestas antes de continuar.
+Inizia facendo queste domande in modo ordinato, **una per volta**, e aspetta le mie risposte prima di continuare.
 
-### FASE 1 — Diagnóstico
+### FASE 1 — Diagnosi
 
-Cuando tengas mis respuestas, quiero que:
+Quando avrai le mie risposte, voglio che tu:
 
-1) Resumas mi situación actual en máximo 10 bullets claros.  
-2) Identifiques mis 3–5 mayores oportunidades de crecimiento usando IA (contenido, productos, automatización, etc.).  
-3) Identifiques mis 3–5 cuellos de botella principales que hoy me frenan.  
+1) Riassuma la mia situazione attuale in massimo 10 bullet chiari.  
+2) Identifichi le mie 3–5 maggiori opportunità di crescita usando IA (contenuti, prodotti, automazione, ecc.).  
+3) Identifichi i miei 3–5 principali colli di bottiglia che oggi mi rallentano.  
 
-Presenta esta fase en una sección llamada:  
-> DIAGNÓSTICO DEL NEGOCIO (RESUMEN)
+Presenta questa fase in una sezione chiamata:  
+> DIAGNOSI DEL BUSINESS (RIASSUNTO)
 
-### FASE 2 — Diseño del ecosistema de negocios
+### FASE 2 — Progettazione dell’ecosistema di business
 
-Con el diagnóstico claro, quiero que diseñes un **ecosistema de ofertas y fuentes de ingreso** que tenga:
+Con la diagnosi chiara, voglio che tu progetti un **ecosistema di offerte e fonti di reddito** che includa:
 
-1) **Ofertas de entrada / low ticket**  
-   - Ejemplos: e-books, talleres cortos, plantillas, mini cursos, recursos descargables.  
-   - Explica qué tipo de producto recomendarías y por qué.
+1) **Offerte di ingresso / low ticket**  
+   - Esempi: e-book, workshop brevi, template, mini-corsi, risorse scaricabili.  
+   - Spiega che tipo di prodotto consiglieresti e perché.
 
-2) **Oferta central / core**  
-   - Mi producto o servicio principal (lo que más sentido tenga según mi contexto).  
-   - Define: a quién va dirigido, problema que resuelve, formato, rango de precio sugerido, promesa principal.
+2) **Offerta centrale / core**  
+   - Il mio prodotto o servizio principale (quello più sensato secondo il mio contesto).  
+   - Definisci: a chi è rivolto, problema che risolve, formato, range di prezzo suggerito, promessa principale.
 
-3) **Ofertas de alto valor / high ticket**  
-   - Ejemplos: mentorías 1:1, consultoría, programas intensivos, servicios "done for you".  
-   - Propón 1–2 ideas concretas y explica cómo se relacionan con la oferta central.
+3) **Offerte ad alto valore / high ticket**  
+   - Esempi: mentoring 1:1, consulenza, programmi intensivi, servizi “done for you”.  
+   - Proponi 1–2 idee concrete e spiega come si collegano all’offerta centrale.
 
-4) **Ofertas de continuidad / recurrencia**  
-   - Ejemplos: membresía, acompañamiento mensual, comunidad premium, soporte continuo.  
-   - Propón al menos 1 idea de oferta recurrente y qué contenido/beneficios incluiría.
+4) **Offerte di continuità / ricorrenza**  
+   - Esempi: membership, accompagnamento mensile, community premium, supporto continuo.  
+   - Proponi almeno 1 idea ricorrente e quali contenuti/benefici includerebbe.
 
-5) **Monetización indirecta**  
-   - Ideas extra de monetización: afiliados, partnerships, patrocinios, bundles, etc., siempre que tengan sentido para mi caso.
+5) **Monetizzazione indiretta**  
+   - Idee extra: affiliazioni, partnership, sponsorizzazioni, bundle, ecc., solo se sensate per il mio caso.
 
-Presenta esta parte en una sección llamada:  
-> DISEÑO DEL ECOSISTEMA DE OFERTAS
+Presenta questa parte in una sezione chiamata:  
+> PROGETTAZIONE DELL’ECOSISTEMA DI OFFERTE
 
-### FASE 3 — Contenido y adquisición (trafico)
+### FASE 3 — Contenuti e acquisizione (traffico)
 
-En función de mi contexto y del ecosistema propuesto, diseña una estrategia de contenido y adquisición que incluya:
+In base al mio contesto e all’ecosistema proposto, progetta una strategia di contenuti e acquisizione che includa:
 
-1) 2–3 plataformas prioritarias de contenido (según mi caso).  
-2) 3–5 formatos de contenido clave (reels, carruseles, newsletters, podcast, etc.) y cómo se conectan con mis ofertas.  
-3) Ideas de lead magnets y recursos gratuitos para construir lista de email o comunidad.  
-4) Cómo usar IA (incluyendo prompts, generación de guiones, diseño, etc.) para producir este contenido de forma sostenible.
+1) 2–3 piattaforme principali (in base al mio caso).  
+2) 3–5 formati chiave (reels, caroselli, newsletter, podcast, ecc.) e come si collegano alle offerte.  
+3) Idee di lead magnet e risorse gratuite per costruire lista email o community.  
+4) Come usare l’IA (inclusi prompt, generazione script, design, ecc.) per produrre contenuti in modo sostenibile.
 
-Presenta esta parte en una sección llamada:  
-> ESTRATEGIA DE CONTENIDO Y ADQUISICIÓN
+Presenta questa parte in una sezione chiamata:  
+> STRATEGIA DI CONTENUTO E ACQUISIZIONE
 
-### FASE 4 — Sistemas y automatización con IA
+### FASE 4 — Sistemi e automazione con IA
 
-Propón sistemas simples pero potentes para:
+Proponi sistemi semplici ma potenti per:
 
-1) Captar leads de forma continua (páginas, formularios, automatizaciones básicas).  
-2) Nutrir leads (secuencias de email, contenidos clave, automatizaciones).  
-3) Vender (lanzamientos ligeros, evergreen, llamadas, etc.).  
-4) Reutilizar contenido con ayuda de IA (convertir un contenido en muchos).  
+1) Acquisire lead in modo continuo (pagine, form, automazioni base).  
+2) Nutrire lead (sequenze email, contenuti chiave, automazioni).  
+3) Vendere (lanci leggeri, evergreen, call, demo, ecc.).  
+4) Riutilizzare contenuti con l’aiuto dell’IA (trasformare un contenuto in molti).
 
-Incluye ejemplos de flujos como si fueran diagramas de texto (ej. “Usuario ve X → hace clic en Y → recibe Z”).
+Includi esempi di flussi come se fossero diagrammi testuali (es. “Utente vede X → clicca Y → riceve Z”).
 
-Presenta esta parte en una sección llamada:  
-> SISTEMAS Y AUTOMATIZACIÓN CON IA
+Presenta questa parte in una sezione chiamata:  
+> SISTEMI E AUTOMAZIONE CON IA
 
-### FASE 5 — Plan de implementación a 90 días
+### FASE 5 — Piano di implementazione a 90 giorni
 
-Finalmente, crea un plan de acción en 3 bloques de 30 días:
+Infine, crea un piano d’azione in 3 blocchi da 30 giorni:
 
-- Mes 1: Fundamentos (qué construir primero).  
-- Mes 2: Lanzamiento y validación (qué probar, qué medir).  
-- Mes 3: Optimización y escala (qué mejorar, qué automatizar).
+- Mese 1: Fondamenta (cosa costruire per prima cosa).  
+- Mese 2: Lancio e validazione (cosa testare, cosa misurare).  
+- Mese 3: Ottimizzazione e scala (cosa migliorare, cosa automatizzare).
 
-Para cada bloque, dame:
+Per ogni blocco dammi:
 
-- 3–5 proyectos clave.  
-- Qué resultado concreto se busca con cada uno.  
-- Indicadores básicos a revisar (no hace falta que sean ultra técnicos).
+- 3–5 progetti chiave.  
+- Risultato concreto atteso per ciascuno.  
+- Indicatori base da controllare (non serve siano ultra tecnici).
 
-Presenta esta parte en una sección llamada:  
-> PLAN DE ACCIÓN 90 DÍAS
+Presenta questa parte in una sezione chiamata:  
+> PIANO D’AZIONE 90 GIORNI
 
 IMPORTANTE:  
-- Adapta siempre tus recomendaciones a mis respuestas, contexto y limitaciones.  
-- Evita el lenguaje genérico; quiero ideas específicas y accionables para mi situación.  
-- Si algo no está claro, hazme 2–3 preguntas extra antes de asumir.`,
+- Adatta sempre le raccomandazioni alle mie risposte, al mio contesto e ai miei vincoli.  
+- Evita linguaggio generico: voglio idee specifiche e azionabili per la mia situazione.  
+- Se qualcosa non è chiaro, fammi 2–3 domande extra prima di assumere.`,
       ],
       highlight:
-        "Este es tu “prompt cerebro”: úsalo cuando quieras revisar tu negocio, planear un nuevo año o redefinir tu ecosistema de ofertas."
+        "Questo è il tuo “prompt-cervello”: usalo quando vuoi fare ordine nel business, pianificare un nuovo anno o riprogettare l’ecosistema di offerte.",
     },
     {
-      id: "variantes-uso",
-      title: "4. Variantes rápidas para usar el Mega Prompt",
+      id: "varianti",
+      title: "4. Varianti rapide per usare il Mega Prompt",
       body: [
-        `No siempre tendrás tiempo para hacer la versión completa. Aquí tienes dos formas rápidas de usar el Mega Prompt:`,
-        `**A) Versión exprés (para una sola oferta)**  
-Usa el mismo prompt, pero recorta la parte de ecosistema completo y dile algo como:  
-> “En esta sesión quiero que te enfoques solo en mejorar y reposicionar MI OFERTA PRINCIPAL. Ignora por ahora otras fuentes de ingreso y optimiza solo esta pieza”.`,
-        `**B) Versión “modo auditoría”**  
-Usa solo las fases 0 y 1 (preguntas + diagnóstico) y luego pídele:  
-> “En base a este diagnóstico, dime solo: qué dejar, qué mejorar, qué eliminar y qué crear nuevo. Máx. 10 bullets”.`,
+        `Non sempre avrai tempo per fare la versione completa. Ecco due modi veloci per usare il Mega Prompt:`,
+        `**A) Versione express (solo una offerta)**  
+Usa lo stesso prompt, ma taglia la parte “ecosistema completo” e dì qualcosa tipo:  
+> “In questa sessione voglio che tu ti concentri solo sul migliorare e riposizionare la MIA OFFERTA PRINCIPALE. Ignora per ora altre fonti di reddito e ottimizza solo questo pezzo”.`,
+        `**B) Versione “modalità audit”**  
+Usa solo le fasi 0 e 1 (domande + diagnosi) e poi chiedi:  
+> “In base a questa diagnosi, dimmi solo: cosa tenere, cosa migliorare, cosa eliminare e cosa creare di nuovo. Max 10 bullet”.`,
       ],
       highlight:
-        "Puedes guardar varias versiones del Mega Prompt (completo, exprés, auditoría) en tu propio sistema de prompts favoritos."
+        "Puoi salvare più versioni del Mega Prompt (completa, express, audit) nel tuo sistema di prompt preferiti.",
     },
     {
-      id: "plan-implementacion",
-      title: "5. Cómo integrar el Mega Prompt con el resto del curso",
+      id: "integrazione",
+      title: "5. Come integrare il Mega Prompt con il resto del corso",
       body: [
-        `Este Mega Prompt no vive aislado. Se conecta directamente con el resto de tu Banco Secreto de Prompts:`,
-        `• Cuando definas una nueva oferta → ve a tus **Prompts de texto** para crear la página de venta, emails y contenidos.  
-• Cuando definas tu estrategia de contenido → ve a **Prompts de vídeo** y **Prompts de imagen** para producir la parte creativa.  
-        • Cuando diseñes sistemas y automatizaciones → combina este bono con el **Arsenal de herramientas de IA** para elegir la herramienta adecuada en cada paso.`,
-        `Te recomiendo agendar una “sesión estratégica” contigo mismo de 60–90 minutos para lanzar el Mega Prompt, responder sus preguntas y dejar listo tu primer mapa de ecosistema.`,
+        `Questo Mega Prompt non vive isolato. Si collega direttamente al resto del tuo Banco Segreto di Prompt:`,
+        `• Quando definisci una nuova offerta → vai ai tuoi **Prompt di testo** per creare sales page, email e contenuti.  
+• Quando definisci la strategia contenuti → vai ai **Prompt video** e ai **Prompt immagini** per produrre la parte creativa.  
+• Quando progetti sistemi e automazioni → combina questo bonus con l’**Arsenale di strumenti IA** per scegliere lo strumento giusto a ogni passo.`,
+        `Ti consiglio di programmare una “sessione strategica” con te stesso da 60–90 minuti per lanciare il Mega Prompt, rispondere alle sue domande e uscire con la prima mappa dell’ecosistema.`,
       ],
       highlight:
-        "Cada vez que sientas que tu negocio está desordenado, vuelve a este bono, relanza el Mega Prompt y actualiza tu mapa."
-    }
+        "Ogni volta che senti il business disordinato, torna qui: rilancia il Mega Prompt e aggiorna la tua mappa.",
+    },
   ],
 };

@@ -7,11 +7,10 @@ import { hyperrealismTextPromptsColor } from "./color";
 import { hyperrealismTextPromptsAtmosfera } from "./atmosfera";
 
 export const hyperrealismTextPrompts = [
-  ...hyperrealismTextPromptsBase,
-  ...hyperrealismTextPromptsLuz,
-  ...hyperrealismTextPromptsCamara,
-  ...hyperrealismTextPromptsMateriales,
-  ...hyperrealismTextPromptsComposicion,
-  ...hyperrealismTextPromptsColor,
-  ...hyperrealismTextPromptsAtmosfera,
-];
+...hyperrealismTextPromptsBase,
+...hyperrealismTextPromptsLuz,
+...hyperrealismTextPromptsCamara,
+...hyperrealismTextPromptsMateriales,
+...hyperrealismTextPromptsComposicion,
+...hyperrealismTextPromptsColor,
+...hyperrealismTextPromptsAtmosfera];

@@ -1,2276 +1,2275 @@
 export const textPromptsMarketingEmbudos = [
-  {
-    id: "embudo-001",
-    title: "Diseño de embudo completo desde cero (visión 360°)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Crea un embudo maestro completo con todos los pasos, assets y automatizaciones necesarias.",
-    prompt: `Actúa como un arquitecto de embudos senior especializado en negocios digitales.
+{
+  id: "embudo-001",
+  title: "Imbuto completo design da zero (360 ° visione)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Creare un imbuto master completo con tutti i passaggi necessari, attività e automazione.",
+  prompt: `Agisce come un architetto di imbuto senior specializzato nel business digitale.
 
-Inputs:
-- Tipo de producto/servicio.
-- Precio.
-- Nicho y público objetivo.
-- Objetivo del embudo (ventas, leads, calificación, evergreen, etc.).
-
-Genera:
-
-1) Visión 360° del embudo:
-   - Objetivo central.
-   - KPIs críticos.
-   - Flujo desde tráfico → conversión final.
-
-2) Estructura completa del embudo:
-   - TOFU (parte superior): contenido + imanes.
-   - MOFU (medio): educación, confianza, pre-venta.
-   - BOFU (fondo): pitch, cierre, urgencia.
-
-3) Activos obligatorios:
-   - Página de captura.
-   - Lead magnet (dame 3 opciones).
-   - Página puente / nurturing.
-   - Página de venta.
-   - Secuencia de emails (estructura completa).
-
-4) Automatizaciones:
-   - Segmentación.
-   - Triggers.
-   - Condiciones IF/THEN.
-
-5) Versión PRO:
-   - Embudo evergreen.
-   - Embudo con retargeting avanzado.
-   - Embudo híbrido contenido + ads.
-
-6) Dame además:
-   - KPI esperado por etapa.
-   - Checklist del embudo perfecto.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-002",
-    title: "Embudo tipo Webinar Automático de Alta Conversión",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Diseña un embudo evergreen basado en un webinar pregrabado para vender productos de ticket medio o alto.",
-    prompt: `Actúa como experto en embudos automatizados de webinars.
-
-Inputs:
-- Tema del webinar.
-- Producto que se venderá.
-- Precio.
-- Público objetivo.
+Ingressi:
+- Tipo di prodotto/servizio.
+- Prezzo.
+- Nicho e il pubblico di destinazione.
+- No. L'obiettivo dell'imbuto (sale, cavi, rating, sempreverde, ecc.).
 
 Genera:
 
-1) Estructura completa del embudo:
-   - Landing de registro (copy + secciones).
-   - Secuencia previa al webinar (emails + mensajes).
-   - Página de reproducción.
-   - Oferta dentro del webinar (estructura).
-   - Secuencia post-webinar (7 días).
+1) visione a 360° dell'imbuto:
+- Obiettivo centrale.
+- KPis critico.
+- Flusso dal traffico → conversione finale.
 
-2) Dentro del webinar:
-   - Guion completo (hook, presentación, contenido, pitch).
-   - Framework de enseñanza en 3 pilares.
-   - Sección de validación social.
-   - Manejo de objeciones en el cierre.
+2) Struttura completa dell'imbuto:
+- TOFU (top): contenuto + magneti.
+- MOFU (medium): istruzione, fiducia, prevendita.
+- BOFU (sfondo): passo, chiusura, urgenza.
 
-3) Variantes de oferta:
-   - Pago completo.
-   - Pago dividido.
-   - Bonus temporales.
+3) Attività obbligatorie:
+- Pagina di cattura.
+- Magnete di piombo (datemi 3 opzioni).
+- Ponte / pagina di nutrimento.
+- Pagina delle vendite.
+- Sequenza delle email (struttura completa).
 
-4) Versión PRO:
-   - Integrar retargeting con anuncios dinámicos.
-   - Flujo con automatización según el % de visualización.
+(4) Automazioni:
+- Segmentazione.
+- Trigger.
+- IF / THEN condizioni.
 
-5) KPI recomendados:
-   - Registros.
-   - Show-up rate.
-   - Conversiones 24h, 72h, 7 días.`,
-    thumbnail: "",
-  },
+(5) Versione PRO:
+- Ebudo evergreen.
+- Embudo con ritiro avanzato.
+- Contenuto ibrido + annunci.
 
-  {
-    id: "embudo-003",
-    title: "Embudo de Lanzamiento Semanal (Tipo SPRINT)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Diseña un embudo de venta exprés que se ejecuta cada semana para generar ingresos recurrentes.",
-    prompt: `Inputs:
-- Producto digital.
-- Audiencia.
-- Precio.
+6) Dammi anche:
+- KPI aspettato dal palco.
+- Elenco di imbuto perfetto.`,
+  thumbnail: ""
+},
 
-Genera:
+{
+  id: "embudo-002",
+  title: "Tipo Embudo di Webinar automatico ad alta conversione",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Progetta un imbuto sempreverde basato su un webinar preregistrato per vendere prodotti di biglietto medio o alto.",
+  prompt: `Agisce come esperto in funghi automatizzati di webinar.
 
-1) Calendario semanal del embudo:
-   - Día 1 → Captación.
-   - Día 2 → Educación.
-   - Día 3 → Activación.
-   - Día 4 → Venta.
-   - Día 5 → Cierre.
-
-2) Activos del embudo:
-   - Email diario (escríbelos).
-   - 3 ideas de piezas de contenido que impulsan la semana.
-   - Landing con oferta limitada.
-
-3) Secuencia de urgencia ética.
-
-4) Versión PRO:
-   - Cómo convertirlo en evergreen.
-   - Cómo automatizarlo con segmentación dinámica.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-004",
-    title: "Embudo de Venta con Lead Magnet Profundo (Masterclass + PDF)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Crea un embudo altamente educativo basado en materiales profundos para atraer leads cualificados.",
-    prompt: `Inputs:
-- Tema de la masterclass.
-- Producto principal.
-- Nivel de conocimiento del público.
+Ingressi:
+- Tema del sito web.
+- Prodotto da vendere.
+- Prezzo.
+- Al pubblico.
 
 Genera:
 
-1) Lead magnet:
-   - 3 nombres.
-   - 3 promesas.
-   - Estructura del PDF (10 secciones).
+1) Struttura completa dell'imbuto:
+- atterraggio di registrazione (copia + sezioni).
+- Sequenza pre-webinar (email + messaggi).
+- Pagina di riproduzione.
+- Offerta all'interno del webinar (struttura).
+- Sequenza post-webinar (7 giorni).
+
+2) All'interno del sito:
+- script completo (hook, presentazione, contenuto, pitch).
+- Quadro di insegnamento a 3 pilastri.
+- Sezione di convalida sociale.
+- Gestione delle obiezioni nella chiusura.
+
+3) Varianti di offerta:
+- Pagamento completo.
+- Un pagamento diviso.
+- Bonus temporaneo.
+
+(4) Versione PRO:
+- Integrare il ritiro con annunci dinamici.
+- Flusso con automazione secondo il% del display.
+
+(5) KPI raccomandato:
+- I registri.
+- Tasso di presentazione.
+- 24h, 72h, 7 giorni.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-003",
+  title: "Semanal Launch Embudo (SPRINT Type)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Progetta un imbuto di vendita espresso che corre ogni settimana per generare entrate ricorrenti.",
+  prompt: `Ingressi:
+- Prodotto digitale.
+- Udienza.
+- Prezzo.
+
+Genera:
+
+1) Calendario settimanale deimbuti:
+- Giorno 1 → Captazione.
+- Giorno 2 → Istruzione.
+- Giorno 3 → Attivazione.
+- Giorno 4 → Vendita.
+- Giorno 5 → Chiuso.
+
+2) Attività deimbuti:
+- E-mail quotidiana (scrivili).
+- 3 idee di parti di contenuti che guidano la settimana.
+- Terreno con offerta limitata.
+
+3) sequenza di emergenza etica.
+
+(4) Versione PRO:
+- Come trasformarlo in sempreverde.
+- Come automatizzarlo con segmentazione dinamica.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-004",
+  title: "Selling Embudo with Lead Magnet Deep (Masterclass + PDF)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Crea un imbuto altamente educativo basato su materiali profondi per attirare leader qualificati.",
+  prompt: `Ingressi:
+- Materclass.
+- Prodotto principale.
+- Livello di conoscenza pubblica.
+
+Genera:
+
+1) magnete di piombo:
+- Tre nomi.
+- Tre promesse.
+- struttura PDF (10 sezioni).
 
 2) Embudo:
-   - Landing (copy + secciones).
-   - Página agradecimiento con CTA.
-   - Email de bienvenida.
+- Landing (copia + sezioni).
+- Pagina grazie a CTA.
+- Benvenuta email.
 
-3) Nurturing:
-   - Secuencia 5 emails (profundidad estratégica).
-   - Pregunta clave para segmentar.
+(3) Nurturing:
+- Sequenza 5 email (profondità strategica).
+- Domanda chiave per la segmentazione.
 
-4) Pitch:
-   - Framework PAS optimizado.
-   - Bonus que aumenten valor.
+4) Piazzola:
+- Quadro PAS ottimizzato.
+- Bonus che aumenta il valore.
 
-5) Versión PRO:
-   - Upsell + downsell.
-   - Embudo duplicado para retargeting.`,
-    thumbnail: "",
-  },
+(5) Versione PRO:
+- Upsell + downsell.
+- Dump per ritirarsi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-005",
-    title: "Embudo para Productos de Ticket Alto (High Ticket Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Estructura completa para vender productos entre $1,000–$20,000 con llamadas calificadas.",
-    prompt: `Inputs:
-- Oferta premium.
-- Precio.
-- Público.
-- Objetivo (cantidad de llamadas semanales).
+{
+  id: "embudo-005",
+  title: "Progetto Biglietto",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Struttura completa per vendere prodotti tra $1,000 - $20.000 con chiamate qualificate.",
+  prompt: `Ingressi:
+- Offerta Premium.
+- Prezzo.
+- Pubblico.
+- Obiettivo (numero di chiamate settimanali).
 
 Genera:
 
 1) Pre-filtro:
-   - Landing tipo “apply funnel”.
-   - Preguntas del formulario (10).
+- Tipo di atterraggio "Apply Fund".
+- Domande sul modulo (10).
 
-2) Nurturing:
-   - Emails para elevar el valor percibido.
-   - 3 pruebas sociales poderosas.
+(2) Nurturing:
+- Email per aumentare il valore percepito.
+- Tre potenti test sociali.
 
-3) Script de llamada:
-   - Diagnóstico.
-   - Profundización.
-   - Presentación de solución.
-   - Pitch directo.
-   - Cierre suave.
+3) script di chiamata:
+- Diagnosi.
+- Profinanziamento.
+- Presentazione della soluzione.
+- Vai dritto.
+- Morbido vicino.
 
-4) Versión PRO:
-   - Embudo con vídeo explicativo.
-   - Reglas de segmentación para calidad.
+(4) Versione PRO:
+- Embudo con video esplicativo.
+- Regole di segmentazione per la qualità.
 
-5) KPIs esperados:
-   - Ratio solicitud → llamada.
-   - Ratio llamada → venta.`,
-    thumbnail: "",
-  },
+(5) KPis atteso:
+- Applicazione in rapporto → chiamata.
+- Ratio chiamato → vendita.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-006",
-    title: "Embudo mini-producto → venta principal",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo tipo tripwire donde vendes un producto pequeño que genera clientes capaces de comprar más.",
-    prompt: `Inputs:
-- Mini producto (precio entre $5 y $49).
-- Producto principal.
-- Público.
-
-Genera:
-
-1) Página de mini producto (estructura completa).
-2) Upsell OTO (one-time-offer) con 3 variaciones.
-3) Email de onboarding.
-4) Secuencia de activación hacia la oferta principal.
-5) Version PRO: cómo añadir order bumps y second upsell.
-6) KPIs clave.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-007",
-    title: "Embudo para servicios (Sin llamadas, solo página de ventas)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo sin llamadas, donde cierras servicios mediante copy y automatización.",
-    prompt: `Inputs:
-- Servicio.
-- Precio.
-- Tipo de cliente.
+{
+  id: "embudo-006",
+  title: "Imballaggio mini-prodotto → vendita principale",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Tripwire-tipo budo dove si vende un piccolo prodotto che genera clienti in grado di acquistare di più.",
+  prompt: `Ingressi:
+- Mini prodotto (prezzo tra $5 e $49).
+- Prodotto principale.
+- Pubblico.
 
 Genera:
-1) Landing Page completa:
-   - Hero.
-   - Problemático → transformacional.
-   - Casos estudio.
-   - Proceso.
-   - Precios.
-   - FAQ.
 
-2) Secuencia de calentamiento previa.
-3) Secuencia post-visita para cerrar venta.
-4) Version PRO: integración con WhatsApp.
-5) KPIs esperados.`,
-    thumbnail: "",
-  },
+1) Mini pagina del prodotto (struttura completa).
+2) Upsell OTO (offerta di un tempo) con 3 variazioni.
+3) e-mail di bordo.
+4) Sequenza di attivazione all'offerta principale.
+5) Versione PRO: come aggiungere bug di ordine e secondo upsell.
+6) KPis chiave.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-008",
-    title: "Embudo tipo VSL (Video Sales Letter)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo basado en vídeo de venta estructurado.",
-    prompt: `Inputs:
-- Producto.
-- Público.
+{
+  id: "embudo-007",
+  title: "Embudo per i servizi (Nessuna chiamata, solo pagina di vendita)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo senza chiamate, dove si chiude i servizi di copia e automazione.",
+  prompt: `Ingressi:
+- Servizio.
+- Prezzo.
+- Tipo cliente.
 
 Genera:
-1) Estructura VSL completa:
-   - Hook.
-   - Historia.
-   - Enseñanza.
-   - Oportunidad.
-   - Oferta.
-   - Bonus.
-   - Cierre.
+1) Pagina di atterraggio completa:
+- Eroe.
+- Problemi trasformativi →.
+- Studio di casi.
+- Processo.
+- I prezzi.
+- FAQ.
 
-2) Landing para VSL (copy completo).
-3) Secuencia 7 días ventas.
-4) Version PRO: VSL corta + VSL larga.`,
-    thumbnail: "",
-  },
+2) sequenza di preriscaldamento.
+3) Sequenza post-visit per chiudere la vendita.
+4) Versione PRO: integrazione con WhatsApp.
+5) KPis previsto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-009",
-    title: "Embudo de contenido (Content To Conversion)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Convierte contenido orgánico en ventas mediante embudo inteligente.",
-    prompt: `Inputs:
+{
+  id: "embudo-008",
+  title: "VSL (Codice vendite video)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo basato sul video di vendita strutturato.",
+  prompt: `Ingressi:
+- Prodotto.
+- Pubblico.
+
+Genera:
+1) Struttura completa VSL:
+- Uncino.
+- Storia.
+- Insegnamento.
+- Opportunità.
+- Offerta.
+- Bonus.
+- Vicino.
+
+2) atterraggio per VSL (copia completa).
+3) Sequenza 7 giorni di vendita.
+4) Versione PRO: VSL corto + VSL lungo.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-009",
+  title: "Contenuto Embudo (Content to Conversion)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Convertire contenuti organici in vendite di imbuti intelligenti.",
+  prompt: `Ingressi:
 - Nicho.
-- Formato contenido.
+- Formatta il contenuto.
 
 Genera:
-1) Mapa de contenido → embudo.
-2) 3 rutas de conversión.
-3) Secuencia educativa.
-4) Secuencia de cierre.
-5) CTA listos para copiar.`,
-    thumbnail: "",
-  },
+1) mappa dei contenuti → imbuto.
+2) 3 percorsi di conversione.
+3) Sequenza educativa.
+4) sequenza di chiusura.
+5) CTA pronto a copiare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-010",
-    title: "Embudo de Mensajería Privada (DM Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo basado en conversaciones 1 a 1 para cerrar ventas por chat.",
-    prompt: `Inputs:
-- Producto.
-- Público.
-
-Genera:
-1) Mensaje inicial de activación.
-2) Guion completo conversación orgánica.
-3) Guion conversación ventas.
-4) 3 cierres “sin presión”.
-5) Version PRO: automatizar con IA.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-011",
-    title: "Embudo Express de 24 Horas",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo brutalmente rápido para monetizar en 24h.",
-    prompt: `Inputs:
-- Oferta.
-- Público.
+{
+  id: "embudo-010",
+  title: "Messaggi privati Embudo (progetto DM)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo basato su 1 a 1 conversazioni per chiudere le vendite tramite chat.",
+  prompt: `Ingressi:
+- Prodotto.
+- Pubblico.
 
 Genera:
-1) Secuencia 3 emails.
-2) Landing simple.
-3) Mensajes redes.
-4) Version PRO: Automatización + upsell.`,
-    thumbnail: "",
-  },
+1) messaggio di attivazione iniziale.
+2) Conversazione organica del copione completa.
+3) conversazione di vendita script.
+4) 3 chiusure "nessuna pressione".
+5) Versione PRO: automatizzare con IA.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-012",
-    title: "Embudo para retos de 5 días",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Crea un reto que vende automáticamente.",
-    prompt: `Inputs:
-- Tema.
-- Producto principal.
-
-Genera:
-1) Estructura día a día.
-2) Contenido del reto.
-3) Pitch final.
-4) Secuencia emails.
-5) Version PRO: monetizar el reto.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-013",
-    title: "Embudo de reserva de llamada (sin fricción)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimiza reservas de llamadas eliminando fricción.",
-    prompt: `Inputs:
-- Público.
-- Oferta.
+{
+  id: "embudo-011",
+  title: "24 ore Express Embudo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Brutally veloce imballato per monetizzare in 24h.",
+  prompt: `Ingressi:
+- Offerta.
+- Pubblico.
 
 Genera:
-1) Landing con formulario mínimo.
-2) Secuencia pre-llamada.
-3) Script ultra breve.
-4) Version PRO: retargeting visitas.`,
-    thumbnail: "",
-  },
+1) Sequenza 3 e-mail.
+2) atterraggio semplice.
+3) Messaggi di rete.
+4) Versione PRO: Automazione + upsell.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-014",
-    title: "Embudo para vender suscripciones",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo para membresías y suscripciones.",
-    prompt: `Inputs:
-- Tipo membresía.
-- Precio.
-
-Genera:
-1) Landing.
-2) Secuencia onboarding.
-3) Secuencia retención.
-4) Version PRO: upgrade path.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-015",
-    title: "Embudo con lead magnet estilo Checklist Pro",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Checklist profundo como captación.",
-    prompt: `Inputs:
-- Tema checklist.
-- Producto.
+{
+  id: "embudo-012",
+  title: "Embudo per sfide di 5 giorni",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Crea una sfida che vende automaticamente.",
+  prompt: `Ingressi:
+- Soggetto.
+- Prodotto principale.
 
 Genera:
-1) Checklist 10 ítems.
-2) Landing.
-3) Secuencia activación.
-4) Version PRO: modo evergreen.`,
-    thumbnail: "",
-  },
+1) Struttura giorno per giorno.
+2) Contenuto della sfida.
+3) Final Pitch.
+4) E-mail di sequenza.
+5) Versione PRO: monetizzare la sfida.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-016",
-    title: "Embudo de Prueba Social Masiva",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo basado en casos de éxito.",
-    prompt: `Inputs:
-- Testimonios.
-- Producto.
-
-Genera:
-1) Página prueba social.
-2) 3 estructuras de historias.
-3) Secuencia de venta.
-4) Version PRO: ads testimoniales.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-017",
-    title: "Embudo sin página (solo mensajes)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo solo usando DM + email.",
-    prompt: `Inputs:
-- Oferta.
-- Plataforma.
+{
+  id: "embudo-013",
+  title: "Portachiavi (senza attrito)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ottimizzare le riserve di chiamata eliminando l'attrito.",
+  prompt: `Ingressi:
+- Pubblico.
+- Offerta.
 
 Genera:
-1) Secuencia DM.
-2) Secuencia email.
-3) Script cierre.
-4) Version PRO: automatización IA.`,
-    thumbnail: "",
-  },
+1) atterraggio con forma minima.
+2) sequenza pre-chiamata.
+3) script ultra breve.
+4) Versione PRO: visite di recupero.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-018",
-    title: "Embudo para e-commerce (producto estrella)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo para vender producto estrella.",
-    prompt: `Inputs:
-- Producto.
-- Público.
+{
+  id: "embudo-014",
+  title: "Embudo per vendere abbonamenti",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo per abbonamento e abbonamenti.",
+  prompt: `Ingressi:
+- Tipo di iscrizione.
+- Prezzo.
 
 Genera:
-1) Página optimizada.
+1) Approdo.
+2) Sequenza di bordo.
+(3) Sequenza di conservazione.
+4) Versione PRO: percorso di aggiornamento.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-015",
+  title: "Embudo con stile magnete al piombo Checklist Pro",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Controllo profondo come cattura.",
+  prompt: `Ingressi:
+- Controllo Tema.
+- Prodotto.
+
+Genera:
+1) Lista di controllo 10 articoli.
+2) Approdo.
+3) Sequenza di attivazione.
+4) Versione PRO: Modalità Evergreen.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-016",
+  title: "Sociale massiccio Test Embudo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo basato su casi di successo.",
+  prompt: `Ingressi:
+- Testimonianze.
+- Prodotto.
+
+Genera:
+1) Pagina di test sociale.
+2) 3 strutture di storie.
+3) Sequenza di vendita.
+4) Versione PRO: ad testimonianze.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-017",
+  title: "Embudo senza pagina (solo messaggi)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo utilizza solo DM + email.",
+  prompt: `Ingressi:
+- Offerta.
+- Piattaforma.
+
+Genera:
+(1) Sequenza DM.
+2) Sequenza e-mail.
+3) Chiusura Script.
+4) Versione PRO: automazione IA.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-018",
+  title: "E-commerce contenitore (prodotto stellare)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo per vendere prodotti stellari.",
+  prompt: `Ingressi:
+- Prodotto.
+- Pubblico.
+
+Genera:
+1) pagina ottimizzata.
 2) Upsell.
-3) Secuencia recuperación carrito.
-4) Version PRO: retarget script.`,
-    thumbnail: "",
-  },
+3) Sequenza di recupero del carrello.
+4) Versione PRO: script di ritardo.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-019",
-    title: "Embudo para lead magnet tipo ‘mini curso’",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Mini curso como captación.",
-    prompt: `Inputs:
-- Tema.
-- Lecciones.
-
-Genera:
-1) Outline mini curso.
-2) Landing.
-3) Secuencia venta.
-4) Version PRO upgrades.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-020",
-    title: "Embudo tipo “Desafío + Oferta Flash”",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo intensivo de 3 días + oferta flash.",
-    prompt: `Inputs:
-- Tema del desafío.
-- Producto final.
+{
+  id: "embudo-019",
+  title: "Magnete di piombo 'mini corso '",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Mini rotta come cattura.",
+  prompt: `Ingressi:
+- Soggetto.
+- Lezioni.
 
 Genera:
-1) Estructura 3 días.
-2) Página desafío.
-3) Oferta flash.
-4) Seguimiento.
-5) Version PRO: reto evergreen.`,
-    thumbnail: "",
-  },
-  {
-    id: "embudo-021",
-    title: "Embudo de Captación + Nutrición con Segmentación Inteligente",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo que clasifica automáticamente leads según su nivel de conciencia y tipo de necesidad.",
-    prompt: `Actúa como un estratega de automatizaciones nivel enterprise.
+1) Outline mini corso.
+2) Approdo.
+3) Vendita di sequenza.
+4) Aggiornamenti PRO versione.`,
+  thumbnail: ""
+},
 
-Inputs:
+{
+  id: "embudo-020",
+  title: "Tipo \"Challenge + offerta Flash\"",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Intensivo 3 giorni + alimentazione flash.",
+  prompt: `Ingressi:
+- La sfida.
+- Prodotto finale.
+
+Genera:
+1) Struttura 3 giorni.
+2) sfida pagina.
+3) offerta Flash.
+4) Seguito.
+5) Versione PRO: sfida sempreverde.`,
+  thumbnail: ""
+},
+{
+  id: "embudo-021",
+  title: "Cattura + Nutrizione con Segmentazione Intelligente",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo che classifica automaticamente conduce secondo il suo livello di coscienza e il tipo di necessità.",
+  prompt: `Agisce come una strategia di automazione a livello aziendale.
+
+Ingressi:
 - Nicho.
-- Producto principal.
-- 3 perfiles de cliente que quieres atraer.
+- Prodotto principale.
+- 3 profili dei clienti che vuoi attrarre.
 
 Genera:
 
-1) Sistema de segmentación inteligente:
-   - Pregunta de calificación inicial.
-   - 3 segmentos automáticos según comportamiento.
-   - Tags iniciales y condiciones.
+1) Sistema di segmentazione intelligente:
+- Domanda di valutazione iniziale.
+- 3 segmenti automatici in base al comportamento.
+- Tag e condizioni iniziali.
 
-2) Estructura completa del embudo:
-   - Landing con copy segmentado.
-   - Página de gracias con ruta A/B/C.
-   - Secuencia 7 emails personalizados por segmento.
+2) Struttura completa dell'imbuto:
+- Approdo con copia segmentata.
+- Ringraziamento con percorso A / B / C.
+- Sequenza 7 email personalizzate per segmento.
 
-3) Mapa de comportamiento:
-   - Qué hacer si abren.
-   - Qué hacer si hacen clic.
-   - Qué hacer si no interactúan.
+3) Mappa del comportamento:
+- No. Cosa fare se si aprono.
+- No. Cosa fare se si fa clic.
+- No. Cosa fare se non interagiscono.
 
-4) Pitch final:
-   - 3 versiones de oferta según segmento.
+4) Piazzola finale:
+- 3 versioni di offerta secondo segmento.
 
-5) Versión PRO:
-   - Funnel dinámico donde cada email cambia según interacción previa.
-   - Flujos de rescate para leads fríos.`,
-    thumbnail: "",
-  },
+(5) Versione PRO:
+- Imbuto dinamico dove ogni email cambia in base all'interazione precedente.
+- Flussi di salvataggio per piste fredde.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-022",
-    title: "Embudo de Venta con Intensivo de 3 Días (Bootcamp Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo basado en un bootcamp intensivo en vivo o grabado que activa deseo de compra rápidamente.",
-    prompt: `Inputs:
-- Tema del bootcamp.
-- Duración (3 días).
-- Producto final.
+{
+  id: "embudo-022",
+  title: "Embudo di vendita intensiva di 3 giorni (Progetto di Bootcamp)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo basato su un bootcamp live o incisione intensiva che attiva il desiderio di acquistare rapidamente.",
+  prompt: `Ingressi:
+- tema Bootcamp.
+- Durata (3 giorni).
+- Prodotto finale.
 
 Genera:
 
-1) Posicionamiento del bootcamp:
-   - Promesa.
-   - Transformación en 72 horas.
-   - 5 títulos posibles.
+1) Posizionamento del campo di avvio:
+- Promesso.
+- Trasformazione in 72 ore.
+- 5 titoli possibili.
 
-2) Estructura del embudo:
-   - Página de registro (secciones).
-   - Secuencia pre-bootcamp (4 emails).
-   - Scripts para cada día (día 1, día 2, día 3).
+2) Struttura dell'imbuto:
+- Pagina di registrazione (sezioni).
+- Sequenza pre-campo (4 e-mail).
+- Scrittori per ogni giorno (giorno 1, giorno 2, giorno 3).
 
-3) Activadores psicológicos:
-   - Micro victorias.
-   - Momentum.
-   - Prueba social dinámica.
+3) Attivisti psicologici:
+- Micro vince.
+- Momentum.
+- Prova sociale dinamica.
 
-4) Cierre:
-   - Pitch del día 3.
-   - Oferta flash 48h.
-   - Secuencia de ventas 5 emails.
+(4) Chiudi:
+- Piazzola del 3°.
+- Flash offerta 48h.
+- Sequenza di vendita 5 email.
 
-5) Versión PRO:
-   - Integrar WhatsApp broadcast.
-   - Retargeting día 1–3 con anuncios dinámicos.`,
-    thumbnail: "",
-  },
+(5) Versione PRO:
+- Integra la trasmissione WhatsApp.
+- Giorno di recupero 1-3 con annunci dinamici.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-023",
-    title: "Embudo para Venta de Software o Herramienta Digital",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Diseña un embudo para vender SaaS o herramientas de suscripción.",
-    prompt: `Inputs:
-- Tipo de software.
-- Problema que resuelve.
-- Precio mensual.
+{
+  id: "embudo-023",
+  title: "Embudo in vendita di software o strumento digitale",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Progettare un imbuto per vendere SaaS o strumenti di abbonamento.",
+  prompt: `Ingressi:
+- Tipo di software.
+- Problema che risolve.
+- Prezzo mensile.
 
 Genera:
 
 1) Embudo:
-   - Página de “free trial” optimizada.
-   - Secuencia de onboarding 7 días.
-   - Secuencia de activación (email + mensajes dentro del producto).
+- pagina "libero prova" ottimizzata.
+- Sequenza di bordo 7 giorni.
+- Sequenza di attivazione (email + messaggi all'interno del prodotto).
 
-2) Métricas clave:
-   - Activación.
-   - Retención.
-   - Upgrade.
+2) metalli chiave:
+- Attivazione.
+- Ritenzione.
+- Abbonati.
 
-3) Version PRO:
-   - Embudo paralelo para planes anuales.
-   - Segmentación por nivel de uso del producto.`,
-    thumbnail: "",
-  },
+3) Versione PRO:
+- Pacchetto parallelo per i piani annuali.
+- Segmentazione per livello di utilizzo del prodotto.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-024",
-    title: "Embudo tipo Story Funnel (venta por narrativa)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo basado en historias reales, vulnerabilidad y conexión emocional profunda.",
-    prompt: `Inputs:
-- Historia personal o del fundador.
-- Producto.
-- Público al que quieres impactar.
-
-Genera:
-
-1) Story funnel completo:
-   - Email 1: Origen.
-   - Email 2: Crisis.
-   - Email 3: Revelación.
-   - Email 4: Método.
-   - Email 5: Oferta.
-
-2) Página de ventas basada 100% en storytelling:
-   - Hero emocional.
-   - Viaje del héroe aplicado al cliente.
-   - Prueba social narrativa.
-
-3) Versión PRO:
-   - Variantes para video.
-   - Variantes para reels.
-   - CTA persuasivo emocional.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-025",
-    title: "Embudo de Pre-Venta con Prueba Limitada",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo diseñado para validar ofertas antes de crearlas completamente.",
-    prompt: `Inputs:
-- Idea del producto.
-- Público potencial.
+{
+  id: "embudo-024",
+  title: "Progetto di Storia (vendita spontanea)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo basato su storie reali, vulnerabilità e profonda connessione emotiva.",
+  prompt: `Ingressi:
+- Storia personale o il fondatore.
+- Prodotto.
+- Pubblico che vuoi incidere.
 
 Genera:
 
-1) Pre-landing de validación con:
-   - Promesa.
-   - Alineación.
-   - Botón “quiero unirme”.
+1) Imbuto storia completo:
+- Email 1: Origin.
+- Email 2: Crisi.
+- Email 3: Apocalisse.
+- Email 4: Metodo.
+- Email 5: Offerta.
 
-2) Secuencia para medir interés:
-   - Email 1: Encuesta.
-   - Email 2: Validación.
-   - Email 3: Preventa.
+2) pagina di vendita al 100% su storytelling:
+- Eroe emotivo.
+Il viaggio di Eroe e' stato applicato al cliente.
+- Un test sociale narrativo.
 
-3) Página de preventa:
-   - Detalle de módulos conceptuales.
-   - Fecha estimada de entrega.
-   - Garantía condicional.
+(3) Versione PRO:
+- Varianti video.
+- Varianti a bobina.
+- CTA persuasiva emotiva.`,
+  thumbnail: ""
+},
 
-4) Versión PRO:
-   - Test multivariables para validar big ideas.`,
-    thumbnail: "",
-  },
+{
+  id: "embudo-025",
+  title: "Pre-vendita con prova limitata",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo progettato per convalidare le offerte prima di crearle completamente.",
+  prompt: `Ingressi:
+- Idea del prodotto.
+- Potenziale pubblico.
 
-  {
-    id: "embudo-026",
-    title: "Embudo de Venta con Influencers Micro (Micro-Influencer Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Diseña un embudo que convierte tráfico proveniente de micro-influencers.",
-    prompt: `Inputs:
-- Producto.
+Genera:
+
+1) Convalida pre-adesione con:
+- Promesso.
+- Allineamento.
+- "Voglio unirmi".
+
+2) Sequenza per misurare gli interessi:
+- Email 1: Indagine.
+- Email 2: Validazione.
+- Email 3: Preventa.
+
+3) Pagina preferita:
+- Dettaglio dei moduli concettuali.
+- Data prevista di consegna.
+- Sicurezza condizionale.
+
+(4) Versione PRO:
+- Test multivariabile per convalidare grandi idee.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-026",
+  title: "Embudo di vendita con Micro Influencers (Micro- Influencer Funnel)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Progetta un imbuto che converte il traffico da micro influenze.",
+  prompt: `Ingressi:
+- Prodotto.
 - Nicho.
-- Tipo de influencers.
+- Tipo di influenza.
 
 Genera:
 
-1) Landing especial para tráfico de influencers (con UTM).
-2) Secuencia de bienvenida adaptada.
-3) Oferta especial válida 72h.
-4) Version PRO:
-   - Embudo duplicado según influencer.
-   - Reporte de métricas por campaña.`,
-    thumbnail: "",
-  },
+1) atterraggio speciale per il traffico in influencer (con UTM).
+2) Sequenza di benvenuto adattata.
+3) Offerta speciale valida 72h.
+(4) Versione PRO:
+- Dump come influenza.
+- Rapporto metrico per campagna.`,
+  thumbnail: ""
+},
 
-  {
-    id: "embudo-027",
-    title: "Embudo tipo Quiz Avanzado",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo basado en quizzes profundos para segmentar con precisión quirúrgica.",
-    prompt: `Inputs:
-- Tema del quiz.
-- Producto final.
-
-Genera:
-
-1) Arquitectura completa del quiz:
-   - 7–12 preguntas.
-   - Lógica de ramificación.
-   - Resultados personalizados.
-
-2) Página final según tipo de resultado:
-   - Copy adaptado.
-   - Oferta contextual.
-
-3) Secuencia de nurturing:
-   - 6 emails personalizados por resultado.
-
-4) Version PRO:
-   - Embudo A/B/C según porcentaje de coincidencia.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-028",
-    title: "Embudo para vender a clientes corporativos (B2B Enterprise)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo especializado en ventas complejas para empresas medianas y grandes.",
-    prompt: `Inputs:
-- Tipo de servicio B2B.
-- Sector objetivo.
+{
+  id: "embudo-027",
+  title: "Contenitore di tipo Quiz avanzato",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo basato su quiz profondi per segmentazione con precisione chirurgica.",
+  prompt: `Ingressi:
+- Il tema di Quiz.
+- Prodotto finale.
 
 Genera:
 
-1) Embudo profesional:
-   - Whitepaper o caso estudio.
-   - Página de descarga formal.
-   - Email de contacto profesional.
+1) Architettura completa del quiz:
+- 7- 12 domande.
+- Logica di ramificazione.
+- Risultati personalizzati.
 
-2) Ruta de ventas:
-   - Secuencia de 5 emails corporativos formales.
-   - Script para llamada ejecutiva.
+2) Pagina finale per tipo di risultato:
+- Ricevuto.
+- Context offer.
 
-3) Version PRO:
-   - Embudo para procurement.
-   - Secuencia follow-up 90 días.`,
-    thumbnail: "",
-  },
+3) Sequenza di nutrimento:
+- 6 email personalizzate per risultato.
 
-  {
-    id: "embudo-029",
-    title: "Embudo con comunidad privada como elemento central",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo que convierte al unirse a una comunidad privada gratuita.",
-    prompt: `Inputs:
+(4) Versione PRO:
+- Embudo A / B / C in percentuale di coincidenza.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-028",
+  title: "B2B Enterprise",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Tessuti specializzati in vendite complesse per medie e grandi aziende.",
+  prompt: `Ingressi:
+- Tipo di servizio B2B.
+- Settore obiettivo.
+
+Genera:
+
+1) Professionista:
+- Whitepaper o studio caso.
+- Pagina di download formale.
+- E-mail di contatto professionale.
+
+2) Strada di vendita:
+- Sequenza di 5 e-mail aziendali formali.
+- Script per la chiamata executive.
+
+3) Versione PRO:
+- Embudo per gli appalti.
+- Dopo 90 giorni.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-029",
+  title: "Embudo con la comunità privata come elemento centrale",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo che converte unendo una comunità privata libera.",
+  prompt: `Ingressi:
 - Nicho.
-- Comunidad (FB, Discord, Telegram).
-
-Genera:
-1) Página de acceso a comunidad.
-2) Ruta de contenido dentro de la comunidad (7 días).
-3) Pitch suave por interacción.
-4) Version PRO:
-   - Eventos internos semanales que empujan ventas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-030",
-    title: "Embudo de Conversión con Garantía Inversa",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo basado en una garantía agresiva que elimina objeciones.",
-    prompt: `Inputs:
-- Producto.
-- Tipo de garantía.
-
-Genera:
-1) Landing con garantía dominante.
-2) VSL corta reforzando confianza.
-3) Secuencia psicológica “no arriesgas nada”.
-4) Version PRO:
-   - Garantía inversa con validación de resultados.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-031",
-    title: "Embudo Freemium → Upgrade",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo ideal para apps, SaaS y recursos gratuitos.",
-    prompt: `Inputs:
-- Producto freemium.
-- Beneficios del upgrade.
-
-Genera:
-1) Onboarding usuarios free.
-2) Upsell en momentos estratégicos.
-3) Emails basados en uso.
-4) Version PRO:
-   - Cálculo automático del 'momento mágico'.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-032",
-    title: "Embudo Black Friday 7 Días",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo intensivo de alto volumen para fechas especiales.",
-    prompt: `Inputs:
-- Producto.
-- Descuento u oferta.
-
-Genera:
-1) Calendario 7 días.
-2) Secuencia completa de correos.
-3) 3 ofertas escalonadas.
-4) Version PRO:
-   - Retargeting dinámico.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-033",
-    title: "Embudo Upsell Inmediato Post-Compra",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimiza el LTV aumentando el ticket en el momento correcto.",
-    prompt: `Inputs:
-- Producto principal.
-- Producto upsell.
-
-Genera:
-1) Página OTO.
-2) Script de oferta irresistible.
-3) 3 variaciones de precios.
-4) Version PRO:
-   - Embudo encadenado con segundo upsell.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-034",
-    title: "Embudo Sin Videos (solo texto y automatización)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Ideal para quienes no quieren grabar contenido.",
-    prompt: `Inputs:
-- Producto.
-- Público.
-
-Genera:
-1) Landing ultra textual.
-2) 7 emails educativos.
-3) Página de venta estilo long-form.
-4) Version PRO:
-   - Embudo multivariado solo con texto.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-035",
-    title: "Embudo para vender cursos evergreen",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo automatizado para vender todos los días.",
-    prompt: `Inputs:
-- Curso.
-- Precio.
-
-Genera:
-1) Secuencia de bienvenida.
-2) Ruta de contenido evergreen.
-3) Secuencia de venta evergreen.
-4) Version PRO:
-   - Ventana vs. deadline funnels.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-036",
-    title: "Embudo de Afiliados (para reclutar vendedores externos)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Recolecta afiliados y poi-sitiona tu oferta para que la vendan por ti.",
-    prompt: `Inputs:
-- Producto.
-- Comisión.
-
-Genera:
-1) Página para captar afiliados.
-2) Kit de afiliado.
-3) Secuencia motivacional.
-4) Version PRO:
-   - Embudo interno de retos para afiliados.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-037",
-    title: "Embudo para vender mentorías grupales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo de alto valor que vende programas grupales.",
-    prompt: `Inputs:
-- Mentoría.
-- Duración.
-
-Genera:
-1) Landing emocional.
-2) Secuencia de autoridad.
-3) Script de venta grupal.
-4) Version PRO:
-   - Embudo con masterclass exclusiva.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-038",
-    title: "Embudo para productos físicos premium",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel especializado para productos físicos de alto valor.",
-    prompt: `Inputs:
-- Producto.
-- Precio.
-
-Genera:
-1) Landing estilo luxury.
-2) Secuencia de valor.
-3) Oferta premium limitada.
-4) Version PRO:
-   - Secuencia VIP de clientes elite.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-039",
-    title: "Embudo con Chatbot de Conversión",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo que usa chatbot como primer filtro de ventas.",
-    prompt: `Inputs:
-- Producto.
-- Plataforma chatbot.
-
-Genera:
-1) Script inicial chatbot.
-2) Rutas según respuesta.
-3) Integración con landing.
-4) Version PRO:
-   - Bot inteligente con IA.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-040",
-    title: "Embudo de Recuperación de Leads Fríos",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Revive leads inactivos recuperando interés y deseo.",
-    prompt: `Inputs:
-- Tiempo de inactividad.
-- Producto.
-
-Genera:
-1) Secuencia reactivación 5 emails.
-2) Oferta específica para fríos.
-3) Mensajes para redes.
-4) Version PRO:
-   - Segmentación por temperatura.`,
-    thumbnail: "",
-  },
-  {
-    id: "embudo-041",
-    title: "Embudo High-Ticket con Aplicación + Llamada Cualificada",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo diseñado para vender programas premium mediante aplicación y llamada estratégica.",
-    prompt: `Actúa como estratega en funnels high-ticket.
-
-Inputs:
-• Tipo de mentoría/servicio premium.  
-• Precio.  
-• Perfil exacto del cliente ideal.  
-
-Genera:  
-1) Landing de aplicación:  
-   - Hero orientado a transformación.  
-   - Preguntas para filtrar (mín. 6).  
-   - Promesa escrita en tono aspiracional.  
-
-2) Secuencia pre-llamada (4 emails):
-   - Email 1: Confirmación + expectativas.  
-   - Email 2: Autoridad (casos).  
-   - Email 3: Preparación mental.  
-   - Email 4: Compromiso (checklist).  
-
-3) Script de llamada estructurado:
-   - Apertura.  
-   - Diagnóstico profundo.  
-   - Identificación de brechas.  
-   - Método.  
-   - Oferta.  
-   - Cierre.  
-
-4) Version PRO:
-   - Embudo con dos etapas (aplicación + entrevista previa).  
-   - Variantes para clientes fríos y tibios.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-042",
-    title: "Embudo con Mini Webinars Evergreen (15 minutos)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Funnel evergreen basado en un mini webinar rápido que convierte mejor que los largos.",
-    prompt: `Inputs:
-• Nicho.  
-• Producto final.  
-• Big Idea del webinar.  
-
-Genera:  
-1) Estructura del mini webinar (15 min):
-   - Hook.  
-   - Mito derribado.  
-   - Método.  
-   - Caso.  
-   - Pitch.  
-
-2) Landing para registrar:
-   - Promesa clara en una frase.  
-   - 3 bullets de beneficios.  
-   - Prueba social mínima.  
-
-3) Secuencia post-webinar:
-   - Email 1: Resultado clave.  
-   - Email 2: Objeción principal.  
-   - Email 3: Urgencia.  
-   - Email 4: Última llamada.  
-
-4) Versión PRO:
-   - 3 variaciones de webinars que rotan automáticamente.  
-   - Retargeting in/out.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-043",
-    title: "Embudo Híbrido Contenido + Conversación (Email + WhatsApp)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Funnel moderno basado en contenido profundo y conversaciones directas.",
-    prompt: `Inputs:
-• Producto.  
-• Nivel de ticket.  
-• Tipo de público.  
-
-Genera:
-1) Ruta de contenido (7 días):
-   - Día 1: Problema raíz.  
-   - Día 2: Creencias.  
-   - Día 3: Caso.  
-   - Día 4: Método.  
-   - Día 5: Tutorial.  
-   - Día 6: Objeciones.  
-   - Día 7: Oferta.  
-
-2) Secuencia de activación por WhatsApp:
-   - 3 mensajes cortos orientados a conversación.  
-   - Script para convertir consulta → venta.  
-
-3) Página de venta:
-   - Secciones mínimas.  
-   - 3 CTAs estratégicos.  
-
-4) Versión PRO:
-   - Conversación automatizada con IA.  
-   - Segmentación por intención.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-044",
-    title: "Embudo Tipo Desafío de 14 Días (Challenge Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Un funnel basado en un reto de 14 días para aumentar pertenencia y conversión.",
-    prompt: `Inputs:
-• Tema del reto.  
-• Resultado deseado.  
-
-Genera:
-1) Estructura completa del reto:
-   - Día 1–14 con tareas pequeñas.  
-   - Recompensas psicológicas.  
-   - Momentos de victoria.  
-
-2) Landing del challenge:
-   - Beneficios.  
-   - Calendario visual.  
-   - Preguntas frecuentes.  
-
-3) Secuencia de correos:
-   - 14 emails automatizados con resumen + CTA.  
-
-4) Cierre del reto:
-   - Masterclass final.  
-   - Pitch irresistible.  
-
-5) Version PRO:
-   - Chat grupal.  
-   - Incentivos gamificados.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-045",
-    title: "Embudo de Ventas Flash (72 Horas)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo intensivo para generar ventas rápidas con escasez real.",
-    prompt: `Inputs:
-• Producto.  
-• Descuento u oferta.  
-
-Genera:
-1) Página de oferta flash:
-   - Temporizador real.  
-   - Bonus urgentes.  
-   - Llave única de acceso.  
-
-2) Secuencia:
-   - Email 1: Aviso.  
-   - Email 2: Beneficios.  
-   - Email 3: Última oportunidad.  
-
-3) Retargeting:
-   - Anuncio 1: Recordatorio.  
-   - Anuncio 2: Fricción.  
-   - Anuncio 3: Cierre.  
-
-4) Version PRO:
-   - Segmentar compradores vs. no compradores con rutas distintas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-046",
-    title: "Embudo para Venta de Comunidad Premium",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo especializado en vender membresías de comunidad o clubs privados.",
-    prompt: `Inputs:
-• Comunidad.  
-• Beneficios.  
-
-Genera:
-1) Página de comunidad premium:
-   - Qué incluye.  
-   - Eventos.  
-   - Casos.  
-   - Bonus.  
-
-2) Secuencia persuasiva:
-   - Email 1: Pertenencia.  
-   - Email 2: Transformación.  
-   - Email 3: Momentum.  
-
-3) Activación:
-   - Mensaje de bienvenida.  
-   - Ruta de primeros 7 días.  
-
-4) Version PRO:
-   - Embudo de referidos.  
-   - Niveles gamificados.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-047",
-    title: "Embudo para Reposicionar un Producto Estancado",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Reestructura COPY, oferta y secuencia para relanzar un producto estancado.",
-    prompt: `Inputs:
-• Producto.  
-• Motivo del estancamiento.  
-
-Genera:
-1) Nueva promesa irresistible.  
-2) Reposicionamiento completo.  
-3) Secuencia de reactivación (5 emails).  
-4) Version PRO:
-   - Oferta reinventada con nuevo ángulo psicológico.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-048",
-    title: "Embudo de Venta con Mini-Casos de Estudio",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel basado en estudios de caso breves y directos.",
-    prompt: `Inputs:
-• 3 casos reales.  
-
-Genera:
-1) Storyboards de mini-casos.  
-2) Landing 'Solo resultados'.  
-3) Secuencia orientada a impacto.  
-4) Version PRO:
-   - Casos dinámicos rotativos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-049",
-    title: "Embudo Educativo con Series de Valor",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo basado en una serie de contenido profundo que educa y convence.",
-    prompt: `Inputs:
-• Tema.  
-• Producto.  
-
-Genera:
-1) Serie educativa (4 capítulos).  
-2) Landing de registro.  
-3) Emails que amplían cada capítulo.  
-4) Version PRO:
-   - Mini examen que aumenta autoridad.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-050",
-    title: "Embudo para Venta de Plantillas y Recursos Digitales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Optimizado para vender plantillas, archivos y recursos descargables.",
-    prompt: `Inputs:
-• Tipo de plantilla/recurso.  
-
-Genera:
-1) Página ultra directa.  
-2) Secuencia simple (3 emails).  
-3) Upsell con pack completo.  
-4) Version PRO:
-   - Bundle dinámico según compra.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-051",
-    title: "Embudo con Conversión por Prueba Social Extrema",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Basado en mostrar evidencia masiva de resultados.",
-    prompt: `Inputs:
-• Casos.  
-• Testimonios.  
-
-Genera:
-1) Landing 80% social proof.  
-2) 10 tipos de evidencias.  
-3) Secuencia reforzando resultados.  
-4) Version PRO:
-   - Story-driven testimonial funnel.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-052",
-    title: "Embudo de Conversión con Lead Magnet Avanzado",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Lead magnet poderoso que conduce naturalmente a la venta.",
-    prompt: `Inputs:
-• Tema.  
-• Lead magnet.  
-
-Genera:
-1) Página de descarga.  
-2) Secuencia post-descarga.  
-3) Pre-pitch educativo.  
-4) Version PRO:
-   - Lead magnet con gamificación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-053",
-    title: "Embudo para Venta de Servicios Freelance Pro",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Diseñado para freelancers que quieren cerrar clientes premium.",
-    prompt: `Inputs:
-• Servicio.  
-• Cliente ideal.  
-
-Genera:
-1) Página de autoridad.  
-2) Portafolio estratégico.  
-3) Secuencia consultiva.  
-4) Version PRO:
-   - Funnel con demo personalizada.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-054",
-    title: "Embudo de Conversión para Productos Low-Ticket",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimizado para ventas rápidas de bajo precio.",
-    prompt: `Inputs:
-• Producto.  
-• Precio.  
-
-Genera:
-1) Página mínima.  
-2) Secuencia 3 emails.  
-3) Upsell para aumentar ticket.  
-4) Version PRO:
-   - Embudo automático de recompra.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-055",
-    title: "Embudo con Ruta Personalizada según Avatar",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Define rutas de compra según diferentes perfiles de usuario.",
-    prompt: `Inputs:
-• 3 perfiles de avatar.  
-
-Genera:
-1) Mapa de rutas separadas.  
-2) Mensajes específicos por avatar.  
-3) Ofertas personalizadas.  
-4) Version PRO:
-   - IA que adapta email/sms.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-056",
-    title: "Embudo con Mecanismo Único de Venta (MUV)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo construido 100% alrededor de un mecanismo único poderoso.",
-    prompt: `Inputs:
-• MUV.  
-• Producto.  
-
-Genera:
-1) Big Idea.  
-2) Copy central.  
-3) Email sequence 5 días.  
-4) Version PRO:
-   - Variantes psicológicas del MUV.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-057",
-    title: "Embudo para Venta de Consultorías 1:1",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo diseñado para vender servicios premium personalizados.",
-    prompt: `Inputs:
-• Tema de consultoría.  
-
-Genera:
-1) Landing emocional.  
-2) Script de llamada.  
-3) Secuencia de autoridad.  
-4) Version PRO:
-   - Cuestionario previo avanzado.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-058",
-    title: "Embudo de Venta para Masterclass de Pago",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo especializado para vender entradas a una clase especial.",
-    prompt: `Inputs:
-• Tema.  
-• Precio.  
-
-Genera:
-1) Landing.  
-2) Secuencia 4 emails.  
-3) Upsell post-masterclass.  
-4) Version PRO:
-   - Acceso anticipado IP tracking.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-059",
-    title: "Embudo Evergreen Tipo 'Deadline Funnel Lite'",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Usa urgencia automatizada sin ser agresivo.",
-    prompt: `Inputs:
-• Producto.  
-• Deadline.  
-
-Genera:
-1) Ruta evergreen.  
-2) Emails con urgencia suave.  
-3) Oferta final.  
-4) Version PRO:
-   - Deadline dinámico según interacción.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-060",
-    title: "Embudo Conversacional 100% Chat",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo basado en chat, sin páginas ni emails.",
-    prompt: `Inputs:
-• Producto.  
-• Plataforma (WhatsApp/IG DM).  
-
-Genera:
-1) Script inicial.  
-2) Preguntas de diagnóstico.  
-3) Pitch dentro del chat.  
-4) Version PRO:
-   - Chat IA que cierra ventas.`,
-    thumbnail: "",
-  },
-  {
-    id: "embudo-061",
-    title: "Embudo Hiper-Optimizado para Audiencias Pequeñas",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Funnel diseñado para quienes tienen comunidades pequeñas pero quieren convertir alto.",
-    prompt: `Inputs:
-• Tamaño de la audiencia (ej. 200–3,000 personas).  
-• Nicho.  
-• Producto.  
-
-Genera:
-1) Embudo íntimo:
-   - Email 1: Conexión profunda.
-   - Email 2: Marco de oportunidad.
-   - Email 3: Invitación personal.
-   - Email 4: Cierre cercano.
-
-2) Página de venta:
-   - Prueba social mínima pero poderosa.
-   - Secciones que generan cercanía.
-
-3) Estrategia de conversación:
-   - 5 mensajes listos para enviar por DM.
-
-4) Versión PRO:
-   - Ruta personalizada para compradores tibios vs. calientes.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-062",
-    title: "Embudo para Productos Educativos de Ticket Medio",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo especializado para cursos entre $97 y $297.",
-    prompt: `Inputs:
-• Curso.  
-• Resultado que promete.  
-• Objeciones más comunes.  
-
-Genera:
-1) Página de venta optimizada:
-   - Promesa.
-   - Módulos.
-   - Método.
-   - Bonus.
-   - Garantía.
-
-2) Secuencia de emails de 7 días:
-   - Día 1: Big idea.
-   - Día 2: Diagnóstico.
-   - Día 3: Caso.
-   - Día 4: Objeción.
-   - Día 5: Demo.
-   - Día 6: Anticipación.
-   - Día 7: Cierre.
-
-3) Upsell:
-   - Pack premium.
-
-4) Versión PRO:
-   - Embudo evergreen automatizado con urgencia dinámica.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-063",
-    title: "Embudo para Venta de Mentorías Express (30–90 Min)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Funnel específico para vender sesiones cortas altamente valiosas.",
-    prompt: `Inputs:
-• Tema de la mentoría express.  
-• Precio.  
-
-Genera:
-1) Página de mentoría express:
-   - Transformación mínima.
-   - Estructura de 3 pasos.
-   - Escasez (plazas limitadas).
-
-2) Secuencia:
-   - Email de autoridad.
-   - Email de caso.
-   - Email de urgencia.
-
-3) Flow conversacional:
-   - 5 mensajes que llevan al pago.
-
-4) Versión PRO:
-   - Automatización con horarios dinámicos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-064",
-    title: "Embudo para Lanzamientos Internos (Warm Launch)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Lanzamiento dirigido solo a audiencia actual para maximizar ROI.",
-    prompt: `Inputs:
-• Producto.  
-• Público tibio/actual.  
-
-Genera:
-1) Warm-up de 7 días.
-2) Mini-series educativa de 4 capítulos.
-3) Secuencia de carrito abierto.
-4) Versión PRO:
-   - Segmentación por interacción previa.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-065",
-    title: "Embudo para Venta de Agencias (Servicios Done-For-You)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Especial para agencias que venden servicios completos.",
-    prompt: `Inputs:
-• Tipo de servicio (DFY).  
-• Ticket.  
-
-Genera:
-1) Landing profesional versión agencia.
-2) Secuencia corporativa.
-3) Script de diagnóstico.
-4) Versión PRO:
-   - Contenido de autoridad semanal.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-066",
-    title: "Embudo de Upsell basado en Momentum Emocional",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Upsell presentado justo después de una victoria emocional del cliente.",
-    prompt: `Inputs:
-• Producto principal.  
-• Producto upsell.  
-
-Genera:
-1) Identificación del momento ideal.
-2) Página de upsell emocional.
-3) Script para aumentar deseo.
-4) Version PRO:
-   - Automatización basada en eventos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-067",
-    title: "Embudo para Venta de Entrenamientos Grabados",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para vender workshops, bootcamps y clases grabadas.",
-    prompt: `Inputs:
-• Entrenamiento.  
-• Duración.  
-
-Genera:
-1) Landing 'mira hoy mismo'.
-2) Secuencia 3 pasos (valor → deseo → venta).
-3) Upsell grabado premium.
-4) Versión PRO:
-   - Embudo evergreen con deadline.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-068",
-    title: "Embudo con Ruta Educativa Gamificada (XP Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo tipo videojuego donde el usuario desbloquea contenido.",
-    prompt: `Inputs:
-• Curso/producto.  
-
-Genera:
-1) Ruta de niveles.
-2) Desbloqueos por acción.
-3) Recompensas gamificadas.
-4) Versión PRO:
-   - Ranking de usuarios.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-069",
-    title: "Embudo con Testimonio Dinámico como Eje Central",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel que gira en torno a un testimonio poderoso.",
-    prompt: `Inputs:
-• Testimonio principal.  
-
-Genera:
-1) Historia estructurada.
-2) Landing 'del caos al éxito'.
-3) Secuencia narrativa.
-4) Version PRO:
-   - Testimonios interactivos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-070",
-    title: "Embudo para Venta de Workshops Presenciales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel diseñado para vender talleres presenciales.",
-    prompt: `Inputs:
-• Fecha y lugar.  
-• Tema.  
-• Precio.  
-
-Genera:
-1) Página con mapa, agenda, promesa.
-2) Secuencia pre-evento.
-3) Upsell de entradas VIP.
-4) Version PRO:
-   - Embudo para fotos post-evento.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-071",
-    title: "Embudo de Venta de Consultorías Estratégicas Anuales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para vender planes anuales de alto valor.",
-    prompt: `Inputs:
-• Tipo de consultoría.  
-• Ticket.  
-
-Genera:
-1) Landing corporativa.
-2) Secuencia autoridad extrema.
-3) Script de reunión anual.
-4) Versión PRO:
-   - Embudo renovaciones 12 meses después.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-072",
-    title: "Embudo para Venta de Servicios de Gestión (Community, Ads, Etc.)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel para servicios recurrentes.",
-    prompt: `Inputs:
-• Servicio mensual.  
-
-Genera:
-1) Página profesional.
-2) Secuencia consultiva.
-3) Demo gratuita del servicio.
-4) Versión PRO:
-   - Embudo para aumentar retención.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-073",
-    title: "Embudo para Venta de InfoProductos Premium ($500–$1500)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimizado para cursos avanzados y programas grandes.",
-    prompt: `Inputs:
-• Curso.  
-• Transformación.  
-
-Genera:
-1) Story funnel.
-2) Secuencia de autoridad.
-3) Pitch premium.
-4) Versión PRO:
-   - Embudo híbrido con llamada opcional.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-074",
-    title: "Embudo Exclusivo por Invitación (Invite-Only Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel basado en exclusividad.",
-    prompt: `Inputs:
-• Producto.  
-
-Genera:
-1) Landing 'solo por invitación'.
-2) Preguntas de selección.
-3) Secuencia que aumenta deseo.
-4) Version PRO:
-   - Lista de espera VIP.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-075",
-    title: "Embudo basado en Contrastes Visuales (Antes/Después)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Usa contraste visual extremo para vender.",
-    prompt: `Inputs:
-• Antes y después.  
-
-Genera:
-1) Página comparativa.
-2) Emails por transformación.
-3) Anuncios antes/después.
-4) Version PRO:
-   - Sistema dinámico de contrastes.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-076",
-    title: "Embudo con Demostración en Tiempo Real (Live Demo Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Muestra la transformación en vivo.",
-    prompt: `Inputs:
-• Producto/servicio.  
-
-Genera:
-1) Script de demo.
-2) Secuencia pre-demo.
-3) Secuencia post-demo.
-4) Version PRO:
-   - Embudo evergreen basado en grabaciones.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-077",
-    title: "Embudo para Venta de Servicios de Branding",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo para posicionarte como creador de marcas.",
-    prompt: `Inputs:
-• Servicio de branding.  
-
-Genera:
-1) Landing estética.
-2) Portfolio estratégico.
-3) Secuencia sensorial (palabras, audio, colores).
-4) Versión PRO:
-   - Embudo multisensorial.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-078",
-    title: "Embudo para Venta de Servicios de Ads",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel especializado para agencias de publicidad.",
-    prompt: `Inputs:
-• Servicio de ads.  
-
-Genera:
-1) Landing basada en resultados.
-2) Casos de ROAS.
-3) Secuencia consultiva.
-4) Versión PRO:
-   - Embudo con auditoría gratuita.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-079",
-    title: "Embudo con Validación de Problema antes de Vender",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Valida dolor antes de ofrecer solución.",
-    prompt: `Inputs:
-• Problema principal del avatar.  
-
-Genera:
-1) Página de diagnóstico.
-2) Secuencia investigación.
-3) Pitch basado en insights.
-4) Versión PRO:
-   - Dashboard de insights.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-080",
-    title: "Embudo para Venta de Suscripciones Mensuales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimizado para memberships y suscripciones de contenido.",
-    prompt: `Inputs:
-• Suscripción.  
-• Beneficios mensuales.
-
-Genera:
-1) Landing clara.
-2) Secuencia motivación → retención.
-3) Ruta primeros 30 días.
-4) Versión PRO:
-   - Embudo para aumentar LTV.`,
-    thumbnail: "",
-  },
-  {
-    id: "embudo-081",
-    title: "Embudo de 3 Capas: Conciencia → Compromiso → Conversión",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo que mueve al usuario escalón por escalón hasta la compra final.",
-    prompt: `Inputs:
-• Producto.  
-• Público.  
-• Nivel actual de conciencia.  
-
-Genera:
-1) Capa 1 – Awareness:
-   - 3 piezas de contenido educativo.
-   - Página de regalo gratuito.
-   - Email de bienvenida.
-
-2) Capa 2 – Engagement:
-   - Secuencia de 5 correos profundos.
-   - Historia de transformación.
-   - Mini caso de estudio.
-
-3) Capa 3 – Conversion:
-   - Página de venta completa.
-   - Oferta irresistible.
-   - Secuencia de cierre.
-
-4) Versión PRO:
-   - Automatización que detecta en qué capa está el usuario.
-   - Rutas dinámicas por comportamiento.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-082",
-    title: "Embudo para Venta de Planes Anuales (One-Year Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Embudo optimizado para convertir clientes a pagos anuales ahorrando comisiones.",
-    prompt: `Inputs:
-• Plan mensual vs. anual.  
-• Ahorro anual.  
-
-Genera:
-1) Landing comparativa:
-   - Diferencias.
-   - Beneficios.
-   - Garantía extendida.
-
-2) Secuencia de 5 correos:
-   - Ahorro.
-   - Velocidad.
-   - Exclusividad.
-   - Bonus.
-   - Cierre.
-
-3) Upsell:
-   - Consultoría extra.
-
-4) Versión PRO:
-   - Upgrade automático para usuarios activos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-083",
-    title: "Embudo de Venta con Método Propietario (Framework Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Vende usando un método único y diferenciado.",
-    prompt: `Inputs:
-• Nombre del método.  
-• Pasos.  
-
-Genera:
-1) Crea la narrativa del método.
-2) Landing “Conoce mi sistema”.
-3) Secuencia explicando cada paso.
-4) Versión PRO:
-   - Variantes del mismo método para 3 avatares.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-084",
-    title: "Embudo de Conversión con Auditoría Gratuita",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Ideal para servicios profesionales que requieren análisis previo.",
-    prompt: `Inputs:
-• Tipo de auditoría.  
-• Resultado entregado.  
-
-Genera:
-1) Página de auditoría.
-2) Formulario avanzado.
-3) Secuencia preparando la venta final.
-4) Versión PRO:
-   - Auditoría automática con IA.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-085",
-    title: "Embudo Basado en Resultados Garantizados",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel ideal cuando tienes evidencia fuerte.",
-    prompt: `Inputs:
-• Garantía.  
-• Resultados reales.  
-
-Genera:
-1) Landing centrada en garantías.  
-2) Secuencia con evidencia real.  
-3) Objections killer.  
-4) Version PRO:
-   - Copy legal + emocional.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-086",
-    title: "Embudo para Venta de Cursos Técnicos o Profesionales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel para cursos especializados con lenguaje técnico.",
-    prompt: `Inputs:
-• Curso técnico.  
-
-Genera:
-1) Landing profesional.  
-2) Secuencia demostrativa (tutoriales).  
-3) Pitch técnico.  
-4) Version PRO:
-   - Embudo con certificación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-087",
-    title: "Embudo con Estrategia de 'Educación agresiva'",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Educas tan profundamente que la venta se vuelve consecuencia obvia.",
-    prompt: `Inputs:
-• Tema complejo.  
-
-Genera:
-1) 7 emails de educación intensa.
-2) Página de insights.
-3) Pitch basado en claridad.
-4) Version PRO:
-   - Recursos avanzados descargables.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-088",
-    title: "Embudo para Venta de Certificaciones",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Especializado para vender certificaciones profesionales.",
-    prompt: `Inputs:
-• Tipo de certificación.  
-
-Genera:
-1) Página con acreditaciones.
-2) Ruta del estudiante.
-3) Secuencia profesional.
-4) Version PRO:
-   - Embudo con examen previo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-089",
-    title: "Embudo para Venta de Productos 'Hazlo Tú Mismo'",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Ideal para nichos DIY, diseño, productividad, etc.",
-    prompt: `Inputs:
-• Producto DIY.  
-
-Genera:
-1) Landing con instrucciones visuales.
-2) Secuencia de tutoriales.
-3) Pitch final.
-4) Version PRO:
-   - Upsell con material premium.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-090",
-    title: "Embudo de Venta con Oferta 'Beta' o 'Early Access'",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para validar un producto antes de escalarlo.",
-    prompt: `Inputs:
-• Producto beta.  
-• Beneficios del acceso temprano.
-
-Genera:
-1) Landing confidencial (beta).  
-2) Secuencia de exclusividad.  
-3) Oferta limitada.  
-4) Version PRO:
-   - Grupo privado de testers.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-091",
-    title: "Embudo para Venta de suscripciones semanales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Ideal para newsletters premium y contenido recurrente.",
-    prompt: `Inputs:
-• Contenido semanal.  
-
-Genera:
-1) Landing minimalista.
-2) Prueba gratuita 7 días.
-3) Secuencia conversión.
-4) Version PRO:
-   - Upsell trimestral.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-092",
-    title: "Embudo para Venta de Programas Fitness Digitales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary:
-      "Optimizado para rutinas, asesorías y programas de transformación.",
-    prompt: `Inputs:
-• Programa fitness.  
-
-Genera:
-1) Landing motivacional.
-2) Ruta de 30 días.
-3) Secuencia emocional.
-4) Version PRO:
-   - App tracking.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-093",
-    title: "Embudo para Venta de Productos de Estilo de Vida",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para nichos de moda, belleza, hogar, lifestyle.",
-    prompt: `Inputs:
-• Producto.  
-
-Genera:
-1) Landing visual.
-2) VSL estética.
-3) Secuencia aspiracional.
-4) Version PRO:
-   - Embudo influencer-hybrid.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-094",
-    title: "Embudo para Venta de Consultorías Empresariales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Diseñado para el mundo corporativo.",
-    prompt: `Inputs:
-• Tipo de consultoría B2B.  
-
-Genera:
-1) Landing formal.
-2) Secuencia ejecutiva.
-3) Propuesta PDF automatizada.
-4) Version PRO:
-   - Panel para juntas.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-095",
-    title: "Embudo para Venta de Eventos Online (Summits)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Ideal para conferencias online y summits.",
-    prompt: `Inputs:
-• Tema.  
-
-Genera:
-1) Landing sumittop.
-2) Agenda estratégica.
-3) Secuencia conversión.
-4) Version PRO:
-   - Upsell del pass VIP.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-096",
-    title: "Embudo para Venta de Clases Magistrales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Masterclasses como producto principal.",
-    prompt: `Inputs:
-• Clase.  
-
-Genera:
-1) Landing alta autoridad.
-2) Secuencia 'solo 1 clase cambia tu vida'.
-3) Pitch final.
-4) Version PRO:
-   - Acceso anticipado + VIP.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-097",
-    title: "Embudo para Venta de Servicios de Automatización",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Perfecto para consultores técnicos.",
-    prompt: `Inputs:
-• Servicio de automatización.  
-
-Genera:
-1) Landing técnica pero clara.
-2) Secuencia educación → impacto.
-3) Pitch con ROI directo.
-4) Version PRO:
-   - Funnel con demostración grabada.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-098",
-    title: "Embudo para Venta de Productos Educativos Infantiles",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para cursos de niños, juegos, educación temprana.",
-    prompt: `Inputs:
-• Producto infantil.
-
-Genera:
-1) Landing amigable.
-2) Secuencia para padres.
-3) Pitch emocional.
-4) Version PRO:
-   - Embudo escolar.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-099",
-    title: "Embudo de Conversión con Beneficio Diario (Micro-Wins Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Micro victorias diarias que empujan la compra.",
-    prompt: `Inputs:
-• Producto.  
-
-Genera:
-1) 7 días micro-wins.
-2) Landing 'avance diario'.
-3) Secuencia emocional.
-4) Version PRO:
-   - Micro-wins automatizados por IA.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "embudo-100",
-    title: "Embudo para Venta de Productos Digitales Premium",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para vender recursos, plantillas, sistemas completos high-end.",
-    prompt: `Inputs:
-• Producto digital.  
-
-Genera:
-1) Página premium high-end.
-2) Secuencia 'elite' 7 días.
-3) Upsell de sistema completo.
-4) Version PRO:
-   - Funnel estilo Apple / lujo.`,
-    thumbnail: "",
-  },
-];
+- Comunità (FB, Discord, Telegram).
+
+Genera:
+1) Pagina di accesso comunitario.
+2) Percorso dei contenuti all'interno della comunità (7 giorni).
+3) Soft Pitch per interazione.
+(4) Versione PRO:
+- Eventi interni settimanali che spingono le vendite.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-030",
+  title: "Conversione Embudo con Garanzia Inversa",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo basato su una garanzia aggressiva che elimina le obiezioni.",
+  prompt: `Ingressi:
+- Prodotto.
+- Tipo di garanzia.
+
+Genera:
+1) atterraggio con una garanzia dominante.
+2) VSL tagli rafforzando la fiducia.
+3) Sequenza psicologica "non rischiare nulla".
+(4) Versione PRO:
+- Garanzia inversa con validazione dei risultati.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-031",
+  title: "Embudo Freemium → Aggiornamento",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ideale per applicazioni, SaaS e risorse gratuite.",
+  prompt: `Ingressi:
+- Freemium.
+- Migliorare i benefici.
+
+Genera:
+1) utenti gratuiti di bordo.
+2) Upsell in tempi strategici.
+3) E-mail basate sull'uso.
+(4) Versione PRO:
+- Calcolo automatico del "momento magico".`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-032",
+  title: "Venerdì nero 7 giorni",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Imballaggio intensivo ad alto volume per date speciali.",
+  prompt: `Ingressi:
+- Prodotto.
+- Sconto o offerta.
+
+Genera:
+1) Calendario 7 giorni.
+2) Sequenza di posta completa.
+3) 3 offerte phased.
+(4) Versione PRO:
+- Ritargere dinamico.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-033",
+  title: "Upsell Embudo Instant Post-Purchase",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ottimizzare la LTV aumentando il biglietto al momento giusto.",
+  prompt: `Ingressi:
+- Prodotto principale.
+- Alza il prodotto.
+
+Genera:
+(1) Pagina OTO.
+2) irresistibile offerta script.
+3) 3 variazioni di prezzo.
+(4) Versione PRO:
+- Il tessuto incatenato con il secondo.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-034",
+  title: "No Video (solo testo e automazione)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ideale per chi non vuole registrare contenuti.",
+  prompt: `Ingressi:
+- Prodotto.
+- Pubblico.
+
+Genera:
+1) atterraggio ultra testuale.
+(2) 7 email educative.
+3) pagina di vendita stile di forma lunga.
+(4) Versione PRO:
+- Contenuto multivariato solo con testo.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-035",
+  title: "Embudo vendere corsi sempreverdi",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Alimentazione automatizzata per vendere ogni giorno.",
+  prompt: `Ingressi:
+- Certo.
+- Prezzo.
+
+Genera:
+1) Sequenza di benvenuto.
+2) Percorso di contenuto sempreverde.
+3) Sequenza di vendita sempre.
+(4) Versione PRO:
+- Finestra contro imbuti Deadline.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-036",
+  title: "Affiliato Embudo (per reclutare fornitori esterni)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Raccogliere affiliati e avere la vostra offerta di essere venduti per voi.",
+  prompt: `Ingressi:
+- Prodotto.
+- Commissione.
+
+Genera:
+1) Pagina per catturare affiliati.
+2) Kit di affiliazione.
+3) Sequenza motivazionale.
+(4) Versione PRO:
+- Interno mix di sfida per i partecipanti.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-037",
+  title: "Embudo vende mentori di gruppo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo di alto valore che vende programmi di gruppo.",
+  prompt: `Ingressi:
+- Menzogne.
+- Durata.
+
+Genera:
+1) Approdo emotivo.
+2) Sequenza dell'autorità.
+3) Scrittura di vendita di gruppo.
+(4) Versione PRO:
+- Embudo con una masterclass esclusiva.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-038",
+  title: "Buffer di prodotto fisico premium",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Funnel specializzato per prodotti fisici ad alto valore.",
+  prompt: `Ingressi:
+- Prodotto.
+- Prezzo.
+
+Genera:
+1) Landing stile di lusso.
+2) Sequenza di valore.
+3) offerta premium limitata.
+(4) Versione PRO:
+- Sequenza VIP del cliente Elite.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-039",
+  title: "Embudo con la conversione Chatbot",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo che utilizza chatbot come primo filtro di vendita.",
+  prompt: `Ingressi:
+- Prodotto.
+- piattaforma chatbot.
+
+Genera:
+1) chatbot di script iniziale.
+2) Percorsi secondo la risposta.
+3) Integrazione con atterraggio.
+(4) Versione PRO:
+- Smart Bot con IA.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-040",
+  title: "Cold Leads Recovery Embudo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Rivive i leader inattivi recuperando interesse e desiderio.",
+  prompt: `Ingressi:
+- Tempo di inattività.
+- Prodotto.
+
+Genera:
+1) sequenza di riattivazione 5 e-mail.
+2) Offerta specifica per il freddo.
+3) Messaggi per reti.
+(4) Versione PRO:
+- segmentazione della temperatura.`,
+  thumbnail: ""
+},
+{
+  id: "embudo-041",
+  title: "Embudo ad alta velocità con Applicazione + Chiamata Qualificata",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo progettato per vendere programmi premium attraverso applicazione e chiamata strategica.",
+  prompt: `Agisce come strategia in imbuti high-ticket.
+
+Ingressi:
+• Tipo di mentorship / servizio premium.
+• Prezzo.
+• Accurata profilo cliente ideale.
+
+Genera:
+(1) Approfondimento della domanda:
+- Eroe orientato alla trasformazione.
+- Domande da filtrare (min. 6).
+- Promessi scritti in tono aspirazione.
+
+2) Pre-chiamato sequenza (4 e-mail):
+- Email 1: Conferma + aspettative.
+- Email 2: Autorità (casi).
+- Email 3: Preparazione mentale.
+- Email 4: Impegno (checklist).
+
+3) script di chiamata strutturato:
+- In apertura.
+- Diagnosi profonda.
+- Identificazione delle lacune.
+- Metodo.
+- Offerta.
+- Vicino.
+
+(4) Versione PRO:
+- Imballaggio a due stadi (applicazione + intervista precedente).
+- Varianti per clienti freddi e caldi.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-042",
+  title: "Embudo con Mini Webinars Evergreen (15 minuti)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Funnel sempreverde basato su un veloce mini webinar che gira meglio di quelli lunghi.",
+  prompt: `Ingressi:
+• Nicho.
+• Prodotto finale.
+• Grande Web Idea.
+
+Genera:
+1) Struttura del mini-webinar (15 min):
+- Uncino.
+- Mito a terra.
+- Metodo.
+- Caso.
+- Pitch.
+
+2) atterraggio per registrare:
+- No. Promette di essere chiaro in una frase.
+- 3 proiettili di benefici.
+- Test sociale minimo.
+
+3) Sequenza post-webinar:
+- Email 1: Risultato chiave.
+- Email 2: Obiezione principale.
+- Email 3: Urgenza.
+- Email 4: Ultima chiamata.
+
+(4) Versione PRO:
+- 3 varianti di webinar che ruotano automaticamente.
+- Recuperare in / fuori.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-043",
+  title: "Ibrido Embudo Contenuto + Conversazione (Email + WhatsApp)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Imbuto moderno basato su contenuti profondi e conversazioni dirette.",
+  prompt: `Ingressi:
+• Prodotto.
+• Livello biglietto.
+• Tipo pubblico.
+
+Genera:
+1) Contenuto percorso (7 giorni):
+- Giorno 1: problema della radice.
+- Giorno 2: Cinture.
+- Giorno 3: Caso.
+- Giorno 4: Metodo.
+- Giorno 5: Tutorial.
+- Giorno 6: Obiezioni.
+- Giorno 7: Offerta.
+
+2) Sequenza di attivazione da WhatsApp:
+- 3 brevi messaggi orientati alla conversazione.
+- Script per convertire query → vendita.
+
+3) Pagina di vendita:
+- Sezione minima.
+- 3 viste strategiche.
+
+(4) Versione PRO:
+- Conversazione automatizzata con IA.
+- segmentazione latente.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-044",
+  title: "Sfida di 14 giorni Tipo Embudo (Challenge Funnel)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Un imbuto basato su una sfida di 14 giorni per aumentare l'adesione e la conversione.",
+  prompt: `Ingressi:
+• Tema sfida.
+• Il risultato desiderato.
+
+Genera:
+1) Struttura completa della sfida:
+- Giorno 1-14 con piccoli compiti.
+- Ricompense psicologiche.
+- Momenti di vittoria.
+
+2) Avviamento della sfida:
+- Benefici.
+- Calendario visivo.
+- Domande frequenti.
+
+3) Sequenza di messaggio:
+- 14 email automatizzate con sommario + CTA.
+
+4) Chiusura della sfida:
+- Final Masterclass.
+- Pitch irresistibile.
+
+5) Versione PRO:
+- Chat di gruppo.
+- Incentivi collettivi.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-045",
+  title: "Vendita Flash Embudo (72 ore)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Intensivo per generare vendite veloci con vera carenza.",
+  prompt: `Ingressi:
+• Prodotto.
+• Sconto o offerta.
+
+Genera:
+1) pagina di offerta Flash:
+- Un vero timer.
+- Un bonus urgente.
+- Chiave di accesso unica.
+
+(2) Sequenza:
+- Email 1: Attenzione.
+- Email 2: Benefits.
+- Email 3: Ultima possibilità.
+
+3) Ritargere:
+- Annuncio 1: Reminder.
+- Annuncio 2: Frizione.
+- Annuncio 3: Chiudi.
+
+(4) Versione PRO:
+- Segment buyers vs. non-buyers su percorsi diversi.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-046",
+  title: "Premium Community Selling Embudo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo è specializzata nella vendita di membri della comunità o club privati.",
+  prompt: `Ingressi:
+• Comunità.
+• Vantaggi.
+
+Genera:
+1) Pagina della comunità Premium:
+- No. Cosa include?
+- Eventi.
+- Casi.
+- Bonus.
+
+2) sequenza persuasiva:
+- Email 1: Tenure.
+- Email 2: Trasformazione.
+- Email 3: Momentum.
+
+3) Attivazione:
+- Benvenuto.
+- Prima rotta di sette giorni.
+
+(4) Versione PRO:
+- Citazione.
+- Livelli Gamificati.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-047",
+  title: "Embudo per riposizionare un prodotto memorizzato",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "COPY ristrutturazione, offerta e sequenza per rilanciare un prodotto stagnante.",
+  prompt: `Ingressi:
+• Prodotto.
+• Motivo di stagnazione.
+
+Genera:
+1) Nuova promessa irresistibile.
+2) Riposizionamento completo.
+3) Sequenza di riattivazione (5 e-mail).
+(4) Versione PRO:
+- Offerta inventata con nuovo angolo psicologico.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-048",
+  title: "Vendita di Embudo con Mini- Caso di studio",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Imbuto basato su studi di casi brevi e diretti.",
+  prompt: `Ingressi:
+• 3 casi reali.
+
+Genera:
+1) Mini- case Storyboards.
+2) Approfondire 'Solo risultati'.
+3) sequenza orientata all'impatto.
+(4) Versione PRO:
+- Ruotare casi dinamici.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-049",
+  title: "Embudo educativo con serie di valori",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo basato su una serie di contenuti profondi che educa e convince.",
+  prompt: `Ingressi:
+• Oggetto.
+• Prodotto.
+
+Genera:
+1) Serie educativa (4 capitoli).
+2) atterraggio di registrazione.
+3) E-mail che espandono ogni capitolo.
+(4) Versione PRO:
+- Mini esame che aumenta l'autorità.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-050",
+  title: "Pacchetto per la vendita di modelli e risorse digitali",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Ottimizzato per vendere modelli, file e risorse scaricabili.",
+  prompt: `Ingressi:
+• Tipo di modello / risorsa.
+
+Genera:
+1) Pagina ultra diretta.
+2) Sequenza semplice (3 e-mail).
+3) UPSell con pacchetto completo.
+(4) Versione PRO:
+- Blocco dinamico secondo l'acquisto.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-051",
+  title: "Embudo con Extreme Social Test Conversion",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Sulla base di una prova massiccia di risultati.",
+  prompt: `Ingressi:
+• Casi.
+• Testimonianze.
+
+Genera:
+1) atterraggio 80% prova sociale.
+2) 10 tipi di prove.
+3) Risultati di rafforzamento della sequenza.
+(4) Versione PRO:
+- Imbuto testimonial.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-052",
+  title: "Embudo di conversione con magnete avanzato di piombo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Piombo potente magnete che porta naturalmente alla vendita.",
+  prompt: `Ingressi:
+• Oggetto.
+• magnete di piombo.
+
+Genera:
+1) Scarica la pagina.
+2) sequenza post-download.
+3) istruzione pre-pitch.
+(4) Versione PRO:
+- Magnete di piombo con gamification.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-053",
+  title: "Vendita per Freelance Pro Services",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Progettato per i freelance che vogliono chiudere i clienti premium.",
+  prompt: `Ingressi:
+• Servizio.
+• Cliente ideale.
+
+Genera:
+1) Pagina dell'autorità.
+2) Portafoglio strategico.
+3) Sequenza consultiva.
+(4) Versione PRO:
+- Funnel con demo personalizzato.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-054",
+  title: "Conversione Embudo per prodotti a bassa velocità",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ottimizzato per vendite veloci a basso prezzo.",
+  prompt: `Ingressi:
+• Prodotto.
+• Prezzo.
+
+Genera:
+1) Pagina minima.
+2) Sequenza 3 e-mail.
+3) Upsell per aumentare il biglietto.
+(4) Versione PRO:
+- Borsa di riacquisto automatica.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-055",
+  title: "Embudo con percorso personalizzato secondo Avatar",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Definire i percorsi di acquisto secondo diversi profili utente.",
+  prompt: `Ingressi:
+• 3 profili avatar.
+
+Genera:
+1) Mappa di percorsi separati.
+2) Messaggi specifici da avatar.
+3) Offerte personalizzate.
+(4) Versione PRO:
+- Un che adatta email / sms.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-056",
+  title: "Embudo con meccanismo di vendita singolo (MUV)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo costruito al 100% intorno a un unico potente meccanismo.",
+  prompt: `Ingressi:
+• MUV.
+• Prodotto.
+
+Genera:
+1) Grande idea.
+2) Copia centrale.
+3) Sequenza e-mail 5 giorni.
+(4) Versione PRO:
+- Varianti psicologiche del MUV.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-057",
+  title: "Embudo in Vendita di Consulenza 1: 1",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo progettato per vendere servizi premium personalizzati.",
+  prompt: `Ingressi:
+• Tema di consulenza.
+
+Genera:
+1) Approdo emotivo.
+2) script di chiamata.
+3) Sequenza dell'Autorità.
+(4) Versione PRO:
+- Avanzato questionario precedente.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-058",
+  title: "Vendita Embudo per pagamento Masterclass",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Specializzato per vendere i biglietti a una classe speciale.",
+  prompt: `Ingressi:
+• Oggetto.
+• Prezzo.
+
+Genera:
+1) Approdo.
+2) Sequenza 4 e-mail.
+3) Upsell post-masterclass.
+(4) Versione PRO:
+- Accesso anticipato al tracciamento IP.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-059",
+  title: "Embudo Evergreen Tipo 'Deadline Funnel Lite '",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Utilizzare l'urgenza automatizzata senza essere aggressivo.",
+  prompt: `Ingressi:
+• Prodotto.
+• Scadenza.
+
+Genera:
+1) Percorso sempreverde.
+2) Email con un'urgenza morbida.
+(3) Offerta finale.
+(4) Versione PRO:
+- Scadenza dinamica secondo l'interazione.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-060",
+  title: "Conversational Embudo 100% Chat",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Chat-based bag, nessuna pagina o e-mail.",
+  prompt: `Ingressi:
+• Prodotto.
+• Piattaforma (WhatsApp / IG DM).
+
+Genera:
+1) script iniziale.
+2) Domande diagnostiche.
+3) Piazzola all'interno della chat.
+(4) Versione PRO:
+- Chat IA che chiude le vendite.`,
+  thumbnail: ""
+},
+{
+  id: "embudo-061",
+  title: "Ottimizzato per piccole udienze",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Imbuto progettato per chi ha piccole comunità, ma vuole diventare alto.",
+  prompt: `Ingressi:
+• dimensione del pubblico (per esempio 200-3.000 persone).
+• Nicho.
+• Prodotto.
+
+Genera:
+1) Adesivo intimo:
+- Email 1: Collegamento profondo.
+- Email 2: Quadro di opportunità.
+- Email 3: invito personale.
+- Email 4: Vicino.
+
+2) Pagina di vendita:
+- Test sociale minimo ma potente.
+- Sezioni che generano vicinanza.
+
+3) Strategia di conversazione:
+- 5 messaggi pronti per essere inviati da DM.
+
+(4) Versione PRO:
+- Percorso personalizzato per compratori caldi e caldi.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-062",
+  title: "Biglietto medio prodotto educativo Embudo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Pacchetto corso specializzato tra $97 e $297.",
+  prompt: `Ingressi:
+• Corso.
+• Il risultato che prometti.
+• Oggetti più comuni.
+
+Genera:
+1) pagina di vendita ottimizzata:
+- Promesso.
+- Moduli.
+- Metodo.
+- Bonus.
+- Garanzia.
+
+2) sequenza di e-mail di 7 giorni:
+- Giorno 1: Grande idea.
+- Giorno 2: diagnosi.
+- Giorno 3: Caso.
+- Giorno 4: Obiezione.
+- Giorno 5: Demo.
+- Giorno 6: Avanzata.
+- Giorno 7: Vicino.
+
+(3) Upsell:
+- Confezione Premium.
+
+(4) Versione PRO:
+- Ugly automatizzato con urgenza dinamica.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-063",
+  title: "Espressa tessuto mentale (30-90 Min)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Fondo specifico per la vendita di sessioni brevi altamente preziose.",
+  prompt: `Ingressi:
+• Oggetto dell'espressa guida.
+• Prezzo.
+
+Genera:
+1) La pagina di mentory espressa:
+- Trasformazione minima.
+- Struttura a tre fasi.
+- Pericolo (luoghi limitati).
+
+(2) Sequenza:
+- E-mail dell'autorità.
+- E-mail del caso.
+- E-mail di emergenza.
+
+3) Conversazione di flusso:
+- 5 messaggi che portano al pagamento.
+
+(4) Versione PRO:
+- Automazione con ore dinamiche.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-064",
+  title: "Embudo di lancio interno (Warm Launch)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Lancio diretto solo al pubblico corrente per massimizzare ROI.",
+  prompt: `Ingressi:
+• Prodotto.
+• Tiny / pubblico corrente.
+
+Genera:
+1) Warm-up 7 giorni.
+2) Serie mini-educativa di 4 capitoli.
+3) Sequenza del carrello aperto.
+(4) Versione PRO:
+- Segmentazione mediante interazione preventiva.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-065",
+  title: "Embudo para Venta de Agents (Servicios Done-For-You)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Speciale per le agenzie che vendono servizi completi.",
+  prompt: `Ingressi:
+• Tipo di servizio (DFY).
+• biglietto.
+
+Genera:
+1) Landing agenzia di versione professionale.
+2) Sequenza aziendale.
+3) script diagnostico.
+(4) Versione PRO:
+- Contenuto dell'autorità settimanale.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-066",
+  title: "Upsell Embudo basato su Momentum Emotional",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Upsell presentato subito dopo una vittoria emotiva del cliente.",
+  prompt: `Ingressi:
+• Prodotto principale.
+• Prodotto in vendita.
+
+Genera:
+1) Identificazione del momento ideale.
+2) Pagina di upsell emotivo.
+3) Script per aumentare il desiderio.
+(4) Versione PRO:
+- automazione basata su eventi.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-067",
+  title: "Embudo in vendita di formazione registrata",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Vendere workshop, bootcamp e classi registrate.",
+  prompt: `Ingressi:
+• Formazione.
+• Durata.
+
+Genera:
+1) Approdo 'guardare oggi'.
+2) Sequenza 3 passi (valore → desiderio → vendita).
+3) Upsell incisione premium.
+(4) Versione PRO:
+- Evelerate con Deadline.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-068",
+  title: "Embudo con percorso educativo Gamified (progetto XP)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Videogioco tipo budo dove l'utente sblocca il contenuto.",
+  prompt: `Ingressi:
+• Corso / prodotto.
+
+Genera:
+1) Percorso di livello.
+2) Sblocca per azione.
+3) Ricompense ricevute.
+(4) Versione PRO:
+- La classifica degli utenti.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-069",
+  title: "Testimonianza con Testimonia dinamica come asse centrale",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Imbuto che ruota intorno a una testimonianza potente.",
+  prompt: `Ingressi:
+• Testimonianza principale.
+
+Genera:
+1) Storia strutturata.
+2) Approfondire 'dal caos al successo'.
+3) sequenza narrativa.
+(4) Versione PRO:
+- Testimonianze interattive.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-070",
+  title: "Embudo in Vendita di Laboratori Presenti",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Funnel progettato per vendere laboratori faccia a faccia.",
+  prompt: `Ingressi:
+• Data e luogo.
+• Oggetto.
+• Prezzo.
+
+Genera:
+1) Pagina con mappa, agenda, promessa.
+2) Prevenire la sequenza.
+3) upsell ingresso VIP.
+(4) Versione PRO:
+- Caricamento foto.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-071",
+  title: "Consulenza strategica annuale Vendita Embudo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Vendere piani annuali di alto valore.",
+  prompt: `Ingressi:
+• Tipo di consulenza.
+• biglietto.
+
+Genera:
+1) Corporate Landing.
+2) Sequenza di autorità estrema.
+3) script di riunione annuale.
+(4) Versione PRO:
+- Faccio lavori di ristrutturazione 12 mesi dopo.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-072",
+  title: "Embudo per la vendita di servizi di gestione (comunità, annunci, ecc.)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Servizi ricorrenti.",
+  prompt: `Ingressi:
+• Servizio mensile.
+
+Genera:
+1) Pagina professionale.
+2) Sequenza consultiva.
+3) Domanda di servizio gratuito.
+(4) Versione PRO:
+- Embudo per aumentare la ritenzione.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-073",
+  title: "Embudo in vendita di Premium InfoProdotti ($500- $1500)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ottimizzato per corsi avanzati e programmi di grandi dimensioni.",
+  prompt: `Ingressi:
+• Corso.
+• Trasformazione.
+
+Genera:
+1) Imbuto di storia.
+2) Sequenza dell'autorità.
+3) premio Pitch.
+(4) Versione PRO:
+- Ibridi con chiamata opzionale.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-074",
+  title: "Embudo esclusivo di Invitation (Progetto Invite-Only)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Imbuto basato sull'esclusività.",
+  prompt: `Ingressi:
+• Prodotto.
+
+Genera:
+1) Approdo 'solo su invito'.
+2) Domande di selezione.
+3) Sequenza che aumenta il desiderio.
+(4) Versione PRO:
+- lista d'attesa VIP.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-075",
+  title: "Tissue based on Visual Contrasts (Prima / Dopo)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Utilizzare estremo contrasto visivo per vendere.",
+  prompt: `Ingressi:
+• Prima e dopo.
+
+Genera:
+1) Pagina comparativa.
+2) Email per trasformazione.
+3) Ads prima / dopo.
+(4) Versione PRO:
+- Sistema dinamico di contrasti.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-076",
+  title: "Real Time Demonstration Embudo (Live Demo Project)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Mostra la trasformazione dal vivo.",
+  prompt: `Ingressi:
+• Prodotto / servizio.
+
+Genera:
+1) script demo.
+2) sequenza pre-demo.
+3) sequenza post-demo.
+(4) Versione PRO:
+- No. E' un nastro, sempreverde.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-077",
+  title: "Embudo in vendita di Branding Services",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Embudo per posizionarti come creatore di marca.",
+  prompt: `Ingressi:
+• Servizio di branding.
+
+Genera:
+1) Estetica di atterraggio.
+2) Portafoglio strategico.
+3) Sequenza sensoriale (parole, audio, colori).
+(4) Versione PRO:
+- Buff multisensoriale.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-078",
+  title: "Embudo in vendita di Ads Services",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Funnel specializzato per le agenzie pubblicitarie.",
+  prompt: `Ingressi:
+• Servizio pubblicitario.
+
+Genera:
+1) Landing basato sui risultati.
+2) Casi di ROAS.
+3) Sequenza consultiva.
+(4) Versione PRO:
+- Embudo con controllo gratuito.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-079",
+  title: "Embudo con la convalida dei problemi prima di vendere",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Dolore valido prima di offrire una soluzione.",
+  prompt: `Ingressi:
+• Problema principale dell'avatar.
+
+Genera:
+1) Pagina diagnostica.
+2) Sequenza di ricerca.
+3) Pitch basato su intuizioni.
+(4) Versione PRO:
+- Dashboard of Insights.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-080",
+  title: "Abbonamento mensile Vendita Embudo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ottimizzato per abbonamenti e abbonamenti di contenuti.",
+  prompt: `Ingressi:
+• Sottoscrizione.
+• Benefici mensili.
+
+Genera:
+1) Approdo libero.
+2) motivazione di sequenza → ritenzione.
+3) Primi 30 giorni.
+(4) Versione PRO:
+- Embudo per aumentare LTV.`,
+  thumbnail: ""
+},
+{
+  id: "embudo-081",
+  title: "3-Caped Embudo: Coscienza → Impegno → Conversione",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Embudo che sposta l'utente passo dopo passo fino all'acquisto finale.",
+  prompt: `Ingressi:
+• Prodotto.
+• Pubblico.
+• Livello attuale di coscienza.
+
+Genera:
+1) Livello 1 - Consapevolezza:
+- 3 pezzi di contenuto educativo.
+- Pagina regalo gratuita.
+- Benvenuta email.
+
+2) Livello 2 - Impegno:
+- Sequenza di 5 e-mail profonde.
+- Storia della trasformazione.
+- Mini studio caso.
+
+3) Livello 3 - Conversione:
+- Pagina di vendita completa.
+- No. Un'offerta irresistibile.
+- Sequenza di chiusura.
+
+(4) Versione PRO:
+- Automazione che rileva quale strato è l'utente.
+- Percorsi comportamentali dinamici.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-082",
+  title: "Ebudo in vendita di piani annuali (progetto di un anno)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Ottimizzato per convertire i clienti in commissioni di risparmio di pagamenti annuali.",
+  prompt: `Ingressi:
+• Piano mensile vs. annuale.
+• Risparmio annuale.
+
+Genera:
+(1) Terreno comparato:
+- Differenze.
+- Benefici.
+- Garanzia estesa.
+
+2) Sequenza di 5 email:
+- Sto salvando.
+- Velocità.
+- Esclusività.
+- Bonus.
+- Vicino.
+
+(3) Upsell:
+- Consulenza extra.
+
+(4) Versione PRO:
+- Aggiornamento automatico per gli utenti attivi.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-083",
+  title: "Vendere Embudo con Metodo proprietario (Progetto di lavoro)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Vendere utilizzando un metodo unico e differenziato.",
+  prompt: `Ingressi:
+• Nome del metodo.
+• Passi.
+
+Genera:
+1) Creare la narrazione del metodo.
+2) Approdo "Conosci il mio sistema".
+3) Sequenza che spiega ogni passo.
+(4) Versione PRO:
+- Varianti dello stesso metodo per 3 avatar.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-084",
+  title: "Conversione di Audit gratuita Embudo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Ideale per servizi professionali che richiedono un'analisi preliminare.",
+  prompt: `Ingressi:
+• Tipo di controllo.
+• Risultato consegnato.
+
+Genera:
+1) Pagina di controllo.
+(2) Modulo avanzato.
+3) Sequenza che prepara la vendita finale.
+(4) Versione PRO:
+- Controllo automatico con IA.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-085",
+  title: "Embudo Basato sui risultati sicuri",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "La funzione ideale quando hai prove forti.",
+  prompt: `Ingressi:
+• Garanzia.
+• Risultati reali.
+
+Genera:
+1) L'atterraggio si è concentrato sulle garanzie.
+2) Sequenza reale delle prove.
+3) Obiezioni killer.
+(4) Versione PRO:
+- Copia legale + emotiva.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-086",
+  title: "Embudo in Vendita di Corsi Tecnici o Professionali",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Funnel per corsi specializzati con linguaggio tecnico.",
+  prompt: `Ingressi:
+• Corso tecnico.
+
+Genera:
+1) Approdo professionale.
+2) Sequenza dimostrativa (tutoriali).
+(3) Piazzola tecnica.
+(4) Versione PRO:
+- Embudo con certificazione.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-087",
+  title: "Embudo con Strategia di 'Educazione Aggressiva'",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Educa così profondamente che la vendita diventa evidente.",
+  prompt: `Ingressi:
+• Tema complesso.
+
+Genera:
+1) 7 email di istruzione intensiva.
+2) Insights pagina.
+3) Pitch basato sulla chiarezza.
+(4) Versione PRO:
+- Risorse scaricabili avanzate.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-088",
+  title: "Embudo per la vendita di certificazioni",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Specializzato per vendere certificazioni professionali.",
+  prompt: `Ingressi:
+• Tipo di certificazione.
+
+Genera:
+1) Pagina con accreditamento.
+2) Percorso degli studenti.
+3) Sequenziamento professionale.
+(4) Versione PRO:
+- Tessuto con esame preventivo.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-089",
+  title: "Embudo in vendita dei prodotti Fai da solo",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ideale per nicchie fai da te, design, produttività, ecc.",
+  prompt: `Ingressi:
+• Prodotto fai da te.
+
+Genera:
+1) atterraggio con istruzioni visive.
+(2) Sequenza di Guardianship.
+3) Final Pitch.
+(4) Versione PRO:
+- Upsell con materiale premium.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-090",
+  title: "Borsa di vendita con Offerta 'Beta' o 'Accesso immediato '",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Per convalidare un prodotto prima dell'arrampicata.",
+  prompt: `Ingressi:
+• Prodotto Beta.
+• Vantaggi di accesso anticipato.
+
+Genera:
+1) Landing confidenziale (beta).
+2) Sequenza di esclusività.
+(3) Offerta limitata.
+(4) Versione PRO:
+- Un gruppo privato di tester.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-091",
+  title: "Vendita di abbonamenti settimanali",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ideale per newsletter premium e contenuti ricorrenti.",
+  prompt: `Ingressi:
+• Contenuto settimanale.
+
+Genera:
+1) atterraggio minimalista.
+2) Prova gratuita 7 giorni.
+(3) sequenza di conversione.
+(4) Versione PRO:
+- Fino a quartilmente.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-092",
+  title: "Embudo in vendita di programmi di fitness digitali",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary:
+  "Ottimizzato per programmi di routine, consulenza e trasformazione.",
+  prompt: `Ingressi:
+• Programma fitness.
+
+Genera:
+1) Approfondimento motivazionale.
+2) percorso di 30 giorni.
+3) Sequenza emotiva.
+(4) Versione PRO:
+- App tracking.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-093",
+  title: "Embudo in vendita di prodotti Lifestyle",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Per nicchie di moda, bellezza, casa, stile di vita.",
+  prompt: `Ingressi:
+• Prodotto.
+
+Genera:
+1) atterraggio visivo.
+2) VSL estetica.
+3) Sequenza respiratoria.
+(4) Versione PRO:
+- Influences- ibrido.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-094",
+  title: "Embudo in Vendita di Business Consulting",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Progettato per il mondo aziendale.",
+  prompt: `Ingressi:
+• Tipo di consulenza B2B.
+
+Genera:
+(1) Landing formale.
+2) Sequenza esecutivo.
+3) Proposta automatizzata PDF.
+(4) Versione PRO:
+- Pannello per riunioni.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-095",
+  title: "Embudo per la vendita di eventi online (Summits)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Ideale per conferenze e sintesi online.",
+  prompt: `Ingressi:
+• Oggetto.
+
+Genera:
+1) Sommario.
+2) Agenda strategica.
+(3) sequenza di conversione.
+(4) Versione PRO:
+- Passo VIP.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-096",
+  title: "Embudo para Venta de Clases Magistrales",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Masterclasses come prodotto principale.",
+  prompt: `Ingressi:
+• Classe.
+
+Genera:
+1) Landing alta autorità.
+2) Sequenza 'solo 1 classe cambia la tua vita'.
+3) Final Pitch.
+(4) Versione PRO:
+- Accesso anticipato + VIP.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-097",
+  title: "Embudo in Vendita di Automation Services",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Perfetto per i consulenti tecnici.",
+  prompt: `Ingressi:
+• Servizio di automazione.
+
+Genera:
+1) atterraggio tecnico ma chiaro.
+2) Sequenza di istruzione → impatto.
+3) Piazzola con ROI diretto.
+(4) Versione PRO:
+- Funnel con dimostrazione registrata.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-098",
+  title: "Embudo in vendita di prodotti educativi per bambini",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Per corsi per bambini, giochi, educazione precoce.",
+  prompt: `Ingressi:
+• Prodotto per bambini.
+
+Genera:
+1) Terreno amichevole.
+2) Sequenza per genitori.
+3) Piazzola emotiva.
+(4) Versione PRO:
+- Borsa a scuola.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-099",
+  title: "Conversione Embudo con beneficio giornaliero (Micro- Wins Project)",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Micro vince ogni giorno che spingono l'acquisto.",
+  prompt: `Ingressi:
+• Prodotto.
+
+Genera:
+1) 7 giorni micro- vince.
+2) Approfondire 'l'avanzata quotidiana'.
+3) Sequenza emotiva.
+(4) Versione PRO:
+- Micro- vince automatizzato da IA.`,
+  thumbnail: ""
+},
+
+{
+  id: "embudo-100",
+  title: "Embudo di vendita di prodotti digitali Premium",
+  area: "Marketing e vendita",
+  category: "Imboscata",
+  summary: "Per vendere risorse, modelli, sistemi di fascia alta completi.",
+  prompt: `Ingressi:
+• Prodotto digitale.
+
+Genera:
+1) Premium pagina di fascia alta.
+2) sequenza "Elite" 7 giorni.
+3) upsell sistema completo.
+(4) Versione PRO:
+- Apple-style / lusso.`,
+  thumbnail: ""
+}];

@@ -1,1141 +1,1140 @@
 // src/lib/prompts/text/marketing-scripts-b2c.js
 
 export const textPromptsMarketingScriptsB2C = [
-  {
-    id: "msb2c-001",
-    title: "Script UGC 30s (Problema → Descubrimiento → Prueba → Resultado → CTA)",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion corto estilo UGC para Reels/TikTok: hook fuerte, prueba, resultado y CTA.",
-    prompt: `Contexto (rellena):
-- Producto:
-- Precio (opcional):
-- Para quién es:
-- Problema/dolor que resuelve:
-- Objección #1 (precio/tiempo/confianza):
-- Objección #2:
-- Prueba disponible (reseñas, número de clientes, antes/después):
-- Tono (cercano/divertido/premium/directo):
-- Plataforma (TikTok/Reels/Shorts):
+{
+  id: "msb2c-001",
+  title: "UGC 30s script (Problem → Discovery → Test → Risultato → CTA)",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "UGC script in stile corto per Reels / TikTok: gancio forte, test, risultato e CTA.",
+  prompt: `Contesto (riempito):
+- Prodotto:
+- Prezzo (opzionale):
+- Per chi è:
+- Problema / dolore che risolve:
+- Oggetto # 1 (prezzo / tempo / fiducia):
+- Oggetto 2:
+- No. Prova disponibile (recensioni, numero di clienti, prima / dopo):
+- Tono (chiudi / divertimento / premium / diretto):
+- Piattaforma (TikTok / Reels / Shorts):
 
-Tarea:
-Crea un guion UGC de 30 segundos con:
-1) HOOK (0–2s): 3 opciones (una curiosidad, una shock, una “confesión”).
-2) PROBLEMA (2–7s): describe el dolor con un ejemplo cotidiano específico.
-3) DESCUBRIMIENTO (7–12s): cómo encontraste el producto (sin sonar a anuncio).
-4) DEMO/PRUEBA (12–22s): muestra 2–3 “pruebas” (sensación, detalle, mini comparativa, resultados realistas).
-5) RESULTADO (22–27s): qué cambió (con números si aplica).
-6) CTA (27–30s): 2 versiones (suave y directo).
-7) Texto on-screen: escribe EXACTAMENTE el texto para cada tramo.
-8) Notas de edición: cortes, b-roll, música/ritmo, subtítulos.
+Compito:
+Crea uno script UGC di 30 secondi con:
+1) HOOK (0-2s): 3 opzioni (una curiosità, uno shock, una "confessione").
+2) PROBLEM (2-7): descrive il dolore con un esempio quotidiano specifico.
+3) DOGANALI (7-12): come avete trovato il prodotto (senza suono ad).
+4) DEMO / PRUEBA (12-22s): campione 2-3 "test" (feeling, dettaglio, mini-comparativo, risultati realistici).
+5) RESULT (22-27): che cosa è cambiato (con numeri se applicato).
+6) CTA (27-30s): 2 versioni (soft e diretto).
+7) Testo sullo schermo: EXACTALY scrive il testo per ogni sezione.
+8) Note editoriali: tagli, b-roll, musica / ritmo, sottotitoli.
 
-Restricciones:
-- No exageres resultados; incluye condición si aplica.
-- Evita clichés (“cambia tu vida”, “imperdible”).
-- Haz que suene humano.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-002",
-    title: "Script UGC 45s ‘Antes vs Después’ (con mini historia personal)",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion UGC más largo que vende con transformación realista y narrativa personal.",
-    prompt: `Rellena:
-- Producto:
-- “Antes” (situación real):
-- “Después” (resultado realista):
-- Momento de quiebre:
-- Tiempo para ver cambio:
-- Público ideal:
-- 1 detalle sensorial/probatorio (textura, sabor, velocidad, comodidad):
+Restrizioni:
+- No. Non esagerare i risultati; include la condizione se applicata.
+- Evitare i cliché ("cambia la tua vita", "impermeabile").
+- Fallo sembrare umano.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-002",
+  title: "UGC script 45s' Before vs After '(con mini storia personale)",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Script UGC più lungo che vende con trasformazione realistica e narrazione personale.",
+  prompt: `Riempimento:
+- Prodotto:
+- "Prima" (situazione reale):
+- "Dopo" (risultato realistico):
+- Tempo di pausa:
+- E' ora di vedere il cambiamento:
+- Il pubblico ideale:
+- 1 dettaglio sensoriale/probativo (tessuto, gusto, velocità, comfort):
 
 Crea:
-1) Guion 45 segundos con ritmo:
-   - 0–3s hook (3 opciones)
-   - 3–15s antes (historia concreta)
-   - 15–28s proceso (cómo lo usaste)
-   - 28–38s después (resultado)
-   - 38–45s CTA (2 versiones)
-2) Lista de tomas (shot list) con b-roll.
-3) 5 frases exactas para texto en pantalla.
-4) 10 líneas para subtítulos (cortas, rápidas).
-5) Variación del guion en tono humorístico (sin ridiculizar al cliente).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-003",
-    title: "Script ‘3 Razones’ (educativo + venta sin presión) 30–40s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion tipo lista: 3 razones por las que funciona + micro demo + CTA.",
-    prompt: `Datos:
-- Producto:
-- Mecanismo (por qué funciona):
-- Beneficios top 3:
-- Objección más común:
-- Plataforma:
+1) 45 secondi con ritmo:
+- 0-3s foro (3 opzioni)
+- 3-15 prima (storia concreta)
+- processo 15-28s (come l'hai usato)
+- 28-38 dopo (risultato)
+- 38-45 CTA (2 versioni)
+2) Lista di colpi (elenco delle immagini) con b-roll.
+3) 5 frasi esatte per il testo sullo schermo.
+4) 10 linee per sottotitoli (breve, veloce).
+5) Variazione dello script in tono umoristico (senza ridicolizzare il cliente).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-003",
+  title: "Script '3 motivi' (vendita istruttiva + senza pressione) 30-40s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Elenco script di tipo: 3 motivi per cui + micro demo + CTA funziona.",
+  prompt: `Dati:
+- Prodotto:
+- Meccanismo (perché funziona):
+- Top 3 benefici:
+- Scopo più comune:
+- Piattaforma:
 
 Genera:
-- Hook (5 opciones rápidas)
-- Guion 35s con estructura:
-  1) “3 razones por las que…” (cada razón con ejemplo)
-  2) mini demo (cómo se usa / cómo se siente)
-  3) prueba (reseña/nota/estadística si existe, si no: “lo típico que notas”)
-  4) CTA suave con salida ética (si no es para ti, no pasa nada).
-- Lista de b-roll por cada razón.
-- Texto on-screen por cada segmento.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-004",
-    title: "Script ‘Storytime’ (Problema grande + giro + solución) 60s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion narrativo estilo storytime con giro y cierre que convierte sin sonar a anuncio.",
-    prompt: `Contexto:
-- Producto:
-- Situación embarazosa/dolorosa (sin exagerar):
-- Giro (lo que aprendiste / descubriste):
-- Resultado:
+- Gancio (5 opzioni veloci)
+- Script 35s con struttura:
+1) "3 motivi per cui..." (ogni ragione con esempio)
+2) mini demo (come viene utilizzato / come si sente)
+3) prova (review / note / statistiche se esiste, se non: "Note fisiche")
+4) Soft CTA con uscita etica (se non per voi, nulla accade).
+- B- roll list per ogni ragione.
+- Testo sullo schermo per ogni segmento.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-004",
+  title: "Script di Storytime (Big problem + turn + soluzione) 60 s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Storytime stile narrativo script con svolta e chiusura che converte senza suono ad.",
+  prompt: `Contesto:
+- Prodotto:
+- No. Una situazione imbarazzante / dolorosa (non sovrastata):
+- Girare (quello che hai imparato / scoperto):
+- Risultato:
 - CTA:
 
-Crea un guion de 60s:
-1) Hook tipo storytime (3 opciones).
-2) Setup: dónde estabas, qué pasó, qué sentiste (detalles concretos).
-3) Conflicto: por qué era un problema real.
-4) Giro: “me di cuenta de que…”
-5) Solución: cómo aparece el producto (natural).
-6) Resolve: cambio realista + condición.
-7) CTA: 2 versiones + aviso de disponibilidad (si aplica).
-Incluye:
-- Texto on-screen (línea por línea)
-- Notas de edición (pausas, zooms, captions, música).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-005",
-    title: "Script ‘Myth-busting’ (derriba mito del nicho) 45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para romper un mito común y posicionar producto como solución superior.",
-    prompt: `Rellena:
+Creare uno script 60s:
+1) Tipo di storia del gancio (3 opzioni).
+2) Setup: dove sei stato, cosa è successo, quello che hai sentito (specifici dettagli).
+3) Conflitto: perché era un vero problema.
+4) Girare: "Ho capito che..."
+5) Soluzione: come appare il prodotto (naturale).
+6) Risolvere: cambiamento realistico + condizione.
+7) CTA: 2 versioni + avviso di disponibilità (se applicabile).
+Include:
+- Testo sullo schermo (linea per linea)
+- Note editoriali (rotti, zoo, didascalie, musica).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-005",
+  title: "Script 'Myth-busting' (toppling mito di nicchia) 45",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Script per rompere un prodotto mito e posizione comune come una soluzione superiore.",
+  prompt: `Riempimento:
 - Nicho:
-- Mito común:
-- Por qué el mito falla:
-- Producto:
-- Evidencia (si existe):
+- Mito comune:
+- Perché il mito fallisce:
+- Prodotto:
+- Prove (se presenti):
 - Tono:
 
 Genera:
-1) Hook “Te han mentido sobre…” (5 variantes).
-2) Explicación simple del mito (sin atacar personas).
-3) Prueba o razonamiento (3 bullets).
-4) Alternativa: tu producto + cómo se usa.
-5) CTA (suave y directo).
-6) Comentario fijado (pinned comment) que responda “¿dónde lo consigo?”`,
-    thumbnail: "",
-  },
+1) Uncino "Siete stati mentito circa..." (5 varianti).
+2) Semplice spiegazione del mito (senza attaccare le persone).
+3) Test o ragionamento (3 proiettili).
+4) Alternativa: il prodotto + come viene utilizzato.
+5) CTA (soft e diretto).
+6) Pined commento per rispondere "dove posso ottenerlo?"`,
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-006",
-    title: "Script ‘Comparativa’ (Producto vs Alternativa) 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion comparando contra alternativa típica sin difamar: criterios, demo y conclusión.",
-    prompt: `Datos:
-- Producto:
-- Alternativa típica (marca genérica / método / opción barata):
-- Criterios de comparación (3–5):
-- Resultado:
-- Precio (opcional):
+{
+  id: "msb2c-006",
+  title: "Script 'Comparativo' (Product vs Alternative) 30-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Sceneggiatura a confronto con la tipica alternativa non difensiva: criteri, demo e conclusione.",
+  prompt: `Dati:
+- Prodotto:
+- Tipica alternativa (generic mark / metodo / opzione economica):
+- Criteri di confronto (3-5):
+- Risultato:
+- Prezzo (opzionale):
 
 Crea:
-1) Hook (3 opciones).
-2) Comparativa por criterios (rápido, visual).
-3) Demo (cómo se ve/usa).
-4) Conclusión: para quién conviene cada opción (honesto).
-5) CTA + disclaimer si aplica.
-Incluye tabla hablada (frases cortas) + texto en pantalla.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-007",
-    title: "Script ‘ASMR / sensorial’ (producto físico) 20–30s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion minimalista sensorial: sonido/textura/uso con copy en pantalla.",
-    prompt: `Rellena:
-- Producto físico:
-- 3 sensaciones (texto, olor, sonido, tacto):
-- Beneficio principal:
-- 2 detalles diferenciales:
+1) gancio (3 opzioni).
+2) Comparativo per criteri (veloce, visivo).
+3) Demo (come sembra / utilizza).
+4) Conclusione: per chi ogni opzione è adatta (onore).
+5) CTA + disclaimer se applicabile.
+Include la tabella parlata (breve frasi) + testo sullo schermo.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-007",
+  title: "Script 'ASMR / sensoriale' (prodotto fisico) 20-30s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Schermo minimalista sensoriale: suono / texture / uso con copia sullo schermo.",
+  prompt: `Riempimento:
+- Prodotto fisico:
+- 3 sensazioni (testo, odore, suono, tocco):
+- Principali vantaggi:
+- 2 dettagli differenziali:
 - CTA:
 
 Genera:
-1) Plan de tomas ASMR (6–10 clips).
-2) Texto on-screen para cada clip (máx. 8–10 palabras).
-3) Caption final (2 opciones):
-   - directo
-   - elegante/premium
-4) Comentarios-respuesta (5) para dudas típicas.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-008",
-    title: "Script ‘Unboxing + primera impresión’ 45–60s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para unboxing con enfoque en prueba, detalles y expectativa realista.",
-    prompt: `Datos:
-- Producto:
-- Qué incluye la caja:
-- Primer detalle llamativo:
-- Uso inmediato:
-- Resultado esperado:
+1) ASMR (6-10 clip).
+2) Testo sullo schermo per ogni clip (max. 8-10 parole).
+3) cattura finale (2 opzioni):
+- diretto
+- elegante / premium
+4) Commenti - risposta (5) per dubbi tipici.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-008",
+  title: "Script 'Unboxing + prima stampa' 45-60s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Unboxing script con messa a fuoco di prova, dettagli e aspettative realistiche.",
+  prompt: `Dati:
+- Prodotto:
+- No. Che cosa include la scatola:
+- Primo dettaglio impressionante:
+- Uso immediato:
+- Esito previsto:
 
-Crea guion 60s:
-- Hook (3)
-- Unboxing (qué se ve, detalles, calidad)
-- “Esto me gustó / esto no” (honesto)
-- Cómo se usa (pasos)
-- CTA y disclaimers
-Incluye:
-- shot list
-- texto on-screen
-- 6 frases cortas para subtítulos.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-009",
-    title: "Script ‘Cómo se usa’ (tutorial rápido) 30–50s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Tutorial express que vende: paso a paso + resultado + CTA.",
-    prompt: `Rellena:
-- Producto:
-- Caso de uso principal:
-- Pasos (si no los sabes, te los inventa el modelo con lógica):
-- Error común al usarlo:
-- Resultado final:
+Creare script 60s:
+- Gancio (3)
+- Unboxing (cosa vedi, dettagli, qualità)
+- "Mi è piaciuto questo / questo non è stato" (onore)
+- No. Come viene utilizzato (passaggi)
+- CTA e reclami
+Include:
+- elenco dei colpi
+- testo sullo schermo
+- 6 frasi brevi per sottotitoli.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-009",
+  title: "Script 'Come usare' ( tutorial veloce) 30-50s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Express tutorial che vende: passo dopo passo + risultato + CTA.",
+  prompt: `Riempimento:
+- Prodotto:
+- Caso di uso principale:
+- Passos (se non li conosci, il modello li compone con logica):
+- Errore comune quando si utilizza:
+- Risultati finali:
 - CTA:
 
 Genera:
-1) Hook (5 opciones: “Si haces X, deja de hacerlo así…”).
-2) Tutorial con 3–5 pasos (numerados).
-3) Error común + corrección.
-4) Resultado mostrado.
-5) CTA + comentario fijado.
-Incluye texto on-screen por paso y sugerencia de b-roll.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-010",
-    title: "Script ‘Objección en cámara’ (precio/tiempo/confianza) 35–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion respondiendo objeción frontalmente sin ponerse defensivo.",
-    prompt: `Contexto:
-- Producto:
-- Objeción principal:
-- Qué teme el cliente realmente:
-- Prueba disponible:
+1) gancio (5 opzioni: "Se fai X, smettila di farlo..."
+2) Tutorial con 3-5 passaggi (numero).
+3) Errore comune + correzione.
+4) Risultato mostrato.
+5) CTA + commento set.
+Include testo a schermo per passo e suggerimento b-roll.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-010",
+  title: "Script 'Oggetto nella fotocamera' (prezzo / tempo / fiducia) 35-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Script risponde frontalmente senza ottenere difensivo.",
+  prompt: `Contesto:
+- Prodotto:
+- Obiezione principale:
+- No. Ciò che il cliente teme davvero:
+- No. Prova disponibile:
 - Tono:
 
 Crea:
-1) Hook: “Pensé que era…” (5 opciones).
-2) Reconoce objeción (empatía).
-3) Aclara con hechos: qué es y qué no es.
-4) Mini prueba (testimonio, comparación, demo).
-5) CTA (2 versiones).
-Incluye:
-- 8 respuestas para comentarios (“¿es estafa?”, “¿funciona?”, “¿envíos?”).`,
-    thumbnail: "",
-  },
+1) Uncino: "Pensavo che fosse..." (5 opzioni).
+2) Riconosce l'obiezione (empatia).
+3) Chiarificare con fatti: ciò che è e ciò che non è.
+4) Mini test (testimony, confronto, demo).
+5) CTA (2 versioni).
+Include:
+- 8 commenti ("è truffa?," "lavora?", "spese".`,
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-011",
-    title: "Script ‘Oferta limitada’ ética (cupo/stock real) 25–35s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Escasez legítima: explica razón real, beneficios y CTA sin manipulación.",
-    prompt: `Datos:
-- Producto:
-- Razón real de límite (stock, producción, soporte):
-- Ventana real:
-- Beneficio principal:
+{
+  id: "msb2c-011",
+  title: "Script 'Limited offer' etico (quota / stock reale) 25-35s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Protettività legittima: spiega ragione reale, benefici e CTA senza manipolazione.",
+  prompt: `Dati:
+- Prodotto:
+- Real limit ratio (stock, produzione, supporto):
+- Finestra reale:
+- Principali vantaggi:
 - CTA:
 
 Genera:
-- Hook (3)
-- Explicación de límite (1–2 frases claras)
-- Beneficio + prueba
-- CTA directo
-- Mensaje alterno para quien no llega (lista de espera / aviso).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-012",
-    title: "Script ‘Testimonio dramatizado’ (sin mentir) 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion de testimonio actuado basado en objeción real y resultado responsable.",
-    prompt: `Rellena:
-- Producto:
-- Perfil del cliente (edad, contexto, rutina):
-- Problema inicial:
-- Objeción:
-- Resultado realista:
-- Plazo:
+- Gancio (3)
+- Spiegazione di limite (1-2 frasi chiare)
+- Benefit + test
+- CTA diretta
+- Messaggio alternativo per coloro che non arrivano (elenco di attesa / avviso).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-012",
+  title: "Script 'Dramatized Testimony' (non mentire) 30-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "La sceneggiatura di Testimony ha agito in base all'obiezione reale e al risultato responsabile.",
+  prompt: `Riempimento:
+- Prodotto:
+- Profilo del cliente (età, contesto, routine):
+- Problema iniziale:
+- Obiezione:
+- Risultato realistico:
+- Scadenza:
 
 Crea:
-1) Guion en 2 personajes (cliente y voz interna) o formato “diario”.
-2) 3 escenas:
-   - antes
-   - durante
-   - después
-3) Qué mostrar en cada escena (b-roll).
-4) Texto en pantalla y caption.
-5) Disclaimer para no prometer de más.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-013",
-    title: "Script ‘Desafío 7 días’ (serie) - episodio 1 (setup) 25–35s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Episodio 1 de serie challenge: promesa, reglas y expectativa (enganche).",
-    prompt: `Contexto:
-- Producto:
-- Meta del desafío:
-- Reglas (qué harás cada día):
-- Métrica visible:
+1) 2 caratteri (voce centrale e interna) o formato "daily".
+2) 3 scene:
+- prima
+- durante
+- dopo
+3) Cosa mostrare in ogni scena (b-roll).
+4) testo e cattura sullo schermo.
+5) Disclaimer non promettere troppo.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-013",
+  title: "Script 'Challenge 7 giorni' (serie) - episodio 1 (setup) 25-35s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Episodio 1 della sfida della serie: promessa, regole e aspettative (hitch).",
+  prompt: `Contesto:
+- Prodotto:
+- Obiettivo della sfida:
+- Regole (che farete ogni giorno):
+- Tecnica visibile:
 - Tono:
 
 Crea episodio 1:
-- Hook (3)
-- Presentación reto
-- Reglas claras
-- Qué vas a medir y mostrar
-- CTA: “sígueme para ver el día 2” + link del producto (si aplica)
-Incluye:
-- guion + texto en pantalla + comentario fijado.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-014",
-    title: "Script ‘Desafío 7 días’ - episodio 4 (mitad) 25–35s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Episodio mitad del challenge: mini resultado, duda, aprendizaje y continuidad.",
-    prompt: `Rellena:
-- Producto:
-- Resultado parcial:
-- Dificultad real:
-- Cambio que hiciste:
+- Gancio (3)
+- Presentazione sfida
+- Regole chiare
+- No. Cosa misura e mostra
+- CTA: "Follow me to see day 2" + link del prodotto (se applicabile)
+Include:
+- script + testo sullo schermo + commento set.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-014",
+  title: "Script 'Challenge 7 giorni' - episodio 4 (mezza) 25-35s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Episodio metà della sfida: mini risultato, dubbio, apprendimento e continuità.",
+  prompt: `Riempimento:
+- Prodotto:
+- Risultato parziale:
+- Real difficoltà:
+- Hai cambiato idea:
 - CTA:
 
-Genera guion:
-- Hook “update”
-- Resultado parcial con prueba visual
-- Qué no funcionó y cómo lo ajustaste
-- Próximo paso
-- CTA: “día 5 mañana” + link.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-015",
-    title: "Script ‘Desafío 7 días’ - episodio 7 (resultado + cierre) 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Cierre del challenge: resultado final, condición de éxito y CTA final.",
-    prompt: `Rellena:
-- Producto:
-- Resultado final:
-- Condición (por qué funcionó):
-- Para quién sí / no:
-- Oferta (si hay):
+Genera script:
+- Uncino "aggiornamento"
+- Risultati parziali con test visivo
+- No. Cosa non ha funzionato e come l'hai regolato
+- Prossimo passo
+- CTA: "Giorno 5 domani" + link.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-015",
+  title: "Script 'Challenge 7 giorni' - episodio 7 (risultato + chiusura) 30-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Chiusura della sfida: risultato finale, condizione di successo e CTA finale.",
+  prompt: `Riempimento:
+- Prodotto:
+- Risultati finali:
+- Condizione (perché ha funzionato):
+- Per chi sì / no:
+- Offerta (se presente):
 
-Crea episodio final:
-- Hook con resultado
-- 3 aprendizajes
-- Prueba visual
-- Recomendación honesta (para quién sí/no)
-- CTA final (2 versiones).`,
-    thumbnail: "",
-  },
+Crea l'episodio finale:
+- Gancio con risultato
+- 3 apprendimento
+- Test visivo
+- Raccomandazioni oneste (per i quali sì / no)
+- Final CTA (2 versioni).`,
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-016",
-    title: "Script ‘Comentarios respondiendo’ (stitch/duet): 3 comentarios comunes",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guiones para responder comentarios frecuentes con mini demo y CTA.",
-    prompt: `Producto:
-- 3 comentarios frecuentes (pega aquí):
+{
+  id: "msb2c-016",
+  title: "Script 'Commenti che rispondono' (stitch / duetto): 3 commenti comuni",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Sceneggiatura per rispondere a commenti frequenti con mini demo e CTA.",
+  prompt: `Prodotto:
+- 3 commenti frequenti (basta qui):
 
-Para cada comentario, crea:
-1) Hook de respuesta (1 línea)
-2) Respuesta corta (15–25s) con ejemplo/demostración
-3) Cierre con CTA o invitación a DM
-4) Texto on-screen y respuesta escrita para comentarios.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-017",
-    title: "Script ‘Top 5’ (lista rápida) 20–30s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Lista tipo ‘top 5’ de beneficios/usos: fuerte para retención.",
-    prompt: `Rellena:
-- Producto:
-- 5 beneficios o usos:
-- Público:
+Per ogni commento, creare:
+1) gancio di risposta (1 linea)
+2) Breve risposta (15-25s) con esempio / dimostrazione
+3) Chiudere con CTA o invito a DM
+4) Testo sullo schermo e risposta scritta per i commenti.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-017",
+  title: "Top 5 script (elenco veloce) 20-30s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "\"top 5 'lista di benefici / usi: forte per la ritenzione.",
+  prompt: `Riempimento:
+- Prodotto:
+- 5 vantaggi o usi:
+- Audience:
 - CTA:
 
 Genera:
-- Hook (5)
-- Guion 25s con ritmo (1 línea por punto)
-- Texto en pantalla (máx 7 palabras por punto)
-- Caption con CTA
-- Comentario fijado.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-018",
-    title: "Script ‘Errores’ (3 errores al hacer X) + solución con el producto 35–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Educativo con autoridad: 3 errores + corrección + producto como herramienta.",
-    prompt: `Rellena:
-- Actividad objetivo (ej. dormir mejor, cocinar, maquillaje, estudiar):
-- 3 errores típicos:
-- Producto:
-- Resultado final:
+- Gancio (5)
+- 25s script con ritmo (1 linea per punto)
+- Testo sullo schermo (max 7 parole per punto)
+- Captazione con CTA
+- Commento.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-018",
+  title: "Script 'Errors' (3 errori durante la fabbricazione di X) + soluzione con il prodotto 35-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Educativo con autorità: 3 errori + correzione + prodotto come strumento.",
+  prompt: `Riempimento:
+- Attività mirata (ad esempio sonno migliore, cucina, trucco, studio):
+- 3 errori tipici:
+- Prodotto:
+- Risultati finali:
 
 Crea:
-- Hook (3)
-- Error 1/2/3 (cada uno con ejemplo)
-- Solución: cómo el producto ayuda (sin magia)
-- CTA (2 versiones)
-- Texto en pantalla por error.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-019",
-    title: "Script ‘Guía de compra’ (cómo elegir) 45–60s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para orientar compra: criterios, checklist y recomendación (tu producto).",
-    prompt: `Rellena:
-- Categoría de producto:
-- 5 criterios para elegir bien:
-- Producto:
-- Diferenciadores reales:
-- Precio:
+- Gancio (3)
+- Errore 1 / 2 / 3 (ciascuno con esempio)
+- Soluzione: come il prodotto aiuta (senza magia)
+- CTA (2 versioni)
+- Testo sullo schermo per errore.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-019",
+  title: "Script 'Purchase Guide' (come scegliere) 45-60s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Guida all'acquisto: criteri, checklist e raccomandazione (il tuo prodotto).",
+  prompt: `Riempimento:
+- Categoria prodotto:
+- 5 criteri per scegliere bene:
+- Prodotto:
+- Differenziatori reali:
+- Prezzo:
 
 Genera:
-- Hook (3)
-- Checklist de criterios (explicación rápida)
-- “Si buscas X, elige Y” (3 perfiles)
-- Recomendación final (tu producto) con prueba
+- Gancio (3)
+- Elenco dei criteri (spiegazione rapida)
+- "Se cerchi X, scegli Y" (3 profili)
+- Raccomandazione finale (il tuo prodotto) con prova
 - CTA + disclaimer.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-020",
-    title: "Script ‘Oferta para indecisos’ (último empujón) 20–30s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion corto para indecisos: reduce riesgo, resuelve objeción y CTA.",
-    prompt: `Datos:
-- Producto:
-- Objeción del indeciso:
-- Riesgo percibido:
-- Prueba:
+  thumbnail: ""
+},
+{
+  id: "msb2c-020",
+  title: "Script 'Offerta per non decisa' (ultima spinta) 20-30s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Breve script per indeciso: riduce il rischio, risolve l'obiezione e CTA.",
+  prompt: `Dati:
+- Prodotto:
+- Obiezione dell'indeciso:
+- Rischio ricevuto:
+- Test:
 - CTA:
 
 Crea:
-- Hook (3)
-- 2 frases de empatía (“si estás dudando, es normal…”)
-- 2 pruebas (hecho/dato/detalle)
-- CTA con salida ética
-- Comentario fijado.`,
-    thumbnail: "",
-  },
+- Gancio (3)
+- 2 frasi di empatia ("se hai dubbi, è normale...")
+- 2 test (fatto / dati / dettaglio)
+- CTA con uscita etica
+- Commento.`,
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-021",
-    title: "Script ‘Voz en off’ con b-roll (premium) 25–40s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion VO premium: frases cortas, b-roll específico, ritmo elegante.",
-    prompt: `Rellena:
-- Producto:
-- 6 escenas b-roll disponibles:
-- Beneficio central:
-- Tono premium:
+{
+  id: "msb2c-021",
+  title: "Script 'Voice on off' con b-roll (premio) 25-40s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Premium script VO: frasi brevi, specifici b-roll, ritmo elegante.",
+  prompt: `Riempimento:
+- Prodotto:
+- 6 scene b-roll disponibili:
+- Beneficio centrale:
+- Tono Premium:
 - CTA:
 
 Crea:
-1) Voz en off (texto exacto) de 30–40s
-2) Shot list sincronizado por frase
-3) Texto en pantalla (mínimo, elegante)
-4) Caption tipo premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-022",
-    title: "Script ‘POV’ (punto de vista) 20–25s para Reels",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "POV con humor o sinceridad: muy adaptable a productos B2C.",
-    prompt: `Rellena:
-- Producto:
-- Situación cotidiana:
-- Emoción (vergüenza/alegría/alivio):
-- Resultado:
-- Tono (humor/serio):
+1) Voce spenta (testo esatto) 30-40s
+2) Lista di colpi sincronizzata dalla frase
+3) Testo sullo schermo (minimo, elegante)
+4) Presa di tipo Premium.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-022",
+  title: "\"POV 'script (punto di vista) 20-25 per Rulli",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "POV con umorismo o sincerità: molto adattabile ai prodotti B2C.",
+  prompt: `Riempimento:
+- Prodotto:
+- Situazione giornaliera:
+- emozione (squadra / gioia / sollievo):
+- Risultato:
+- Tono (humor / serio):
 
 Genera:
-- 7 ideas de POV (una línea)
-- Elige la mejor y escribe guion 20–25s
-- Texto on-screen por tramo
-- 10 hashtags sugeridos (genéricos, sin spam).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-023",
-    title: "Script ‘Duelo’ (dos versiones de mí) 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Dos personajes: yo antes vs yo ahora (o yo con vs sin producto).",
-    prompt: `Datos:
-- Producto:
-- Yo antes (hábitos / dolor):
-- Yo ahora (resultado):
-- Objección:
+- 7 idee POV (una linea)
+- Scegliere il meglio e scrivere script 20-25s
+- Testo sullo schermo per sezione
+- 10 hashtag suggeriti (generico, senza spam).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-023",
+  title: "Script 'Duelo' (due versioni di me) 30-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Due personaggi: io prima vs me ora (o me con vs senza prodotto).",
+  prompt: `Dati:
+- Prodotto:
+- Ho usato per (abita / dolore):
+- Ora (risultato):
+- Oggetto:
 - CTA:
 
 Crea:
-- diálogo interno entre “yo antes” y “yo ahora”
-- 3 escenas
-- texto on-screen
-- caption con CTA
-- disclaimer (si hace falta).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-024",
-    title: "Script ‘Mini documental’ (voz + clips) 60–90s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Formato largo con credibilidad: problema real, proceso, evidencia, cierre.",
-    prompt: `Rellena:
-- Producto:
-- Historia del usuario:
-- Momento clave:
-- Proceso real (pasos):
-- Resultado:
-- Evidencia disponible:
+- dialogo interno tra "me prima" e "me ora"
+- 3 scene
+- testo sullo schermo
+- cattura CTA
+- disclaimer (se necessario).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-024",
+  title: "Script 'Mini documentari' (voce + clip) 60-90s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Formato lungo con credibilità: problema reale, processo, prova, chiusura.",
+  prompt: `Riempimento:
+- Prodotto:
+- Storia dell'utente:
+- Momento chiave:
+- Processo reale (passi):
+- Risultato:
+- Prove disponibili:
 
-Genera mini documental 60–90s:
-- estructura por capítulos (hook, contexto, conflicto, solución, prueba, cierre)
-- guion completo con tiempos aproximados
-- shot list (12–18 clips)
-- texto on-screen por capítulo
-- CTA final (2 opciones).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-025",
-    title: "Script ‘Oferta + bonus’ (presentación clara) 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Presenta oferta y bonus sin sonar televenta: valor, condiciones y CTA.",
-    prompt: `Datos:
-- Producto:
-- Oferta (precio/paquete):
-- Bonus (qué incluye):
-- Límite real:
+Una mini società documentaria 60-90s:
+- struttura del capitolo (hook, contesto, conflitto, soluzione, test, chiusura)
+- script completo con tempi approssimativi
+- elenco dei colpi (12-18 clip)
+- testo sullo schermo per capitolo
+- CTA finale (2 opzioni).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-025",
+  title: "Script 'Offer + bonus' (presentazione chiara) 30-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Presenta offerta e bonus non-suono: valore, condizioni e CTA.",
+  prompt: `Dati:
+- Prodotto:
+- Offerta (prezzo / pacchetto):
+- Bonus (incluso):
+- Limite effettivo:
 - CTA:
 
 Crea:
-- Hook (3)
-- Presentación de producto en 2 frases
-- Beneficio principal + prueba
-- Bonus explicado con valor
-- Límite/escasez ético
-- CTA (suave y directo).`,
-    thumbnail: "",
-  },
+- Gancio (3)
+- Presentazione del prodotto in 2 frasi
+- Principali vantaggi + test
+- Bonus spiegato con valore
+- Limite etico / carenza
+- CTA (morbido e diretto).`,
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-026",
-    title: "Script ‘Receta / paso a paso’ (si aplica) 30–60s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion tutorial tipo receta: ingredientes/pasos y producto como herramienta.",
-    prompt: `Rellena:
-- Producto:
-- Resultado (receta/look/rutina):
-- Pasos:
-- Error común:
+{
+  id: "msb2c-026",
+  title: "Script 'Recipe / step by step' (se applicabile) 30-60s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Ricetta script tutorial: ingredienti / passi e prodotto come strumento.",
+  prompt: `Riempimento:
+- Prodotto:
+- Risultato (recipe / look / routine):
+- Passi:
+- Errore comune:
 - CTA:
 
-Crea guion:
-- Hook (3)
-- Lista de pasos numerados
+Crea script:
+- Gancio (3)
+- Elenco dei passi numerati
 - Tip pro (1)
-- Resultado final
+- Esito finale
 - CTA
-Incluye texto en pantalla y b-roll sugerido por paso.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-027",
-    title: "Script ‘Reacción auténtica’ (primera vez) 15–25s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion ultracorto de reacción: ideal para retención y repetición.",
-    prompt: `Datos:
-- Producto:
-- Momento de reacción:
-- Detalle inesperado:
+Include il testo sullo schermo e b-roll suggerito per passo.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-027",
+  title: "Script 'Authentic Reaction' (prima volta) 15-25s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Lo script di reazione Ultraporte: ideale per la ritenzione e la ripetizione.",
+  prompt: `Dati:
+- Prodotto:
+- Tempo di reazione:
+- Dettaglio inaspettato:
 - CTA:
 
 Genera:
-- 5 ideas de reacción realista (no cringe)
-- Guion final 15–25s
-- Texto on-screen (máximo 3 líneas)
-- Caption + comentario fijado.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-028",
-    title: "Script ‘Antes de dormir / mañana’ (rutina) 25–40s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion rutina (AM/PM): pasos, sensaciones y beneficio al final.",
-    prompt: `Rellena:
-- Producto:
-- Rutina (AM/PM):
-- 3 pasos:
-- Beneficio principal:
+- 5 idee realistiche di reazione (non cringe)
+- script finale 15-25
+- Testo sullo schermo (massimo 3 linee)
+- Caption + commento set.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-028",
+  title: "Script 'Prima di dormire / domani' (routine) 25-40s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Scrittura di routine (AM / PM): passi, sensazioni e benefici alla fine.",
+  prompt: `Riempimento:
+- Prodotto:
+- Rutina (AM / PM):
+- 3 passi:
+- Principali vantaggi:
 - CTA:
 
 Crea:
-- Hook (3)
-- Rutina paso a paso con tiempos
-- Beneficio final con condición
+- Gancio (3)
+- Rutina passo dopo passo con i tempi
+- Vantaggio finale a condizione
 - CTA
-- Shot list (6–10 clips).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-029",
-    title: "Script ‘¿Vale la pena?’ (review honesta) 45–60s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Review honesta con pros/cons, para quién sí/no, y CTA transparente.",
-    prompt: `Rellena:
-- Producto:
+- Lista di colpi (6-10 clip).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-029",
+  title: "Script 'È valsa la pena?' (esame onesto) 45-60s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Onesta recensione con pro / contro, per il quale sì / no, e CTA trasparente.",
+  prompt: `Riempimento:
+- Prodotto:
 - Pros (3):
-- Cons (2):
-- Para quién sí:
-- Para quién no:
-- Precio:
+- Punti (2):
+- Per chi?
+- Per chi no:
+- Prezzo:
 - CTA:
 
 Genera:
-- Hook (3)
-- Review estructurada
-- Veredicto (con matices)
-- CTA directo + salida ética
-- Respuestas para 6 comentarios (“¿y el envío?”, “¿garantía?”).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-030",
-    title: "Script ‘Rebaja sin rebajar valor’: descuento explicado con razón (ética) 20–30s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion de promoción con transparencia: por qué hay descuento y hasta cuándo.",
-    prompt: `Datos:
-- Producto:
-- Descuento:
-- Razón real (stock, temporada, lanzamiento):
-- Ventana:
+- Gancio (3)
+- revisione strutturata
+- Verditto (con sfumature)
+- Direct CTA + output etico
+- Risposte per 6 commenti ("e la spedizione?, "garanzia?").`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-030",
+  title: "Script 'Inviare senza abbassare il valore': Sconto spiegato con la ragione (etica) 20-30s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Lo script promozionale con trasparenza: perché c'è uno sconto e fino a quando.",
+  prompt: `Dati:
+- Prodotto:
+- Sconto:
+- Motivo reale (stock, stagione, lancio):
+- Finestra:
 - CTA:
 
 Crea:
-- Hook
-- Razón real del descuento (1–2 frases)
-- Beneficio principal
-- CTA + fecha límite exacta
-- Mensaje para quien llega tarde (lista de espera).`,
-    thumbnail: "",
-  },
+- Uncino
+- Vero motivo di sconto (1-2 frasi)
+- Principali vantaggi
+- CTA + scadenza esatta
+- Messaggio per coloro che sono in ritardo (elenco di attesa).`,
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-031",
-    title: "Script ‘Deja de hacer esto’ (pattern interrupt) 20–35s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Hook disruptivo con corrección: error común → método mejor → producto.",
-    prompt: `Rellena:
-- Error común del público:
-- Consecuencia del error:
-- Alternativa correcta:
-- Producto que ayuda:
+{
+  id: "msb2c-031",
+  title: "Script 'Stop doing this' (interruttore pattern) 20-35s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Uncino dirompente con correzione: errore comune → miglior metodo → prodotto.",
+  prompt: `Riempimento:
+- Errore comune pubblico:
+- No. Il risultato dell'errore:
+- Destra alternativa:
+- Prodotto che aiuta:
 - CTA:
 
 Genera:
-- 7 hooks “deja de…”
-- Guion 25–35s
-- Texto on-screen
-- 6 respuestas para comentarios de haters (calmas, educativas).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-032",
-    title: "Script ‘Checklist’ (3 señales de que necesitas X) 25–40s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion diagnóstico rápido: 3 señales + recomendación + CTA.",
-    prompt: `Datos:
-- Producto:
-- Señales (3–5):
-- Público:
-- Resultado:
+- 7 ganci "stop..."
+- Script 25-35s
+- Testo sullo schermo
+- 6 risposte per i commenti più grandi (calma, educativo).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-032",
+  title: "Lista di controllo script (3 segni di cui hai bisogno X) 25-40s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Breve script diagnostico: 3 segnali + raccomandazione + CTA.",
+  prompt: `Dati:
+- Prodotto:
+- Segni (3-5):
+- Audience:
+- Risultato:
 - CTA:
 
 Crea:
-- Hook (3)
-- Checklist (señales con ejemplos)
-- Recomendación (para quién sí/no)
-- CTA + comentario fijado.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-033",
-    title: "Script ‘Micro-FAQ’ (responde 5 dudas en 40s) con cortes rápidos",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion FAQ con ritmo: perfecto para convertir indecisos.",
-    prompt: `Rellena:
-- Producto:
-- 5 dudas comunes:
+- Gancio (3)
+- Lista di controllo (segni con esempi)
+- Raccomandazione (per chi sì / no)
+- CTA + commento set.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-033",
+  title: "Micro-FAQ script (risposta 5 domande in 40s) con tagli rapidi",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Scrittura FAQ con ritmo: perfetto per fare indeciso.",
+  prompt: `Riempimento:
+- Prodotto:
+- 5 dubbi comuni:
 - CTA:
 
 Genera:
-- Hook (3)
-- Respuestas rápidas (1–2 frases por duda)
-- Texto on-screen (pregunta + respuesta breve)
-- CTA final
-- Versión alternativa aún más corta (25s).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-034",
-    title: "Script ‘Prueba visual’ (demostración) 15–30s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion centrado en demo: antes/durante/después con texto minimalista.",
-    prompt: `Datos:
-- Producto:
-- Prueba visual posible:
-- Resultado:
+- Gancio (3)
+- Risposte rapide (1-2 frasi per dubbio)
+- Testo sullo schermo (domanda + risposta breve)
+- Final CTA
+- Versione alternativa ancora più breve (25s).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-034",
+  title: "Script 'Visual test' (dimostrazione) 15-30s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Uno script demo-centrato: prima / durante / dopo con testo minimalista.",
+  prompt: `Dati:
+- Prodotto:
+- Possibile prova visiva:
+- Risultato:
 - CTA:
 
 Crea:
-- Shot list: antes/durante/después
-- Texto en pantalla (muy corto)
-- Caption (2 opciones)
-- Comentario fijado.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-035",
-    title: "Script ‘Regalo perfecto’ (compra para alguien) 25–40s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para gifting: ocasión, emoción, prueba, CTA.",
-    prompt: `Rellena:
-- Producto:
-- Ocasión (cumple/navidad/aniversario):
-- Para quién:
-- Qué emoción quieres provocar:
+- Lista di colpi: prima / durante / dopo
+- Testo sullo schermo (molto breve)
+- Didascalia (2 opzioni)
+- Commento.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-035",
+  title: "Script 'Perfect Gift' (acquisto per qualcuno) 25-40s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Scrittura regalo: occasione, emozione, test, CTA.",
+  prompt: `Riempimento:
+- Prodotto:
+- Occupazione (venerdì / Natale / anniversario):
+- Per chi:
+- No. Che emozione vuoi provocare:
 - CTA:
 
 Crea:
-- Hook (3)
-- Por qué es buen regalo (3 razones)
-- Detalles que elevan el valor percibido
-- CTA + recomendación de talla/envío si aplica.`,
-    thumbnail: "",
-  },
+- Gancio (3)
+- No. Perché è un buon regalo (3 motivi)
+- Dettagli che innalzano il valore percepito
+- CTA + dimensione / raccomandazione di spedizione se applicabile.`,
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-036",
-    title: "Script ‘Bundle’ (qué incluye y por qué conviene) 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para vender bundle: stack de valor + comparación + CTA.",
-    prompt: `Datos:
-- Bundle (qué incluye):
-- Precio:
-- Valor percibido:
-- Para quién es:
-- Límite (si aplica):
+{
+  id: "msb2c-036",
+  title: "Script 'Bundle' (che include e perché si adatta) 30-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Script per vendere bundle: valore stack + confronto + CTA.",
+  prompt: `Dati:
+- Bundle (compreso):
+- Prezzo:
+- Valore ricevuto:
+- Per chi è:
+- Limite (se applicabile):
 
 Crea:
-- Hook (3)
-- Presentación del bundle
-- Por qué conviene (comparación con comprar separado)
-- Bonus/extra
-- CTA con límite ético.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-037",
-    title: "Script ‘Rutina de 3 pasos’ (antes/durante/después) 25–35s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion ultra claro: 3 pasos + resultado final + CTA.",
-    prompt: `Rellena:
-- Producto:
-- Paso 1/2/3:
-- Resultado:
+- Gancio (3)
+- Presentazione del fascio
+- No. Perché è appropriato (rispetto all'acquisto separatamente)
+- Bonus / extra
+- CTA con un limite etico.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-037",
+  title: "Script '3-step Rutina' (prima / durante / dopo) 25-35s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Scrittura ultra chiara: 3 passi + risultato finale + CTA.",
+  prompt: `Riempimento:
+- Prodotto:
+- Passo 1 / 2 / 3:
+- Risultato:
 - CTA:
 
 Genera:
-- Hook (5)
-- Guion con 3 pasos muy concretos
-- Texto en pantalla por paso
-- Caption + comentario fijado.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-038",
-    title: "Script ‘Para quién SÍ / para quién NO’ 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Filtra: aumenta confianza y reduce devoluciones; excelente para productos específicos.",
-    prompt: `Rellena:
-- Producto:
-- Casos donde sí:
-- Casos donde no:
-- Resultado:
+- Gancio (5)
+- Script con 3 passi molto concreti
+- Testo sullo schermo a passo
+- Caption + commento set.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-038",
+  title: "Script 'Per chi SI / per chi NO' 30-45",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Filtro: aumenta la fiducia e riduce i ritorni; ottimo per prodotti specifici.",
+  prompt: `Riempimento:
+- Prodotto:
+- Casi dove:
+- Casi dove non:
+- Risultato:
 - CTA:
 
 Crea:
-- Hook (3)
-- Lista “sí” (3–5)
-- Lista “no” (2–4)
-- Recomendación final
-- CTA suave + directo.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-039",
-    title: "Script ‘Pequeño lujo’ (premiumización) 20–35s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Vende premium con estética: sensación, ritual, status sutil.",
-    prompt: `Datos:
-- Producto:
-- Elemento “lujo” (diseño, textura, ritual, comodidad):
-- Beneficio principal:
-- Tono premium:
+- Gancio (3)
+- Elenco "sì" (3-5)
+- Lista "no" (2-4)
+- Raccomandazione finale
+- CTA soft + diretto.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-039",
+  title: "Script 'Small luxury' (premium) 20-35s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Vende il premio con l'estetica: sentimento, rituale, stato sottile.",
+  prompt: `Dati:
+- Prodotto:
+- elemento "lusso" (design, texture, rituale, comfort):
+- Principali vantaggi:
+- Tono Premium:
 - CTA:
 
 Crea:
-- Guion con frases cortas y elegantes
-- Texto on-screen minimalista
-- Shot list estético
-- Caption premium (2 variantes).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-040",
-    title: "Script ‘De 0 a 1’: primer paso para empezar (reduce fricción) 25–40s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para eliminar fricción: primer paso, error común y siguiente movimiento.",
-    prompt: `Rellena:
-- Producto:
-- Primer paso más fácil:
-- Error común:
-- Resultado:
+- Script con frasi brevi ed eleganti
+- Text on-screen minimalista
+- Lista scarpe estetica
+- Caption premium (2 varianti).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-040",
+  title: "Script da 0 a 1': primo passo da iniziare (riduzione frizione) 25-40s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Sceneggiatura per rimuovere l'attrito: primo passo, errore comune e movimento successivo.",
+  prompt: `Riempimento:
+- Prodotto:
+- Primo passo più facile:
+- Errore comune:
+- Risultato:
 - CTA:
 
 Genera:
-- Hook
-- Paso 0 + Paso 1
-- Error común y cómo evitarlo
-- CTA + comentario fijado.`,
-    thumbnail: "",
-  },
+- Uncino
+- Passo 0 + Passo 1
+- Errore comune e come evitarlo
+- CTA + commento set.`,
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-041",
-    title: "Script ‘DM me’ (captura leads) 20–30s + automatización de respuesta",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para impulsar DMs con palabra clave + respuesta automática lista.",
-    prompt: `Datos:
-- Producto:
-- Lead magnet / incentivo:
-- Palabra clave:
+{
+  id: "msb2c-041",
+  title: "Script 'DM me' (capture lead) 20-30s + automazione risposta",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Script per guidare DMs con parola chiave + risposta automatica pronta.",
+  prompt: `Dati:
+- Prodotto:
+- magnete di piombo / incentivo:
+- Parola chiave:
 - CTA:
 
 Crea:
-1) Guion 20–30s para pedir DM con palabra clave (sin insistencia).
-2) Texto exacto para comentario fijado (call to action).
-3) Respuesta automática DM:
-   - versión corta
-   - versión larga
-   - preguntas de calificación (3–5).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-042",
-    title: "Script ‘Oferta para primera compra’: bienvenida + confianza + CTA 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para nuevos clientes: beneficios, prueba, garantía/condición y CTA.",
-    prompt: `Rellena:
-- Producto:
-- Oferta primera compra (si existe):
-- Prueba:
-- Riesgo/garantía:
+1) Script 20-30s per ordinare DM con parola chiave (senza insistenza).
+2) Testo accurato per il commento impostato (call to action).
+3) Risposta automatica DM:
+- versione breve
+- versione lunga
+- domande di valutazione (3-5).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-042",
+  title: "Script 'Offerta per il primo acquisto': benvenuto + fiducia + CTA 30-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Script per i nuovi clienti: vantaggi, test, garanzia / stato e CTA.",
+  prompt: `Riempimento:
+- Prodotto:
+- Prima offerta di acquisto (se presente):
+- Test:
+- Rischio / garanzia:
 - CTA:
 
 Genera:
-- Hook (3)
-- Beneficio principal (con ejemplo)
-- Prueba (reseña/dato)
-- Riesgo/garantía explicado simple
-- CTA y fecha límite si aplica.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-043",
-    title: "Script ‘Packaging/estética’ (producto con buena presentación) 15–25s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion corto centrado en estética y detalles: ideal para TikTok/Reels.",
-    prompt: `Rellena:
-- Producto:
-- 5 detalles estéticos:
-- Beneficio:
+- Gancio (3)
+- Principali vantaggi (ad esempio)
+- Test (review / data)
+- Semplice rischio spiegato / garanzia
+- CTA e scadenza se applicabile.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-043",
+  title: "Script 'Packaging / estetica' (prodotto con buona presentazione) 15-25s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Breve sceneggiatura focalizzata sull'estetica e sui dettagli: ideale per TikTok / Reels.",
+  prompt: `Riempimento:
+- Prodotto:
+- 5 dettagli estetici:
+- Benefici:
 - CTA:
 
 Crea:
-- Shot list (7–10 clips)
-- Texto on-screen por clip
-- Caption (2 opciones)
-- 5 respuestas a comentarios sobre “¿dónde lo compro?”.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-044",
-    title: "Script ‘Prueba social rápida’: 3 reseñas leídas + reacción 20–35s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion leyendo reseñas (con permiso) y reaccionando con demo y CTA.",
-    prompt: `Rellena:
-- Producto:
-- 3 reseñas (pega aquí o describe):
-- Beneficio:
+- Lista scarpe (7-10 clip)
+- Testo sullo schermo per clip
+- Didascalia (2 opzioni)
+- 5 risposte ai commenti su "dove lo compro?".`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-044",
+  title: "Script 'Fast Social Test': 3 recensioni di lettura + 20-35s reazione",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Script lettura recensioni (con permesso) e reagire con demo e CTA.",
+  prompt: `Riempimento:
+- Prodotto:
+- 3 recensioni (basta qui o descrivere):
+- Benefici:
 - CTA:
 
 Genera:
-- Hook
-- Lectura rápida de cada reseña con reacción humana
+- Uncino
+- Lettura rapida di ogni recensione con reazione umana
 - Mini demo
 - CTA
-- Comentario fijado.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-045",
-    title: "Script ‘Ciencia simple’ (explicación rápida del mecanismo) 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Explica el porqué funciona con lenguaje simple y honesto (sin claims peligrosos).",
-    prompt: `Rellena:
-- Producto:
-- Mecanismo real (por qué funciona):
-- Qué NO debes prometer:
-- Beneficio:
+- Commento.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-045",
+  title: "Script 'Scienza semplice' (spiegazione rapida del meccanismo) 30-45s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Spiega perché funziona in linguaggio semplice e onesto (senza rivendicazioni pericolose).",
+  prompt: `Riempimento:
+- Prodotto:
+- Meccanismo reale (perché funziona):
+- No. Quello che non dovete promettere:
+- Benefici:
 - CTA:
 
 Crea:
-- Hook (3)
-- Explicación simple (metáfora + ejemplo)
-- Cómo se usa
-- Resultado realista
+- Gancio (3)
+- Semplice spiegazione (metaphor + esempio)
+- No. Come viene utilizzato
+- Esito realistico
 - CTA + disclaimer.`,
-    thumbnail: "",
-  },
+  thumbnail: ""
+},
 
-  {
-    id: "msb2c-046",
-    title: "Script ‘Seasonal’ (temporada/evento) 25–40s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion adaptado a temporada: verano, regreso a clases, navidad, etc.",
-    prompt: `Rellena:
-- Producto:
-- Temporada/evento:
-- Problema de temporada:
-- Beneficio:
+{
+  id: "msb2c-046",
+  title: "Script 'Seasonal' (stagione / evento) 25-40s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Scrittura adattata alla stagione: estate, ritorno alle classi, Natale, ecc.",
+  prompt: `Riempimento:
+- Prodotto:
+- Stagione / evento:
+- Problemi di stagione:
+- Benefici:
 - CTA:
 
 Genera:
-- Hook (3 adaptados a temporada)
-- Guion 25–40s
-- Texto on-screen
-- 5 captions alternativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-047",
-    title: "Script ‘Recompra’ (para clientes existentes) 20–35s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Guion para incentivar recompra: refill, nuevos usos, ahorro, bundle.",
-    prompt: `Rellena:
-- Producto:
-- Razón de recompra:
-- Beneficio adicional:
-- Oferta de recompra (si hay):
+- Gancio (3 adattato alla stagione)
+- Script 25-40s
+- Testo sullo schermo
+- 5 tappi alternativi.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-047",
+  title: "Script \"Repurchase\" (per i clienti esistenti) 20-35s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Repurchase script incentive: refill, nuovi usi, risparmio, bundle.",
+  prompt: `Riempimento:
+- Prodotto:
+- Riacquisto ragione:
+- Benefici aggiuntivi:
+- Offerta di riacquisto (se presente):
 - CTA:
 
 Genera:
-- Hook (3)
-- “si ya lo tienes” (mensaje directo)
-- 3 razones para repetir
-- CTA + descuento/pack si aplica.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-048",
-    title: "Script ‘Garantía/Devolución’ explicado en simple 20–30s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Explica políticas sin sonar legal: reduce riesgo y aumenta conversiones.",
-    prompt: `Rellena:
-- Producto:
-- Política real (devolución/garantía/envío):
-- Objeción típica:
+- Gancio (3)
+- "se l'hai già" (messaggio diretto)
+- 3 motivi per ripetere
+- CTA + sconto / pacchetto se applicabile.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-048",
+  title: "Script 'Guarantee / Ritorno' spiegato in semplice 20-30s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Spiega le politiche non sound: riduce il rischio e aumenta le conversioni.",
+  prompt: `Riempimento:
+- Prodotto:
+- Politica reale (ritorno / garanzia / spedizione):
+- Obiezione tipica:
 - CTA:
 
 Crea:
-- Hook
-- Explicación en 3 puntos (simple)
-- Ejemplo de caso
-- CTA + link/acción.`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-049",
-    title: "Script ‘Bundle por presupuesto’ (3 opciones) 30–45s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Presenta 3 opciones según presupuesto: bueno/mejor/premium (B2C).",
-    prompt: `Rellena:
-- Producto(s):
-- 3 rangos de presupuesto:
-- Beneficios por nivel:
+- Uncino
+- spiegazione a 3 punti (semplice)
+- Esempio di caso
+- CTA + link / azione.`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-049",
+  title: "Script 'Bundle by budget' (3 opzioni) 30-45",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Presenta 3 opzioni in base al budget: buono / migliore / premium (B2C).",
+  prompt: `Riempimento:
+- Prodotto (s):
+- 3 gamme di bilancio:
+- Vantaggi per livello:
 - CTA:
 
 Crea:
-- Hook (3)
-- Presentación de 3 opciones (claras)
-- Para quién es cada una
-- CTA final (suave y directo).`,
-    thumbnail: "",
-  },
-  {
-    id: "msb2c-050",
-    title: "Script ‘Paquete completo’ (hook + guion + edición + caption + comentarios) 45–60s",
-    area: "Marketing & ventas",
-    category: "Scripts B2C",
-    summary:
-      "Genera todo: guion, texto en pantalla, shot list, caption y respuestas a comentarios.",
-    prompt: `Rellena:
-- Producto:
-- Cliente ideal:
-- Dolor principal:
-- Beneficio principal:
-- 2 beneficios secundarios:
-- Objeción #1:
-- Objeción #2:
-- Prueba disponible:
+- Gancio (3)
+- Presentazione di 3 opzioni (chiaro)
+- Per chi è ciascuno
+- CTA finale (soft e diretto).`,
+  thumbnail: ""
+},
+{
+  id: "msb2c-050",
+  title: "Script 'Complete Package' (libro + script + edizione + cattura + commenti) 45-60s",
+  area: "Marketing e vendita",
+  category: "Scripts B2C",
+  summary:
+  "Genera tutto: script, testo sullo schermo, elenco dei colpi, cattura e feedback.",
+  prompt: `Riempimento:
+- Prodotto:
+- Cliente ideale:
+- Dolore principale:
+- Principali vantaggi:
+- 2 vantaggi collaterali:
+- Obiezione # 1:
+- Obiezione # 2:
+- No. Prova disponibile:
 - CTA:
-- Plataforma:
+- Piattaforma:
 
-Genera un paquete completo:
-1) 10 hooks (variados).
-2) Guion final 45–60s con tiempos.
-3) Texto on-screen por segmento.
-4) Shot list (12–16 clips) con b-roll.
-5) Caption: 3 versiones (directo, story, premium).
-6) Comentario fijado.
-7) 12 respuestas a comentarios (precio, envío, garantía, “funciona?”, “para quién es?”).
-8) 5 ideas de variaciones del mismo video (para A/B).`,
-    thumbnail: "",
-  },
-];
+Genera un pacchetto completo:
+1) 10 ganci (variati).
+2) script finale 45-60 con tempi.
+3) Testo sullo schermo per segmento.
+4) Lista di scarpe (12-16 clip) con b-roll.
+5) Didascalia: 3 versioni (diretto, storia, premium).
+6) Commento.
+7) 12 risposte ai commenti (prezzo, spedizione, garanzia, "lavori"?, "per chi è?").
+8) 5 idee di variazioni dello stesso video (per A / B).`,
+  thumbnail: ""
+}];

@@ -1,1667 +1,1666 @@
 export const textPromptsMarketingHooksAnuncios = [
-  // 1
-  {
-    id: "hooks-ads-001",
-    title: "Hook rompe-patrón basado en contradicción inesperada",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary:
-      "Un hook basado en una frase que contradice una creencia del nicho para capturar atención inmediata.",
-    prompt: `Crea 15 hooks que comiencen con una contradicción que haga detener el scroll.
-Inputs:
-- Creencia común del nicho.
-- Nueva verdad que quieres introducir.
-- Insight que genera curiosidad.
+// 1
+{
+  id: "hooks-ads-001",
+  title: "Uncino break-pattern basato su contraddizione inaspettata",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary:
+  "Un buco basato su una frase che contraddice una credenza di nicchia per catturare l'attenzione immediata.",
+  prompt: `Creare 15 ganci che iniziano con una contraddizione che fermerà la pergamena.
+Ingressi:
+- Convinzione di nicchia comune.
+- Nuova verità che vuoi introdurre.
+- L'opinione che genera curiosità.
 
-Estructura del hook:
-1) Frase corta que contradice lo que todos repiten.
-2) Microexplicación que abre un loop.
-3) Pregunta o tensión que obliga al usuario a seguir leyendo.`,
-    thumbnail: "",
-  },
+Struttura del gancio:
+1) Breve frase che contraddice ciò che tutti ripete.
+2) Microspiegazione che apre un loop.
+3) Domanda o tensione che costringe l'utente a continuare a leggere.`,
+  thumbnail: ""
+},
 
-  // 2
-  {
-    id: "hooks-ads-002",
-    title: "Hook basado en micro-confesión personal",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary:
-      "Confesiones que humanizan, rompen distancia y generan click inmediato.",
-    prompt: `Genera 20 hooks usando confesiones personales estilo “tengo que admitir algo…”.
-Inputs:
-- Error que cometiste.
-- Aprendizaje clave.
-- Resultado final al corregirlo.
-
-Formato:
-- Primera frase confesional.
-- Segunda frase revela algo contraintuitivo.
-- Tercera desencadena curiosidad para el anuncio.`,
-    thumbnail: "",
-  },
-
-  // 3
-  {
-    id: "hooks-ads-003",
-    title: "Hook estilo ‘lo que nadie te cuenta sobre…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ideal para industrias saturadas donde necesitas sonar real.",
-    prompt: `Genera 25 hooks con la estructura “nadie te cuenta esto sobre X…”.
-Inputs:
-- Tema del nicho.
-- Punto ciego.
-- Insight verdadero pero poco dicho.
-
-Incluye:
-- 10 versiones duras (controversiales).
-- 10 versiones suaves.
-- 5 versiones con humor sutil.`,
-    thumbnail: "",
-  },
-
-  // 4
-  {
-    id: "hooks-ads-004",
-    title: "Hook estilo ‘antes pensaba que… ahora sé que…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Transformación mental presentada como evolución del creador.",
-    prompt: `Genera 20 hooks contrastando pensamiento antiguo vs nuevo.
-Inputs:
-- Creencia vieja.
-- Nueva mentalidad.
-- Beneficio logrado gracias al cambio.
+// 2
+{
+  id: "hooks-ads-002",
+  title: "Uncino basato su micro confessione personale",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary:
+  "Confessioni che umanizzano, si rompono e generano un clic immediato.",
+  prompt: `Genera 20 ganci usando confessioni personali come "Devo ammettere qualcosa..."
+Ingressi:
+- Hai sbagliato.
+- Apprendimento chiave.
+- Risultato finale quando corretto.
 
 Formato:
-“Antes pensaba que [X], ahora sé que [Y]… y por eso [resultado].”`,
-    thumbnail: "",
-  },
+- Prima frase confessionale.
+- La seconda frase rivela qualcosa di controintuitivo.
+- No. Terzo innesca la curiosità per l'annuncio.`,
+  thumbnail: ""
+},
 
-  // 5
-  {
-    id: "hooks-ads-005",
-    title: "Hook estilo ‘lo intenté todo, menos esto…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary:
-      "Perfecto para despertar interés inmediato en soluciones poco convencionales.",
-    prompt: `Genera 15 hooks basados en el patrón:
-“He probado todo… excepto esto.”
+// 3
+{
+  id: "hooks-ads-003",
+  title: "Stile gancio 'quello che nessuno ti dice di... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ideale per industrie saturate dove è necessario suonare reale.",
+  prompt: `Genera 25 ganci con la struttura "nessuno ti dice questo su X...."
+Ingressi:
+- Tema Nicho.
+- Punto cieco.
+- Vero, ma poco detto.
 
-Inputs:
-- Problema del nicho.
-- Intentos fallidos.
-- Elemento inesperado que funcionó.
+Include:
+- 10 versioni dure (controversiali).
+- 10 versioni morbide.
+- 5 versioni con umorismo sottile.`,
+  thumbnail: ""
+},
 
-Incluye versiones:
-- Aspiracionales.
-- Técnicas.
-- Humorísticas.`,
-    thumbnail: "",
-  },
-
-  // 6
-  {
-    id: "hooks-ads-006",
-    title: "Hook basado en regla 80/20 aplicada al nicho",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Hooks que prometen eficiencia máxima.",
-    prompt: `Genera 20 hooks aplicando el principio 80/20.
-Inputs:
-- Resultado deseado.
-- Acciones que representan el 20%.
-- Beneficio obtenido.
-
-Formato:
-“El 80% de [resultado] viene del 20% de [acción]. Aquí está cuál es…”`,
-    thumbnail: "",
-  },
-
-  // 7
-  {
-    id: "hooks-ads-007",
-    title: "Hook basado en una predicción futura",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ideal para IA, negocios digitales, marketing, tendencias.",
-    prompt: `Genera 25 hooks estilo predicción.
-Inputs:
-- Tendencia.
-- Cambios que vienen.
-- Oportunidad oculta.
-
-Estructura:
-“En los próximos [tiempo], [cambio inevitable].  
-Pero casi nadie está preparado para esto…”`,
-    thumbnail: "",
-  },
-
-  // 8
-  {
-    id: "hooks-ads-008",
-    title: "Hook estilo ‘si hoy tuviera que empezar desde cero…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Posiciona autoridad a través de simplificación.",
-    prompt: `Genera 20 hooks basados en reiniciar desde cero.
-Inputs:
-- Meta del nicho.
-- Primer paso prioritario.
-- Error que todos cometen al inicio.
+// 4
+{
+  id: "hooks-ads-004",
+  title: "Stile gancio 'prima che pensassi che... ora so che... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Trasformazione mentale presentata come l'evoluzione del creatore.",
+  prompt: `Genera 20 ganci a contrasto vecchio pensiero vs nuovo.
+Ingressi:
+- Vecchia fede.
+- Nuova mentalità.
+- Vantaggi raggiunti attraverso il cambiamento.
 
 Formato:
-“Si hoy tuviera que empezar desde cero en [nicho], haría SOLO esto…”`,
-    thumbnail: "",
-  },
+"Ho pensato che [X], ora so che [Y]... ed è per questo che [risultato]."`,
+  thumbnail: ""
+},
 
-  // 9
-  {
-    id: "hooks-ads-009",
-    title: "Hook estilo ‘nadie va a decir esto porque no conviene…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Crea tensión social + sensación de revelación prohibida.",
-    prompt: `Genera 15 hooks revelando verdades incómodas.
-Inputs:
-- Interés oculto de la industria.
-- Lo que realmente funciona.
-- Consecuencia de ignorarlo.
+// 5
+{
+  id: "hooks-ads-005",
+  title: "Stile gancio 'tried tutto ma questo... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary:
+  "Perfetto per suscitare interesse immediato nelle soluzioni non convenzionali.",
+  prompt: `Genera 15 ganci in base al modello:
+"Ho provato tutto... tranne questo."
 
-Formato polémico pero ético.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Nicho problema.
+- I tentativi falliti.
+- Elemento inaspettato che ha funzionato.
 
-  // 10
-  {
-    id: "hooks-ads-010",
-    title: "Hook ultra directo ‘si estás haciendo X, para ahora’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Perfecto para detener el scroll con urgencia inmediata.",
-    prompt: `Genera 20 hooks con el patrón:
-“Si estás haciendo [acción], DETENTE.”
+Include le versioni:
+- Aspirazionale.
+- Tecniche.
+- Incredibile.`,
+  thumbnail: ""
+},
 
-Inputs:
-- Acción equivocada común.
-- Riesgo.
-- Alternativa correcta.`,
-    thumbnail: "",
-  },
+// 6
+{
+  id: "hooks-ads-006",
+  title: "Gancio basato sulla regola 80 / 20 applicato a nicchia",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ganci che promettono la massima efficienza.",
+  prompt: `Genera 20 ganci che applicano il principio 80 / 20.
+Ingressi:
+- Il risultato desiderato.
+- Azioni che rappresentano il 20%.
+- Beneficio ottenuto.
 
-  // 11
-  {
-    id: "hooks-ads-011",
-    title: "Hook tipo revelación emocional profunda",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Desata conexión emocional inmediata.",
-    prompt: `Genera 20 hooks en formato confesión emocional:
-“Me di cuenta de que no era [problema], era [causa profunda].”
+Formato:
+"80% di [risultato] proviene dal 20% di [azione]. Ecco cos'è..."`,
+  thumbnail: ""
+},
 
-Inputs:
-- Problema superficial.
-- Causa raíz.
-- Insight transformador.`,
-    thumbnail: "",
-  },
+// 7
+{
+  id: "hooks-ads-007",
+  title: "Uncino basato sulla previsione futura",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ideale per IA, digital business, marketing, tendenze.",
+  prompt: `Genera 25 ganci stile di previsione.
+Ingressi:
+- Trend.
+- Arrivano dei cambiamenti.
+- Un'opportunita' nascosta.
 
-  // 12
-  {
-    id: "hooks-ads-012",
-    title: "Hook estilo ‘los 3 segundos que cambiaron mi negocio’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Story microcorta que abre loop.",
-    prompt: `Genera 15 hooks que arranquen así:
-“En 3 segundos entendí que…”
+Struttura:
+"Nel prossimo [tempo], [cambio inevitabile].
+Ma quasi nessuno è pronto per questo... "`,
+  thumbnail: ""
+},
 
-Inputs:
-- Momento.
+// 8
+{
+  id: "hooks-ads-008",
+  title: "Stile gancio 'se oggi ha dovuto iniziare da zero... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "L'autorità di posizionamento tramite semplificazione.",
+  prompt: `Genera 20 ganci in base al riavvio da zero.
+Ingressi:
+- Il bersaglio di nicchia.
+- Primo passo prioritario.
+- Errore che fanno tutti all'inizio.
+
+Formato:
+"Se oggi dovessi iniziare da zero in [niche], lo farei solo..."`,
+  thumbnail: ""
+},
+
+// 9
+{
+  id: "hooks-ads-009",
+  title: "Uncino stile 'nessuno' lo dirà perché non è giusto... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Crea tensione sociale + un senso proibito di rivelazione.",
+  prompt: `Genera 15 ganci rivelando verità scomode.
+Ingressi:
+- L'interesse nascosto dell'industria.
+- No. Quello che funziona davvero.
+- La conseguenza di ignorarlo.
+
+Formato polemico ma etico.`,
+  thumbnail: ""
+},
+
+// 10
+{
+  id: "hooks-ads-010",
+  title: "Uncino ultra diretto 'se stai facendo X, ormai'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Perfetto per fermare lo scorrimento con urgenza immediata.",
+  prompt: `Genera 20 ganci con il modello:
+"Se stai facendo [azione], STOP."
+
+Ingressi:
+- Azione sbagliata comune.
+- Rischio.
+- Ottima alternativa.`,
+  thumbnail: ""
+},
+
+// 11
+{
+  id: "hooks-ads-011",
+  title: "Uncino tipo profonda rivelazione emotiva",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Untie immediata connessione emotiva.",
+  prompt: `Genera 20 ganci in formato confessione emotiva:
+"Ho capito che non era [problema], era [causa profonda]."
+
+Ingressi:
+- Problemi di superficie.
+- causa principale.
+- Intuizione del trasformatore.`,
+  thumbnail: ""
+},
+
+// 12
+{
+  id: "hooks-ads-012",
+  title: "Stile gancio 'i 3 secondi che hanno cambiato la mia attività '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Piccolo negozio di apertura a loop.",
+  prompt: `Generare 15 ganci che iniziano così:
+"In tre secondi ho capito che..."
+
+Ingressi:
+- Aspetta.
 - Insight.
-- Resultado.`,
-    thumbnail: "",
-  },
+- Uscite.`,
+  thumbnail: ""
+},
 
-  // 13
-  {
-    id: "hooks-ads-013",
-    title: "Hook basado en pregunta identitaria",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Activa identidad futura del usuario.",
-    prompt: `Genera 25 preguntas que desafían identidad:
-“¿Y si no fueras la persona que crees que eres respecto a [tema]?”
+// 13
+{
+  id: "hooks-ads-013",
+  title: "Uncino basato sulla domanda di identità",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Identità utente futura attiva.",
+  prompt: `Genera 25 domande che sfidano l'identità:
+"E se non fossi la persona a cui pensi di essere?"
 
-Inputs:
-- Identidad actual.
-- Identidad aspiracional.
+Ingressi:
+- Identita' attuale.
+- Identita' respiratoria.
 - Brecha.`,
-    thumbnail: "",
-  },
+  thumbnail: ""
+},
 
-  // 14
-  {
-    id: "hooks-ads-014",
-    title: "Hook utilizando un micro shock de datos",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Datos micro que sorprenden y abren loop.",
-    prompt: `Genera 20 hooks basados en estadísticas raras.
-Inputs:
-- Dato real o tendencia.
-- Razón por la que sorprende.
-- Conexión con la transformación.`,
-    thumbnail: "",
-  },
+// 14
+{
+  id: "hooks-ads-014",
+  title: "Gancio utilizzando un microshock di dati",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Micro dati che sorpresa e anello aperto.",
+  prompt: `Genera 20 ganci basati su statistiche rare.
+Ingressi:
+- Dati reali o trend.
+- No. Ecco perche' e' sorprendente.
+- Collegamento alla trasformazione.`,
+  thumbnail: ""
+},
 
-  // 15
-  {
-    id: "hooks-ads-015",
-    title: "Hook estilo ‘si te sientes así, no estás roto’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Empatía instantánea + alivio emocional.",
-    prompt: `Genera 15 hooks empáticos:
-“Si te sientes [emoción del usuario], no estás roto. Estás [razón verdadera].”
+// 15
+{
+  id: "hooks-ads-015",
+  title: "Stile gancio 'se ti senti in quel modo, non sei rotto '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Frizione istantanea + sollievo emotivo.",
+  prompt: `Genera 15 ganci empatici:
+"Se ti senti... non sei rotto. Tu sei...
 
-Inputs:
-- Emoción común.
-- Reinterpretación positiva.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Mozione comune.
+- Rilettura positiva.`,
+  thumbnail: ""
+},
 
-  // 16
-  {
-    id: "hooks-ads-016",
-    title: "Hook tipo ‘error que NADIE debería cometer en 2025’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Dramatiza un fallo clave del nicho.",
-    prompt: `Genera 20 hooks:
-“El error que NADIE debería cometer en 2025 si quiere [resultado].”
+// 16
+{
+  id: "hooks-ads-016",
+  title: "Gancio tipo 'mistake NADIE dovrebbe fare in 2025 '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Dramatizza un guasto di nicchia chiave.",
+  prompt: `Genera 20 ganci:
+"L'errore che NADIE dovrebbe fare nel 2025 se vuoi [risultato]."
 
-Inputs:
-- Error.
-- Consecuencia.
+Ingressi:
+- Sbagliato.
+- Consequenza.
 - Alternativa.`,
-    thumbnail: "",
-  },
+  thumbnail: ""
+},
 
-  // 17
-  {
-    id: "hooks-ads-017",
-    title: "Hook estilo ‘tu competencia ya está haciendo esto…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Activa urgencia competitiva.",
-    prompt: `Genera 20 hooks con urgencia:
-“Tu competencia ya empezó a [acción], tú todavía no.”
+// 17
+{
+  id: "hooks-ads-017",
+  title: "Stile gancio 'la vostra concorrenza sta già facendo questo... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Urgenza competitiva.",
+  prompt: `Genera 20 ganci con urgenza:
+"La vostra competizione è già iniziata [azione], non ancora."
 
-Inputs:
-- Acción estratégica.
-- Riesgo por no hacerlo.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Azione strategica.
+- Rischio di non farlo.`,
+  thumbnail: ""
+},
 
-  // 18
-  {
-    id: "hooks-ads-018",
-    title: "Hook basado en un logro atípico o inesperado",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Lo improbable que despierta curiosidad extrema.",
-    prompt: `Genera 15 hooks basados en logros atípicos:
-“Conseguí [logro extraño] haciendo [acción inesperada].”
+// 18
+{
+  id: "hooks-ads-018",
+  title: "Uncino basato su un risultato atipico o inaspettato",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "L'improbabile che suscita estrema curiosità.",
+  prompt: `Genera 15 ganci basati su risultati atipici:
+"Ho ottenuto [strange raggiungimento] facendo [un'azione inaspettata]."
 
-Inputs:
-- Logro raro.
-- Acción no obvia.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Mi sento strano.
+- L'azione non è evidente.`,
+  thumbnail: ""
+},
 
-  // 19
-  {
-    id: "hooks-ads-019",
-    title: "Hook estilo ‘pregunta que nadie se hace pero deberían’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Hook filosófico para mercados de expertos.",
-    prompt: `Genera 20 hooks-bomba:
-“La pregunta que NADIE en [nicho] se hace… y deberían.”
+// 19
+{
+  id: "hooks-ads-019",
+  title: "Hook style 'questione che nessuno è chiesto, ma dovrebbe '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Filosofico Gancio per mercati esperti.",
+  prompt: `Genera 20 ganci- bomba:
+"La domanda NADIE in [niche] è posta... e dovrebbe."
 
-Inputs:
-- Pregunta estratégica.
-- Razón de importancia.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Domanda strategica.
+- Motivo di importanza.`,
+  thumbnail: ""
+},
 
-  // 20
-  {
-    id: "hooks-ads-020",
-    title: "Hook estilo 'micro story + giro final'",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Arranca con historia de 1 línea y termina con giro inesperado.",
-    prompt: `Genera 20 hooks usando esta estructura:
-1) Micro historia realista de 1 línea.
-2) Giro que cambia interpretación.
-3) Conexión con el contenido del anuncio.
+// 20
+{
+  id: "hooks-ads-020",
+  title: "Stile gancio 'micro storia + tocco finale '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Inizia con una storia di 1 linea e termina con una svolta inaspettata.",
+  prompt: `Genera 20 ganci utilizzando questa struttura:
+1) Micro storia realistica di 1 linea.
+2) Girare quella modifica interpretazione.
+3) Connessione al contenuto dell'avviso.
 
-Inputs:
-- Personaje.
-- Situación.
-- Insight final.`,
-    thumbnail: "",
-  },
-  // 21
-  {
-    id: "hooks-ads-021",
-    title: "Hook basado en una pregunta prohibida del nicho",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary:
-      "Hook que cuestiona un dogma del nicho y genera tensión inmediata.",
-    prompt: `Genera 20 hooks usando “la pregunta prohibida en [nicho] que nadie quiere responder…”.
+Ingressi:
+- Carattere.
+- Situazione.
+- Insight finale.`,
+  thumbnail: ""
+},
+// 21
+{
+  id: "hooks-ads-021",
+  title: "Uncino basato su una domanda di nicchia vietata",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary:
+  "Uncino che interroga un dogma di nicchia e genera tensione immediata.",
+  prompt: `Genera 20 ganci usando "la domanda proibita in [niche] che nessuno vuole rispondere...."
 
-Inputs:
-- Dogma del nicho.
-- Razón por la que nadie lo cuestiona.
-- Respuesta incómoda que abre un loop.
-
-Formato:
-“La pregunta prohibida en [nicho] es esta… y cuando la respondas, nada volverá a ser igual.”`,
-    thumbnail: "",
-  },
-
-  // 22
-  {
-    id: "hooks-ads-022",
-    title: "Hook basado en un micro-fallo que arruina todo",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Perfecto para despertar miedo suave + curiosidad.",
-    prompt: `Genera 20 hooks estilo:
-“Hay un pequeño error que está destruyendo tu [resultado]… y ni siquiera lo notas.”
-
-Inputs:
-- Resultado deseado.
-- Mini error común.
-- Consecuencia oculta.`,
-    thumbnail: "",
-  },
-
-  // 23
-  {
-    id: "hooks-ads-023",
-    title: "Hook estilo ‘si esto te duele, este anuncio es para ti’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ultra empático, ideal para audiencias frustradas.",
-    prompt: `Genera 20 hooks empáticos:
-“Si te duele [frustración del usuario], este anuncio es para ti.”
-
-Inputs:
-- Frustración concreta.
-- Razón del dolor.
-- Punto de alivio.`,
-    thumbnail: "",
-  },
-
-  // 24
-  {
-    id: "hooks-ads-024",
-    title: "Hook usando un número exacto y sorprendente",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Estilo data-driven pero emocional.",
-    prompt: `Genera 25 hooks basados en números inesperados.
-Inputs:
-- Métrica impactante.
-- Comparación inesperada.
-- Resultado derivado.
+Ingressi:
+- Il dogma di Nicky.
+- No. Ecco perche' nessuno lo interroga.
+- Risposta scomoda che apre un loop.
 
 Formato:
-“Solo el 7% de las personas hace esto… y por eso el 93% sigue estancado.”`,
-    thumbnail: "",
-  },
+"La domanda proibita in [niche] è questa... e quando rispondi, nulla sarà mai lo stesso."`,
+  thumbnail: ""
+},
 
-  // 25
-  {
-    id: "hooks-ads-025",
-    title: "Hook tipo 'te reto a probar esto 10 segundos'",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Interactivo, ideal para ads de corta duración.",
-    prompt: `Genera 15 hooks de reto:
-“Te reto a hacer esto por 10 segundos… y ver si no cambia tu perspectiva.”
+// 22
+{
+  id: "hooks-ads-022",
+  title: "Uncino basato su un micro fallimento che rovina tutto",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Perfetto per risvegliare la paura morbida + curiosità.",
+  prompt: `Genera 20 ganci stile:
+"C'è un piccolo errore che sta distruggendo il tuo [risultato]... e non te ne accorgi nemmeno."
 
-Inputs:
-- Micro acción.
-- Resultado mental inmediato.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Il risultato desiderato.
+- Mini errore comune.
+- Conseguenza nascosta.`,
+  thumbnail: ""
+},
 
-  // 26
-  {
-    id: "hooks-ads-026",
-    title: "Hook tipo predicción negativa ('si no haces esto, perderás…')",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Advertencia fuerte con riesgo claro.",
-    prompt: `Genera 20 hooks:
-“Si no haces [acción], vas a perder [oportunidad] en menos de [tiempo].”
+// 23
+{
+  id: "hooks-ads-023",
+  title: "Stile gancio 'se questo fa male, questo annuncio è per voi '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ultra empatico, ideale per il pubblico frustrato.",
+  prompt: `Genera 20 ganci empatici:
+"Se fa male, questo annuncio è per te."
 
-Inputs:
-- Acción correcta.
-- Oportunidad perdida.
-- Línea de tiempo.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Frustrazione specifica.
+- Motivo di dolore.
+- Punto di sollievo.`,
+  thumbnail: ""
+},
 
-  // 27
-  {
-    id: "hooks-ads-027",
-    title: "Hook estilo ‘tienes dos opciones, pero solo una avanza’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Habla a la identidad del usuario.",
-    prompt: `Genera 20 hooks basados en dualidad:
-“Tienes dos opciones: [opción fácil pero mala] o [opción difícil pero ganadora]. Tú decides.”
+// 24
+{
+  id: "hooks-ads-024",
+  title: "Gancio utilizzando un numero esatto e sorprendente",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Data-guida ma stile emotivo.",
+  prompt: `Genera 25 ganci basati su numeri inaspettati.
+Ingressi:
+- Una metrica impressionante.
+- Confronto inaspettato.
+- Risultato derivato.
 
-Inputs:
-- Opción cómoda.
-- Opción correcta.
-- Diferencia de resultado.`,
-    thumbnail: "",
-  },
+Formato:
+"Solo il 7% delle persone lo fa... ed è per questo che il 93% è ancora bloccato."`,
+  thumbnail: ""
+},
 
-  // 28
-  {
-    id: "hooks-ads-028",
-    title: "Hook basado en un logro ridículamente específico",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "El detalle exacto aumenta la credibilidad del anuncio.",
-    prompt: `Genera 20 hooks con logros hiper-específicos:
-“Pasé de [métrica exacta] a [métrica exacta] en [tiempo], cambiando solo [una acción].”
+// 25
+{
+  id: "hooks-ads-025",
+  title: "Tipo gancio 'Ti sfido a provare questo 10 secondi '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Interattivo, ideale per annunci di breve durata.",
+  prompt: `Genera 15 ganci di sfida:
+"Ti oserei fare questo per 10 secondi e vedere se non cambia la tua prospettiva."
 
-Inputs:
-- Métrica antes.
-- Métrica después.
-- Acción mínima.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Micro azione.
+- Esito mentale immediato.`,
+  thumbnail: ""
+},
 
-  // 29
-  {
-    id: "hooks-ads-029",
-    title: "Hook estilo ‘este truco es TAN bueno que casi no lo comparto’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Jugador, emocional, convincente.",
-    prompt: `Genera 20 hooks:
-“Este truco es tan bueno que estuve a punto de no compartirlo con nadie.”
+// 26
+{
+  id: "hooks-ads-026",
+  title: "Uncino tipo previsione negativa ('se non lo fai, perderai...')",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Forte avvertimento con chiaro rischio.",
+  prompt: `Genera 20 ganci:
+"Se non fai [azione], perderai [opportunità] in meno di [tempo]."
 
-Inputs:
-- Acción poderosa.
-- Razón para no compartirlo.
-- Beneficio final.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Azione giusta.
+- Hai perso l'occasione.
+- Time line.`,
+  thumbnail: ""
+},
 
-  // 30
-  {
-    id: "hooks-ads-030",
-    title: "Hook basado en un miedo social (miedo a quedarse atrás)",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Útil para tendencias y tecnología.",
-    prompt: `Genera 20 hooks estilo FOMO profesional:
-“Mientras tú estás leyendo esto, otros ya están [acción competitiva].”
+// 27
+{
+  id: "hooks-ads-027",
+  title: "Stile gancio 'hai due opzioni, ma solo un anticipo '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Parla all'identità dell'utente.",
+  prompt: `Genera 20 ganci basati sulla dualità:
+"Hai due opzioni: [opzione facile ma cattiva] o [opzione difficile ma vincente]. Tu decidi."
 
-Inputs:
-- Acción que todos deberían estar tomando.
-- Riesgo al no hacerlo.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Un'opzione comoda.
+- Ottima scelta.
+- Dislivello.`,
+  thumbnail: ""
+},
 
-  // 31
-  {
-    id: "hooks-ads-031",
-    title: "Hook estilo ‘te lo voy a decir sin rodeos’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ideal para audiencias saturadas de contenido.",
-    prompt: `Genera 20 hooks directos:
-“Te lo voy a decir sin rodeos: [verdad brutal].”
+// 28
+{
+  id: "hooks-ads-028",
+  title: "Uncino basato su un risultato ridicolo e specifico",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Il dettaglio esatto aumenta la credibilità dell'annuncio.",
+  prompt: `Genera 20 ganci con risultati iper-specifici:
+"Sono andato da [exact metric] a [exact metric] in [time], cambiando solo [una azione]."
 
-Inputs:
-- Verdades duras del nicho.
-- Consecuencia.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Metrica prima.
+- Metrica dopo.
+- Azione minima.`,
+  thumbnail: ""
+},
 
-  // 32
-  {
-    id: "hooks-ads-032",
-    title: "Hook basado en una pregunta imposible de ignorar",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "El cerebro queda obligado a procesarla.",
-    prompt: `Genera 20 hooks al estilo:
-“¿Por qué sigues [acción] si sabes que no funciona?”
+// 29
+{
+  id: "hooks-ads-029",
+  title: "Stile gancio 'questo trucco è buono TAN che difficilmente lo condivido'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Giocatore, emotivo, convincente.",
+  prompt: `Genera 20 ganci:
+"Questo trucco è così buono che stavo per non condividerlo con nessuno."
 
-Inputs:
-- Acción equivocada.
-- Contradicción.
-- Insight correcto.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Azione potente.
+- Motivo per non condividere.
+- Beneficio finale.`,
+  thumbnail: ""
+},
 
-  // 33
-  {
-    id: "hooks-ads-033",
-    title: "Hook estilo 'plot twist' en la primera frase",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Micro historia con giro inmediato.",
-    prompt: `Genera 20 hooks twist:
-“Pensé que estaba arruinando mi negocio… pero en realidad estaba a punto de escalarlo.”
+// 30
+{
+  id: "hooks-ads-030",
+  title: "Uncino basato sulla paura sociale (la paura di essere lasciato dietro)",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Adatto per tendenze e tecnologia.",
+  prompt: `Genera 20 ganci stile FOMO professionale:
+"Mentre stai leggendo questo, altri sono già [azione competitiva]."
 
-Inputs:
-- Expectativa.
-- Giro.
+Ingressi:
+- Azione che tutti dovrebbero prendere.
+- Rischiate di non farlo.`,
+  thumbnail: ""
+},
+
+// 31
+{
+  id: "hooks-ads-031",
+  title: "Stile gancio 'Ti dirò dritto '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ideale per il pubblico di contenuti saturi.",
+  prompt: `Genera 20 ganci diretti:
+"Ti dirò subito: [verità brutale]."
+
+Ingressi:
+- I nichidi duri.
+- Consequenza.`,
+  thumbnail: ""
+},
+
+// 32
+{
+  id: "hooks-ads-032",
+  title: "Uncino basato su una domanda impossibile da ignorare",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Il cervello è costretto a processarlo.",
+  prompt: `Genera 20 ganci come questo:
+"Perché segui [azione] se sai che non funziona?"
+
+Ingressi:
+- Azione sbagliata.
+- Contraddizione.
+- Giusto.`,
+  thumbnail: ""
+},
+
+// 33
+{
+  id: "hooks-ads-033",
+  title: "Hook style 'plot twist' nella prima frase",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Micro storia con giro immediato.",
+  prompt: `Genera 20 ganci twist:
+"Pensavo di aver rovinato i miei affari, ma in realtà stavo per scalarlo."
+
+Ingressi:
+- Aspettavo.
+- Voltati.
 - Insight.`,
-    thumbnail: "",
-  },
-
-  // 34
-  {
-    id: "hooks-ads-034",
-    title: "Hook basado en urgencia emocional (‘esto me costó años…’)",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Autoridad basada en experiencia.",
-    prompt: `Genera 15 hooks:
-“Esto me costó [años/errores/dinero], así que escucha…”
-
-Inputs:
-- Lección aprendida.
-- Dolor para aprenderla.`,
-    thumbnail: "",
-  },
-
-  // 35
-  {
-    id: "hooks-ads-035",
-    title: "Hook estilo ‘si te pasa esto, estás a punto de mejorar’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Reinterpretación positiva del problema.",
-    prompt: `Genera 20 hooks donde un síntoma negativo es señal de crecimiento.
-Inputs:
-- Síntoma.
-- Explicación positiva.
-- Reencuadre.`,
-    thumbnail: "",
-  },
-
-  // 36
-  {
-    id: "hooks-ads-036",
-    title: "Hook basado en una pregunta existencial del nicho",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Para contenidos profundos, filosóficos o premium.",
-    prompt: `Genera 20 hooks tipo:
-“¿Qué pasaría si [suposición radical del nicho] fuera mentira?”
-
-Inputs:
-- Suposición del nicho.
-- Nuevo insight.`,
-    thumbnail: "",
-  },
-
-  // 37
-  {
-    id: "hooks-ads-037",
-    title: "Hook tipo comparación absurda (‘gané más haciendo menos’)",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Contraste extremo para romper patrón.",
-    prompt: `Genera 20 hooks:
-“Hice menos… y gané más. Aquí está cómo.”
-
-Inputs:
-- Actividad mínima.
-- Resultado desproporcionado.`,
-    thumbnail: "",
-  },
-
-  // 38
-  {
-    id: "hooks-ads-038",
-    title: "Hook estilo 'te voy a ahorrar 2 años con esta frase'",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Gran autoridad, conciso y directo.",
-    prompt: `Genera 20 hooks:
-“Te voy a ahorrar 2 años de frustración: [insight clave].”
-
-Inputs:
-- Insight premium.
-- Error común.`,
-    thumbnail: "",
-  },
-
-  // 39
-  {
-    id: "hooks-ads-039",
-    title: "Hook basado en un mito roto en una frase",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Perfecto para creadores educativos.",
-    prompt: `Genera 20 hooks rompiendo mitos:
-“Todo el mundo cree que [mito], pero lo real es [verdad].”
-
-Inputs:
-- Mito.
-- Verdad.
-- Beneficio del cambio.`,
-    thumbnail: "",
-  },
-
-  // 40
-  {
-    id: "hooks-ads-040",
-    title: "Hook estilo 'tu futuro yo te va a agradecer esto'",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Activa visión futura y esperanza.",
-    prompt: `Genera 20 hooks:
-“Tu ‘yo del futuro’ te va a agradecer por empezar hoy con esto.”
-
-Inputs:
-- Acción clave.
-- Beneficio a largo plazo.`,
-    thumbnail: "",
-  },
-  // 41
-  {
-    id: "hooks-ads-041",
-    title: "Hook basado en un micro-momento que cambia todo",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Un solo instante que provoca un antes y después.",
-    prompt: `Genera 20 hooks iniciando con:
-“Todo cambió cuando me di cuenta de que…”
-
-Inputs:
-- Insight clave.
-- Momento del descubrimiento.
-- Resultado posterior.`,
-    thumbnail: "",
-  },
-
-  // 42
-  {
-    id: "hooks-ads-042",
-    title: "Hook estilo ‘este consejo es tan bueno que solo lo digo una vez’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Escasez psicológica para alto CTR.",
-    prompt: `Genera 20 hooks:
-“Escucha con atención porque esto solo lo digo una vez…”
-
-Inputs:
-- Consejo premium.
-- Razón para no repetirlo.`,
-    thumbnail: "",
-  },
-
-  // 43
-  {
-    id: "hooks-ads-043",
-    title:
-      "Hook basado en una contradicción emocional (‘estaba feliz… pero vacío’)",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Genera tensión emocional inmediata.",
-    prompt: `Genera 20 hooks donde dos emociones opuestas chocan.
-Ejemplo:
-“Lo tenía todo… menos paz.”
-
-Inputs:
-- Emoción A.
-- Emoción B.
-- Insight revelado.`,
-    thumbnail: "",
-  },
-
-  // 44
-  {
-    id: "hooks-ads-044",
-    title: "Hook tipo ‘la verdad incómoda que aprendí demasiado tarde’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Sensación de arrepentimiento que empuja a escuchar.",
-    prompt: `Genera 20 hooks:
-“La verdad incómoda que aprendí demasiado tarde…”
-
-Inputs:
-- Verdad clave.
-- Costo de aprenderla tarde.`,
-    thumbnail: "",
-  },
-
-  // 45
-  {
-    id: "hooks-ads-045",
-    title: "Hook basado en un dolor silencioso que nadie admite",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Aumenta conexión humana instantánea.",
-    prompt: `Genera 20 hooks:
-“El dolor silencioso que casi nadie admite en [nicho].”
-
-Inputs:
-- Dolor oculto.
-- Causa raíz.
-- Nueva interpretación.`,
-    thumbnail: "",
-  },
-
-  // 46
-  {
-    id: "hooks-ads-046",
-    title: "Hook estilo ‘tengo pruebas, no opiniones’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Autoridad + data.",
-    prompt: `Genera 20 hooks:
-“No es una opinión. Tengo datos.”
-
-Inputs:
-- Estadística.
-- Insight derivado.
-- Micro conclusión.`,
-    thumbnail: "",
-  },
-
-  // 47
-  {
-    id: "hooks-ads-047",
-    title: "Hook basado en un logro sin sacrificio extremo",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Destruye la creencia de que todo cuesta sufrimiento.",
-    prompt: `Genera 20 hooks:
-“Logré [resultado] sin destruir mi [salud/tiempo/paz mental].”
-
-Inputs:
-- Resultado premium.
-- Lo que NO sacrificaste.
-- Acción clave.`,
-    thumbnail: "",
-  },
-
-  // 48
-  {
-    id: "hooks-ads-048",
-    title: "Hook estilo ‘no quiero asustarte, pero…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Anticipa riesgo sin ser alarmista.",
-    prompt: `Genera 20 hooks:
-“No quiero asustarte… pero tampoco quiero que lo ignores.”
-
-Inputs:
-- Riesgo real.
-- Efecto si no actúan.`,
-    thumbnail: "",
-  },
-
-  // 49
-  {
-    id: "hooks-ads-049",
-    title: "Hook estilo ‘te voy a decir exactamente lo que yo haría’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Posiciona experiencia directa.",
-    prompt: `Genera 20 hooks:
-“Si estuviera en tu lugar, haría exactamente esto…”
-
-Inputs:
-- Acción estratégica.
-- Razón.
-- Primer paso.`,
-    thumbnail: "",
-  },
-
-  // 50
-  {
-    id: "hooks-ads-050",
-    title: "Hook tipo ‘esto es lo que NADIE mira, pero define todo’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Enfoca atención en un detalle oculto.",
-    prompt: `Genera 20 hooks:
-“Casi nadie mira este detalle… y es el que define todo.”
-
-Inputs:
-- Variable oculta.
-- Impacto real.`,
-    thumbnail: "",
-  },
-
-  // 51
-  {
-    id: "hooks-ads-051",
-    title: "Hook estilo 'esta frase me cambió la vida'",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ideal para coaches, creadores y expertos.",
-    prompt: `Genera 20 hooks iniciando con:
-“Esta frase cambió todo para mí…”
-
-Inputs:
-- Frase reveladora.
-- Insight personal.`,
-    thumbnail: "",
-  },
-
-  // 52
-  {
-    id: "hooks-ads-052",
-    title: "Hook basado en un dilema moral del nicho",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ético, profundo, con tensión.",
-    prompt: `Genera 20 hooks:
-“El dilema que nadie quiere enfrentar en [nicho]…”
-
-Inputs:
-- Dilema real.
-- Consecuencia de ignorarlo.`,
-    thumbnail: "",
-  },
-
-  // 53
-  {
-    id: "hooks-ads-053",
-    title: "Hook tipo ‘ya es tarde para X… pero temprano para Y’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Perfecto para tendencias.",
-    prompt: `Genera 20 hooks:
-“Ya es tarde para [tendencia antigua]… pero es temprano para [oportunidad nueva].”
-
-Inputs:
-- Oportunidad saturada.
-- Nueva oportunidad.`,
-    thumbnail: "",
-  },
-
-  // 54
-  {
-    id: "hooks-ads-054",
-    title: "Hook estilo ‘si esto te molesta, es por una razón’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Activa introspección del usuario.",
-    prompt: `Genera 20 hooks:
-“Si esto te irrita… presta atención. Significa algo.”
-
-Inputs:
-- Situación gatillo.
-- Explicación psicológica.`,
-    thumbnail: "",
-  },
-
-  // 55
-  {
-    id: "hooks-ads-055",
-    title: "Hook basado en un micro análisis de comportamiento humano",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Para creadores que enseñan mentalidad, hábitos o productividad.",
-    prompt: `Genera 20 hooks:
-“¿Te has fijado en que casi nadie en [nicho] hace esto…?”
-
-Inputs:
-- Comportamiento clave.
-- Razón psicológica para no hacerlo.`,
-    thumbnail: "",
-  },
-
-  // 56
-  {
-    id: "hooks-ads-056",
-    title: "Hook estilo ‘un detalle que revela si vas a lograrlo o no’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Evaluación rápida del usuario.",
-    prompt: `Genera 20 hooks:
-“Hay un detalle simple que revela si vas a lograr [meta] o no.”
-
-Inputs:
-- Señal de éxito.
-- Señal de fracaso.`,
-    thumbnail: "",
-  },
-
-  // 57
-  {
-    id: "hooks-ads-057",
-    title: "Hook tipo ‘te explico esto como si tuvieras 5 años’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Reduce complejidad, aumenta viralidad.",
-    prompt: `Genera 20 hooks:
-“Te voy a explicar esto como si tuvieras 5 años…”
-
-Inputs:
-- Concepto complejo.
-- Analogía infantil.`,
-    thumbnail: "",
-  },
-
-  // 58
-  {
-    id: "hooks-ads-058",
-    title: "Hook basado en una micro visualización (‘imagina que…’)",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Apertura narrativa poderosa.",
-    prompt: `Genera 20 hooks:
-“Imagina que mañana despiertas con [beneficio extremo]…”
-
-Inputs:
-- Meta del usuario.
-- Cambio radical inmediato.`,
-    thumbnail: "",
-  },
-
-  // 59
-  {
-    id: "hooks-ads-059",
-    title: "Hook estilo ‘me tomó demasiado tiempo entender esto’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Story premium basada en aprendizaje lento.",
-    prompt: `Genera 20 hooks:
-“Me tomó años entender esto… ojalá alguien me lo hubiera explicado así.”
-
-Inputs:
-- Insight decisivo.
-- Error repetido.`,
-    thumbnail: "",
-  },
-
-  // 60
-  {
-    id: "hooks-ads-060",
-    title: "Hook basado en un patrón invisible que todos siguen",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Desvela algo oculto a simple vista.",
-    prompt: `Genera 20 hooks:
-“Hay un patrón invisible que todos siguen en [nicho]… y casi nadie se da cuenta.”
-
-Inputs:
-- Patrón oculto.
-- Efecto que produce.`,
-    thumbnail: "",
-  },
-  // 61
-  {
-    id: "hooks-ads-061",
-    title: "Hook estilo ‘si pudiera borrar un error de mi carrera, sería este’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Story autoritaria que abre tensión emocional.",
-    prompt: `Genera 20 hooks:
-“Si pudiera borrar un solo error de mi carrera… sería este.”
-
-Inputs:
-- Error crítico.
-- Consecuencia.
-- Lección que cambió todo.`,
-    thumbnail: "",
-  },
-
-  // 62
-  {
-    id: "hooks-ads-062",
-    title: "Hook basado en un hábito invisible que define el éxito",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ideal para productividad, fitness, negocios, hábitos.",
-    prompt: `Genera 20 hooks:
-“Hay un hábito invisible que separa a los que avanzan… de los que se quedan.”
-
-Inputs:
-- Hábito micro.
-- Efecto acumulado.`,
-    thumbnail: "",
-  },
-
-  // 63
-  {
-    id: "hooks-ads-063",
-    title: "Hook estilo ‘lo que crees que te frena no es lo que te frena’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Rompe percepciones falsas del usuario.",
-    prompt: `Genera 20 hooks:
-“Lo que crees que te frena… no es lo que realmente te frena.”
-
-Inputs:
-- Falsa creencia.
-- Obstáculo real.`,
-    thumbnail: "",
-  },
-
-  // 64
-  {
-    id: "hooks-ads-064",
-    title: "Hook basado en un cambio radical en una sola frase",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Pensado para impacto inmediato.",
-    prompt: `Genera 20 hooks:
-“Una sola frase cambió mi manera de ver [tema]: [frase].”
-
-Inputs:
-- Frase de alto impacto.
-- Insight profundo.`,
-    thumbnail: "",
-  },
-
-  // 65
-  {
-    id: "hooks-ads-065",
-    title: "Hook estilo ‘nadie quiere hablar de esto, pero deberíamos’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Apertura valiente que genera autoridad moral.",
-    prompt: `Genera 20 hooks:
-“Nadie quiere hablar de esto en [nicho]… pero deberíamos.”
-
-Inputs:
-- Tema tabú.
-- Por qué es importante discutirlo.`,
-    thumbnail: "",
-  },
-
-  // 66
-  {
-    id: "hooks-ads-066",
-    title: "Hook basado en un ciclo repetitivo que destruye resultados",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Describe un loop que el usuario repite sin darse cuenta.",
-    prompt: `Genera 20 hooks:
-“El ciclo que te mantiene atrapado en [problema] es este…”
-
-Inputs:
-- Ciclo real.
-- Consecuencias.
-- Forma de romperlo.`,
-    thumbnail: "",
-  },
-
-  // 67
-  {
-    id: "hooks-ads-067",
-    title: "Hook estilo ‘estás a un hábito de cambiar tu vida’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Inspirador, directo, emocional.",
-    prompt: `Genera 20 hooks:
-“Estás literalmente a un hábito de transformar tu vida.”
-
-Inputs:
-- Hábito clave.
-- Beneficio claro.`,
-    thumbnail: "",
-  },
-
-  // 68
-  {
-    id: "hooks-ads-068",
-    title: "Hook basado en el contraste entre dos tipos de personas",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Divide para generar autoidentificación.",
-    prompt: `Genera 20 hooks:
-“Hay dos tipos de personas en [nicho]… y solo una gana.”
-
-Inputs:
+  thumbnail: ""
+},
+
+// 34
+{
+  id: "hooks-ads-034",
+  title: "Uncino basato sull'urgenza emotiva ('questo mi è costato anni...')",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Autorità basata sull'esperienza.",
+  prompt: `Genera 15 ganci:
+"Questo mi è costato [anni / errori / soldi], quindi ascolta..."
+
+Ingressi:
+- Ho imparato la lezione.
+- Dolore per impararlo.`,
+  thumbnail: ""
+},
+
+// 35
+{
+  id: "hooks-ads-035",
+  title: "Stile gancio 'se questo accade a voi, si sta per migliorare '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Rilettura positiva del problema.",
+  prompt: `Genera 20 ganci dove un sintomo negativo è un segno di crescita.
+Ingressi:
+- Simbolo.
+- Una spiegazione positiva.
+- Ristrutturazione.`,
+  thumbnail: ""
+},
+
+// 36
+{
+  id: "hooks-ads-036",
+  title: "Uncino basato su una domanda di nicchia esistenziale",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Per contenuti profondi, filosofici o premium.",
+  prompt: `Genera 20 ganci tipo:
+"E se [l'assunzione radicale della nicchia] fosse una bugia?"
+
+Ingressi:
+- Nicky indovina.
+- Nuova visione.`,
+  thumbnail: ""
+},
+
+// 37
+{
+  id: "hooks-ads-037",
+  title: "Attacco tipo assurdo confronto ('Ho vinto più fare meno')",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Hai contratto l'estremo modello per rompere.",
+  prompt: `Genera 20 ganci:
+"Ho fatto di meno... e ho vinto di più. Ecco come."
+
+Ingressi:
+- Attività minima.
+- risultato sproporzionato.`,
+  thumbnail: ""
+},
+
+// 38
+{
+  id: "hooks-ads-038",
+  title: "Stile gancio 'Ti salverò 2 anni con questa frase'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Grande autorità, concisa e diretta.",
+  prompt: `Genera 20 ganci:
+"Ti salverò 2 anni di frustrazione: [Intuizione chiave]."
+
+Ingressi:
+- Premium Insight.
+- Errore comune.`,
+  thumbnail: ""
+},
+
+// 39
+{
+  id: "hooks-ads-039",
+  title: "Uncino basato su un mito rotto in una frase",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Perfetto per i creatori educativi.",
+  prompt: `Genera 20 ganci che spezzano miti:
+"Tutti pensano che [mito], ma la cosa vera è [verità]."
+
+Ingressi:
+- Myto.
+- Giusto.
+- Benefico il cambiamento.`,
+  thumbnail: ""
+},
+
+// 40
+{
+  id: "hooks-ads-040",
+  title: "Stile gancio 'il tuo futuro ti ringrazierò per questo'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Visione futura attiva e speranza.",
+  prompt: `Genera 20 ganci:
+"Il tuo 'io del futuro' ti ringrazierà per aver iniziato questo oggi."
+
+Ingressi:
+- Azione chiave.
+- Benefici a lungo termine.`,
+  thumbnail: ""
+},
+// 41
+{
+  id: "hooks-ads-041",
+  title: "Uncino basato su un micro-istante che cambia tutto",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Un singolo istante che provoca un prima e dopo.",
+  prompt: `Genera 20 ganci che iniziano con:
+"Tutto è cambiato quando ho capito che..."
+
+Ingressi:
+- Insight chiave.
+- E' il momento della scoperta.
+- Esito successivo.`,
+  thumbnail: ""
+},
+
+// 42
+{
+  id: "hooks-ads-042",
+  title: "Stile gancio 'questo consiglio è così buono che lo dico solo una volta '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Disturbo psicologico per alto CTR.",
+  prompt: `Genera 20 ganci:
+"Ascolta attentamente perché lo dico solo una volta..."
+
+Ingressi:
+- Consiglio Premium.
+- Motivo per non ripetere.`,
+  thumbnail: ""
+},
+
+// 43
+{
+  id: "hooks-ads-043",
+  title:
+  "Uncino basato su una contraddizione emotiva ('era felice... ma vuoto')",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Genera una tensione emotiva immediata.",
+  prompt: `Genera 20 ganci dove due emozioni opposte si scontrano.
+Esempio:
+"Ho avuto tutto, ma la pace."
+
+Ingressi:
+- Emozione A.
+- Emozione B.
+- Insight rivelato.`,
+  thumbnail: ""
+},
+
+// 44
+{
+  id: "hooks-ads-044",
+  title: "Ragazzo del gancio, la verità scomoda che ho imparato troppo tardi '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Sentirsi di pentimento che spinge ad ascoltare.",
+  prompt: `Genera 20 ganci:
+"La verità scomoda che ho imparato troppo tardi..."
+
+Ingressi:
+- Verità chiave.
+- Costo dell'apprendimento tardivo.`,
+  thumbnail: ""
+},
+
+// 45
+{
+  id: "hooks-ads-045",
+  title: "Uncino basato su un dolore silenzioso che nessuno ammette",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Aumenta la connessione umana istantanea.",
+  prompt: `Genera 20 ganci:
+"Il dolore silenzioso che quasi nessuno ammette nella nicchia."
+
+Ingressi:
+- Dolore nascosto.
+- causa principale.
+- Nuova interpretazione.`,
+  thumbnail: ""
+},
+
+// 46
+{
+  id: "hooks-ads-046",
+  title: "Stile gancio 'Ho la prova, nessuna opinione '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Autorità + dati.",
+  prompt: `Genera 20 ganci:
+"Non è un'opinione. Ho dei dati."
+
+Ingressi:
+- Statistiche.
+- Insight derivato.
+- Micro conclusione.`,
+  thumbnail: ""
+},
+
+// 47
+{
+  id: "hooks-ads-047",
+  title: "Uncino basato su un risultato senza sacrificio estremo",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Distrugge la convinzione che tutto costi la sofferenza.",
+  prompt: `Genera 20 ganci:
+"Ho raggiunto [risultato] senza distruggere la mia [salute / tempo / pace della mente]."
+
+Ingressi:
+- Risultato Premium.
+- No. Quello che non hai sacrificato.
+- Azione chiave.`,
+  thumbnail: ""
+},
+
+// 48
+{
+  id: "hooks-ads-048",
+  title: "Non voglio spaventarti, ma..",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Egli anticipa il rischio senza essere allarmatore.",
+  prompt: `Genera 20 ganci:
+"Non voglio spaventarti, ma non voglio che tu lo ignori."
+
+Ingressi:
+- Davvero rischioso.
+- Effetto se non agiscono.`,
+  thumbnail: ""
+},
+
+// 49
+{
+  id: "hooks-ads-049",
+  title: "Stile gancio 'Ti dirò esattamente quello che farei'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Posizionamento dell'esperienza diretta.",
+  prompt: `Genera 20 ganci:
+"Se fossi in te, farei esattamente questo..."
+
+Ingressi:
+- Azione strategica.
+- Ragione.
+- Passo uno.`,
+  thumbnail: ""
+},
+
+// 50
+{
+  id: "hooks-ads-050",
+  title: "Tipo gancio 'questo è ciò che NADIE guarda, ma definisce tutto '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Concentrati su un dettaglio nascosto.",
+  prompt: `Genera 20 ganci:
+"Quasi nessuno guarda questo dettaglio... ed è quello che definisce tutto."
+
+Ingressi:
+- Variabile nascosta.
+- Un vero impatto.`,
+  thumbnail: ""
+},
+
+// 51
+{
+  id: "hooks-ads-051",
+  title: "Stile gancio 'questa frase ha cambiato la mia vita '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ideale per allenatori, creatori ed esperti.",
+  prompt: `Genera 20 ganci che iniziano con:
+"Questa frase ha cambiato tutto per me..."
+
+Ingressi:
+- Dimostrando la glassa.
+- Intuito personale.`,
+  thumbnail: ""
+},
+
+// 52
+{
+  id: "hooks-ads-052",
+  title: "Uncino basato su un dilemma morale della nicchia",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Etico, profondo, con tensione.",
+  prompt: `Genera 20 ganci:
+"Il dilemma che nessuno vuole affrontare in [niche]..."
+
+Ingressi:
+- Un vero dilema.
+- La conseguenza di ignorarlo.`,
+  thumbnail: ""
+},
+
+// 53
+{
+  id: "hooks-ads-053",
+  title: "Un gancio tipo 'è già in ritardo per X... ma presto per Y'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Perfetto per le tendenze.",
+  prompt: `Genera 20 ganci:
+"È già tardi per [vecchia tendenza]... ma è presto per [nuova opportunità]."
+
+Ingressi:
+- Un'opportunita'.
+- Nuova possibilità.`,
+  thumbnail: ""
+},
+
+// 54
+{
+  id: "hooks-ads-054",
+  title: "Stile gancio 'se questo ti disturba, è per un motivo '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Introspezione utente attiva.",
+  prompt: `Genera 20 ganci:
+"Se questo ti irrita... fai attenzione. Significa qualcosa."
+
+Ingressi:
+- La situazione del grilletto.
+- Spiegazione psicologica.`,
+  thumbnail: ""
+},
+
+// 55
+{
+  id: "hooks-ads-055",
+  title: "Uncino basato su un comportamento umano micro analisi",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Per i creatori che insegnano mentalità, abitudini o produttività.",
+  prompt: `Genera 20 ganci:
+"Ha notato che quasi nessuno in [niche] fa questo...?"
+
+Ingressi:
+- Comportamento chiave.
+- Motivo psicologico per non farlo.`,
+  thumbnail: ""
+},
+
+// 56
+{
+  id: "hooks-ads-056",
+  title: "Stile gancio 'un dettaglio che rivela se o non lo farai'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Valutazione rapida dell'utente.",
+  prompt: `Genera 20 ganci:
+"C'è un semplice dettaglio che rivela se si otterrà o no."
+
+Ingressi:
+- Segnale di successo.
+- Un segno di fallimento.`,
+  thumbnail: ""
+},
+
+// 57
+{
+  id: "hooks-ads-057",
+  title: "Tipo gancio 'Vi spiego questo come se avessi 5 anni'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Riduce la complessità, aumenta la viralità.",
+  prompt: `Genera 20 ganci:
+"Ti spieghero' questo come hai 5 anni..."
+
+Ingressi:
+- Un concetto complesso.
+- Analogia infantile.`,
+  thumbnail: ""
+},
+
+// 58
+{
+  id: "hooks-ads-058",
+  title: "Gancio basato su una micro-visualizzazione ('imagine che...')",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Potente apertura narrativa.",
+  prompt: `Genera 20 ganci:
+"Immagina che domani ti svegli con [il profitto estremo]..."
+
+Ingressi:
+- Obiettivo dell'utente.
+- Cambiamento radicale immediatamente.`,
+  thumbnail: ""
+},
+
+// 59
+{
+  id: "hooks-ads-059",
+  title: "Stile gancio 'took me troppo a lungo per capire questo '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Premio di storia basato sull'apprendimento lento.",
+  prompt: `Genera 20 ganci:
+"Mi ci sono voluti anni per capire questo... Vorrei che qualcuno mi avesse spiegato questo".
+
+Ingressi:
+- Intuizione decisa.
+- Errore ripetuto.`,
+  thumbnail: ""
+},
+
+// 60
+{
+  id: "hooks-ads-060",
+  title: "Uncino basato su un modello invisibile che tutti seguono",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Scopri qualcosa nascosto in vista.",
+  prompt: `Genera 20 ganci:
+"C'è un modello invisibile che tutti seguono nella nicchia... e quasi nessuno può vedere."
+
+Ingressi:
+- Modello nascosto.
+- Effetto che produce.`,
+  thumbnail: ""
+},
+// 61
+{
+  id: "hooks-ads-061",
+  title: "Stile gancio 'se potessi cancellare un errore dalla mia carriera, sarebbe questo'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Autoritario Storia che apre tensione emotiva.",
+  prompt: `Genera 20 ganci:
+"Se potessi cancellare un singolo errore dalla mia carriera... sarebbe questo."
+
+Ingressi:
+- Errore critico.
+- Consequenza.
+- Lezione che ha cambiato tutto.`,
+  thumbnail: ""
+},
+
+// 62
+{
+  id: "hooks-ads-062",
+  title: "Uncino basato su un'abitudine invisibile che definisce il successo",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ideale per produttività, fitness, business, abitudini.",
+  prompt: `Genera 20 ganci:
+"C'è un'abitudine invisibile che separa coloro che avanzano... da coloro che rimangono."
+
+Ingressi:
+- Micro abitudine.
+- Effetto incrociato.`,
+  thumbnail: ""
+},
+
+// 63
+{
+  id: "hooks-ads-063",
+  title: "Stile gancio 'quello che pensi che ti trattiene indietro non è quello che ti tiene '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Si rompe false percezioni dell'utente.",
+  prompt: `Genera 20 ganci:
+"Cosa pensi che ti trattiene indietro... non è ciò che davvero ti tiene indietro."
+
+Ingressi:
+- Falsa credenza.
+- Royal Obstacle.`,
+  thumbnail: ""
+},
+
+// 64
+{
+  id: "hooks-ads-064",
+  title: "Uncino basato su un cambiamento radicale in una singola frase",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Progettato per un impatto immediato.",
+  prompt: `Genera 20 ganci:
+"Una sola frase ha cambiato il mio modo di vedere [tema]: [phrase]."
+
+Ingressi:
+- Frasse ad alto impatto.
+- Intuito profondo.`,
+  thumbnail: ""
+},
+
+// 65
+{
+  id: "hooks-ads-065",
+  title: "Stile gancio 'nessuno vuole parlare di questo, ma dobbiamo '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Apertura brave che genera autorità morale.",
+  prompt: `Genera 20 ganci:
+"Nessuno vuole parlarne in [niche]... ma dovremmo."
+
+Ingressi:
+- Tema Taboo.
+- No. Perche' e' importante parlarne.`,
+  thumbnail: ""
+},
+
+// 66
+{
+  id: "hooks-ads-066",
+  title: "Uncino basato su un ciclo ripetitivo che distrugge i risultati",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Descrivi un loop che l'utente ripete senza accorgersene.",
+  prompt: `Genera 20 ganci:
+"Il ciclo che ti tiene intrappolato in [problema] è questo..."
+
+Ingressi:
+- Ciclo reale.
+- Conseguenze.
+- Come rompere.`,
+  thumbnail: ""
+},
+
+// 67
+{
+  id: "hooks-ads-067",
+  title: "Stile gancio 'tu sei un'abitudine di cambiare la tua vita '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ispirante, diretto, emotivo.",
+  prompt: `Genera 20 ganci:
+"Sei letteralmente un'abitudine di trasformare la tua vita."
+
+Ingressi:
+- Habitat chiave.
+- Ho un chiaro vantaggio.`,
+  thumbnail: ""
+},
+
+// 68
+{
+  id: "hooks-ads-068",
+  title: "Gancio basato sul contrasto tra due tipi di persone",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Dividere per generare auto-identificazione.",
+  prompt: `Genera 20 ganci:
+"Ci sono due tipi di persone in [niche]... e una sola vittoria."
+
+Ingressi:
 - Tipo A.
 - Tipo B.
-- Diferencia de comportamiento.`,
-    thumbnail: "",
-  },
+- La differenza di comportamento.`,
+  thumbnail: ""
+},
 
-  // 69
-  {
-    id: "hooks-ads-069",
-    title: "Hook estilo ‘esto va a sonar raro, pero…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Genera extrañeza que invita a escuchar.",
-    prompt: `Genera 20 hooks:
-“Esto va a sonar raro, pero es la verdad…”
+// 69
+{
+  id: "hooks-ads-069",
+  title: "Lo stile del gancio sembrera' strano, ma... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Strano che invita ad ascoltare.",
+  prompt: `Genera 20 ganci:
+"Sarà strano, ma è la verità..."
 
-Inputs:
-- Insight extraño pero real.
-- Microexplicación.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Strano ma reale.
+- Microspiegazione.`,
+  thumbnail: ""
+},
 
-  // 70
-  {
-    id: "hooks-ads-070",
-    title: "Hook tipo ‘no sé quién necesita oír esto, pero…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Formato viral, empático, universal.",
-    prompt: `Genera 20 hooks:
-“No sé quién necesita escuchar esto, pero…”
+// 70
+{
+  id: "hooks-ads-070",
+  title: "Un gancio non so chi debba sentirlo, ma... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Virale, empatico, formato universale.",
+  prompt: `Genera 20 ganci:
+"Non so chi debba sentirlo, ma..."
 
-Inputs:
-- Insight motivacional o técnico.
-- Consecuencia directa.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Insight motivazionale o tecnico.
+- Di conseguenza diretta.`,
+  thumbnail: ""
+},
 
-  // 71
-  {
-    id: "hooks-ads-071",
-    title: "Hook basado en un truco que hace la vida más fácil",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Perfecto para productividad, negocios y hábitos.",
-    prompt: `Genera 20 hooks:
-“Te voy a dar el truco que nadie usa… pero que hace todo más fácil.”
+// 71
+{
+  id: "hooks-ads-071",
+  title: "Uncino basato su un trucco che rende la vita più facile",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Perfetto per produttività, affari e abitudini.",
+  prompt: `Genera 20 ganci:
+"Ti daro' il trucco che nessuno usa, ma rende tutto piu' facile."
 
-Inputs:
-- Acción simplificadora.
-- Resultado inmediato.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Semplificare l'azione.
+- Risultato immediato.`,
+  thumbnail: ""
+},
 
-  // 72
-  {
-    id: "hooks-ads-072",
-    title: "Hook estilo ‘aquí está la razón real por la que no avanzas’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Directo, duro, certero.",
-    prompt: `Genera 20 hooks:
-“La razón REAL por la que no avanzas es esta…”
+// 72
+{
+  id: "hooks-ads-072",
+  title: "Stile gancio 'qui è il vero motivo per cui non si muove '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Dritto, duro, dritto.",
+  prompt: `Genera 20 ganci:
+"Il vero motivo per cui non ti muovi è questo..."
 
-Inputs:
-- Causa raíz.
-- Mito que la oculta.`,
-    thumbnail: "",
-  },
+Ingressi:
+- causa principale.
+- Temo che lo stia nascondendo.`,
+  thumbnail: ""
+},
 
-  // 73
-  {
-    id: "hooks-ads-073",
-    title: "Hook basado en micro-escenario cinematográfico",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ideal para videos y reels.",
-    prompt: `Genera 20 hooks:
-“Imagina esta escena: [micro historia]…”
+// 73
+{
+  id: "hooks-ads-073",
+  title: "Gancio basato su scenario micro-film",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ideale per video e rulli.",
+  prompt: `Genera 20 ganci:
+"Immagina questa scena: [micro storia]..."
 
-Inputs:
-- Micro escena clara.
-- Tensión narrativa.
-- Insight final.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Micro scena chiara.
+- tensione narrativa.
+- Insight finale.`,
+  thumbnail: ""
+},
 
-  // 74
-  {
-    id: "hooks-ads-074",
-    title: "Hook tipo ‘si pudiera hablar con mi versión de hace 3 años…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Conecta futuro, pasado y cambio.",
-    prompt: `Genera 20 hooks:
-“Si pudiera hablar con mi versión de hace 3 años… le diría esto.”
+// 74
+{
+  id: "hooks-ads-074",
+  title: "Se potessi parlare con la mia versione tre anni fa... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Collegare il futuro, il passato e il cambiamento.",
+  prompt: `Genera 20 ganci:
+"Se potessi parlare con la mia versione di tre anni fa, te lo direi."
 
-Inputs:
-- Consejo clave.
-- Error que repetías.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Un consiglio chiave.
+- Errore che hai ripetuto.`,
+  thumbnail: ""
+},
 
-  // 75
-  {
-    id: "hooks-ads-075",
-    title: "Hook basado en una creencia que envejeció mal",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Perfecto para industrias que evolucionan rápido.",
-    prompt: `Genera 20 hooks:
-“Esta creencia envejeció TERRIBLEMENTE… y nadie actualizó su mentalidad.”
+// 75
+{
+  id: "hooks-ads-075",
+  title: "Uncino basato su una convinzione che invecchiato male",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Perfetto per le industrie in rapida evoluzione.",
+  prompt: `Genera 20 ganci:
+"Questa credenza invecchiata TERRIBILE... e nessuno ha aggiornato la loro mentalità."
 
-Inputs:
-- Creencia obsoleta.
-- Nueva realidad.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Obsoleto credo.
+- Nuova realtà.`,
+  thumbnail: ""
+},
 
-  // 76
-  {
-    id: "hooks-ads-076",
-    title: "Hook estilo ‘esta es la señal que estabas esperando’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Casi místico, emocional.",
-    prompt: `Genera 20 hooks:
-“Si buscabas una señal para empezar… es esta.”
+// 76
+{
+  id: "hooks-ads-076",
+  title: "Stile gancio 'questo è il segnale che stavate aspettando '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Quasi mistico, emotivo.",
+  prompt: `Genera 20 ganci:
+"Se stavi cercando un segno per cominciare... questo è tutto."
 
-Inputs:
-- Acción correcta.
-- Resultado deseado.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Azione giusta.
+- Il risultato desiderato.`,
+  thumbnail: ""
+},
 
-  // 77
-  {
-    id: "hooks-ads-077",
-    title:
-      "Hook basado en un micro juico realista (‘nadie te toma en serio si…’)",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Duro, honesto, directo.",
-    prompt: `Genera 20 hooks:
-“Nadie te toma en serio si sigues haciendo esto…”
+// 77
+{
+  id: "hooks-ads-077",
+  title:
+  "Uncino basato su un micro juico realistico ('nessuno ti prende sul serio se...')",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Forte, onesto, dritto.",
+  prompt: `Genera 20 ganci:
+"Nessuno ti prende sul serio se continui a farlo..."
 
-Inputs:
-- Conducta poco profesional.
-- Razón psicológica.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Una condotta poco professionale.
+- Una ragione psicologica.`,
+  thumbnail: ""
+},
 
-  // 78
-  {
-    id: "hooks-ads-078",
-    title:
-      "Hook estilo ‘te voy a decir algo que ojalá alguien me dijera antes’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Story vulnerable + autoridad adquirida.",
-    prompt: `Genera 20 hooks:
-“Ojalá alguien me hubiera dicho esto antes…”
+// 78
+{
+  id: "hooks-ads-078",
+  title:
+  "Stile gancio 'Ti dirò qualcosa che vorrei qualcuno mi ha detto prima '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Vulnerable Story + autorità acquisita.",
+  prompt: `Genera 20 ganci:
+"Vorrei che qualcuno me l'avesse detto prima..."
 
-Inputs:
-- Insight premium.
-- Error cometido por inexperiencia.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Premium Insight.
+- Errore fatto dall'inesperienza.`,
+  thumbnail: ""
+},
 
-  // 79
-  {
-    id: "hooks-ads-079",
-    title: "Hook basado en una predicción micro rápida",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Predicción corta, potente, inevitable.",
-    prompt: `Genera 20 hooks:
-“En menos de [tiempo], esto va a pasar… y casi nadie está listo.”
+// 79
+{
+  id: "hooks-ads-079",
+  title: "Uncino basato su una previsione micro veloce",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Breve, potente, inevitabile previsione.",
+  prompt: `Genera 20 ganci:
+"In meno del tempo, succedera'... e quasi nessuno e' pronto."
 
-Inputs:
-- Cambio inevitable.
-- Efecto directo.`,
-    thumbnail: "",
-  },
+Ingressi:
+- cambiamento inevitabile.
+- Effetti diretti.`,
+  thumbnail: ""
+},
 
-  // 80
-  {
-    id: "hooks-ads-080",
-    title: "Hook estilo ‘si este dato no te preocupa, debería’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Activa alerta inmediata.",
-    prompt: `Genera 20 hooks:
-“Si este dato no te preocupa… debería.”
+// 80
+{
+  id: "hooks-ads-080",
+  title: "Stile gancio 'se questi dati non ti riguardano, dovrebbe '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Avviso immediato attivo.",
+  prompt: `Genera 20 ganci:
+"Se questi dati non ti riguardano... dovrebbe."
 
-Inputs:
-- Estadística preocupante.
-- Consecuencia personal.`,
-    thumbnail: "",
-  },
-  // 81
-  {
-    id: "hooks-ads-081",
-    title:
-      "Hook estilo ‘esto no me lo enseñaron, tuve que aprenderlo a golpes’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Autoridad basada en experiencia real y dura.",
-    prompt: `Genera 20 hooks:
-“Esto no me lo enseñaron, tuve que aprenderlo a golpes…”
+Ingressi:
+- Preoccupati.
+- Conseguenza personale.`,
+  thumbnail: ""
+},
+// 81
+{
+  id: "hooks-ads-081",
+  title:
+  "Stile gancio 'questo non mi ha mostrato, ho dovuto imparare a batterlo'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Autorità basata su esperienza reale e dura.",
+  prompt: `Genera 20 ganci:
+"Questo non mi è stato insegnato, ho dovuto imparare a batterlo..."
 
-Inputs:
-- Error duro.
-- Lección profunda.
-- Cambio que produjo.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Errore difficile.
+- Lettura profonda.
+- Cambialo prodotto.`,
+  thumbnail: ""
+},
 
-  // 82
-  {
-    id: "hooks-ads-082",
-    title:
-      "Hook basado en un micro-trauma profesional (‘ese día casi renuncio…’)",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Conecta emociones profundas con insights prácticos.",
-    prompt: `Genera 20 hooks:
-“El día que casi renuncié a todo… entendí esto.”
+// 82
+{
+  id: "hooks-ads-082",
+  title:
+  "Uncino basato su un micro trauma professionale ('quel giorno ho quasi smesso...')",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Collega emozioni profonde con approfondimenti pratici.",
+  prompt: `Genera 20 ganci:
+"Il giorno in cui ho quasi rinunciato a tutto... Ci penso io."
 
-Inputs:
-- Evento traumático.
-- Insight revelado.
-- Acción posterior.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Evento trauma.
+- Insight rivelato.
+- Azione successiva.`,
+  thumbnail: ""
+},
 
-  // 83
-  {
-    id: "hooks-ads-083",
-    title: "Hook tipo ‘esto funciona aunque no tengas tiempo/dinero/energía’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Reduce fricciones cognitivas desde el inicio.",
-    prompt: `Genera 20 hooks:
-“Esto funciona incluso si no tienes tiempo, dinero o energía.”
+// 83
+{
+  id: "hooks-ads-083",
+  title: "Tipo gancio 'questo funziona anche se non si dispone di tempo / denaro / energia '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Riduce l'attrito cognitivo fin dall'inizio.",
+  prompt: `Genera 20 ganci:
+"Questo funziona anche se non hai tempo, denaro o energia."
 
-Inputs:
-- Método simple.
-- Beneficio claro.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Metodo semplice.
+- Ho un chiaro vantaggio.`,
+  thumbnail: ""
+},
 
-  // 84
-  {
-    id: "hooks-ads-084",
-    title: "Hook basado en un punto ciego extremo del usuario",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Te hace sentir que no puedes ignorarlo.",
-    prompt: `Genera 20 hooks:
-“El punto ciego que te está costando meses de progreso…”
+// 84
+{
+  id: "hooks-ads-084",
+  title: "Uncino basato su un punto cieco estremo dell'utente",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ti fa sentire come se non potessi ignorarlo.",
+  prompt: `Genera 20 ganci:
+"Il punto cieco che vi costerà mesi di progresso..."
 
-Inputs:
-- Punto ciego.
-- Impacto oculto.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Punto cieco.
+- Impatto nascosto.`,
+  thumbnail: ""
+},
 
-  // 85
-  {
-    id: "hooks-ads-085",
-    title: "Hook estilo ‘esta pregunta te va a doler, pero te va a liberar’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Gatillo emocional profundo.",
-    prompt: `Genera 20 hooks:
-“Esta pregunta te va a doler… pero también te va a liberar.”
+// 85
+{
+  id: "hooks-ads-085",
+  title: "Stile gancio 'questa domanda ti farà del male, ma ti libererà '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Profondo gatto emotivo.",
+  prompt: `Genera 20 ganci:
+"Questa domanda ti fara' del male, ma ti liberera' anche".
 
-Inputs:
-- Pregunta profunda.
-- Insight emocional.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Domanda profonda.
+- Intuizione emotiva.`,
+  thumbnail: ""
+},
 
-  // 86
-  {
-    id: "hooks-ads-086",
-    title: "Hook tipo ‘así es como pierdes años sin darte cuenta’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Apunta a hábitos destructivos silenciosos.",
-    prompt: `Genera 20 hooks:
-“Así es como la mayoría pierde años sin darse cuenta…”
+// 86
+{
+  id: "hooks-ads-086",
+  title: "Ragazzo del gancio è così che perdi anni senza preavviso '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Indica abitudini distruttive silenziose.",
+  prompt: `Genera 20 ganci:
+"È così che la maggior parte delle persone perde anni senza rendersi conto..."
 
-Inputs:
-- Comportamiento invisible.
-- Costos ocultos.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Comportamento invisibile.
+- Costi nascosti.`,
+  thumbnail: ""
+},
 
-  // 87
-  {
-    id: "hooks-ads-087",
-    title: "Hook estilo ‘la diferencia entre los que ganan y los que no’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Polariza sin atacar.",
-    prompt: `Genera 20 hooks:
-“La diferencia entre los que avanzan… y los que nunca arrancan, es esta.”
+// 87
+{
+  id: "hooks-ads-087",
+  title: "Stile gancio 'la differenza tra chi vince e chi non fa",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Polarizzare senza attaccare.",
+  prompt: `Genera 20 ganci:
+"La differenza tra chi avanza e chi non inizia mai è questa."
 
-Inputs:
-- Comportamiento ganador.
-- Comportamiento perdedor.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Comportamento vincente.
+- Perdere il comportamento.`,
+  thumbnail: ""
+},
 
-  // 88
-  {
-    id: "hooks-ads-088",
-    title: "Hook basado en un insight que parece mentira",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Despierta incredulidad útil.",
-    prompt: `Genera 20 hooks:
-“Esto suena a mentira… pero es 100% real.”
+// 88
+{
+  id: "hooks-ads-088",
+  title: "Uncino basato su una visione che sembra una bugia",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Svegliati incredulo.",
+  prompt: `Genera 20 ganci:
+"Questo sembra una bugia, ma è reale al 100%."
 
-Inputs:
-- Insight extraño.
-- Explicación lógica.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Strano sguardo.
+- Spiegazione logica.`,
+  thumbnail: ""
+},
 
-  // 89
-  {
-    id: "hooks-ads-089",
-    title: "Hook estilo ‘nadie me creyó hasta que lo probó’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Demuestra validación social implícita.",
-    prompt: `Genera 20 hooks:
-“Nadie me creyó hasta que lo probaron ellos mismos.”
+// 89
+{
+  id: "hooks-ads-089",
+  title: "Stile gancio 'nessuno mi ha creduto fino a quando non hai provato esso'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Essa mostra una validazione sociale implicita.",
+  prompt: `Genera 20 ganci:
+"Nessuno mi ha creduto finché non l'hanno provato su se stesso."
 
-Inputs:
-- Acción simple.
-- Resultado repetible.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Azione semplice.
+- Risultato.`,
+  thumbnail: ""
+},
 
-  // 90
-  {
-    id: "hooks-ads-090",
-    title: "Hook tipo ‘si estás cansado de X, prueba esto’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ultra empático + directo.",
-    prompt: `Genera 20 hooks:
-“Si estás cansado de [problema], prueba esto.”
+// 90
+{
+  id: "hooks-ads-090",
+  title: "Uncino tipo 'se sei stanco di X, prova questo'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ultra empatico + diretto.",
+  prompt: `Genera 20 ganci:
+"Se sei stanco di [problema], prova questo."
 
-Inputs:
-- Problema doloroso.
-- Solución inmediata.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Problemi di dolore.
+- Soluzione immediata.`,
+  thumbnail: ""
+},
 
-  // 91
-  {
-    id: "hooks-ads-091",
-    title: "Hook basado en validación científica o psicológica",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ideal para mentalidad, productividad, aprendizaje.",
-    prompt: `Genera 20 hooks:
-“Según la ciencia, la mayoría de personas hace esto… y por eso no avanza.”
+// 91
+{
+  id: "hooks-ads-091",
+  title: "Uncino basato sulla convalida scientifica o psicologica",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ideale per mentalità, produttività, apprendimento.",
+  prompt: `Genera 20 ganci:
+"Secondo la scienza, la maggior parte delle persone lo fa... ed è per questo che non vanno avanti."
 
-Inputs:
-- Dato científico o psicológico.
-- Insight práctico.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Dati scientifici o psicologici.
+- Intuizione pratica.`,
+  thumbnail: ""
+},
 
-  // 92
-  {
-    id: "hooks-ads-092",
-    title: "Hook estilo ‘esto te va a hacer enojar, pero es la verdad’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Tensión emocional + autoridad.",
-    prompt: `Genera 20 hooks:
-“Esto te va a hacer enojar… pero necesitas escucharlo.”
+// 92
+{
+  id: "hooks-ads-092",
+  title: "Uncino stile 'questo ti farà arrabbiare, ma è la verità '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Tensione emotiva + autorità.",
+  prompt: `Genera 20 ganci:
+"Questo ti farà arrabbiare... ma devi sentirlo."
 
-Inputs:
-- Verdad incómoda.
-- Consecuencia de negarla.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Verità scomoda.
+- La conseguenza di negarlo.`,
+  thumbnail: ""
+},
 
-  // 93
-  {
-    id: "hooks-ads-093",
-    title: "Hook tipo ‘la pregunta que desbloqueó todo para mí’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Desata la curiosidad profunda.",
-    prompt: `Genera 20 hooks:
-“La pregunta que desbloqueó TODO para mí fue esta…”
+// 93
+{
+  id: "hooks-ads-093",
+  title: "Tipo gancio 'la domanda che sblocca tutto per me '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Svuota profonda curiosità.",
+  prompt: `Genera 20 ganci:
+"La domanda che tutti mi hanno sbloccato era questa..."
 
-Inputs:
-- Pregunta clave.
-- Insight que genera.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Domanda chiave.
+- Insight che genera.`,
+  thumbnail: ""
+},
 
-  // 94
-  {
-    id: "hooks-ads-094",
-    title: "Hook basado en la destrucción de una rutina inútil",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Ideal para productividad, negocios, fitness.",
-    prompt: `Genera 20 hooks:
-“Dejé de hacer [hábito inútil]… y mis resultados se dispararon.”
+// 94
+{
+  id: "hooks-ads-094",
+  title: "Uncino basato sulla distruzione di una routine inutile",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Ideale per produttività, business, fitness.",
+  prompt: `Genera 20 ganci:
+"Ho smesso di fare [l'abitudine inutile]... e i miei risultati sono stati colpiti."
 
-Inputs:
-- Hábito ineficiente.
-- Reemplazo correcto.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Un'abitudine inefficiente.
+- Sostituzione giusta.`,
+  thumbnail: ""
+},
 
-  // 95
-  {
-    id: "hooks-ads-095",
-    title: "Hook estilo ‘el consejo que me hubiera ahorrado miles’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Funciona perfecto en anuncios educativos.",
-    prompt: `Genera 20 hooks:
-“Este consejo me habría ahorrado miles…”
+// 95
+{
+  id: "hooks-ads-095",
+  title: "Stile gancio 'il consiglio che mi avrebbe salvato migliaia '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Funziona perfettamente negli annunci educativi.",
+  prompt: `Genera 20 ganci:
+"Questo consiglio mi avrebbe salvato migliaia..."
 
-Inputs:
-- Consejo.
-- Error costoso.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Consiglio.
+- Errore economico.`,
+  thumbnail: ""
+},
 
-  // 96
-  {
-    id: "hooks-ads-096",
-    title: "Hook tipo ‘no vas a querer escuchar esto, pero…’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Provoca resistencia sana.",
-    prompt: `Genera 20 hooks:
-“No vas a querer escuchar esto… pero es exactamente lo que necesitas.”
+// 96
+{
+  id: "hooks-ads-096",
+  title: "Un gancio non vorrai sentirlo, ma... '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Causa una resistenza sana.",
+  prompt: `Genera 20 ganci:
+"Non vorrai sentirlo, ma è esattamente quello che ti serve".
 
-Inputs:
-- Insight duro.
-- Beneficio final.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Intuito difficile.
+- Beneficio finale.`,
+  thumbnail: ""
+},
 
-  // 97
-  {
-    id: "hooks-ads-097",
-    title: "Hook basado en una victoria inesperada",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Logro pequeño pero significativo.",
-    prompt: `Genera 20 hooks:
-“Jamás pensé que esto funcionaría… hasta que pasó.”
+// 97
+{
+  id: "hooks-ads-097",
+  title: "Uncino basato su una vittoria inaspettata",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Piccolo ma significativo successo.",
+  prompt: `Genera 20 ganci:
+"Non ho mai pensato che questo avrebbe funzionato... fino a quando non è successo."
 
-Inputs:
-- Acción pequeña.
-- Resultado inesperado.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Piccola azione.
+- Un risultato inaspettato.`,
+  thumbnail: ""
+},
 
-  // 98
-  {
-    id: "hooks-ads-098",
-    title: "Hook estilo ‘el consejo más honesto que puedo darte’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Autoridad emocional honesta.",
-    prompt: `Genera 20 hooks:
-“El consejo más honesto que puedo darte es este…”
+// 98
+{
+  id: "hooks-ads-098",
+  title: "Stile gancio 'il consiglio più onesto che posso darti'",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Onesta autorità emotiva.",
+  prompt: `Genera 20 ganci:
+"Il consiglio più onesto che posso darti è questo..."
 
-Inputs:
-- Insight honesto.
-- Resultado aplicado.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Onesta intuizione.
+- Risultato applicato.`,
+  thumbnail: ""
+},
 
-  // 99
-  {
-    id: "hooks-ads-099",
-    title: "Hook tipo ‘esto no es motivación, es matemática’",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Desactiva percepciones cliché.",
-    prompt: `Genera 20 hooks:
-“Esto no es motivación… es matemática simple.”
+// 99
+{
+  id: "hooks-ads-099",
+  title: "Tipo gancio 'questo non è motivazione, è matematica '",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Disattivare le percezioni cliché.",
+  prompt: `Genera 20 ganci:
+"Questa non è motivazione... è semplice matematica."
 
-Inputs:
-- Explicación lógica.
-- Resultado inevitable.`,
-    thumbnail: "",
-  },
+Ingressi:
+- Spiegazione logica.
+- Inevitabilmente.`,
+  thumbnail: ""
+},
 
-  // 100
-  {
-    id: "hooks-ads-100",
-    title: "Hook basado en visión extrema de futuro",
-    area: "Marketing & ventas",
-    category: "Hooks para anuncios",
-    summary: "Proyecta al usuario hacia un futuro inevitable.",
-    prompt: `Genera 20 hooks:
-“Dentro de 5 años, vas a desear haber empezado hoy.”
+// 100
+{
+  id: "hooks-ads-100",
+  title: "Uncino basato sulla visione estrema del futuro",
+  area: "Marketing e vendita",
+  category: "Ganci per annunci",
+  summary: "Progetta l'utente verso un futuro inevitabile.",
+  prompt: `Genera 20 ganci:
+"In cinque anni, vorrai iniziare oggi."
 
-Inputs:
-- Acción correcta.
-- Beneficio acumulado.`,
-    thumbnail: "",
-  },
-];
+Ingressi:
+- Azione giusta.
+- Risultato.`,
+  thumbnail: ""
+}];

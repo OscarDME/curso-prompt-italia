@@ -1,1977 +1,1976 @@
 export const textPromptsProductividadOrganizacionPersonal = [
-  {
-    id: "prod-001",
-    title: "Diagnóstico profundo de productividad en 360°",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Un diagnóstico completo para revelar bloqueos ocultos, hábitos improductivos y cuellos de botella.",
-    prompt: `Actúa como un consultor senior en productividad y optimización personal.
+{
+  id: "prod-001",
+  title: "360 ° diagnosi di produttività profonda",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Una diagnosi completa per rivelare blocchi nascosti, abitudini improduttive e colli di bottiglia.",
+  prompt: `Agisce come consulente senior in produttività e ottimizzazione personale.
 
-Voy a darte:
-- Mi rutina diaria: [descríbela].
-- Mis responsabilidades principales: [lista].
-- Mis horarios actuales: [explica].
-- Mi mayor frustración productiva: [describe].
+Ti daro':
+- No. La mia routine quotidiana: [Descrivilo].
+- No. Le mie principali responsabilità: [list].
+- No. Il mio programma attuale: [spiega].
+- No. La mia più grande frustrazione produttiva: [descrive].
 
-Tu tcategory:
-1) Realiza un diagnóstico en 360°:
-   - Hábitos que restan.
-   - Tiempos muertos.
-   - Cuellos de botella.
-   - Distracciones no obvias.
-2) Detecta patrones improductivos basados en mis respuestas.
-3) Identifica mis 5 fugas de energía más grandes.
-4) Diseña un plan de optimización en 3 fases:
-   - Fase 1: ajustes inmediatos de bajo esfuerzo.
-   - Fase 2: cambios de sistema.
-   - Fase 3: hábitos avanzados.
-5) Cierra con un plan semanal listo para copiar y usar.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-002",
-    title: "Sistema semanal de enfoque total (Full Focus Framework)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crea un sistema de enfoque semanal usando objetivos, bloques y prioridades inteligentes.",
-    prompt: `Actúa como experto en sistemas de productividad.
+La vostra categoria:
+1) Fare una diagnosi a 360 °:
+- Le abitudini di sussistenza.
+- Tempi morti.
+- Collo di bottiglia.
+- Le distrazioni non sono evidenti.
+2) Rileva modelli improduttivi basati sulle mie risposte.
+3) Identificare le mie cinque maggiori perdite di energia.
+4) Progetta un piano di ottimizzazione trifase:
+- Fase 1: regolazioni immediate a basso sforzo.
+- No. Fase 2: modifiche del sistema.
+- Fase 3: abitudini avanzate.
+5) Chiudere con un piano settimanale pronto a copiare e utilizzare.`,
+  thumbnail: ""
+},
+{
+  id: "prod-002",
+  title: "Quadro di messa a fuoco completo",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Crea un sistema di approccio settimanale con obiettivi, blocchi e priorità intelligenti.",
+  prompt: `Agisce come esperto di sistemi di produttività.
 
-Dame:
-- Mi objetivo principal de la semana: [describe].
-- Tareas imprescindibles: [lista].
-- Tiempo disponible: [explica].
+Dammi...
+- No. Il mio obiettivo principale della settimana: [descrive].
+- Compiti essenziali: [list].
+- Tempo disponibile: [spiega].
 
-Haz:
-1) Crea un sistema semanal usando 4 pilares:
-   - Prioridades.
-   - Bloques.
-   - No-negociables.
-   - Zonas de descanso.
-2) Diseña un calendario en bloques.
-3) Optimiza mi carga según fatiga y ritmo personal.
-4) Dame un checklist semanal simple y uno avanzado.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-003",
-    title: "Reestructuración completa de agenda diaria",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Rediseña tu agenda diaria basado en rendimiento cognitivo y niveles de energía.",
-    prompt: `Te doy:
-- A qué hora despierto.
-- Mis picos de energía (si los conozco).
-- Mi tipo de trabajo.
-- Mis metas actuales.
+Do:
+1) Creare un sistema settimanale con 4 pilastri:
+- Priorità.
+- Blocchi.
+- Non è commercializzabile.
+- Zone di riposo.
+2) Progetta un calendario in blocchi.
+3) Ottimizzare il mio carico in base alla fatica e al ritmo personale.
+4) Dammi un semplice controllo settimanale e uno avanzato.`,
+  thumbnail: ""
+},
+{
+  id: "prod-003",
+  title: "Ristrutturazione completa dell'ordine del giorno",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Ridisegna il tuo programma giornaliero basato sulle prestazioni cognitive e sui livelli di energia.",
+  prompt: `Ti do:
+- No. A che ora mi sveglio.
+- No. I miei picchi energetici (se li conosco).
+- Il mio lavoro.
+- No. I miei obiettivi attuali.
 
-Haz:
-1) Descubre mis picos cognitivos.
-2) Reestructura mi agenda completa.
-3) Divide mis días en 5 zonas:
-   - Arranque.
-   - Profundidad.
-   - Gestión.
-   - Recuperación.
-   - Cierre.
-4) Crea una versión rígida y una flexible.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-004",
-    title: "Sistema antiestrés para días saturados",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Un protocolo para recuperar calma, foco y control cuando todo se acumula.",
-    prompt: `Te doy:
-- Tipo de estrés que tengo.
-- Qué detonó el día saturado.
-- Mi carga actual.
+Do:
+1) Scopri i miei picchi cognitivi.
+2) Ristrutturare il mio programma completo.
+3) Dividere i miei giorni in 5 aree:
+- Inizia.
+- Profondità.
+- Gestione.
+- Recupero.
+- Vicino.
+4) Creare una versione rigida e flessibile.`,
+  thumbnail: ""
+},
+{
+  id: "prod-004",
+  title: "Sistema antistress per giorni saturi",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Un protocollo per recuperare calma, concentrazione e controllo quando tutto si accumula.",
+  prompt: `Ti do:
+- Ho un po' di stress.
+- No. Che ha detonato il giorno saturo.
+- No. Il mio peso attuale.
 
-Haz:
-1) Identifica el origen real del estrés (no el aparente).
-2) Clasifica mi saturación en 3 niveles.
-3) Crea un protocolo de emergencia en 5 pasos.
-4) Crea un protocolo de prevención semanal.
-5) Sugiere 3 mini rituales de regulación emocional.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-005",
-    title: "Análisis profundo de hábitos de alto rendimiento",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Evalúa hábitos, elimina los inútiles y crea una arquitectura de hábitos inteligente.",
-    prompt: `Dame:
-- Mis hábitos actuales.
-- Mis metas principales.
-- Mi estilo de vida.
+Do:
+1) Identifica l'origine reale dello stress (non quella apparente).
+2) Classifica la mia saturazione in 3 livelli.
+3) Crea un protocollo di emergenza in cinque passaggi.
+4) Crea un protocollo di prevenzione settimanale.
+5) Suggerisci 3 mini rituali di regolazione emotiva.`,
+  thumbnail: ""
+},
+{
+  id: "prod-005",
+  title: "Analisi approfondita delle abitudini ad alte prestazioni",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Valuta le abitudini, elimina quelle inutili e crea un'architettura intelligente delle abitudini.",
+  prompt: `Dammi...
+- No. Le mie abitudini attuali.
+- No. I miei obiettivi principali.
+- Il mio stile di vita.
 
-Haz:
-1) Clasifica mis hábitos en:
-   - útiles
-   - neutrales
-   - dañinos
-2) Identifica hábitos escondidos.
-3) Diseña una arquitectura de hábitos para 90 días.
-4) Crea disparadores, recompensas y rutinas nuevas.
-5) Decora con una versión PRO para alto rendimiento.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-006",
-    title: "Sistema de gestión de tareas priorizadas (Impact Matrix PRO)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Ordena todo tu caos de tareas en matrices avanzadas para decisiones rápidas.",
-    prompt: `Dame:
-- Lista completa de tareas actuales.
+Do:
+1) Classifica le mie abitudini in:
+- utile
+- neutro
+- dannoso
+2) Identifica le abitudini nascoste.
+3) Progetta un'architettura di abitudini di 90 giorni.
+4) crea nuovi trigger, ricompense e routine.
+5) Decorare con una versione PRO per alte prestazioni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-006",
+  title: "Priority Task Management System (Impact Matrix PRO)",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Ordina tutto il tuo caos di lavoro in matrici avanzate per decisioni rapide.",
+  prompt: `Dammi...
+- Elenco completo delle attività correnti.
 
-Haz:
-1) Clasifícalas en 4 matrices:
-   - Impacto x esfuerzo.
-   - Urgencia x importancia.
-   - Energía x complejidad.
-   - Largo plazo x beneficio inmediato.
-2) Elige mis 10 tareas de mayor retorno.
-3) Diseña cómo priorizarlas.
-4) Crea un plan de acción de 7 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-007",
-    title: "Revisión mensual de productividad tipo CEO personal",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Evaluación mensual en estilo ejecutivo para medir progreso real.",
-    prompt: `Dame:
-- Logros del mes.
-- Tareas incompletas.
-- Metas principales.
+Do:
+1) Clasify in 4 matrici:
+- Impatto x sforzo.
+- Emergenza x importanza.
+- Energia x complessità.
+- A lungo termine x beneficio immediato.
+2) Scegli i miei 10 compiti di maggior ritorno.
+3) Progetta come priorità.
+4) Creare un piano di azione di 7 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-007",
+  title: "Rassegna mensile della produttività personale del CEO",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Valutazione mensile in stile esecutivo per misurare i progressi reali.",
+  prompt: `Dammi...
+- Risultati del mese.
+- Completi compiti.
+- Obiettivi principali.
 
-Haz:
-1) Evalúa el mes como si fueras mi CEO personal.
-2) Detecta errores graves.
-3) Identifica lo que funcionó.
-4) Crea un informe ejecutivo.
-5) Crea un plan de 30 días con KPIs y microhábitos.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-008",
-    title: "Sistema de enfoque profundo sin distracciones (Deep Work Reloaded)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Protocolo completo para entrar en modo hiperproductivo cuando lo necesites.",
-    prompt: `Dame:
-- Tipo de tarea profunda que debo hacer.
-- Mi nivel actual de distracción.
+Do:
+1) Valutare il mese come se fossi il mio CEO personale.
+2) Rileva gravi errori.
+3) Identificare ciò che ha funzionato.
+(4) Creare un rapporto esecutivo.
+5) Creare un piano di 30 giorni con KPis e microhabits.`,
+  thumbnail: ""
+},
+{
+  id: "prod-008",
+  title: "Ricaricato del lavoro profondo",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Protocollo completo per entrare in modalità iperproduttiva quando ne hai bisogno.",
+  prompt: `Dammi...
+- Devo fare un bel lavoro.
+- No. Il mio livello attuale di distrazione.
 
-Haz:
-1) Prepara el entorno.
-2) Crea ritual de inicio.
-3) Define bloques de concentración.
-4) Elimina distractores ocultos.
-5) Diseña un cierre que deje momentum.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-009",
-    title: "Plan de eficiencia para mentes dispersas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Un sistema diseñado para personas que saltan entre ideas y tareas constantemente.",
-    prompt: `Dame:
-- Mi nivel de dispersión.
-- Cómo describo mi mente.
-- Qué tipo de tareas pierdo.
+Do:
+1) Preparare l'ambiente.
+2) Crea rituale di inizio.
+3) Definire i blocchi di concentrazione.
+4) Elimina i distrattori nascosti.
+5) Progetta una chiusura che lascia slancio.`,
+  thumbnail: ""
+},
+{
+  id: "prod-009",
+  title: "Piano di efficienza per menti disperse",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Un sistema progettato per le persone che saltano tra idee e compiti costantemente.",
+  prompt: `Dammi...
+- No. Il mio livello di dispersione.
+- Come descrivo la mia mente.
+- No. Che tipo di compiti perdo.
 
-Haz:
-1) Identifica mi patrón de dispersión.
-2) Crea un sistema de contención mental.
-3) Define un método para capturar ideas sin perder flujo.
-4) Diseña reglas de comportamiento.
-5) Crea una versión especial para días 'hiper dispersos'.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-010",
-    title: "Optimización profunda del sueño para productividad",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Analiza hábitos actuales y crea un plan de sueño personalizado.",
-    prompt: `Dame:
-- Mis horarios de sueño.
-- Mi rutina previa.
-- Problemas actuales.
+Do:
+1) Identificare il mio schema di dispersione.
+2) Crea un sistema di contenimento mentale.
+3) Definire un metodo per catturare idee senza perdere flusso.
+4) Disegni regole di comportamento.
+5) Creare una versione speciale per i giorni di iper-dispersione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-010",
+  title: "Ottimizzazione del sonno profondo per la produttività",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Analizza le abitudini attuali e crea un piano di sonno personalizzato.",
+  prompt: `Dammi...
+- No. Le mie ore di sonno.
+- No. La mia routine precedente.
+- Problemi attuali.
 
-Haz:
-1) Diagnóstico de higiene del sueño.
-2) Ajustes de ritmo circadiano.
-3) Ritual nocturno personalizado.
-4) Técnica para despertar con energía.
-5) Claves para mantener consistencia.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-011",
-    title: "Sistema para evitar la procrastinación crónica",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Identifica causas profundas y crea un método para eliminarlas.",
-    prompt: `Dame:
-- Qué procrastino.
-- Por qué creo que lo hago.
-- Mi sensación al posponer.
+Do:
+1) Diagnosi dell'igiene del sonno.
+2) Regolazioni del ritmo circadiane.
+3) rituale notturno personalizzato.
+4) Tecnica per il risveglio con energia.
+5) Le chiavi per mantenere la consistenza.`,
+  thumbnail: ""
+},
+{
+  id: "prod-011",
+  title: "Sistema per prevenire la procrastinazione cronica",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Identifica le cause della radice e crea un metodo per eliminarle.",
+  prompt: `Dammi...
+- No. Che procrastina.
+- Perché penso di sì.
+- No. Mi sento quando faccio rinvio.
 
-Haz:
-1) Diagnóstico emocional.
-2) Tipo de procrastinación.
-3) Crea un sistema anti-procrastinación.
-4) Ritual de arranque en 2 minutos.
-5) Cómo sostenerlo 30 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-012",
-    title: "Optimización de vida minimalista para enfoque maximalista",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Elimina ruido físico, digital y mental para potenciar tu enfoque.",
-    prompt: `Dame:
-- Mis espacios actuales.
-- Mi estado digital.
-- Qué siento al ver mi entorno.
+Do:
+1) Diagnosi emotiva.
+2) Tipo di procrastinazione.
+3) crea un sistema anti-procrastinazione.
+4) Rituale inizio in 2 minuti.
+5) Come tenerlo per 30 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-012",
+  title: "Ottimizzazione della vita minimalista per approccio maximalist",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Eliminare il rumore fisico, digitale e mentale per migliorare la vostra attenzione.",
+  prompt: `Dammi...
+- No. I miei spazi attuali.
+- No. Il mio stato digitale.
+- Come mi sento a vedere il mio ambiente.
 
-Haz:
-1) Diagnóstico de ruido.
-2) Purga de objetos y archivos.
-3) Rediseño del entorno.
-4) Ritual semanal de orden.
-5) Versión PRO minimalista.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-013",
-    title: "Sistema de hábitos atómicos personalizados",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crea microhábitos altamente personalizados con triggers, loops y recompensas.",
-    prompt: `Dame:
-- El hábito que quiero construir.
-- Mi motivación.
-- Mis horarios.
+Do:
+1) La diagnosi del rumore.
+2) Purge di oggetti e file.
+3) Riscattare l'ambiente.
+4) rituale di ordine settimanale.
+5) Versione minima PRO.`,
+  thumbnail: ""
+},
+{
+  id: "prod-013",
+  title: "Sistema di abitudini atomiche personalizzate",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Crea microhabits altamente personalizzati con trigger, loop e ricompense.",
+  prompt: `Dammi...
+- L'abitudine che voglio costruire.
+- La mia motivazione.
+- No. Il mio programma.
 
-Haz:
-1) Crea microhábitos basados en ciencia.
-2) Define disparadores.
-3) Añade recompensas intrínsecas.
-4) Plan de crecimiento 30-60-90.
-5) Errores que debo evitar.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-014",
-    title: "Sistema anual de metas con método backcasting",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Establece metas de largo plazo usando el enfoque inverso.",
-    prompt: `Dame:
-- Mi meta anual.
-- Mi situación actual.
+Do:
+1) Crea microhabits basati sulla scienza.
+2) Definire i trigger.
+3) Aggiungere ricompense intrinseche.
+4) Piano di crescita 30-60-90.
+5) Errori che devo evitare.`,
+  thumbnail: ""
+},
+{
+  id: "prod-014",
+  title: "Sistema annuale di obiettivi con metodo backcasting",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Imposta obiettivi a lungo termine utilizzando l'approccio inverso.",
+  prompt: `Dammi...
+- No. Il mio obiettivo annuale.
+- No. La mia situazione attuale.
 
-Haz:
-1) Diseña el camino inverso (backcasting).
-2) Divide en hitos trimestrales.
-3) Divide en microobjetivos semanales.
-4) Crea un plan visual.
-5) Añade indicadores clave.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-015",
-    title: "Plan para recuperar el control tras semanas improductivas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Te ayuda a levantarte tras días o semanas donde perdiste el ritmo por completo.",
-    prompt: `Dame:
-- Qué pasó estas semanas.
-- Qué dejé pendiente.
-- Cómo me siento.
+Do:
+1) Progetta il percorso inverso (backcasting).
+2) Dividere in pietre miliari trimestrali.
+3) Dividere in microtarget settimanali.
+4) Creare un piano visivo.
+5) Aggiunge indicatori chiave.`,
+  thumbnail: ""
+},
+{
+  id: "prod-015",
+  title: "Piano per riprendere il controllo dopo settimane improduttive",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Ti aiuta ad alzarti dopo giorni o settimane in cui hai completamente perso il battito.",
+  prompt: `Dammi...
+- No. Che e' successo in queste settimane.
+- Quello che ho lasciato in attesa.
+- Come mi sento.
 
-Haz:
-1) Diagnóstico de causa raíz.
-2) Purga de pendientes.
-3) Mini plan de arranque de 48h.
-4) Plan de recuperación de 7 días.
-5) Cómo proteger momentum.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-016",
-    title: "Sistema de organización digital completo (Inbox Zero PRO)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Organiza correo, archivos, apps y tareas digitales.",
-    prompt: `Dame:
-- Mis plataformas digitales.
-- Mi desorden actual.
-- Mi flujo típico.
+Do:
+1) Diagnosi della causa principale.
+2) Purge di orecchini.
+3) piano di avvio mini 48h.
+4) Piano di recupero di 7 giorni.
+5) Come proteggere lo slancio.`,
+  thumbnail: ""
+},
+{
+  id: "prod-016",
+  title: "Sistema di organizzazione digitale completo (Inbox Zero PRO)",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Organizza mail, file, app e attività digitali.",
+  prompt: `Dammi...
+- No. Le mie piattaforme digitali.
+- No. Il mio attuale casino.
+- No. Il mio tipico flusso.
 
-Haz:
-1) Diagnóstico digital.
+Do:
+1) Diagnosi digitale.
 2) Sistema Inbox Zero.
-3) Organización de archivos.
-4) Normas digitales.
-5) Rutina de mantenimiento.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-017",
-    title: "Plan maestro de disciplina sostenida (Discipline Engine)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Construye disciplina sin depender de motivación.",
-    prompt: `Dame:
-- Qué quiero disciplinar.
-- Por qué fracaso.
-- Mi estilo personal.
+3) Organizzazione di archivi.
+4) Standard digitali.
+(5) routine di manutenzione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-017",
+  title: "Piano di Master Sostenibile per Motore Disciplina",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Costruisce la disciplina senza contare sulla motivazione.",
+  prompt: `Dammi...
+- Voglio disciplinare.
+- Perché fallisco.
+- No. Il mio stile personale.
 
-Haz:
-1) Reescribe mis reglas de disciplina.
-2) Diseña un sistema de autocontrol.
-3) Define penalizaciones.
-4) Establece recompensas inteligentes.
-5) Crea un sistema que sostenga disciplina incluso en días malos.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-018",
-    title: "Plan de energía diaria (Energy Budget System)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Gestiona tu energía diaria como si fuera un presupuesto limitado.",
-    prompt: `Dame:
-- Cuándo me siento cansado.
-- Actividades que agotan.
-- Actividades que recargan.
+Do:
+1) Riscrivere le mie regole di disciplina.
+2) Progetta un sistema di autocontrollo.
+(3) Definire sanzioni.
+4) Stabilisce ricompense intelligenti.
+5) Crea un sistema che supporta la disciplina anche nei giorni cattivi.`,
+  thumbnail: ""
+},
+{
+  id: "prod-018",
+  title: "Sistema di bilancio energetico",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Gestisci la tua energia quotidiana come budget limitato.",
+  prompt: `Dammi...
+- Quando mi sento stanca.
+- Attività che si esauriscono.
+- Attività che ricaricano.
 
-Haz:
-1) Crea mi mapa de energía.
-2) Diseña un presupuesto diario.
-3) Identifica fugas.
-4) Plan para recuperar energía.
-5) Ritual de cierre energético.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-019",
-    title: "Sistema de decisiones rápidas para mentes indecisas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Framework para tomar decisiones en minutos, no horas.",
-    prompt: `Dame:
-- La decisión a tomar.
-- Qué me frena.
-- Qué miedo tengo.
+Do:
+1) Creare la mia mappa energetica.
+2) Progetta un budget giornaliero.
+3) Identificare perdite.
+4) Piano per recuperare energia.
+5) Rituale chiusura dell'energia.`,
+  thumbnail: ""
+},
+{
+  id: "prod-019",
+  title: "Sistema decisionale rapido per menti indecise",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Quadro per prendere decisioni in minuti, non ore.",
+  prompt: `Dammi...
+- La decisione di prendere.
+- No. Mi sta trattenendo.
+- Ho tanta paura.
 
-Haz:
-1) Identifica el tipo de decisión.
-2) Aplica el marco DECIDE PRO.
-3) Crea criterios.
-4) Evalúa opciones.
-5) Decide por mí con justificación.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-020",
-    title: "Optimización de estilo de vida para máxima claridad mental",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Diseña un plan de estilo de vida que maximice claridad mental y reduce ruido interno.",
-    prompt: `Dame:
-- Mi entorno.
-- Mi estilo actual.
-- Mi carga mental.
+Do:
+1) Identificare il tipo di decisione.
+2) Applicare il quadro DECIDE PRO.
+3) Crea criteri.
+4) Valuta le opzioni.
+(5) Decide per me con giustificazione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-020",
+  title: "Ottimizzazione dello stile di vita per la massima chiarezza mentale",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Progetta un piano di vita che massimizza la chiarezza mentale e riduce il rumore interno.",
+  prompt: `Dammi...
+- Il mio ambiente.
+- No. Il mio stile attuale.
+- No. Il mio peso mentale.
 
-Haz:
-1) Mapear fuentes de ruido.
-2) Crear plan de claridad.
-3) Ajustes en hábito, entorno y agenda.
-4) Microhábitos diarios.
-5) Rutina semanal de claridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-021",
-    title: "Sistema de planificación mensual tipo ‘arquitecto de vida’",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crea un sistema de planificación mensual basado en diseño de vida, no solo tareas.",
-    prompt: `Actúa como un arquitecto de vida y productividad.
+Do:
+1) Mapping fonti di rumore.
+2) Creare un piano di chiarezza.
+3) Adeguamenti all'abitudine, all'ambiente e all'ordine del giorno.
+4) Microabitati giornalieri.
+5) Giro settimanale di chiarezza.`,
+  thumbnail: ""
+},
+{
+  id: "prod-021",
+  title: "Sistema di pianificazione mensile tipo 'architetto della vita '",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Crea un sistema di pianificazione mensile basato sulla progettazione della vita, non solo compiti.",
+  prompt: `Agisce come architetto di vita e produttività.
 
-Dame:
-- Mis metas del mes.
-- Mis limitaciones actuales.
-- Qué quiero mejorar.
+Dammi...
+- No. I miei obiettivi del mese.
+- No. Le mie attuali limitazioni.
+- Voglio stare meglio.
 
-Haz:
-1) Rediseña mi mes como si fuera un proyecto arquitectónico.
-2) Divide en 4 áreas:
-   - Avance.
-   - Mantenimiento.
-   - Crecimiento.
-   - Recuperación.
-3) Crea un blueprint mensual visual.
-4) Diseña un ritual de revisión semanal.
-5) Añade una versión PRO con ajustes avanzados.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-022",
-    title: "Plan de acción para romper ciclos de saturación",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Actúa cuando tu mente entra en modo saturado y pierdes claridad.",
-    prompt: `Dame:
-- Qué me satura.
-- Cómo reacciono.
-- Qué impacto tiene.
+Do:
+1) Inverte il mio mese come progetto architettonico.
+2) Dividere in 4 aree:
+- Progresso.
+- Manutenzione.
+- Crescita.
+- Recupero.
+3) crea un'impronta visiva mensile.
+4) Progetta un rituale di revisione settimanale.
+5) Aggiungi una versione PRO con impostazioni avanzate.`,
+  thumbnail: ""
+},
+{
+  id: "prod-022",
+  title: "Piano d'azione per rompere i cicli di saturazione",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Funziona quando la mente va in modalità saturata e si perde chiarezza.",
+  prompt: `Dammi...
+- No. Che saggio.
+- Come reagisco.
+- No. Che impatto ha.
 
-Haz:
-1) Identifica el origen real del ciclo.
-2) Señala los detonantes.
-3) Crea un protocolo de 10 minutos para recuperar control.
-4) Diseña un método semanal para evitar saturación.
-5) Crea un mapa de señales tempranas.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-023",
-    title: "Sistema de orden mental tipo 'vaciar cerebro'",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Elimina ruido mental acumulado y convierte caos interno en claridad accionable.",
-    prompt: `Dame:
-- Qué ideas tengo dando vueltas.
-- Qué pendientes olvidé.
-- Qué me preocupa.
+Do:
+1) identifica l'origine reale del ciclo.
+2) Osserva i detonanti.
+3) Crea un protocollo di 10 minuti per riprendere il controllo.
+4) Progetta un metodo settimanale per evitare la saturazione.
+5) Creare una mappa del segnale precoce.`,
+  thumbnail: ""
+},
+{
+  id: "prod-023",
+  title: "Sistema di ordine mentale \"cervello vuoto\"",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Elimina il rumore mentale accumulato e converte il caos interno in chiarezza attuabile.",
+  prompt: `Dammi...
+- No. Che idee ho in giro.
+- No. Che orecchini ho dimenticato.
+- Sono preoccupata.
 
-Haz:
-1) Haz un dumping mental profundo.
-2) Clasifica el caos por categorías.
-3) Transfórmalo en tareas y decisiones.
-4) Genera claridad inmediata.
-5) Diseña una rutina diaria de vaciado mental.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-024",
-    title: "Sistema rápido para recuperar el enfoque en 3 minutos",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea un microprotocolo para volver al enfoque cuando te pierdes.",
-    prompt: `Dame:
-- En qué me distraigo.
-- Qué tarea debo hacer.
-- Cómo me siento.
+Do:
+1) Fare un profondo dumping mentale.
+2) Classifica il caos per categoria.
+3) Trasformarlo in compiti e decisioni.
+4) genera chiarezza immediata.
+5) Progetta una routine quotidiana di svuotamento mentale.`,
+  thumbnail: ""
+},
+{
+  id: "prod-024",
+  title: "Sistema rapido per recuperare la messa a fuoco in 3 minuti",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Creare un microprotocollo per tornare a fuoco quando si perde.",
+  prompt: `Dammi...
+- Come mi distraggo.
+- No. Che compito da fare.
+- Come mi sento.
 
-Haz:
-1) Diagnóstico en 20 segundos.
-2) Micro-reset mental.
-3) Ajuste del entorno.
-4) Acción mínima.
-5) Mantener el enfoque 5–15 minutos.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-025",
-    title: "Sistema para manejar muchos proyectos sin quemarte",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Evita burnout mientras manejas múltiples proyectos simultáneamente.",
-    prompt: `Dame:
-- Mis proyectos actuales.
-- Mis plazos.
-- Mi energía disponible.
+Do:
+1) Diagnosi in 20 secondi.
+2) Micro- reset mentale.
+3) regolazione dell'ambiente.
+(4) Azione minima.
+5) Tenere l'approccio 5-15 minuti.`,
+  thumbnail: ""
+},
+{
+  id: "prod-025",
+  title: "Sistema per gestire molti progetti non bruciati",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Evitare il burnout durante la gestione di più progetti contemporaneamente.",
+  prompt: `Dammi...
+- No. I miei progetti attuali.
+- No. Le mie scadenze.
+- No. La mia energia disponibile.
 
-Haz:
-1) Evalúa carga real.
-2) Agrupa proyectos inteligentemente.
-3) Crea un sistema de prioridad multinivel.
-4) Diseña un tablero de control.
-5) Plan de protección contra burnout.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-026",
-    title: "Sistema 'Start Today' para dejar de posponer sueños grandes",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Convierte metas grandes en un proceso iniciable hoy mismo.",
-    prompt: `Dame:
-- Mi meta gigante.
-- Qué me detiene.
-- Qué intento hacer.
+Do:
+(1) Valuta il carico effettivo.
+2) Progetti di gruppo in modo intelligente.
+3) Crea un sistema prioritario multilivello.
+4) Progetta una scheda di controllo.
+5) Piano di protezione antincendio.`,
+  thumbnail: ""
+},
+{
+  id: "prod-026",
+  title: "\"Start Today\" sistema per smettere di pubblicare grandi sogni",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Si trasforma grandi obiettivi in un processo iniziabile oggi.",
+  prompt: `Dammi...
+- No. Il mio obiettivo gigante.
+- No. Questo mi ferma.
+- No. Che tentativo.
 
-Haz:
-1) Divide la meta en 4 capas.
-2) Encuentra el punto mínimo de inicio.
-3) Elimina obstáculos.
-4) Crea plan de 7 días.
-5) Cómo sostenerlo 90 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-027",
-    title: "Optimización del estilo de trabajo según cronotipo",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Personaliza tu productividad según tu cronotipo: león, lobo, oso o delfín.",
-    prompt: `Dame:
-- Mi rutina.
-- Mis horarios naturales.
-- Cómo rindo mejor.
+Do:
+1) Dividere l'obiettivo in 4 strati.
+2) Trova il punto di partenza minimo.
+(3) Elimina gli ostacoli.
+4) Creare un piano di 7 giorni.
+5) Come tenerlo 90 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-027",
+  title: "Ottimizzazione dello stile di lavoro secondo il cronotipo",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Personalizza la tua produttività secondo il tuo cronotipo: leone, lupo, orso o delfino.",
+  prompt: `Dammi...
+- La mia routine.
+- No. I miei tempi naturali.
+- Mi arrendo meglio.
 
-Haz:
-1) Identifica mi cronotipo.
-2) Ajusta horarios ideales.
-3) Optimiza trabajo profundo.
-4) Ajusta descanso y picos.
-5) Rutina diaria recomendada.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-028",
-    title: "Sistema 'anti multitarea' para mentes hiperactivas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Desactiva la necesidad compulsiva de hacer 10 cosas a la vez.",
-    prompt: `Dame:
-- Qué multitareas hago.
-- Qué me distrae.
-- Qué pierdo por hacerlo.
+Do:
+1) Identificare il mio cronotipo.
+2) Impostare i tempi ideali.
+3) Ottimizzare il lavoro profondo.
+4) riposo e picchi giusti.
+5) Raccomandato ogni giorno.`,
+  thumbnail: ""
+},
+{
+  id: "prod-028",
+  title: "Sistema \"Multi-task\" per menti iperattive",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Disattivare il bisogno compulsivo di fare 10 cose contemporaneamente.",
+  prompt: `Dammi...
+- No. Che compiti multipli faccio.
+- No. Questo mi distrae.
+- No. Quello che perdo.
 
-Haz:
-1) Diagnóstico de hiperactividad cognitiva.
-2) Sistema de bloques simples.
-3) Diseño de tareas únicas.
-4) Método de contención mental.
-5) Reglas para no volver a multitarea.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-029",
-    title: "Sistema de revisión semanal completo (Weekly Reset Mastery)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "El mejor sistema para reiniciar tu semana con claridad total.",
-    prompt: `Dame:
-- Cómo fue mi semana.
-- Qué logré.
-- Qué falló.
+Do:
+1) Diagnosi di iperattività cognitiva.
+2) Semplice sistema di blocco.
+3) Progettazione di compiti unici.
+4) Metodo di contenimento mentale.
+5) Regole per non tornare a multitasking.`,
+  thumbnail: ""
+},
+{
+  id: "prod-029",
+  title: "Sistema di revisione settimanale completo (Weekly Reset Masterery)",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Il miglior sistema per riavviare la settimana con totale chiarezza.",
+  prompt: `Dammi...
+- Com'era la mia settimana.
+- No. Cosa ho fatto?
+- No. Che fallimento.
 
-Haz:
-1) Revisión emocional.
-2) Revisión de resultados.
-3) Revisión de hábitos.
-4) Planificación de la semana.
-5) Mini plan de acción de 48h.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-030",
-    title: "Sistema para trabajar con energía cuando duermes poco",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Optimiza tus días cuando no dormiste bien.",
-    prompt: `Dame:
-- Cuánto dormí.
-- Qué debo hacer hoy.
-- Cómo me siento.
+Do:
+1) recensione emotiva.
+2) Recensione dei risultati.
+3) Rassegna delle abitudini.
+4) Pianificazione della settimana.
+5) 48h Piano d'azione Mini.`,
+  thumbnail: ""
+},
+{
+  id: "prod-030",
+  title: "Sistema per lavorare con energia quando si dorme poco",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Ottimizza i tuoi giorni quando non dormivi bene.",
+  prompt: `Dammi...
+- Ho dormito così tanto.
+- No. Cosa devo fare oggi?
+- Come mi sento.
 
-Haz:
-1) Ajustes cognitivos.
-2) Plan de enfoque limitado.
-3) Estrategias para mantener energía.
-4) Qué no hacer cuando dormiste mal.
-5) Plan de recuperación nocturna.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-031",
-    title: "Sistema para eliminar acumulación de microtareas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Limpia tareas pequeñas que se acumulan y te drenan.",
-    prompt: `Dame:
-- Lista de microtareas acumuladas.
+Do:
+1) Rettifiche cognitive.
+2) Piano di approccio limitato.
+(3) Strategie per il mantenimento dell'energia.
+4) Cosa non fare quando dormivi male.
+5) Piano di recupero notturno.`,
+  thumbnail: ""
+},
+{
+  id: "prod-031",
+  title: "Sistema per rimuovere l'accumulo di microaree",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Pulisci piccoli compiti che si accumulano e ti drenano.",
+  prompt: `Dammi...
+- Elenco delle microaree accumulate.
 
-Haz:
-1) Clasificación inteligente.
-2) Purga de tareas inútiles.
-3) Sprint de microtareas (20 min).
-4) Plan para que no vuelvan a acumularse.
-5) Rutina semanal de mantenimiento.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-032",
-    title: "Plan maestro de organización del hogar productivo",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Optimiza tu hogar para mejorar productividad.",
-    prompt: `Dame:
-- Mi espacio actual.
-- Qué me incomoda.
-- Cómo uso mi hogar.
+Do:
+1) classificazione intelligente.
+2) Purge di compiti inutili.
+3) Sprint di microaree (20 min).
+(4) Pianificare di non riaccumulare.
+(5) routine di manutenzione settimanale.`,
+  thumbnail: ""
+},
+{
+  id: "prod-032",
+  title: "Piano principale casalingo produttivo",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Ottimizza la tua casa per migliorare la produttività.",
+  prompt: `Dammi...
+- No. Il mio spazio attuale.
+- No. Questo mi mette a disagio.
+- Come uso la mia casa.
 
-Haz:
-1) Diagnóstico del entorno.
-2) Rediseño funcional.
-3) Eliminación de distractores.
-4) Ritual diario de orden.
-5) Rutina semanal de reset.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-033",
-    title: "Protocolo de claridad instantánea en momentos de caos",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Recupera control mental cuando todo parece desordenado.",
-    prompt: `Dame:
-- Qué me abruma.
-- Qué no puedo organizar.
-- Cómo reacciono.
+Do:
+1) Diagnosi dell'ambiente.
+2) Riv funzionale.
+3) Eliminazione dei distrattori.
+4) Ordine quotidiano rituale.
+5) Giro settimanale di reset.`,
+  thumbnail: ""
+},
+{
+  id: "prod-033",
+  title: "Protocollo di chiarezza istantanea in tempi di caos",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Si torna a mente quando tutto sembra disordinato.",
+  prompt: `Dammi...
+- No. Lasciami essere sopraffatta.
+- Non posso organizzare.
+- Come reagisco.
 
-Haz:
-1) Identifica la raíz del caos.
-2) Detén el ruido mental.
-3) Crea claridad en 4 pasos.
-4) Plan mínimo accionable.
-5) Cómo mantener claridad constante.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-034",
-    title: "Sistema simple para mantener consistencia en cualquier meta",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea consistencia incluso si fallas seguido.",
-    prompt: `Dame:
-- Mi meta.
-- Mi historial de fallos.
-- Qué me desmotiva.
+Do:
+1) Identifica la radice del caos.
+2) fermare il rumore mentale.
+3) Crea chiarezza in 4 passaggi.
+4) Piano d'azione minimo.
+5) Come mantenere la chiarezza costante.`,
+  thumbnail: ""
+},
+{
+  id: "prod-034",
+  title: "Sistema semplice per mantenere la coerenza in qualsiasi obiettivo",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Crea consistenza anche se non hai seguito.",
+  prompt: `Dammi...
+- Il mio obiettivo.
+- No. La mia storia di colpa.
+- Sono scoraggiato.
 
-Haz:
-1) Analiza mi inconsistencia.
-2) Sistema de retorno rápido.
-3) Mini hábitos diarios.
-4) Seguimiento semanal.
-5) Rutina antiabandono.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-035",
-    title: "Sistema de productividad para creativos (Creative Flow Engine)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Optimiza productividad sin matar la creatividad.",
-    prompt: `Dame:
-- Qué creo.
-- Cómo me bloqueo.
-- Qué ritmo tengo.
+Do:
+1) Analizza la mia inconsistenza.
+2) Sistema di ritorno rapido.
+3) Mini abitudini quotidiane.
+4) Monitoraggio settimanale.
+(5) routine anti-abbandonamento.`,
+  thumbnail: ""
+},
+{
+  id: "prod-035",
+  title: "Motore di flusso creativo",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Ottimizza la produttività senza uccidere la creatività.",
+  prompt: `Dammi...
+- Credo di si'.
+- No. Come mi blocca.
+- No. Che ritmo ho.
 
-Haz:
-1) Diagnóstico creativo.
-2) Rutas para desbloquear ideas.
-3) Sistema híbrido orden+caos.
-4) Rituales creativos diarios.
-5) Rutina semanal de proyectos creativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-036",
-    title: "Sistema de ahorro de tiempo extremo (Time Compression Method)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Aprende a condensar actividades que toman horas en minutos.",
-    prompt: `Dame:
-- Qué me toma mucho tiempo.
-- Qué intento hacer.
-- Qué no logro comprimir.
+Do:
+1) Diagnosi creativa.
+2) Percorsi per sbloccare idee.
+3) Ordine sistema ibrido + caos.
+4) Riti creativi giornalieri.
+5) Fase settimanale di progetti creativi.`,
+  thumbnail: ""
+},
+{
+  id: "prod-036",
+  title: "Sistema di risparmio di tempo estremo (metodo di compressione tempo)",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Impara a condannare le attività che richiedono ore in pochi minuti.",
+  prompt: `Dammi...
+- No. Mi ci vuole molto tempo.
+- No. Che tentativo.
+- Non posso comprimere.
 
-Haz:
-1) Análisis del exceso de pasos.
-2) Eliminación de redundancia.
-3) Plan de compresión.
-4) Atajos y técnicas.
-5) Versión PRO con automatización.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-037",
-    title: "Optimización total del entorno digital de trabajo",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Convierte tu espacio digital en una máquina de enfoque.",
-    prompt: `Dame:
-- Apps que uso.
-- Qué me distrae.
-- Cómo organizo archivos.
+Do:
+1) Analisi delle orme.
+2) Eliminazione della ridondanza.
+3) Piano di compressione.
+4) Scorciatoie e tecniche.
+5) Versione PRO con automazione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-037",
+  title: "Ottimizzazione totale dell'ambiente di lavoro digitale",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Trasforma il tuo spazio digitale in una macchina di messa a fuoco.",
+  prompt: `Dammi...
+- App che uso.
+- No. Questo mi distrae.
+- Come organizzo i file.
 
-Haz:
-1) Diagnóstico digital profundo.
-2) Diseño de entorno perfecto.
-3) Eliminación de ruido.
-4) Automatización básica.
-5) Rutina de revisión digital.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-038",
-    title: "Sistema de límites personales para proteger productividad",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Aprende a decir NO y proteger tu tiempo sin culpa.",
-    prompt: `Dame:
-- Qué cosas acepto sin querer.
-- Qué compromisos me drenan.
-- Qué miedo tengo al decir no.
+Do:
+1) Diagnosi digitale profonda.
+2) Design perfetto dell'ambiente.
+3) Lo smaltimento del rumore.
+4) Automazione di base.
+5) Rivista digitale rotonda.`,
+  thumbnail: ""
+},
+{
+  id: "prod-038",
+  title: "Sistema di limiti personali per proteggere la produttività",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Imparare a dire NO e proteggere il vostro tempo senza senso di colpa.",
+  prompt: `Dammi...
+- No. Quali cose accetto involontariamente.
+- No. Quali impegni mi stanno svuotando.
+- Ho tanta paura di dire di no.
 
-Haz:
-1) Identifica mis límites débiles.
-2) Rediseña mis reglas personales.
-3) Scripts para decir NO.
-4) Sistema de límites según energía.
-5) Cómo sostener límites a largo plazo.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-039",
-    title:
-      "Sistema de productividad minimalista (Minimalist Productivity Blueprint)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Reduce tareas, decisiones y ruido para producir más con menos.",
-    prompt: `Dame:
-- Mis tareas.
-- Mis prioridades.
-- Mi entorno.
+Do:
+1) Identificare i miei limiti deboli.
+2) Ridisegnare le mie regole personali.
+3) script per dire NO.
+4) Sistema di limiti secondo l'energia.
+5) Come mantenere i limiti a lungo termine.`,
+  thumbnail: ""
+},
+{
+  id: "prod-039",
+  title:
+  "Minimalist Produttività Blueprint",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Riduce i compiti, le decisioni e il rumore per produrre di più con meno.",
+  prompt: `Dammi...
+- No. I miei compiti.
+- No. Le mie priorità.
+- Il mio ambiente.
 
-Haz:
-1) Purga masiva de tareas.
-2) Simplificación de procesos.
-3) Diseño minimalista diario.
-4) Ritual minimalista semanal.
-5) Versión PRO minimalista.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-040",
-    title: "Sistema para crear días perfectos según tu estilo de vida",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Diseña tu día perfecto basado en energía, metas y preferencias.",
-    prompt: `Dame:
-- Cómo es mi día ideal.
-- Qué disfruto.
-- Qué me quita equilibrio.
+Do:
+1) Purge di compito massiccio.
+2) semplificazione dei processi.
+3) Design minimalista giornaliero.
+4) rituale settimanale minimalista.
+5) Versione minima PRO.`,
+  thumbnail: ""
+},
+{
+  id: "prod-040",
+  title: "Sistema per creare giorni perfetti secondo il tuo stile di vita",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Progetta la tua giornata perfetta sulla base di energia, obiettivi e preferenze.",
+  prompt: `Dammi...
+- No. Com'e' la mia giornata ideale.
+- Mi piace.
+- No. Ci vuole il mio equilibrio.
 
-Haz:
-1) Diagnóstico de estilo de vida.
-2) Diseño de día perfecto.
-3) Adaptación a realidad actual.
-4) Rutina flexible y rígida.
-5) Reglas para mantener equilibrio.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-041",
-    title:
-      "Sistema de claridad financiera personal para evitar estrés por dinero",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Claridad financiera simple para personas que se abruman analizando números.",
-    prompt: `Dame:
-- Mis ingresos.
-- Mis gastos.
-- Mis deudas o compromisos.
-- Qué me preocupa del dinero.
+Do:
+1) La diagnosi di stile di vita.
+2) Design perfetto del giorno.
+3) Adattamento alla realtà attuale.
+4) Routin flessibile e rigido.
+5) Regole per mantenere l'equilibrio.`,
+  thumbnail: ""
+},
+{
+  id: "prod-041",
+  title:
+  "Sistema di chiarezza finanziaria personale per evitare lo stress per soldi",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Semplice chiarezza finanziaria per le persone che si travolgono analizzando i numeri.",
+  prompt: `Dammi...
+- Il mio reddito.
+- Le mie spese.
+- No. I miei debiti o impegni.
+- Sono preoccupato per i soldi.
 
-Haz:
-1) Diagnóstico de estrés financiero.
-2) Divide mis números en 3 categorías simples:
-   - Obligatorio.
-   - Flexible.
-   - Evitable.
-3) Crea un sistema de flujo mensual:
-   - Flujo de entrada.
-   - Flujo de salida.
-   - Flujo de ahorro.
-4) Diseño de reglas financieras fáciles (no técnicas).
-5) Microhábitos financieros diarios y semanales.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-042",
-    title: "Sistema de revisión nocturna para cerrar el día con calma",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crea una rutina nocturna para resetear la mente y preparar el siguiente día.",
-    prompt: `Dame:
-- Cómo termino mi día.
-- Qué me deja inquieto.
-- Qué quiero mejorar.
+Do:
+1) Diagnosi dello stress finanziario.
+2) Dividere i miei numeri in 3 categorie semplici:
+- Obbligatorio.
+- Flessibile.
+- Commestibile.
+3) crea un sistema di flusso mensile:
+- Flusso d'ingresso.
+- Flusso di uscita.
+- Risparmio di flusso.
+4) Progettazione di regole finanziarie facili (non tecniche).
+(5) Microhabiti finanziari giornalieri e settimanali.`,
+  thumbnail: ""
+},
+{
+  id: "prod-042",
+  title: "Sistema di revisione notturna per chiudere la giornata con calma",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Creare una routine notturna per resettare la mente e preparare il giorno successivo.",
+  prompt: `Dammi...
+- Come finisce la mia giornata.
+- No. Questo mi lascia irrequieto.
+- Voglio stare meglio.
 
-Haz:
-1) Ritual de cierre mental en 5 minutos.
-2) Revisión rápida de logros.
-3) Traslado de pendientes al día siguiente.
-4) Micro ritual emocional para liberar tensión.
-5) Versión PRO con hábito meditativo.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-043",
-    title: "Sistema de hábitos para mentes que se aburren rápido",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea hábitos que no dependan de motivación ni novedad constante.",
-    prompt: `Dame:
-- Qué hábito quiero.
-- Qué me aburre.
-- Cuánto duro antes de rendirme.
+Do:
+1) Rituale chiusura mentale in 5 minuti.
+(2) Rapida revisione dei risultati.
+3) orecchini commoventi il giorno successivo.
+4) Micro rituale emotivo per rilasciare la tensione.
+5) Versione PRO con abitudine meditativa.`,
+  thumbnail: ""
+},
+{
+  id: "prod-043",
+  title: "Sistema di abitudini per menti rapidamente noiose",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Crea abitudini che non dipendono dalla motivazione o dalla novità costante.",
+  prompt: `Dammi...
+- No. Che abitudine voglio.
+- Mi annoio.
+- E' difficile prima di arrendermi.
 
-Haz:
-1) Identifica mi tipo de aburrimiento.
-2) Crea un hábito flexible.
-3) Genera variaciones del mismo hábito.
-4) Sistema antiaburrimiento de 3 capas.
-5) Reglas para evitar abandono por monotonía.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-044",
-    title: "Sistema de gestión emocional para productividad",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Gestiona emociones que afectan tu productividad diaria.",
-    prompt: `Dame:
-- Emoción dominante que afecta mi día.
-- Qué la dispara.
-- Qué hago cuando aparece.
+Do:
+1) Identificare il mio tipo di noia.
+2) Crea un'abitudine flessibile.
+3) Genera variazioni della stessa abitudine.
+4) sistema anti-boredom a 3 strati.
+5) Regole per evitare l'abbandono della monotonia.`,
+  thumbnail: ""
+},
+{
+  id: "prod-044",
+  title: "Sistema di gestione emotivo per la produttività",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Gestisci le emozioni che influiscono sulla tua produttività quotidiana.",
+  prompt: `Dammi...
+- Un'eiezione dominante che colpisce la mia giornata.
+- Sparagli.
+- No. Cosa faccio quando si presenta?
 
-Haz:
-1) Identifica patrón emocional.
-2) Explica su impacto productivo.
-3) Crea un método para gestionarlo en el instante.
-4) Ritual de regulación diaria.
-5) Sistema semanal para estabilizar emociones.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-045",
-    title: "Sistema de organización para estudiantes con sobrecarga",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Diseña un método completo para estudiar sin quemarte.",
-    prompt: `Dame:
-- Qué estudio.
-- Cuánto tiempo tengo.
-- Qué materias me saturan.
+Do:
+1) Identificare il modello emotivo.
+2) Spiega il suo impatto produttivo.
+3) Crea un metodo per gestirlo in istante.
+4) Regolazione quotidiana rituale.
+5) Sistema settimanale per stabilizzare le emozioni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-045",
+  title: "Sistema organizzativo per studenti sovraccaricati",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Progettare un metodo completo per studiare senza bruciare.",
+  prompt: `Dammi...
+- No. Che studio.
+- Ho tanto tempo.
+- Sono cosi' saturi.
 
-Haz:
-1) Diagnóstico de sobrecarga.
-2) Calendario de estudio eficiente.
-3) Método de estudio activo.
-4) Pausas inteligentes.
-5) Sistema antiagotamiento.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-046",
-    title: "Reprogramación del día para usar mejor tus horarios naturales",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Rediseña tu día según tus ciclos biológicos y energía real.",
-    prompt: `Dame:
-- Horas de levantarte.
-- Horas donde trabajas mejor.
-- Horas donde te distraes.
+Do:
+1) diagnosi di sovraccarico.
+2) Efficiente programma di studio.
+(3) Metodo di studio attivo.
+4) Piedi intelligenti.
+5) Sistema antiesaurimento.`,
+  thumbnail: ""
+},
+{
+  id: "prod-046",
+  title: "Riprogrammazione della giornata per utilizzare meglio i vostri programmi naturali",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Ridisegna la tua giornata secondo i tuoi cicli biologici e l'energia reale.",
+  prompt: `Dammi...
+- Ore per alzarsi.
+- Ore dove lavori meglio.
+- Ore dove sei distratto.
 
-Haz:
-1) Mapa de energía personalizado.
-2) Coloca las tareas según energía.
-3) Ajusta horarios.
-4) Diseña nuevas reglas de descanso.
-5) Cronograma ideal.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-047",
-    title: "Sistema para reducir la fricción en tareas importantes",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Haz que tareas grandes sean más fáciles de comenzar.",
-    prompt: `Dame:
-- La tarea que evito.
-- Qué la hace difícil.
-- Qué me frustra.
+Do:
+1) Carta energetica personalizzata.
+2) Posizionare i compiti secondo l'energia.
+3) Timing.
+4) Progetta nuove regole di riposo.
+5) Cronogramma ideale.`,
+  thumbnail: ""
+},
+{
+  id: "prod-047",
+  title: "Sistema per ridurre l'attrito in compiti importanti",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Fare grandi compiti più facile da iniziare.",
+  prompt: `Dammi...
+- Il compito che evito.
+- No. Questo rende difficile.
+- No. Che cosa mi frustra.
 
-Haz:
-1) Identifica la fricción principal.
-2) Elimina pasos innecesarios.
-3) Crea un trigger claro para comenzar.
-4) Divide en microacciones.
-5) Ritual de inicio en 2 minutos.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-048",
-    title: "Sistema para recuperar enfoque tras distracciones continuas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Recupera tu capacidad de enfoque tras múltiples interrupciones.",
-    prompt: `Dame:
-- Tipo de distracción.
-- Frecuencia.
-- Cómo reacciono.
+Do:
+1) identifica l'attrito principale.
+2) Elimina passi inutili.
+3) Creare un grilletto chiaro per cominciare.
+4) Dividere in microazioni.
+5) Inizio rituale in 2 minuti.`,
+  thumbnail: ""
+},
+{
+  id: "prod-048",
+  title: "Sistema per recuperare la messa a fuoco dopo distrazioni continue",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Recuperare la capacità di messa a fuoco dopo più interruzioni.",
+  prompt: `Dammi...
+- Tipo di distrazione.
+- Frequenza.
+- Come reagisco.
 
-Haz:
-1) Diagnóstico de interrupciones.
-2) Diseño de barrera de distracciones.
-3) Método de reentrada enfocada.
-4) Regla de protección de bloques.
-5) Ritual para mantener enfoque 3 horas.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-049",
-    title: "Sistema de micro-organización diaria (2 minutos)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Un sistema de orden diario que solo toma dos minutos.",
-    prompt: `Dame:
-- Mis espacios más desordenados.
-- Qué me molesta del desorden.
+Do:
+1) Diagnosi delle interruzioni.
+2) progettazione della barriera distrazione.
+3) Metodo di rientro messa a fuoco.
+4) Regola di protezione del blocco.
+5) Rituale per mantenere l'approccio 3 ore.`,
+  thumbnail: ""
+},
+{
+  id: "prod-049",
+  title: "Sistema di microorganizzazione giornaliero (2 minuti)",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Un sistema di ordine giornaliero che richiede solo due minuti.",
+  prompt: `Dammi...
+- No. I miei spazi più disordinati.
+- No. Che casino.
 
-Haz:
-1) Diagnóstico del desorden.
-2) Sistema de 2 minutos para orden.
-3) Rutina diaria.
-4) Mini hábitos.
-5) Regla de mantenimiento.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-050",
-    title: "Plan completo para reinventar tus mañanas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea una rutina matutina poderosa y sostenible.",
-    prompt: `Dame:
-- Cómo despierto.
-- Qué quiero cambiar.
-- Qué me cuesta hacer.
+Do:
+1) Diagnosi del disturbo.
+2) sistema di 2 minuti per ordine.
+3) routine quotidiana.
+4) Mini abitudini.
+(5) Regola di manutenzione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-050",
+  title: "Piano completo per reinventare le vostre mattine",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Crea una routine mattutina potente e sostenibile.",
+  prompt: `Dammi...
+- Come mi sveglio.
+- No. Quello che voglio cambiare.
+- No. Che momento difficile da fare.
 
-Haz:
-1) Evaluación de mañanas actuales.
-2) Rediseña la rutina completa.
-3) Añade hábitos clave.
-4) Prepara la noche anterior.
-5) Versión PRO para alta energía.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-051",
-    title: "Sistema de enfoque silencioso (Silent Focus Method)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Método de enfoque profundo sin notificaciones ni input externo.",
-    prompt: `Dame:
-- Qué me distrae más.
-- Qué tareas requieren enfoque.
-- En qué horario rindo.
+Do:
+1) Valutazione delle mattine attuali.
+2) Ridisegnare la routine completa.
+3) Aggiungi le abitudini chiave.
+4) Preparare la notte prima.
+5) Versione PRO per alta energia.`,
+  thumbnail: ""
+},
+{
+  id: "prod-051",
+  title: "Metodo di messa a fuoco silenzioso",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Metodo di approccio profondo senza notifiche o input esterni.",
+  prompt: `Dammi...
+- No. Mi distrae di piu'.
+- No. Quali compiti richiedono attenzione.
+- No. A che ora mi arrendo.
 
-Haz:
-1) Crear condiciones para silencio.
-2) Ritual de entrada.
-3) Bloque de enfoque sin input externo.
-4) Reglas mientras trabajo.
-5) Salida y descanso.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-052",
-    title: "Sistema para mantener orden digital en redes sociales",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Evita saturación digital dentro de Instagram, TikTok y otras apps.",
-    prompt: `Dame:
-- Qué apps uso.
-- Cómo me distraen.
-- Qué contenido consumo.
+Do:
+1) Creare condizioni per il silenzio.
+2) Rituale di entrata.
+3) blocco di messa a fuoco senza ingresso esterno.
+(4) Regole durante il lavoro.
+5) Partenza e riposo.`,
+  thumbnail: ""
+},
+{
+  id: "prod-052",
+  title: "Sistema per mantenere l'ordine digitale sui social network",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Evitare la saturazione digitale all'interno di Instagram, TikTok e altre applicazioni.",
+  prompt: `Dammi...
+- No. Quali applicazioni uso.
+- No. Come mi distraggono.
+- No. Che contenuto di consumo.
 
-Haz:
-1) Diagnóstico de uso.
-2) Eliminación de ruido digital.
-3) Listas blancas de contenido valioso.
-4) Reglas para consumo intencional.
-5) Rutina digital diaria.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-053",
-    title: "Plan de enfoque tipo ‘One Thing’ para metas grandes",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Aprende a enfocarte en una sola cosa que mueva todo lo demás.",
-    prompt: `Dame:
-- Mi meta principal.
-- Mis distracciones.
-- Qué me impide avanzar.
+Do:
+1) Diagnosi dell'uso.
+2) eliminazione del rumore digitale.
+3) Liste bianche di contenuti preziosi.
+(4) Regole per il consumo intenzionale.
+5) routine digitali giornaliere.`,
+  thumbnail: ""
+},
+{
+  id: "prod-053",
+  title: "Una cosa approccio piano per grandi obiettivi",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Imparare a concentrarsi su una cosa che muove tutto il resto.",
+  prompt: `Dammi...
+- Il mio obiettivo principale.
+- No. Le mie distrazioni.
+- No. Il che mi impedisce di andare avanti.
 
-Haz:
-1) Identifica ‘la única cosa’.
-2) Crea plan de acción basado en ella.
-3) Ajusta prioridades.
-4) Regla de NO multitarea.
-5) Sprint de avance de 7 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-054",
-    title: "Sistema de productividad emocional para días difíciles",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Aprende a ser productivo cuando las emociones están en contra.",
-    prompt: `Dame:
-- Qué emoción domina mi día.
-- Qué la generó.
-- Qué debo hacer hoy.
+Do:
+1) Identifica l'unica cosa.
+2) Crea un piano d'azione basato su di esso.
+(3) Regolare le priorità.
+4) Regola non-multitasking.
+5) 7 giorno di anticipo sprint.`,
+  thumbnail: ""
+},
+{
+  id: "prod-054",
+  title: "Sistema di produttività emotivo per giorni difficili",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Impara ad essere produttivo quando le emozioni sono contro.",
+  prompt: `Dammi...
+- No. Che emozione domina la mia giornata.
+- No. Questo l'ha generato.
+- No. Cosa devo fare oggi?
 
-Haz:
-1) Diagnóstico emocional.
-2) Ajustes de tareas según energía emocional.
-3) Regla de mínimo viable.
-4) Técnica de estabilidad emocional.
-5) Rutina de cierre emocional.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-055",
-    title: "Método de orden total para personas con TDAH leve",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea un sistema de orden diseñado para mentes dispersas.",
-    prompt: `Dame:
-- Mis dificultades.
-- Qué desordeno.
-- Qué olvido hacer.
+Do:
+1) Diagnosi emotiva.
+2) Rettifiche delle attività secondo l'energia emotiva.
+3) Regola minima applicabile.
+4) Tecnica di stabilità emotiva.
+5) routine di chiusura emotiva.`,
+  thumbnail: ""
+},
+{
+  id: "prod-055",
+  title: "Metodo totale di ordine per le persone con ADHD lieve",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Crea un sistema di ordine progettato per menti sparse.",
+  prompt: `Dammi...
+- No. Le mie difficoltà.
+- No. Che disordine.
+- Quello che ho dimenticato di fare.
 
-Haz:
-1) Identifica las causas del desorden.
-2) Rediseña entorno fácil de mantener.
-3) Sistema de recordatorios visuales.
-4) Reglas simples para orden constante.
-5) Protocolo de emergencia para caos.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-056",
-    title: "Sistema de tareas según energía mental (Cognitive Load Management)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Asigna tareas según nivel de energía mental del día.",
-    prompt: `Dame:
-- Mi energía actual.
-- Qué debo hacer.
-- Qué me cuesta.
+Do:
+1) identifica le cause del disordine.
+2) Ridisegnare l'ambiente facile da mantenere.
+3) Sistema di promemoria visiva.
+4) regole semplici per ordine costante.
+5) Protocollo di emergenza per il caos.`,
+  thumbnail: ""
+},
+{
+  id: "prod-056",
+  title: "Gestione dei carichi cognitivi",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Assegnare compiti secondo il livello di energia mentale del giorno.",
+  prompt: `Dammi...
+- No. La mia energia attuale.
+- No. Cosa dovrei fare?
+- Non mi interessa.
 
-Haz:
-1) Evalúa mi carga cognitiva.
-2) Asigna tareas por nivel.
-3) Ajusta prioridades.
-4) Ajuste según fatiga.
-5) Rutina diaria basada en energía.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-057",
-    title: "Plan maestro para eliminar acumulación de decisiones",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Reduce decisiones diarias para ahorrar energía mental.",
-    prompt: `Dame:
-- Qué decido mucho.
-- Qué me desgasta.
-- Cuándo me saturo.
+Do:
+1) Valuta il mio peso cognitivo.
+2) Assegnare compiti per livello.
+(3) Regolare le priorità.
+4) Regolazione secondo stanchezza.
+5) routine quotidiana basata sull'energia.`,
+  thumbnail: ""
+},
+{
+  id: "prod-057",
+  title: "Master plan per eliminare l'accumulo di decisioni",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Riduce le decisioni quotidiane per risparmiare energia mentale.",
+  prompt: `Dammi...
+- No. Che decisione.
+- No. Che spreco.
+- Quando mi saturano.
 
-Haz:
-1) Diagnóstico de decisión.
-2) Categorización.
-3) Automatización.
-4) Simplificación de opciones.
-5) Rutina anti-fatiga decisional.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-058",
-    title: "Sistema de rediseño personal de estilo de vida productivo",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Rediseña completamente tu estilo de vida para producir más y estresarte menos.",
-    prompt: `Dame:
-- Mi estilo actual.
-- Qué quiero cambiar.
-- En qué fallo más.
+Do:
+(1) Diagnosi della decisione.
+(2) Categorizzazione.
+3) Automazione.
+4) semplificazione delle opzioni.
+5) routine di affaticamento anti-decisione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-058",
+  title: "Sistema di riprogettazione personale di stile di vita",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Invertisce completamente il vostro stile di vita per produrre più e meno stress.",
+  prompt: `Dammi...
+- No. Il mio stile attuale.
+- No. Quello che voglio cambiare.
+- No. Che altro fallimento.
 
-Haz:
-1) Diagnóstico de estilo de vida.
-2) Rediseño completo.
-3) Rutinas nuevas.
-4) Reglas conductuales.
-5) Plan de 30 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-059",
-    title: "Sistema de accountability personal sin necesidad de otra persona",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crea un sistema para mantenerte responsable sin depender de un mentor.",
-    prompt: `Dame:
-- Mi meta.
-- Mi historial de abandono.
-- Qué me falta.
+Do:
+1) La diagnosi di stile di vita.
+2) Full Rediseño.
+3) Nuove routine.
+(4) regole di condotta.
+5) Piano di 30 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-059",
+  title: "Sistema di responsabilità personale senza la necessità di un'altra persona",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Crea un sistema per tenerti responsabile senza contare su un mentore.",
+  prompt: `Dammi...
+- Il mio obiettivo.
+- No. La mia storia di abbandono.
+- Mi manca.
 
-Haz:
-1) Diagnóstico de responsabilidad.
-2) Crea accountability interno.
-3) Reglas de autocontrol.
-4) Métricas semanales.
-5) Ritual de revisión personal.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-060",
-    title: "Sistema de renovación mental para evitar burnout",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Previene burnout con un sistema de renovación cognitiva y emocional.",
-    prompt: `Dame:
-- Cómo me siento.
-- Qué me agota.
-- Qué no logro sostener.
+Do:
+1) Diagnosi della responsabilità.
+2) Creare responsabilità interna.
+3) Regole di autocontrollo.
+(4) Tecniche settimanali.
+(5) Rituale della recensione personale.`,
+  thumbnail: ""
+},
+{
+  id: "prod-060",
+  title: "Sistema di rinnovo mentale per evitare il burnout",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Previene il burnout con un sistema di rinnovamento cognitivo ed emotivo.",
+  prompt: `Dammi...
+- Come mi sento.
+- Sono esausta.
+- Non ce la faccio.
 
-Haz:
-1) Diagnóstico de fatiga profunda.
-2) Rediseño de cargas.
-3) Actividades de renovación mental.
-4) Rutina de recuperación.
-5) Plan semanal anti-burnout.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-061",
-    title:
-      "Sistema de productividad para emprendedores con múltiples proyectos",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Diseña un sistema que permita manejar 2-5 proyectos sin perder claridad ni enfoque.",
-    prompt: `Dame:
-- Número de proyectos.
-- Qué tipo de proyectos son.
-- En cuáles me siento más saturado.
-- Qué plazos tengo.
+Do:
+1) Diagnosi della stanchezza profonda.
+2) Riprogettazione dei carichi.
+(3) Attività di rinnovo mentale.
+4) Rutina di recupero.
+5) Un piano settimanale anti-bruciatore.`,
+  thumbnail: ""
+},
+{
+  id: "prod-061",
+  title:
+  "Sistema produttività per imprenditori con più progetti",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Progetta un sistema per gestire 2-5 progetti senza perdere chiarezza o attenzione.",
+  prompt: `Dammi...
+- Numero di progetti.
+- No. Che tipo di progetti sono.
+- In cui mi sento piu' saturato.
+- No. Quali limiti di tempo ho?
 
-Haz:
-1) Diagnóstico de dispersión entre proyectos.
-2) Crea un mapa maestro de prioridades y fases.
-3) Sistema de gestión por bloques: enfoque, mantenimiento y crecimiento.
-4) Reglas de progresión semanal.
-5) Ritual semanal de reordenamiento de prioridades.
-6) Plan de reseteo mensual para evitar acumulación.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-062",
-    title: "Sistema de desconexión rápida para personas que nunca paran",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Aprende a desconectarte mentalmente en menos de 5 minutos si eres de los que nunca pueden descansar.",
-    prompt: `Dame:
-- Qué me impide desconectar.
-- Qué pensamientos se repiten.
-- En qué momentos más me cuesta parar.
+Do:
+1) Diagnosi della dispersione tra i progetti.
+2) Creare una mappa principale delle priorità e delle fasi.
+3) Sistema di gestione del blocco: messa a fuoco, manutenzione e crescita.
+4) Regole di progressione settimanali.
+(5) Rituale settimanale delle priorità di riordino.
+6) Piano di reset mensile per evitare l'accumulo.`,
+  thumbnail: ""
+},
+{
+  id: "prod-062",
+  title: "Sistema di scollegamento rapido per le persone che non si fermano mai",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Impara a scollegare mentalmente in meno di 5 minuti se sei uno di quelli che non possono mai riposare.",
+  prompt: `Dammi...
+- No. Il che mi impedisce di disconnettermi.
+- No. Quali pensieri si ripetono.
+- No. Che altro tempo ci vuole per fermarmi.
 
-Haz:
-1) Diagnóstico de hiperactividad mental.
-2) Técnica de corte de pensamientos.
-3) Ritual de desconexión en 3 pasos.
-4) Herramientas de respiración y somática.
-5) Cierre emocional para liberar tensión acumulada.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-063",
-    title: "Sistema anti-procrastinación basado en neurociencia",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Método basado en principios neurocientíficos para dejar de posponer tareas importantes.",
-    prompt: `Dame:
-- Qué procrastino.
-- Desde cuándo.
-- Qué me digo para evitar hacerlo.
+Do:
+1) Diagnosi dell'iperattività mentale.
+2) tecniche di taglio dei pensieri.
+3) Rituale disconnessione in 3 passi.
+4) Strumenti respiratori e somatici.
+5) Chiusura emotiva per rilasciare tensione accumulata.`,
+  thumbnail: ""
+},
+{
+  id: "prod-063",
+  title: "Sistema antiprocrastinazione basato su neuroscienze",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Metodo basato su principi neuroscienziati per smettere di pubblicare compiti importanti.",
+  prompt: `Dammi...
+- No. Che procrastina.
+- Da quando.
+- No. Cosa dico per evitare di farlo?
 
-Haz:
-1) Identifica el tipo de procrastinación.
-2) Detecta detonantes neuronales.
-3) Crea un ritual de inicio basado en dopamina anticipada.
-4) Sistema para mantener momentum.
-5) Ritual de cierre dopaminérgico para reforzar el hábito.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-064",
-    title: "Sistema de productividad para personas altamente sensibles",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Diseña un sistema que aproveche tu sensibilidad sin saturarte.",
-    prompt: `Dame:
-- Qué me sobreestimula.
-- Qué me drena.
-- Qué me potencia.
+Do:
+1) Identificare il tipo di procrastinazione.
+2) Rileva detonanti neurali.
+3) Crea un rituale di partenza basato sulla dopamina precoce.
+4) Sistema per mantenere slancio.
+5) Rituale chiusura dopamina per rafforzare l'abitudine.`,
+  thumbnail: ""
+},
+{
+  id: "prod-064",
+  title: "Sistema di produttività per persone altamente sensibili",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Progettare un sistema che sfrutta la vostra sensibilità senza essere saturati.",
+  prompt: `Dammi...
+- Sono sovrastimolato.
+- No. Che cosa mi drena.
+- No. Che potere.
 
-Haz:
-1) Diagnóstico sensorial.
-2) Ajuste del entorno según sensibilidad.
-3) Reglas de transición entre tareas.
-4) Método para evitar saturación.
-5) Plan de recuperación sensorial rápida.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-065",
-    title: "Sistema para priorizar sin sentir culpa",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Aprende a priorizar sin sentir que estás fallándole a tus otras responsabilidades.",
-    prompt: `Dame:
-- Qué me hace sentir culpa.
-- Qué dejo de hacer.
-- Qué quiero hacer primero.
+Do:
+1) Diagnosi sensoriale.
+2) Regolazione dell'ambiente secondo la sensibilità.
+3) regole di transizione Intertask.
+4) Metodo per evitare la saturazione.
+5) Piano di recupero sensoriale rapido.`,
+  thumbnail: ""
+},
+{
+  id: "prod-065",
+  title: "Sistema di priorità senza sentirsi colpevole",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Impara a prioritizzare senza sentire che stai fallendo le tue altre responsabilità.",
+  prompt: `Dammi...
+- No. Questo mi fa sentire in colpa.
+- No. Quello che ho smesso di fare.
+- Quello che voglio fare prima.
 
-Haz:
-1) Diagnóstico emocional de culpa.
-2) Reestructuración de prioridades.
-3) Sistema para definir no-negociables.
-4) Reglas de comunicación interna (autolenguaje).
-5) Método de liberación de culpa + plan de acción.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-066",
-    title: "Sistema de ciclos de trabajo y descanso (Work-Recovery Protocol)",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crea ciclos de trabajo y recuperación personalizados para evitar fatiga continua.",
-    prompt: `Dame:
-- Cuánto tiempo puedo concentrarme.
-- Cuánto tardo en cansarme.
-- Qué me recarga.
+Do:
+1) Diagnosi emotiva del senso di colpa.
+2) Ristrutturazione delle priorità.
+(3) Sistema per la definizione non negoziabile.
+4) Regole di comunicazione interna (auto-stampa).
+5) Metodo di rilascio di colpevolezza + piano d'azione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-066",
+  title: "Sistema di lavoro e ciclo di riposo (Protocollo di lavoro-recupero)",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Crea cicli di lavoro personalizzati e recupero per evitare la stanchezza continua.",
+  prompt: `Dammi...
+- Quanto posso concentrarmi.
+- No. Mi ci vuole tanto tempo per stancarmi.
+- Mi ricarica.
 
-Haz:
-1) Diagnóstico de ciclos cognitivos.
-2) Diseña ciclos propios: intensidad, duración, transición.
-3) Protocolos de recuperación corta.
-4) Regla de sostenimiento.
-5) Optimización semanal del ciclo.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-067",
-    title: "Sistema profundo de planificación trimestral",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Plan completo para organizar tus próximos 90 días.",
-    prompt: `Dame:
-- Mis metas actuales.
-- Qué no logré en meses anteriores.
-- Qué quiero lograr en 90 días.
+Do:
+1) Diagnosi dei cicli cognitivi.
+2) Progetta i propri cicli: intensità, durata, transizione.
+3) Protocollo di recupero breve.
+4) Regola di sostegno.
+5) Ottimizzazione settimanale del ciclo.`,
+  thumbnail: ""
+},
+{
+  id: "prod-067",
+  title: "Approfondito sistema di pianificazione trimestrale",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Piano completo per organizzare i prossimi 90 giorni.",
+  prompt: `Dammi...
+- No. I miei obiettivi attuali.
+- No. Quello che non ho raggiunto nei mesi precedenti.
+- No. Quello che voglio raggiungere in 90 giorni.
 
-Haz:
-1) Diagnóstico previo.
-2) Selección de objetivos clave.
-3) Construcción del plan trimestral.
-4) Sistemas de medición y métricas.
-5) Rutina semanal de seguimiento.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-068",
-    title: "Sistema para eliminar ruido mental y limpiar tu mente",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea claridad mental eliminando ruido acumulado.",
-    prompt: `Dame:
-- Qué pensamientos se repiten.
-- Qué me distrae.
-- Qué no puedo dejar de pensar.
+Do:
+1) diagnosi precedente.
+2) Selezione degli obiettivi chiave.
+(3) Costruzione del piano trimestrale.
+4) Misurazione e sistemi metrici.
+(5) Corso di follow-up settimanale.`,
+  thumbnail: ""
+},
+{
+  id: "prod-068",
+  title: "Sistema per rimuovere il rumore mentale e pulire la mente",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Crea chiarezza mentale eliminando il rumore accumulato.",
+  prompt: `Dammi...
+- No. Quali pensieri si ripetono.
+- No. Questo mi distrae.
+- Non riesco a smettere di pensare.
 
-Haz:
-1) Diagnóstico del ruido.
-2) Limpieza mental guiada.
-3) Reglas para evitar saturación cognitiva.
-4) Herramientas de reescritura mental.
-5) Rutina de claridad diaria.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-069",
-    title: "Sistema de organización familiar para que todos colaboren",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crea un sistema donde todos los miembros de la familia pueden contribuir.",
-    prompt: `Dame:
-- Número de personas.
-- Edades.
-- Qué tareas se olvidan.
-- Qué genera conflicto.
+Do:
+1) La diagnosi del rumore.
+2) Pulizia mentale guidata.
+3) Regole per evitare la saturazione cognitiva.
+4) Strumenti di riscrittura mentale.
+5) routine di chiarezza quotidiana.`,
+  thumbnail: ""
+},
+{
+  id: "prod-069",
+  title: "Sistema di organizzazione familiare per tutti per lavorare insieme",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Crea un sistema in cui tutti i membri della famiglia possono contribuire.",
+  prompt: `Dammi...
+- Numero di persone.
+- Età.
+- No. Quali compiti sono dimenticati.
+- No. Ciò che crea conflitti.
 
-Haz:
-1) Diagnóstico familiar.
-2) Reparto dinámico de tareas.
-3) Rutinas colectivas.
-4) Reglas de colaboración.
-5) Sistema semanal de coordinación.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-070",
-    title: "Sistema de gestión de consumo de contenido",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Aprende a consumir contenido intencionalmente sin caer en scroll infinito.",
-    prompt: `Dame:
-- Qué contenido consumo.
-- En qué apps.
-- Cuánto tiempo pierdo.
+Do:
+1) Diagnosi familiare.
+2) condivisione dinamica delle attività.
+(3) routine collettive.
+(4) Regole di collaborazione.
+5) Sistema di coordinamento settimanale.`,
+  thumbnail: ""
+},
+{
+  id: "prod-070",
+  title: "Sistema di gestione dei consumi contenuti",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Imparare a consumare contenuti intenzionalmente senza cadere in scorrimento infinito.",
+  prompt: `Dammi...
+- No. Che contenuto di consumo.
+- No. Che app.
+- Quanto tempo perdo.
 
-Haz:
-1) Diagnóstico de consumo.
-2) Categorización (útil vs ruido).
-3) Reglas de consumo consciente.
-4) Sistema anti-scroll.
-5) Rutina digital diaria.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-071",
-    title: "Sistema de prevención de saturación mental por multitarea",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Evita saturarte saltando entre muchas cosas a la vez.",
-    prompt: `Dame:
-- Qué multitarea hago.
-- Qué me cuesta terminar.
-- Qué me frustra.
+Do:
+1) Diagnosi del consumo.
+2) Categorizzazione (utile vs rumore).
+3) Regole di consumo cosciente.
+4) Sistema anti-croll.
+5) routine digitali giornaliere.`,
+  thumbnail: ""
+},
+{
+  id: "prod-071",
+  title: "Sistema di prevenzione della saturazione mentale multitask",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Evitare la saturazione saltando tra molte cose contemporaneamente.",
+  prompt: `Dammi...
+- No. Che multitasking faccio.
+- Non posso finire.
+- No. Che cosa mi frustra.
 
-Haz:
-1) Diagnóstico de multitarea.
-2) Técnicas de monotarea.
-3) Restricción de cambios rápidos.
-4) Sistema de enfoque.
-5) Ritual de cierre de ciclos.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-072",
-    title: "Sistema de orden emocional antes de trabajar",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Limpia tu estado emocional antes de iniciar el día laboral.",
-    prompt: `Dame:
-- Emoción predominante.
-- Qué la generó.
-- Cómo se siente en el cuerpo.
+Do:
+1) diagnosi multitasking.
+2) Tecniche Monotarea.
+3) Restrizione dei rapidi cambiamenti.
+4) Sistema di messa a fuoco.
+5) Rituale chiusura del ciclo.`,
+  thumbnail: ""
+},
+{
+  id: "prod-072",
+  title: "Sistema di ordine emotivo prima del lavoro",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Pulisci il tuo stato emotivo prima di iniziare a lavorare.",
+  prompt: `Dammi...
+- Mozione predominante.
+- No. Questo l'ha generato.
+- No. Come ci si sente nel corpo.
 
-Haz:
-1) Diagnóstico emocional.
-2) Técnica somática para regular.
-3) Ritual de entrada al trabajo.
-4) Reglas de lenguaje interno.
-5) Sistema de mantenimiento emocional.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-073",
-    title: "Sistema de mejora continua semanal",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea un ritual semanal para mejorar tu vida progresivamente.",
-    prompt: `Dame:
-- Qué quiero mejorar.
-- Qué no puedo sostener.
-- Qué me cuesta.
+Do:
+1) Diagnosi emotiva.
+2) Tecnica somatica per la regolazione.
+3) Entrata rituale al lavoro.
+4) Regole del linguaggio interno.
+5) Sistema di manutenzione emotiva.`,
+  thumbnail: ""
+},
+{
+  id: "prod-073",
+  title: "Sistema di miglioramento continuo settimanale",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Crea un rituale settimanale per migliorare la tua vita progressivamente.",
+  prompt: `Dammi...
+- Voglio stare meglio.
+- Non ce la faccio.
+- Non mi interessa.
 
-Haz:
-1) Diagnóstico de progreso.
-2) Ajustes semanales.
-3) Reglas de consistencia.
-4) Métricas personales.
-5) Ritual de crecimiento continuo.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-074",
-    title: "Sistema de organización para nómadas digitales",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Organiza vida, trabajo y energía viajando constantemente.",
-    prompt: `Dame:
-- Dónde vivo actualmente.
-- Con qué frecuencia me muevo.
-- Qué me complica más viajar.
+Do:
+1) Diagnosi del progresso.
+2) Regolazioni settimanali.
+3) Regole di coerenza.
+(4) Tecniche personali.
+5) Rituale della crescita continua.`,
+  thumbnail: ""
+},
+{
+  id: "prod-074",
+  title: "Sistema organizzativo per nomadi digitali",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Organizza vita, lavoro ed energia viaggiando costantemente.",
+  prompt: `Dammi...
+- No. Dove vivo oggi.
+- Quante volte mi trasferisco.
+- No. Mi rende più difficile viaggiare.
 
-Haz:
-1) Diagnóstico de caos nómada.
-2) Sistema de adaptación rápida por ciudad.
-3) Ritual de reubicación.
-4) Reglas para mantener productividad viajando.
-5) Sistema anti-fatiga de movimiento.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-075",
-    title: "Sistema de claridad para elegir qué hacer con tu vida",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Encuentra claridad sobre el siguiente paso vital.",
-    prompt: `Dame:
-- Qué quiero.
-- Qué me confunde.
-- Qué me asusta.
+Do:
+1) Diagnosi del caos nomade.
+2) Sistema di adattamento rapido per città.
+(3) Rituale trasferimento.
+4) Regole per mantenere la produttività viaggiando.
+5) Sistema di movimento antifatica.`,
+  thumbnail: ""
+},
+{
+  id: "prod-075",
+  title: "Sistema di chiarezza per scegliere cosa fare con la tua vita",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Trova chiarezza sul prossimo passo vitale.",
+  prompt: `Dammi...
+- Quello che voglio.
+- No. Che errore.
+- No. Mi spaventa.
 
-Haz:
-1) Diagnóstico existencial.
-2) Mapa de claridad.
-3) Ruta de opciones reales.
-4) Criterios de decisión.
-5) Plan de 30 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-076",
-    title: "Sistema de alto rendimiento para personas tranquilas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Diseña un sistema de productividad que no dependa de agresividad ni presión.",
-    prompt: `Dame:
-- Cómo trabajo mejor.
-- Qué ambientes me drenan.
-- En qué soy consistente.
+Do:
+1) diagnosi esistenziale.
+2) Mappa della chiarezza.
+(3) Itinerario opzioni reali.
+(4) Criteri di decisione.
+5) Piano di 30 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-076",
+  title: "Sistema ad alte prestazioni per persone tranquille",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Progetta un sistema di produttività che non dipende da aggressione o pressione.",
+  prompt: `Dammi...
+- Come lavoro meglio.
+- No. Quali ambienti mi scaricano.
+- No. Quello con cui sono coerente.
 
-Haz:
-1) Diagnóstico de rendimiento suave.
-2) Diseño del entorno ideal.
-3) Reglas de enfoque suave.
-4) Rutinas de alto rendimiento sin estrés.
-5) Sprint calmado de 14 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-077",
-    title: "Sistema de enfoque profundo para creadores de contenido",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Sistema para crear contenido sin ruido mental.",
-    prompt: `Dame:
-- Qué contenido hago.
-- Qué me bloquea.
-- Qué me distrae.
+Do:
+1) Diagnosi delle prestazioni morbida.
+2) Progettazione dell'ambiente ideale.
+3) regole soft-focus.
+4) routine ad alte prestazioni e senza stress.
+5) Sprint calma 14 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-077",
+  title: "Deep focus system per i creatori di contenuti",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Sistema per creare contenuti senza rumore mentale.",
+  prompt: `Dammi...
+- No. Che contenuto faccio.
+- No. Mi blocca.
+- No. Questo mi distrae.
 
-Haz:
-1) Diagnóstico creativo.
-2) Diseño del entorno de creación.
-3) Ritual de desbloqueo mental.
-4) Sistema de enfoque profundo.
-5) Secuencia completa de creación.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-078",
-    title: "Sistema de orden total del hogar en 30 minutos al día",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Organiza toda tu casa sin dedicar horas.",
-    prompt: `Dame:
-- Tamaño del hogar.
-- Qué áreas me saturan.
-- Qué se desordena más.
+Do:
+1) Diagnosi creativa.
+2) Progettazione dell'ambiente di creazione.
+3) Rituale di sblocco mentale.
+4) Sistema di messa a fuoco profondo.
+5) Sequenza completa di creazione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-078",
+  title: "Totale sistema di ordine domestico in 30 minuti al giorno",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Organizza tutta la tua casa senza passare ore.",
+  prompt: `Dammi...
+- Le dimensioni della casa.
+- No. Con quali aree sono saturo.
+- No. Che diventa più disordinato.
 
-Haz:
-1) Diagnóstico del hogar.
-2) Rutina diaria por zonas.
-3) Reglas de mantenimiento.
+Do:
+1) Diagnosi della casa.
+2) routine giornaliere per zona.
+3) regole di manutenzione.
 4) Ritual de orden exprés.
-5) Plan semanal completo.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-079",
-    title: "Sistema de reset mental express en cualquier lugar",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Reinicia tu mente incluso cuando estás fuera de casa.",
-    prompt: `Dame:
-- Dónde suelo estresarme.
-- Qué me abruma.
-- Qué necesito resolver.
+5) Piano settimanale completo.`,
+  thumbnail: ""
+},
+{
+  id: "prod-079",
+  title: "Express sistema di reset mentale ovunque",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Riavvia la mente anche quando sei fuori casa.",
+  prompt: `Dammi...
+- Dove di solito stresso.
+- No. Lasciami essere sopraffatta.
+- Quello che devo risolvere.
 
-Haz:
-1) Técnica de respiración para reset.
-2) Secuencia de regulación sensorial.
-3) Reglas para calmar la mente en 90 segundos.
-4) Ritual de claridad express.
-5) Mantra personalizado.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-080",
-    title: "Sistema completo de priorización para semanas caóticas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Organiza tu semana incluso cuando todo está desordenado.",
-    prompt: `Dame:
-- Qué me está saturando.
-- Qué no puedo postergar.
-- Qué me preocupa.
+Do:
+1) Reimpostare la tecnica respiratoria.
+2) Sequenza della regolazione sensoriale.
+3) Regole per calmare la mente in 90 secondi.
+4) Rituale di chiarezza espressa.
+5) Mantra personalizzato.`,
+  thumbnail: ""
+},
+{
+  id: "prod-080",
+  title: "Sistema di priorità completo per settimane caotiche",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Organizza la tua settimana anche quando tutto è disordinato.",
+  prompt: `Dammi...
+- Sono saturi.
+- Non posso rimandare.
+- Sono preoccupata.
 
-Haz:
-1) Diagnóstico del caos semanal.
-2) Priorización ultra-específica.
-3) Reducción de tareas excesivas.
-4) Sistema de bloques esenciales.
-5) Ritual de orden de 15 minutos.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-081",
-    title: "Sistema para romper ciclos de autoexigencia tóxica",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Aprende a organizar tu vida sin vivir bajo presión interna extrema.",
-    prompt: `Dame:
-- En qué áreas soy más autoexigente.
-- Qué me digo cuando siento que no hago suficiente.
-- Qué consecuencias tiene en mi vida.
+Do:
+1) Diagnosi del caos settimanale.
+2) Priorità ultra-specifica.
+3) Riduzione dei compiti eccessivi.
+4) Sistema di blocco essenziale.
+5) Ordine rituale di 15 minuti.`,
+  thumbnail: ""
+},
+{
+  id: "prod-081",
+  title: "Sistema per la rottura di cicli di auto-richiesta tossici",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Impara ad organizzare la tua vita senza vivere sotto estrema pressione interna.",
+  prompt: `Dammi...
+- No. In cui sono piu' autodemanente.
+- No. Cosa dico quando mi sento di non fare abbastanza.
+- No. Che conseguenze ha sulla mia vita.
 
-Haz:
-1) Diagnóstico de autoexigencia tóxica.
-2) Identificación de sus detonantes.
-3) Creación de reglas de autoexigencia saludable.
-4) Sistema de tareas esenciales vs tareas opcionales.
-5) Ritual de cierre emocional para reducir tensión interna.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-082",
-    title: "Sistema matutino de reprogramación mental",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crea un ritual de mañana que prepare tu mente para alto rendimiento emocional y cognitivo.",
-    prompt: `Dame:
-- Cómo amanezco normalmente.
-- Qué pensamientos suelen aparecer en la mañana.
-- Qué días siento más caos.
+Do:
+1) Diagnosi di auto-requisito tossico.
+2) Identificazione dei vostri detonanti.
+3) Creazione di regole auto-demand sano.
+4) Sistema di compiti essenziali vs compiti opzionali.
+5) Rituale chiusura emotiva per ridurre la tensione interna.`,
+  thumbnail: ""
+},
+{
+  id: "prod-082",
+  title: "Sistema di riprogrammazione mentale matutina",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Crea un rituale domani che preparerà la tua mente per alte prestazioni emotive e cognitive.",
+  prompt: `Dammi...
+- Come di solito mi alzo.
+- No. Quali pensieri di solito appaiono al mattino.
+- No. Che giorni sento più caos.
 
-Haz:
-1) Mapa mental de la mañana actual.
-2) Reprogramación del primer pensamiento del día.
-3) Técnica de activación corporal.
-4) Ritual de enfoque de 5 minutos.
-5) Reglas matutinas que estabilizan el día completo.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-083",
-    title: "Sistema de cierre nocturno para dormir con la mente en calma",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Diseña una rutina para dormir bien incluso con estrés acumulado.",
-    prompt: `Dame:
-- A qué hora suelo dormir.
-- Qué me quita el sueño.
-- Qué pendientes dejo abiertos.
+Do:
+1) Mappa mentale dell'attuale mattina.
+2) Riprogrammazione del primo pensiero del giorno.
+3) Tecnica di attivazione del corpo.
+4) Rituale approccio di 5 minuti.
+5) regole del mattino che stabilizzano il giorno intero.`,
+  thumbnail: ""
+},
+{
+  id: "prod-083",
+  title: "Sistema di chiusura notturna per dormire con una mente calma",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Progetta una buona routine di sonno anche con lo stress accumulato.",
+  prompt: `Dammi...
+- No. A che ora dormo di solito.
+- No. Questo porta via il mio sogno.
+- No. Quali orecchini lascio aperto.
 
-Haz:
-1) Diagnóstico del patrón de sueño.
-2) Ritual de cierre de ciclos mentales.
-3) Técnica de vaciado de pensamientos.
-4) Reprogramación sensorial del espacio.
-5) Plan de sueño profundo personalizado.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-084",
-    title: "Sistema de toma de decisiones rápidas sin ansiedad",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Aprende a decidir en minutos sin miedo a equivocarte.",
-    prompt: `Dame:
-- Sobre qué decido lento.
-- Qué me paraliza.
-- Qué decisiones evito.
+Do:
+1) Diagnosi del modello di sonno.
+2) Chiusura rituale dei cicli mentali.
+3) Tecnica del pensiero-vuoto.
+4) Riprogrammazione sensoriale dello spazio.
+5) Piano di sonno profondo personalizzato.`,
+  thumbnail: ""
+},
+{
+  id: "prod-084",
+  title: "Sistema decisionale rapido senza ansia",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Imparare a decidere in pochi minuti senza paura di sbagliato.",
+  prompt: `Dammi...
+- Quello che decido lentamente.
+- No. Mi paralizza.
+- No. Quali decisioni evito.
 
-Haz:
-1) Diagnóstico del bloqueo decisional.
-2) Crea una matriz de decisión simplificada.
-3) Define reglas de claridad instantánea.
-4) Método de decisión de 2 minutos.
-5) Protocolo emocional post-decisión.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-085",
-    title: "Sistema para transformar desorden emocional en orden mental",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Convierte emociones caóticas en claridad accionable.",
-    prompt: `Dame:
-- Qué emoción domina ahora.
-- Qué la detonó.
-- Cómo la vivo.
+Do:
+1) Diagnosi del blocco decisionale.
+2) Crea una matrice di decisione semplificata.
+3) Definire le regole di chiarezza istantanea.
+(4) metodo decisionale di 2 minuti.
+5) Protocollo emotivo post-decisione.`,
+  thumbnail: ""
+},
+{
+  id: "prod-085",
+  title: "Sistema per trasformare il disordine emotivo in ordine mentale",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Converte le emozioni caotiche in chiarezza attuabile.",
+  prompt: `Dammi...
+- No. Che brivido.
+- No. L'ha detonata.
+- Come la vivo.
 
-Haz:
-1) Diagnóstico emocional inicial.
-2) Identificación del mensaje real detrás de la emoción.
-3) Técnica de reorganización cognitiva.
-4) Traducción emocional a acciones concretas.
-5) Ritual de cierre emocional del día.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-086",
-    title: "Sistema de microhábitos para personas indisciplinadas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Crear disciplina sin depender de motivación ni fuerza de voluntad.",
-    prompt: `Dame:
-- Qué hábito quiero construir.
-- Por qué he fallado antes.
-- Qué me distrae.
+Do:
+1) diagnosi emotiva iniziale.
+2) Identificazione del vero messaggio dietro l'emozione.
+3) Tecnica di riorganizzazione cognitiva.
+4) Traduzioni emotive alle azioni concrete.
+5) Rituale di chiusura emotiva della giornata.`,
+  thumbnail: ""
+},
+{
+  id: "prod-086",
+  title: "Sistema di microhabiti per persone non disciplinate",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Creare disciplina senza dipendere da motivazione o volontà.",
+  prompt: `Dammi...
+- No. Che abitudine voglio costruire.
+- Perché ho già fallito.
+- No. Questo mi distrae.
 
-Haz:
-1) Diagnóstico del fallo habitual.
-2) Reconstrucción del hábito en versión micro.
-3) Reglas de micro-consistencia.
-4) Sistema de recompensa inmediata.
-5) Plan de escalamiento progresivo.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-087",
-    title: "Sistema de organización para personas con TDAH",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Estructura tu vida usando técnicas diseñadas para mentes dispersas.",
-    prompt: `Dame:
-- En qué tareas más me pierdo.
-- Qué me frustra.
-- Qué me distrae.
+Do:
+1) Diagnosi del solito fallimento.
+2) Ricostruire l'abitudine in una versione micro.
+3) Regole di microconsistenza.
+4) Sistema di ricompensa immediato.
+5) Piano di arrampicata progressiva.`,
+  thumbnail: ""
+},
+{
+  id: "prod-087",
+  title: "Sistema organizzativo per le persone con ADHD",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Struttura la tua vita utilizzando tecniche progettate per menti sparse.",
+  prompt: `Dammi...
+- No. Quali altri compiti mi mancano.
+- No. Che cosa mi frustra.
+- No. Questo mi distrae.
 
-Haz:
-1) Diagnóstico de dispersión específica.
-2) Estructura con estímulos visuales.
-3) Técnica de inicio acelerado.
-4) Sistema de foco breve + descansos sensoriales.
-5) Ritual de orden diario basado en dopamina.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-088",
-    title: "Sistema de claridad para saber qué NO hacer",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Define límites claros eliminando tareas irrelevantes.",
-    prompt: `Dame:
-- Qué hago por obligación.
-- Qué ya no quiero hacer.
-- Qué me roba energía.
+Do:
+1) Diagnosi specifica della dispersione.
+2) Struttura con stimoli visivi.
+3) Tecnica di avvio accelerata.
+4) Sistema di messa a fuoco breve + interruzioni sensoriali.
+5) rituale di ordine giornaliero basato sulla dopamina.`,
+  thumbnail: ""
+},
+{
+  id: "prod-088",
+  title: "Sistema di chiarezza per sapere cosa NON fare",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Definire i limiti chiari eliminando i compiti irrilevanti.",
+  prompt: `Dammi...
+- No. Quello che faccio per obbligo.
+- No. Quello che non voglio piu' fare.
+- No. Questo ruba la mia energia.
 
-Haz:
-1) Auditoría de tareas innecesarias.
-2) Criterios de eliminación radical.
-3) Método de renuncia estratégica.
-4) Rediseño de prioridades renovado.
-5) Lista de NO-acciones para proteger tu energía.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-089",
-    title: "Sistema para frenar la sobrecarga de información",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Evita saturarte con cursos, contenido y datos.",
-    prompt: `Dame:
-- Qué información consumo más.
-- Qué me estresa.
-- Cuántos cursos tengo abiertos.
+Do:
+(1) Audit dei compiti non necessari.
+2) Criteri per l'eliminazione radicale.
+(3) Metodo di rinuncia strategica.
+4) Ritiro delle priorità rinnovate.
+5) Elenco delle azioni NO- per proteggere la vostra energia.`,
+  thumbnail: ""
+},
+{
+  id: "prod-089",
+  title: "Sistema per interrompere il sovraccarico delle informazioni",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Evitare la saturazione con corsi, contenuti e dati.",
+  prompt: `Dammi...
+- No. Che altre informazioni uso.
+- No. Che stress.
+- Quanti corsi ho aperto.
 
-Haz:
-1) Diagnóstico de saturación informativa.
-2) Filtrado por relevancia real.
-3) Sistema de consumo inteligente.
-4) Reglas anti-exceso.
-5) Ritual semanal de consolidación.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-090",
-    title: "Sistema para mantener tu vida ordenada en momentos de crisis",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea orden cuando tu vida atraviesa caos emocional o externo.",
-    prompt: `Dame:
-- Qué crisis enfrento.
-- Qué me cuesta sostener.
-- Qué me desorganiza más.
+Do:
+1) Diagnosi della saturazione dell'informazione.
+2) Filtrato per reale rilevanza.
+3) Sistema di consumo intelligente.
+4) regole anti-escessive.
+(5) Consolidamento rituale settimanale.`,
+  thumbnail: ""
+},
+{
+  id: "prod-090",
+  title: "Sistema per mantenere la vostra vita ordinata in tempi di crisi",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Crea ordine quando la tua vita attraversa il caos emotivo o esterno.",
+  prompt: `Dammi...
+- No. Che crisi che sto affrontando.
+- No. E' difficile da tenere.
+- No. Che disorganizzo di più.
 
-Haz:
-1) Diagnóstico de caos real vs caos percibido.
-2) Redefinición de lo esencial.
-3) Rutina mínima de supervivencia.
-4) Técnica para evitar colapso emocional.
-5) Plan de reestabilización de 30 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-091",
-    title: "Sistema de flujo creativo sin bloqueo",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Crea ideas sin atascarte mentalmente.",
-    prompt: `Dame:
-- En qué me bloqueo.
-- Qué me activa creatividad.
-- Qué me drena.
+Do:
+1) Diagnosi del vero caos contro il caos percepito.
+(2) Ridefinizione dell'essenziale.
+3) Tasso di sopravvivenza minimo.
+4) Tecnica per evitare il collasso emotivo.
+5) Piano di ristabilizzazione di 30 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-091",
+  title: "Sistema di flusso creativo senza serratura",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Crea idee senza essere mentalmente bloccati.",
+  prompt: `Dammi...
+- No. Quello che mi sta bloccando.
+- No. Questo mi rende creativo.
+- No. Che cosa mi drena.
 
-Haz:
-1) Diagnóstico del bloqueo creativo.
-2) Técnica de desbloqueo cognitivo.
-3) Rituales de entrada a estado creativo.
-4) Técnicas de generación rápida de ideas.
-5) Sistema de mantenimiento creativo diario.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-092",
-    title: "Sistema de orden mental para minimizar ansiedad diaria",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Reduce la ansiedad organizando tus pensamientos y agenda.",
-    prompt: `Dame:
-- Qué me preocupa.
-- Qué pienso repetitivamente.
-- Qué no logro controlar.
+Do:
+1) Diagnosi del blocco creativo.
+2) tecnica di sblocco cognitivo.
+3) Regolamenti di ingresso allo stato creativo.
+4) tecniche di rapida generazione.
+5) Ogni giorno sistema di manutenzione creativa.`,
+  thumbnail: ""
+},
+{
+  id: "prod-092",
+  title: "Sistema di ordine mentale per minimizzare l'ansia quotidiana",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Riduce l'ansia organizzando i vostri pensieri e i vostri programmi.",
+  prompt: `Dammi...
+- Sono preoccupata.
+- Penso ancora.
+- Non riesco a controllare.
 
-Haz:
-1) Auditoría de preocupaciones reales.
-2) Técnica de vaciado mental.
-3) Sistema de acción mínima.
-4) Ritual de regulación ansiosa.
-5) Plan diario antiestrés.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-093",
-    title: "Sistema de enfoque total para estudiar o aprender rápido",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Aumenta tu capacidad de aprendizaje concentrado.",
-    prompt: `Dame:
-- Qué estudio.
-- Qué me distrae.
-- Qué me cuesta retener.
+Do:
+(1) Audit delle preoccupazioni reali.
+2) Tecnica di svuotamento mentale.
+3) Sistema d'azione minimo.
+4) Rituale della regolamentazione ansiosa.
+5) Piano giornaliero anti-stress.`,
+  thumbnail: ""
+},
+{
+  id: "prod-093",
+  title: "Sistema di approccio totale per studiare o imparare rapidamente",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Aumenta la tua capacità di apprendimento focalizzata.",
+  prompt: `Dammi...
+- No. Che studio.
+- No. Questo mi distrae.
+- No. E' difficile per me mantenere.
 
-Haz:
-1) Diagnóstico cognitivo de estudio.
-2) Técnica de enfoque profundo.
-3) Sistema de retención acelerada.
-4) Rutina de repaso inteligente.
-5) Plan semanal de estudio con métricas.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-094",
-    title: "Sistema para eliminar acumulación eterna de tareas pequeñas",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Elimina la montaña de minitareas que siempre pospones.",
-    prompt: `Dame:
-- Qué tareas pequeñas acumulo.
-- Cuáles me estresan más.
-- Cuáles llevan semanas pendientes.
+Do:
+1) Diagnosi di studio cognitivo.
+2) Una tecnica di approccio approfondita.
+3) Sistema di ritenzione accelerato.
+4) Smart recensione round.
+5) Piano settimanale di studio con metriche.`,
+  thumbnail: ""
+},
+{
+  id: "prod-094",
+  title: "Sistema per eliminare l'accumulo eterno di piccoli compiti",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Elimina la montagna di minitareas si rimanda sempre.",
+  prompt: `Dammi...
+- No. Quali piccoli compiti mi accumulano.
+- No. Il che mi stressa di piu'.
+- No. Che sono state settimane in sospeso.
 
-Haz:
-1) Diagnóstico de acumulación.
-2) Clasificación por fricción.
-3) Protocolo “Hazlo ahora”.
-4) Sesión de descarga masiva de tareas.
-5) Plan de prevención futura.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-095",
-    title: "Sistema de productividad para días emocionalmente difíciles",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Mantén el funcionamiento básico cuando emocionalmente no puedes más.",
-    prompt: `Dame:
-- Qué emoción me domina hoy.
-- Qué me pesa.
-- Qué debería hacer (pero no puedo).
+Do:
+1) Diagnosi dell'accumulo.
+2) classificazione delle frizioni.
+3) Protocollo "Fallo ora".
+4) sessione di scarico di massa dei compiti.
+5) Piano di prevenzione futuro.`,
+  thumbnail: ""
+},
+{
+  id: "prod-095",
+  title: "Sistema di produttività per giorni emotivamente difficili",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Mantenere il funzionamento di base quando non si può più emotivamente.",
+  prompt: `Dammi...
+- Sono cosi' emozionata oggi.
+- No. Che peso.
+- No. Cosa devo fare (ma non posso).
 
-Haz:
-1) Diagnóstico emocional.
-2) Reducción drástica de tareas.
-3) Rutina mínima funcional.
-4) Técnica de regulación rápida.
-5) Plan de recuperación para mañana.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-096",
-    title: "Sistema de balance entre vida productiva y vida personal",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Evita que el trabajo destruya tu vida personal.",
-    prompt: `Dame:
-- Qué me consume más tiempo.
-- Qué me gustaría hacer más.
-- Qué descuido.
+Do:
+1) Diagnosi emotiva.
+(2) Riduzione dei compiti.
+3) Minimo routin funzionale.
+(4) Tecnica di regolazione rapida.
+5) Piano di recupero per domani.`,
+  thumbnail: ""
+},
+{
+  id: "prod-096",
+  title: "Sistema di equilibrio tra vita produttiva e personale",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Impedisce al lavoro di distruggere la vostra vita personale.",
+  prompt: `Dammi...
+- No. Ci vuole più tempo.
+- No. Quello che vorrei fare di più.
+- No. Che trascuratezza.
 
-Haz:
-1) Diagnóstico de desequilibrio.
-2) Diseño de límites inteligentes.
-3) Reglas de conexión personal.
-4) Rutina semanal de balance.
-5) Plan de vida equilibrada en 30 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-097",
-    title: "Sistema de simplificación profunda de tu vida",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Reduce ruido, objetos, compromisos y tareas a lo esencial.",
-    prompt: `Dame:
-- Qué poseo en exceso.
-- Qué compromisos me saturan.
-- Qué quiero simplificar.
+Do:
+1) Diagnosi dello squilibrio.
+2) Smart boundary design.
+3) Regole di connessione personale.
+4) Bilancio settimanale.
+5) Un piano di vita equilibrato in 30 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-097",
+  title: "Sistema di profonda semplificazione della tua vita",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Riduce rumore, oggetti, impegni e compiti all'essenziale.",
+  prompt: `Dammi...
+- Quello che possiedo in eccesso.
+- No. Che impegno per me.
+- Voglio semplificare.
 
-Haz:
-1) Auditoría de vida saturada.
-2) Eliminación profunda por categorías.
-3) Sistema de vida sencilla.
-4) Reglas de mantenimiento minimalista.
-5) Ritual mensual de simplificación.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-098",
-    title: "Sistema de orden digital completo",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Organiza archivos, apps, notas, fotos y dispositivos.",
-    prompt: `Dame:
-- En qué apps tengo caos.
-- Qué archivo pierdo más.
-- Qué no encuentro nunca.
+Do:
+1) Audit della vita saturata.
+2) eliminazione profonda per categoria.
+3) Sistema di vita semplice.
+4) regole di manutenzione minimalista.
+5) Procedura di semplificazione mensile.`,
+  thumbnail: ""
+},
+{
+  id: "prod-098",
+  title: "Sistema di ordine digitale completo",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Organizza file, app, note, foto e dispositivi.",
+  prompt: `Dammi...
+- No. In quali app ho il caos.
+- No. Che file perdo di più.
+- Non lo trovo mai.
 
-Haz:
-1) Auditoría de caos digital.
-2) Organización por contenedores.
-3) Sistema de etiquetado universal.
-4) Limpieza profunda de archivos + fotos.
-5) Ritual digital semanal.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-099",
-    title: "Sistema de claridad de propósito diario",
-    area: "Productividad",
-    category: "Organización personal",
-    summary: "Conecta cada día con un propósito real y accionable.",
-    prompt: `Dame:
-- Qué me mueve.
-- Qué me inspira.
-- Qué quiero lograr a largo plazo.
+Do:
+1) Controllo digitale del caos.
+(2) Organizzazione del contenitore.
+3) Sistema di etichettatura universale.
+4) Pulizia profonda file + foto.
+5) Rito digitale settimanale.`,
+  thumbnail: ""
+},
+{
+  id: "prod-099",
+  title: "Sistema di chiarezza di scopo quotidiano",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary: "Collegare ogni giorno con uno scopo reale e fattibile.",
+  prompt: `Dammi...
+- Mi sto muovendo.
+- No. Questo mi ispira.
+- No. Quello che voglio raggiungere a lungo termine.
 
-Haz:
-1) Alineación diaria con misión personal.
-2) Activación emocional matutina.
-3) Reglas de conexión con propósito.
-4) Revisión nocturna.
-5) Ciclo de claridad de 7 días.`,
-    thumbnail: "",
-  },
-  {
-    id: "prod-100",
-    title: "Sistema definitivo de organización personal MasterPlan 360°",
-    area: "Productividad",
-    category: "Organización personal",
-    summary:
-      "Un sistema integral que combina hábitos, energía, emoción, tiempo, digital y entorno.",
-    prompt: `Dame:
-- Cómo está mi vida en general.
-- Qué quiero mejorar.
-- Qué me bloquea.
+Do:
+1) Allineamento giornaliero con missione personale.
+2) Attivazione emotiva matutina.
+3) Regole di connessione con lo scopo.
+4) recensione notturna.
+5) ciclo di chiarezza di 7 giorni.`,
+  thumbnail: ""
+},
+{
+  id: "prod-100",
+  title: "Sistema di organizzazione personale finale MasterPlan 360 °",
+  area: "Produzione",
+  category: "Organizzazione personale",
+  summary:
+  "Un sistema completo che combina abitudini, energia, emozione, tempo, digitale e ambiente.",
+  prompt: `Dammi...
+- No. Come sta la mia vita in generale.
+- Voglio stare meglio.
+- No. Mi blocca.
 
-Haz:
-1) Diagnóstico integral 360° (6 dimensiones).
-2) Diseño del MasterPlan de vida.
-3) Implementación por fases.
-4) Sistema de métricas integrales.
-5) Ritual maestro de revisión mensual.`,
-    thumbnail: "",
-  },
-];
+Do:
+1) diagnosi completa 360 ° (6 dimensioni).
+2) Progettazione del MasterPlan della Vita.
+3) implementazione di fase.
+4) Sistema metrico integrato.
+5) Rituale master di revisione mensile.`,
+  thumbnail: ""
+}];

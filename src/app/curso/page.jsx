@@ -56,7 +56,7 @@ export default function CursoPage() {
         </div>
       </section>
 
-      {/* FILAS DE MÓDULOS TIPO NETFLIX */}
+      {/* RIGHE MODULI TIPO NETFLIX */}
       <section className="space-y-10">
         {courseModuleRows.map((row) => (
           <div key={row.id} className="space-y-4">
@@ -73,14 +73,14 @@ export default function CursoPage() {
         ))}
       </section>
 
-      {/* ✅ OTROS CONTENIDOS */}
+      {/* ✅ ALTRI CONTENUTI */}
       <section className="space-y-4">
         <h2 className="text-lg sm:text-xl font-semibold text-slate-50">
-          Otros contenidos
+          Altri contenuti
         </h2>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {/* ✅ NUEVO: Kit de Recursos en Tendencias */}
+          {/* ✅ NUOVO: Kit di risorse di tendenza */}
           <Link href="/curso/kit-recursos-tendencias" className="group block">
             <Card className="relative overflow-hidden border-2 border-transparent bg-black/60 shadow-[0_0_25px_rgba(0,0,0,0.7)] transition hover:-translate-y-1 hover:border-teal-400/80 hover:shadow-[0_0_35px_rgba(45,212,191,0.5)]">
               <div className="relative h-[160px] w-full bg-gradient-to-br from-slate-950 via-slate-900 to-black">
@@ -92,54 +92,30 @@ export default function CursoPage() {
                 <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black via-black/70 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-4">
                   <h3 className="text-base font-extrabold text-teal-100">
-                    Kit de Recursos en Tendencias
+                    Kit di risorse di tendenza
                   </h3>
                   <p className="mt-1 text-xs text-slate-200/90 line-clamp-2">
-                    Sonidos, filtros, tipografías y mucho más (actualizado para
-                    crear contenido que engancha).
+                    Suoni, filtri, tipografie e molto altro (aggiornato per
+                    creare contenuti che catturano).
                   </p>
 
                   <div className="mt-3 inline-flex items-center gap-2 text-xs font-semibold text-teal-200">
-                    Entrar <ArrowRight className="h-4 w-4" />
+                    Entra <ArrowRight className="h-4 w-4" />
                   </div>
                 </div>
               </div>
             </Card>
           </Link>
 
-          {/* ✅ Ingeniería de Prompts */}
-          <Link href="/curso/ingenieria-de-prompts" className="group block">
-            <Card className="relative overflow-hidden border-2 border-transparent bg-black/60 shadow-[0_0_25px_rgba(0,0,0,0.7)] transition hover:-translate-y-1 hover:border-teal-400/80 hover:shadow-[0_0_35px_rgba(45,212,191,0.5)]">
-              <div className="relative h-[160px] w-full bg-gradient-to-br from-slate-950 via-slate-900 to-black">
-                <div className="absolute inset-0 opacity-60 [background:radial-gradient(600px_circle_at_20%_20%,rgba(45,212,191,0.18),transparent_40%),radial-gradient(600px_circle_at_80%_30%,rgba(168,85,247,0.16),transparent_45%)]" />
-                <div className="absolute left-4 top-4 inline-flex items-center gap-2 rounded-full border border-teal-300/20 bg-black/50 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal-200">
-                  <Sparkles className="h-3 w-3" />
-                  Curso
-                </div>
-                <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black via-black/70 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 p-4">
-                  <h3 className="text-base font-extrabold text-teal-100">
-                    Curso de Ingeniería de Prompts
-                  </h3>
-                  <p className="mt-1 text-xs text-slate-200/90 line-clamp-2">
-                    Domina cómo adaptar, optimizar y crear prompts para
-                    resultados profesionales.
-                  </p>
-
-                  <div className="mt-3 inline-flex items-center gap-2 text-xs font-semibold text-teal-200">
-                    Entrar <ArrowRight className="h-4 w-4" />
-                  </div>
-                </div>
-              </div>
-            </Card>
-          </Link>
+          {/* ✅ (RIMOSSO) Ingegneria dei prompt */}
+          {/* Qui abbiamo rimosso la card "Curso de Ingeniería de Prompts" come richiesto */}
         </div>
       </section>
     </div>
   );
 }
 
-/** Tarjeta tipo Netflix */
+/** Card stile Netflix */
 function NetflixCard({ module }) {
   const isLocked = module.locked;
 
@@ -172,7 +148,7 @@ function NetflixCard({ module }) {
           {isLocked && (
             <p className="mt-2 flex items-center gap-1 text-[10px] font-medium text-slate-300">
               <Lock className="h-3 w-3 text-teal-300" />
-              Contenido disponible próximamente
+              Contenuto disponibile prossimamente
             </p>
           )}
         </div>

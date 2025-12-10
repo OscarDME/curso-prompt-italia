@@ -2,710 +2,710 @@
 
 export const videoPromptsAvatarHablante = [
   // =========================
-  // 10 AVATARES VSL (GENERALES) — GUIONES CORTOS (8s)
+  // 10 AVATAR VSL (GENERALI) — SCRIPT BREVI (8s)
   // =========================
   {
     id: "video-avatar-ia-01",
-    title: "Ejecutivo/a en oficina premium (VSL seria y confiable)",
+    title: "Dirigente in ufficio premium (VSL serio e affidabile)",
     summary:
-      "Avatar estilo ejecutivo/a en oficina premium, tono seguro y directo, ideal para VSL de producto digital.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar in stile dirigente in ufficio premium, tono sicuro e diretto, ideale per VSL di prodotto digitale.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin rótulos, sin captions, sin logos.
+Genera un video di 8 secondi, formato orizzontale 16:9, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente scritte, niente captions, niente loghi.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [32–42].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: traje sastre elegante [azul marino / gris oscuro], camisa/blusa [blanca], reloj discreto.
-- Lenguaje corporal: postura recta, gestos suaves, mirada firme y confiable.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [32–42].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: completo sartoriale elegante [blu navy / grigio scuro], camicia/blusa [bianca], orologio discreto.
+- Linguaggio del corpo: postura dritta, gesti morbidi, sguardo fermo e affidabile.
 
-Escena:
-- Oficina moderna premium con ventanal lateral, fondo desenfocado (bokeh), escritorio minimal.
-- Cámara: plano medio (pecho a cabeza), enfoque en ojos, movimiento mínimo.
+Scena:
+- Ufficio moderno premium con finestra laterale, sfondo sfocato (bokeh), scrivania minimal.
+- Camera: piano medio (petto a testa), fuoco sugli occhi, movimento minimo.
 
-Acción:
-- Habla directo a cámara como VSL, 1 gesto de mano abierta y asentimiento final.
+Azione:
+- Parla direttamente in camera come VSL, 1 gesto con mano aperta e cenno finale con la testa.
 
 Audio:
-- Voz en ESPAÑOL (LatAm neutro), tono profesional y calmado.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE (guion corto para 8s):
+- Voce in ITALIANO, tono professionale e calmo.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE (script breve per 8s):
 
-Guion:
-"¿Bloqueo? Copia un prompt, pégalo y listo: guion, ideas y contenido en minutos, sin complicarte."
+Script:
+"Blocco? Copi un prompt, lo incolli e via: script, idee e contenuti in pochi minuti, senza complicarti la vita."
 `,
-thumbnail: "/videos/avatar001.gif",
+    thumbnail: "/videos/avatar001.gif",
   },
   {
     id: "video-avatar-ia-02",
-    title: "Influencer casual (selfie estable desde habitación)",
+    title: "Influencer casual (selfie stabile dalla camera)",
     summary:
-      "Avatar tipo influencer, cercano/a, natural y directo/a, estilo VSL para Reels/TikTok.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar tipo influencer, vicino/a, naturale e diretto/a, stile VSL per Reels/TikTok.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin overlays.
+Genera un video di 8 secondi, formato orizzontale 16:9, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente overlay.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [21–29].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: hoodie/sudadera oversize, accesorios discretos.
-- Expresión: amigable, sonrisa ligera, mirada muy cercana.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [21–29].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: hoodie/felpa oversize, accessori discreti.
+- Espressione: amichevole, sorriso leggero, sguardo molto vicino.
 
-Escena:
-- Habitación moderna y limpia, luz natural de ventana, fondo desenfocado.
-- Cámara: plano medio corto (hombros a cabeza), selfie MUY estable.
+Scena:
+- Stanza moderna e pulita, luce naturale dalla finestra, sfondo sfocato.
+- Camera: piano mezzo busto (spalle a testa), selfie MOLTO stabile.
 
-Acción:
-- Habla directo a cámara con energía casual y gesto de “te entiendo”.
+Azione:
+- Parla in camera con energia casual e gesto tipo “ti capisco”.
 
 Audio:
-- Voz en ESPAÑOL, tono juvenil y natural.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono giovane e naturale.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Yo me quedaba en blanco. Ahora copio un prompt, pego y ¡pum!: ideas y guiones listos para publicar."
+Script:
+"Io restavo in bianco. Ora copio un prompt, lo incollo e boom: idee e script pronti da pubblicare."
 `,
-thumbnail: "/videos/avatar002.gif",
+    thumbnail: "/videos/avatar002.gif",
   },
   {
     id: "video-avatar-ia-03",
-    title: "Creativo/a urbano/a (estudio con neón suave)",
+    title: "Creativo/a urbano/a (studio con neon delicato)",
     summary:
-      "Avatar creativo/a con estética moderna, tono inspirador y seguro, VSL corto y potente.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar creativo/a con estetica moderna, tono ispirazionale e sicuro, VSL breve e potente.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin rótulos.
+Genera un video di 8 secondi, orizzontale 16:9, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente scritte.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [25–35].
-- Tono de piel: [negra / morena / clara / oliva].
-- Outfit: chaqueta de cuero o bomber, camiseta básica.
-- Lenguaje corporal: calmado/a, magnético/a, gestos precisos.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [25–35].
+- Carnagione: [nera / scura / chiara / olivastra].
+- Outfit: giacca di pelle o bomber, t-shirt basic.
+- Linguaggio del corpo: calmo/a, magnetico/a, gesti precisi.
 
-Escena:
-- Estudio creativo con neón MUY sutil, fondo bokeh, mesa con laptop/cámara (sin texto legible).
-- Cámara: plano medio, luz suave frontal.
+Scena:
+- Studio creativo con neon MOLTO discreto, sfondo bokeh, tavolo con laptop/fotocamera (nessun testo leggibile).
+- Camera: piano medio, luce morbida frontale.
 
-Acción:
-- Habla directo a cámara, gesto “punto clave” con índice.
+Azione:
+- Parla in camera, gesto “punto chiave” con l’indice.
 
 Audio:
-- Voz en ESPAÑOL, tono seguro e inspirador.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono sicuro e ispirazionale.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"El secreto es un sistema: un prompt te da gancho y estructura. Tú ajustas tu idea… y creas rápido."
+Script:
+"Il segreto è un sistema: un prompt ti dà gancio e struttura. Tu adatti la tua idea… e crei più in fretta."
 `,
-thumbnail: "/videos/avatar003.gif",
+    thumbnail: "/videos/avatar003.gif",
   },
   {
     id: "video-avatar-ia-04",
-    title: "Testimonio desde casa (cálido/a, honesto/a)",
+    title: "Testimonianza da casa (caldo/a, onesto/a)",
     summary:
-      "Avatar cercano/a en home office, tono honesto, perfecto para VSL testimonial sin exagerar.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar vicino/a in home office, tono onesto, perfetto per VSL testimonial senza esagerare.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin banners.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente banner.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [30–45].
-- Tono de piel: [clara / trigueña / morena / negra].
-- Outfit: cómodo (camiseta lisa + cardigan/suéter ligero).
-- Expresión: sincera y empática.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [30–45].
+- Carnagione: [chiara / olivastra / scura / nera].
+- Outfit: comodo (t-shirt tinta unita + cardigan/maglione leggero).
+- Espressione: sincera ed empatica.
 
-Escena:
-- Home office luminoso: escritorio con taza y portátil, fondo desenfocado con planta.
-- Cámara: plano medio, enfoque en rostro.
+Scena:
+- Home office luminoso: scrivania con tazza e portatile, sfondo sfocato con pianta.
+- Camera: piano medio, fuoco sul volto.
 
-Acción:
-- Habla como recomendación real, asentimiento final.
+Azione:
+- Parla come una raccomandazione reale, cenno finale con la testa.
 
 Audio:
-- Voz en ESPAÑOL, tono cálido y cercano.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono caldo e vicino.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Yo perdía horas pensando. Con prompts listos publico en minutos, con estructura, y sin sentirme perdido/a."
+Script:
+"Perdevo ore a pensarci. Con prompt pronti pubblico in minuti, con struttura, e senza sentirmi perso/a."
 `,
-thumbnail: "/videos/avatar004.gif",
+    thumbnail: "/videos/avatar004.gif",
   },
   {
     id: "video-avatar-ia-05",
-    title: "Tech minimal (lógico/a, preciso/a, sin show)",
+    title: "Tech minimal (logico/a, preciso/a, senza show)",
     summary:
-      "Avatar estilo tech, mensaje claro y racional, ideal para audiencia analítica.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar stile tech, messaggio chiaro e razionale, ideale per un pubblico analitico.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin gráficos.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente grafici.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [26–36].
-- Tono de piel: [clara / oliva / morena / negra].
-- Outfit: camisa sobria o hoodie minimal.
-- Expresión: controlada, segura, gestos mínimos.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [26–36].
+- Carnagione: [chiara / olivastra / scura / nera].
+- Outfit: camicia sobria o hoodie minimal.
+- Espressione: controllata, sicura, gesti minimi.
 
-Escena:
-- Fondo minimal: monitor apagado desenfocado, lámpara suave.
-- Cámara: plano medio corto, enfoque en ojos.
+Scena:
+- Sfondo minimal: monitor spento sfocato, lampada morbida.
+- Camera: piano mezzo busto, fuoco sugli occhi.
 
-Acción:
-- Habla con pausas precisas, 1 gesto “check”.
+Azione:
+- Parla con pause precise, 1 gesto “check”.
 
 Audio:
-- Voz en ESPAÑOL, tono claro y profesional.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono chiaro e professionale.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Reduce decisiones: prompts probados. Ajustas tu producto y listo: ideas, guiones y copies en minutos."
+Script:
+"Riduci le decisioni: prompt testati. Adatti il tuo prodotto e via: idee, script e copy in pochi minuti."
 `,
-thumbnail: "/videos/avatar005.gif",
+    thumbnail: "/videos/avatar005.gif",
   },
   {
     id: "video-avatar-ia-06",
-    title: "CEO moderno/a (traje sin corbata, autoridad tranquila)",
+    title: "CEO moderno/a (completo senza cravatta, autorità tranquilla)",
     summary:
-      "Avatar con vibra premium, autoridad serena, VSL de negocio con punch.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar con vibe premium, autorità serena, VSL business con punch.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto, sin subtítulos, sin rótulos.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Niente testo, niente sottotitoli, niente scritte.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [35–50].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: traje sin corbata (o equivalente elegante).
-- Lenguaje corporal: firme, gestos mínimos.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [35–50].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: completo senza cravatta (o equivalente elegante).
+- Linguaggio del corpo: fermo, gesti minimi.
 
-Escena:
-- Oficina con ventanal, vista urbana desenfocada, luz natural lateral.
-- Cámara: plano medio, bokeh suave.
+Scena:
+- Ufficio con vetrata, vista urbana sfocata, luce naturale laterale.
+- Camera: piano medio, bokeh morbido.
 
-Acción:
-- Habla directo a cámara, media sonrisa final.
+Azione:
+- Parla in camera, mezzo sorriso finale.
 
 Audio:
-- Voz en ESPAÑOL, tono firme y persuasivo.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono fermo e persuasivo.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Si vendes con contenido, necesitas velocidad. Con prompts listos, dejas de improvisar y solo ejecutas."
+Script:
+"Se vendi con i contenuti, ti serve velocità. Con prompt pronti, smetti di improvvisare e passi solo all’azione."
 `,
-thumbnail: "/videos/avatar006.gif",
+    thumbnail: "/videos/avatar006.gif",
   },
   {
     id: "video-avatar-ia-07",
-    title: "Presentador/a estilo noticiero (formal, muy claro/a)",
+    title: "Presentatore stile telegiornale (formale, chiarissimo/a)",
     summary:
-      "Avatar con vibe de presentador/a, dicción impecable, VSL muy comprensible.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar con vibe da presentatore/trice, dizione impeccabile, VSL super comprensibile.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin lower thirds.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente lower thirds.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [28–40].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: blazer formal + camisa/blusa.
-- Expresión: seria pero amable.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [28–40].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: blazer formale + camicia/blusa.
+- Espressione: seria ma gentile.
 
-Escena:
-- Fondo tipo estudio limpio, luces suaves, sin logos.
-- Cámara: plano medio, estable.
+Scena:
+- Sfondo tipo studio pulito, luci morbide, senza loghi.
+- Camera: piano medio, stabile.
 
-Acción:
-- Habla directo a cámara, 1 gesto de mano al decir “simple”.
+Azione:
+- Parla in camera, 1 gesto con la mano quando dice “semplice”.
 
 Audio:
-- Voz en ESPAÑOL, tono claro, ritmo estable.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono chiaro, ritmo stabile.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Crear contenido sin sistema es lento. Con prompts listos, copias, pegas… y publicas con claridad."
+Script:
+"Creare contenuti senza un sistema è lento. Con prompt pronti, copi, incolli… e pubblichi con chiarezza."
 `,
-thumbnail: "/videos/avatar007.gif",
+    thumbnail: "/videos/avatar007.gif",
   },
   {
     id: "video-avatar-ia-08",
-    title: "Creador/a fashion (noche urbana, aspiracional)",
+    title: "Creator fashion (notte urbana, aspirazionale)",
     summary:
-      "Avatar urbano/a aesthetic, tono moderno, VSL corto con vibra aspiracional.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar urbano aesthetic, tono moderno, VSL breve con vibe aspirazionale.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto, sin subtítulos, sin logos.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Niente testo, niente sottotitoli, niente loghi.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [24–36].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: trench o cuero, look urbano.
-- Lenguaje corporal: seguro/a, gesto moderado.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [24–36].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: trench o pelle, look urbano.
+- Linguaggio del corpo: sicuro/a, gesto moderato.
 
-Escena:
-- Calle nocturna con luces bokeh, neón sutil, ambiente limpio.
-- Cámara: plano medio, estabilizada.
+Scena:
+- Strada notturna con luci bokeh, neon discreto, ambiente pulito.
+- Camera: piano medio, stabilizzata.
 
-Acción:
-- Habla a cámara, sonrisa breve al final.
+Azione:
+- Parla in camera, sorriso breve alla fine.
 
 Audio:
-- Voz en ESPAÑOL, tono moderno y persuasivo.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono moderno e persuasivo.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Mejores prompts, mejores resultados: crea más rápido, publica más seguido… y crece sin quemarte."
+Script:
+"Prompt migliori, risultati migliori: crei più in fretta, pubblichi più spesso… e cresci senza bruciarti."
 `,
-thumbnail: "/videos/avatar008.gif",
+    thumbnail: "/videos/avatar008.gif",
   },
   {
     id: "video-avatar-ia-09",
-    title: "Mentor/a (biblioteca/estudio, sabio/a y calmado/a)",
+    title: "Mentor/a (biblioteca/studio, saggio/a e calmo/a)",
     summary:
-      "Avatar mentor/a, tono sereno y fuerte, VSL con autoridad tranquila.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar mentor, tono sereno e forte, VSL con autorità tranquilla.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin banners.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente banner.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [45–60].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: suéter cuello alto o blazer casual, estilo mentor/a.
-- Expresión: calma, mirada profunda.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [45–60].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: dolcevita o blazer casual, stile mentor.
+- Espressione: calma, sguardo profondo.
 
-Escena:
-- Estudio/biblioteca: libros desenfocados, lámpara cálida, atmósfera de confianza.
-- Cámara: plano medio, luz cálida lateral.
+Scena:
+- Studio/biblioteca: libri sfocati, lampada calda, atmosfera di fiducia.
+- Camera: piano medio, luce calda laterale.
 
-Acción:
-- Habla despacio y claro, asiente al final.
+Azione:
+- Parla lentamente e chiaramente, annuisce alla fine.
 
 Audio:
-- Voz en ESPAÑOL, tono calmado y firme.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono calmo e fermo.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Trabaja con dirección: un prompt correcto te guía. Así produces constante… y la constancia es la que paga."
+Script:
+"Lavora con direzione: un prompt giusto ti guida. Così produci con costanza… ed è la costanza che paga."
 `,
-thumbnail: "/videos/avatar009.gif",
+    thumbnail: "/videos/avatar009.gif",
   },
   {
     id: "video-avatar-ia-10",
-    title: "Emprendedor/a real (home office, práctico/a)",
+    title: "Imprenditore reale (home office, pratico/a)",
     summary:
-      "Avatar honesto/a y práctico/a desde casa, ideal para VSL que conecta con principiantes.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar onesto e pratico da casa, ideale per VSL che connette con principianti.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto, sin subtítulos, sin overlays.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Niente testo, niente sottotitoli, niente overlay.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [28–40].
-- Tono de piel: [clara / oliva / morena / negra].
-- Outfit: camiseta/polo lisa, casual profesional.
-- Expresión: sincera, humano/a.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [28–40].
+- Carnagione: [chiara / olivastra / scura / nera].
+- Outfit: t-shirt/polo tinta unita, casual professionale.
+- Espressione: sincera, umana.
 
-Escena:
-- Home office: escritorio con portátil, libreta, taza, luz cálida, fondo desenfocado.
-- Cámara: plano medio, enfoque en rostro.
+Scena:
+- Home office: scrivania con portatile, quaderno, tazza, luce calda, sfondo sfocato.
+- Camera: piano medio, fuoco sul volto.
 
-Acción:
-- Habla directo a cámara, gesto de “así de simple”.
+Azione:
+- Parla in camera, gesto tipo “è così semplice”.
 
 Audio:
-- Voz en ESPAÑOL, tono honesto y práctico.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono onesto e pratico.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Yo me frenaba por no saber qué decir. Con prompts listos sigo estructura y publico fácil, sin bloquearme."
+Script:
+"Mi bloccavo perché non sapevo cosa dire. Con prompt pronti seguo una struttura e pubblico facile, senza bloccarmi."
 `,
-thumbnail: "/videos/avatar010.gif",
+    thumbnail: "/videos/avatar010.gif",
   },
 
   // =========================
-  // 10 AVATARES VSL (PROFESIONES) — GUIONES CORTOS (8s)
+  // 10 AVATAR VSL (PROFESSIONI) — SCRIPT BREVI (8s)
   // =========================
   {
     id: "video-avatar-prof-01",
-    title: "Doctor/a en consultorio (bata blanca, calmado/a)",
+    title: "Medico/a in ambulatorio (camice bianco, calmo/a)",
     summary:
-      "Avatar médico/a en consultorio, tono tranquilizador y profesional.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar medico in ambulatorio, tono rassicurante e professionale.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin rótulos, sin logos.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente scritte, niente loghi.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [34–50].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: bata blanca, estetoscopio, credencial sin texto legible.
-- Expresión: serena, confiable.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [34–50].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: camice bianco, stetoscopio, badge senza testo leggibile.
+- Espressione: serena, affidabile.
 
-Escena:
-- Consultorio moderno, luz suave, elementos médicos desenfocados.
-- Cámara: plano medio, bokeh, estable.
+Scena:
+- Ambulatorio moderno, luce morbida, elementi medici sfocati.
+- Camera: piano medio, bokeh, stabile.
 
-Acción:
-- Habla directo a cámara, gesto suave con mano.
+Azione:
+- Parla in camera, gesto morbido con la mano.
 
 Audio:
-- Voz en ESPAÑOL, tono calmado y didáctico.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono calmo e didattico.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Así como un protocolo guía al médico, un prompt guía tu contenido: menos dudas, más publicaciones en minutos."
+Script:
+"Come un protocollo guida un medico, un prompt guida i tuoi contenuti: meno dubbi, più post in pochi minuti."
 `,
-thumbnail: "/videos/avatar011.gif",
+    thumbnail: "/videos/avatar011.gif",
   },
   {
     id: "video-avatar-prof-02",
-    title: "Ingeniero/a en obra (casco y chaleco, directo/a)",
+    title: "Ingegnere/a in cantiere (casco e gilet, diretto/a)",
     summary:
-      "Avatar de ingeniería en construcción, metáfora de planos y sistemas.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar ingegneria in costruzione, metafora di piani e sistemi.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto, sin subtítulos, sin overlays.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Niente testo, niente sottotitoli, niente overlay.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [28–45].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: casco, chaleco reflectante, camisa de manga larga.
-- Vibra: práctico/a, orientado/a a resultados.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [28–45].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: casco, gilet riflettente, camicia a maniche lunghe.
+- Vibe: pratico/a, orientato/a ai risultati.
 
-Escena:
-- Obra desenfocada, luz de día, maquinaria al fondo sin detalle.
-- Cámara: plano medio, estable.
+Scena:
+- Cantiere sfocato, luce diurna, macchinari sullo sfondo senza dettagli.
+- Camera: piano medio, stabile.
 
-Acción:
-- Habla a cámara, sostiene carpeta/tablet sin texto.
+Azione:
+- Parla in camera, tiene una cartella/tablet senza testo.
 
 Audio:
-- Voz en ESPAÑOL, tono firme y claro.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono fermo e chiaro.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Sin plano no hay avance. Con prompts listos tienes el plano del contenido: estructura rápida y ejecución inmediata."
+Script:
+"Senza un progetto non si va avanti. Con prompt pronti hai il progetto dei contenuti: struttura rapida ed esecuzione immediata."
 `,
-thumbnail: "/videos/avatar012.gif",
+    thumbnail: "/videos/avatar012.gif",
   },
   {
     id: "video-avatar-prof-03",
-    title: "Abogado/a (oficina, autoridad elegante)",
+    title: "Avvocato/a (ufficio, autorità elegante)",
     summary:
-      "Avatar legal con tono de confianza y claridad, persuasión sobria.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar legale con tono di fiducia e chiarezza, persuasione sobria.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin lower thirds.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente lower thirds.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [28–44].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: blazer oscuro, camisa/blusa clara, formal.
-- Lenguaje corporal: gestos medidos, mirada firme.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [28–44].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: blazer scuro, camicia/blusa chiara, formale.
+- Linguaggio del corpo: gesti misurati, sguardo fermo.
 
-Escena:
-- Oficina jurídica moderna, libros desenfocados, lámpara cálida.
-- Cámara: plano medio, estable.
+Scena:
+- Studio legale moderno, libri sfocati, lampada calda.
+- Camera: piano medio, stabile.
 
-Acción:
-- Habla directo a cámara, asentimiento final.
+Azione:
+- Parla in camera, annuisce alla fine.
 
 Audio:
-- Voz en ESPAÑOL, tono seguro y profesional.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono sicuro e professionale.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Comunicar con intención es clave. Estos prompts te dan la estructura exacta para decir lo correcto, rápido y claro."
+Script:
+"Comunicare con intenzione è fondamentale. Questi prompt ti danno la struttura esatta per dire la cosa giusta, in fretta e con chiarezza."
 `,
-thumbnail: "/videos/avatar013.gif",
+    thumbnail: "/videos/avatar013.gif",
   },
   {
     id: "video-avatar-prof-04",
-    title: "Chef (cocina profesional, energía simpática)",
+    title: "Chef (cucina professionale, energia simpatica)",
     summary:
-      "Avatar chef con metáfora de receta: pasos claros, resultados rápidos.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar chef con metafora della ricetta: passi chiari, risultati rapidi.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto, sin subtítulos, sin overlays.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Niente testo, niente sottotitoli, niente overlay.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [26–40].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: filipina de chef, delantal, gorro o bandana.
-- Energía: cercana, expresiva.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [26–40].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: giacca da chef, grembiule, cappello o bandana.
+- Energia: vicino/a, espressivo/a.
 
-Escena:
-- Cocina profesional, acero, luz brillante, fondo desenfocado.
-- Cámara: plano medio, estable.
+Scena:
+- Cucina professionale, acciaio, luce brillante, sfondo sfocato.
+- Camera: piano medio, stabile.
 
-Acción:
-- Habla a cámara, gesto de “receta” con manos, sonrisa final.
+Azione:
+- Parla in camera, gesto “ricetta” con le mani, sorriso finale.
 
 Audio:
-- Voz en ESPAÑOL, tono enérgico y cercano.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono energico e vicino.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Esto es receta para contenido: copias el prompt, ajustas tu idea… y sirves un post listo en minutos."
+Script:
+"Questa è una ricetta per i contenuti: copi il prompt, adatti la tua idea… e servi un post pronto in pochi minuti."
 `,
-thumbnail: "/videos/avatar014.gif",
+    thumbnail: "/videos/avatar014.gif",
   },
   {
     id: "video-avatar-prof-05",
-    title: "Psicólogo/a (consulta acogedora, empático/a)",
+    title: "Psicologo/a (studio accogliente, empatico/a)",
     summary:
-      "Avatar de psicología: calma, claridad, enfoque en reducir bloqueo y ansiedad.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar psicologia: calma, chiarezza, focus su blocco e ansia.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin banners.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente banner.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [35–55].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: camisa suave + suéter ligero o blazer casual.
-- Expresión: cálida, empática.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [35–55].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: camicia morbida + maglione leggero o blazer casual.
+- Espressione: calda, empatica.
 
-Escena:
-- Consulta acogedora, lámpara cálida, plantas desenfocadas.
-- Cámara: plano medio corto, enfoque en rostro.
+Scena:
+- Studio accogliente, lampada calda, piante sfocate.
+- Camera: piano mezzo busto, fuoco sul volto.
 
-Acción:
-- Habla con calma, microsonrisa, pequeño asentimiento.
+Azione:
+- Parla con calma, micro-sorriso, piccolo cenno con la testa.
 
 Audio:
-- Voz en ESPAÑOL, tono calmado y cercano.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono calmo e vicino.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Si te bloqueas, no es falta de talento: es falta de guía. Un prompt te da dirección y te suelta."
+Script:
+"Se ti blocchi, non è mancanza di talento: è mancanza di guida. Un prompt ti dà direzione e ti sblocca."
 `,
-thumbnail: "/videos/avatar015.gif",
+    thumbnail: "/videos/avatar015.gif",
   },
   {
     id: "video-avatar-prof-06",
-    title: "Entrenador/a fitness (gimnasio, motivador/a)",
+    title: "Trainer fitness (palestra, motivatore/trice)",
     summary:
-      "Avatar coach fitness: rutina, consistencia, energía para ejecutar.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar coach fitness: routine, costanza, energia per eseguire.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto, sin subtítulos, sin overlays.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Niente testo, niente sottotitoli, niente overlay.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [22–34].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: ropa deportiva, look entrenador/a.
-- Energía: motivador/a, seguro/a.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [22–34].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: abbigliamento sportivo, look da trainer.
+- Energia: motivatore/trice, sicuro/a.
 
-Escena:
-- Gimnasio moderno, pesas desenfocadas, luz fría suave.
-- Cámara: plano medio, estable.
+Scena:
+- Palestra moderna, pesi sfocati, luce fredda morbida.
+- Camera: piano medio, stabile.
 
-Acción:
-- Habla como coach, gesto de “vamos” al final.
+Azione:
+- Parla come coach, gesto “andiamo” alla fine.
 
 Audio:
-- Voz en ESPAÑOL, tono enérgico y motivador.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono energico e motivazionale.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Sin rutina no hay progreso. Con prompts tienes rutina de contenido: ejecutas rápido y publicas constante."
+Script:
+"Senza routine non c’è progresso. Con i prompt hai una routine di contenuti: esegui veloce e pubblichi con costanza."
 `,
-thumbnail: "/videos/avatar016.gif",
+    thumbnail: "/videos/avatar016.gif",
   },
   {
     id: "video-avatar-prof-07",
-    title: "Fotógrafo/a (estudio, creativo/a visual)",
+    title: "Fotografo/a (studio, creativo/a visuale)",
     summary:
-      "Avatar fotógrafo/a: enfoque en composición, ideas y guiones listos.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar fotografo: focus su composizione, idee e script pronti.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto, sin subtítulos, sin rótulos.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Niente testo, niente sottotitoli, niente scritte.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [24–38].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: camiseta negra + chaqueta ligera; cámara al cuello.
-- Estilo: creativo/a, tranquilo/a.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [24–38].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: t-shirt nera + giacca leggera; fotocamera al collo.
+- Stile: creativo/a, tranquillo/a.
 
-Escena:
-- Estudio fotográfico, softboxes desenfocados, fondo bokeh.
-- Cámara: plano medio, luz suave.
+Scena:
+- Studio fotografico, softbox sfocati, sfondo bokeh.
+- Camera: piano medio, luce morbida.
 
-Acción:
-- Habla a cámara, levanta la cámara un segundo, sonrisa leve al final.
+Azione:
+- Parla in camera, alza la fotocamera per un secondo, sorriso leggero alla fine.
 
 Audio:
-- Voz en ESPAÑOL, tono creativo y claro.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono creativo e chiaro.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Una buena toma empieza con una buena idea. Estos prompts te dan ganchos y guiones listos para crear."
+Script:
+"Una buona foto inizia da una buona idea. Questi prompt ti danno ganci e script pronti per creare."
 `,
-thumbnail: "/videos/avatar017.gif",
+    thumbnail: "/videos/avatar017.gif",
   },
   {
     id: "video-avatar-prof-08",
-    title: "Programador/a (setup con monitores, enfoque modular)",
+    title: "Programmatore/trice (setup con monitor, approccio modulare)",
     summary:
-      "Avatar dev: plantillas, variables, automatización, creación sin fricción.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar dev: template, variabili, automazione, creazione senza attrito.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin overlays.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente overlay.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [23–35].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: hoodie minimal o camisa sobria.
-- Expresión: precisa, segura.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [23–35].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: hoodie minimal o camicia sobria.
+- Espressione: precisa, sicura.
 
-Escena:
-- Setup tech: monitores desenfocados con UI genérica SIN texto legible, luz LED suave.
-- Cámara: plano medio, estable.
+Scena:
+- Setup tech: monitor sfocati con UI generica SENZA testo leggibile, luce LED morbida.
+- Camera: piano medio, stabile.
 
-Acción:
-- Habla directo, gesto de “módulos/plantillas” con manos.
+Azione:
+- Parla diretto, gesto “moduli/template” con le mani.
 
 Audio:
-- Voz en ESPAÑOL, tono lógico y directo.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono logico e diretto.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Los prompts son plantillas: cambias variables y listo. Así generas contenido rápido, sin repetir trabajo."
+Script:
+"I prompt sono template: cambi le variabili e via. Così generi contenuti in fretta, senza rifare il lavoro."
 `,
-thumbnail: "/videos/avatar018.gif",
+    thumbnail: "/videos/avatar018.gif",
   },
   {
     id: "video-avatar-prof-09",
-    title: "Profesor/a (aula moderna, didáctico/a)",
+    title: "Insegnante (aula moderna, didattico/a)",
     summary:
-      "Avatar docente: método y pasos, claridad y repetición para resultados.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar docente: metodo e passi, chiarezza e ripetizione per risultati.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto ni subtítulos. No mostrar pizarra con letras legibles.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Niente testo né sottotitoli. Non mostrare lavagna con scritte leggibili.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [35–58].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: camisa formal sin corbata + blazer o suéter.
-- Actitud: paciente y clara.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [35–58].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: camicia formale senza cravatta + blazer o maglione.
+- Atteggiamento: paziente e chiaro.
 
-Escena:
-- Aula moderna, pizarra desenfocada (sin texto), luz neutra suave.
-- Cámara: plano medio, estable.
+Scena:
+- Aula moderna, lavagna sfocata (senza testo), luce neutra morbida.
+- Camera: piano medio, stabile.
 
-Acción:
-- Habla a cámara, gesto de “pasos” con dedos (sin números).
+Azione:
+- Parla in camera, gesto “passi” con le dita (senza numeri).
 
 Audio:
-- Voz en ESPAÑOL, tono didáctico.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono didattico.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Cuando tienes proceso, creas más fácil. Un prompt te da estructura y tú solo ejecutas y publicas."
+Script:
+"Quando hai un processo, crei più facilmente. Un prompt ti dà struttura e tu devi solo eseguire e pubblicare."
 `,
-thumbnail: "/videos/avatar019.gif",
+    thumbnail: "/videos/avatar019.gif",
   },
   {
     id: "video-avatar-prof-10",
-    title: "Agente inmobiliario/a (showroom, persuasión amable)",
+    title: "Agente immobiliare (showroom, persuasione gentile)",
     summary:
-      "Avatar ventas suave: guía, muestra, simplifica, ideal para VSL de conversión.",
-    area: "VSL / Avatar hablante",
-    category: "Avatars de IA",
+      "Avatar vendite soft: guida, mostra, semplifica, ideale per VSL conversione.",
+    area: "VSL / Avatar parlante",
+    category: "Avatar IA",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, con audio y lip sync PERFECTO.
-IMPORTANTE: Sin texto en pantalla, sin subtítulos, sin rótulos, sin logos.
+Genera un video di 8 secondi, 16:9 orizzontale, con audio e lip sync PERFETTO.
+IMPORTANTE: Nessun testo sullo schermo, niente sottotitoli, niente scritte, niente loghi.
 
-Personaje (avatar):
-- Género: [hombre o mujer].
-- Edad: [27–45].
-- Tono de piel: [clara / morena / negra / oliva].
-- Outfit: blazer claro o atuendo formal sobrio.
-- Actitud: amable, convincente.
+Personaggio (avatar):
+- Genere: [uomo o donna].
+- Età: [27–45].
+- Carnagione: [chiara / scura / nera / olivastra].
+- Outfit: blazer chiaro o abbigliamento formale sobrio.
+- Atteggiamento: gentile, convincente.
 
-Escena:
-- Departamento modelo/showroom, decoración moderna, luz natural, fondo desenfocado.
-- Cámara: plano medio, estable.
+Scena:
+- Appartamento campione/showroom, arredamento moderno, luce naturale, sfondo sfocato.
+- Camera: piano medio, stabile.
 
-Acción:
-- Habla directo, gesto de mano abierta “te lo muestro fácil”.
+Azione:
+- Parla in camera, gesto con mano aperta “te lo mostro in modo semplice”.
 
 Audio:
-- Voz en ESPAÑOL, tono amable y persuasivo.
-- Lip sync PERFECTO.
-- Debe pronunciar EXACTAMENTE:
+- Voce in ITALIANO, tono gentile e persuasivo.
+- Lip sync PERFETTO.
+- Deve pronunciare ESATTAMENTE:
 
-Guion:
-"Para vender necesitas claridad. Estos prompts te dicen qué decir y en qué orden… y publicas sin trabarte."
+Script:
+"Per vendere serve chiarezza. Questi prompt ti dicono cosa dire e in che ordine… e pubblichi senza bloccarti."
 `,
-thumbnail: "/videos/avatar020.gif",
+    thumbnail: "/videos/avatar020.gif",
   },
 ];

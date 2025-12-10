@@ -3,274 +3,274 @@
 export const videoPromptsReelsViralesNegocio = [
   {
     id: "video-viral-mixto-01",
-    title: "Perro jefe regañando a su humano",
+    title: "Cane capo che rimprovera il suo umano",
     summary:
-      "Un perro sentado como jefe de oficina, hablando a cámara y regañando a su humano por procrastinar.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Un cane seduto come capo ufficio, parla in camera e rimprovera il suo umano perché procrastina.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo en formato horizontal 16:9 de máximo 8 segundos, con audio y lipsync perfecto.
+Genera un video in formato orizzontale 16:9 di massimo 8 secondi, con audio e lip sync perfetto.
 
-Escena:
-- Un perro mediano, tipo mestizo o labrador, sentado en una silla de oficina detrás de un escritorio.
-- Sobre el escritorio hay un portátil abierto, una libreta y una taza.
-- El perro está centrado en el encuadre, como si fuera el jefe en una reunión.
-- Fondo: oficina casera sencilla, con una planta y un cuadro desenfocado.
-- El perro mueve ligeramente la cabeza y la boca mientras habla, mirando directamente a cámara.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Un cane di taglia media, tipo meticcio o labrador, seduto su una sedia da ufficio dietro una scrivania.
+- Sulla scrivania ci sono un laptop aperto, un quaderno e una tazza.
+- Il cane è centrato nell’inquadratura, come se fosse il capo in una riunione.
+- Sfondo: ufficio in casa semplice, con una pianta e un quadro sfocato.
+- Il cane muove leggermente la testa e la bocca mentre parla, guardando direttamente in camera.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono serio pero cómico.
-- Asegura sincronización labial PERFECTA (lip sync) con el siguiente guion.
-- El personaje debe pronunciar exactamente este texto, sin añadir ni quitar palabras.
+Requisiti audio:
+- Voce in ITALIANO, tono serio ma comico.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il seguente copione.
+- Il personaggio deve pronunciare esattamente questo testo, senza aggiungere o togliere parole.
 
-Guion hablado en español:
-"Deja de scrollear, humano. Si tú no trabajas, ¿quién paga mis croquetas premium?"
+Copione parlato in italiano:
+"Smettila di scrollare, umano. Se tu non lavori, chi mi paga le crocchette premium?"
 `,
     thumbnail: "/videos/vids001.gif",
   },
   {
     id: "video-viral-mixto-02",
-    title: "Gato influencer dando consejo absurdo",
+    title: "Gatto influencer che dà un consiglio assurdo",
     summary:
-      "Un gato frente a la cámara dando un consejo “profesional” totalmente ridículo, como si fuera experto.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Un gatto davanti alla camera dà un consiglio “professionale” totalmente ridicolo, come se fosse un esperto.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo cinematográfico de máximo 8 segundos, formato horizontal 16:9, con audio y lipsync perfecto.
+Genera un video cinematografico di massimo 8 secondi, formato orizzontale 16:9, con audio e lip sync perfetto.
 
-Escena:
-- Un gato sentado sobre un escritorio, justo frente a la cámara, como si estuviera grabando un tutorial.
-- A los lados se ven un portátil cerrado, una planta y una pequeña luz de escritorio.
-- El gato mira fijamente a la cámara y mueve la boca como si hablara.
-- De vez en cuando parpadea con aire de “experto”.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Un gatto seduto su una scrivania, proprio davanti alla camera, come se stesse registrando un tutorial.
+- Ai lati si vedono un laptop chiuso, una pianta e una piccola lampada da scrivania.
+- Il gatto fissa la camera e muove la bocca come se parlasse.
+- Ogni tanto sbatte le palpebre con aria da “esperto”.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono serio irónico, como falso gurú.
-- Asegura sincronización labial PERFECTA (lip sync) con el guion.
-- El gato debe decir exactamente lo siguiente:
+Requisiti audio:
+- Voce in ITALIANO, tono serio-ironico, da finto guru.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il copione.
+- Il gatto deve dire esattamente quanto segue:
 
-Guion hablado en español:
-"Mi secreto de productividad es simple: dormir dieciséis horas al día y fingir que trabajo."
+Copione parlato in italiano:
+"Il mio segreto di produttività è semplice: dormire sedici ore al giorno e fingere che sto lavorando."
 `,
     thumbnail: "/videos/vids002.gif",
   },
   {
     id: "video-viral-mixto-03",
-    title: "Bebé regañando a adulto desvelado",
+    title: "Bebè che rimprovera un adulto che fa tardi",
     summary:
-      "Un bebé sentado en la cuna mirando a cámara y reclamando que el adulto no duerme lo suficiente.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Un bebè seduto nella culla guarda in camera e si lamenta perché l’adulto non dorme abbastanza.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo en formato 16:9 horizontal de máximo 8 segundos, con audio y lipsync perfecto.
+Genera un video in formato 16:9 orizzontale di massimo 8 secondi, con audio e lip sync perfetto.
 
-Escena:
-- Un bebé sentado en una cuna, agarrado a la barandilla, mirando directamente a la cámara.
-- Luz tenue de noche, lámpara cálida encendida al fondo.
-- El bebé mueve la boca y gesticula como si estuviera sermoneando a alguien.
-- De fondo se ve una habitación sencilla, quizá con un peluche en la cuna.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Un bebè seduto in una culla, aggrappato alla sponda, che guarda direttamente in camera.
+- Luce tenue notturna, lampada calda accesa sullo sfondo.
+- Il bebè muove la bocca e gesticola come se stesse facendo la predica a qualcuno.
+- Sullo sfondo si vede una stanza semplice, magari con un peluche nella culla.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, suena como bebé “doblado” de forma cómica (tono infantil pero claro).
-- Asegura sincronización labial PERFECTA (lip sync) con el siguiente guion.
-- El bebé debe pronunciar exactamente este texto:
+Requisiti audio:
+- Voce in ITALIANO, suona come un bebè “doppiato” in modo comico (tono infantile ma chiaro).
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il seguente copione.
+- Il bebè deve pronunciare esattamente questo testo:
 
-Guion hablado en español:
-"Soy un bebé y duermo mejor que tú. Apaga el móvil y vete a la cama, por favor."
+Copione parlato in italiano:
+"Sono un bebè e dormo meglio di te. Spegni il telefono e vai a letto, per favore."
 `,
     thumbnail: "/videos/vids003.gif",
   },
   {
     id: "video-viral-mixto-04",
-    title: "Planta de escritorio reclamando agua",
+    title: "Pianta da scrivania che reclama acqua",
     summary:
-      "Una planta en una maceta habla a cámara y se queja dramáticamente de que nadie la riega.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Una pianta in vaso parla in camera e si lamenta in modo drammatico perché nessuno la innaffia.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo de máximo 8 segundos, horizontal 16:9, con audio y lipsync perfecto.
+Genera un video di massimo 8 secondi, orizzontale 16:9, con audio e lip sync perfetto.
 
-Escena:
-- Primer plano de una planta de escritorio en una maceta sobre una mesa.
-- Fondo: portátil desenfocado, algunos papeles y una taza.
-- La planta se mueve ligeramente, como si sus hojas acompañaran el discurso.
-- La “boca” se sugiere en el centro de la planta o en el tallo, animada para sincronizar con la voz.
-- Luz de día suave entrando por una ventana cercana.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Primo piano di una pianta da scrivania in un vaso sopra un tavolo.
+- Sfondo: laptop sfocato, alcuni fogli e una tazza.
+- La pianta si muove leggermente, come se le foglie accompagnassero il discorso.
+- La “bocca” è suggerita al centro della pianta o sullo stelo, animata per sincronizzarsi con la voce.
+- Luce diurna morbida che entra da una finestra vicina.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono dramático y exagerado.
-- Asegura sincronización labial PERFECTA (lip sync) con el guion.
-- La planta debe pronunciar exactamente este texto:
+Requisiti audio:
+- Voce in ITALIANO, tono drammatico ed esagerato.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il copione.
+- La pianta deve pronunciare esattamente questo testo:
 
-Guion hablado en español:
-"Solo paso a recordar que llevo tres días sin agua y aún así sigo más vivo que tú los lunes."
+Copione parlato in italiano:
+"Sono qui solo per ricordarti che sono tre giorni che non bevo, eppure sono più vivo di te il lunedì."
 `,
     thumbnail: "/videos/vids004.gif",
   },
   {
     id: "video-viral-mixto-05",
-    title: "Laptop quejándose de las pestañas abiertas",
+    title: "Laptop che si lamenta delle schede aperte",
     summary:
-      "Un portátil habla a cámara y se queja de las cien pestañas abiertas como si tuviera dolor de cabeza.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Un laptop parla in camera e si lamenta delle cento schede aperte come se avesse mal di testa.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo horizontal 16:9 de máximo 8 segundos, con audio y lipsync perfecto.
+Genera un video orizzontale 16:9 di massimo 8 secondi, con audio e lip sync perfetto.
 
-Escena:
-- Plano medio de un portátil abierto sobre un escritorio.
-- En la pantalla se insinúan muchas ventanas y pestañas abiertas, pero sin texto legible.
-- La “boca” aparece animada en la parte inferior de la pantalla, moviéndose al hablar.
-- Los ventiladores suenan ligeramente, como si el portátil estuviera forzado.
-- Fondo: habitación sencilla, algo de desorden, luz neutra.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Piano medio di un laptop aperto su una scrivania.
+- Sullo schermo si intuiscono molte finestre e schede aperte, ma senza testo leggibile.
+- La “bocca” appare animata nella parte bassa dello schermo, muovendosi mentre parla.
+- Le ventole si sentono leggermente, come se il laptop fosse sotto sforzo.
+- Sfondo: stanza semplice, un po’ in disordine, luce neutra.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono cansado y sarcástico.
-- Asegura sincronización labial PERFECTA (lip sync) con el siguiente guion.
-- El portátil debe pronunciar exactamente este texto:
+Requisiti audio:
+- Voce in ITALIANO, tono stanco e sarcastico.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il seguente copione.
+- Il laptop deve pronunciare esattamente questo testo:
 
-Guion hablado en español:
-"No son ideas, son cien pestañas. Cierra algo o me voy a apagar por pura dignidad."
+Copione parlato in italiano:
+"Non sono idee, sono cento schede. Chiudine una o mi spengo per pura dignità."
 `,
     thumbnail: "/videos/vids005.gif",
   },
   {
     id: "video-viral-mixto-06",
-    title: "Taza de café dando discurso motivacional",
+    title: "Tazza di caffè che fa un discorso motivazionale",
     summary:
-      "Una taza de café habla directo a cámara como un coach de vida exagerado.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Una tazza di caffè parla in camera come un coach di vita esagerato.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo de máximo 8 segundos, formato horizontal 16:9, con audio y lipsync perfecto.
+Genera un video di massimo 8 secondi, formato orizzontale 16:9, con audio e lip sync perfetto.
 
-Escena:
-- Primer plano de una taza de café humeante sobre la mesa.
-- El fondo está desenfocado: se intuye un portátil y una libreta.
-- La taza tiene una cara animada minimalista que mueve la boca mientras habla.
-- El vapor sube suavemente durante todo el clip.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Primo piano di una tazza di caffè fumante sul tavolo.
+- Lo sfondo è sfocato: si intuiscono un laptop e un quaderno.
+- La tazza ha una faccina animata minimalista che muove la bocca mentre parla.
+- Il vapore sale dolcemente per tutta la durata del clip.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono intenso y motivacional, casi de coach.
-- Asegura sincronización labial PERFECTA (lip sync) con el guion.
-- La taza debe decir exactamente lo siguiente:
+Requisiti audio:
+- Voce in ITALIANO, tono intenso e motivazionale, quasi da coach.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il copione.
+- La tazza deve dire esattamente quanto segue:
 
-Guion hablado en español:
-"No te rindas ahora, humano. Ya me tomaste, así que mínimo haz algo épico hoy."
+Copione parlato in italiano:
+"Non mollare adesso, umano. Mi hai già bevuto, quindi almeno oggi fai qualcosa di epico."
 `,
     thumbnail: "/videos/vids006.gif",
   },
   {
     id: "video-viral-mixto-07",
-    title: "Perro celoso del celular",
+    title: "Cane geloso del cellulare",
     summary:
-      "Un perro mira a cámara y reclama que su humano mira más el móvil que a él.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Un cane guarda in camera e si lamenta perché il suo umano guarda più il telefono che lui.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo de máximo 8 segundos, horizontal 16:9, con audio y lipsync perfecto.
+Genera un video di massimo 8 secondi, orizzontale 16:9, con audio e lip sync perfetto.
 
-Escena:
-- Plano medio de un perro en un sofá, al lado de una persona cuyo rostro casi no se ve, solo el brazo con el móvil.
-- El perro mira primero al móvil con cara de celos y luego a la cámara.
-- El perro mueve la boca mientras habla; la persona sigue usando el móvil distraída.
-- Fondo: salón acogedor, manta, cojines.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Piano medio di un cane sul divano, accanto a una persona di cui si vede appena il volto: solo il braccio con il telefono.
+- Il cane guarda prima il telefono con faccia gelosa e poi la camera.
+- Il cane muove la bocca mentre parla; la persona continua a usare il telefono distratta.
+- Sfondo: salotto accogliente, coperta e cuscini.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono dolido pero gracioso.
-- Asegura sincronización labial PERFECTA (lip sync) con el guion.
-- El perro debe pronunciar exactamente este texto:
+Requisiti audio:
+- Voce in ITALIANO, tono ferito ma divertente.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il copione.
+- Il cane deve pronunciare esattamente questo testo:
 
-Guion hablado en español:
-"Solo pregunto: ¿yo ladro poco o ese celular es más interesante que mi carita?"
+Copione parlato in italiano:
+"Chiedo solo: io abbaio poco o quel telefono è più interessante della mia faccina?"
 `,
     thumbnail: "/videos/vids007.gif",
   },
   {
     id: "video-viral-mixto-08",
-    title: "Refrigerador cansado de que lo abran cada cinco minutos",
+    title: "Frigorifero stanco di essere aperto ogni cinque minuti",
     summary:
-      "Una nevera habla a cámara quejándose de que la abren sin saber qué quieren comer.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Un frigorifero parla in camera lamentandosi perché lo aprono senza sapere cosa vogliono mangiare.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo de máximo 8 segundos, formato horizontal 16:9, con audio y lipsync perfecto.
+Genera un video di massimo 8 secondi, formato orizzontale 16:9, con audio e lip sync perfetto.
 
-Escena:
-- Plano desde dentro del refrigerador mirando hacia afuera.
-- Se ven estantes con comida y bebidas; la puerta se abre y aparece la cara de una persona mirando indecisa.
-- Mientras la puerta está abierta, se escucha la voz del propio refrigerador.
-- La “boca” del refrigerador se sugiere en el borde interno de la puerta, moviéndose al hablar.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Inquadratura dall’interno del frigorifero verso l’esterno.
+- Si vedono ripiani con cibo e bevande; la porta si apre e appare il volto di una persona indecisa.
+- Mentre la porta è aperta, si sente la voce del frigorifero.
+- La “bocca” del frigorifero è suggerita sul bordo interno della porta, muovendosi mentre parla.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono pasivo-agresivo cómico.
-- Asegura sincronización labial PERFECTA (lip sync) con el guion.
-- El refrigerador debe decir exactamente lo siguiente:
+Requisiti audio:
+- Voce in ITALIANO, tono passivo-aggressivo comico.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il copione.
+- Il frigorifero deve dire esattamente quanto segue:
 
-Guion hablado en español:
-"No hay comida nueva desde ayer, solo dudas nuevas. Ciérrame y toma agua, campeón."
+Copione parlato in italiano:
+"Non c’è cibo nuovo da ieri, solo dubbi nuovi. Chiudimi e bevi un po’ d’acqua, campione."
 `,
     thumbnail: "/videos/vids008.gif",
   },
   {
     id: "video-viral-mixto-09",
-    title: "Gato jefe de seguridad de la casa",
+    title: "Gatto capo della sicurezza di casa",
     summary:
-      "Un gato mira por la ventana como guardia y presume que vigila todo, pero en realidad se distrae.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Un gatto guarda dalla finestra come una guardia e si vanta di controllare tutto, ma in realtà si distrae.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo de máximo 8 segundos, horizontal 16:9, con audio y lipsync perfecto.
+Genera un video di massimo 8 secondi, orizzontale 16:9, con audio e lip sync perfetto.
 
-Escena:
-- Plano medio de un gato sentado en el alféizar de una ventana, mirando hacia afuera con pose muy seria.
-- De fondo se ve un vecindario o edificios desenfocados.
-- El gato mueve la cabeza lentamente, como vigilando, y luego mira a cámara.
-- Cuando mira a cámara, abre la boca y habla.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Piano medio di un gatto seduto sul davanzale di una finestra, che guarda fuori con posa super seria.
+- Sullo sfondo si vede un quartiere o edifici sfocati.
+- Il gatto muove lentamente la testa, come se stesse vigilando, poi guarda in camera.
+- Quando guarda in camera, apre la bocca e parla.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono orgulloso y gracioso.
-- Asegura sincronización labial PERFECTA (lip sync) con el guion.
-- El gato debe pronunciar exactamente este texto:
+Requisiti audio:
+- Voce in ITALIANO, tono orgoglioso e divertente.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il copione.
+- Il gatto deve pronunciare esattamente questo testo:
 
-Guion hablado en español:
-"Yo no soy mascota, soy jefe de seguridad. Cualquier hoja que se mueva será investigada."
+Copione parlato in italiano:
+"Io non sono un animale domestico, sono il capo della sicurezza. Qualsiasi foglia che si muove verrà investigata."
 `,
     thumbnail: "/videos/vids0090.gif",
   },
   {
     id: "video-viral-mixto-10",
-    title: "Almohada quejándose del horario de sueño",
+    title: "Cuscino che si lamenta degli orari di sonno",
     summary:
-      "Una almohada habla a cámara y se queja de que solo la usan de madrugada.",
-    area: "Humor / Viral",
-    category: "Videos Virales",
+      "Un cuscino parla in camera e si lamenta perché lo usano solo nel cuore della notte.",
+    area: "Umorismo / Virale",
+    category: "Video Virali",
     prompt: `
-Genera un vídeo de máximo 8 segundos, formato horizontal 16:9, con audio y lipsync perfecto.
+Genera un video di massimo 8 secondi, formato orizzontale 16:9, con audio e lip sync perfetto.
 
-Escena:
-- Primer plano de una almohada sobre una cama desordenada.
-- Luz tenue, como de madrugada, entra un poco desde la ventana.
-- La almohada tiene una cara animada muy simple que mueve la boca al hablar.
-- Al fondo se ve una persona con ojeras mirando el móvil, desenfocada.
-- SIN texto ni subtítulos en pantalla.
+Scena:
+- Primo piano di un cuscino su un letto in disordine.
+- Luce tenue, come all’alba/notte fonda, entra leggermente dalla finestra.
+- Il cuscino ha una faccina animata molto semplice che muove la bocca mentre parla.
+- Sullo sfondo si vede una persona con occhiaie che guarda il telefono, sfocata.
+- NIENTE testo né sottotitoli sullo schermo.
 
-Requisitos de audio:
-- Voz en ESPAÑOL, tono cansado y sarcástico.
-- Asegura sincronización labial PERFECTA (lip sync) con el siguiente guion.
-- La almohada debe decir exactamente este texto:
+Requisiti audio:
+- Voce in ITALIANO, tono stanco e sarcastico.
+- Assicura sincronizzazione labiale PERFETTA (lip sync) con il seguente copione.
+- Il cuscino deve dire esattamente questo testo:
 
-Guion hablado en español:
-"Me compras suave y caro, pero solo me visitas a las tres de la mañana, qué falta de respeto."
+Copione parlato in italiano:
+"Mi compri morbido e caro, ma mi vieni a trovare solo alle tre di notte: che mancanza di rispetto."
 `,
     thumbnail: "/videos/vids010.gif",
   },

@@ -1,733 +1,732 @@
 export const textPromptsRedesContenidoAutoridad = [
-  {
-    id: "redes-autoridad-001",
-    title: "Post de autoridad basado en experiencia real",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona autoridad contando una experiencia profesional clave.",
-    prompt: `Dame:
-- Tema.
-- Experiencia que viviste.
-- Resultado que obtuviste.
+{
+  id: "redes-autoridad-001",
+  title: "Posto Autorità basato su esperienza reale",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "L'autorità di posizione contando un'esperienza professionale chiave.",
+  prompt: `Dammi...
+- Soggetto.
+- Esperienza che hai vissuto.
+- Risultato.
 
 Genera:
-1) Hook que muestre autoridad.
-2) Explicación de la experiencia.
-3) Lecciones aprendidas.
-4) Cómo aplicarlas hoy.
-5) CTA profesional.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-002",
-    title: "Contenido tipo ‘lo que aprendí en X años trabajando en…’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Post potente que demuestra trayectoria real.",
-    prompt: `Dame:
+1) Uncino per mostrare autorità.
+2) Spiegazione dell'esperienza.
+3) Lezioni imparate.
+4) Come applicarli oggi.
+5) CTA professionale.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-002",
+  title: "Tipo contenuto 'cosa ho imparato in X anni lavorando su... '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posto potente che mostra vera traiettoria.",
+  prompt: `Dammi...
 - Industria.
-- Años de experiencia.
-- Rol desempeñado.
+- Anni di esperienza.
+- Rol ha giocato.
 
 Genera:
-1) Lista de 5–10 aprendizajes clave.
-2) Insight exclusivo.
-3) Error común que solo un experto detecta.
-4) Conclusión con autoridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-003",
-    title: "Post de autoridad basado en resultados comprobables",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Ideal para mostrar credenciales reales sin sonar arrogante.",
-    prompt: `Dame:
-- Logro o métrica.
-- Contexto.
-- Impacto real.
+1) Lista di 5-10 apprendimento chiave.
+2) Insight esclusivo.
+3) Errore comune che solo un esperto rileva.
+(4) Conclusione con autorità.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-003",
+  title: "Posto dell'autorità basato su risultati verificabili",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Ideale per mostrare vere credenziali senza suono arrogante.",
+  prompt: `Dammi...
+- Ottimizzazione o metrica.
+- Contesto.
+- Un vero impatto.
 
 Genera:
-1) Presentación del resultado.
-2) Desglose de cómo lo lograste.
-3) Insight técnico.
-4) Lección para el lector.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-004",
-    title: "Contenido tipo ‘errores que solo los expertos evitan’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra conocimiento avanzado sin presumir.",
-    prompt: `Dame:
-- Tema.
-- Público.
-- Tipo de error común.
+1) Presentazione del risultato.
+2) Ripartizione di come l'hai fatto.
+3) Insight tecnico.
+4) Lezione per il lettore.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-004",
+  title: "Tipo contenuto 'errori solo esperti evitare '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra conoscenze avanzate senza vantarsi.",
+  prompt: `Dammi...
+- Soggetto.
+- Pubblico.
+- Tipo di errore comune.
 
 Genera:
-1) 5 errores que un experto jamás comete.
-2) Explicación avanzada.
-3) Cómo evitarlos.
-4) Cierre con autoridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-005",
-    title: "Framework propio para posicionarte como referente",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Crea tu propio método para destacar instantáneamente.",
-    prompt: `Dame:
-- Tema.
-- Enfoque único.
-- Resultado que logras para clientes.
+1) 5 errori che un esperto non fa mai.
+2) spiegazione avanzata.
+3) Come evitarli.
+4) Chiudere con autorità.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-005",
+  title: "Quadro proprio per posizionarti come riferimento",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Crea il tuo metodo per distinguerti immediatamente.",
+  prompt: `Dammi...
+- Soggetto.
+- Un approccio da un lato.
+- Risultato per i clienti.
 
 Genera:
-1) Framework con nombre.
-2) Explicación de cada pilar.
-3) Cómo aplicarlo.
-4) Ejemplo real.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-006",
-    title: "Post educativo estilo ‘esto es lo que hacen los mejores…’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona haciendo referencia a prácticas de élite.",
-    prompt: `Dame:
-- Tema.
-- Nivel del público.
-- Resultado profesional esperado.
+1) Quadro con nome.
+2) Spiegazione di ogni pilastro.
+3) Come applicarlo.
+(4) Esempio reale.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-006",
+  title: "Post-educativo stile 'questo è ciò che il migliore... '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posizionamento facendo riferimento alle pratiche elite.",
+  prompt: `Dammi...
+- Soggetto.
+- A livello pubblico.
+- Risultato professionale previsto.
 
 Genera:
-1) Lista de comportamientos de élite.
-2) Descripción profunda.
-3) Aplicación práctica.
-4) Insight adicional para expertos.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-007",
-    title: "Contenido de autoridad basado en predicciones del mercado",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona como alguien con visión estratégica.",
-    prompt: `Dame:
+1) Elenco dei comportamenti d'elite.
+2) Descrizione profonda.
+(3) Realizzazione pratica.
+(4) Input di esperti aggiuntivi.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-007",
+  title: "Contenuto dell'autorità basato sulle previsioni di mercato",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posizionamento come qualcuno con visione strategica.",
+  prompt: `Dammi...
 - Industria.
-- Cambio que estás viendo.
-- Impacto potencial.
+- Cambiati.
+- Potenziale impatto.
 
 Genera:
-1) Predicción fundamentada.
-2) Señales actuales del mercado.
-3) Cómo prepararse.
-4) ¿Qué significa para el lector experto?`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-008",
-    title: "Post estilo ‘si volviera a empezar desde cero…’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra expertise al enseñar el camino optimizado.",
-    prompt: `Dame:
-- Tema.
-- Contexto.
-- Público objetivo.
+1) Previsione motivata.
+2) Segnali di mercato attuali.
+3) Come prepararsi.
+4) Che cosa significa per il lettore esperto?`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-008",
+  title: "Post-style 'se inizio da zero... '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra le competenze insegnando il percorso ottimizzato.",
+  prompt: `Dammi...
+- Soggetto.
+- Contesto.
+- Al pubblico.
 
 Genera:
-1) Lo que harías primero.
-2) Qué evitarías.
-3) Acciones de alto retorno.
-4) Consejos para acelerar resultados.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-009",
-    title:
-      "Contenido de autoridad basado en comparación experto vs principiante",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Deja clara la diferencia entre novatos y expertos.",
-    prompt: `Dame:
-- Tema.
-- Comportamiento típico del principiante.
-- Comportamiento del experto.
+1) Cosa faresti prima.
+2) Che cosa eviteresti.
+3) Azioni ad alto rendimento.
+4) Suggerimenti per accelerare i risultati.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-009",
+  title:
+  "Contenuto dell'autorità basato su confronto esperto vs principiante",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Fa capire la differenza tra i novizi e gli esperti.",
+  prompt: `Dammi...
+- Soggetto.
+- Comportamento tipico del principiante.
+- Comportamento esperto.
 
 Genera:
-1) Comparación clara.
-2) Explicación profunda.
-3) Ejemplo aplicado.
-4) Lección final.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-010",
-    title: "Post basado en casos reales de éxito (sin revelar datos sensibles)",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra resultados reales sin caer en cifras vacías.",
-    prompt: `Dame:
-- Caso real.
-- Objetivo del cliente.
-- Resultado obtenido.
+(1) Confronto chiaro.
+2) spiegazione profonda.
+3) Esempio applicato.
+4) lezione finale.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-010",
+  title: "Post basato su casi di successo reali (senza rivelare dati sensibili)",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra risultati reali senza cadere in cifre vuote.",
+  prompt: `Dammi...
+- Un vero caso.
+- Obiettivo del cliente.
+- Risultato ottenuto.
 
 Genera:
-1) Historia breve.
-2) Qué se hizo diferente.
-3) Insight profesional.
-4) Aprendizaje para el lector.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-011",
-    title: "Contenido tipo ‘verdades incómodas que solo los expertos aceptan’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona autoridad diciendo lo que otros no dicen.",
-    prompt: `Dame:
-- Tema.
-- Verdad incómoda.
-- Por qué la mayoría la evita.
+1) Breve storia.
+2) Ciò che è diventato diverso.
+(3) Intuizione professionale.
+4) Imparare per il lettore.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-011",
+  title: "Tipo di contenuto 'verità scomode che solo gli esperti accettano '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posizionare l'autorità dicendo ciò che gli altri non dicono.",
+  prompt: `Dammi...
+- Soggetto.
+- Verità scomoda.
+- Perché la maggior parte di loro lo evita.
 
 Genera:
-1) Hook poderoso.
-2) Explicación.
-3) Consecuencia de ignorarla.
-4) Acción experta.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-012",
-    title: "Mini masterclass de autoridad en un solo post",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Post corto, pero de conocimiento profundo.",
-    prompt: `Dame:
-- Tema.
-- Público.
-- Nivel de complejidad.
+1) Uncino potente.
+2) Spiegazione.
+(3) La conseguenza di ignorarla.
+4) Azione esperto.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-012",
+  title: "Mini master class authority in un solo post",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Post breve, ma di profonda conoscenza.",
+  prompt: `Dammi...
+- Soggetto.
+- Pubblico.
+- Livello di complessità.
 
 Genera:
-1) Idea clave.
-2) Explicación técnica.
-3) Ejemplo avanzado.
-4) Insight final.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-013",
-    title:
-      "Post basado en decisiones estratégicas que solo un experto entiende",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona mostrando tu criterio estratégico.",
-    prompt: `Dame:
-- Tema.
-- Decisión compleja.
-- Objetivo estratégico.
+1) Idea chiave.
+2) spiegazione tecnica.
+(3) Esempio avanzato.
+4) Insight finale.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-013",
+  title:
+  "Post basato su decisioni strategiche che solo un esperto capisce",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posizione mostrando il vostro approccio strategico.",
+  prompt: `Dammi...
+- Soggetto.
+- Decisione complessa.
+- Obiettivo strategico.
 
 Genera:
-1) Explicación de la decisión.
-2) Por qué es la mejor opción.
-3) Qué haría un principiante.
-4) Qué haría un experto.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-014",
-    title: "Contenido de autoridad basado en frameworks profesionales",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Comparte métodos de trabajo avanzados.",
-    prompt: `Dame:
-- Tema.
-- Metodología profesional.
-- Público objetivo.
+(1) Spiegazione della decisione.
+2) Perché è l'opzione migliore.
+3) Che cosa farebbe un principiante?
+4) Che cosa farebbe un esperto.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-014",
+  title: "Contenuto dell'autorità basata su quadri professionali",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Condivide metodi di lavoro avanzati.",
+  prompt: `Dammi...
+- Soggetto.
+- Metodologia professionale.
+- Al pubblico.
 
 Genera:
-1) Framework explicado.
-2) Uso real.
-3) Error al mal aplicarlo.
-4) Recomendación experta.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-015",
-    title: "Post estilo ‘cómo piensa un experto cuando analiza X’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra tu proceso mental estratégico.",
-    prompt: `Dame:
-- Tema.
-- Contexto.
-- Qué debe analizarse.
+1) Quadro spiegato.
+(2) Uso reale.
+3) sbagliato ad applicarlo.
+4) Raccomandazione esperto.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-015",
+  title: "Post-style 'come un esperto pensa quando analizza X'",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra il tuo processo mentale strategico.",
+  prompt: `Dammi...
+- Soggetto.
+- Contesto.
+- No. Che cosa dovrebbe essere analizzato.
 
 Genera:
-1) Proceso mental del experto.
-2) Desglose del análisis.
-3) Variables que un principiante ignora.
-4) Conclusión poderosa.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-016",
-    title: "Contenido de autoridad para romper mitos profesionales",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Aclara verdades con precisión experta.",
-    prompt: `Dame:
-- Tema.
-- Mito común.
-- Verdad profesional.
+1) Processo mentale esperto.
+2) Ripartizione dell'analisi.
+3) Variabili che un principiante ignora.
+(4) Potente conclusione.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-016",
+  title: "Contenuto di autorità per rompere i miti professionali",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Chiarire le verità con precisione esperta.",
+  prompt: `Dammi...
+- Soggetto.
+- Mito comune.
+- Verità professionale.
 
 Genera:
-1) Explicación clara.
-2) Ejemplo técnico.
-3) Consecuencia de aplicar mal el mito.
-4) Recomendación experta.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-017",
-    title: "Post de autoridad basado en metodología propia de evaluación",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Crea un sistema único para evaluar algo dentro de tu industria.",
-    prompt: `Dame:
-- Tema.
-- Criterios relevantes.
-- Público.
+(1) Cancella spiegazione.
+2) Esempio tecnico.
+3) La conseguenza di abusare del mito.
+4) Raccomandazione esperto.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-017",
+  title: "Posto dell'autorità basato sulla propria metodologia di valutazione",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Crea un sistema unico per valutare qualcosa all'interno del tuo settore.",
+  prompt: `Dammi...
+- Soggetto.
+- Criteri rilevanti.
+- Pubblico.
 
 Genera:
-1) Método de evaluación propio.
-2) Cómo aplicarlo.
-3) Ejemplo real.
-4) Interpretación avanzada.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-018",
-    title: "Contenido de autoridad tipo ‘antes pensaba X, ahora pienso Y’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra evolución profesional y madurez intelectual.",
-    prompt: `Dame:
-- Tema.
-- Creencia pasada.
-- Nueva perspectiva.
+1) Metodo di autovalutazione.
+2) Come applicarlo.
+(3) Esempio reale.
+4) Interpretazione avanzata.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-018",
+  title: "Digitare il contenuto dell'autorità prima che pensassi X, ora penso Y'",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra l'evoluzione professionale e la maturità intellettuale.",
+  prompt: `Dammi...
+- Soggetto.
+- La fede passata.
+- Nuova prospettiva.
 
 Genera:
-1) Antes (creencia errónea).
-2) Después (perspectiva experta).
-3) Insight fuerte.
-4) Acción aplicable.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-019",
-    title: "Post tipo ‘esto es lo que realmente importa si quieres dominar X’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Elimina ruido y apunta a lo esencial de un experto.",
-    prompt: `Dame:
-- Tema.
-- Objetivo del lector.
+1) Prima (misbelief).
+2) Allora (prospettiva esatta).
+3) Forte visione.
+(4) Azione applicabile.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-019",
+  title: "Post type 'questo è ciò che conta davvero se si desidera master X'",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Elimina il rumore e i punti agli elementi essenziali di un esperto.",
+  prompt: `Dammi...
+- Soggetto.
+- L'obiettivo del lettore.
 
 Genera:
-1) 3–5 factores esenciales.
-2) Explicación profunda.
-3) Cómo priorizarlos.
-4) Ejemplo aplicado.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-020",
-    title: "Contenido de autoridad basado en análisis de tendencias profundas",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Análisis técnico que demuestra pensamiento avanzado.",
-    prompt: `Dame:
-- Tendencia.
+1) 3-5 fattori essenziali.
+2) spiegazione profonda.
+3) Come priorità.
+4) Esempio applicato.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-020",
+  title: "Contenuto dell'autorità basato sull'analisi di tendenza profonda",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Analisi tecnica che mostra pensiero avanzato.",
+  prompt: `Dammi...
+- Trend.
 - Industria.
-- Impacto esperado.
+- Impatto previsto.
 
 Genera:
-1) Análisis experto.
-2) Señales tempranas.
-3) Consecuencias futuras.
-4) Cómo prepararse según nivel.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-021",
-    title:
-      "Post de autoridad basado en decisiones críticas que cambiaron tu carrera",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary:
-      "Perfecto para mostrar pensamiento estratégico y evolución profesional.",
-    prompt: `Dame:
-- Tema.
-- Decisión crítica que tomaste.
-- Contexto previo.
-- Resultado final.
+1) Analisi degli esperti.
+2) Primi segni.
+(3) Implicazioni future.
+4) Come prepararsi per livello.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-021",
+  title:
+  "Posto Autorità basato su decisioni critiche che hanno cambiato la tua carriera",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary:
+  "Perfetto per mostrare il pensiero strategico e l'evoluzione professionale.",
+  prompt: `Dammi...
+- Soggetto.
+- Hai preso una decisione critica.
+- contesto precedente.
+- Risultato finale.
 
 Genera:
-1) Historia breve de la decisión.
-2) Corriente de pensamiento detrás de ella.
-3) Qué hubiera pasado si elegías mal.
-4) Insight profundo del nivel experto.
-5) Conclusión que posicione autoridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-022",
-    title:
-      "Contenido tipo ‘las reglas que sigo para tomar decisiones estratégicas’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Post de referencia que demuestra dominio mental y estratégico.",
-    prompt: `Dame:
-- Tema.
-- Tipo de decisiones.
-- Nivel del lector.
+1) Breve storia della decisione.
+2) Corrente di pensiero dietro di lei.
+3) Che cosa sarebbe successo se sceglieste sbagliato.
+4) Insight del livello esperto.
+5) Conclusione all'autorità di posizione.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-022",
+  title:
+  "Tipo di contenuto 'le regole che seguo per prendere decisioni strategiche '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posto di riferimento che mostra dominio mentale e strategico.",
+  prompt: `Dammi...
+- Soggetto.
+- Tipo di decisione.
+- Livello del lettore.
 
 Genera:
-1) 5–7 reglas estratégicas.
-2) Explicación profunda de cada una.
-3) Cómo aplicarlas según nivel del usuario.
-4) Ejemplo avanzado en acción.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-023",
-    title: "Post de autoridad basado en análisis comparativos avanzados",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra capacidad de evaluar escenarios con precisión técnica.",
-    prompt: `Dame:
-- Tema.
-- Dos metodologías/estrategias a comparar.
-- Objetivo final.
+1) 5-7 regole strategiche.
+2) spiegazione profonda di ciascuno.
+3) Come applicarli secondo il livello dell'utente.
+4) Esempio avanzato in azione.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-023",
+  title: "Posto Autorità basato su analisi comparative avanzate",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra la capacità di valutare scenari con precisione tecnica.",
+  prompt: `Dammi...
+- Soggetto.
+- Due metodologie / strategie da confrontare.
+- Obiettivo finale.
 
 Genera:
-1) Comparación profunda.
-2) Ventajas reales (no clichés).
-3) Limitaciones de cada opción.
-4) Recomendación experta.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-024",
-    title: "Contenido estilo ‘cómo evalúo un proyecto antes de aceptarlo’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona autoridad mostrando criterio profesional avanzado.",
-    prompt: `Dame:
+1) Confronto profondo.
+2) vantaggi reali (non cliché).
+3) Limitazioni di ogni opzione.
+4) Raccomandazione esperto.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-024",
+  title: "Stile di contenuto 'come valuto un progetto prima di accettarlo'",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Autorità di posizione che mostra un criterio professionale avanzato.",
+  prompt: `Dammi...
 - Industria.
-- Tipo de proyecto.
-- Objetivo profesional.
+- Tipo di progetto.
+- Obiettivo professionale.
 
 Genera:
-1) Lista de criterios de evaluación.
-2) Señales rojas.
-3) Señales verdes.
-4) Cómo decidir con calma experta.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-025",
-    title: "Post de autoridad explicando un concepto complejo de forma simple",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra maestría al simplificar temas avanzados.",
-    prompt: `Dame:
-- Concepto complejo.
-- Público.
-- Analogía o metáfora posible.
+1) Elenco dei criteri di valutazione.
+2) Segni rossi.
+3) Segni verdi.
+4) Come decidere con calma esperto.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-025",
+  title: "Posto di autorità che spiega un concetto complesso semplicemente",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra la padronanza quando si semplificano i temi avanzati.",
+  prompt: `Dammi...
+- Un concetto complesso.
+- Pubblico.
+- Una possibile analogia o metafora.
 
 Genera:
-1) Explicación simple.
-2) Explicación avanzada.
-3) Ejemplo práctico.
-4) Error común al interpretarlo.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-026",
-    title:
-      "Contenido basado en tácticas avanzadas que solo funcionan con experiencia",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Ideal para sonar como un verdadero senior.",
-    prompt: `Dame:
-- Tema.
-- Nivel del usuario.
-- Contexto donde aplica.
+1) Semplice spiegazione.
+2) spiegazione avanzata.
+(3) Esempio pratico.
+4) Errore comune nell'interpretarlo.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-026",
+  title:
+  "Contenuto basato su tattiche avanzate che lavorano solo con esperienza",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Ideale per sembrare un vero senior.",
+  prompt: `Dammi...
+- Soggetto.
+- Livello utente.
+- Contesto dove si applica.
 
 Genera:
-1) 3–5 tácticas avanzadas.
-2) Pasos para aplicarlas bien.
-3) Por qué principiantes fallan.
-4) Resultado esperado por nivel.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-027",
-    title: "Post de autoridad basado en decisiones impopulares pero correctas",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Muestra liderazgo y pensamiento crítico verdadero.",
-    prompt: `Dame:
-- Tema.
-- Decisión impopular.
-- Razón estratégica detrás.
+1) 3-5 tattiche avanzate.
+2) Passi per applicarli bene.
+3) Perché i principianti falliscono.
+4) Risultati previsti per livello.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-027",
+  title: "Posto Autorità basato su decisioni impopolari ma corrette",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra la vera leadership e il pensiero critico.",
+  prompt: `Dammi...
+- Soggetto.
+- Decisione impopolare.
+- Una ragione strategica.
 
 Genera:
-1) Hook potente.
-2) Contexto emocional y técnico.
-3) Argumento racional avanzado.
-4) Resultado y lección final.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-028",
-    title: "Contenido tipo ‘cómo evaluar si alguien realmente sabe del tema’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Enseña a identificar verdaderos expertos del nicho.",
-    prompt: `Dame:
-- Tema.
-- Señales de verdadero expertise.
-- Señales de amateurismo.
+1) Uncino potente.
+2) contesto emotivo e tecnico.
+3) Punto razionale avanzato.
+4) Risultato e lezione finale.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-028",
+  title: "Tipo di contenuto 'come valutare se qualcuno conosce veramente loro '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Insegnare per identificare veri esperti di nicchia.",
+  prompt: `Dammi...
+- Soggetto.
+- Segni di vera competenza.
+- Segni di dilettantismo.
 
 Genera:
-1) Lista de criterios claros.
-2) Cómo detectar inconsistencias.
-3) Prueba práctica sencilla.
-4) Conclusión para posicionarte como autoridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-029",
-    title:
-      "Post de autoridad tipo ‘preguntas profundas que solo un experto se hace’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra profundidad intelectual.",
-    prompt: `Dame:
-- Tema.
-- Problema raíz.
-- Nivel del usuario.
+1) Elenco dei criteri chiari.
+2) Come rilevare le incongruenze.
+(3) Semplice prova pratica.
+4) Conclusione per posizionarti come autorità.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-029",
+  title:
+  "Posto di autorità tipo 'poco domande che solo un esperto è chiesto '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra la profondità intellettuale.",
+  prompt: `Dammi...
+- Soggetto.
+- Problemi di radice.
+- Livello utente.
 
 Genera:
-1) 5–7 preguntas profundas.
-2) Por qué son importantes.
-3) Cómo responden los expertos.
-4) Cómo aplicarlas hoy.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-030",
-    title: "Contenido basado en pensamiento de primer principio",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra pensamiento de élite descomponiendo problemas.",
-    prompt: `Dame:
+1) 5-7 domande profonde.
+2) Perché sono importanti.
+3) Come gli esperti rispondono.
+4) Come applicarli oggi.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-030",
+  title: "Contenuto basato sul pensiero di primo principio",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra l'elite pensando rompendo i problemi.",
+  prompt: `Dammi...
 - Problema.
-- Contexto.
-- Resultado ideal.
+- Contesto.
+- Ottimo risultato.
 
 Genera:
-1) Descomposición por primeros principios.
-2) Hallazgos clave.
-3) Nueva forma de abordar el problema.
-4) Conclusión autoritativa.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-031",
-    title:
-      "Post tipo ‘esto es lo que realmente marca la diferencia a largo plazo’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona como experto con visión a largo plazo.",
-    prompt: `Dame:
-- Tema.
-- Resultado que quiere el usuario.
+1) Decomposizione per i primi principi.
+2) Risultati chiave.
+3) Nuovo modo per affrontare il problema.
+(4) Conclusione autorevole.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-031",
+  title:
+  "Post type 'questo è ciò che realmente fa la differenza a lungo termine '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posizionamento come esperto con visione a lungo termine.",
+  prompt: `Dammi...
+- Soggetto.
+- Risulta l'utente vuole.
 
 Genera:
-1) Factores estratégicos clave.
-2) Explicación profunda.
-3) Ejemplo real con impacto.
-4) Cierre que refuerce autoridad.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-032",
-    title: "Contenido de autoridad analizando un fracaso profesional",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Humaniza y posiciona como líder reflexivo.",
-    prompt: `Dame:
-- Error o fracaso.
-- Consecuencia.
-- Aprendizaje avanzado.
+1) Principali fattori strategici.
+2) spiegazione profonda.
+3) Esempio reale con impatto.
+4) Vicino a rafforzare l'autorità.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-032",
+  title: "Contenuto dell'autorità analizzando un guasto professionale",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Umanizzare e posizionarsi come leader riflettente.",
+  prompt: `Dammi...
+- Errore o fallimento.
+- Consequenza.
+- Apprendimento avanzato.
 
 Genera:
-1) Historia honesta.
-2) Cómo lo analizaste.
-3) Qué cambiaste.
-4) Lección de nivel experto.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-033",
-    title: "Post explicando cómo entrenar el criterio profesional",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra madurez profesional del más alto nivel.",
-    prompt: `Dame:
-- Tema.
-- Tipo de criterio a desarrollar.
-- Público objetivo.
+1) Storia onesta.
+2) Come l'hai analizzato.
+3) Quello che hai cambiato.
+4) lezione di livello esperto.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-033",
+  title: "Post spiega come formare il criterio professionale",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra la maturità professionale al massimo livello.",
+  prompt: `Dammi...
+- Soggetto.
+- Tipo di criterio da sviluppare.
+- Al pubblico.
 
 Genera:
-1) Explicación de qué es criterio.
-2) Cómo se entrena (3 pasos).
-3) Ejemplo aplicado.
-4) Señales de progreso.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-034",
-    title: "Contenido tipo ‘esto diferencia a un operador de un estratega’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona como pensador estratégico.",
-    prompt: `Dame:
-- Tema.
-- Comportamientos de operador.
-- Comportamientos de estratega.
+(1) Spiegazione del criterio.
+2) Come si allena (3 passaggi).
+3) Esempio applicato.
+4) Segni di progresso.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-034",
+  title: "Tipo di contenuto 'questo differenzia un operatore da una strategia '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Il posizionamento come pensatore strategico.",
+  prompt: `Dammi...
+- Soggetto.
+- Comportamento operatore.
+- Comportamento strategico.
 
 Genera:
-1) Comparación clara.
-2) Análisis profundo.
-3) Ejemplo real.
-4) Consejo final para elevar nivel.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-035",
-    title: "Post de autoridad basado en decisiones que optimizan recursos",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra experiencia al maximizar recursos.",
-    prompt: `Dame:
-- Tema.
-- Recurso limitado.
-- Objetivo final.
+(1) Confronto chiaro.
+2) Analisi approfondita.
+(3) Esempio reale.
+4) Consulenza finale per aumentare il livello.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-035",
+  title: "Posto dell'autorità basata sulle decisioni di ottimizzazione delle risorse",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra l'esperienza massimizzando le risorse.",
+  prompt: `Dammi...
+- Soggetto.
+- Appello limitato.
+- Obiettivo finale.
 
 Genera:
-1) Cómo prioriza un experto.
-2) Qué elimina primero.
-3) Qué conserva siempre.
-4) Método para mantener eficiencia.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-036",
-    title: "Contenido de autoridad explicando efectos secundarios no evidentes",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Demuestra visión profunda y de segundo orden.",
-    prompt: `Dame:
-- Tema.
-- Acción común del usuario.
-- Efectos secundarios inesperados.
+1) Come un esperto privilegia.
+2) Ciò che elimina prima.
+3) Quello che mantieni sempre.
+(4) Metodo per mantenere l'efficienza.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-036",
+  title: "Contenuto dell'autorità che spiega gli effetti collaterali non evidenti",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Mostra una visione profonda e secondaria.",
+  prompt: `Dammi...
+- Soggetto.
+- Azione comune da parte dell'utente.
+- Effetti collaterali inaspettati.
 
 Genera:
-1) Explicación del efecto.
-2) Consecuencias futuras.
-3) Cómo prevenirlo.
-4) Consejo experto final.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-037",
-    title:
-      "Post estilo ‘las preguntas que hago antes de iniciar cualquier proyecto’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona como experto con criterio sólido.",
-    prompt: `Dame:
-- Tipo de proyecto.
+1) Spiegazione di effetto.
+2) Implicazioni future.
+3) Come prevenirlo.
+4) Consiglio di esperti finale.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-037",
+  title:
+  "Post-style 'le domande che faccio prima di iniziare qualsiasi progetto'",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posizionamento come un esperto forte.",
+  prompt: `Dammi...
+- Tipo di progetto.
 - Industria.
-- Objetivo.
+- Obiettivo.
 
 Genera:
-1) Lista de 7–10 preguntas clave.
-2) Explicación de cada una.
-3) Qué buscar en la respuesta.
-4) Señales de alerta.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-038",
-    title:
-      "Contenido de autoridad para corregir una mala tendencia en el mercado",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Posiciona como voz experta que corrige desinformación.",
-    prompt: `Dame:
-- Tema.
-- Tendencia errónea.
-- Verdad técnica.
+1) Lista di 7-10 domande chiave.
+2) Spiegazione di ciascuno.
+3) Cosa cercare nella risposta.
+4) Segni di avvertimento.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-038",
+  title:
+  "Contenuto dell'autorità per correggere una cattiva tendenza nel mercato",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Posizione come voce esperta che corregge la disinformazione.",
+  prompt: `Dammi...
+- Soggetto.
+- Tendenza sbagliata.
+- Verità tecnica.
 
 Genera:
-1) Hook señalando la mala tendencia.
-2) Explicación técnica.
-3) Cómo corregirla.
-4) Consejo de experto.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-039",
-    title: "Post con checklist maestro para evaluar calidad en tu industria",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Checklist de referencia que te posiciona como autoridad.",
-    prompt: `Dame:
+1) Uncino che punta alla cattiva tendenza.
+2) spiegazione tecnica.
+3) Come correggerlo.
+4) Consiglio di esperti.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-039",
+  title: "Post con checklist master per valutare la qualità nel tuo settore",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Controllo di riferimento che ti posiziona come autorità.",
+  prompt: `Dammi...
 - Industria.
-- Qué se debe evaluar.
-- Nivel del público.
+- No. Che cosa deve essere valutato.
+- A livello pubblico.
 
 Genera:
-1) Checklist maestro (10–15 puntos).
-2) Cómo aplicarlo.
-3) Señales de calidad.
-4) Señales de baja calidad.`,
-    thumbnail: "",
-  },
-  {
-    id: "redes-autoridad-040",
-    title: "Contenido tipo ‘lo que diferencia a los top 1% del resto’",
-    area: "Redes Sociales",
-    category: "Contenido de Autoridad",
-    summary: "Contenido aspiracional de autoridad extrema.",
-    prompt: `Dame:
-- Tema.
-- Hábito/proceso/mentalidad clave.
-- Nivel de audiencia.
+1) Master Checklist (10-15 punti).
+2) Come applicarlo.
+3) segni di qualità.
+4) segni di bassa qualità.`,
+  thumbnail: ""
+},
+{
+  id: "redes-autoridad-040",
+  title: "Tipo contenuto 'che differisce all'1% superiore del resto '",
+  area: "Reti sociali",
+  category: "Contenuto dell'Autorità",
+  summary: "Contenuto respiratorio di estrema autorità.",
+  prompt: `Dammi...
+- Soggetto.
+- Habitat chiave / processo / mentalità.
+- Livello di udito.
 
 Genera:
-1) 5–7 diferencias del top 1%.
-2) Explicación profunda.
-3) Ejemplo real.
-4) Acción para empezar hoy.`,
-    thumbnail: "",
-  },
-];
+1) 5-7 differenze dell'1% superiore.
+2) spiegazione profonda.
+(3) Esempio reale.
+4) Azione per iniziare oggi.`,
+  thumbnail: ""
+}];

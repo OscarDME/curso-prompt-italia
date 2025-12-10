@@ -3,640 +3,640 @@
 export const imagePromptsSelfieSesionProMujer = [
   {
     id: "img-selfie-pro-mujer-001",
-    title: "De selfie a retrato de estudio limpio (fondo liso)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Da selfie a ritratto da studio pulito (sfondo uniforme)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Convierte una selfie en un retrato de estudio limpio y profesional usando una foto de referencia de ella u otra persona.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. Mantén exactamente el rostro, rasgos, tono de piel y estilo general de la mujer de la foto, sin cambiar su identidad.
+      "Trasforma una selfie in un ritratto da studio pulito e professionale usando una foto di riferimento di lei o di un’altra persona.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. Mantieni esattamente il volto, i tratti, il tono della pelle e lo stile generale della donna nella foto, senza cambiarne l’identità.
 
-TRANSFORMACIÓN:
-- Convierte la selfie en un retrato profesional de estudio con fondo liso gris medio o beige suave.
-- La mujer aparece ligeramente girada 3/4 hacia la cámara, con expresión segura y relajada.
+TRASFORMAZIONE:
+- Trasforma la selfie in un ritratto professionale da studio con sfondo uniforme grigio medio o beige morbido.
+- La donna appare leggermente ruotata di 3/4 verso la camera, con espressione sicura e rilassata.
 
-VESTUARIO:
-- Blusa o top neutro (blanco, beige o negro), sin logos ni texto.
-- Maquillaje natural que realce la piel (sin exagerar, con textura real).
+ABBIGLIAMENTO:
+- Blusa o top neutro (bianco, beige o nero), senza loghi né testo.
+- Trucco naturale che valorizzi la pelle (senza esagerare, con texture reale).
 
-ILUMINACIÓN:
-- Iluminación tipo estudio con softbox frontal + relleno suave.
-- Sombras suaves y agradables en el rostro, sin zonas quemadas.
+ILLUMINAZIONE:
+- Illuminazione da studio con softbox frontale + riempimento morbido.
+- Ombre morbide e piacevoli sul volto, senza zone bruciate.
 
-CÁMARA / COMPOSICIÓN:
-- Estilo fotográfico realista tipo sesión de retrato.
-- Lente 50mm equivalente, apertura f/2.2, fondo suave.
-- Plano medio-corto (pecho a cabeza), formato vertical 9:16.
+FOTOCAMERA / COMPOSIZIONE:
+- Stile fotografico realistico tipo sessione ritratto.
+- Lente equivalente 50mm, apertura f/2.2, sfondo morbido.
+- Inquadratura medio-corta (petto a testa), formato verticale 9:16.
 
-RESTRICCIONES:
-- Mantener la identidad de la mujer de la referencia.
-- Sin texto en la imagen, sin marcas de agua, sin elementos escritos.
-- Genera solo una imagen, formato vertical 9:16, retrato profesional.`,
+RESTRIZIONI:
+- Mantenere l’identità della donna della reference.
+- Niente testo nell’immagine, niente watermark, nessun elemento scritto.
+- Genera solo un’immagine, formato verticale 9:16, ritratto professionale.`,
     thumbnail: "/images/selfie-pro/mujer01.webp",
   },
   {
     id: "img-selfie-pro-mujer-002",
-    title: "Retrato corporativo elegante (oficina moderna)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Ritratto corporate elegante (ufficio moderno)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Usa una foto de referencia para convertirla en un retrato corporativo profesional en oficina moderna.",
-    prompt: `Usa [IMG_REF] como foto de referencia. Conserva la identidad, proporciones del rostro y tono de piel de la mujer.
+      "Usa una foto di riferimento per trasformarla in un ritratto corporate professionale in un ufficio moderno.",
+    prompt: `Usa [IMG_REF] come foto di riferimento. Conserva l’identità, le proporzioni del volto e il tono della pelle della donna.
 
-ESCENA:
-- Transforma la imagen en un retrato corporativo en una oficina moderna, luminosa, con ventanal desenfocado detrás.
-- Ambiente profesional, limpio, minimalista.
+SCENA:
+- Trasforma l’immagine in un ritratto corporate in un ufficio moderno e luminoso, con una grande finestra sfocata sullo sfondo.
+- Ambiente professionale, pulito, minimalista.
 
-VESTUARIO:
-- Blazer estructurado (azul marino, negro o gris) + blusa clara sin estampados.
-- Accesorios discretos (aretes pequeños, reloj o collar muy sutil).
+ABBIGLIAMENTO:
+- Blazer strutturato (blu navy, nero o grigio) + blusa chiara senza fantasie.
+- Accessori discreti (orecchini piccoli, orologio o collana molto sottile).
 
-ILUMINACIÓN:
-- Luz natural suave entrando por el ventanal + relleno suave frontal.
-- Piel con textura real, sin aspecto de plástico.
+ILLUMINAZIONE:
+- Luce naturale morbida dalla finestra + riempimento morbido frontale.
+- Pelle con texture reale, senza effetto plastica.
 
-CÁMARA / COMPOSICIÓN:
-- Estilo foto LinkedIn/página corporativa de alta calidad.
-- Plano medio (de la cintura hacia arriba), cámara a la altura de los ojos.
-- Fondo ligeramente desenfocado (bokeh suave), formato vertical 9:16.
+FOTOCAMERA / COMPOSIZIONE:
+- Stile foto LinkedIn/pagina corporate di alta qualità.
+- Piano medio (dalla vita in su), camera all’altezza degli occhi.
+- Sfondo leggermente sfocato (bokeh morbido), formato verticale 9:16.
 
-RESTRICCIONES:
-- Mantener el rostro y rasgos de la referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato corporativo premium.`,
+RESTRIZIONI:
+- Mantenere volto e tratti della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto corporate premium.`,
     thumbnail: "/images/selfie-pro/mujer02.webp",
   },
   {
     id: "img-selfie-pro-mujer-003",
-    title: "Sesión lifestyle en naturaleza (luz golden hour)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Sessione lifestyle nella natura (luce golden hour)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "A partir de una foto de referencia, crea una sesión lifestyle profesional en naturaleza con luz golden hour.",
-    prompt: `Usa [IMG_REF] como referencia, manteniendo el rostro, expresión y rasgos de la mujer.
+      "Partendo da una foto di riferimento, crea una sessione lifestyle professionale nella natura con luce golden hour.",
+    prompt: `Usa [IMG_REF] come riferimento, mantenendo il volto, l’espressione e i tratti della donna.
 
-ESCENA:
-- La mujer está en exterior, rodeada de naturaleza (campo o parque con pasto y árboles).
-- Luz de golden hour (atardecer), cálida y envolvente.
+SCENA:
+- La donna è all’aperto, circondata dalla natura (campagna o parco con prato e alberi).
+- Luce golden hour (tramonto), calda e avvolgente.
 
-VESTUARIO:
-- Vestido o outfit casual en tonos claros/pastel, fluido y cómodo.
-- Estilo relajado, tipo sesión lifestyle para Instagram premium.
+ABBIGLIAMENTO:
+- Abito o outfit casual in toni chiari/pastello, fluido e comodo.
+- Stile rilassato, tipo sessione lifestyle per Instagram premium.
 
-POSE / EXPRESIÓN:
-- Caminando o de pie, mirada suave hacia la cámara o hacia un lado.
-- Sonrisa sutil o expresión tranquila y soñadora.
-- Cabello con ligera brisa, movimiento natural.
+POSA / ESPRESSIONE:
+- Camminando o in piedi, sguardo morbido verso la camera o di lato.
+- Sorriso lieve o espressione tranquilla e sognante.
+- Capelli mossi da una leggera brezza, movimento naturale.
 
-ILUMINACIÓN / CÁMARA:
-- Luz cálida lateral que crea halo suave en el cabello.
-- Lente 85mm equivalente, f/1.8, bokeh fuerte en el fondo.
-- Plano medio o 3/4 (rodillas hacia arriba), formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce calda laterale che crea un alone morbido nei capelli.
+- Lente equivalente 85mm, f/1.8, bokeh forte sullo sfondo.
+- Piano medio o 3/4 (dalle ginocchia in su), formato verticale 9:16.
 
-RESTRICCIONES:
-- No cambiar la identidad de la mujer.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, estilo lifestyle profesional.`,
+RESTRIZIONI:
+- Non cambiare l’identità della donna.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, stile lifestyle professionale.`,
     thumbnail: "/images/selfie-pro/mujer03.webp",
   },
   {
     id: "img-selfie-pro-mujer-004",
-    title: "Retrato editorial tipo revista (fondo de color sólido)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Ritratto editoriale tipo rivista (sfondo a colore pieno)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Convierte la foto de referencia en un retrato editorial tipo revista de moda usando la misma identidad.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. Respeta el rostro y rasgos de la mujer, sin cambiar su identidad.
+      "Trasforma la foto di riferimento in un ritratto editoriale tipo rivista di moda usando la stessa identità.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. Rispetta il volto e i tratti della donna, senza cambiarne l’identità.
 
-ESCENA:
-- Retrato editorial tipo portada de revista, con fondo de color sólido (rosa viejo, azul petróleo o beige).
-- Estética minimal pero muy estética, estilo fashion editorial.
+SCENA:
+- Ritratto editoriale tipo copertina di rivista, con sfondo a colore pieno (rosa antico, blu petrolio o beige).
+- Estetica minimal ma molto curata, stile fashion editoriale.
 
-VESTUARIO:
-- Blusa o blazer estructurado con textura interesante (satinado, lino, etc.), sin logos.
-- Accesorios sutiles pero elegantes (aretes, anillo, collar fino).
+ABBIGLIAMENTO:
+- Blusa o blazer strutturato con texture interessante (satinato, lino, ecc.), senza loghi.
+- Accessori sottili ma eleganti (orecchini, anello, collana fine).
 
-POSE:
-- Plano medio-corto (pecho a cabeza), hombros un poco girados, rostro hacia la cámara.
-- Mirada intensa o confiada, barbilla ligeramente elevada.
+POSA:
+- Piano medio-corto (petto a testa), spalle leggermente ruotate, volto verso la camera.
+- Sguardo intenso o sicuro, mento leggermente sollevato.
 
-ILUMINACIÓN / CÁMARA:
-- Luz de estudio dirigida, con sombras suaves y volumen en el rostro.
-- Lente 50mm o 85mm equivalente, f/2.8, nitidez alta en ojos.
-- Formato vertical 9:16, estilo foto editorial realista.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce da studio direzionale, con ombre morbide e volume sul volto.
+- Lente equivalente 50mm o 85mm, f/2.8, alta nitidezza sugli occhi.
+- Formato verticale 9:16, stile foto editoriale realistico.
 
-RESTRICCIONES:
-- Mantener la identidad de la modelo de referencia.
-- Sin texto, sin logos, sin marcas de agua ni tipografías.
-- Genera solo una imagen, formato vertical 9:16, estilo editorial de revista.`,
+RESTRIZIONI:
+- Mantenere l’identità della modella di riferimento.
+- Niente testo, niente loghi, niente watermark né tipografie.
+- Genera solo un’immagine, formato verticale 9:16, stile editoriale da rivista.`,
     thumbnail: "/images/selfie-pro/mujer04.webp",
   },
   {
     id: "img-selfie-pro-mujer-005",
-    title: "Foto profesional para marca personal (background neutro)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Foto professionale per personal branding (sfondo neutro)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Usa una selfie como referencia y conviértela en foto profesional para marca personal o redes.",
-    prompt: `Usa [IMG_REF] como referencia. La mujer debe seguir siendo la misma persona (mismos rasgos, facciones, tono de piel).
+      "Usa una selfie come riferimento e trasformala in foto professionale per personal branding o social.",
+    prompt: `Usa [IMG_REF] come riferimento. La donna deve restare la stessa persona (stessi tratti, lineamenti, tono della pelle).
 
-ESCENA:
-- Retrato para marca personal/branding en fondo neutro (beige claro, gris claro o blanco roto).
-- Estética limpia, moderna y profesional.
+SCENA:
+- Ritratto per personal branding/branding su sfondo neutro (beige chiaro, grigio chiaro o bianco sporco).
+- Estetica pulita, moderna e professionale.
 
-VESTUARIO:
-- Outfit smart casual (blusa simple, blazer ligero o suéter sobrio).
-- Colores neutros o suaves, sin estampados fuertes ni logos.
+ABBIGLIAMENTO:
+- Outfit smart casual (blusa semplice, blazer leggero o maglione sobrio).
+- Colori neutri o morbidi, senza stampe forti né loghi.
 
-POSE / EXPRESIÓN:
-- Plano medio, mirada directa a cámara, ligera sonrisa confiada.
-- Postura abierta, hombros relajados.
+POSA / ESPRESSIONE:
+- Piano medio, sguardo diretto in camera, leggero sorriso sicuro.
+- Postura aperta, spalle rilassate.
 
-ILUMINACIÓN / CÁMARA:
-- Luz suave frontal con relleno, sin sombras duras.
-- Lente 50mm, f/2.5, nitidez en ojos, fondo ligeramente desenfocado.
-- Formato vertical 9:16, apto para foto de perfil y portada.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce frontale morbida con riempimento, senza ombre dure.
+- Lente 50mm, f/2.5, nitidezza sugli occhi, sfondo leggermente sfocato.
+- Formato verticale 9:16, adatto a foto profilo e copertina.
 
-RESTRICCIONES:
-- No modificar la identidad de la mujer de referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, estilo marca personal premium.`,
+RESTRIZIONI:
+- Non modificare l’identità della donna di riferimento.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, stile personal branding premium.`,
     thumbnail: "/images/selfie-pro/mujer05.webp",
   },
   {
     id: "img-selfie-pro-mujer-006",
-    title: "Sesión elegante de noche (vestido de gala)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Sessione elegante di notte (abito da gala)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Transforma la referencia en una sesión de noche elegante con vestido de gala profesional.",
-    prompt: `Usa [IMG_REF] como referencia principal. Mantén el rostro, expresión y proporciones de la mujer, sin cambiar su identidad.
+      "Trasforma la reference in una sessione notturna elegante con abito da gala professionale.",
+    prompt: `Usa [IMG_REF] come riferimento principale. Mantieni il volto, l’espressione e le proporzioni della donna, senza cambiarne l’identità.
 
-ESCENA:
-- Fotografía nocturna elegante en interior (salón, hotel o evento lujoso) con luces cálidas al fondo.
-- Ambiente sofisticado, tipo evento de gala o alfombra roja.
+SCENA:
+- Fotografia notturna elegante in interno (salone, hotel o evento di lusso) con luci calde sullo sfondo.
+- Ambiente sofisticato, tipo gala o red carpet.
 
-VESTUARIO:
-- Vestido largo de gala (negro, rojo vino o azul oscuro), sin logos ni marcas visibles.
-- Detalles de joyería sutil (aretes, pulsera, collar fino).
+ABBIGLIAMENTO:
+- Abito lungo da gala (nero, rosso vino o blu scuro), senza loghi né marchi visibili.
+- Gioielli sottili (orecchini, bracciale, collana fine).
 
-POSE:
-- De pie, en plano 3/4 (rodillas hacia arriba), una mano en la cintura o a un lado.
-- Mirada confiada, ligera sonrisa o expresión seria elegante.
+POSA:
+- In piedi, in piano 3/4 (dalle ginocchia in su), una mano sul fianco o lungo il corpo.
+- Sguardo sicuro, leggero sorriso o espressione seria elegante.
 
-ILUMINACIÓN / CÁMARA:
-- Luz principal suave desde un lateral + bokeh cálido de luces detrás.
-- Lente 85mm, f/1.8, fondo muy desenfocado.
-- Formato vertical 9:16, estética fotográfica realista, tipo editorial de moda.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce principale morbida laterale + bokeh caldo di luci dietro.
+- Lente 85mm, f/1.8, sfondo molto sfocato.
+- Formato verticale 9:16, estetica fotografica realistica, tipo editoriale di moda.
 
-RESTRICCIONES:
-- La cara y rasgos deben ser los mismos de la mujer de referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto de noche elegante.`,
+RESTRIZIONI:
+- Il volto e i tratti devono essere gli stessi della donna di riferimento.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto notturna elegante.`,
     thumbnail: "/images/selfie-pro/mujer06.webp",
   },
   {
     id: "img-selfie-pro-mujer-007",
-    title: "Foto estilo influencer en café (luz natural)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Foto stile influencer in caffè (luce naturale)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Convierte la foto de referencia en una imagen profesional estilo influencer en cafetería con luz natural.",
-    prompt: `Usa [IMG_REF] como referencia. Conserva la identidad de la mujer: mismos rasgos, facciones, tono de piel y estilo general.
+      "Trasforma la reference in un’immagine professionale stile influencer in caffetteria con luce naturale.",
+    prompt: `Usa [IMG_REF] come riferimento. Conserva l’identità della donna: stessi tratti, lineamenti, tono della pelle e stile generale.
 
-ESCENA:
-- Cafetería moderna y luminosa, mesa de madera, fondo desenfocado con plantas o decoración minimalista.
-- Estética lifestyle tipo influencer.
+SCENA:
+- Caffetteria moderna e luminosa, tavolo in legno, sfondo sfocato con piante o decor minimal.
+- Estetica lifestyle tipo influencer.
 
-VESTUARIO:
-- Outfit casual chic (suéter oversize, top liso o blazer ligero).
-- Colores neutros o cálidos, sin logos visibles.
+ABBIGLIAMENTO:
+- Outfit casual chic (maglione oversize, top tinta unita o blazer leggero).
+- Colori neutri o caldi, senza loghi visibili.
 
-POSE / ACCESORIOS:
-- Sentada junto a la mesa, mano cerca de una taza de café, mirada a la cámara o justo al lado.
-- Expresión natural, cercana y amigable.
+POSA / ACCESSORI:
+- Seduta al tavolo, mano vicino a una tazza di caffè, sguardo in camera o appena di lato.
+- Espressione naturale, vicina e amichevole.
 
-ILUMINACIÓN / CÁMARA:
-- Luz natural suave desde una ventana lateral.
-- Lente 35mm o 50mm, f/2.0, fondo con bokeh suave.
-- Plano medio (de cintura a cabeza), formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce naturale morbida da una finestra laterale.
+- Lente 35mm o 50mm, f/2.0, sfondo con bokeh morbido.
+- Piano medio (dalla vita alla testa), formato verticale 9:16.
 
-RESTRICCIONES:
-- No cambiar la identidad de la mujer de referencia.
-- Sin texto ni logos visibles en tazas, paredes o ropa.
-- Genera solo una imagen, formato vertical 9:16, foto lifestyle de cafetería profesional.`,
+RESTRIZIONI:
+- Non cambiare l’identità della donna di riferimento.
+- Niente testo né loghi visibili su tazze, pareti o abiti.
+- Genera solo un’immagine, formato verticale 9:16, foto lifestyle in caffè professionale.`,
     thumbnail: "/images/selfie-pro/mujer07.webp",
   },
   {
     id: "img-selfie-pro-mujer-008",
-    title: "Retrato en blanco y negro dramático",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Ritratto drammatico in bianco e nero",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Usando una foto de referencia, crea un retrato profesional en blanco y negro con iluminación dramática.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. Mantén la identidad de la mujer (facciones, proporciones, expresión base).
+      "Usando una foto di riferimento, crea un ritratto professionale in bianco e nero con illuminazione drammatica.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. Mantieni l’identità della donna (lineamenti, proporzioni, espressione di base).
 
-ESCENA:
-- Retrato artístico en blanco y negro, fondo oscuro o neutro.
-- Iluminación dramática tipo Rembrandt o luz lateral intensa.
+SCENA:
+- Ritratto artistico in bianco e nero, sfondo scuro o neutro.
+- Illuminazione drammatica stile Rembrandt o luce laterale intensa.
 
-VESTUARIO:
-- Top o blusa simple, sin distracciones, en tono neutro (se verá en escala de grises).
-- Sin logos, sin texto.
+ABBIGLIAMENTO:
+- Top o blusa semplice, senza distrazioni, in tono neutro (apparirà in scala di grigi).
+- Senza loghi, senza testo.
 
-POSE / EXPRESIÓN:
-- Plano medio-corto, rostro ligeramente girado, mirada intensa a cámara o hacia un lado.
-- Expresión fuerte, elegante, sin sonrisa exagerada.
+POSA / ESPRESSIONE:
+- Piano medio-corto, volto leggermente ruotato, sguardo intenso in camera o di lato.
+- Espressione forte, elegante, senza sorriso eccessivo.
 
-ILUMINACIÓN / CÁMARA:
-- Luz lateral fuerte que cree sombras marcadas pero agradables.
-- Lente 85mm equivalente, f/2.2, fondo muy desenfocado.
-- Imagen final en blanco y negro, alto contraste, textura de piel natural.
-- Formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce laterale forte che crei ombre marcate ma gradevoli.
+- Lente equivalente 85mm, f/2.2, sfondo molto sfocato.
+- Immagine finale in bianco e nero, alto contrasto, texture della pelle naturale.
+- Formato verticale 9:16.
 
-RESTRICCIONES:
-- Misma identidad que la referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato B/N dramático profesional.`,
+RESTRIZIONI:
+- Stessa identità della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto B/N drammatico professionale.`,
     thumbnail: "/images/selfie-pro/mujer08.webp",
   },
   {
     id: "img-selfie-pro-mujer-009",
-    title: "Sesión fitness en gimnasio (look atlético)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Sessione fitness in palestra (look atletico)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "A partir de la foto de referencia, genera una sesión fotográfica fitness profesional en gimnasio.",
-    prompt: `Usa [IMG_REF] como referencia. Respeta el rostro, la identidad y los rasgos de la mujer.
+      "Partendo dalla reference, genera una sessione fotografica fitness professionale in palestra.",
+    prompt: `Usa [IMG_REF] come riferimento. Rispetta il volto, l’identità e i tratti della donna.
 
-ESCENA:
-- Gimnasio moderno con equipo desenfocado al fondo (pesas, máquinas).
-- Ambiente deportivo profesional, limpio, sin marcas reconocibles.
+SCENA:
+- Palestra moderna con attrezzi sfocati sullo sfondo (pesi, macchine).
+- Ambiente sportivo professionale, pulito, senza marchi riconoscibili.
 
-VESTUARIO:
-- Conjunto deportivo (top + leggings) en colores sólidos (negro, gris, azul, etc.).
-- Sin logos ni texto visible en la ropa.
+ABBIGLIAMENTO:
+- Completo sportivo (top + leggings) in colori pieni (nero, grigio, blu, ecc.).
+- Senza loghi né testo visibile sugli abiti.
 
-POSE:
-- De pie o semi-apoyada en una barra/máquina, cuerpo ligeramente girado.
-- Mirada decidida hacia la cámara, expresión motivada.
+POSA:
+- In piedi o semi-appoggiata a una barra/macchina, corpo leggermente ruotato.
+- Sguardo deciso verso la camera, espressione motivata.
 
-ILUMINACIÓN / CÁMARA:
-- Luz lateral ligera para marcar volúmenes, pero manteniendo aspecto realista.
-- Lente 35mm o 50mm, f/2.0, fondo con bokeh suave.
-- Plano 3/4 (rodillas hacia arriba), formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce laterale leggera per evidenziare i volumi, mantenendo realismo.
+- Lente 35mm o 50mm, f/2.0, sfondo con bokeh morbido.
+- Piano 3/4 (dalle ginocchia in su), formato verticale 9:16.
 
-RESTRICCIONES:
-- No cambiar radicalmente el cuerpo; mantener proporciones realistas.
-- Sin logos, sin texto, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, sesión fitness profesional.`,
+RESTRIZIONI:
+- Non cambiare radicalmente il corpo; mantenere proporzioni realistiche.
+- Niente loghi, niente testo, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, sessione fitness professionale.`,
     thumbnail: "/images/selfie-pro/mujer09.webp",
   },
   {
     id: "img-selfie-pro-mujer-010",
-    title: "Foto profesional en playa (editorial suave)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Foto professionale in spiaggia (editoriale morbido)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Convierte una selfie en una foto profesional en playa con estética editorial suave usando la referencia.",
-    prompt: `Usa [IMG_REF] como imagen de referencia para mantener la identidad, rostro y rasgos de la mujer.
+      "Trasforma una selfie in una foto professionale in spiaggia con estetica editoriale morbida usando la reference.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento per mantenere identità, volto e tratti della donna.
 
-ESCENA:
-- Playa al atardecer, arena suave y mar desenfocado al fondo.
-- Estética delicada y editorial, no tipo selfie ordinaria.
+SCENA:
+- Spiaggia al tramonto, sabbia morbida e mare sfocato sullo sfondo.
+- Estetica delicata ed editoriale, non una semplice foto selfie.
 
-VESTUARIO:
-- Vestido ligero o pareo estilizado en tonos claros (blanco, beige, pastel).
-- Movimiento suave en la tela por la brisa.
+ABBIGLIAMENTO:
+- Abito leggero o pareo curato in toni chiari (bianco, beige, pastello).
+- Movimento morbido del tessuto grazie alla brezza.
 
-POSE / EXPRESIÓN:
-- Caminando o de pie cerca de la orilla, mirada serena, ligera sonrisa o gesto contemplativo.
-- Cabello movido por el viento de forma natural.
+POSA / ESPRESSIONE:
+- Camminando o in piedi vicino alla riva, sguardo sereno, lieve sorriso o gesto contemplativo.
+- Capelli mossi dal vento in modo naturale.
 
-ILUMINACIÓN / CÁMARA:
-- Luz de golden hour cálida, sombras suaves.
-- Lente 50mm o 85mm, f/1.8, fondo muy desenfocado.
-- Plano 3/4 (rodillas hacia arriba), formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce golden hour calda, ombre morbide.
+- Lente 50mm o 85mm, f/1.8, sfondo molto sfocato.
+- Piano 3/4 (dalle ginocchia in su), formato verticale 9:16.
 
-RESTRICCIONES:
-- Debe seguir siendo la misma mujer de la referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto de playa editorial profesional.`,
+RESTRIZIONI:
+- Deve restare la stessa donna della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto da spiaggia editoriale professionale.`,
     thumbnail: "/images/selfie-pro/mujer10.webp",
   },
   {
     id: "img-selfie-pro-mujer-011",
-    title: "Retrato close-up beauty (piel perfecta pero real)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Ritratto beauty close-up (pelle perfetta ma reale)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Usa la foto de referencia para crear un retrato beauty profesional de primer plano con piel realista.",
-    prompt: `Usa [IMG_REF] como referencia. Conserva exactamente el rostro y la identidad de la mujer (facciones, proporciones, tono de piel).
+      "Usa la foto di riferimento per creare un ritratto beauty professionale in primissimo piano con pelle realistica.",
+    prompt: `Usa [IMG_REF] come riferimento. Conserva esattamente il volto e l’identità della donna (lineamenti, proporzioni, tono della pelle).
 
-ESCENA:
-- Retrato beauty de close-up (primerísimo primer plano) enfocado en rostro y piel.
-- Fondo liso y suave (tono pastel o neutro).
+SCENA:
+- Ritratto beauty close-up (primissimo piano) focalizzato su viso e pelle.
+- Sfondo uniforme e morbido (tono pastello o neutro).
 
-MAQUILLAJE:
-- Maquillaje pulido pero natural (piel luminosa, cejas definidas, pestañas sutiles).
-- Labios en tono suave (nude o rosa natural).
+TRUCCO:
+- Trucco curato ma naturale (pelle luminosa, sopracciglia definite, ciglia discrete).
+- Labbra in tono morbido (nude o rosa naturale).
 
-ILUMINACIÓN / CÁMARA:
-- Luz frontal suave que minimice sombras duras pero deje textura de piel visible.
-- Lente macro o equivalente 85mm, apertura f/4 para buena nitidez.
-- Formato vertical 9:16, rostro ocupa gran parte del encuadre.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce frontale morbida che minimizzi ombre dure ma lasci visibile la texture della pelle.
+- Lente macro o equivalente 85mm, apertura f/4 per buona nitidezza.
+- Formato verticale 9:16, il viso occupa gran parte dell’inquadratura.
 
-RESTRICCIONES:
-- Mantener pequeñas imperfecciones para que la piel se vea real (no plástico).
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato beauty profesional.`,
+RESTRIZIONI:
+- Mantenere piccole imperfezioni per far sembrare la pelle reale (non plastica).
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto beauty professionale.`,
     thumbnail: "/images/selfie-pro/mujer11.webp",
   },
   {
-    id: "img-selfie-pro-mujer-012",
-    title: "Sesión urbana de noche (luces ciudad, street fashion)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    id: "img-selfie-pro/mujer-012",
+    title: "Sessione urbana notturna (luci città, street fashion)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "A partir de una referencia, crea una sesión urbana nocturna profesional con estética street fashion.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. Mantén la identidad, rostro y expresión base de la mujer.
+      "Partendo da una reference, crea una sessione urbana notturna professionale con estetica street fashion.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. Mantieni l’identità, il volto e l’espressione base della donna.
 
-ESCENA:
-- Calle urbana de noche con luces de ciudad y neones desenfocados al fondo.
-- Suelo con reflejos como si hubiera llovido, estilo cinematográfico.
+SCENA:
+- Strada urbana di notte con luci cittadine e neon sfocati sullo sfondo.
+- Suolo con riflessi come se avesse piovuto, stile cinematografico.
 
-VESTUARIO:
-- Outfit street fashion (chaqueta de cuero o bomber, jeans o pantalón moderno).
-- Colores que contrasten con las luces (negro, rojo, blanco, etc.), sin logos.
+ABBIGLIAMENTO:
+- Outfit street fashion (giacca di pelle o bomber, jeans o pantaloni moderni).
+- Colori che contrastino con le luci (nero, rosso, bianco, ecc.), senza loghi.
 
-POSE / EXPRESIÓN:
-- De pie en la calle, una mano en el bolsillo o sujetando la chaqueta.
-- Mirada fuerte y segura a cámara, vibe cool.
+POSA / ESPRESSIONE:
+- In piedi in strada, una mano in tasca o che tiene la giacca.
+- Sguardo forte e sicuro in camera, vibe cool.
 
-ILUMINACIÓN / CÁMARA:
-- Luces urbanas como iluminación principal, creando bokeh intenso detrás.
-- Lente 35mm o 50mm, f/1.8, ISO más alto (ambiente nocturno).
-- Plano 3/4, formato vertical 9:16, estilo foto de campaña urbana.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luci urbane come illuminazione principale, creando bokeh intenso dietro.
+- Lente 35mm o 50mm, f/1.8, ISO più alto (ambiente notturno).
+- Piano 3/4, formato verticale 9:16, stile foto da campagna urbana.
 
-RESTRICCIONES:
-- No cambiar la identidad de la mujer.
-- Sin texto, sin logos, sin marcas de agua visibles.
-- Genera solo una imagen, formato vertical 9:16, sesión urbana nocturna profesional.`,
+RESTRIZIONI:
+- Non cambiare l’identità della donna.
+- Niente testo, niente loghi, niente watermark visibili.
+- Genera solo un’immagine, formato verticale 9:16, sessione urbana notturna professionale.`,
     thumbnail: "/images/selfie-pro/mujer12.webp",
   },
   {
     id: "img-selfie-pro-mujer-013",
-    title: "Foto tipo catálogo de moda (fondo blanco)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Foto tipo catalogo di moda (sfondo bianco)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Convierte la referencia en una foto tipo catálogo de moda profesional con fondo blanco.",
-    prompt: `Usa [IMG_REF] como referencia. La modelo debe seguir siendo la misma mujer, con la misma cara y rasgos.
+      "Trasforma la reference in una foto tipo catalogo di moda professionale su sfondo bianco.",
+    prompt: `Usa [IMG_REF] come riferimento. La modella deve restare la stessa donna, con lo stesso volto e tratti.
 
-ESCENA:
-- Fondo completamente blanco tipo estudio catálogo.
-- Estética limpia y comercial, perfecta para e-commerce o catálogo.
+SCENA:
+- Sfondo completamente bianco, tipo studio catalogo.
+- Estetica pulita e commerciale, perfetta per e-commerce o catalogo.
 
-VESTUARIO:
-- Outfit de moda definido por el usuario [describir aquí si se desea: vestido, blazer, conjunto, etc.].
-- Sin logos ni texto visible en la ropa.
+ABBIGLIAMENTO:
+- Outfit di moda definito dall’utente [descrivere qui se desiderato: abito, blazer, completo, ecc.].
+- Senza loghi né testo visibile sugli abiti.
 
-POSE:
-- De pie, pose simple pero estética, ligeramente girada, mirada a la cámara.
-- Brazos relajados, postura recta.
+POSA:
+- In piedi, posa semplice ma curata, leggermente ruotata, sguardo in camera.
+- Braccia rilassate, postura dritta.
 
-ILUMINACIÓN / CÁMARA:
-- Luz uniforme, sin sombras fuertes (estilo catálogo).
-- Lente 50mm, f/5.6, nitidez en todo el cuerpo visible.
-- Plano completo o 3/4, formato vertical 9:16.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce uniforme, senza ombre forti (stile catalogo).
+- Lente 50mm, f/5.6, nitidezza su tutto il corpo visibile.
+- Piano intero o 3/4, formato verticale 9:16.
 
-RESTRICCIONES:
-- Mantener la identidad real de la mujer.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto catálogo profesional.`,
+RESTRIZIONI:
+- Mantenere l’identità reale della donna.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto catalogo professionale.`,
     thumbnail: "/images/selfie-pro/mujer13.webp",
   },
   {
     id: "img-selfie-pro-mujer-014",
-    title: "Retrato creativo con flores (interior suave)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Ritratto creativo con fiori (interno morbido)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Usa una foto de referencia para crear un retrato creativo profesional con flores y luz suave.",
-    prompt: `Usa [IMG_REF] como referencia principal. Mantén la identidad de la mujer: mismas facciones, tono de piel, expresión natural.
+      "Usa una foto di riferimento per creare un ritratto creativo professionale con fiori e luce morbida.",
+    prompt: `Usa [IMG_REF] come riferimento principale. Mantieni l’identità della donna: stessi lineamenti, tono della pelle, espressione naturale.
 
-ESCENA:
-- Interior o set suave con flores alrededor (en manos, cerca del rostro o en el fondo).
-- Estética delicada, romántica y creativa.
+SCENA:
+- Interno o set morbido con fiori intorno (in mano, vicino al viso o sullo sfondo).
+- Estetica delicata, romantica e creativa.
 
-VESTUARIO:
-- Blusa o vestido en tonos pastel o blanco, sin logos ni texto.
-- Estilo femenino y suave.
+ABBIGLIAMENTO:
+- Blusa o abito in toni pastello o bianco, senza loghi né testo.
+- Stile femminile e morbido.
 
-POSE / EXPRESIÓN:
-- Plano medio-corto, mirada suave a cámara o hacia las flores.
-- Expresión tranquila, ligera sonrisa o gesto relajado.
+POSA / ESPRESSIONE:
+- Piano medio-corto, sguardo morbido in camera o verso i fiori.
+- Espressione tranquilla, lieve sorriso o gesto rilassato.
 
-ILUMINACIÓN / CÁMARA:
-- Luz difusa, como la de una ventana con cortina, sin sombras duras.
-- Lente 50mm, f/2, fondo desenfocado con bokeh agradable.
-- Formato vertical 9:16, foto tipo retrato artístico profesional.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce diffusa, come una finestra con tenda, senza ombre dure.
+- Lente 50mm, f/2, sfondo sfocato con bokeh piacevole.
+- Formato verticale 9:16, foto tipo ritratto artistico professionale.
 
-RESTRICCIONES:
-- No cambiar la identidad de la modelo.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato creativo con flores.`,
+RESTRIZIONI:
+- Non cambiare l’identità della modella.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto creativo con fiori.`,
     thumbnail: "/images/selfie-pro/mujer14.webp",
   },
   {
     id: "img-selfie-pro-mujer-015",
-    title: "Foto tipo autora de libro / experta",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Foto tipo autrice di libro / esperta",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "A partir de la referencia, genera una foto profesional tipo autora de libro o experta para portada y prensa.",
-    prompt: `Usa [IMG_REF] como foto de referencia. Conserva completamente la identidad de la mujer (rostro, facciones, tono de piel).
+      "Partendo dalla reference, genera una foto professionale tipo autrice di libro o esperta per copertina e stampa.",
+    prompt: `Usa [IMG_REF] come foto di riferimento. Conserva completamente l’identità della donna (volto, lineamenti, tono della pelle).
 
-ESCENA:
-- Fondo suave y sobrio, puede ser un set interior con librero muy desenfocado o pared neutra.
-- Estética seria pero cercana, tipo autora de libro o experta.
+SCENA:
+- Sfondo morbido e sobrio: set interno con libreria molto sfocata oppure parete neutra.
+- Estetica seria ma vicina, tipo autrice di libro o esperta.
 
-VESTUARIO:
-- Blusa o camisa elegante y sobria, blazer opcional.
-- Colores neutros (azul marino, gris, blanco, beige) sin logos ni texto.
+ABBIGLIAMENTO:
+- Blusa o camicia elegante e sobria, blazer opzionale.
+- Colori neutri (blu navy, grigio, bianco, beige) senza loghi né testo.
 
-POSE / EXPRESIÓN:
-- Plano medio-corto, brazos cruzados ligeros o manos juntas.
-- Mirada directa a la cámara, expresión confiada y profesional.
+POSA / ESPRESSIONE:
+- Piano medio-corto, braccia leggermente incrociate oppure mani unite.
+- Sguardo diretto in camera, espressione sicura e professionale.
 
-ILUMINACIÓN / CÁMARA:
-- Luz suave frontal con ligera dirección lateral, sin sombras duras.
-- Lente 50mm, f/2.8, fondo con bokeh suave.
-- Formato vertical 9:16, apto para portada de libro o notas de prensa.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce frontale morbida con leggera direzione laterale, senza ombre dure.
+- Lente 50mm, f/2.8, sfondo con bokeh morbido.
+- Formato verticale 9:16, adatto a copertina libro o comunicati stampa.
 
-RESTRICCIONES:
-- No cambiar quién es la persona de la foto.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto tipo autora profesional.`,
+RESTRIZIONI:
+- Non cambiare chi è la persona nella foto.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto tipo autrice professionale.`,
     thumbnail: "/images/selfie-pro/mujer15.webp",
   },
   {
     id: "img-selfie-pro-mujer-016",
-    title: "Sesión soft office home (trabajando desde casa)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Sessione soft home office (lavoro da casa)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Convierte la referencia en una sesión profesional estilo home office suave usando su foto.",
-    prompt: `Usa [IMG_REF] como referencia. La mujer debe conservar la misma cara, rasgos y tono de piel.
+      "Trasforma la reference in una sessione professionale soft home office usando la sua foto.",
+    prompt: `Usa [IMG_REF] come riferimento. La donna deve conservare lo stesso volto, i tratti e il tono della pelle.
 
-ESCENA:
-- Ambiente de home office: escritorio, laptop, taza de café, decoración minimalista.
-- Fondo ordenado, con luz natural de ventana.
+SCENA:
+- Ambiente home office: scrivania, laptop, tazza di caffè, decor minimalista.
+- Sfondo ordinato, con luce naturale da finestra.
 
-VESTUARIO:
-- Ropa comfy pero cuidada (suéter, camisa, blusa simple), sin logos.
-- Colores suaves (beige, blanco, gris, pastel).
+ABBIGLIAMENTO:
+- Abbigliamento comodo ma curato (maglione, camicia, blusa semplice), senza loghi.
+- Colori morbidi (beige, bianco, grigio, pastello).
 
-POSE:
-- Sentada frente a la laptop, ligera rotación hacia la cámara.
-- Una mano en el teclado o sobre la mesa, mirada a la cámara o hacia la pantalla.
+POSA:
+- Seduta davanti al laptop, leggera rotazione verso la camera.
+- Una mano sulla tastiera o sul tavolo, sguardo in camera o verso lo schermo.
 
-ILUMINACIÓN / CÁMARA:
-- Luz natural suave de ventana + relleno ligero.
-- Lente 35mm o 50mm, f/2.2, fondo con bokeh suave.
-- Plano medio, formato vertical 9:16, estilo foto de emprendedora digital.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce naturale morbida da finestra + riempimento leggero.
+- Lente 35mm o 50mm, f/2.2, sfondo con bokeh morbido.
+- Piano medio, formato verticale 9:16, stile foto da imprenditrice digitale.
 
-RESTRICCIONES:
-- Mantener identidad de la mujer.
-- Nada de texto ni logos en laptop, taza o decoración.
-- Genera solo una imagen, formato vertical 9:16, sesión home office profesional.`,
+RESTRIZIONI:
+- Mantenere l’identità della donna.
+- Niente testo né loghi su laptop, tazza o decor.
+- Genera solo un’immagine, formato verticale 9:16, sessione home office professionale.`,
     thumbnail: "/images/selfie-pro/mujer16.webp",
   },
   {
     id: "img-selfie-pro-mujer-017",
-    title: "Retrato con fondo urbano minimal (pared de concreto)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Ritratto con sfondo urbano minimal (parete in cemento)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Usa la referencia para crear un retrato profesional con fondo urbano minimalista de concreto.",
-    prompt: `Usa [IMG_REF] como referencia. Respeta la identidad de la mujer: mismos rasgos, facciones y tono de piel.
+      "Usa la reference per creare un ritratto professionale con sfondo urbano minimalista in cemento.",
+    prompt: `Usa [IMG_REF] come riferimento. Rispetta l’identità della donna: stessi tratti, lineamenti e tono della pelle.
 
-ESCENA:
-- Fondo urbano minimal: pared de concreto liso o pared clara ligeramente texturizada.
-- Estética moderna, limpia y profesional.
+SCENA:
+- Sfondo urbano minimal: parete di cemento liscia o parete chiara leggermente texturizzata.
+- Estetica moderna, pulita e professionale.
 
-VESTUARIO:
-- Outfit sencillo pero estiloso (camiseta lisa + chaqueta, vestido minimal, etc.).
-- Colores que contrasten con el fondo, sin logos ni texto.
+ABBIGLIAMENTO:
+- Outfit semplice ma curato (t-shirt tinta unita + giacca, abito minimal, ecc.).
+- Colori che contrastino con lo sfondo, senza loghi né testo.
 
-POSE / EXPRESIÓN:
-- De pie, plano medio o 3/4.
-- Mirada directa o ligeramente hacia un lado, expresión segura pero relajada.
+POSA / ESPRESSIONE:
+- In piedi, piano medio o 3/4.
+- Sguardo diretto o leggermente di lato, espressione sicura ma rilassata.
 
-ILUMINACIÓN / CÁMARA:
-- Luz natural suave o luz de estudio que imite exterior.
-- Lente 50mm, f/2.0, fondo con desenfoque ligero.
-- Formato vertical 9:16, look fotográfico realista.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce naturale morbida o luce da studio che simula esterno.
+- Lente 50mm, f/2.0, sfondo leggermente sfocato.
+- Formato verticale 9:16, look fotografico realistico.
 
-RESTRICCIONES:
-- No cambiar quién es la persona de la foto.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, retrato urbano minimal profesional.`,
+RESTRIZIONI:
+- Non cambiare chi è la persona nella foto.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, ritratto urbano minimal professionale.`,
     thumbnail: "/images/selfie-pro/mujer17.webp",
   },
   {
     id: "img-selfie-pro-mujer-018",
-    title: "Sesión creativa con luz de ventana (interior cozy)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Sessione creativa con luce da finestra (interno cozy)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "A partir de una referencia, crea una sesión creativa profesional con luz de ventana en interior acogedor.",
-    prompt: `Usa [IMG_REF] como imagen de referencia. La mujer debe mantener exactamente su rostro, rasgos y tono de piel.
+      "Partendo da una reference, crea una sessione creativa professionale con luce da finestra in un interno accogliente.",
+    prompt: `Usa [IMG_REF] come immagine di riferimento. La donna deve mantenere esattamente il suo volto, i tratti e il tono della pelle.
 
-ESCENA:
-- Interior cozy (sofá, manta, cojines, plantas), estilo hogar agradable.
-- Luz principal entrando por una ventana lateral, visible o insinuada.
+SCENA:
+- Interno cozy (divano, coperta, cuscini, piante), stile casa piacevole.
+- Luce principale che entra da una finestra laterale, visibile o suggerita.
 
-VESTUARIO:
-- Ropa cómoda pero estilizada (suéter, camisa, blusa suave).
-- Tonos cálidos o neutros, sin logos.
+ABBIGLIAMENTO:
+- Abbigliamento comodo ma curato (maglione, camicia, blusa morbida).
+- Toni caldi o neutri, senza loghi.
 
-POSE / EXPRESIÓN:
-- Sentada en el sofá, cuerpo girado hacia la luz de ventana.
-- Mirada hacia la ventana o hacia la cámara, expresión serena.
+POSA / ESPRESSIONE:
+- Seduta sul divano, corpo ruotato verso la luce della finestra.
+- Sguardo verso la finestra o verso la camera, espressione serena.
 
-ILUMINACIÓN / CÁMARA:
-- Luz suave lateral que crea sombras delicadas.
-- Lente 35mm o 50mm, f/2.2, fondo con desenfoque suave.
-- Formato vertical 9:16, estética fotográfica cálida, tipo editorial de lifestyle.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce laterale morbida che crea ombre delicate.
+- Lente 35mm o 50mm, f/2.2, sfondo con sfocato morbido.
+- Formato verticale 9:16, estetica fotografica calda, tipo editoriale lifestyle.
 
-RESTRICCIONES:
-- Mantener identidad de la mujer de referencia.
-- Sin texto, sin logos visibles, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, sesión cozy profesional.`,
+RESTRIZIONI:
+- Mantenere l’identità della donna di riferimento.
+- Niente testo, niente loghi visibili, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, sessione cozy professionale.`,
     thumbnail: "/images/selfie-pro/mujer18.webp",
   },
   {
     id: "img-selfie-pro-mujer-019",
-    title: "Retrato formal tipo foto de CV premium",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Ritratto formale tipo foto CV premium",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Usa una foto de referencia para convertirla en una foto formal tipo CV premium profesional.",
-    prompt: `Usa [IMG_REF] como referencia. Conserva el rostro, proporciones, rasgos y tono de piel de la mujer.
+      "Usa una foto di riferimento per trasformarla in una foto formale tipo CV premium professionale.",
+    prompt: `Usa [IMG_REF] come riferimento. Conserva il volto, le proporzioni, i tratti e il tono della pelle della donna.
 
-ESCENA:
-- Fondo neutro (blanco roto, gris claro o azul muy suave).
-- Estética formal y seria, tipo foto CV de alta calidad.
+SCENA:
+- Sfondo neutro (bianco sporco, grigio chiaro o azzurro molto tenue).
+- Estetica formale e seria, tipo foto CV di alta qualità.
 
-VESTUARIO:
-- Blusa formal o camisa + blazer.
-- Colores sobrios (blanco, azul marino, gris), sin estampados llamativos, sin logos.
+ABBIGLIAMENTO:
+- Blusa formale o camicia + blazer.
+- Colori sobri (bianco, blu navy, grigio), senza stampe vistose, senza loghi.
 
-POSE / EXPRESIÓN:
-- Plano medio-corto (hombros a cabeza).
-- Mirada directa a cámara, expresión profesional y agradable (ligera sonrisa).
+POSA / ESPRESSIONE:
+- Piano medio-corto (spalle a testa).
+- Sguardo diretto in camera, espressione professionale e gradevole (leggero sorriso).
 
-ILUMINACIÓN / CÁMARA:
-- Luz uniforme que ilumine todo el rostro sin sombras fuertes.
-- Lente 50mm, f/4, alta nitidez, fondo ligeramente desenfocado.
-- Formato vertical 9:16, recorte centrado en la cara.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce uniforme che illumini tutto il volto senza ombre forti.
+- Lente 50mm, f/4, alta nitidezza, sfondo leggermente sfocato.
+- Formato verticale 9:16, crop centrato sul volto.
 
-RESTRICCIONES:
-- Debe seguir siendo la misma persona de la referencia.
-- Sin texto, sin logos, sin marcas de agua.
-- Genera solo una imagen, formato vertical 9:16, foto tipo CV premium.`,
+RESTRIZIONI:
+- Deve restare la stessa persona della reference.
+- Niente testo, niente loghi, niente watermark.
+- Genera solo un’immagine, formato verticale 9:16, foto tipo CV premium.`,
     thumbnail: "/images/selfie-pro/mujer19.webp",
   },
   {
     id: "img-selfie-pro-mujer-020",
-    title: "Sesión tipo campaña de perfume (retrato elegante)",
-    area: "Sesión fotografía pro",
-    category: "Mujer",
+    title: "Sessione tipo campagna di profumo (ritratto elegante)",
+    area: "Sessione fotografia pro",
+    category: "Donna",
     summary:
-      "Convierte la referencia en una foto elegante tipo campaña de perfume, usando su misma identidad.",
-    prompt: `Usa [IMG_REF] como referencia absoluta. Mantén la identidad de la mujer sin cambios de rostro ni facciones.
+      "Trasforma la reference in una foto elegante tipo campagna di profumo, usando la stessa identità.",
+    prompt: `Usa [IMG_REF] come riferimento assoluto. Mantieni l’identità della donna senza cambiamenti a volto o lineamenti.
 
-ESCENA:
-- Fondo oscuro o degradado suave, ambiente elegante y misterioso.
-- Estética tipo campaña de perfume de lujo.
+SCENA:
+- Sfondo scuro o sfumato morbido, ambiente elegante e misterioso.
+- Estetica tipo campagna di profumo di lusso.
 
-VESTUARIO:
-- Top o vestido elegante (negro, dorado suave o tonos joya).
-- Joyas discretas pero sofisticadas (aretes, collar).
+ABBIGLIAMENTO:
+- Top o abito elegante (nero, oro soft o toni gioiello).
+- Gioielli discreti ma sofisticati (orecchini, collana).
 
-POSE / EXPRESIÓN:
-- Plano medio-corto, cabeza ligeramente inclinada, mirada intensa.
-- Expresión elegante, segura, ligeramente enigmática.
+POSA / ESPRESSIONE:
+- Piano medio-corto, testa leggermente inclinata, sguardo intenso.
+- Espressione elegante, sicura, leggermente enigmatica.
 
-ILUMINACIÓN / CÁMARA:
-- Luz dirigida, con contraste medio-alto y reflejos controlados.
-- Lente 85mm, f/2, fondo muy desenfocado.
-- Formato vertical 9:16, estilo fotográfico realista y lujoso.
+ILLUMINAZIONE / FOTOCAMERA:
+- Luce direzionata, con contrasto medio-alto e riflessi controllati.
+- Lente 85mm, f/2, sfondo molto sfocato.
+- Formato verticale 9:16, stile fotografico realistico e lussuoso.
 
-RESTRICCIONES:
-- Debe ser claramente la misma mujer que en la foto de referencia.
-- Sin texto, sin logos, sin marcas de agua ni productos visibles.
-- Genera solo una imagen, formato vertical 9:16, estilo campaña de perfume profesional.`,
+RESTRIZIONI:
+- Deve essere chiaramente la stessa donna della foto di riferimento.
+- Niente testo, niente loghi, niente watermark né prodotti visibili.
+- Genera solo un’immagine, formato verticale 9:16, stile campagna profumo professionale.`,
     thumbnail: "/images/selfie-pro/mujer20.webp",
   },
 ];

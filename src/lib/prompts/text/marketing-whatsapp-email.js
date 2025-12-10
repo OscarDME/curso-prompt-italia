@@ -1,1353 +1,1352 @@
 // src/lib/prompts/text/marketing-whatsapp-email.js
 
 export const textPromptsMarketingWhatsappEmail = [
-  {
-    id: "mwe-001",
-    title:
-      "Secuencia WhatsApp (D0–D3) para leads fríos: calentar sin vender + microcompromisos",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Secuencia completa de WhatsApp para convertir leads fríos en conversaciones reales sin presión.",
-    prompt: `Contexto:
-- Nicho/industria: [ ]
-- Oferta: [ ]
-- Lead magnet u origen del lead: [anuncio / DM / webinar / referral / contenido]
-- Nivel de conciencia del lead: [no sabe / problema consciente / solución consciente / producto consciente]
-- Tono de marca: [cercano/serio/divertido/premium]
-- País/modismos: [ ]
-- Objeción típica: [precio/tiempo/confianza/“no lo necesito”]
+{
+  id: "mwe-001",
+  title:
+  "WhatsApp (D0-D3) sequenza per cavi freddi: riscaldamento senza vendita + microcommitmenti",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Sequenziamento completo di WhatsApp per convertire i cavi freddi in conversazioni reali senza pressione.",
+  prompt: `Contesto:
+- Nicho / industria: []
+- Offerta: []
+- Magnete di piombo o origine di piombo: [annuncio / DM / webinar / riferimento / contenuto]
+- Livello di coscienza di piombo: [non conosce / problema cosciente / soluzione cosciente / prodotto cosciente]
+- Tono di marca: [chiudi / seri / divertimento / premium]
+- Paese / modestia: []
+- Oggetti tipici: [prezzo / tempo / fiducia / "Non ne ho bisogno"]
 
-Crea una secuencia de WhatsApp de 4 días (D0, D1, D2, D3) con:
-1) Objetivo por día (microobjetivo medible).
-2) Mensajes (2–4 por día) con longitud realista:
-   - apertura y permiso (“¿te viene bien?”)
-   - pregunta de diagnóstico corta
-   - mini insight o micro-valor personalizado (sin link al principio)
-   - CTA mínimo (responder con 1 palabra o número)
-3) Variantes por estilo:
-   - tono ultra cercano
-   - tono profesional
-4) Reglas anti-spam:
-   - evitar links en los 2 primeros mensajes
-   - no más de 2 preguntas seguidas
-   - usar “break lines” para mejor lectura
-5) Respuestas preparadas (macros) para 8 escenarios:
-   - “¿cuánto cuesta?”
-   - “no tengo tiempo”
-   - “mándame info”
-   - “luego”
-   - “no me interesa”
-   - visto/sin respuesta
-   - “¿quién eres?”
-   - “me interesa, ¿qué sigue?”
-6) Cierre del día 3 con transición suave a llamada/checkout SOLO si hay interés.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-002",
-    title:
-      "Secuencia WhatsApp de cierre (6 mensajes) para lead caliente: diagnóstico, propuesta y cierre limpio",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Guion de WhatsApp para cerrar ventas con preguntas clave, propuesta y CTA sin incomodar.",
-    prompt: `Datos:
-- Producto/servicio: [ ]
-- Precio y opciones: [ ]
-- Garantía: [ ]
-- Tipo de cliente ideal: [ ]
-- Resultado prometido (realista): [ ]
-- Tiempo de implementación: [ ]
-- Objeción #1: [ ]
-- Objeción #2: [ ]
+Creare un 4 giorni Sequenza WhatsApp (D0, D1, D2, D3) con:
+1) Obiettivo al giorno (microtarget misurabile).
+2) Messaggi (2-4 al giorno) con lunghezza realistica:
+- apertura e permesso ("fa bene?")
+- domanda di diagnosi breve
+- mini intuizione o valore micro-custom (senza collegamento all'inizio)
+- CTA minima (risposta con 1 parola o numero)
+3) Varianti di stile:
+- tono ultra vicino
+- tono professionale
+4) regole antispam:
+- evitare collegamenti nei primi 2 messaggi
+- non più di 2 domande di fila
+- utilizzare "linee di rottura" per una migliore lettura
+5) Risposte preparate (macro) per 8 scenari:
+- Quanto costa?
+- "Non ho tempo"
+- "Inviami le informazioni".
+- Piu' tardi.
+- "Non mi interessa".
+- visto / senza risposta
+- "Chi sei?"
+- "Sono interessato, che succede?"
+6) Chiusura del giorno 3 con transizione liscia a chiamata / checkout SOLO se c'è interesse.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-002",
+  title:
+  "Sequenza di chiusura WhatsApp (6 messaggi) per hot lead: diagnosi, proposta e chiusura pulita",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Script WhatsApp per chiudere le vendite con le domande chiave, proposte e CTA senza scomoda.",
+  prompt: `Dati:
+- Prodotto / servizio: []
+- Prezzo e opzioni: []
+- Garanzia: []
+- Tipo di cliente ideale: []
+- (realistico) risultato promesso: []
+- Tempo di attuazione: []
+- Obiezione # 1: []
+- Obiezione # 2: []
 
-Escribe un guion de WhatsApp en 6 mensajes (cada uno con 1 propósito):
-1) Apertura + confirmación de contexto (“para ubicarme…”)
-2) Preguntas de diagnóstico (en un solo mensaje, formato numerado)
-3) Reflejo (mirror) de lo que dijo + “si entendí bien…”
-4) Propuesta: 2 opciones (A/B), con bullets, sin texto largo
-5) Manejo de objeción anticipada (elige la más común)
-6) Cierre con CTA claro + alternativa (si no es momento: agendar / lista de espera)
+Scrivi una cosa Scritto di app in 6 messaggi (ciascuno con 1 scopo):
+1) Apertura + conferma del contesto ("per trovarmi...")
+2) Domande diagnostiche (in un messaggio, formato numerato)
+3) Riflettere (mirrore) quello che ha detto + "se ho capito correttamente..."
+4) Proposta: 2 opzioni (A / B), con proiettili, senza testo lungo
+5) Gestione delle obiezioni precoce (collocare il più comune)
+6) Chiudere con chiaro + alternativa CTA (se non tempo: orario / lista di attesa)
 
-Incluye:
-- 3 variantes del mensaje #4 (propuesta) por tono: cercano, premium, directo
-- 5 cierres diferentes (suave, medio, fuerte, consultivo, “última pregunta”)
-- 1 versión para venta B2B y 1 para B2C.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-003",
-    title:
-      "Email de bienvenida (post-lead magnet): autoridad + valor inmediato + ‘reply trigger’",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email 1 de onboarding: entrega, expectativa, credibilidad y disparador de respuesta.",
-    prompt: `Contexto:
-- Lead magnet: [ ]
-- Promesa principal: [ ]
-- Perfil del lector: [ ]
-- Oferta final: [ ]
-- Tono: [ ]
+Include:
+- 3 varianti del messaggio # 4 (proposto) per tono: chiuso, premium, diretto
+- 5 diverse chiusure (soft, medium, strong, advisory, "ultima domanda")
+- 1 versione in vendita B2B e 1 per B2C.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-003",
+  title:
+  "E-mail di benvenuto (magnete post-lead): autorità + valore immediato + 'reply trigger '",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Email 1: consegna, aspettativa, credibilità e risposta trigger.",
+  prompt: `Contesto:
+- Magnete di piombo: []
+- Promesso principale: []
+- Profilo del lettore: []
+- Offerta finale: []
+- Tono:
 
-Redacta un email de bienvenida que incluya:
-1) 8 asuntos (4 curiosidad, 2 directos, 2 ultra cortos).
-2) Primer párrafo con “pattern interrupt” (1–2 líneas).
-3) Entrega del recurso (usa placeholders si hay links).
-4) Mini historia de autoridad (5–7 líneas) sin sonar presumido.
-5) 3 aprendizajes accionables relacionados al recurso (bullets con ejemplos).
-6) “Reply trigger”: 1 pregunta que aumente replies (con 3 opciones de respuesta tipo A/B/C).
-7) CTA suave al siguiente paso (leer / ver video / responder / agendar), sin vender duro.
-8) P.S. con recordatorio y refuerzo emocional.
+Scrivere una email di benvenuto tra cui:
+1) 8 casi (4 curiosità, 2 diretto, 2 ultra breve).
+2) Primo paragrafo con "interruttore di pattern" (1-2 linee).
+3) Consegna della risorsa (utilizza i segnaposto se ci sono collegamenti).
+4) Mini storia di autorità (5-7 linee) senza suono presunto.
+5) 3 apprendimento attuabile in relazione alle risorse (bulli con esempi).
+6) "Applicare trigger": 1 domanda che aumenta le risposte (con 3 opzioni di risposta tipo A / B / C).
+7) Soft CTA al passo successivo (leggi / guardare video / rispondere / programma), senza vendere duro.
+8) P.S. con promemoria e rinforzo emotivo.
 
-Crea 2 versiones:
-- Versión corta (<= 180 palabras)
-- Versión larga (450–650 palabras).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-004",
-    title:
-      "Secuencia Email (5 correos) de nurturing: problema → insight → caso → oferta suave → cierre",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Secuencia completa para convertir leads en compradores sin quemarlos.",
-    prompt: `Datos:
-- Nicho: [ ]
-- Dolor principal: [ ]
-- Deseo principal: [ ]
-- Mecanismo único (tu enfoque): [ ]
-- Caso real o ejemplo: [si no hay, usa un ejemplo hipotético sin afirmar que es real]
-- Oferta: [ ]
-- CTA final: [agendar/checkout/DM]
+Creare 2 versioni:
+- Versione corta (± = 180 parole)
+- Versione lunga (450-650 parole).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-004",
+  title:
+  "E-mail (5 e-mail) sequenza di nutrimento: problema → approfondimenti → caso → soft offerta → chiusura",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Sequenza completa per convertire conduce in acquirenti non bruciati.",
+  prompt: `Dati:
+- Nicho:
+- Dolore principale: []
+- Desiderio principale: []
+- Singolo meccanismo (il vostro approccio): []
+- Real caso o esempio: [se non c'è, utilizzare un esempio ipotetico senza dire che è reale]
+- Offerta: []
+- CTA finale: [schedule / checkout / DM]
 
-Crea una secuencia de 5 emails con:
-Email 1: “El error más común” (educación + reframe)
-Email 2: “La verdad incómoda” (mito vs realidad)
-Email 3: “Mini caso / historia” (antes-después con detalles)
-Email 4: “Cómo se ve el proceso” (framework en pasos)
-Email 5: “Invitación” (oferta suave + urgencia ética)
+Creare una sequenza di 5 email con:
+Email 1: "L'errore più comune" (education + say)
+Email 2: "La Verità Scomodo" (mito contro realtà)
+Email 3: "Mini caso / storia" (prima - poi con dettagli)
+Email 4: "Come il processo sembra" (framework in step)
+Email 5: "Invitation" (offerta morbida + urgenza etica)
 
-Para cada email entrega:
-- 10 asuntos (mezcla de estilos)
-- preheader
-- cuerpo completo (350–700 palabras)
-- CTA principal + CTA alterno (para tímidos)
-- 2 P.S. distintos (uno lógico, uno emocional)
+Per ogni e-mail di consegna:
+- 10 numeri (mix di stili)
+- Preheader
+- corpo pieno (350-700 parole)
+- CTA principale + Alternate CTA (per timide)
+- 2 P.S. (una logica, una emotiva)
 
 Extra:
-- agrega 1 versión “modo WhatsApp” (resumen en 3 mensajes) de cada email.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-005",
-    title:
-      "WhatsApp: reactivación de leads ‘visto y no respondió’ (7 días) con elegancia",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Secuencia para reactivar chats muertos sin insistir: humor leve, valor y salida digna.",
-    prompt: `Contexto:
-- Qué se habló antes: [ ]
-- Oferta: [ ]
-- Objeción probable: [ ]
-- Tono: [cercano/premium]
+- aggiunge 1 versione "WhatsApp" (sommario in 3 messaggi) di ogni e-mail.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-005",
+  title:
+  "WhatsApp: riattivazione di 'venire e non rispondere' (7 giorni) con eleganza",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Sequenza di riattivare le chat morte senza insistere: umorismo mite, coraggio e uscita dignitosa.",
+  prompt: `Contesto:
+- No. Ciò che è stato detto prima:
+- Offerta: []
+- Probabile obiezione: []
+- Tono: [vicino / premio]
 
-Crea una secuencia de reactivación en WhatsApp para 7 días (1 mensaje por día) con:
-1) Mensajes cortos (1–3 líneas), naturales, sin presión.
-2) Estructura por día:
-   - Día 1: check-in con permiso
-   - Día 2: micro-valor (tip)
-   - Día 3: pregunta de prioridad (A/B)
-   - Día 4: prueba social mini
-   - Día 5: oferta de ayuda (diagnóstico)
-   - Día 6: cierre elegante (“¿lo dejo aquí?”)
-   - Día 7: último mensaje con puerta abierta
-3) 3 variantes por día (neutro, humor suave, premium).
-4) Respuestas preparadas si:
-   - responde “sí”
-   - responde “no”
-   - responde “¿precio?”
-   - no responde`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-006",
-    title:
-      "Email para ‘mándame info’ (one-shot): brochure textual que convierte + CTA claro",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email único para cuando piden info: resume oferta, beneficios, proceso, FAQs y cierre.",
-    prompt: `Datos:
-- Oferta: [ ]
-- Para quién NO es: [ ]
-- Beneficios principales: [ ]
-- Proceso (pasos): [ ]
-- Precio: [ ]
-- Garantía/condiciones: [ ]
-- Objeciones típicas: [ ]
+Creare una sequenza di riattivazione in WhatsApp per 7 giorni (1 messaggio al giorno) con:
+1) Messaggi brevi (1-3 linee), naturali, senza pressione.
+2) Struttura al giorno:
+- Giorno 1: check-in con permesso
+- Giorno 2: micro-valore (tip)
+Giorno 3: domanda prioritaria (A / B)
+- Giorno 4: mini test sociale
+- Giorno 5: offerta di aiuto (diagnosi)
+- Giorno 6: chiusura elegante ("Lascio qui?")
+- Giorno 7: ultimo messaggio con porta aperta
+3) 3 varianti al giorno (neutral, umorismo morbido, premium).
+4) Risposte preparate se:
+- Rispondi "sì"
+- Rispondi "no".
+- dice "prezzo"?
+- non risponde`,
+  thumbnail: ""
+},
+{
+  id: "mwe-006",
+  title:
+  "Email per 'send me info' (one-shot): uncinetto testuale che converte + luce CTA",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "E-mail unica per quando chiedi informazioni: offerta sommaria, benefici, processo, FAQ e chiusura.",
+  prompt: `Dati:
+- Offerta: []
+- Per chi NON è: []
+- Principali vantaggi: []
+- Processo (passi): []
+- Prezzo: []
+- Garanzia / condizioni: []
+- Oggetti tipici: []
 
-Escribe un email “mándame info” que incluya:
-1) 6 asuntos.
-2) Apertura directa: “Te mando la info completa aquí…”
-3) Qué es + para quién es (y para quién no).
-4) Beneficios (6 bullets) con ejemplos concretos.
-5) Proceso en 5 pasos (qué pasa, qué entregas, qué recibes).
-6) Prueba social (2 mini ejemplos: si no hay, redacta como ‘lo que suele pasar’ sin afirmar que es real).
-7) FAQ (8 preguntas) incluyendo precio, tiempos, soporte, resultados.
-8) CTA principal + CTA alterno.
-9) Cierre con: “si me respondes con X, te recomiendo la opción ideal”.
+Scrivere una e-mail "Inviami informazioni" che include:
+(1) 6 casi.
+2) Apertura diretta: "Vi mando le informazioni complete qui..."
+3) Che cosa è + per chi è (e per chi non).
+4) Vantaggi (6 proiettili) con esempi concreti.
+5) Processo in 5 passi (cosa succede, quali consegne, ciò che ricevi).
+6) Test sociale (2 mini esempi: se non c'è, scrivi come' quello che di solito accade' senza dire che è reale).
+7) FAQ (8 domande) compreso prezzo, tempi, supporto, risultati.
+8) CTA principale + CTA alternativa.
+9) Chiudi con: "Se rispondi con X, ti consiglio l'opzione ideale."
 
-Incluye versión corta (<= 200 palabras) sin perder la esencia.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-007",
-    title:
-      "WhatsApp: manejo de objeción ‘está caro’ (sin bajar precio): 9 respuestas por ángulo",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Respuestas listas para precio: valor, ROI, riesgo, comparación, opciones y cierre.",
-    prompt: `Datos:
-- Precio: [ ]
-- Alternativas baratas (competencia/hacerlo solo): [ ]
-- Resultado que entrega: [ ]
-- Tiempo para lograr resultado: [ ]
-- Garantía: [ ]
-- Tipo cliente: [B2B/B2C]
+Include una versione breve (± = 200 parole) senza perdere l'essenza.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-007",
+  title:
+  "WhatsApp: Gestione oggetti 'è costoso' (senza prezzo inferiore): 9 risposte per angolo",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Risposta pronta per il prezzo: valore, ROI, rischio, confronto, opzioni e chiusura.",
+  prompt: `Dati:
+- Prezzo: []
+- Buone alternative (competition / doing it alone): []
+- Risultato consegnato: []
+- Ora di ottenere i risultati: []
+- Garanzia: []
+- Tipo di cliente: [B2B / B2C]
 
-Genera 9 respuestas de WhatsApp para “está caro” (2–4 líneas cada una), usando estos ángulos:
-1) ROI con ejemplo numérico
-2) Comparación vs costo de no hacerlo
-3) Desglose de lo que incluye (valor percibido)
-4) Proceso y expertise (por qué no es comodity)
-5) Garantía / riesgo reducido
-6) Opciones de pago / plan escalonado
-7) Priorización: “si tu prioridad hoy es X…”
-8) Pregunta diagnóstica que reencuadra (“¿qué te gustaría lograr exactamente?”)
-9) Cierre consultivo (decisión en 10 segundos)
+Genera 9 Cosa Risposte dell'app per "è costoso" (2-4 linee ciascuna), utilizzando questi angoli:
+1) ROI con esempio numerico
+2) Confronto vs costo di non farlo
+3) Ripartizione di ciò che include (valore percepito)
+4) Processo e competenza (perché non è comfort)
+5) Garanzia / rischio ridotto
+6) Opzioni di pagamento / piano fase
+7) Priorizzazione: "se la vostra priorità oggi è X..."
+8) Domanda diagnostica che recupera ("cosa vorresti ottenere esattamente?")
+9) Chiusura consultiva (decisione in 10 secondi)
 
-Incluye:
-- 3 respuestas para B2B
-- 3 respuestas para B2C
-- 3 respuestas tono premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-008",
-    title:
-      "Email de recuperación de carrito (3 correos): empatía + objeción + prueba + urgencia ética",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Secuencia para recuperar ventas perdidas sin agresividad.",
-    prompt: `Datos:
-- Producto: [ ]
-- Precio: [ ]
-- Beneficio principal: [ ]
-- Objeción dominante: [ ]
-- Urgencia real: [cierre / cupos / bonus]
-- Incentivo (si hay): [ ]
+Include:
+- 3 risposte per B2B
+- 3 risposte per B2C
+- 3 risposte tono premium.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-008",
+  title:
+  "Cart email di recupero (3 email): empatia + obiezione + test + urgenza etica",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Sequenza per recuperare le vendite perse senza aggressività.",
+  prompt: `Dati:
+- Uscita: []
+- Prezzo: []
+- Principali vantaggi: []
+- Obiezione dominante: []
+- urgenza reale: [closure / quote / bonus]
+- Incentivo (se presente): []
 
-Crea 3 emails:
-Email 1 (1–2h): “¿Te atoraste?” (ayuda + soporte)
-Email 2 (24h): objeción + prueba social
-Email 3 (48–72h): último aviso + urgencia ética
+Crea 3 email:
+Email 1 (1-2h): "Sei rimasto bloccato?" (aiuto + sostegno)
+Email 2 (24h): opposizione + prova sociale
+Email 3 (48-72h): ultimo avvertimento + urgenza etica
 
-Para cada email:
-- 8 asuntos + preheader
-- cuerpo completo (250–500 palabras)
-- CTA principal
-- 2 P.S. distintos
+Per ogni e-mail:
+- 8 casi + precauzione
+- corpo intero (250-500 parole)
+- CTA principale
+- 2 diversi P.S.
 
-Además crea 1 versión en WhatsApp (2 mensajes) por email.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-009",
-    title:
-      "WhatsApp: secuencia post-compra (D0–D7) para reducir reembolsos y aumentar activación",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Onboarding por WhatsApp: expectativas, primera victoria, hábitos y soporte.",
-    prompt: `Producto: [ ]
-Primera victoria (quick win): [ ]
-Motivos típicos de reembolso: [ ]
-Soporte: [canal]
+Anche creare 1 versione in WhatsApp (2 messaggi) per e-mail.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-009",
+  title:
+  "WhatsApp: sequenza post-acquisto (D0-D7) per ridurre i rimborsi e aumentare l'attivazione",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "A bordo di WhatsApp: aspettative, prima vittoria, abitudini e supporto.",
+  prompt: `Uscita: []
+Prima vittoria: []
+Motivi tipici per il rimborso: []
+Supporto: [canale]
 
-Crea una secuencia D0 a D7 con 1 mensaje por día:
-- D0: bienvenida + qué esperar + primer paso
-- D1: quick win guiado
-- D2: error común y cómo evitarlo
-- D3: checklist de progreso (responde 1–3)
-- D4: historia/caso mini + lección
-- D5: hábito (rutina sugerida)
-- D6: oferta de ayuda (diagnóstico)
-- D7: invitación a referir/reseña (suave)
+Creare una sequenza D0 a D7 con 1 messaggio al giorno:
+- D0: benvenuto + cosa aspettarsi + primo passo
+- D1: vittoria rapida guidata
+- D2: errore comune e come evitarlo
+- D3: controllo del progresso (risponde 1-3)
+- D4: storia / caso mini + lezione
+- D5: abitudine (suggested routine)
+- D6: offerta di aiuto (diagnosi)
+- D7: invito a fare riferimento / recensione (soft)
 
-Incluye:
-- 2 variantes por día (cercano y premium)
-- 1 macro de respuesta si el usuario está perdido
-- 1 macro si el usuario está avanzando rápido`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-010",
-    title:
-      "Email de lanzamiento ‘open cart’ (día 1): historia + mecanismo + oferta clara + CTA",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email principal de lanzamiento: vende con narrativa + claridad (sin humo).",
-    prompt: `Datos:
-- Oferta: [ ]
-- Precio: [ ]
-- Bonus: [ ]
-- Fecha de cierre: [ ]
-- Audiencia: [ ]
-- Gran dolor: [ ]
-- Gran deseo: [ ]
-- Mecanismo único: [ ]
+Include:
+- 2 varianti al giorno (chiusura e premium)
+- 1 risposta macro se l'utente è perso
+- 1 macro se l'utente si muove velocemente`,
+  thumbnail: ""
+},
+{
+  id: "mwe-010",
+  title:
+  "Avviare email \"open card\" (giorno 1): storia + meccanismo + offerta chiara + CTA",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "E-mail di lancio principale: vende con narrazione + chiarezza (senza fumo).",
+  prompt: `Dati:
+- Offerta: []
+- Prezzo: []
+- Bonus: []
+- Data di chiusura: []
+[]
+- Grande dolore.
+- Grande desiderio: []
+- Meccanismo unico: []
 
-Escribe un email de open cart (600–900 palabras) con:
-1) 12 asuntos (mezcla curiosidad, directo, beneficio, historia).
-2) Hook con historia realista (7–10 líneas).
-3) Reframe: por qué lo intentado no funciona.
-4) Presenta el mecanismo con analogía clara.
-5) Qué incluye (bullets: módulos/entregables).
-6) Para quién es / no es.
-7) Bonus + por qué existe.
-8) CTA fuerte y claro (link placeholder).
-9) FAQ (6) enfocada en objeciones.
-10) Cierre emocional + P.S. con urgencia ética.`,
-    thumbnail: "",
-  },
+Scrivere un'email di carrello aperto (600-900 parole) con:
+1) 12 numeri (mix curiosità, diretto, profitto, storia).
+2) Uncino con storia realistica (7-10 linee).
+3) Ristrutturami: perché il provato non funziona.
+4) Presenta il meccanismo con chiara analogia.
+5) Che cosa include (bullette: moduli / consegnabili).
+6) A chi non serve.
+7) Bonus + perché esiste.
+8) CTA forte e chiaro (link segnaposto).
+9) FAQ (6) focalizzata sulle obiezioni.
+10) Chiusura emotiva + P.S. con urgenza etica.`,
+  thumbnail: ""
+},
 
-  {
-    id: "mwe-011",
-    title:
-      "WhatsApp: mini-lanzamiento (3 días) para audiencia pequeña: valor → caso → oferta",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Lanzamiento por WhatsApp: 3 días, 2 mensajes por día, sin quedar como vendedor.",
-    prompt: `Datos:
-- Oferta: [ ]
-- Precio: [ ]
-- Objeción #1: [ ]
-- Caso o historia: [ ]
-- Tono: [ ]
+{
+  id: "mwe-011",
+  title:
+  "WhatsApp: mini-lancio (3 giorni) per il piccolo pubblico: valore → caso → offerta",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Avvio da WhatsApp: 3 giorni, 2 messaggi al giorno, non lasciati come venditore.",
+  prompt: `Dati:
+- Offerta: []
+- Prezzo: []
+- Obiezione # 1: []
+- Caso o storia: []
+- Tono:
 
-Crea un mini-lanzamiento por WhatsApp:
-Día 1: 2 mensajes de valor (insight + tip accionable)
-Día 2: 2 mensajes (historia/caso + lección)
-Día 3: 2 mensajes (oferta + CTA)
+Crea un mini-lancio di WhatsApp:
+Giorno 1: 2 messaggi di valore (insight + punta actionable)
+Giorno 2: 2 messaggi (storia / caso + lezione)
+Giorno 3: 2 messaggi (offerta + CTA)
 
-Cada mensaje:
-- 2–5 líneas
-- 1 idea principal
-- 1 pregunta o micro CTA
+Ogni messaggio:
+- 2-5 linee
+- 1 idea principale
+- 1 domanda o micro CTA
 
-Incluye:
-- 3 variaciones por día (cercano, profesional, humor suave)
-- Respuestas preparadas si preguntan precio, garantía, y “no tengo tiempo”.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-012",
-    title:
-      "Email ‘Last Call’ (cierre carrito): tensión + claridad + recap + CTA (sin manipulación)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email de cierre: repaso, objeciones, urgencia real y CTA final.",
-    prompt: `Datos:
-- Oferta: [ ]
-- Qué se pierde al cerrar: [bonus/cupos/precio]
-- Objeciones principales: [ ]
-- Tono: [directo/premium]
+Include:
+- 3 variazioni al giorno (chiusura, professionale, umore morbido)
+Risposte preparate se chiedete prezzo, garanzia e "non ho tempo.".`,
+  thumbnail: ""
+},
+{
+  id: "mwe-012",
+  title:
+  "Email 'Last Call': tensione + chiarezza + recap + CTA (senza manipolazione)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Chiusura email: recensione, obiezioni, vera urgenza e CTA finale.",
+  prompt: `Dati:
+- Offerta: []
+- No. Cosa si perde quando si chiude: [bonus / quota / prezzo]
+- Principali obiezioni: []
+- Tono: [diretto / premium]
 
-Escribe un email de cierre (450–750 palabras) con:
-1) 10 asuntos (incluye 2 ultra cortos).
-2) Apertura “último aviso” sin sonar agresivo.
-3) Recap:
-   - qué es
-   - para quién
-   - transformación
-4) 3 objeciones respondidas con ejemplos.
-5) CTA final (link placeholder) + alternativa (responder “PREGUNTA”).
-6) P.S. doble:
-   - P.S. lógico
-   - P.S. emocional`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-013",
-    title:
-      "WhatsApp: guion de calificación (lead qualification) en 7 preguntas + scoring",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Califica leads en WhatsApp sin interrogatorio: preguntas cortas + scoring y siguiente paso.",
-    prompt: `Oferta: [ ]
-Cliente ideal: [ ]
-Precio: [ ]
-Resultado: [ ]
+Scrivere una email di chiusura (450-750 parole) con:
+1) 10 casi (compreso 2 ultra brevi).
+2) Apertura "ultimo avvertimento" senza suonare aggressivo.
+3) Ricap:
+- Cosa c'è?
+per chi
+- trattamento
+(4) 3 obiezioni con esempi.
+5) Final CTA (link placeholder) + alternativa (risposta "QUESTION").
+(6) Doppia P.S.:
+- P.S. logica.
+- P.S. emotiva`,
+  thumbnail: ""
+},
+{
+  id: "mwe-013",
+  title:
+  "WhatsApp: qualifica principale in 7 domande + cicatrice",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Si qualifica piombo in WhatsApp senza mettere in discussione: domande corte + cicatrice e passo successivo.",
+  prompt: `Offerta: []
+Cliente ideale: []
+Prezzo: []
+[]
 
-Crea un guion de WhatsApp con:
-1) Intro con permiso (1–2 líneas).
-2) 7 preguntas (una por mensaje) para validar:
-   - urgencia
-   - presupuesto
-   - autoridad de decisión
-   - problema real
-   - capacidad de implementación
-3) Sistema de scoring (0–20) con reglas claras.
-4) Resultado según score:
-   - 0–7: nutrir
-   - 8–14: agendar
-   - 15–20: cerrar
-5) Mensajes de transición para cada resultado (3 variantes).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-014",
-    title:
-      "Email ‘case study’ de venta: estructura narrativa con datos, fracasos y aprendizajes",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Caso de estudio que vende: historia, métricas, obstáculos, método y CTA.",
-    prompt: `Caso:
-- Tipo de cliente: [ ]
-- Situación inicial: [ ]
-- Obstáculo: [ ]
-- Proceso: [ ]
-- Resultado: [métricas]
-- Oferta a la que lleva: [ ]
+Creare un Cosa script di app con:
+1) Intro con permesso (1-2 linee).
+2) 7 domande (una per messaggio) per convalidare:
+- urgenza
+- bilancio
+- autorità decisionale
+- vero problema
+- capacità di attuazione
+3) Sistema di punteggio (0-20) con regole chiare.
+4) Risultato per punteggio:
+- 0-7: nutrimento
+- 8-14: orario
+- 15-20: chiudi
+5) Messaggi di transizione per ogni risultato (3 varianti).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-014",
+  title:
+  "Email 'case study' in vendita: struttura narrativa con dati, guasti e apprendimento",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Case study che vende: storia, metriche, ostacoli, metodo e CTA.",
+  prompt: `Caso:
+- Tipo di cliente: []
+- Stato iniziale: []
+- Ostacolo []
+- Processo: []
+- Risultato: [metrico]
+- Offerta a cui: []
 
-Escribe un email case study (650–1,000 palabras) con:
-1) 10 asuntos.
-2) Contexto y lo que estaba intentando (fallos realistas).
-3) Diagnóstico del problema raíz.
-4) Proceso en 5 etapas (con detalles).
-5) Resultado con métricas (y cualitativo).
-6) Lecciones (5 bullets).
-7) CTA suave a la oferta + alternativa para responder “CASO”.
-Incluye versión corta (300 palabras) para audiencias frías.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-015",
-    title:
-      "WhatsApp: guion para vender por notas de voz (3 audios): estructura y texto exacto",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Estructura de 3 notas de voz cortas que cierran ventas sin sonar agresivo.",
-    prompt: `Oferta: [ ]
-Tono: [ ]
-Duración por audio: [20–35s]
-Objeción principal: [ ]
-
-Crea:
-1) Guion de Audio 1 (contexto + diagnóstico) con texto exacto.
-2) Guion de Audio 2 (solución + por qué funciona) con analogía.
-3) Guion de Audio 3 (propuesta + CTA) con cierre consultivo.
-
-Incluye:
-- versión alternativa en texto (por si no usan audios)
-- 5 “frases puente” para responder sin improvisar
-- 3 cierres distintos (suave, directo, premium).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "mwe-016",
-    title:
-      "Email segmentado por objeción (tiempo / dinero / confianza): 3 emails distintos, misma oferta",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Misma oferta, 3 ángulos: objeción dominante según segmento.",
-    prompt: `Oferta: [ ]
-Precio: [ ]
-Garantía: [ ]
-Pruebas: [testimonios/portafolio]
-Tono: [ ]
-
-Crea 3 emails (400–650 palabras cada uno):
-A) Segmento TIEMPO: “cómo hacerlo sin tiempo”
-B) Segmento DINERO: “cómo recuperar inversión / evitar costo oculto”
-C) Segmento CONFIANZA: “por qué funciona + prueba + transparencia”
-
-Para cada email:
-- 10 asuntos + preheader
-- hook distinto
-- 5 bullets de beneficio alineados
-- CTA principal + CTA alterno
-- 2 P.S. distintos`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-017",
-    title:
-      "WhatsApp: script para pedir referrals (sin vergüenza) + mensaje reenviable listo",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Pide recomendación después de buen resultado con copy reenviable listo.",
-    prompt: `Resultado logrado por el cliente: [ ]
-A quién quieres referidos: [perfil]
-Incentivo: [si aplica]
-Tono: [ ]
+Scrivere uno studio caso e-mail (650-1,000 parole) con:
+1) 10 casi.
+2) Contesto e quello che stava provando (insuccessi realistici).
+3) Diagnosi del problema della radice.
+4) Processo in 5 fasi (con dettagli).
+5) Risultato con metriche (e qualitative).
+6) Lezioni (5 proiettili).
+7) Soft CTA per offrire + alternativa per rispondere "CASE".
+Include la versione breve (300 parole) per il pubblico freddo.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-015",
+  title:
+  "WhatsApp: script da vendere con note vocali (3 audio): struttura esatta e testo",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Struttura di 3 note vocali brevi che chiudono vendite insound aggressive.",
+  prompt: `Offerta: []
+[]
+Durata audio: [20-35s]
+Obiezione principale: []
 
 Crea:
-1) 3 mensajes de WhatsApp para pedir referido (2–5 líneas).
-2) Mensaje reenviable (copy listo) en 3 tonos:
-   - casual
-   - profesional
-   - premium
-3) Respuestas para:
-   - “sí, tengo a alguien”
-   - “no conozco a nadie”
-   - “luego”
-4) Variante para pedir reseña/testimonio también (suave).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-018",
-    title:
-      "Email de upsell post-compra: conecta con progreso actual + next level + oferta limitada",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Upsell que no molesta: basado en progreso y próxima etapa, con urgencia ética.",
-    prompt: `Producto inicial: [ ]
-Upsell: [ ]
-Precio upsell: [ ]
-Progreso típico a 7 días: [ ]
-Urgencia real: [bonus/fecha]
+1) Audio 1 script (contesto + diagnosi) con testo esatto.
+2) Audio 2 script (soluzione + perché funziona) con analogia.
+3) Audio 3 (proposta + CTA) con chiusura consultiva.
 
-Escribe un email (450–750 palabras) con:
-1) 10 asuntos.
-2) Felicitación por progreso (específico).
-3) Próximo cuello de botella que viene.
-4) Presenta upsell como solución + por qué ahora.
-5) Qué incluye (bullets) + para quién NO es.
-6) Oferta/bonus con urgencia real.
-7) CTA + alternativa “responde con UPSELL”.
-Incluye versión corta (<= 200 palabras).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-019",
-    title:
-      "WhatsApp: seguimiento post-cotización (B2B) — 5 mensajes con valor + cierre consultivo",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Follow-up B2B después de enviar propuesta: valor, claridad y siguiente paso.",
-    prompt: `Servicio: [ ]
-Precio: [ ]
-Decisor: [rol]
-Tiempo típico de decisión: [ ]
-Objeción común: [ ]
+Include:
+- versione di testo alternativa (nel caso non utilizzino audio)
+- 5 "frasi ponti" per rispondere senza improvvisare
+- 3 diverse chiusure (soft, diretto, premium).`,
+  thumbnail: ""
+},
 
-Crea 5 mensajes (uno cada 2–3 días) con:
-1) Recordatorio breve + pregunta única
-2) Aclaración de ROI (mini cálculo)
-3) Caso similar (mini historia)
-4) Implementación: cómo lo hacemos fácil
-5) Cierre: “¿cerramos o lo dejamos aquí?” con elegancia
+{
+  id: "mwe-016",
+  title:
+  "Email segmentata dall'obiezione (tempo / denaro / fiducia): 3 email diverse, stessa offerta",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Stessa offerta, 3 angoli: opposizione dominante secondo segmento.",
+  prompt: `Offerta: []
+Prezzo: []
+Garanzia: []
+Prove: [testimonies / portfolio]
+[]
 
-Incluye:
-- 2 variantes por mensaje (cercano/profesional)
-- 1 versión por email (si el cliente prefiere email).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-020",
-    title:
-      "Email de propuesta comercial (B2B): objetivos, alcance, entregables, timeline, inversión y riesgos",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Propuesta por email: objetivos, alcance, entregables, timeline, inversión y próximos pasos.",
-    prompt: `Cliente (industria): [ ]
-Objetivo (KPI): [ ]
-Alcance: [ ]
-Timeline: [ ]
-Inversión: [ ]
-Riesgos/dependencias del cliente: [ ]
+Creare 3 email (400-650 parole ciascuna):
+A) TIME Segment: "Come farlo senza tempo"
+B) segmento DINERO: "come recuperare investimento / evitare costi nascosti"
+C) segmento CONFIANZA: "perché funziona + prova + trasparenza"
 
-Escribe un email-propuesta B2B con:
-1) 6 asuntos
-2) Resumen ejecutivo (máx 8 bullets)
-3) Objetivos medibles (3–5)
-4) Alcance y entregables (lista detallada)
-5) Plan por semanas (timeline)
-6) Roles y responsabilidades (Nosotros vs Cliente)
-7) Inversión + condiciones (claras)
-8) Riesgos y cómo mitigarlos (3–6)
-9) Próximo paso: agendar call / aprobación por reply
+Per ogni e-mail:
+- 10 casi + precauzione
+- foro diverso
+- 5 proiettili corrispondenti
+- CTA principale + CTA alternativa
+- 2 diversi P.S`,
+  thumbnail: ""
+},
+{
+  id: "mwe-017",
+  title:
+  "WhatsApp: script per ordinare riferimenti (senza vergogna) + messaggio leggibile pronto",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Chiedere raccomandazione dopo successo con copia rideployable pronto.",
+  prompt: `Il risultato ottenuto dal cliente: []
+A chi vuoi fare riferimento: [profilo]
+Incentivo: [se applicabile]
+[]
 
-Incluye un bloque final “TL;DR” de 5 bullets.`,
-    thumbnail: "",
-  },
+Crea:
+1) 3 messaggi WhatsApp per ordine di cui (2-5 linee).
+2) Messaggio segnalato (pronta copia) in 3 toni:
+- casual
+- professionale
+- premio
+3) Risposte a:
+- "Sì, ho qualcuno"
+- "Non conosco nessuno"
+- Piu' tardi.
+4) Variante per chiedere recensione / testimonianza anche (soft).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-018",
+  title:
+  "Post-acquisto upsell email: si collega con il progresso corrente + livello successivo + offerta limitata",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Risulta che non si preoccupa: sulla base del progresso e della fase successiva, con urgenza etica.",
+  prompt: `Uscita iniziale: []
+[]
+Prezzo di vendita: []
+Tipico progresso di 7 giorni: []
+urgenza effettiva: [bonus / date]
 
-  {
-    id: "mwe-021",
-    title:
-      "WhatsApp: convertir comentarios/DM en lead: guion para pasar a WhatsApp sin fricción",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "De IG/TikTok DM a WhatsApp: permiso, contexto, valor y transición.",
-    prompt: `Plataforma origen: [IG/TikTok]
-Tema del comentario: [ ]
-Oferta: [ ]
-Tono: [ ]
+Scrivere una e-mail (450-750 parole) con:
+1) 10 casi.
+(2) Progresso (specifico) concorrenza.
+3) Successivo collo della bottiglia.
+4) presenta upsell come una soluzione + perché ora.
+5) Che cosa include (bullette) + per chi NON è.
+6) Offerta / bonus con vera urgenza.
+7) CTA + alternativa "risposta con UPSELL."
+Include una versione breve (± = 200 parole).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-019",
+  title:
+  "WhatsApp: monitoraggio post-quotazione (B2B) - 5 messaggi con valore + chiusura consultiva",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Seguire B2B dopo aver inviato una proposta: valore, chiarezza e passo successivo.",
+  prompt: `Servizio: []
+Prezzo: []
+Decisione:
+Tempo di decisione tipico: []
+Obiezione comune: []
 
-Crea guion de 5 mensajes para:
-1) responder DM con valor y pregunta
-2) pedir permiso para enviar detalle
-3) ofrecer “te lo mando por WhatsApp para que no se pierda”
-4) pedir número con frase natural
-5) primer mensaje en WhatsApp (calienta + pregunta)
+Crea 5 messaggi (uno ogni 2-3 giorni) con:
+1) breve promemoria + singola domanda
+2) Chiarificazione del ROI (mini-calcolo)
+3) Caso simile (mini storia)
+4) Attuazione: come rendere facile
+5) Chiudi: "Chiudiamo o lasciamolo qui?"
 
-Incluye variantes:
-- persona tímida
-- persona agresiva
-- persona solo curiosea`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-022",
-    title:
-      "Email ‘pregunta única’ que dispara replies: investigación de mercado sin que parezca encuesta",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email corto para entender dolores y convertir en conversación 1:1.",
-    prompt: `Nicho: [ ]
-Tema: [ ]
-Tono: [ ]
+Include:
+- 2 varianti per messaggio (chiusura / professionale)
+- 1 versione per e-mail (se il cliente preferisce e-mail).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-020",
+  title:
+  "E-mail di proposta commerciale (B2B): obiettivi, portata, consegnabili, timeline, investimenti e rischi",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Proposta di posta elettronica: obiettivi, portata, consegnabili, timeline, investimenti e prossimi passi.",
+  prompt: `Cliente (industria): []
+Obiettivo (KPI): []
+[]
+Tempo: []
+Investimento: []
+Rischi / dipendenze dei clienti: []
 
-Escribe un email (<= 180 palabras) con:
-1) 8 asuntos
-2) Contexto breve: por qué preguntas ahora
-3) 1 pregunta potente (no doble) que revele dolor real
-4) 3 opciones de respuesta A/B/C para facilitar
-5) Cierre humano
+Scrivi un'e-mail - proposta B2B con:
+(1) 6 materie
+2) Riepilogo esecutivo (max 8 proiettili)
+3) Obiettivi misurabili (3-5)
+4) Ambito e consegnabili (elenco dettagliato)
+5) Piano a settimana (linea temporale)
+6) ruoli e responsabilità (noi vs. cliente)
+7) Investimento + condizioni (chiaro)
+8) Rischi e come mitigarli (3-6)
+9) Prossimo passo: chiamata di linea / approvazione per risposta
 
-Incluye 2 variantes: cercano y profesional.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-023",
-    title:
-      "WhatsApp: guion de ‘diagnóstico gratuito’ (10 min) que filtra curiosos y atrae serios",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Ofrece diagnóstico sin regalar consultoría: preguntas, límites y CTA a agenda/checkout.",
-    prompt: `Oferta: [ ]
-Qué incluye diagnóstico: [ ]
-Qué NO incluye: [ ]
-Tono: [ ]
+Include un blocco finale "TL; DR" di 5 proiettili.`,
+  thumbnail: ""
+},
 
-Crea un guion de WhatsApp con:
-1) Mensaje de invitación (3 variantes).
-2) 5 preguntas rápidas para filtrar (en 5 mensajes).
-3) Respuestas según perfil:
-   - curioso sin presupuesto
-   - interesado serio
-   - urgencia alta
-4) Cierre:
-   - si califica → agenda/checkout
-   - si no califica → recurso gratuito + salida elegante
-Incluye copy para enviar link de agenda sin sonar vendedor.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-024",
-    title:
-      "Email ‘objeción tiempo’ para cursos/servicios: plan de 20 minutos al día + estructura semanal",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Rompe la objeción ‘no tengo tiempo’ con plan realista y ejemplos.",
-    prompt: `Oferta: [ ]
-Tiempo mínimo viable: [ ]
-Transformación: [ ]
-Perfil lector: [trabajo, familia, etc.]
-Tono: [ ]
+{
+  id: "mwe-021",
+  title:
+  "WhatsApp: convertire commenti / DM in piombo: script per passare a Whats App senza attrito",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Da IG / TikTok DM a WhatsApp: autorizzazione, contesto, valore e transizione.",
+  prompt: `Piattaforma di origine: [IG / TikTok]
+Tema del commento: []
+Offerta: []
+[]
 
-Escribe un email (500–850 palabras) con:
-1) 10 asuntos
-2) Historia breve de alguien sin tiempo
-3) Plan de implementación:
-   - 20 min/día (qué hacer)
-   - alternativa 3 días/semana
-4) Cómo medir progreso (3 métricas)
-5) Respuesta a 3 objeciones derivadas
-6) CTA suave + alternativa “responde TIEMPO”.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-025",
-    title:
-      "WhatsApp: secuencia para vender low-ticket (≤ $49) sin llamada (8 mensajes)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Cierre directo para low-ticket: prueba, beneficio, urgencia y CTA a checkout.",
-    prompt: `Producto: [ ]
-Precio: [ ]
-Resultado rápido: [ ]
-Urgencia real: [bonus/stock]
-Tono: [ ]
+Crea uno script di 5 messaggi per:
+1) rispondere a DM con valore e domanda
+2) chiedere il permesso di inviare i dettagli
+3) offrire "Ti mando da WhatsApp in modo da non perdere"
+4) numero di ordine con frase naturale
+5) Primo messaggio in WhatsApp (calda + domanda)
 
-Crea 8 mensajes de WhatsApp:
-1) Permiso + contexto
-2) Diagnóstico (1 pregunta)
-3) Insight y reframe
-4) Presentación del producto (1 párrafo)
-5) Beneficios en bullets
-6) Prueba social mini
-7) Urgencia ética
+Include varianti:
+- persona timida
+- persona aggressivo
+- persona solo curiosa`,
+  thumbnail: ""
+},
+{
+  id: "mwe-022",
+  title:
+  "Email 'unique question' Shooter risponde: ricerca di mercato senza che sembri un sondaggio",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Breve e-mail per capire il dolore e convertire in conversazione 1: 1.",
+  prompt: `[]
+Oggetto: []
+[]
+
+Scrivere una e-mail (± = 180 parole) con:
+(1) 8 materie
+2) contesto breve: perché chiedete ora
+3) 1 domanda potente (non doppia) che rivela dolore reale
+4) 3 opzioni di risposta A / B / C per facilitare
+5) Chiusura umana
+
+Include 2 varianti: vicino e professionale.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-023",
+  title:
+  "WhatsApp: script 'libero diagnosi' (10 min) che filtra curiosi e attira seri",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Offre consulenza di diagnosi ungiven: domande, limiti e CTA all'ordine del giorno / checkout.",
+  prompt: `Offerta: []
+Che cosa include la diagnosi: []
+Cosa NON include: []
+[]
+
+Creare un Cosa script di app con:
+1) Messaggio di invito (3 varianti).
+2) 5 domande rapide da filtrare (in 5 messaggi).
+3) Risposte per profilo:
+- curioso senza budget
+- interesse serio
+- alta emergenza
+(4) Chiudi:
+- se si qualifica → agenda / checkout
+- se non si qualifica → risorsa gratuita + uscita elegante
+Include copia per inviare unsonar programma link venditore.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-024",
+  title:
+  "Email 'ora obiezione' per corsi / servizi: Piano 20 minuti al giorno + struttura settimanale",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Interrompere l'obiezione 'Non ho tempo' con un piano realistico ed esempi.",
+  prompt: `Offerta: []
+Tempo minimo: []
+Trasformazione: []
+Profilo del lettore: [lavoro, famiglia, ecc.]
+[]
+
+Scrivere una e-mail (500-850 parole) con:
+(1) 10 casi
+2) Breve storia di una persona senza tempo
+3) Piano di attuazione:
+- 20 min / giorno (cosa fare)
+- alternativa 3 giorni / settimana
+4) Come misurare i progressi (3 metriche)
+5) Risposta a 3 obiezioni
+6) Soft CTA + alternativa "risposta TIME".`,
+  thumbnail: ""
+},
+{
+  id: "mwe-025",
+  title:
+  "WhatsApp: sequenza per vendere low-ticket (≤ $49) senza chiamata (8 messaggi)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Chiusura diretta a basso costo: prova, beneficio, urgenza e CTA un check out.",
+  prompt: `Uscita: []
+Prezzo: []
+Risultato rapido: []
+urgenza reale: [bonus / stock]
+[]
+
+Creare 8 Cosa Messaggi app:
+1) Permesso + contesto
+2) Diagnosi (1 domanda)
+3) Insight e approvazione
+4) Presentazione del prodotto (1 paragrafo)
+5) Vantaggi nei proiettili
+6) Test sociale mini
+7) urgenza etica
 8) CTA a link (placeholder) + alternativa
 
-Incluye:
-- 3 respuestas para “¿es seguro?”
-- 3 respuestas para “¿y si no me sirve?”`,
-    thumbnail: "",
-  },
+Include:
+- 3 risposte per "è sicuro?"
+- 3 risposte per "e se non mi aiuta?"`,
+  thumbnail: ""
+},
 
-  {
-    id: "mwe-026",
-    title:
-      "Email ‘anti-humo’: vende sin prometer milagros (transparencia + restricciones + plan)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email que construye confianza: qué sí, qué no, y cómo se logra con trabajo real.",
-    prompt: `Oferta: [ ]
-Resultados realistas: [ ]
-Limitaciones: [ ]
-Para quién no funciona: [ ]
-Tono: [ ]
+{
+  id: "mwe-026",
+  title:
+  "E-mail 'anti-smoke': vende senza miracoli promettenti (trasparenza + restrizioni + piano)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "E-mail di costruzione della fiducia: che cosa è, che cosa non è, e come è raggiunto con il lavoro reale.",
+  prompt: `Offerta: []
+Risultati realistici: []
+Limitazioni: []
+Per chi non funziona: []
+[]
 
-Escribe un email (550–900 palabras) con:
-1) 10 asuntos
-2) Declaración de honestidad (hook)
-3) Qué NO prometemos (lista)
-4) Qué SÍ pasa si haces el proceso (con ejemplos)
-5) Requisitos del cliente (3–7)
-6) Cómo apoyamos (soporte, comunidad, etc.)
-7) CTA a aplicar / agendar / comprar
-8) P.S. con “si dudas, responde con tu contexto en 3 líneas”.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-027",
-    title:
-      "WhatsApp: de “me interesa” a “pagado” (sin presionar) — desbloquear fricción y cerrar",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Cuando ya dijo que sí pero no paga: identifica fricción y cierra con respeto.",
-    prompt: `Oferta: [ ]
-Precio: [ ]
-Fricción típica: [link/tiempo/dudas]
-Tono: [ ]
+Scrivere una e-mail (550-900 parole) con:
+(1) 10 casi
+2) Dichiarazione di onestà (Hook)
+3) Che cosa NON promettiamo (lista)
+4) Che cosa se si fa il processo (con esempi)
+5) Requisiti del cliente (3-7)
+6) Come sosteniamo (supporto, comunità, ecc.)
+7) CTA da applicare / programma / acquisto
+8) P.S. con "se dubitate, rispondete con il vostro contesto in 3 righe".`,
+  thumbnail: ""
+},
+{
+  id: "mwe-027",
+  title:
+  "WhatsApp: da \"Sono interessato\" a \"pagato\" (senza pressione) - sbloccare l'attrito e chiudere",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Quando ha già detto sì ma non paga: identifica l'attrito e si chiude con rispetto.",
+  prompt: `Offerta: []
+Prezzo: []
+Tipico attrito: [link / tempo / dubbi]
+[]
 
-Crea guion en 5 pasos:
+Creare uno script a 5 fasi:
 1) Check-in breve
-2) Pregunta para detectar fricción (A/B/C)
-3) Resolver fricción (3 plantillas según respuesta)
-4) Reconfirmar resultado (mirror)
-5) CTA final con dos opciones:
-   - pagar ahora (link placeholder)
-   - agendar 10 min (si duda)
+2) Domanda per rilevare l'attrito (A / B / C)
+3) Risolvere l'attrito (3 modelli per risposta)
+4) Riconfermare il risultato (mirror)
+5) CTA finale con due opzioni:
+- pagare ora (link segnaposto)
+- 10 min (se presente)
 
-Incluye 10 respuestas rápidas para objeciones comunes.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-028",
-    title:
-      "Email ‘lista de espera’: convierte ‘no está abierto’ en deseo (valor + prioridad + aviso)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email para lista de espera: expectativa, autoridad y personas comprometidas.",
-    prompt: `Oferta cerrada: [ ]
-Razón cierre: [cupos/temporada]
-Beneficio: [ ]
-Tono: [ ]
+Esso comprende 10 risposte rapide per le obiezioni comuni.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-028",
+  title:
+  "Email 'waiting list': turns' not open 'into wish (valore + priorità + avviso)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Email per lista di attesa: aspettative, autorità e persone impegnate.",
+  prompt: `Offerta chiusa: []
+Motivo di chiusura: [quotas / stagione]
+Benefici: []
+[]
 
-Escribe un email (400–650 palabras) con:
-1) 8 asuntos
-2) Por qué está cerrado (sin drama)
-3) Qué recibirá la lista de espera (3–5 bullets)
-4) Cómo se prioriza (regla clara)
-5) Reply trigger: responder con su objetivo y obstáculo
-6) CTA: unirse a lista (placeholder).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-029",
-    title:
-      "WhatsApp: mensaje para enviar link de compra sin perder momentum (ancla de valor + confirmación)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Envía el link con contexto: valor, cómo saber si es para él y apoyo si se atora.",
-    prompt: `Oferta: [ ]
-Precio: [ ]
-Link: [placeholder]
-Tono: [ ]
+Scrivere una e-mail (400-650 parole) con:
+(1) 8 materie
+2) Perché è chiuso (senza dramma)
+3) Che cosa riceverà la lista di attesa (3-5 proiettili)
+4) Come è priorità (regola chiara)
+5) Rispondi trigger: rispondere con il tuo obiettivo e ostacolo
+6) CTA: unisciti alla lista (placeholder).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-029",
+  title:
+  "WhatsApp: messaggio per inviare link di acquisto senza perdere momento (valore di ancora + conferma)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Invia il link con contesto: valore, come sapere se è per esso e supporto se è legato.",
+  prompt: `Offerta: []
+Prezzo: []
+Link: [sostituto]
+[]
 
-Crea 6 variantes del mensaje “aquí va el link”:
-- 2 ultracortas
-- 2 con ancla de valor (beneficio + recordatorio)
-- 2 premium (cuidado + soporte)
+Crea 6 varianti del messaggio "qui va il link":
+- 2 ultraporti
+- 2 con valore di ancoraggio (benefit + promemoria)
+- 2 premium (assistenza + supporto)
 
-Incluye una línea final opcional:
-- “si te atoras, dime en qué paso y lo resolvemos”.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-030",
-    title:
-      "Email de ‘rescate’ para no compradores post-lanzamiento: valor + encuesta + oferta mínima",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Después del cierre: recupera aprendiendo y, si aplica, ofrece alternativa sin presión.",
-    prompt: `Oferta que cerró: [ ]
-Alternativa low-tier (si existe): [ ]
-Razones típicas de no compra: [ ]
-Tono: [ ]
+Include una linea finale opzionale:
+- "Se ti alleni, dimmi cos'e' successo e lo capiamo".`,
+  thumbnail: ""
+},
+{
+  id: "mwe-030",
+  title:
+  "\"Rescue\" e-mail per non-buyers post-lancio: valore + sondaggio + offerta minima",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Dopo la chiusura: recupera l'apprendimento e, se applicato, offre un'alternativa senza pressione.",
+  prompt: `Offerta chiusa: []
+Alternativa a basso livello (se presente): []
+Motivi tipici per non comprare: []
+[]
 
-Escribe un email (450–750 palabras) con:
-1) 10 asuntos
-2) Agradecimiento + cierre real
-3) 1 gran aprendizaje para el lector (valor)
-4) Mini encuesta (3 preguntas, 1 línea cada una)
-5) Oferta mínima opcional (si aplica) sin presión
-6) CTA principal: responder encuesta`,
-    thumbnail: "",
-  },
+Scrivere una e-mail (450-750 parole) con:
+(1) 10 casi
+2) Riconoscimento + chiusura effettiva
+3) 1 grande apprendimento per il lettore (valore)
+4) Mini sondaggio (3 domande, 1 linea ciascuno)
+5) Offerta minima facoltativa (se applicabile) senza pressione
+6) CTA principale: intervista`,
+  thumbnail: ""
+},
 
-  {
-    id: "mwe-031",
-    title:
-      "WhatsApp: vender con historia personal (story selling) en 6 mensajes (antes → quiebre → descubrimiento)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Story-selling por WhatsApp que se siente humano: antes, quiebre, búsqueda, descubrimiento, resultado, invitación.",
-    prompt: `Tema de historia: [ ]
-Oferta: [ ]
-Resultado: [ ]
-Tono: [ ]
+{
+  id: "mwe-031",
+  title:
+  "WhatsApp: vendere con storia personale (storia vendita) in 6 messaggi (prima di → rompere → scoperta)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Story-selling di Whats App che si sente umano: prima, pausa, ricerca, scoperta, risultato, invito.",
+  prompt: `Tema storico: []
+Offerta: []
+[]
+[]
 
-Crea 6 mensajes:
-1) Antes (dolor)
-2) Quiebre (momento)
-3) Búsqueda (intentos fallidos)
-4) Descubrimiento (mecanismo)
-5) Resultado (evidencia)
-6) Invitación (CTA suave)
+Crea 6 messaggi:
+1) Prima (Spagna)
+2) Fever (momento)
+3) Ricerca (provate)
+4) Scoperta (meccanismo)
+5) Risultato (prove)
+6) Invito (soft CTA)
 
-Cada uno con 2–4 líneas.
+Ognuno con 2-4 linee.
 
-Incluye 3 versiones: cercana, profesional, premium.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-032",
-    title:
-      "Email ‘comparación’: tu enfoque vs alternativa (sin atacar competencia) + decisión guiada",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Comparativo elegante: criterios, trade-offs y recomendación según perfil.",
-    prompt: `Oferta: [ ]
-Alternativas: [hacerlo solo/otro servicio]
-Criterios: [tiempo/dinero/soporte/control]
-Tono: [ ]
+Include 3 versioni: chiuso, professionale, premium.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-032",
+  title:
+  "Email 'comparison': il tuo approccio vs alternativa (senza gara di attacco) + decisione guidata",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Confronto elegante: criteri, trade-off e raccomandazione secondo il profilo.",
+  prompt: `Offerta: []
+Alternative: [farlo da solo / altro servizio]
+Criteri: [tempo / denaro / supporto / controllo]
+[]
 
-Escribe un email (500–850 palabras) con:
-1) 10 asuntos
-2) Marco de decisión: 5 criterios con explicación
-3) “Si tú eres X, elige Y” (4 perfiles)
-4) Beneficios de tu enfoque sin atacar al otro
-5) CTA + alternativa responder “DUDO”.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-033",
-    title:
-      "WhatsApp: agendar llamada (sin sonar ‘vendehumos’) + confirmación + recordatorios + no-show",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Agendar llamadas: pre-frames, compromisos, recordatorios y manejo de no-shows.",
-    prompt: `Oferta: [ ]
-Duración llamada: [15/30]
-Objetivo llamada: [diagnóstico/cierre]
-Link agenda: [placeholder]
-Tono: [ ]
-
-Crea:
-1) Mensaje para invitar a llamada (3 variantes)
-2) Mensaje de confirmación (incluye qué preparar)
-3) Recordatorio 24h y 1h antes (2 variantes cada uno)
-4) Mensaje si no se presenta (no-show) sin culpar
-5) Mensaje post-llamada para cerrar o dar siguiente paso`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-034",
-    title:
-      "Email ‘objeción confianza’: transparencia extrema (qué incluye, qué no, riesgos, ejemplos)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email de confianza: reduce escepticismo con detalles, límites y claridad.",
-    prompt: `Oferta: [ ]
-Duración: [ ]
-Soporte: [ ]
-Limitaciones: [ ]
-Prueba social: [ ]
-Tono: [ ]
-
-Escribe un email (650–1,000 palabras) con:
-1) 12 asuntos
-2) Qué es / qué no es (lista)
-3) Qué incluye (detallado)
-4) Resultados típicos y condiciones
-5) Riesgos y mitigación
-6) 2 ejemplos (mini casos hipotéticos si no hay reales)
-7) CTA + alternativa “responde con tu contexto y te digo si aplica”.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-035",
-    title:
-      "WhatsApp: ‘cierre por decisión’ — guía la decisión con 5 preguntas (sin presión)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Cierre consultivo: guía la decisión con preguntas y salida digna.",
-    prompt: `Oferta: [ ]
-Precio: [ ]
-Tono: [ ]
-
-Crea un guion de WhatsApp que:
-1) Reconfirme objetivo del lead
-2) Haga 5 preguntas (una por mensaje) sobre urgencia, prioridad, acción, soporte y presupuesto
-3) Dé una recomendación honesta (comprar ahora / esperar / alternativa)
-4) Cierre con CTA único según recomendación
-
-Incluye 3 variantes de frases para “no es el momento” sin romper relación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "mwe-036",
-    title:
-      "Email ‘secuencia de objeciones’ (3 correos): precio → tiempo → confianza",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Tridente de objeciones: 3 correos consecutivos, cada uno golpea una objeción fuerte.",
-    prompt: `Oferta: [ ]
-Precio: [ ]
-Mecanismo: [ ]
-Prueba social: [ ]
-Tono: [ ]
-
-Crea 3 emails (450–750 palabras):
-Email A: Precio (ROI, costo de no actuar, opciones)
-Email B: Tiempo (plan mínimo viable, ritmo)
-Email C: Confianza (transparencia, prueba, riesgos)
-
-Para cada email:
-- 10 asuntos + preheader
-- 1 historia breve (realista)
-- 5 bullets de valor
-- CTA + alternativa reply-trigger`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-037",
-    title:
-      "WhatsApp: nurture express en 3 mensajes (cuando el lead dice ‘mándame algo’)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Mini nurturing: valor + diagnóstico + CTA a siguiente paso en 3 mensajes.",
-    prompt: `Oferta: [ ]
-Lead dice: “mándame algo”
-Tono: [ ]
-Link (si aplica): [placeholder]
-
-Crea 3 mensajes:
-1) 1 insight + pregunta corta
-2) Micro framework (3 pasos) + ejemplo
-3) CTA suave (agendar / ver info / responder)
-
-Incluye 5 variantes por tono: cercano, profesional, humor suave, premium, ultra corto.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-038",
-    title:
-      "Email con ‘framework completo’ (sin adjunto): enseña el método y vende al final",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email educativo que entrega framework completo y conduce a la oferta.",
-    prompt: `Tema del framework: [ ]
-Oferta relacionada: [ ]
-Tono: [ ]
-
-Escribe un email (700–1,200 palabras) con:
-1) 12 asuntos
-2) Explicación del framework (5–7 pasos) con:
-   - objetivo de cada paso
-   - ejemplo aplicado
-   - error común
-3) Cómo usarlo hoy (checklist)
-4) CTA a la oferta como “atajo” o “acompañamiento”, sin presión
-5) P.S. con pregunta para replies`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-039",
-    title:
-      "WhatsApp: vender servicio high-ticket (consultivo) — diagnóstico → propuesta → precio al final",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Secuencia consultiva para high-ticket: diagnóstico, valor, propuesta y precio al final.",
-    prompt: `Servicio: [ ]
-Rango precio: [ ]
-Cliente ideal: [ ]
-Resultado: [ ]
-Tono: [ ]
-
-Crea una secuencia de WhatsApp en 9 mensajes:
-1) Contexto y permiso
-2) Diagnóstico 1
-3) Diagnóstico 2
-4) Diagnóstico 3
-5) Resumen espejo (lo que entendí)
-6) Lo que suele funcionar (mecanismo)
-7) Oferta en 2 opciones (sin precio)
-8) Precio + qué incluye + condiciones
-9) CTA a llamada / aplicación
-
-Incluye:
-- frases para introducir precio sin tensión
-- 6 manejos de objeción (precio, tiempo, confianza, “lo consulto”, “luego”, “mándame info”).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-040",
-    title:
-      "Email ‘aplicación’ para high-ticket: filtra y aumenta compromiso (criterios + preguntas + CTA)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email que invita a aplicar: criterios, expectativas, preguntas y CTA.",
-    prompt: `Servicio: [ ]
-Resultados: [ ]
-Requisitos: [ ]
-Criterios de aceptación: [ ]
-Tono: [premium]
-
-Escribe un email (500–900 palabras) con:
-1) 10 asuntos
-2) Por qué aplicamos (calidad, resultados)
-3) Para quién es / no es (detallado)
-4) Qué incluye y cómo se trabaja
-5) Preguntas de aplicación (8–12) bien diseñadas
-6) CTA a formulario (placeholder)
-7) Cierre premium + P.S. para dudas`,
-    thumbnail: "",
-  },
-
-  {
-    id: "mwe-041",
-    title:
-      "WhatsApp: ciclo completo para webinar (invitar + recordar + follow-up por asistencia)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Todo el ciclo: invitar, recordar y convertir post-webinar por WhatsApp.",
-    prompt: `Webinar:
-- Tema: [ ]
-- Fecha/hora: [ ]
-- Beneficio: [ ]
-- Oferta post-webinar: [ ]
-- Link registro: [placeholder]
-- Link replay: [placeholder]
-- Tono: [ ]
+Scrivere una e-mail (500-850 parole) con:
+(1) 10 casi
+2) Quadro di decisione: 5 criteri con spiegazione
+3) "Se sei X, scegli Y" (4 profili)
+4) Vantaggi del vostro approccio senza attaccare l'altro
+5) CTA + risposta alternativa "DUDO".`,
+  thumbnail: ""
+},
+{
+  id: "mwe-033",
+  title:
+  "WhatsApp: chiamata (senza suono 'vendehumos') + conferma + promemoria + no-show",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Aggiungi chiamate: pre-frame, impegni, promemoria e gestione no-show.",
+  prompt: `Offerta: []
+Durata: [15 / 30]
+Obiettivo chiamato: [diagnosi / chiusura]
+Agenda dei collegamenti: [sostituto]
+[]
 
 Crea:
-1) Invitación (3 variantes)
-2) Recordatorio 24h, 2h, 15min (2 variantes cada uno)
-3) Mensaje “ya estamos en vivo” (1)
-4) Follow-up post-webinar:
-   - asistentes (3 mensajes)
-   - no asistentes (3 mensajes)
+1) Messaggio per invitare a chiamare (3 varianti)
+2) Messaggio di conferma (compreso cosa preparare)
+3) Reminder 24h e 1h prima (2 varianti ciascuna)
+4) Messaggio se non presentato (no-show) senza colpa
+5) Messaggio di chiamata per chiudere o fare il prossimo passo`,
+  thumbnail: ""
+},
+{
+  id: "mwe-034",
+  title:
+  "Email 'objection trust': estrema trasparenza (tra cui, cosa non, rischi, esempi)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Email di fiducia: riduce lo scetticismo con dettagli, limiti e chiarezza.",
+  prompt: `Offerta: []
+Durata: []
+Supporto: []
+Limitazioni: []
+Test sociale: []
+[]
 
-Cada mensaje:
-- 2–6 líneas
-- 1 CTA único (registrarse/asistir/replay/oferta)`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-042",
-    title:
-      "Email de invitación a webinar (alta conversión): promesa + bullets + autoridad + CTA",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email para llenar webinar: claro, atractivo y sin relleno.",
-    prompt: `Webinar:
-- Tema: [ ]
-- Duración: [ ]
-- Para quién: [ ]
-- Resultado: [ ]
-- Host/autoridad: [ ]
-- Link registro: [placeholder]
-- Tono: [ ]
+Scrivere una e-mail (650-1,000 parole) con:
+(1) 12 questioni
+2) Che cosa è / che cosa non è (lista)
+3) Che cosa include (dettaglio)
+4) Risultati tipici e condizioni
+5) Rischi e mitigazione
+6) 2 esempi (casi mini-ipotetici se non reali)
+7) CTA + alternativa "rispondere al vostro contesto e dirvi se si applica.".`,
+  thumbnail: ""
+},
+{
+  id: "mwe-035",
+  title:
+  "WhatsApp: \"chiusura per decisione\" - guida la decisione con 5 domande (senza pressione)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Chiusura consultiva: guida la decisione con domande e uscita decente.",
+  prompt: `Offerta: []
+Prezzo: []
+[]
 
-Escribe un email (450–750 palabras) con:
-1) 12 asuntos + preheader
-2) Hook con dolor + promesa
-3) Qué aprenderán (8 bullets) con resultados concretos
-4) Para quién es/no es
+Creare un Cosa Lo script dell'app che:
+1) Riconfermare l'obiettivo principale
+2) Fai 5 domande (una per messaggio) su urgenza, priorità, azione, sostegno e bilancio
+3) Dare una raccomandazione onesta (comprare ora / aspettare / alternativa)
+4) Chiusura CTA singola su raccomandazione
+
+Include 3 varianti di frasi per "non il tempo" senza rompere il rapporto.`,
+  thumbnail: ""
+},
+
+{
+  id: "mwe-036",
+  title:
+  "Email 'sequenza delle obiezioni' (3 e-mail): prezzo → tempo → fiducia",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Tridente di obiezioni: 3 e-mail consecutive, ogni colpisce una forte obiezione.",
+  prompt: `Offerta: []
+Prezzo: []
+Meccanismo: []
+Test sociale: []
+[]
+
+Creare 3 email (450-750 parole):
+Email A: Prezzo (ROI, costo di non agire, opzioni)
+Email B: Tempo (piano minimo, ritmo)
+Email C: Confidenza (trasparenza, prova, rischi)
+
+Per ogni e-mail:
+- 10 casi + precauzione
+- 1 breve (realistica) storia
+- 5 proiettili di valore
+- CTA + risposta alternativa-trigger`,
+  thumbnail: ""
+},
+{
+  id: "mwe-037",
+  title:
+  "WhatsApp: nutrimento espresso in 3 messaggi (quando il piombo dice' inviarmi qualcosa ')",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Mini nurturing: valore + diagnosi + CTA al passo successivo in 3 messaggi.",
+  prompt: `Offerta: []
+Lead dice: "Smettimi qualcosa".
+[]
+Link (se applicabile): [placeholder]
+
+Crea 3 messaggi:
+1) 1 panoramica + domanda breve
+2) Micro framework (3 passi) + esempio
+3) Soft CTA (schedule / vedi info / rispondere)
+
+Include 5 varianti per tono: vicino, professionale, umorismo morbido, premium, ultra breve.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-038",
+  title:
+  "Email con 'full framework' (senza allegato): insegna il metodo e vende alla fine",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "E-mail educativa che offre un quadro completo e porta a offrire.",
+  prompt: `Oggetto quadro: []
+Offerta correlata: []
+[]
+
+Scrivi un'email (700-1.200 parole) con:
+(1) 12 questioni
+2) Spiegazione del quadro (5-7 passi) con:
+- obiettivo di ogni passo
+- esempio applicato
+- errore comune
+3) Come usarlo oggi (controlla)
+4) CTA da offrire come "shortcut" o "accompagnamento", senza pressione
+5) P.S. con domanda di risposte`,
+  thumbnail: ""
+},
+{
+  id: "mwe-039",
+  title:
+  "WhatsApp: vendere servizio high-ticket (consulenza) - diagnosi → proposta → prezzo alla fine",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Sequenza consultiva per high-ticket: diagnosi, valore, proposta e prezzo alla fine.",
+  prompt: `Servizio: []
+Gamma di prezzo: []
+Cliente ideale: []
+[]
+[]
+
+Creare un Cosa Sequenza app in 9 messaggi:
+1) Contesto e permesso
+(2) Diagnosi 1
+(3) Diagnosi 2
+(4) Diagnosi 3
+5) Riepilogo dello specchio (cosa ho capito)
+6) Che cosa di solito funziona (meccanismo)
+7) Offerta in 2 opzioni (no prezzo)
+8) Prezzo + quello che include + condizioni
+9) CTA a chiamata / applicazione
+
+Include:
+- frasi per inserire il prezzo senza tensione
+- 6 forme di obiezione (prezzo, tempo, fiducia, "lo consulto", "quindi," "mi manda informazioni").`,
+  thumbnail: ""
+},
+{
+  id: "mwe-040",
+  title:
+  "E-mail 'applicazione' per high-ticket: filtri e aumenta impegno (criteria + domande + CTA)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Email che ti invita ad applicare: criteri, aspettative, domande e CTA.",
+  prompt: `Servizio: []
+Risultati: []
+Requisiti: []
+Criteri di accettazione: []
+Tono: [premio]
+
+Scrivere una email (500-900 parole) con:
+(1) 10 casi
+2) Perché applichiamo (qualità, risultati)
+3) Per chi è / non è (dettaglio)
+4) Che cosa include e come lavorare
+5) Domande di applicazione (8-12) ben progettato
+6) CTA da formare (placeholder)
+7) Chiusura Premium + P.S. per dubbi`,
+  thumbnail: ""
+},
+
+{
+  id: "mwe-041",
+  title:
+  "WhatsApp: ciclo completo per webinar (invita + ricorda + follow-up per assistenza)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Tutto il ciclo: invitare, ricordare e convertire post-webinar da WhatsApp.",
+  prompt: `Webinar:
+- Oggetto: []
+- Data / ora: []
+- Benefici: []
+- Offerta post-webinar: []
+- Registrazione del link: [sostituto]
+- Risposta del link: [placeholder]
+- Tono:
+
+Crea:
+1) Invito (3 varianti)
+2) 24h, 2h, 15min (2 varianti ciascuna)
+3) Messaggio "Siamo già vivi" (1)
+4) follow-up post-webinar:
+- assistenti (3 messaggi)
+- non-attendi (3 messaggi)
+
+Ogni messaggio:
+- 2-6 linee
+- 1 singolo CTA (registro / partecipazione / risposta / offerta)`,
+  thumbnail: ""
+},
+{
+  id: "mwe-042",
+  title:
+  "Webinar invito email (alta conversione): promessa + proiettili + autorità + CTA",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Email per riempire webinar: chiaro, attraente e senza riempimento.",
+  prompt: `Webinar:
+- Oggetto: []
+- Durata: []
+- Per chi: []
+[]
+- Host / autorità: []
+- Registrazione del link: [sostituto]
+- Tono:
+
+Scrivere una e-mail (450-750 parole) con:
+1) 12 casi + precauzione
+2) Uncino con dolore + promessa
+3) Cosa imparerai (8 proiettili) con risultati concreti
+4) Per chi è / non è
 5) CTA (placeholder)
-6) Mini bio (autoridad) + cierre
+6) Mini bio (autorizzazione) + chiusura
 
-Incluye versión corta (<= 180 palabras).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-043",
-    title:
-      "WhatsApp: pack de respuestas rápidas para preguntas repetidas (precio, garantía, soporte, entrega)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Macros cortas (1–4 líneas) listas para copiar y pegar con tono humano.",
-    prompt: `Oferta: [ ]
-Precio: [ ]
-Garantía: [ ]
-Entrega: [ ]
-Soporte: [ ]
-Tono: [ ]
+Include una versione breve (± = 180 parole).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-043",
+  title:
+  "WhatsApp: rapido pacchetto di risposte per domande ripetute (prezzo, garanzia, supporto, consegna)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Macro brevi (1-4 linee) pronti a copiare e incollare con il tono umano.",
+  prompt: `Offerta: []
+Prezzo: []
+Garanzia: []
+Consegna: []
+Supporto: []
+[]
 
-Genera un pack de 25 respuestas rápidas de WhatsApp, agrupadas:
-A) Precio (5)
-B) Garantía (5)
-C) Qué incluye / entrega (5)
-D) Resultados / expectativas (5)
-E) Soporte / tiempos (5)
+Genera un pacchetto di 25 risposte rapide da WhatsApp, raggruppate:
+A) Prezzo (5)
+(B) Garanzia (5)
+C) Cosa includere / consegnare (5)
+D) Risultati / aspettative (5)
+E) Supporto / tempo (5)
 
-Cada respuesta:
-- 1–4 líneas
-- termina con 1 pregunta opcional para avanzar.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-044",
-    title:
-      "Email para ejecutivos (B2B): ultra legible — TL;DR + business case + riesgos + CTA",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email B2B tipo ejecutivo: problema, propuesta, ROI, riesgos, siguiente paso.",
-    prompt: `Cliente (industria): [ ]
-Problema: [ ]
-Propuesta: [ ]
-ROI estimado: [ ]
-Timeline: [ ]
-Inversión: [ ]
-Tono: [corporativo]
+Ogni risposta:
+- 1-4 linee
+- terminare con 1 domanda facoltativa per andare avanti.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-044",
+  title:
+  "Email Executive (B2B): ultra leggibile - TL; DR + business case + rischi + CTA",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Tipo esecutivo B2B: problema, proposta, ROI, rischi, passo successivo.",
+  prompt: `Cliente (industria): []
+[]
+Proposta: []
+ROI stimato: []
+Tempo: []
+Investimento: []
+Tono: [corporate]
 
-Escribe un email estilo ejecutivo que:
-1) Empiece con TL;DR (máx 8 bullets)
-2) Incluya mini business case (coste actual vs con solución) con ejemplo numérico
-3) Riesgos y dependencias (3–5)
-4) Próximo paso claro (reunión/aprobación)
+Scrivere uno stile e-mail esecutivo che:
+1) Iniziare con TL; DR (max 8 proiettili)
+2) Compreso mini business case (costo corrente vs con soluzione) con esempio numerico
+3) Rischi e dipendenze (3-5)
+(4) Prossimo passo chiaro (incontro / adozione)
 
-Incluye 6 asuntos.`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-045",
-    title:
-      "WhatsApp: oferta relámpago (flash) sin quemar confianza (ética) — inicio + recordatorio + cierre",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Flash sale por WhatsApp: claridad, condiciones, y cierre sin manipulación.",
-    prompt: `Oferta: [ ]
-Descuento/bonus: [ ]
-Duración real: [ ]
-Condiciones: [ ]
-Tono: [ ]
-
-Crea:
-1) Mensaje inicial (3 variantes)
-2) Recordatorio mitad de ventana (2 variantes)
-3) Último aviso (2 variantes)
-4) Respuestas a 8 objeciones rápidas
-Incluye frase de “si no es tu momento, todo bien…” para cuidar marca.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "mwe-046",
-    title:
-      "Email benefit-driven (1 resultado + 1 mecanismo + 1 prueba + CTA): directo y potente",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Estructura directa: promesa, mecanismo, prueba, oferta, CTA.",
-    prompt: `Resultado: [ ]
-Mecanismo: [ ]
-Prueba: [testimonio/datos]
-Oferta: [ ]
-Tono: [ ]
-
-Escribe un email (400–650 palabras) con:
-1) 12 asuntos (incluye algunos con números)
-2) Promesa específica (sin humo)
-3) Explica el mecanismo con ejemplo
-4) Inserta prueba social (2 piezas)
-5) Oferta en bullets (qué incluye)
-6) CTA + alternativa “responde con ‘LISTO’”
-Incluye versión súper corta (<= 120 palabras).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-047",
-    title:
-      "WhatsApp: recopilar requerimientos B2B para propuesta (sin reunión) — 8 mensajes",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Recolecta requerimientos por WhatsApp de forma ordenada y profesional.",
-    prompt: `Servicio: [ ]
-Industria: [ ]
-Objetivo: [KPI]
-Plazo: [ ]
-Tono: [ ]
-
-Crea 8 mensajes para:
-1) Alinear objetivo
-2) Confirmar alcance
-3) Identificar restricciones
-4) Recolectar datos mínimos
-5) Confirmar stakeholders
-6) Timeline
-7) Presupuesto rango (sin incomodar)
-8) Confirmación: “con esto preparo propuesta”
-
-Incluye:
-- 2 variantes por mensaje (cercano y corporativo)
-- mensaje final con “qué recibirás” (sin prometer hora exacta).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-048",
-    title:
-      "Email para agendar llamada que aporta valor: outcome claro + preparación + CTA",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email para agenda: vende el outcome de la llamada (diagnóstico real).",
-    prompt: `Llamada: [15/30]
-Outcome de la llamada: [claridad/plan/diagnóstico]
-Link: [placeholder]
-Tono: [ ]
-
-Escribe un email con:
-1) 8 asuntos
-2) Qué lograremos en la llamada (3 bullets)
-3) Qué preparar (5 bullets, simple)
-4) 2 opciones de horarios (placeholders) + link agenda
-5) Cierre humano + P.S. para quien no quiere llamada (alternativa).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-049",
-    title:
-      "WhatsApp: discovery rápido (5 preguntas) + propuesta instantánea personalizada (2 perfiles)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Mini discovery: 5 preguntas y luego una propuesta personalizada en 1 mensaje.",
-    prompt: `Oferta: [ ]
-Tipo cliente: [ ]
-Tono: [ ]
+Include 6 questioni.`,
+  thumbnail: ""
+},
+{
+  id: "mwe-045",
+  title:
+  "WhatsApp: offerta di fulmini (flash) senza bruciare la fiducia (etica) - start + promemoria + chiusura",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Flash esce da WhatsApp: chiarezza, condizioni e chiusura senza mani.",
+  prompt: `Offerta: []
+Sconto / bonus:
+Durata effettiva: []
+Condizioni: []
+[]
 
 Crea:
-1) 5 preguntas (una por mensaje) para descubrir:
-   - objetivo
-   - situación actual
-   - freno principal
-   - intento previo
-   - urgencia
-2) Luego:
-   - simula respuestas de 2 perfiles distintos
-   - crea 2 propuestas instantáneas (1 mensaje cada una) con:
-     - espejo
-     - plan de 3 pasos
-     - CTA
+1) Messaggio iniziale (3 varianti)
+2) Promemoria mezza finestra (2 varianti)
+3) Ultimo avviso (2 varianti)
+4) Risposte a 8 obiezioni rapide
+Include la frase "se non il vostro tempo, va bene..." per prendersi cura del marchio.`,
+  thumbnail: ""
+},
 
-Incluye 3 variantes de CTA (suave, medio, fuerte).`,
-    thumbnail: "",
-  },
-  {
-    id: "mwe-050",
-    title:
-      "Email de seguimiento post-reunión (B2B): recap, decisiones, próximos pasos, riesgos (+ CTA de aprobación)",
-    area: "Marketing & ventas",
-    category: "WhatsApp & Email",
-    summary:
-      "Email de recap que acelera cierres: acuerdos, pendientes, owners y decisión rápida.",
-    prompt: `Reunión: [tema]
-Participantes (roles): [ ]
-Acuerdos: [ ]
-Pendientes: [ ]
-Propuesta: [ ]
-Tono: [corporativo]
+{
+  id: "mwe-046",
+  title:
+  "Email vantaggio-driven (1 risultato + 1 meccanismo + 1 test + CTA): diretto e potente",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Struttura diretta: promessa, meccanismo, prova, offerta, CTA.",
+  prompt: `[]
+Meccanismo: []
+Prove: [testimony / data]
+Offerta: []
+[]
 
-Escribe un email post-reunión con:
-1) 6 asuntos
-2) Resumen en 6 bullets
-3) Decisiones tomadas vs por tomar
-4) Próximos pasos con owner (Cliente/Nosotros) (tabla textual con bullets)
-5) Riesgos/dependencias (3–5)
-6) CTA: confirmar por reply con “APROBADO” o “AJUSTES”
+Scrivere una e-mail (400-650 parole) con:
+1) 12 casi (include alcuni con numeri)
+2) Promessa specifica (senza fumo)
+3) Spiegare il meccanismo con esempio
+4) Inserisci test sociale (2 pezzi)
+5) Offerta in pallottole (compreso)
+6) CTA + alternativa "risposta con 'LISTO'"
+Include versione super breve (± = 120 parole).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-047",
+  title:
+  "WhatsApp: raccogliere i requisiti B2B per la proposta (senza riunione) - 8 messaggi",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Raccoglie i requisiti per WhatsApp in modo ordinato e professionale.",
+  prompt: `Servizio: []
+Industria: []
+Obiettivo: [KPI]
+Scadenza: []
+[]
 
-Incluye versión breve (<= 160 palabras).`,
-    thumbnail: "",
-  },
-];
+Crea 8 messaggi per:
+1) Obiettivo di allineamento
+2) Confermare la portata
+3) Identificare le restrizioni
+4) Raccogli dati minimi
+5) Confermare le parti interessate
+(6) Timeline
+7) Bilancio della gamma (non scomodo)
+8) Conferma: "con questo preparo la proposta"
+
+Include:
+- 2 varianti per messaggio (chiudi e corporativi)
+- messaggio finale con "cosa riceverete" (senza promettere tempo esatto).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-048",
+  title:
+  "Ordine del giorno che porta valore: output chiaro + preparazione + CTA",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Email per l'agenda: vende l'output della chiamata (diagnosi reale).",
+  prompt: `[15 / 30]
+Il risultato della chiamata: [clarity / plan / diagnosi]
+Link: [sostituto]
+[]
+
+Scrivi un'email con:
+(1) 8 materie
+2) Che cosa raggiungeremo nella chiamata (3 proiettili)
+3) Che preparare (5 proiettili, semplice)
+4) 2 opzioni di pianificazione (placeholders) + agenda link
+5) Chiusura umana + P.S. per chi non vuole chiamare (alternativo).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-049",
+  title:
+  "WhatsApp: scoperta rapida (5 domande) + proposta istantanea personalizzata (2 profili)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Mini scoperta: 5 domande e poi una proposta personalizzata in 1 messaggio.",
+  prompt: `Offerta: []
+Tipo di cliente: []
+[]
+
+Crea:
+1) 5 domande (una per messaggio) da scoprire:
+- obiettivo
+- situazione attuale
+- freno principale
+- tentativo preventivo
+- urgenza
+2) Allora:
+- simula le risposte da 2 profili diversi
+- creare 2 proposte istantanee (1 messaggio ciascuno) con:
+- specchio
+- Piano a 3 fasi
+- CTA
+
+Include 3 varianti di CTA (soft, medium, strong).`,
+  thumbnail: ""
+},
+{
+  id: "mwe-050",
+  title:
+  "E-mail di follow-up post-meeting (B2B): riconquista, decisioni, passi successivi, rischi (+ approvazione CTA)",
+  area: "Marketing e vendita",
+  category: "WhatsApp & Email",
+  summary:
+  "Ricezione e-mail che accelera chiusure: accordi, orecchini, proprietari e decisione rapida.",
+  prompt: `Incontro:
+Partecipanti (roli):
+Accordi: []
+In attesa: []
+Proposta: []
+Tono: [corporate]
+
+Scrivi un'e-mail post-incontro con:
+(1) 6 materie
+2) Astratto in 6 proiettili
+3) Decisioni da prendere
+4) Prossimo passo con proprietario (Customer / We) (tavola testuale con proiettili)
+(5) Rischi / dipendenze (3-5)
+6) CTA: conferma mediante risposta "APPROVED" o "AJUSTES"
+
+Include una versione breve (± = 160 parole).`,
+  thumbnail: ""
+}];

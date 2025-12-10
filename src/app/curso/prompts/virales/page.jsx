@@ -4,8 +4,8 @@ import { viralTextPrompts } from "@/lib/prompts/viral-text";
 export default function PromptsViralesPage() {
   return (
     <PromptLibrary
-      title="Prompts virales"
-      subtitle="Hooks, guiones, captions, CTAs y estructuras listas para maximizar retención, shares y conversiones."
+      title="Prompt virali"
+      subtitle="Hook, script, caption, CTA e strutture pronte per massimizzare retention, condivisioni e conversioni."
       items={viralTextPrompts}
       type="text"
     />

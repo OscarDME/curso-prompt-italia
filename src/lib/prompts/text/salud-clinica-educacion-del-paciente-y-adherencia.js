@@ -1,483 +1,482 @@
 // src/lib/prompts/text/salud-clinica-educacion-del-paciente-y-adherencia.js
 
 export const textPromptsSaludClinicaEducacionYAdherencia = [
-  {
-    id: "saluded-001",
-    title: "Explicación del diagnóstico en lenguaje simple (sin infantilizar)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Traduce un diagnóstico a un mensaje claro, empático y accionable para el paciente.",
-    prompt: `Actúa como médico y educador clínico. Explica el diagnóstico de forma clara.
+{
+  id: "saluded-001",
+  title: "Spiegazione della diagnosi in lingua semplice (non infantilizzata)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Traduci una diagnosi a un messaggio chiaro, empatico e fattibile per il paziente.",
+  prompt: `Agisce come medico e educatore clinico. Spiega chiaramente la diagnosi.
 
-Inputs:
-- Diagnóstico o sospecha clínica.
-- Edad y nivel de comprensión (básico/medio/alto).
-- Contexto del paciente (trabajo, familia, ansiedad, barreras).
-- Qué le preocupa al paciente (miedo principal).
-
-Genera:
-1) Explicación en 5–7 frases: qué es, por qué pasa, qué esperar.
-2) Lo más importante que NO es (para tranquilizar sin prometer).
-3) Señales de alarma (3–6) por las que debe acudir a urgencias.
-4) Qué puede hacer en casa hoy (5 acciones concretas).
-5) Cómo se medirá mejoría (2–4 indicadores).
-6) Un cierre empático (1–2 frases).`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-002",
-    title: "Plan de tratamiento en formato checklist (alta adherencia)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Convierte un plan clínico en una lista de pasos diaria/semanal fácil de seguir.",
-    prompt: `Actúa como médico. Convierte el plan en un checklist práctico.
-
-Inputs:
-- Diagnóstico.
-- Recomendaciones (higiene, dieta, actividad, control).
-- Medicamentos (si aplica, sin dosis si no se provee).
-- Duración del plan (días/semanas).
+Ingressi:
+- Diagnosi o sospetto clinico.
+- Età e livello di comprensione (basico / medio / alto).
+- Contesto del paziente (lavoro, famiglia, ansia, barriere).
+- No. Ciò che riguarda il paziente (la paura principale).
 
 Genera:
-1) Checklist diario (mañana/tarde/noche).
-2) Checklist semanal (controles, registro, hábitos).
-3) “Si pasa X, haz Y” (5 reglas simples).
-4) Errores comunes a evitar (5).
-5) Recordatorio de seguimiento (cuándo y por qué).`,
-    thumbnail: "",
-  },
+1) Spiegazione in 5-7 frasi: che cosa è, perché è, cosa aspettarsi.
+2) La cosa più importante che non è (per rassicurare senza promettere).
+3) Segnali di allarme (3-6) di cui si deve andare al pronto soccorso.
+4) Che cosa si può fare a casa oggi (5 azioni concrete).
+5) Come si misura il miglioramento (2-4 indicatori).
+6) Una chiusura empatica (1-2 frasi).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-003",
-    title: "Mensajes estilo WhatsApp para mejorar adherencia (7 días)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Crea mensajes cortos, motivadores y clínicamente correctos para seguimiento.",
-    prompt: `Actúa como médico. Crea una secuencia de mensajes tipo WhatsApp para adherencia.
+{
+  id: "saluded-002",
+  title: "Piano di trattamento della lista di controllo (alta aderenza)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Convertire un piano clinico in una lista di passi quotidiani / settimanali facili da seguire.",
+  prompt: `Agisce come medico. Trasformare il piano in una lista di controllo pratica.
 
-Inputs:
-- Diagnóstico/objetivo (ej: controlar PA, glucosa, dolor).
-- 3 hábitos o tareas clave.
-- Tono (cálido / directo / motivacional).
-- Barrera principal (olvido, falta de tiempo, miedo, efectos adversos).
-
-Genera:
-1) 7 mensajes (día 1 a día 7) de máximo 240 caracteres.
-2) 2 mensajes “si se saltó el plan” (sin culpar).
-3) 2 mensajes para reforzar señales de alarma y cuándo consultar.
-4) Un mensaje final para agendar seguimiento.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-004",
-    title: "Guía de automonitoreo (PA, glucosa, síntomas) con plantilla",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Instrucciones claras para registrar medidas/síntomas y detectar cambios relevantes.",
-    prompt: `Actúa como médico. Diseña una guía de automonitoreo.
-
-Inputs:
-- Qué se monitoriza (PA / glucosa / peso / síntomas).
-- Frecuencia deseada.
-- Equipo disponible (baumanómetro, glucómetro, app, libreta).
-- Objetivo clínico (control, seguimiento, ajuste).
+Ingressi:
+- Diagnosi.
+- Raccomandazioni (igiene, dieta, attività, controllo).
+- Prodotti medicinali (se applicabili, senza dose se non fornita).
+- Durata del piano (giorni / settimane).
 
 Genera:
-1) Instrucciones paso a paso para medir/registrar (técnica).
-2) Tabla plantilla en texto (campos: fecha, hora, valor, notas, síntomas).
-3) Cómo interpretar tendencias (qué significa subir/bajar).
-4) Umbrales orientativos para contactar al médico vs urgencias (sin dar números si no se proporcionan; usa “muy alto/muy bajo” y guía de síntomas).
-5) Recomendación de revisión del registro (cada X días) y qué enviar.`,
-    thumbnail: "",
-  },
+1) Checklist giornaliero (mattina / pomeriggio / notte).
+2) Controllo settimanale (controlli, registrazione, abitudini).
+3) "Se X passa, fai Y" (5 regole semplici).
+4) Errori comuni da evitare (5).
+5) Promemoria di monitoraggio (quando e perché).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-005",
-    title: "Efectos secundarios: explicación + cuándo preocuparse",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Ayuda a manejar temores sobre medicamentos y distinguir efectos esperables vs peligrosos.",
-    prompt: `Actúa como médico. Educa sobre efectos secundarios de un tratamiento.
+{
+  id: "saluded-003",
+  title: "Messaggi in stile WhatsApp per migliorare l'adesione (7 giorni)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Crea messaggi brevi, motivanti e clinicamente corretti per il follow-up.",
+  prompt: `Agisce come medico. Creare una sequenza di messaggi di tipo WhatsApp per adesione.
 
-Inputs:
-- Medicamento o clase (si no se sabe, describir “tratamiento para X”).
-- Motivo de uso.
-- Duración estimada.
-- Condiciones del paciente (embarazo, riñón, hígado, alergias).
-
-Genera:
-1) Efectos comunes (lista, con descripción simple).
-2) Qué hacer si aparecen (acciones seguras).
-3) Efectos raros pero graves (lista) y qué hacer.
-4) Señales de alergia/anafilaxia (lenguaje simple).
-5) Frase para mejorar adherencia sin minimizar riesgos.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-006",
-    title: "Consentimiento informado simplificado (procedimiento / estudio)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Explica qué se hará, beneficios, riesgos y alternativas en lenguaje accesible.",
-    prompt: `Actúa como médico. Redacta consentimiento simplificado para el paciente.
-
-Inputs:
-- Procedimiento/estudio.
-- Objetivo.
-- Alternativas.
-- Riesgos principales.
-- Preparación requerida.
+Ingressi:
+- Diagnosi / obiettivo (ad esempio controllo PA, glucosio, dolore).
+- 3 abitudini chiave o compiti.
+- Tono (calore / diretto / motivazionale).
+- Barriera principale (forgetting, mancanza di tempo, paura, effetti collaterali).
 
 Genera:
-1) Qué es y para qué sirve (5 frases).
-2) Beneficios esperados (3–5 bullets).
-3) Riesgos/complicaciones (3–7 bullets) en lenguaje simple.
-4) Alternativas razonables (lista).
-5) Preparación antes y cuidados después (checklist).
-6) Preguntas frecuentes (5) con respuestas breves.`,
-    thumbnail: "",
-  },
+1) 7 messaggi (giorno 1 al giorno 7) di massimo 240 caratteri.
+2) 2 messaggi "se il piano è stato saltato" (senza colpa).
+3) 2 messaggi per rafforzare i segnali di allarme e quando consultare.
+4) Un messaggio finale per pianificare il follow-up.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-007",
-    title: "Entrevista motivacional breve (5 minutos) para cambio de hábito",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Guion clínico para aumentar motivación y compromiso sin regañar.",
-    prompt: `Actúa como médico usando entrevista motivacional (MI) en versión breve.
+{
+  id: "saluded-004",
+  title: "Guida automonitorica (PA, glucosio, sintomi) con modello",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Istruzioni chiare per la registrazione di misurazioni / sintomi e la rilevazione di modifiche rilevanti.",
+  prompt: `Agisce come medico. Progetta una guida automobilistica.
 
-Inputs:
-- Hábito a cambiar (tabaco, sedentarismo, dieta, alcohol, sueño).
-- Nivel de disposición (0–10).
-- Barreras principales.
-- Beneficio deseado por el paciente.
+Ingressi:
+- No. Ciò che viene monitorato (PA / glucosio / peso / sintomi).
+- Frequenza desiderata.
+- Attrezzatura disponibile (baumanometro, glucometro, app, notebook).
+- Obiettivo clinico (controllo, monitoraggio, regolazione).
 
 Genera:
-1) 6 preguntas abiertas estilo MI.
-2) 6 afirmaciones empáticas (reflejo y validación).
-3) Técnica “importancia” y “confianza” (2 preguntas cada una).
-4) Cierre con compromiso mínimo viable (1 acción en 24h + 1 en 7 días).
-5) Plan para recaídas (si pasa X, haré Y).`,
-    thumbnail: "",
-  },
+1) Istruzioni passo per la misurazione / registrazione (tecnica).
+2) Tabella in testo (campi: data, ora, valore, note, sintomi).
+3) Come interpretare le tendenze (cosa significa andare su / giù).
+4) Soglie di orientamento per il contatto con il medico contro le emergenze (senza dare numeri se non forniti; utilizzare "molto alto / molto basso" e sintomi guida).
+5) Raccomandazione per rivedere il registro (ogni X giorni) e cosa inviare.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-008",
-    title: "Educación en sala de espera: hoja informativa 1 página",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Crea una hoja breve para imprimir y entregar al paciente.",
-    prompt: `Actúa como médico. Crea una hoja informativa de 1 página.
+{
+  id: "saluded-005",
+  title: "Effetti collaterali: spiegazione + quando preoccuparsi",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Aiuta a gestire le paure sui farmaci e distinguere gli effetti attesi vs pericolosi.",
+  prompt: `Agisce come medico. Educa gli effetti collaterali di un trattamento.
 
-Inputs:
-- Tema (enfermedad o síntoma frecuente).
-- Público (adultos / pediatría / adultos mayores).
-- Nivel de lectura (básico/medio).
-- Mitos comunes del tema.
-
-Genera:
-1) Título + resumen en 2–3 líneas.
-2) Qué es / por qué ocurre (sección corta).
-3) Qué ayuda (5–8 bullets).
-4) Qué evitar (5 bullets).
-5) Cuándo consultar de inmediato (señales de alarma).
-6) Mitos y realidades (3–5).
-7) Nota final: “esto no sustituye consulta médica”.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-009",
-    title: "Plan de prevención: chequeos y vacunas por perfil (general)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Organiza prevención por edad/riesgo sin dar recomendaciones locales específicas.",
-    prompt: `Actúa como médico. Crea un plan preventivo general.
-
-Inputs:
-- Edad y sexo.
-- Factores de riesgo (tabaco, DM, HTA, obesidad).
-- Historial familiar relevante.
-- País/entorno (si aplica).
+Ingressi:
+- Medicinale o di classe (se non noto, descrivere "trattamento per X").
+- Motivo d'uso.
+- Durata stimata.
+- Condizioni del paziente ( gravidanza, rene, fegato, allergie).
 
 Genera:
-1) Lista de chequeos recomendables (general, sin sustituir guías locales).
-2) Frecuencia orientativa (anual / cada 2–3 años / según riesgo).
-3) Vacunas a revisar (sin calendario exacto si no se especifica país).
-4) Hábitos protectores (5).
-5) “Qué llevar a la consulta” (lista).`,
-    thumbnail: "",
-  },
+1) Effetti comuni (elenco, con descrizione semplice).
+2) Cosa fare se appaiono (azioni sicure).
+3) Rari ma gravi effetti (lista) e cosa fare.
+4) Segni di allergia / anafilassi (lingua semplice).
+5) Telaio per migliorare l'aderenza senza minimizzare i rischi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-010",
-    title: "Explicar un resultado de laboratorio en lenguaje claro",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Traduce resultados a: qué significa, qué puede influirlo y próximos pasos.",
-    prompt: `Actúa como médico. Explica un resultado de laboratorio.
+{
+  id: "saluded-006",
+  title: "Consenso informato semplificato (procedure / studio)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Spiegare ciò che sarà fatto, benefici, rischi e alternative in lingua accessibile.",
+  prompt: `Agisce come medico. consenso semplificato per il paziente.
 
-Inputs:
-- Nombre del estudio.
-- Valor del paciente.
-- Rango de referencia.
-- Síntomas y comorbilidades.
-
-Genera:
-1) Qué mide y por qué importa (3–5 frases).
-2) Interpretación del valor (en términos generales).
-3) Causas frecuentes de alteración (lista).
-4) Qué repetir/confirmar y cuándo (orientativo).
-5) Qué cambios de estilo de vida podrían ayudar (si aplica).
-6) Señales por las que debe consultar antes.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-011",
-    title: "Script para explicar antibióticos: cuándo sí / cuándo no",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Mensaje claro para evitar antibióticos innecesarios y mantener satisfacción del paciente.",
-    prompt: `Actúa como médico. El paciente pide antibiótico.
-
-Inputs:
-- Motivo de consulta (resfriado, tos, garganta, sinusitis, etc.).
-- Duración de síntomas.
-- Fiebre sí/no.
-- Factores de riesgo.
+Ingressi:
+- Procedura / studio.
+- Obiettivo.
+- Alternative.
+- Grandi rischi.
+- Preparazione necessaria.
 
 Genera:
-1) Explicación breve de por qué NO siempre ayuda.
-2) Qué sí ayuda (manejo sintomático) con 5 recomendaciones generales.
-3) Cuándo sí se reconsidera (señales de alarma / empeoramiento).
-4) Plan de seguimiento (en cuántos días revalorar).
-5) Frase de cierre para mantener confianza.`,
-    thumbnail: "",
-  },
+1) Che cosa è e che cosa è per (5 frasi).
+2) Prestazioni (3-5 proiettili).
+3) Rischi / complicazioni (3-7 proiettili) in lingua semplice.
+(4) Alternative ragionevoli (elenco).
+5) Pre-preparazione e after-care (checklist).
+6) Domande frequenti (5) con risposte brevi.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-012",
-    title: "Educación y decisión compartida (Shared Decision-Making)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Estructura opciones A/B/C con pros/contras para decidir con el paciente.",
-    prompt: `Actúa como médico. Usa decisión compartida.
+{
+  id: "saluded-007",
+  title: "Breve intervista motivazionale (5 minuti) per cambio di abitudine",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Lo script clinico per aumentare la motivazione e l'impegno non specificato.",
+  prompt: `Agisce come medico utilizzando un'intervista motivazionale a breve termine (MI).
 
-Inputs:
-- Problema clínico.
-- Opciones disponibles (A/B/C).
-- Preferencias del paciente (tiempo, costo, invasividad).
-- Aversiones o miedos.
-
-Genera:
-1) Tabla mental A/B/C (sin tabla): para cada opción: beneficios, riesgos, esfuerzo, tiempo, costo aproximado (si se da).
-2) Preguntas para explorar valores del paciente (5).
-3) Recomendación final condicionada: “Si valoras X, opción Y”.
-4) Próximo paso y plan de reevaluación.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-013",
-    title: "Educación para señales de alarma: tarjeta de 'cuándo regresar'",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Crea una lista corta, memorable y específica de signos por los que debe consultar.",
-    prompt: `Actúa como médico. Crea tarjeta de “return precautions”.
-
-Inputs:
-- Diagnóstico/síntoma.
-- Tratamiento indicado.
-- Riesgos del paciente (edad, embarazo, comorbilidades).
+Ingressi:
+- Abitazione al cambiamento (tabacco, sedentario, dieta, alcol, sonno).
+- Livello di smaltimento (0-10).
+- Le barriere principali.
+- Il beneficio desiderato del paziente.
 
 Genera:
-1) 6–10 señales de alarma específicas.
-2) Qué hacer ante cada una (urgencias / llamar / consultar).
-3) Qué es normal que sienta durante la recuperación (3–5 puntos).
-4) Tiempo esperado de mejoría (orientativo).`,
-    thumbnail: "",
-  },
+1) 6 domande stile aperto MI.
+2) 6 dichiarazioni enfatiche (riflessione e convalida).
+3) "importanza" e "fiducia" tecnica (2 domande ciascuna).
+4) Chiusura con impegno minimamente fattibile (1 azione in 24h + 1 in 7 giorni).
+5) Piano di ricaduta (se X passa, farò Y).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-014",
-    title: "Plan de adherencia para toma de medicamentos (sin olvidar)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Estrategias prácticas: recordatorios, anclajes, pastilleros, rutina y manejo de olvidos.",
-    prompt: `Actúa como médico. Diseña un plan de adherencia para medicación.
+{
+  id: "saluded-008",
+  title: "In attesa di formazione in camera: scheda informativa 1 pagina",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Crea un breve foglio per stampare e consegnare al paziente.",
+  prompt: `Agisce come medico. Crea un foglio informativo di 1 pagina.
 
-Inputs:
-- Número de medicamentos.
-- Horarios aproximados.
-- Problema (olvidos, efectos, costo, complejidad).
-- Rutina diaria del paciente.
-
-Genera:
-1) Estrategia de anclaje (medicación ligada a hábitos existentes).
-2) Sistema de recordatorios (app/alarma/pastillero).
-3) Qué hacer si olvida una dosis (indicación general: consultar etiqueta/médico; no dar instrucciones específicas si no corresponde).
-4) Plan para efectos secundarios leves (cuándo reportar).
-5) Mini-checklist semanal para reordenar/abastecer.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-015",
-    title: "Educación para familia/cuidadores (paciente dependiente)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Guía de cuidados, vigilancia, comunicación y escalamiento para cuidadores.",
-    prompt: `Actúa como médico. Educa a un cuidador.
-
-Inputs:
-- Diagnóstico.
-- Nivel de dependencia.
-- Riesgos (caídas, confusión, deshidratación).
-- Rutina del cuidador.
+Ingressi:
+- Argomento (malattia comune o sintomo).
+- Pubblico (adulti / pediatrico / anziani).
+- Livello di lettura (basico/medio).
+- Miti comuni del soggetto.
 
 Genera:
-1) Qué observar a diario (checklist).
-2) Señales de alarma (lista).
-3) Cómo apoyar adherencia (meds, citas, hidratación, actividad).
-4) Comunicación con el equipo de salud: qué reportar y cómo.
-5) Autocuidado del cuidador (3 tips).`,
-    thumbnail: "",
-  },
+1) Titolo + sommario in 2-3 righe.
+2) Che cosa è / perché accade (sezione corta).
+3) Che aiuto (5-8 proiettili).
+4) Cosa evitare (5 proiettili).
+5) Quando consultare immediatamente (segnali di allarme).
+6) Miti e realtà (3-5).
+7) Nota finale: "questo non sostituisce la consultazione medica".`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-016",
-    title: "Guion para explicar 'por qué referimos a especialista'",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Mensaje para reducir ansiedad y aumentar colaboración con interconsulta.",
-    prompt: `Actúa como médico. Explica una referencia a especialista.
+{
+  id: "saluded-009",
+  title: "Piano di prevenzione: controlli del profilo e vaccini (generale)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Organizza età / prevenzione dei rischi senza fornire raccomandazioni locali specifiche.",
+  prompt: `Agisce come medico. Crea un piano preventivo completo.
 
-Inputs:
-- Motivo de referencia.
-- Estudios realizados.
-- Lo que se busca descartar/confirmar.
-- Preocupación principal del paciente.
-
-Genera:
-1) Explicación en 4–6 frases: por qué, qué aporta, qué se espera.
-2) Qué información llevar (lista).
-3) Qué podría pasar en la consulta (pasos típicos).
-4) Señales por las que debe acudir antes de la cita.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-017",
-    title: "Educación sobre estilo de vida: plan realista en 2 semanas",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Micro-hábitos y metas medibles para iniciar cambios sin saturar al paciente.",
-    prompt: `Actúa como médico. Crea un plan de 14 días de hábitos.
-
-Inputs:
-- Objetivo (peso, PA, glucosa, colesterol, sueño, estrés).
-- Nivel actual (sedentario, moderado, activo).
-- Restricciones (tiempo, presupuesto, lesiones).
-- Preferencias (comida, horarios).
+Ingressi:
+- Età e sesso.
+- Fattori di rischio (tabacco, DM, HTA, obesità)
+- Storia della famiglia rilevante.
+- Paese/ambiente (se applicabile).
 
 Genera:
-1) 3 micro-hábitos (máximo 10 min cada uno).
-2) Metas por semana (semana 1 y 2).
-3) Cómo medir progreso (2 métricas).
-4) Obstáculos probables y plan “si-entonces” (5).
-5) Mensaje motivacional clínico (sin promesas).`,
-    thumbnail: "",
-  },
+1) Elenco dei controlli raccomandati (generale, non sostituiti da guide locali).
+2) Frequenza di orientamento (annuale / ogni 2-3 anni / a rischio).
+3) Vaccini da rivedere (nessun programma esatto se il paese non è specificato).
+4) abitudini protettive (5).
+5. "Cosa portare alla consultazione" (lista).`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-018",
-    title: "Educación para dolor: expectativas y recuperación (sin prometer)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Explica por qué duele, que es normal, qué evitar y cómo avanzar.",
-    prompt: `Actúa como médico. Educa a paciente con dolor.
+{
+  id: "saluded-010",
+  title: "Spiegare un risultato di laboratorio in una lingua chiara",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Traduci i risultati a: cosa significa, cosa può influenzare e i prossimi passi.",
+  prompt: `Agisce come medico. Spiega un risultato di laboratorio.
 
-Inputs:
-- Tipo de dolor (muscular, articular, neuropático).
-- Tiempo de evolución.
-- Actividades que empeoran.
-- Miedo principal (ej: “me voy a lastimar más”).
-
-Genera:
-1) Explicación de dolor (simple, 5–7 frases).
-2) Qué es normal vs preocupante (2 listas).
-3) Plan progresivo de actividad (3 niveles).
-4) Señales para reevaluación.
-5) Frase para reducir miedo al movimiento.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "saluded-019",
-    title: "Educación para pacientes con múltiples comorbilidades (resumen único)",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Integra varias condiciones en un solo plan claro para evitar confusión.",
-    prompt: `Actúa como médico. El paciente tiene varias condiciones.
-
-Inputs:
-- Lista de diagnósticos.
-- Medicación base.
-- Objetivo principal del paciente.
-- Síntomas que más le molestan.
+Ingressi:
+- Nome di studio.
+- Valore paziente.
+- Campo di riferimento.
+- Sintomi e comorbi.
 
 Genera:
-1) Resumen de “qué cuidar primero” (prioridades 1–3).
-2) Plan integrado (hábitos + controles + medicación).
-3) Señales de interacción o conflicto entre planes (ej. dieta vs riñón) en lenguaje simple.
-4) Próximo seguimiento: qué revisar y cuándo.`,
-    thumbnail: "",
-  },
+1) Che cosa misura e perché conta (3-5 frasi).
+(2) Interpretazione del valore (in termini generali).
+3) Cause comuni di alterazione (elenco).
+4) Cosa ripetere / confermare e quando (guida).
+5) Quali cambiamenti di stile di vita potrebbero aiutare (se applicato).
+6) Segni per i quali è necessario consultare prima.`,
+  thumbnail: ""
+},
 
-  {
-    id: "saluded-020",
-    title: "Carta post-consulta (After Visit Summary) lista para copiar",
-    area: "Salud & Clínica",
-    category: "Educación del paciente y adherencia",
-    summary:
-      "Resumen final listo para enviar al paciente con plan, alarmas y seguimiento.",
-    prompt: `Actúa como médico. Redacta el resumen post-consulta.
+{
+  id: "saluded-011",
+  title: "Script per spiegare antibiotici: quando sì / quando no",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Messaggio chiaro per evitare antibiotici inutili e mantenere la soddisfazione del paziente.",
+  prompt: `Agisce come medico. Il paziente chiede antibiotici.
 
-Inputs:
-- Diagnóstico/sospecha.
-- Hallazgos relevantes.
-- Plan (meds, cuidados, estudios).
-- Seguimiento.
+Ingressi:
+- Motivi di consultazione (cold, tosse, gola, sinusite, ecc.).
+- Durata dei sintomi.
+- Sì, niente febbre.
+- Fattori di rischio.
 
 Genera:
-1) Resumen de lo hablado (3–5 líneas).
-2) Plan de acción (bullets claros).
-3) Señales de alarma (bullets).
-4) Próxima cita: cuándo y qué llevar.
-5) Nota final empática y profesional.`,
-    thumbnail: "",
-  },
-];
+1) Breve spiegazione del perché non aiuta sempre.
+2) Che cosa aiuta (gestione sintomatica) con 5 raccomandazioni generali.
+3) Quando è riconsiderato (braccio / segni di peggioramento).
+4) Piano di monitoraggio (in quanti giorni rivalutare).
+5) Cornice di chiusura per mantenere la fiducia.`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-012",
+  title: "Decisioni condivise",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Opzioni di struttura A / B / C con pro / contro per decidere con il paziente.",
+  prompt: `Agisce come medico. Usa una decisione condivisa.
+
+Ingressi:
+- Problemi clinici.
+- Opzioni disponibili (A / B / C).
+- Preferenze dei pazienti (tempo, costo, invasione).
+- Aversioni o paure.
+
+Genera:
+1) Tabella mentale A / B / C (senza tabella): per ogni opzione: vantaggi, rischi, sforzo, tempo, costo approssimativo (se dato).
+2) Domande per esplorare i valori dei pazienti (5).
+3) Raccomandazione finale condizionale: "Se si valuta X, opzione Y."
+4) Prossimo passo e piano di rivalutazione.`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-013",
+  title: "Educazione del segnale di allarme: 'quando tornare' scheda",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Crea una breve, memorabile e specifica lista di segni per i quali consultare.",
+  prompt: `Agisce come medico. Crea la scheda "ritorno precauzioni".
+
+Ingressi:
+- Diagnosi / sintomo.
+- Trattamento indicato.
+- Rischi dei pazienti (età, gravidanza, comorbidità).
+
+Genera:
+1) 6-10 segnali di allarme specifici.
+2) Cosa fare con ciascuno (emergenza / chiamata / consultazione).
+3) Che cosa è normale si sente durante il recupero (3-5 punti).
+4) Tempo previsto per il miglioramento (orientamento).`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-014",
+  title: "Piano di adesione per l'assunzione di farmaci (non dimenticati)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Strategie pratiche: promemoria, ancoraggi, passatempo, routine e gestione di olvidi.",
+  prompt: `Agisce come medico. Progetta un piano di adesione del farmaco.
+
+Ingressi:
+- Numero di medicine.
+- Circa ore.
+- Problema (protetto, effetti, costi, complessità).
+- La routine quotidiana dei pazienti.
+
+Genera:
+1) Strategia di ancoraggio (medicazione legata alle abitudini esistenti).
+2) Sistema di Minder (app / allarme / cantiere navale).
+3) Cosa fare se si perde una dose (indicazione generale: vedi etichetta / medico; non dare istruzioni specifiche se non appropriato).
+4) Piano di effetti collaterali lievi (quando segnalare).
+5) Mini-check settimanale per riordinare / fornire.`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-015",
+  title: "Famiglia / educazione carer (paziente dipendente)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Cura, monitoraggio, comunicazione e guida di scaling per i caregiver.",
+  prompt: `Agisce come medico. Educa un custode.
+
+Ingressi:
+- Diagnosi.
+- Livello di dipendenza.
+- Rischi (cadute, confusione, disidratazione).
+- Rutina del custode.
+
+Genera:
+1) Cosa osservare ogni giorno (controllare).
+2) Segnali di allarme (elenco).
+3) Come sostenere l'adesione (medici, datazione, idratazione, attività).
+4) Comunicazione con il team sanitario: cosa segnalare e come.
+5) Self-care del caregiver (3 consigli).`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-016",
+  title: "Script per spiegare 'perché ci riferiamo a specialista '",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Messaggio per ridurre l'ansia e aumentare la collaborazione con l'interconsultazione.",
+  prompt: `Agisce come medico. Spiegare un riferimento allo specialista.
+
+Ingressi:
+- Campo di riferimento.
+- Studi.
+- No. Quello che vuoi escludere / confermare.
+- La preoccupazione principale del paziente.
+
+Genera:
+1) Spiegazione in 4-6 frasi: perché, ciò che porta, ciò che è previsto.
+2) Quali informazioni portare (lista).
+3) Che cosa potrebbe accadere nella consultazione (passi tipici).
+4) Segni con cui si deve venire prima dell'appuntamento.`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-017",
+  title: "Istruzione di stile di vita: un piano realistico in 2 settimane",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Micro abitudini e obiettivi misurabili per avviare cambiamenti senza saturazione del paziente.",
+  prompt: `Agisce come medico. Crea un piano di abitudine di 14 giorni.
+
+Ingressi:
+- Obiettivo (peso, PA, glucosio, colesterolo, sonno, stress).
+- Livello attuale (sedentario, moderato, attivo).
+- Restrizioni (tempo, bilancio, infortuni).
+- Impostazioni (cibo, orari).
+
+Genera:
+1) 3 abitudini micro (massimo 10 min ciascuna).
+2) Obiettivi a settimana (settimana 1 e 2).
+3) Come misurare il progresso (2 metriche).
+4) Possibili ostacoli e "sì" piano (5).
+5) Messaggio motivazionale clinico (senza promesse).`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-018",
+  title: "Istruzione del dolore: aspettative e recupero (senza promessa)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Spiega perché fa male, che è normale, cosa evitare e come andare avanti.",
+  prompt: `Agisce come medico. Educare paziente con dolore.
+
+Ingressi:
+- Tipo di dolore (muscolo, articolazione, neuropatico).
+- Tempo di evoluzione.
+- Attività che peggiorano.
+- La paura principale (ad esempio "mi farò più male").
+
+Genera:
+1) spiegazione del dolore (semplice, 5-7 frasi).
+2) Che cosa è normale vs preoccupante (2 elenchi).
+3) Piano di attività progressiva (3 livelli).
+4) Segni per la rivalutazione.
+5) Frase per ridurre la paura del movimento.`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-019",
+  title: "Istruzione per pazienti con più comorbidità (sommario unico)",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Integra diverse condizioni in un unico piano chiaro per evitare confusione.",
+  prompt: `Agisce come medico. Il paziente ha diverse condizioni.
+
+Ingressi:
+- Elenco di diagnosi.
+- Medicina di base.
+- No. L'obiettivo principale del paziente.
+- I sintomi che ti disturbano di piu'.
+
+Genera:
+1) Riassunto di "cosa prendersi cura di prima" (priorità 1-3).
+2) Piano integrato (abita + controlli + farmaci).
+3) Segni di interazione o conflitto tra piani (ad esempio dieta vs rene) in lingua semplice.
+4) Successivo follow-up: cosa rivedere e quando.`,
+  thumbnail: ""
+},
+
+{
+  id: "saluded-020",
+  title: "Post-consultazione Lettera (Dopo la visita sommario) pronta a copiare",
+  area: "Salute e Clinica",
+  category: "Istruzione e aderenza dei pazienti",
+  summary:
+  "Riepilogo finale pronto a inviare il paziente con piano, allarmi e follow-up.",
+  prompt: `Agisce come medico. Scrivi il sommario post-consultazione.
+
+Ingressi:
+- Diagnosi / sospetto.
+- Risultati rilevanti.
+- Piano (misure, cure, studi).
+- Seguite.
+
+Genera:
+1) Riepilogo del discorso (3-5 righe).
+2) Piano d'azione (proiettili chiari).
+3) Segnali di allarme (bullette).
+4) Data successiva: quando e cosa portare.
+5) Nota finale empatica e professionale.`,
+  thumbnail: ""
+}];

@@ -2,205 +2,272 @@
 
 export const bonus07AvatarHablante = {
   id: "bonus-07",
-  title: "Crea tu avatar hablante de IA",
+  title: "Crea il tuo avatar parlante con l’IA",
   subtitle:
-    "Aprende a crear un avatar hablante con IA que graba vídeos completos por ti.",
-  heroText: `En este bono vas a ver un flujo completo para tener tu propio “clon digital” grabando vídeos:
+    "Impara a creare un avatar parlante con l’IA che registra video completi al posto tuo.",
+  heroText: `In questo bonus vedrai un flusso completo per creare il tuo “clone digitale” che registra video:
 
-1) Definir tu avatar (o un personaje).  
-2) Crear guiones con tu Banco Secreto de Prompts.  
-3) Generar voz y vídeo con herramientas de IA.  
-4) Montar un sistema repetible para producir vídeos en lote.`,
+1) Definire il tuo avatar (o un personaggio).  
+2) Creare script con il tuo Banco Segreto di Prompt.  
+3) Generare voce e video con strumenti di IA.  
+4) Costruire un sistema ripetibile per produrre video in serie (batch).`,
 
   sections: [
     {
-      id: "vision-general",
-      title: "1. Qué es un avatar hablante de IA y qué puedes hacer con él",
+      id: "panoramica",
+      title: "1. Cos’è un avatar parlante con IA e cosa puoi farci",
       body: [
-        `Un avatar hablante es un vídeo donde aparece una cara (realista, tipo dibujo o estilo corporativo) hablando con sincronización labial, pero sin que tú tengas que grabarte cada vez.`,
-        `Lo interesante no es solo el “truco visual”, sino lo que te permite hacer en tu negocio o marca personal:`,
+        `Un avatar parlante è un video in cui appare un volto (realistico, illustrato o in stile “corporate”) che parla con sincronizzazione labiale, senza che tu debba registrarti ogni volta.`,
+        `La parte interessante non è solo l’“effetto wow”, ma ciò che ti permette di fare nella tua attività o nel tuo personal brand:`,
       ],
       bullets: [
         {
-          label: "Contenido en piloto semi-automático",
+          label: "Contenuti in modalità semi-automatica",
           description:
-            "Puedes tener vídeos explicando conceptos, productos o procesos sin encender la cámara cada día."
+            "Puoi pubblicare video che spiegano concetti, prodotti o processi senza accendere la camera ogni giorno.",
         },
         {
-          label: "A/B tests rápidos",
+          label: "A/B test rapidi",
           description:
-            "Pruebas distintos guiones, hooks y mensajes sin coordinar grabaciones largas ni equipo."
+            "Provi script diversi, hook e messaggi senza coordinare riprese lunghe o un team.",
         },
         {
-          label: "Estandarizar formación",
+          label: "Formazione standardizzata",
           description:
-            "Creas módulos formativos donde el mismo avatar explica lo mismo mil veces sin cansarse."
-        }
+            "Crei moduli formativi in cui lo stesso avatar ripete la stessa lezione mille volte senza stancarsi.",
+        },
       ],
       highlight:
-        "Piensa en tu avatar como una “versión escalable” de ti: dice lo que tú dirías, pero disponible 24/7."
+        "Pensa al tuo avatar come a una “versione scalabile” di te: dice ciò che diresti tu, ma è disponibile 24/7.",
     },
+
     {
-      id: "flujo-completo",
-      title: "2. Flujo completo: de idea a vídeo con avatar",
+      id: "principi",
+      title: "2. Prima il sistema, poi gli strumenti (la regola d’oro)",
       body: [
-        `Antes de hablar de herramientas, mira el mapa completo del flujo que vas a usar una y otra vez:`,
-        `1) Definir objetivo del vídeo (qué quieres que pase después).  
-2) Escribir el guion con tu Banco Secreto de Prompts.  
-3) Elegir voz y estilo de avatar.  
-4) Generar el vídeo con una herramienta de avatar hablante.  
-5) Ajustar detalles (subtítulos, cortes, formatos para redes).`,
-        `Este bono se centra en el **flujo y los prompts**. Las herramientas pueden cambiar con el tiempo, pero el sistema se mantiene.`,
+        `Gli strumenti cambiano continuamente, ma un buon sistema resta valido per anni.`,
+        `Il tuo obiettivo non è “fare un video carino”, ma costruire un flusso ripetibile: idea → script → voce → video → rifinitura → pubblicazione.`,
+        `Se domani esce uno strumento migliore, cambierai solo un pezzo (la generazione video o la voce), senza rifare tutto da zero.`,
       ],
       highlight:
-        "Primero el sistema, luego la herramienta. Si mañana sale otra herramienta mejor, solo cambias esa pieza, no todo el proceso."
+        "Prima il sistema, poi lo strumento. Se cambia lo strumento, il processo resta.",
     },
+
     {
-      id: "definir-avatar",
-      title: "3. Definir el estilo y rol de tu avatar",
+      id: "workflow-completo",
+      title: "3. Flusso completo: dall’idea al video (ripetibile ogni settimana)",
       body: [
-        `Tu avatar puede ser literalmente tú (con tu cara) o un personaje representativo de tu marca. Lo importante es definir su **rol** y **estilo**.`,
-        `Para ayudarte, responde a estas preguntas:`,
+        `Ecco la mappa completa del flusso che userai sempre:`,
+        `1) Definisci l’obiettivo del video (cosa vuoi che succeda dopo).  
+2) Scrivi lo script con il tuo Banco Segreto di Prompt.  
+3) Definisci stile e voce dell’avatar (coerenza!).  
+4) Genera il video dell’avatar con lo strumento scelto.  
+5) Rifinisci (sottotitoli, tagli, formati per social).  
+6) Pubblica e salva i “migliori prompt + migliori output” nella tua libreria.`,
+        `Questo bonus si concentra su **flusso e prompt**. Le piattaforme possono cambiare, ma la logica no.`,
+      ],
+      highlight:
+        "Se riesci a ripetere questo flusso in 60–90 minuti a settimana, hai un sistema di contenuti che si autoalimenta.",
+    },
+
+    {
+      id: "definire-avatar",
+      title: "4. Definire stile e ruolo del tuo avatar (coerenza prima di tutto)",
+      body: [
+        `Il tuo avatar può essere letteralmente “te stesso” (con il tuo volto) oppure un personaggio coerente con la tua marca.`,
+        `La qualità percepita dipende molto più dalla coerenza (ruolo, tono, messaggio) che dalla grafica perfetta.`,
+        `Rispondi a queste domande e salvale in un documento:`,
       ],
       bullets: [
         {
-          label: "¿Quién es el avatar?",
+          label: "Chi è l’avatar?",
           description:
-            "¿Es tu versión profesional? ¿Tu versión más casual? ¿Un personaje tipo mentor? ¿Alguien de tu equipo?"
+            "È la tua versione professionale? Più casual? Un mentore? Un personaggio del brand? Un “esperto” del tuo team?",
         },
         {
-          label: "¿Qué tipo de vídeos hará?",
+          label: "Che tipo di video farà?",
           description:
-            "¿Explicativos? ¿Promocionales? ¿Tips rápidos? ¿Onboarding de clientes? ¿Lecciones de un curso?"
+            "Spiegazioni? Mini-lezioni? Promozioni soft? Onboarding? FAQ? Tutorial passo-passo?",
         },
         {
-          label: "¿Qué tono usarás?",
+          label: "Che tono userà?",
           description:
-            "Más serio, más cercano, más divertido, más técnico… Tiene que encajar con tu marca."
-        }
+            "Serio, amichevole, ironico, tecnico… deve combaciare con la tua voce di marca.",
+        },
       ],
       highlight:
-        "Cuanto más claro tengas quién es el avatar, más fácil será mantener coherencia en todos los vídeos."
+        "Più è chiaro “chi è” l’avatar, più sarà facile mantenere coerenza su 50 video senza impazzire.",
     },
+
     {
-      id: "guiones-con-banco",
-      title: "4. Crear guiones para tu avatar con tu Banco Secreto de Prompts",
+      id: "gemini-scrittura",
+      title: "5. Scrivere script con Gemini (e il tuo Banco Segreto) senza pagina bianca",
       body: [
-        `Aquí es donde el avatar se conecta directamente con tu Banco Secreto de Prompts. La idea es que nunca más te quedes mirando una página en blanco.`,
-        `Puedes usar tus módulos de **Prompts de texto** y **Prompts de vídeo** para:  
-- Generar ideas de vídeos.  
-- Escribir guiones cortos tipo Reel/TikTok/Short.  
-- Escribir guiones más largos para lecciones o vídeos explicativos.`,
-        `Aquí tienes algunos prompts base que puedes reutilizar (adaptándolos con tu propia biblioteca):`,
-        `**Prompt 1 — Ideas de vídeos para avatar hablante**  
-Quiero que actúes como estratega de contenido en vídeo.  
-Tengo un avatar hablante de IA que usaré para mi marca.
+        `Qui entra in gioco Gemini: lo userai come “scrittore + editor” per produrre script chiari, brevi e registrabili.`,
+        `Regola pratica: uno script per avatar parlante deve essere **testo da leggere ad alta voce**, non un articolo.`,
+        `Usa moduli di prompt di testo/video per:  
+- generare idee  
+- trasformare idee in script  
+- adattare uno script a formati diversi  
+- revisionare tono, chiarezza e ritmo`,
+        `Sotto trovi prompt pronti (copiali e personalizzali).`,
+        ``,
+        `**PROMPT A — Generare 20 idee di video per avatar (30–60s)**  
+Agisci come strategist di contenuti video.  
+Ho un avatar parlante che usa la mia voce di marca.
 
-Mi nicho es: [describe tu nicho].  
-Mi cliente ideal es: [describe brevemente].  
-Mi objetivo con estos vídeos es: [captar leads / educar / vender / posicionar mi marca].
+Nicho: [descrivi].  
+Cliente ideale: [descrivi].  
+Obiettivo: [lead / educazione / vendita / posizionamento].  
+Piattaforme: [Reels/TikTok/Shorts/LinkedIn].  
+Tono: [amichevole/professionale/diretto].  
 
-Propón 15 ideas de vídeos cortos (30–60s) que pueda grabar con mi avatar hablante.  
-Para cada idea, indica:  
-- Título / hook para la primera frase.  
-- Resumen del contenido en 2–3 líneas.  
-- CTA recomendada al final.`,
-        `**Prompt 2 — Guion para vídeo corto con avatar**  
-A partir de esta idea:
+Genera 20 idee di video (30–60s). Per ogni idea dammi:  
+1) Hook (prima frase)  
+2) Struttura in 3 punti  
+3) Esempio concreto o mini-storia  
+4) CTA finale (una sola)`,
+        ``,
+        `**PROMPT B — Scrivere uno script “pronto da registrare” (45–60s)**  
+Basandoti su questa idea:  
+[incolla idea]
 
-[pega aquí una de las ideas anteriores]
+Scrivi uno script per 45–60s in italiano, testo da leggere ad alta voce.  
+Vincoli:  
+- Frasi corte.  
+- Niente gergo inutile.  
+- Ritmo veloce.  
+- 1 solo concetto principale.  
+Struttura:  
+1) Hook (max 8s)  
+2) 3 punti rapidi (frasi semplici)  
+3) Chiusura con CTA.`,
+        ``,
+        `**PROMPT C — “Editor severo” (migliora chiarezza e ritmo)**  
+Agisci come un editor severo di video brevi.  
+Ecco lo script:  
+[incolla script]
 
-Escribe un guion para un vídeo de 45–60 segundos con avatar hablante.  
-Estructura:  
-1) Hook inicial fuerte (máx. 8 segundos).  
-2) Desarrollo en 3–4 puntos clave (frases simples).  
-3) Cierre con CTA clara.
+1) Evidenzia cosa è confuso o troppo lungo (in 5 bullet).  
+2) Riscrivi lo script con frasi più corte e più ritmo.  
+3) Proponi 3 hook alternativi con angoli diversi (errore / promessa / controintuitivo).`,
+        ``,
+        `**PROMPT D — Adattare lo stesso script a 3 formati**  
+Ecco lo script:  
+[incolla script]
 
-Escribe el guion como si fuera texto para ser leído en voz alta: frases cortas, lenguaje sencillo y ritmo ágil.`,
-        `**Prompt 3 — Adaptar el guion a distintos formatos**  
-Te voy a pegar un guion de vídeo:
-
-[pega aquí el guion]
-
-Quiero que:  
-1) Me des una versión ultra resumida para un vídeo de 15 segundos.  
-2) Me des una versión más desarrollada para un vídeo de 90 segundos.  
-3) Propongas 3 hooks alternativos para probar distintos inicios.`,
+Dammi:  
+1) Versione 15s (super compressa)  
+2) Versione 60s (standard)  
+3) Versione 90s (più narrativa)  
+Mantieni lo stesso messaggio, cambia solo ritmo e livello di dettaglio.`,
       ],
       highlight:
-        "La clave: tu avatar no 'inventa' qué decir. Tú usas tus prompts para definir mensajes estratégicos; el avatar solo los interpreta visualmente."
+        "Chiave: l’avatar non inventa cosa dire. Tu progetti i messaggi con Gemini + prompt; l’avatar li interpreta visivamente.",
     },
+
     {
-      id: "voz-avatar",
-      title: "5. Elegir y generar la voz de tu avatar",
+      id: "voce",
+      title: "6. Voce: come scegliere e mantenere una voce coerente",
       body: [
-        `Tienes dos opciones principales para la voz de tu avatar:`,
-        `1) Usar tu propia voz (grabarte una vez o usar clonación de voz).  
-2) Usar una voz generada por IA que encaje con tu marca.`,
-        `Herramientas típicas (los nombres pueden cambiar con el tiempo, pero la lógica se mantiene) incluyen servicios de **texto a voz (TTS)** con voces naturales y, en algunos casos, clonación de voz a partir de muestras tuyas.`,
-        `Independientemente de la herramienta específica, el flujo suele ser:  
-- Copias el guion que generaste con tus prompts.  
-- Lo pegas en la herramienta de voz.  
-- Eliges idioma, acento y estilo de voz.  
-- Generas el audio y lo exportas (normalmente en .mp3 o .wav).`,
-        `Consejo: aunque uses voz sintética, revisa siempre que la entonación sea razonable. Si la herramienta lo permite, ajusta velocidad y tono para que suene natural.`,
+        `Hai due strade principali:`,
+        `1) Voce tua (se vuoi massimo riconoscimento personale).  
+2) Voce sintetica coerente con la marca (se vuoi scalare e standardizzare).`,
+        `Qualunque strumento tu usi, l’obiettivo è: **voce leggibile, naturale, stabile**.`,
+        `Checklist di qualità (semplice ma potente):  
+- Velocità: non troppo lenta (no “robot”), non troppo veloce (no “ansia”).  
+- Intonazione: deve suonare “umana” e credibile.  
+- Dizionario: attenzione a nomi propri, inglesismi, acronimi.  
+- Coerenza: la stessa voce per una serie di contenuti.`,
+        `Consiglio pratico: crea 2 preset (uno “educativo” e uno “promozionale soft”) e riusali sempre.`,
       ],
       highlight:
-        "Empieza simple: primero guiones buenos, luego voz razonable. No hace falta que todo sea perfecto desde el día uno."
+        "Inizia semplice: prima script buoni, poi una voce “buona abbastanza”. La perfezione viene dopo.",
     },
+
     {
-      id: "herramienta-avatar",
-      title: "6. Generar el vídeo con una herramienta de avatar hablante",
+      id: "flow-video",
+      title: "7. Generare il video con Flow (pipeline semplice e ripetibile)",
       body: [
-        `Después de tener el guion y el audio (o solo el guion, según la herramienta), llega el momento de generar el vídeo del avatar.`,
-        `Muchas herramientas de avatar hablante funcionan así (flujo genérico):  
-1) Eliges un avatar (plantilla predefinida o subida de tu propia imagen, según las políticas y posibilidades de la herramienta).  
-2) Pegas el texto del guion o subes el audio generado previamente.  
-3) La herramienta sincroniza labios, gestos y voz.  
-4) Exportas el vídeo en formato MP4.`,
-        `Algunas permiten:  
-- Cambiar fondos y escenarios.  
-- Añadir texto en pantalla.  
-- Ajustar encuadres y gestos del avatar.`,
-        `Tu foco debe estar en tener **buenos guiones y claridad de mensaje**; los detalles visuales puedes afinarlos con el tiempo.`,
+        `Qui useremo “Flow” come concetto di pipeline: una sequenza chiara di passaggi per trasformare script → video finale.`,
+        `Obiettivo: non perdere tempo a “smanettare” ogni volta. Tu vuoi una checklist che ripeti.`,
+        ``,
+        `**FLOW BASE (versione minima)**  
+1) Input: script finale (da Gemini)  
+2) Voce: genera audio (se separi la fase voce)  
+3) Avatar: genera video con sincronizzazione labiale  
+4) Export: MP4  
+5) Rifinitura: sottotitoli + formato verticale  
+6) Pubblicazione: titolo + descrizione + CTA`,
+        ``,
+        `**Cosa ottimizzare nel tempo**  
+- Background coerente (semplice, pulito)  
+- Inquadratura sempre uguale  
+- Durata standard (es. 45–60s)  
+- CTA standard (1 frase)  
+- Template di sottotitoli`,
+        ``,
+        `Il tuo vantaggio è nella ripetizione: un Flow stabile ti permette di produrre in batch senza pensare.`,
       ],
       highlight:
-        "Primero prueba con vídeos cortos (30–60s) hasta que tengas un estilo que te guste. Luego pasa a contenidos más largos."
+        "Prima testa con video corti (30–60s). Quando hai uno stile che ti piace, passi a contenuti più lunghi.",
     },
+
     {
-      id: "edicion-y-formatos",
-      title: "7. Ajustes finales: subtítulos, formatos y distribución",
+      id: "montaggio",
+      title: "8. Rifinitura: sottotitoli, formati e distribuzione (il 20% che migliora l’80%)",
       body: [
-        `Una vez generado el vídeo del avatar, puedes mejorar mucho el resultado con algunos ajustes simples:`,
-        `• Añadir subtítulos: muchas herramientas de edición (como CapCut, Descript u otras) tienen subtítulos automáticos.  
-• Adaptar formato: cuadrado, vertical, horizontal según la plataforma (Reels, TikTok, YouTube, etc.).  
-• Añadir elementos de marca: logo, colores, tipografías, overlays sencillos.`,
-        `Puedes apoyarte de nuevo en tus prompts para:  
-- Crear títulos y descripciones para las publicaciones.  
-- Generar copies para acompañar el vídeo en redes.  
-- Proponer variaciones del mismo contenido para distintas plataformas.`,
+        `Dopo aver generato il video dell’avatar, pochi accorgimenti aumentano tantissimo la qualità percepita:`,
+        `• Sottotitoli: automatici + correzioni veloci (nomi e parole chiave).  
+• Formato: verticale per Reels/TikTok/Shorts; quadrato per alcuni feed; orizzontale per YouTube lungo.  
+• Brand: logo piccolo, colori coerenti, font leggibile.  
+• Hook testuale: una riga in alto all’inizio (opzionale).`,
+        `Puoi usare Gemini anche qui:  
+- per titoli e caption  
+- per 3 varianti di descrizione  
+- per trasformare lo stesso video in un post scritto`,
       ],
       highlight:
-        "Tu avatar es una pieza más del sistema: el vídeo se alimenta de guiones generados con prompts y se integra con tus carruseles, emails y páginas de venta."
+        "Il tuo avatar è una parte del sistema: lo stesso messaggio può diventare anche carosello, email e post LinkedIn.",
     },
+
     {
-      id: "sistema-repetible",
-      title: "8. Diseña tu sistema repetible de avatar hablante",
+      id: "sistema-settimanale",
+      title: "9. Sistema settimanale (batch): come produrre 5–10 video in 1–2 ore",
       body: [
-        `Para que este bono no se quede en “hice un vídeo y ya”, te propongo un sistema sencillo para producir vídeos de forma recurrente:`,
-        `1) Define tu frecuencia: por ejemplo, 1–3 vídeos por semana con tu avatar.  
-2) Crea un documento donde guardes:  
-   - Plantilla de prompts para generar ideas.  
-   - Plantilla de prompts para guiones.  
-   - Checklist del flujo (guion → voz → avatar → edición → publicación).  
-3) Reserva un bloque de 1–2 horas a la semana para:  
-   - Generar 3–5 guiones con tus prompts.  
-   - Pasarlos por tu flujo de voz + avatar.  
-   - Dejar varios vídeos listos o casi listos.`,
-        `Si repites esto cada semana, en poco tiempo tendrás una biblioteca de vídeos con tu avatar cubriendo los mensajes clave de tu marca, tus productos y tus contenidos educativos.`,
+        `Se vuoi risultati veri, non fare “un video ogni tanto”. Fai batch.`,
+        `Ecco un sistema semplice (e realistico):`,
+        `1) 20 minuti — Ideazione con Gemini (20 idee → scegli le migliori 5).  
+2) 40 minuti — Script: scrivi 5 script da 45–60s.  
+3) 20–40 minuti — Produzione: genera voce + avatar in batch (o solo avatar se la voce è integrata).  
+4) 20 minuti — Sottotitoli + export + denominazione file.  
+5) 10 minuti — Caption + CTA + programmazione.`,
+        `Crea una cartella standard:  
+/AVATAR  
+  /SCRIPT  
+  /AUDIO  
+  /VIDEO_RAW  
+  /VIDEO_FINAL  
+  /CAPTION`,
+        `Dopo 2–3 settimane avrai uno storico e potrai capire cosa funziona meglio (hook, durata, CTA).`,
       ],
       highlight:
-        "La magia no está en un solo vídeo perfecto, sino en un flujo que puedas repetir casi en automático."
-    }
+        "La magia non è un video perfetto. È un flusso che ripeti quasi in automatico.",
+    },
+
+    {
+      id: "errori",
+      title: "10. Errori comuni (e come evitarli)",
+      body: [
+        `1) Script troppo lungo → soluzione: taglia del 30% e usa frasi corte.`,
+        `2) Troppi concetti in un video → soluzione: 1 idea per video.`,
+        `3) Voce incoerente tra video → soluzione: preset fissi.`,
+        `4) Hook debole → soluzione: genera 10 hook e scegli 1.`,
+        `5) Aspettare la perfezione → soluzione: pubblica 10 video “buoni” prima di ottimizzare.`,
+        `6) Non salvare prompt/output → soluzione: libreria di prompt + esempi funzionanti.`,
+      ],
+      highlight:
+        "Obiettivo: velocità + coerenza. L’ottimizzazione arriva dopo i primi 10–20 video.",
+    },
   ],
 };

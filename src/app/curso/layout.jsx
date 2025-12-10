@@ -20,22 +20,22 @@ export default function CursoLayout({ children }) {
       router.push("/login");
       router.refresh();
     } catch (err) {
-      console.error("Error al cerrar sesión", err);
+      console.error("Errore durante la disconnessione", err);
       setLoading(false);
     }
   };
 
   return (
     <div className="min-h-screen">
-      {/* Header con logo + botón salir */}
+      {/* Header con logo + pulsante esci */}
       <header className="border-b border-black/40 bg-black/40 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
           <div className="flex items-center gap-3">
-            {/* Logo: al hacer click va a /curso (home del curso) */}
+            {/* Logo: al click va su /corso (home del corso) */}
             <Link href="/curso" className="flex items-center gap-2">
               <Image
-                src="/logo1.png"
-                alt="Banco Secreto de Prompts"
+                src="/logo2.png"
+                alt="Banca Segreta di Prompt"
                 width={120}
                 height={32}
                 className="h-12 w-auto"
@@ -51,7 +51,7 @@ export default function CursoLayout({ children }) {
             className="rounded-full border-white/30 bg-white/5 text-xs text-slate-100 hover:bg-white/10"
           >
             <LogOut className="mr-2 h-4 w-4" />
-            {loading ? "Saliendo..." : "Salir"}
+            {loading ? "Uscita in corso..." : "Esci"}
           </Button>
         </div>
       </header>

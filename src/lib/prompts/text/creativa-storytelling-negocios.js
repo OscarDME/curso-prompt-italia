@@ -1,1246 +1,1245 @@
 // src/lib/prompts/text/creativa-storytelling-negocios.js
 
 export const textPromptsCreativaStorytellingNegocios = [
-  {
-    id: "crea-stn-001",
-    title: "Historia de origen de marca: del caos a la misión (formato épico realista)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Construye una historia de origen potente y creíble, con conflicto real, punto de inflexión y misión clara.",
-    prompt: `Dame:
-1) Marca/negocio (qué vendes, a quién, ticket promedio).
-2) Quién es el fundador/a (trasfondo, defecto humano, valor central).
-3) El “antes”: problema personal o frustración (dolor concreto, no abstracto).
-4) El punto de quiebre (el momento exacto que lo cambió todo).
-5) El “enemigo” (un sistema, industria, creencia, hábito, forma clásica de hacerlo).
-6) El “descubrimiento” (insight: qué entendiste que otros no).
-7) La misión (promesa al cliente en 1 frase).
-8) Prueba real (no humo): resultados, aprendizajes, fallos y correcciones.
+{
+  id: "crea-stn-001",
+  title: "Storia dell'origine del marchio: dal caos alla missione (formato epico realistico)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Costruisce una storia di origine potente e credibile, con un conflitto reale, un punto di svolta e una missione chiara.",
+  prompt: `Dammi...
+1) Marchio / business (che si vende, a chi, biglietto medio).
+2) Chi è il fondatore (fondo, difetto umano, valore centrale).
+3) Il "prima": problema personale o frustrazione (dolore concreto, non astratto).
+4) Il punto di rottura (il momento esatto che ha cambiato tutto).
+5) Il "nemico" (un sistema, industria, fede, abitudine, modo classico per farlo).
+6) La "scoperta" (Insight: cosa hai capito che gli altri non lo hanno fatto).
+7) La missione (promessa al cliente in 1 frase).
+8) Test reale (non fumatore): risultati, apprendimento, guasti e correzioni.
 
-Escribe una historia de origen en 3 versiones:
-A) Versión web (800–1200 palabras): narrativa fuerte, visual, con 3 escenas memorables.
-B) Versión “About” corta (250–350 palabras): clara, emocional, sin relleno.
-C) Versión para redes (10–12 líneas): formato story, ritmo rápido, punch final.
+Scrivere una storia di origine in 3 versioni:
+A) Versione web (800-1200 parole): forte, narrativa visiva con 3 scene memorabili.
+B) Breve versione "About" (250-350 parole): chiara, emotiva, senza riempimento.
+C) Versione di rete (10-12 linee): formato storia, ritmo veloce, pugno finale.
 
-Reglas:
-- No uses clichés (“siempre soñé”, “desde niño”, “pasión” sin evidencia).
-- Muestra escenas + acciones + detalles sensoriales.
-- Inserta 2 frases de vulnerabilidad que humanicen.
-- Incluye 1 “mentira que te creíste” y 1 “verdad que te liberó”.
-- Cierra con un CTA suave alineado a la misión (sin vender agresivo).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-002",
-    title: "Caso de éxito narrativo: cliente héroe, marca guía (StoryBrand aplicado)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Escribe un caso de éxito como historia: el cliente es el héroe y tu marca es el guía.",
-    prompt: `Dame:
-- Cliente ideal (perfil, industria, punto de partida).
-- Problema inicial (con síntomas concretos).
-- Objeción principal (por qué no actuaba).
-- Momento de decisión (qué lo hizo avanzar).
-- Tu método (3 pasos simples).
-- Resultado (métricas, cambios cualitativos, tiempo).
-- Obstáculo inesperado (qué casi arruina el proceso).
-- Lección (qué aprendió el cliente).
+Regole:
+- No. Non usare cliché ("Ho sempre sognato", "da un bambino", "passione" senza prove).
+- No. Mostra scene + azioni + dettagli sensoriali.
+- Inserisci 2 frasi di vulnerabilità umane.
+- No. Esso comprende 1 "lie you believe" e 1 "verità che ti ha liberato".
+- Chiudere con un morbido CTA allineato alla missione (non vendendo aggressivo).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-002",
+  title: "Caso di successo narrativo: cliente eroe, marchio di guida (StoryBrand applicato)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Scrivere un caso di successo come una storia: il cliente è l'eroe e il vostro marchio è la guida.",
+  prompt: `Dammi...
+- Cliente ideale (profilo, industria, punto di partenza).
+- Problema iniziale (con sintomi specifici).
+- Obiezione principale (perché non agire).
+- Tempo di decisione (che cosa ha fatto andare avanti).
+- Il tuo metodo (3 semplici passaggi).
+- Risultato (variazioni metriche, qualitative, tempo).
+- Obstacolo inaspettato (che quasi rovina il processo).
+- Lezione (cosa ha imparato il cliente).
 
-Escribe:
-1) Caso de éxito largo (900–1400 palabras) en estructura:
-   - Set-up (vida antes)
-   - Crisis (dolor + costo de no actuar)
-   - Encuentro con la guía (tu marca)
-   - Plan (3 pasos)
-   - Prueba (momento difícil)
-   - Victoria (resultado)
-   - Nueva identidad (quién se volvió)
-2) Versión LinkedIn (220–300 palabras).
-3) Guion para Reel/Short (45–60s): con timestamps (0–3s hook, 3–15s problema, 15–40s proceso, 40–60s resultado/CTA).
+Scrivi:
+1) Caso di successo lungo (900-1400 parole) in struttura:
+- Set-up (vita prima)
+- Crisi (paina + costo di non agire)
+- Incontro con la guida (il tuo marchio)
+- Piano (3 passi)
+- Test (tempo difficile)
+- Victoria (risultato)
+- Nuova identità (che divenne)
+2) Collegato In versione (220-300 parole).
+3) Reel / Short (45-60s) script: con timstamps (0-3s gancio, 3-15s problema, 15-40s processo, 40-60s risultato / CTA).
 
-Incluye:
-- 5 titulares alternativos (orientados a curiosidad y resultado).
-- 10 bullets de “momentos de transformación” reutilizables.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-003",
-    title: "Manifiesto de marca: enemigo común + visión de futuro",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Crea un manifiesto con postura clara, lenguaje emocional y visión contundente (sin sonar pretencioso).",
-    prompt: `Dame:
-- Nicho y público (quiénes son, qué odian, qué desean).
-- La mentira del mercado (creencia popular que los frena).
-- El enemigo común (industria, sistema, hábito, cultura).
-- La verdad que defiendes (en 1 frase).
-- Los valores (máximo 5) con ejemplos concretos.
-- La promesa (qué cambia para el cliente y cómo se mide).
+Include:
+- 5 titoli alternativi (concentrati sulla curiosità e sul risultato).
+- 10 proiettili riutilizzabili "trasformazione".`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-003",
+  title: "Manifesto di marca: nemico comune + visione futura",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Crea un manifesto con chiara postura, linguaggio emotivo e visione forte (senza suono pretenzioso).",
+  prompt: `Dammi...
+- Nicho e pubblico (che sono, ciò che odiano, ciò che vogliono).
+- La menzogna del mercato (convinzione popolare che li ferma).
+- No. Il nemico comune (industria, sistema, abitudine, cultura).
+- La verità che difendete (in 1 frase).
+- I valori (massimo 5) con esempi concreti.
+- La promessa (che cosa cambia per il cliente e come viene misurata).
 
-Escribe un manifiesto (700–1100 palabras) con:
-- Inicio tipo “declaración” (2–3 párrafos cortos).
-- 9–12 líneas tipo bullets (ritmo, repetición, poder).
-- 1 mini-historia personal en medio (100–180 palabras).
-- Final con visión: “así se ve el futuro cuando lo logramos”.
+Scrivi un manifesto (700-1100 parole) con:
+- Tipo di casa "dichiarazione" (2-3 brevi paragrafi).
+- 9-12 linee di proiettile (ritmo, ripetizione, potenza).
+- 1 storia mini-personale tra 100-180 parole.
+- Finale con visione: "È così che si vede il futuro quando lo raggiungiamo".
 
-Luego crea:
-A) Versión corta para landing (180–250 palabras).
-B) 12 frases “manifiesto” para posts (1 línea cada una).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-004",
-    title: "Relato de marca tipo “miedo a perder”: costo de no cambiar",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Historia centrada en el costo invisible de seguir igual (sin manipular).",
-    prompt: `Dame:
-- Público (ocupación, rutina, frustración).
-- Problema (qué pasa a diario).
-- Costo invisible (tiempo, relaciones, oportunidades, autoestima).
-- Qué no se atreven a admitir.
-- Punto de quiebre (escena realista).
-- Solución (tu producto/servicio) como puente, no magia.
-- Resultado (nuevo “yo”).
+Allora credete:
+A) Versione breve per l'atterraggio (180-250 parole).
+B) 12 frasi "manifest" per i post (1 riga ciascuno).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-004",
+  title: "\"Fear to lost\" relazione di marca: costo di non cambiare",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Storia focalizzata sul costo invisibile di rimanere lo stesso (non manipolato).",
+  prompt: `Dammi...
+- Pubblico (occupazione, routine, frustrazione).
+- Problema (cosa succede ogni giorno).
+- Costo invisibile (tempo, relazioni, opportunità, autostima).
+- No. Non osare ammetterlo.
+- Punto di rottura ( scena realistica).
+- Soluzione (il tuo prodotto / servizio) come ponte, non magia.
+- Risultato (nuovo "I").
 
-Escribe una historia (800–1200 palabras) en 3 actos:
-Acto 1: Normalidad rota (muestra rutina + microdolores).
-Acto 2: Crisis / espejo (algo lo obliga a ver la verdad).
-Acto 3: Decisión y nuevo camino (acción concreta + primer resultado).
+Scrivere una storia (800-1200 parole) in 3 atti:
+Atto 1: normalità rotta (campione di routine + micropain).
+Atto 2: Crisi / specchio (qualcosa ti costringe a vedere la verità).
+Atto 3: Decisione e nuovo percorso (azione concreta + primo risultato).
 
-Incluye:
-- 4 escenas ultra específicas (lugares, horas, detalles).
-- 3 frases cortas de impacto (máx 8 palabras).
-- Final: CTA suave tipo invitación (no presión).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-005",
-    title: "Storytelling “fracaso que enseñó”: autoridad sin postureo",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Construye autoridad contando un fracaso con aprendizaje y sistema mejorado.",
-    prompt: `Dame:
-- Contexto del fracaso (qué intentaste).
-- Qué salió mal (errores concretos).
-- Señales que ignoraste.
-- Consecuencias (reales, con costo).
-- Punto de humildad (qué admitiste).
-- Lección (principio).
-- Nuevo sistema (pasos y regla).
-- Resultado posterior (métrica o evidencia).
+Include:
+- 4 scene ultra specifiche (luoghi, ore, dettagli).
+- 3 brevi termini di impatto (max 8 parole).
+- Finale: invito tipo morbido CTA (senza pressione).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-005",
+  title: "Storytelling \"failure che ha insegnato\": autorità senza postulato",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Costruisce l'autorità con un fallimento nell'apprendimento e nel sistema migliorato.",
+  prompt: `Dammi...
+- Contesto di fallimento (ciò che hai provato).
+- No. Ciò che è andato storto (errore concreto).
+- Segni che hai ignorato.
+- Conseguenze (effettive, costo).
+- Un punto di umiltà (che hai ammesso).
+- Lezione (principio).
+- Nuovo sistema (passi e regola).
+- Risultato successivo (metrici o prove).
 
-Escribe:
-1) Historia larga (900–1400 palabras) con tono humano:
-   - Preparación (expectativa)
-   - Colapso (momento exacto)
-   - Resaca (consecuencias)
-   - Insight (verdad incómoda)
-   - Reconstrucción (nuevo sistema)
-2) Post LinkedIn (260–320 palabras) con 3 aprendizajes.
-3) Hilo X/Twitter (10–12 tweets) con ganchos y cierres.
+Scrivi:
+1) Lunga storia (900-1400 parole) con tono umano:
+- Preparazione (aspettativa)
+- Collapse (tempo esatto)
+- Gancio (conseguenze)
+- Insight (verità sconveniente)
+- Ricostruzione (nuovo sistema)
+2) Post LinkedIn (260-320 parole) con 3 apprendimento.
+3) X / Twitter thread (10-12 tweets) con ganci e chiusure.
 
-Incluye:
-- 7 “lecciones en una línea” (muy compartibles).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-006",
-    title: "Historia “cliente como espejo”: empatía profunda (sin vender al inicio)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Una historia donde el lector se reconoce antes de cualquier oferta; foco en emoción y verdad.",
-    prompt: `Dame:
-- Perfil del lector/cliente.
-- Día típico (rutina + fricción).
-- Pensamiento secreto (lo que no dice).
-- Momento pequeño que lo rompe (una frase, una notificación, una escena).
-- Creencia que lo atrapa.
-- Nueva creencia que lo libera.
-- Acción mínima (primer paso).
-- Tu rol (solo al final, como guía).
+Include:
+- 7 "lezioni in una linea" (molto compartabile).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-006",
+  title: "Storia \"cliente come specchio\": empatia profonda (non venduta all'inizio)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Una storia in cui il lettore viene riconosciuto prima di qualsiasi offerta; concentrarsi sull'emozione e sulla verità.",
+  prompt: `Dammi...
+- Lettore / profilo cliente.
+- Giorno tipico (routine + attrito).
+- Pensiero segreto (cosa non dice).
+- Piccolo tempo che lo rompe (una frase, una notifica, una scena).
+- No. Pensa di averlo.
+- Una nuova convinzione che lo libera.
+- Azione minima (primo passo).
+- Il tuo ruolo (solo alla fine, come guida).
 
-Escribe 800–1300 palabras:
-- Escribe en 2ª persona (“tú”) o 1ª (“yo”) según convenga al público.
-- Detalles cotidianos hiper específicos (al menos 10).
-- No menciones el producto hasta el último 15% del texto.
-- Final con invitación: “si esto eres tú, aquí tienes un paso”.
+Scrive 800-1300 parole:
+- Scrivi in seconda persona ("tu") o prima ("io") come si adatta al pubblico.
+- Dettagli ipertestuali giornalieri (almeno 10).
+- No. Non menzionare il prodotto fino all'ultimo 15% del testo.
+- Finale con un invito: "Se sei tu, ecco un passo".
 
-Crea además:
-- 5 hooks de apertura para Reels.
-- 5 frases de cierre tipo “comentario” para engagement.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-007",
-    title: "Storytelling de oferta: explicar un producto con historia (no características)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Presenta una oferta como viaje: problema → intento fallido → método → resultado.",
-    prompt: `Dame:
-- Oferta (qué incluye, duración, precio).
-- Problema principal que resuelve.
-- Intentos fallidos típicos del cliente (3).
-- Por qué fallan (causa raíz).
-- Tu método (3–5 pasos).
-- Promesa medible y realista.
-- Objeción principal y respuesta ética.
+Crea anche:
+- 5 fori di apertura per Reels.
+- 5 frasi di chiusura "commento".`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-007",
+  title: "Offerta Storytelling: spiegare un prodotto con la storia (non caratteristiche)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Presenta un'offerta come viaggio: problema → tentativo fallito → metodo → risultato.",
+  prompt: `Dammi...
+- Offerta (compresa, durata, prezzo).
+- Il problema principale che risolve.
+- I tipici tentativi falliti del cliente (3).
+- Perché falliscono (causa radice).
+- Il tuo metodo (3-5 passaggi).
+- No. Promette misurabile e realistico.
+- Obiezione principale e risposta etica.
 
-Escribe:
-1) Página de venta narrativa (900–1500 palabras) con estructura:
-   - Escena (persona común en situación real)
-   - Frustración (intentos fallidos)
-   - Insight (causa raíz)
-   - Método (pasos)
-   - Prueba / credibilidad (sin humo)
-   - Oferta (qué recibe)
-   - CTA suave
-2) Versión “email” (350–500 palabras).
-3) Guion de 60–75s para video (con beats).
+Scrivi:
+1) pagina narrativa (900-1500 parole) con struttura:
+- Scena (persona comune in situazione reale)
+- Frustrazione (provate)
+- Insight (causa radice)
+- Metodo (passaggi)
+- Test / credibilità (senza fumo)
+- Offerta (cosa ricevi)
+- Soft CTA
+2) versione "email" (350-500 parole).
+3) sceneggiatura video 60-75th (con battiti).
 
-Incluye:
-- 12 bullets de beneficios (emocional + racional + práctico).
-- 5 objeciones y respuestas en una línea.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-008",
-    title: "Storytelling “antes/después”: identidad transformada (no solo métricas)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Crea transformación centrada en identidad, hábitos y vida (y luego métricas).",
-    prompt: `Dame:
-- Cliente: rol, contexto, nivel.
-- Antes: hábitos, pensamientos, sensación.
-- Después: nueva identidad, hábitos, sensación.
-- Obstáculo principal de la transición.
-- Herramienta/método que ayudó.
-- Métrica o evidencia.
-- Detalle personal que cambia (relación, salud, rutina).
+Include:
+- 12 proiettili benefici (emotivo + razionale + pratico).
+- 5 obiezioni e risposte in una riga.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-008",
+  title: "Storytelling \"prima / dopo\": identità trasformata (non solo metrica)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Crea una trasformazione focalizzata sull'identità, le abitudini e la vita (e poi sulle metriche).",
+  prompt: `Dammi...
+- Cliente: ruolo, contesto, livello.
+- Prima: abitudini, pensieri, sentimenti.
+- Poi: nuova identità, abitudini, sentimento.
+- Ostacolo principale della Transizione.
+- Strumento / metodo che ha aiutato.
+- Metrica o prova.
+- Dettaglio personale che cambia (relazione, salute, routine).
 
-Escribe 800–1200 palabras:
-- Divide en “Antes / Durante / Después”, pero narrado, no reporte.
-- 3 escenas: una del antes, una del durante, una del después.
-- Inserta 5 líneas cortas de contraste (“Antes… / Ahora…”).
-- Final: invitación a imaginarse en el después.
+Scrivi 800-1200 parole:
+- Dividere in "Prima / Durante / Dopo", ma narrato, non segnalare.
+- 3 scene: una prima, una durante, una dopo.
+- Inserire 5 brevi linee di contrasto ("Prima... / Ora...").
+- Finale: invito ad immaginare in seguito.
 
-Añade:
-- 10 frases tipo carrusel (una por slide).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-009",
-    title: "Historia “mito vs realidad”: educar contando un cuento de negocio",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Desmonta una creencia del mercado usando una historia con moraleja.",
-    prompt: `Dame:
-- Mito del nicho (creencia popular).
-- Realidad (lo que funciona de verdad).
-- Personaje protagonista (arquetipo del cliente).
-- Consecuencia del mito (daños).
-- Momento de insight (cómo lo ve).
-- Nuevo enfoque (pasos).
-- Resultado.
+Aggiungi:
+- 10 frasi di carosello (una per diapositiva).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-009",
+  title: "Storia \"mito vs realtà\": educare raccontando una storia d'affari",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Smontare una credenza di mercato utilizzando una storia morale.",
+  prompt: `Dammi...
+- Mito della nicchia (convinzione popolare).
+- Realtà (cosa realmente funziona).
+- Carattere (archetipo del cliente).
+- Il risultato del mito (danni).
+- Tempo di insight (come lo vedi).
+- Nuovo approccio (passi).
+- Uscite.
 
-Escribe 800–1300 palabras:
-- Estructura de mini-cuento con moraleja.
-- Inserta 3 ejemplos concretos.
-- Termina con “la regla de oro” en 1 frase.
+Scrive 800-1300 parole:
+- Struttura minima - Conto sulla morale.
+- No. Contiene 3 esempi concreti.
+- Finisci con la "regola d'oro" in 1 frase.
 
-Crea además:
-- 7 posts cortos (80–120 palabras) sacados de la historia.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-010",
-    title: "Storytelling para pitch: ‘por qué ahora, por qué nosotros’",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Guion de pitch con narrativa: problema, oportunidad, visión, prueba, plan.",
-    prompt: `Dame:
-- Qué problema resuelves y para quién.
-- Por qué es urgente ahora (tendencia, cambio, dolor).
-- Solución (en 1 frase clara).
-- Diferenciador (por qué tú).
-- Evidencia (clientes, resultados, tracción).
-- Visión (qué mundo creas).
-- Petición (qué quieres del oyente: inversión, partnership, compra).
+Crea anche:
+- 7 brevi post (80-120 parole) tratti dalla storia.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-010",
+  title: "Storytelling per campo: \"Perché ora, perché noi\"",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Scritto di piazzola con narrazione: problema, opportunità, visione, prova, piano.",
+  prompt: `Dammi...
+- No. Che problema risolvi e per chi.
+- No. Perché è urgente ora (trend, change, pain).
+- Soluzione (in 1 frase chiara).
+- Diverso (perché tu).
+- Prove (clienti, risultati, trazione).
+- Visione (che mondo pensi).
+- Richiesta (cosa vuoi dall'ascoltatore: investimento, partnership, acquisto).
 
-Escribe:
-A) Pitch hablado 2 minutos (260–330 palabras) con ritmo oral.
-B) Versión 30 segundos (70–90 palabras).
-C) 10 bullets para slides (frases cortas, impactantes).
+Scrivi:
+A) Pitch ha parlato 2 minuti (260-330 parole) con il ritmo orale.
+B) Versione 30 secondi (70-90 parole).
+C) 10 proiettili per slitte (breve frasi scioccanti).
 
-Incluye:
-- 5 openings alternativos (hooks) diferentes.`,
-    thumbnail: "",
-  },
+Include:
+- 5 diverse aperture alternative.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-stn-011",
-    title: "Arco narrativo para campaña: 7 episodios (mini-serie de marca)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Diseña una campaña en forma de serie: episodios con cliffhanger y aprendizaje.",
-    prompt: `Dame:
-- Tema central de la campaña.
-- Público.
-- Transformación que quieres provocar (creencia/hábito).
-- Oferta (si aplica) y en qué episodio aparece fuerte.
-- Tono (inspirador, crudo, cómico, elegante).
+{
+  id: "crea-stn-011",
+  title: "Campagna narrativa: 7 episodi (serie mini-brand)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Progetta una campagna seriale: episodi con cliffhanger e apprendimento.",
+  prompt: `Dammi...
+- Tema centrale della campagna.
+- Pubblico.
+- Trasformazione che si desidera causare (credulità / abitudine).
+- Offerta (se applicabile) e in quale episodio appare forte.
+- Tono (ispirante, grezzo, comico, elegante).
 
-Crea outline de 7 episodios:
-- Para cada episodio: Title (1 frase), Hook (1–2 líneas), Conflicto, Insight, Acción sugerida, Cliffhanger.
-- Debe haber progresión emocional real.
-- Episodio 5: crisis/verdad incómoda.
-- Episodio 7: resolución + CTA.
+Crea 7-episodi:
+- Per ogni episodio: Titolo (1 frase), Hook (1-2 righe), Conflict, Insight, Azione Suggerita, Cliffhanger.
+- No. Dev'esserci una reale progressione emotiva.
+- Episodio 5: crisi scomoda / verità.
+- Episodio 7: risoluzione + CTA.
 
-Luego escribe el Episodio 1 completo (600–900 palabras) con estilo storytelling, y 3 hooks alternativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-012",
-    title: "Storytelling para testimonio: guion de entrevista que saca oro",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Guion de entrevista para que el cliente cuente su transformación con escenas y emoción.",
-    prompt: `Dame:
-- Producto/servicio y tipo de cliente.
-- Transformación esperada.
-- Lo más difícil del proceso.
-- Resultado medible.
-- Obstáculo personal (miedo/creencia).
-
-Crea:
-1) 18 preguntas (ordenadas) para entrevista testimonio:
-   - 5 del “antes”
-   - 7 del “durante”
-   - 4 del “después”
-   - 2 para cierre (recomendación + advertencia/realismo)
-2) “Respuestas modelo” (pero realistas) para 6 preguntas clave.
-3) Guion final de testimonio de 60–75s (para video) basado en las mejores respuestas.
-
-Incluye:
-- 10 frases cortas tipo quote para usar en creativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-013",
-    title: "Historia de comunidad: ‘nosotros’ como identidad",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Relato que convierte audiencia en tribu: valores compartidos, lenguaje propio y ritual.",
-    prompt: `Dame:
-- Comunidad (nicho).
-- Valor central compartido.
-- Enemigo común (creencia o industria).
-- Ritual/hábito de la comunidad.
-- Símbolo o frase interna.
-- Resultado que celebran.
-
-Escribe 800–1200 palabras:
-- Usa voz “nosotros”.
-- 3 mini-historias de miembros (100–160 palabras cada una).
-- Define lenguaje propio (3 términos con significado).
-- Final: invitación a unirse con un rito de iniciación (comentario/acción/descarga).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-014",
-    title: "Storytelling educativo: lección de negocio contada como escena",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Enseña un concepto (precio, nicho, oferta, anuncios) con una escena narrada, no con teoría.",
-    prompt: `Dame:
-- Lección puntual (1 concepto).
-- Protagonista (tipo de emprendedor).
-- Error que comete.
-- Señal que ignora.
-- Descubrimiento.
-- Resultado del cambio.
-
-Escribe 700–1100 palabras:
-- Todo debe ocurrir como historia en una escena o dos.
-- Inserta el concepto sin decir “la lección es…”.
-- Final con 5 bullets prácticos extraídos de la historia.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-015",
-    title: "Storytelling de lanzamiento: ‘detrás de cámaras’ honesto (día a día)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Narrativa de lanzamiento tipo diario: proceso real, tensión, decisiones y aprendizajes.",
-    prompt: `Dame:
-- Qué lanzas.
-- Público.
-- Fecha/límite.
-- 3 problemas reales del lanzamiento.
-- 2 mini victorias.
-- Una duda fuerte (miedo).
-- Resultado final (realista).
-
-Escribe en formato diario 5 entradas (cada una 180–260 palabras):
-Día 1: intención + miedo
-Día 2: fricción + ajuste
-Día 3: fallo + aprendizaje
-Día 4: evidencia + impulso
-Día 5: cierre + reflexión + CTA suave
-
-Incluye:
-- 10 frases cortas para stories (una por slide) basadas en el diario.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-016",
-    title: "Storytelling de diferenciación: ‘por qué nosotros no hacemos X’",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Defiende tu diferenciador contando una historia de elección ética/estratégica.",
-    prompt: `Dame:
-- Qué práctica común del mercado rechazas (X).
-- Por qué la rechazas (evidencia).
-- Qué haces en su lugar (Y).
-- Cliente que se benefició de Y.
-- Costo de elegir Y (más difícil, más lento, etc.).
-
-Escribe 800–1200 palabras:
-- Abre con una historia realista (escena) donde X falló.
-- Introduce tu postura sin atacar personas (ataca el sistema).
-- Muestra por qué eliges Y, con costo y beneficio.
-- Final: invitación a clientes que valoran lo mismo.
-
-Crea además:
-- 7 bullets comparativos: X vs Y (sin odio).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-017",
-    title: "Storytelling de pricing: por qué cuesta lo que cuesta (sin justificarte)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Explica el precio a través de historia de valor, costo oculto y responsabilidad.",
-    prompt: `Dame:
-- Producto/servicio (incluye).
-- Precio.
-- Diferenciador.
-- Qué riesgo asumes tú (garantía, personalización, soporte).
-- Qué riesgo reduce para el cliente.
-- Qué costo tendría hacerlo mal o barato.
-
-Escribe 700–1100 palabras:
-- Cuenta una historia de “barato salió caro” (cliente o caso).
-- Luego muestra cómo tu enfoque evita ese costo.
-- No pidas perdón por el precio.
-- Final: “si esto no es para ti, está bien; si sí, aquí el paso”.
-
-Luego crea:
-- 5 respuestas a objeción de precio en 1–2 líneas (éticas, firmes).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-018",
-    title: "Storytelling de ‘día en la vida’: marca como acompañante",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Describe un día en la vida del cliente ideal, mostrando dónde encaja tu marca.",
-    prompt: `Dame:
-- Cliente ideal (edad, trabajo, rutina).
-- 5 momentos del día con fricción (mañana, mediodía, tarde, noche, cierre).
-- Qué desea sentir.
-- Qué hábito quiere construir.
-- Dónde aparece tu producto/servicio (sin ser invasivo).
-
-Escribe 900–1400 palabras:
-- 5 escenas, cada una 150–280 palabras.
-- Detalles cotidianos (olor, pantalla, notificaciones, comida, transporte).
-- Inserta 3 micro-verdades internas (pensamientos secretos).
-- Final: esperanza concreta (acción mínima).
-
-Incluye:
-- 10 hooks de apertura para reels basados en cada escena.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-019",
-    title: "Storytelling ‘antihéroe’: cuando el fundador no era ‘ejemplo’",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Historia de transformación desde un lugar imperfecto: credibilidad por humanidad.",
-    prompt: `Dame:
-- Versión imperfecta del fundador (vicios/hábitos/errores).
-- Qué penuria causó.
-- Qué momento lo obligó a cambiar.
-- Qué sistema adoptó.
-- Qué resultados reales obtuvo.
-- Cómo eso se volvió método para otros.
-
-Escribe 800–1300 palabras:
-- Tono honesto, sin auto-humillación gratuita.
-- Muestra escenas concretas del “antes”.
-- Describe el cambio como proceso, no milagro.
-- Final: invitación a gente que se siente igual.
+Quindi scrivere l'episodio completo 1 (600-900 parole) con stile storytelling, e 3 ganci alternativi.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-012",
+  title: "Storytelling per la testimonianza: copione intervista che porta l'oro",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Scritto di intervista per il cliente per raccontare la loro trasformazione con scene e emozione.",
+  prompt: `Dammi...
+- Prodotto / servizio e tipo di cliente.
+- La trasformazione prevista.
+- La parte più difficile del processo.
+- Risultato misurabile.
+- Obstacolo personale (fear / credenza).
 
 Crea:
-- 12 frases cortas tipo “verdades incómodas” para posts.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-020",
-    title: "Storytelling para anuncios: 3 guiones (UGC) con estructura narrativa",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Crea 3 guiones estilo UGC: hook, problema real, microhistoria, solución, CTA.",
-    prompt: `Dame:
-- Producto/servicio.
-- Beneficio principal.
-- Cliente ideal.
-- Objeción dominante.
-- Contexto de uso real (escena).
+1) 18 domande (ordinate) per intervista di testimoni:
+- 5 del "prima"
+- 7 della "durata"
+- 4 del "dopo"
+- 2 per la chiusura (raccomandazione + avvertimento / realismo)
+2) "Risponde al modello" (ma realistico) per 6 domande chiave.
+3) 60-75s (per video) script di testimonianza finale basato sulle migliori risposte.
 
-Genera 3 guiones de 35–55s:
-- Guion 1: “me pasaba esto…”
-- Guion 2: “no lo creí hasta que…”
-- Guion 3: “te cuento lo que nadie dice…”
+Include:
+- 10 frasi brevi da usare in creativo.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-013",
+  title: "Storia comunitaria: \"noi\" come identità",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Relazione che trasforma il pubblico in tribù: valori condivisi, lingua e rituali propri.",
+  prompt: `Dammi...
+Comunità (niche).
+- Valore centrale condiviso.
+- Nemico comune (credulità o industria).
+- Rituale / abitudine comunitaria.
+- Simbolo o frase interna.
+- Risultato che festeggiano.
 
-Para cada guion:
-- Texto hablado + sugerencias visuales por beat.
-- 3 hooks alternativos (0–2s).
-- 2 CTAs distintos (suave y directo).
+Scrivi 800-1200 parole:
+- Usa la voce "noi".
+- 3 storie mini-membri (100-160 parole ciascuna).
+- Definire la propria lingua (3 termini con significato).
+- Finale: invito ad unirsi a un rito di iniziazione (commento / azione / download).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-014",
+  title: "Formazione Storia: Lezione di affari contato come scena",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Insegna un concetto (prezzo, nicchia, offerta, annunci) con una scena narrata, non con la teoria.",
+  prompt: `Dammi...
+- Lezione tempestiva (1 concetto).
+- Protagonista (tipo di imprenditore).
+- Ha sbagliato.
+- Segnale che ignora.
+- Discovery.
+- Il risultato del cambiamento.
 
-Reglas:
-- Sin promesas irreales.
-- Sonar humano (muletillas moderadas, frases cortas).`,
-    thumbnail: "",
-  },
+Scrive 700-1100 parole:
+- No. Tutto deve accadere come una storia in una scena o due.
+- Inserire il concetto senza dire "la lezione è..."
+- Finale con 5 proiettili pratici estratti dalla storia.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-015",
+  title: "Storytelling: telecamere \"dietro onesti\" (da giorno a giorno)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Avvio di tipo quotidiano: processo reale, tensione, decisioni e apprendimento.",
+  prompt: `Dammi...
+- No. Che lancia.
+- Pubblico.
+- Data / scadenza.
+- 3 veri problemi di lancio.
+- Due mini vittorie.
+- Un forte dubbio (fear).
+- Risultato finale (realistico).
 
-  {
-    id: "crea-stn-021",
-    title: "Historia ‘carta al yo del pasado’: empatía + autoridad",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Carta narrativa al yo del pasado (o al cliente), enseñando sin pontificar.",
-    prompt: `Dame:
-- Yo del pasado (situación exacta).
-- Error principal.
-- Miedo central.
-- 3 cosas que habría necesitado escuchar.
-- Método o hábito que lo habría salvado.
-- Resultado actual (realista).
+Scrivere in formato giornaliero 5 voci (ogni 180-260 parole):
+Giorno 1: intenzione + paura
+Giorno 2: frizione + regolazione
+Giorno 3: fallimento + apprendimento
+Giorno 4: prova + impulso
+Giorno 5: chiusura + riflessione + soft CTA
 
-Escribe 800–1200 palabras en formato carta:
-- Tono cercano, con detalles cotidianos.
-- 3 momentos específicos (escenas) donde el yo del pasado se siente atrapado.
-- 1 confusión grande que se resuelve con un insight.
-- Final: invitación al lector (sin vender duro).
+Include:
+- 10 brevi frasi per storie (una per diapositiva) basate sul quotidiano.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-016",
+  title: "Storytelling della differenziazione: 'perché non facciamo X'",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Difendi il tuo differenziatore raccontando una storia di scelta etica / strategica.",
+  prompt: `Dammi...
+- No. Quale pratica di mercato comune rifiuti (X).
+- Perché lo rifiuti (prove).
+- No. Cosa stai facendo al suo posto (Y).
+- Cliente che ha beneficiato di Y.
+- Costo di scegliere Y (più duro, più lento, ecc.).
 
-Incluye:
-- 8 frases fuertes, listas para poner en carrusel.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-022",
-    title: "Historia ‘el villano era el proceso’: criticar sistema sin odio",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Cuenta una historia donde el villano es una práctica/forma de hacer las cosas, no una persona.",
-    prompt: `Dame:
-- Práctica dañina del mercado.
-- Por qué se vende (atractivo).
-- A quién lastima (cliente).
-- Historia de alguien que la siguió y perdió.
-- Nuevo enfoque (tu filosofía).
-- Evidencia.
+Scrivi 800-1200 parole:
+- No. Si apre con una storia realistica (scena) dove X ha fallito.
+- Inserisci la tua posizione senza attaccare le persone (attaccare il sistema).
+- Mostra perché si sceglie Y, con costo e beneficio.
+- Finale: invito a clienti che apprezzano lo stesso.
 
-Escribe 800–1300 palabras:
-- Escena inicial atrapante (persona aplicando la práctica).
-- Consecuencias visibles.
-- Revelación: la causa raíz.
-- Solución: nuevo enfoque explicado con ejemplo.
-- Final: llamada a construir algo distinto.
+Crea anche:
+- 7 proiettili comparativi: X vs Y (senza odio).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-017",
+  title: "Storytelling de pricing: perché costa ciò che costa (senza giustificazione)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Spiega il prezzo attraverso la storia del valore, il costo nascosto e la responsabilità.",
+  prompt: `Dammi...
+- Prodotto / servizio (incluse).
+- Prezzo.
+- Diverso.
+- No. Che rischio si assume (garanzia, personalizzazione, supporto).
+- No. Che rischio per il cliente.
+- No. Che costo avrebbe dovuto fare male o a buon mercato.
+
+Scrive 700-1100 parole:
+- No. Racconta una storia di "cheap è uscito costoso" (cliente o caso).
+- Allora mostra come il tuo approccio evita quel costo.
+- Non scusarti per il prezzo.
+- Finale: "Se questo non è per te, va bene; sì, ecco il passo."
+
+Allora credete:
+- 5 risposte all'obiezione di prezzo in 1-2 linee (etica, ferma).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-018",
+  title: "Storytelling di 'giorno nella vita': segna come compagno",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Descrivi una giornata nella vita del cliente ideale, mostrando dove il tuo marchio si adatta.",
+  prompt: `Dammi...
+- Client ideale (età, lavoro, routine).
+- 5 momenti della giornata con attrito (mattina, mezzogiorno, pomeriggio, notte, chiusura).
+- No. Quello che vuoi sentire.
+- No. Che abitudine vuole costruire.
+- No. Dove appare il tuo prodotto / servizio (senza essere invasivo).
+
+Scrivi 900-1400 parole:
+- 5 scene, ogni 150-280 parole.
+- Dettagli giornalieri (smell, schermo, notifiche, cibo, trasporto).
+- Inserire 3 micro- verità interne (pensieri segreti).
+- Finale: speranza concreta (azione minima).
+
+Include:
+- 10 fori di apertura per rulli in base a ogni scena.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-019",
+  title: "Storytelling 'antihero': quando il fondatore non era 'esample '",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Storia della trasformazione da un luogo imperfetto: credibilità per l'umanità.",
+  prompt: `Dammi...
+- Versione imperfetta del fondatore (dispositivi / abitudini / errori).
+- No. Che dolore.
+- No. Che volta l'ha fatto cambiare.
+- No. Che sistema ha adottato.
+- No. Quali risultati ha ottenuto.
+- Come è diventato metodo per gli altri.
+
+Scrive 800-1300 parole:
+- Tono onesto, senza auto-umiliazione.
+- No. Mostra scene concrete del "prima".
+- No. Descrive il cambiamento come un processo, non un miracolo.
+- Finale: Invito persone che si sentono allo stesso modo.
 
 Crea:
-- 10 bullets de “señales de alerta” para detectar esa práctica.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-023",
-    title: "Storytelling para onboarding: dar la bienvenida con narrativa (email serie)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Serie de 4 emails de bienvenida que cuenta historia, valores y primer resultado.",
-    prompt: `Dame:
-- Producto/servicio.
-- Quién entra (nuevo cliente).
-- Qué necesita sentir (seguridad, claridad, motivación).
-- Primer resultado rápido.
-- Valores.
+- 12 brevi frasi "verità scomode" per i post.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-020",
+  title: "Storytelling per gli annunci: 3 script (UGC) con struttura narrativa",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Creare 3 script in stile UGC: gancio, problema reale, microstoria, soluzione, CTA.",
+  prompt: `Dammi...
+- Prodotto / servizio.
+- Principale vantaggio.
+- Un cliente ideale.
+- Obiezione dominante.
+- Real-use contesto (scena).
+
+Genera 3 script di 35-55s:
+- Script 1: "Questo mi è successo..."
+- Script 2: "Non ci credevo fino a quando..."
+Script 3: "Ti dico cosa dice nessuno..."
+
+Per ogni script:
+- Testo parlato + suggerimenti visivi per battito.
+- 3 ganci alternativi (0-2s).
+- 2 diversi Tem (soft e diretto).
+
+Regole:
+- Niente promesse irreali.
+- Sonar umano (moderate mutillas, brevi frasi).`,
+  thumbnail: ""
+},
+
+{
+  id: "crea-stn-021",
+  title: "Storia 'lettera all'io del passato': empatia + autorità",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Una lettera narrativa al sé del passato (o al cliente), insegnando senza pontificare.",
+  prompt: `Dammi...
+- Io del passato (situazione esatta).
+- Errore principale.
+- Teme centrale.
+- 3 cose che avrei dovuto sentire.
+- Metodo o abitudine che l'avrebbe salvato.
+- Esito attuale (realistico).
+
+Scrivere 800-1200 parole in formato lettera:
+- Tono vicino, con dettagli giornalieri.
+- 3 momenti specifici (sceni) dove l'io del passato si sente intrappolato.
+- 1 grande confusione che risolve con uno sguardo.
+- Finale: invito al lettore (non venduto duro).
+
+Include:
+- 8 frasi forti, pronte a mettere su giostra.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-022",
+  title: "Storia 'il cattivo era il processo': criticare il sistema senza odio",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Racconta una storia in cui il cattivo è una pratica / modo di fare le cose, non una persona.",
+  prompt: `Dammi...
+- Brutta pratica di mercato.
+- No. Perché è venduto (attraente).
+- Chi stai facendo male (cliente).
+- Storia di qualcuno che l'ha seguita e ha perso.
+- Nuovo approccio (la tua filosofia).
+- Prove.
+
+Scrive 800-1300 parole:
+- Stunning scena iniziale (persona che applica la pratica).
+- Conseguenze visibili.
+- Apocalisse: la causa principale.
+- Soluzione: nuovo approccio spiegato con esempio.
+- Finale: chiamato a costruire qualcosa di diverso.
+
+Crea:
+- 10 proiettili "segnali di avvertimento" per rilevare questa pratica.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-023",
+  title: "Storytelling per onboarding: benvenuto con narrativa (serie di posta elettronica)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Serie di 4 e-mail di benvenuto che racconta storia, valori e primo risultato.",
+  prompt: `Dammi...
+- Prodotto / servizio.
+- Chi entra (nuovo cliente).
+- No. Quello che dovete sentire (sicurezza, chiarezza, motivazione).
+- Primo rapido risultato.
+- Valori.
 - Tono.
 
-Escribe 4 emails (250–420 palabras cada uno):
-Email 1: Bienvenida + mini historia + promesa del proceso
-Email 2: La gran mentira del mercado + tu postura
-Email 3: Caso de éxito resumido + plan en 3 pasos
-Email 4: Ritual/hábito + CTA a la siguiente acción
+Scrivi 4 email (250-420 parole ciascuna):
+Email 1: Benvenuto + mini storia + promessa di processo
+Email 2: La grande bugia di mercato + la tua posizione
+Email 3: Sommario caso di successo + piano a 3 fasi
+Email 4: Rituale / abitudine + CTA alla prossima azione
 
-Incluye:
-- 3 asuntos por email.
-- 1 PS útil por email.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-024",
-    title: "Historia de producto: del ‘artefacto’ al ‘significado’",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Convierte un producto en símbolo: historia de por qué existe y qué representa.",
-    prompt: `Dame:
-- Producto.
-- Por qué existe (origen).
-- Qué problema real resuelve.
-- Valor simbólico (qué dice de quien lo usa).
-- Cliente ideal y contexto de uso.
-- Detalle de fabricación/proceso (real).
+Include:
+- 3 numeri per e-mail.
+- 1 PS utile per e-mail.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-024",
+  title: "Storia del prodotto: dal 'fattore' al 'significa '",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Trasformare un prodotto in un simbolo: storia del perché esiste e di ciò che rappresenta.",
+  prompt: `Dammi...
+- Prodotto.
+- Perché esiste (origine).
+- No. Che vero problema.
+- Valore simbolico (che cosa dice su chi lo usa).
+- Cliente ideale e contesto di utilizzo.
+- Dettaglio della fabbricazione / processo (reale).
 
-Escribe 800–1200 palabras:
-- Apertura con escena concreta de uso.
-- Insertar origen (mini flashback).
-- Muestra 3 momentos donde el producto cambia un día.
-- Final: identidad + invitación.
+Scrivi 800-1200 parole:
+- Apertura con scena d'uso specifica.
+- Inserisci l'origine (mini flashback).
+- No. Mostra 3 momenti in cui il prodotto cambia un giorno.
+- Finale: identità + invito.
 
 Crea:
-- 12 bullets cortos: “esto es para ti si…”.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-025",
-    title: "Narrativa para webinar: guion con historia central y 3 revelaciones",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Estructura un webinar como historia: personaje, conflicto, revelaciones, plan.",
-    prompt: `Dame:
-- Tema del webinar.
-- Público.
-- Historia personal/caso que lo sostenga.
-- 3 revelaciones (insights) que rompen creencias.
-- Método (pasos).
-- Oferta (si aplica) y objeción principal.
+- 12 proiettili corti: "Questo è per te se...".`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-025",
+  title: "Narrativo per webinar: script con storia centrale e 3 rivelazioni",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Struttura un webinar come storia: carattere, conflitto, rivelazioni, piano.",
+  prompt: `Dammi...
+- Tema del sito web.
+- Pubblico.
+- Storia personale / caso che lo detiene.
+- 3 rivelazioni (insights) che spezzano le credenze.
+- Metodo (passi).
+- Offerta (se applicabile) e principale obiezione.
 
-Escribe guion base (900–1400 palabras):
-- Apertura con historia breve (3–5 min).
-- Revelación 1, 2, 3: cada una con mini ejemplo.
-- Plan accionable (3–5 pasos).
-- Transición a oferta con ética.
-- Cierre con compromiso (acción concreta).
+Scrivere script base (900-1400 parole):
+- Apertura con breve storia (3-5 min).
+- Apocalisse 1, 2, 3: ciascuno con mini esempio.
+- Piano attivabile (3-5 passi).
+- Transizione all'offerta etica.
+- Chiusura con impegno (azione concreta).
 
-Incluye:
-- 10 hooks de apertura (1–2 líneas).
-- 6 frases “micro insight” para slides.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-026",
-    title: "Storytelling para ‘por qué fallan’: análisis con historia (micro-case)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Explica por qué algo falla en el nicho contando un microcaso donde se ve clarísimo.",
-    prompt: `Dame:
-- Qué suele fallar (ej. anuncios, contenido, cierres, productividad).
-- Error típico #1, #2, #3.
-- Cliente/protagonista del microcaso.
-- Punto de quiebre.
-- Nuevo enfoque.
-- Resultado.
+Include:
+- 10 ganci di apertura (1-2 linee).
+- 6 frasi "micro insight" per diapositive.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-026",
+  title: "Storytelling per 'perché falliscono': analisi di storia (microcaso)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Spiega perché qualcosa fallisce nella nicchia contando una micromassa dove sembra molto chiaro.",
+  prompt: `Dammi...
+- No. Ciò che spesso fallisce (ad esempio annunci, contenuti, chiusure, produttività).
+- Errore tipico # 1, # 2, # 3.
+- Cliente / protagonista del micromaso.
+- Punto di rottura.
+- Un nuovo approccio.
+- Uscite.
 
-Escribe 700–1100 palabras:
-- Microhistoria con escenas.
-- Inserta 3 “señales” de que iba a fallar.
-- Final: checklist de 7 puntos para evitarlo.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-027",
-    title: "Historia ‘la decisión más cara’: momento de apostar por uno mismo",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Cuenta una decisión difícil (invertir, cambiar, dejar un trabajo) con tensión y consecuencias.",
-    prompt: `Dame:
-- La decisión.
-- Qué está en juego (dinero/relación/estatus).
-- Miedo principal.
-- Persona que duda/critica alrededor.
-- Qué prueba final inclinó la balanza.
-- Resultado.
+Scrive 700-1100 parole:
+- Microstoria con scene.
+- Inserire 3 "segni" che avrebbe fallito.
+- Finale: Controllo a 7 punti per evitarlo.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-027",
+  title: "Storia 'la decisione più costosa': il tempo di scommettere su te stesso",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Ha una decisione difficile (investire, cambiare, lasciare un lavoro) con tensione e conseguenze.",
+  prompt: `Dammi...
+- La decisione.
+- No. Che cosa è in gioco (money / relazione / stato).
+- La paura principale.
+- Persona che dubita / critica intorno.
+- No. Che prova finale il saldo si è inchinato.
+- Uscite.
 
-Escribe 800–1300 palabras:
-- Mucha tensión interna.
-- Diálogo breve con la persona que critica.
-- Final: decisión y primer paso inmediato.
+Scrive 800-1300 parole:
+- Un sacco di tensione interna.
+- Breve dialogo con la persona che critica.
+- Finale: decisione e primo passo immediato.
 
-Incluye:
-- 8 titulares alternativos estilo ‘story post’.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-028",
-    title: "Storytelling ‘la promesa del método’: cómo funciona tu framework",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Explica tu framework con historia: cada paso se ve en una escena.",
-    prompt: `Dame:
-- Nombre del método.
-- Pasos (3–7).
-- Para quién es.
-- Caso real o ficticio de cliente.
-- Resultado final.
+Include:
+- 8 notizie alternative post titoli.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-028",
+  title: "Storytelling 'la promessa del metodo': come funziona il tuo framework",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Spiega il tuo quadro con la storia: ogni passo è visto in una scena.",
+  prompt: `Dammi...
+- Nome del metodo.
+- Passi (3-7).
+- Per chi è.
+- Un caso reale o fittizio.
+- Risultato finale.
 
-Escribe 900–1400 palabras:
-- Divide por pasos, pero narrando: cada paso = escena/elección.
-- Evita tecnicismos; usa metáforas concretas.
-- Final: resumen claro del método en bullets + CTA suave.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-029",
-    title: "Storytelling de crisis reputacional: convertir un golpe en confianza",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Comunicación narrativa ante un error: asumir, reparar, aprender, y mejorar públicamente.",
-    prompt: `Dame:
-- Qué pasó (error).
-- Cómo afectó a clientes.
-- Qué responsabilidad asumes.
-- Qué harás para reparar (acciones concretas).
-- Qué cambiará en procesos.
-- Tono (humilde, firme, calmo).
+Scrivi 900-1400 parole:
+- Dividere per gradini, ma narrare: ogni passo = scena / scelta.
+- Evitare le tecniche; usare metafore concrete.
+- Finale: chiaro riassunto del metodo nei proiettili + morbido CTA.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-029",
+  title: "Storytelling della crisi reputazionale: trasformare un colpo in fiducia",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Comunicazione narrativa di fronte ad un errore: assumere, riparare, imparare e migliorare pubblicamente.",
+  prompt: `Dammi...
+- No. Quello che è successo (error).
+- Come ha colpito i clienti.
+- No. Che responsabilità prendi.
+- No. Cosa farai per riparare (azioni concrete).
+- No. Cosa cambierà nei processi.
+- Tono (umile, fermo, calmo).
 
-Escribe:
-A) Comunicado narrativo (500–800 palabras) con:
-   - Reconocimiento claro
-   - Empatía
-   - Acciones
-   - Aprendizaje
-   - Compromiso
-B) Versión Instagram (120–180 palabras).
-C) FAQ (8 preguntas y respuestas) para soporte.
+Scrivi:
+A) dichiarazione narrativa (500-800 parole) con:
+- Chiaro riconoscimento
+- Empathy
+- Azioni
+- Imparare
+- Impegno
+B) Versione Instagram (120-180 parole).
+C) FAQ (8 domande e risposte) per il supporto.
 
-Reglas:
-- Nada de excusas.
-- Acciones primero, emociones después.
-- Cierra con un compromiso medible.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-030",
-    title: "Storytelling para ‘por qué confiar’: credibilidad con escenas",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Construye confianza mostrando cómo trabajas, qué decisiones tomas y cómo proteges al cliente.",
-    prompt: `Dame:
+Regole:
+- Niente scuse.
+- Azioni prima, emozioni dopo.
+- Chiudi con un impegno misurabile.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-030",
+  title: "Storytelling per 'perché fiducia': credibilità con le scene",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Crea fiducia mostrando come si lavora, quali decisioni si prendono e come si protegge il cliente.",
+  prompt: `Dammi...
 - Nicho.
-- Qué temen del mercado (estafas, humo, mala entrega).
-- Cómo tú proteges al cliente (procesos, garantías, límites).
-- 2 historias reales: una de entrega, otra de cuando dijiste ‘no’.
-- Evidencia (resultados).
+- No. Quello che temono dal mercato (camere, fumo, cattiva consegna).
+- No. Come proteggere il cliente (processi, garanzie, limiti).
+- 2 storie vere: una dalla consegna, una da quando hai detto "no".
+- Prove (risultati).
 
-Escribe 800–1200 palabras:
-- 2 escenas narradas (no bullets) donde se vea tu ética.
-- Explica tu proceso sin sonar corporativo.
-- Final: “esto es lo que puedes esperar de nosotros” (5 bullets).
+Scrivi 800-1200 parole:
+- 2 scene narrate (non proiettili) dove la tua etica è vista.
+- Spiega il tuo processo senza suono aziendale.
+- Finale: "Questo è ciò che potete aspettarvi da noi" (5 proiettili).
 
-Incluye:
-- 7 frases cortas de confianza para banners/landing.`,
-    thumbnail: "",
-  },
+Include:
+- 7 brevi frasi di fiducia per banner / atterraggio.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-stn-031",
-    title: "Serie de historias para carrusel: 10 slides con arco completo",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Convierte un insight en un carrusel narrativo (10 slides) que retiene hasta el final.",
-    prompt: `Dame:
-- Insight central.
-- Público.
-- Personaje (el lector).
-- Enemigo (creencia/hábito).
-- Nuevo camino (acción).
+{
+  id: "crea-stn-031",
+  title: "Serie di storie per giostra: 10 slitte con arco completo",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Diventa uno sguardo in una giostra narrativa (10 diapositive) che mantiene fino alla fine.",
+  prompt: `Dammi...
+- Insight centrale.
+- Pubblico.
+- Carattere (il lettore).
+- Nemico (credulità / abitudine).
+- Nuovo percorso (azione).
 
-Crea carrusel de 10 slides:
-- Slide 1: hook (máx 12 palabras)
-- Slides 2–4: antes (dolor, fricción, ejemplos reales)
-- Slides 5–7: verdad incómoda + nueva creencia
-- Slides 8–9: plan simple (pasos)
-- Slide 10: cierre + CTA suave
+Crea giostra de 10 diapositive:
+- Scivolo 1: gancio (max 12 parole)
+- Slides 2-4: prima (pain, attrito, esempi reali)
+- Scivoli 5-7: verità scomoda + nuova credenza
+- Scivoli 8-9: piano semplice (passaggi)
+- Scivolo 10: chiusura + morbido CTA
 
-Incluye:
-- 5 hooks alternativos para slide 1.
-- 5 cierres alternativos para slide 10.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-032",
-    title: "Historia tipo ‘documental’: narrador externo + escenas reales",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Cuenta un caso/empresa como si fuera un documental: observacional, con detalles y entrevistas breves.",
-    prompt: `Dame:
-- Negocio y contexto.
-- Personaje principal.
-- 3 escenas clave (inicio, crisis, victoria).
-- 2 frases reales de cliente/equipo (si no hay, inventa plausibles).
-- Resultado.
+Include:
+- 5 ganci alternativi per lo scorrevole 1.
+- 5 chiusure alternative per slide 10.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-032",
+  title: "Storia del \"Documentario\": narratore esterno + scene reali",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Ha un caso / azienda come se fosse un documentario: osservazionale, con dettagli e brevi interviste.",
+  prompt: `Dammi...
+- Affari e contesto.
+- Il personaggio principale.
+- 3 scene chiave (start, crisi, vittoria).
+- 2 frasi del cliente / del team (se non c'è, inventare plausibile).
+- Uscite.
 
-Escribe 900–1400 palabras:
-- Voz de narrador externo (3ª persona).
-- Inserta 3 “cortes” tipo documental: [Voz en off], [Entrevista], [Archivo].
-- Final: reflexión y aprendizaje práctico.
+Scrivi 900-1400 parole:
+- Voce narratore esterno (3a persona).
+- Inserisci 3 "tagli" tipo documentario: [Voice on off], [Interview], [File].
+- Finale: riflessione e apprendimento pratico.
 
-Incluye:
-- Lista de 8 “frases de entrevista” para reciclar.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-033",
-    title: "Storytelling del ‘enemigo interno’: autosabotaje del emprendedor",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Historia donde el problema real es el autosabotaje: perfeccionismo, miedo, procrastinación.",
-    prompt: `Dame:
-- Autosabotaje dominante.
-- Contexto del personaje.
-- Consecuencia real.
-- Momento espejo (donde se ve).
-- Nuevo hábito.
-- Resultado.
+Include:
+- Elenco di 8 "interview frasi" per riciclare.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-033",
+  title: "Storytelling del 'nemico interno': autosabotaggio dell'imprenditore",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Storia dove il vero problema è l'auto-sabotaggio: perfezionismo, paura, procrastinazione.",
+  prompt: `Dammi...
+- L'autosabotaggio dominante.
+- Contesto caratteriale.
+- Una vera conseguenza.
+- Specchio momento (dove lo vedi).
+- Nuova abitudine.
+- Uscite.
 
-Escribe 800–1200 palabras:
-- Mucho detalle interno (pensamiento, cuerpo, ansiedad).
-- 2 escenas concretas donde el autosabotaje aparece.
-- Final: el personaje hace una acción mínima valiente.
+Scrivi 800-1200 parole:
+- Un sacco di dettagli interni (pensiero, corpo, ansia).
+- 2 scene specifiche dove appare l'autosabotaggio.
+- Finale: il personaggio fa un'azione minima coraggiosa.
 
-Incluye:
-- 10 frases tipo “si esto te pasa…” para conectar con audiencia.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-034",
-    title: "Storytelling para comunidad: ‘te entiendo’ con 12 microescenas",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Texto de conexión: 12 microescenas comunes del cliente ideal (la gente se siente vista).",
-    prompt: `Dame:
-- Público.
-- Problema central.
-- 12 fricciones típicas que viven.
-- Tono (empático, directo, poético).
+Include:
+- 10 frasi "se questo accade a voi" per connettersi con il pubblico.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-034",
+  title: "Storytelling per la comunità: 'Ti capisco' con 12 microsceni",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Testo di connessione: 12 micro-sceni comuni del cliente ideale (le persone si sentono viste).",
+  prompt: `Dammi...
+- Pubblico.
+- Un problema centrale.
+- 12 attrito tipico che vivono.
+- Tono (empatico, diretto, poetico).
 
-Escribe 700–1100 palabras:
-- Lista de 12 microescenas (cada una 35–70 palabras).
-- Cada microescena debe tener un detalle sensorial o cotidiano.
-- Cierra con: “si te viste aquí, aquí tienes un paso” + CTA suave.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-035",
-    title: "Historia de comparación: dos caminos (A vs B) para educar",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Cuenta dos historias paralelas: el que hace X vs el que hace Y, con resultados distintos.",
-    prompt: `Dame:
-- Tema (hábito/estrategia).
-- Camino A (enfoque común que falla).
-- Camino B (tu enfoque).
-- Personaje A y B (similares, para contraste).
-- Resultado final.
+Scrive 700-1100 parole:
+- Lista di 12 microsceni (ogni 35-70 parole).
+- Ogni microscene deve avere un dettaglio sensoriale o quotidiano.
+- Chiudi con: "Se ti vesti qui, ecco un passo" + CTA morbido.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-035",
+  title: "Storia del confronto: due modi (A vs B) per educare",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Racconta due storie parallele: quella che fa X vs quella che fa Y, con risultati diversi.",
+  prompt: `Dammi...
+- Soggetto (abitare / strategia).
+- Via A (approccio comune che fallisce).
+- Via B (la vostra attenzione).
+- carattere A e B (simile, per contrasto).
+- Risultato finale.
 
-Escribe 900–1400 palabras:
-- Alterna escenas A/B (5 alternancias mínimo).
-- Muestran decisiones y consecuencias.
-- Final: moraleja en 1 frase + checklist práctico (7 bullets).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-036",
-    title: "Storytelling para DM: mini historia que inicia conversación",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Mensajes tipo DM que abren conversación con mini historia y pregunta (sin parecer pitch).",
-    prompt: `Dame:
+Scrivi 900-1400 parole:
+- Scene alternative A / B (5 alternanze minime).
+- No. Essi mostrano decisioni e conseguenze.
+- Finale: morale in 1 frase + lista di controllo pratica (7 proiettili).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-036",
+  title: "Storytelling per DM: mini storia che inizia la conversazione",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Messaggi di tipo DM che aprono la conversazione con mini storia e domanda (senza sembrare pitch).",
+  prompt: `Dammi...
 - Nicho.
-- Problema típico.
-- Tu solución (en 1 línea).
-- Tono (cercano, elegante, directo).
-- Final deseado (que respondan con palabra clave).
+- Un problema tipico.
+- La vostra soluzione (in 1 linea).
+- Tono (chiuso, elegante, diretto).
+- L'estremità desiderata (risposta con parola chiave).
 
-Genera 12 DMs:
-- Cada DM 35–70 palabras.
-- Estructura: mini escena → verdad → pregunta.
-- 4 DMs con humor ligero.
-- 4 DMs con empatía fuerte.
-- 4 DMs con autoridad suave.
+Genera 12 DM:
+- Ogni DM 35-70 parole.
+- Struttura: mini scena → verità → domanda.
+- 4 marchi con un leggero umore.
+- 4 DM con forte empatia.
+- 4 marchi con autorità morbida.
 
-Incluye:
-- 6 preguntas finales alternativas (para respuestas).`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-037",
-    title: "Storytelling de autoridad: ‘lo que aprendí después de 100 casos’",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Texto donde tu autoridad proviene de patrones observados, contado con casos miniatura.",
-    prompt: `Dame:
-- Tu experiencia (número de casos/clientes/proyectos).
-- 5 patrones que viste repetirse.
-- 2 errores comunes.
-- 2 decisiones que cambian resultados.
-- Tono (mentor cercano, experto directo, etc.).
+Include:
+- 6 domande finali alternative (per risposte).`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-037",
+  title: "Storia dell'autorità: \"cosa ho imparato dopo 100 casi '",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Testo in cui la vostra autorità proviene da modelli osservati, con casi in miniatura.",
+  prompt: `Dammi...
+- La tua esperienza (numero di casi / clienti / progetti).
+- 5 modelli che hai visto ripetuto.
+- 2 errori comuni.
+- 2 decisioni che cambiano i risultati.
+- Tono (vicino mentore, esperto diretto, ecc.).
 
-Escribe 800–1200 palabras:
-- Abre con una escena breve de un caso típico.
-- Luego cuenta 5 patrones como mini-historias (80–140 palabras cada una).
-- Cierra con un “principio” general + CTA suave.
+Scrivi 800-1200 parole:
+- No. Si apre con una breve scena di un tipico caso.
+- Quindi conta 5 modelli come minim- storie (80-140 parole ciascuno).
+- Chiudere con un generale "principio" + morbido CTA.
 
-Incluye:
-- 10 titulares alternativos para el post.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-038",
-    title: "Storytelling de ‘por qué creé este programa’: intención + límites",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Historia de creación de un programa/curso: para quién es, para quién NO es, y por qué existe.",
-    prompt: `Dame:
-- Programa/curso.
-- A quién ayuda.
-- Problema que nació para resolver.
-- 2 historias personales que lo justifican.
-- Lo que NO promete (límites).
-- Resultado realista.
+Include:
+- 10 titoli alternativi per il post.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-038",
+  title: "Storytelling de 'perché ho creato questo programma': intenzioni + limiti",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Storia di creare un programma / corso: per chi è, per chi non è, e perché esiste.",
+  prompt: `Dammi...
+- Programma / corso.
+- Chi aiuta.
+- Problema che e' nato per risolvere.
+- 2 storie personali che lo giustificano.
+- No. Cosa NON promette (limiti).
+- Risultato realistico.
 
-Escribe 800–1200 palabras:
-- 2 escenas personales.
-- 1 escena con cliente.
-- Define “no es para ti si…” (5 bullets) sin agresión.
-- Final: invitación a aplicar/entrar con siguiente paso claro.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-039",
-    title: "Storytelling estilo ‘carta abierta a la industria’: postura y esperanza",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Carta abierta que critica lo dañino y propone un camino mejor, con tono firme y humano.",
-    prompt: `Dame:
+Scrivi 800-1200 parole:
+- Due scene personali.
+- 1 scena con il cliente.
+- Definisci "non è per te se..." (5 proiettili) senza aggressione.
+- Finale: invito ad applicare / entrare con il prossimo passo chiaro.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-039",
+  title: "Storytelling style 'open letter to industry': postura e speranza",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Lettera aperta che la critica e propone un modo migliore, con un tono fermo e umano.",
+  prompt: `Dammi...
 - Industria.
-- Práctica dañina.
-- Por qué se normalizó.
-- Qué daño causa al cliente.
-- Qué propones en su lugar.
-- Evidencia.
+- Una bella pratica.
+- No. Perché è stato normalizzato.
+- No. Che danno al cliente.
+- No. Cosa proponi al suo posto?
+- Prove.
 
-Escribe 900–1400 palabras:
-- Tono: firme, no tóxico.
-- Incluye 2 microhistorias (cliente/fundador).
-- Termina con compromisos concretos (5 bullets).
+Scrivi 900-1400 parole:
+- Tono: fermo, non tossico.
+- Include 2 microstorie (cliente / fondatore).
+- No. Si conclude con impegni specifici (5 proiettili).
 
 Crea:
-- 12 frases tipo quote para redes.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-040",
-    title: "Storytelling de cierre anual: ‘lo que funcionó / lo que aprendí / lo que viene’",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Post/reflexión anual con narrativa, aprendizajes y visión del próximo ciclo.",
-    prompt: `Dame:
-- Año y contexto.
-- 3 logros.
-- 3 fracasos.
-- 3 lecciones.
-- 1 cambio de identidad (cómo te transformaste).
-- Qué viene (plan).
+- 12 frasi di citazione per reti.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-040",
+  title: "Chiusura annuale Storytelling: 'che cosa ha funzionato / quello che ho imparato / che cosa viene '",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Post / riflessione annuale con narrativa, apprendimento e visione del prossimo ciclo.",
+  prompt: `Dammi...
+- Anno e contesto.
+- 3 successi.
+- Tre fallimenti.
+- Tre lezioni.
+- 1 cambiamento di identità (come hai cambiato).
+- No. Cosa sta arrivando (piani).
 
-Escribe 900–1400 palabras:
-- Abre con una escena (un momento del año).
-- Alterna historia con reflexión.
-- Cierra con invitación: “si quieres acompañarme/si esto te sirve, aquí…”.
+Scrivi 900-1400 parole:
+- No. Si apre con una scena (un momento dell'anno).
+- Storia alternativa con riflessione.
+- Chiudete con un invito: "Se volete venire con me / se questo vi aiuterà, qui..."
 
-Incluye:
-- 10 bullets de aprendizajes listos para carrusel.`,
-    thumbnail: "",
-  },
+Include:
+- 10 proiettili per l'apprendimento della giostra.`,
+  thumbnail: ""
+},
 
-  {
-    id: "crea-stn-041",
-    title: "Storytelling ‘correo de reactivación’: vuelve sin presionar (con historia)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Email para reactivar clientes/leads con una historia que reengancha y ofrece un paso.",
-    prompt: `Dame:
-- A quién reactivas (inactivos).
-- Qué intentaron antes.
-- Por qué se enfriaron.
-- Historia breve (fundador o cliente).
-- Oferta o recurso (suave).
+{
+  id: "crea-stn-041",
+  title: "Storytelling 'riattivazione mail': restituisce senza pressione (con storia)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Email per riattivare i clienti / conduce con una storia che rinasce e offre un passo.",
+  prompt: `Dammi...
+- Chi riattivare (inattiva).
+- No. Quello che hanno provato prima.
+- Perché hanno freddo.
+- Breve storia (fondatore o cliente).
+- Offerta o risorsa (soft).
 
-Escribe email 350–520 palabras:
-- Hook con mini escena (no “hola, hace tiempo…”).
-- Empatía + insight.
-- Paso concreto (descarga/llamada/guía).
-- CTA suave.
+Scrivi e-mail 350-520 parole:
+- Gancio con mini scena (non "hi, molto tempo fa...").
+- Empathia + informazioni.
+- Passo specifico (download / chiamata / guida).
+- Morbido CTA.
 
-Incluye:
-- 5 asuntos alternativos.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-042",
-    title: "Storytelling de ‘primer cliente’: cuando todo empezó de verdad",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Cuenta el primer cliente/venta como historia (nervios, error, aprendizaje, identidad).",
-    prompt: `Dame:
-- Qué vendiste.
-- Contexto (cómo llegó).
-- Qué miedo tenías.
-- Error que cometiste.
-- Cómo lo solucionaste.
-- Resultado y aprendizaje.
+Include:
+- 5 questioni alternative.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-042",
+  title: "Storytelling di 'primo cliente': quando è veramente iniziato",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Il primo cliente / vendita racconta come storia (nerve, errore, apprendimento, identità).",
+  prompt: `Dammi...
+- No. Quello che hai venduto.
+- Contesto (come è venuto).
+- No. Eri cosi' spaventata.
+- Hai sbagliato.
+- Come ci sei riuscita.
+- Entrate e imparate.
 
-Escribe 800–1200 palabras:
-- 3 escenas: antes de la llamada/venta, durante, después.
-- Incluye 2 detalles ridículamente humanos (manos sudadas, pestañas, café, etc.).
-- Final: “desde ahí cambió mi manera de…”.
+Scrivi 800-1200 parole:
+- 3 scene: prima della chiamata / vendita, durante, dopo.
+- No. Include 2 dettagli ridicolmente umani (mani bagnate, ciglia, caffè, ecc.).
+- Finale: "Da lì è cambiato il mio modo di..."
 
-Incluye:
-- 7 líneas cortas tipo “lección” para redes.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-043",
-    title: "Storytelling de ‘filtro de clientes’: por qué digo NO (y eso te protege)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Historia donde rechazas un cliente/oferta para proteger resultados y valores.",
-    prompt: `Dame:
-- Tipo de cliente que rechazaste.
-- Por qué (señales).
-- Conversación clave.
-- Qué elegiste en su lugar.
-- Qué pasó después (resultado).
+Include:
+- 7 brevi linee "meno" per reti.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-043",
+  title: "Storytelling 'filtro cliente': perché dico NO (e che ti protegge)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Storia in cui si rifiuta un cliente / offerta per proteggere i risultati e i valori.",
+  prompt: `Dammi...
+- Tipo di cliente che hai rifiutato.
+- Perché?
+- Una conversazione chiave.
+- No. Quello che hai scelto invece.
+- No. Quello che è successo dopo (risultato).
 
-Escribe 800–1200 palabras:
-- Escena de la conversación (diálogo breve).
-- Explica criterio sin sonar arrogante.
-- Final: define 5 señales de “fit” y 5 de “no fit”.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-044",
-    title: "Storytelling para comunidad: ‘lo que me habría salvado’ (guía disfrazada)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Historia que entrega guía práctica sin parecer lección: se siente como acompañamiento.",
-    prompt: `Dame:
-- Etapa del emprendedor.
-- 5 errores típicos.
-- 3 herramientas que ayudan.
-- Tono (mentor, amigo, directo).
+Scrivi 800-1200 parole:
+- Scena di conversazione (corto dialogo).
+- No. Spiega criterio senza suono arrogante.
+- Finale: definisce 5 "fit" e 5 "no fit".`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-044",
+  title: "Storytelling per la comunità: 'cosa mi avrebbe salvato' (guida mascherata)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Storia che dà guida pratica senza guardare come una lezione: si sente come accompagnamento.",
+  prompt: `Dammi...
+- Fase di imprenditorialità.
+- 5 errori tipici.
+- 3 strumenti che aiutano.
+- Tono (mentor, amico, diretto).
 
-Escribe 800–1200 palabras:
-- Estructura tipo “si pudiera volver…”
-- 5 escenas cortas (cada una muestra un error).
-- Cada escena termina con “lo que habría hecho”.
-- Final: 7 pasos prácticos (bullets) basados en la historia.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-045",
-    title: "Storytelling para lead magnet: historia + checklist (descarga)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Contenido que vende un lead magnet con historia y entrega valor antes de pedir email.",
-    prompt: `Dame:
-- Lead magnet (qué es).
-- Problema que resuelve.
-- Mini historia que lo justifique.
-- Qué contiene (3–7 puntos).
+Scrivi 800-1200 parole:
+- "Se potessi tornare..."
+- 5 brevi scene (ciascuna mostra un errore).
+- No. Ogni scena finisce con "cosa avrei fatto".
+- Finale: 7 passi pratici (bullette) basati sulla storia.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-045",
+  title: "Storytelling per magnete al piombo: storia + lista di controllo (download)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Contenuto che vende un magnete di piombo con storia e dà valore prima di ordinare e-mail.",
+  prompt: `Dammi...
+- Magnete di piombo.
+- Problema che risolve.
+- Mini storia per giustificarlo.
+- No. Ciò che contiene (3-7 punti).
 - Tono.
 
-Escribe 700–1100 palabras:
-- Historia inicial (200–300 palabras).
-- Valor real: 7 bullets accionables del lead magnet.
-- CTA a descarga/suscripción sin presión.
+Scrive 700-1100 parole:
+- Storia iniziale (200-300 parole).
+- Valore reale: 7 proiettili magneti girabili.
+- CTA da scaricare / abbonamento senza pressione.
 
-Incluye:
-- 5 títulos alternativos para el lead magnet.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-046",
-    title: "Storytelling ‘la pregunta que cambió mi negocio’: insight ancla",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Una historia alrededor de una pregunta poderosa que reorganiza una estrategia completa.",
-    prompt: `Dame:
-- Pregunta central.
-- Qué hacías antes.
-- Qué resultados te frustraban.
-- Qué cambió al adoptar la pregunta.
-- Evidencia.
+Include:
+- 5 titoli alternativi per magnete al piombo.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-046",
+  title: "Storytelling 'la domanda che ha cambiato il mio business': Ancora in vista",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Una storia intorno a una domanda potente che riorganizza una strategia completa.",
+  prompt: `Dammi...
+- Domanda centrale.
+- No. Quello che stavi facendo prima.
+- No. Quali risultati ti stavano frustrando.
+- No. Ciò che è cambiato quando ha adottato la domanda.
+- Prove.
 
-Escribe 800–1200 palabras:
-- Abre con escena de frustración.
-- Introduce la pregunta como “clic” mental.
-- Muestra 2 escenas donde aplicas la pregunta.
-- Final: invita al lector a responderla (con guía).
+Scrivi 800-1200 parole:
+- No. Si apre con una scena di frustrazione.
+- Inserisci la domanda come "cliccare".
+- No. Mostra 2 scene in cui si applica la domanda.
+- Finale: invita il lettore a rispondere (con guida).
 
-Incluye:
-- 12 preguntas alternativas del mismo estilo.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-047",
-    title: "Storytelling de ‘lo que nadie ve’: el trabajo invisible detrás del resultado",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Humaniza y construye respeto: muestra el trabajo invisible sin victimizarte.",
-    prompt: `Dame:
-- Resultado visible (lo que la gente admira).
-- 6 tareas invisibles que lo sostienen.
-- Un día duro.
-- Una decisión difícil.
+Include:
+- 12 domande alternative dello stesso stile.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-047",
+  title: "Storytelling di 'quello che nessuno vede': il lavoro invisibile dietro il risultato",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Umanizzare e costruire il rispetto: mostra lavoro invisibile senza vittimizzare.",
+  prompt: `Dammi...
+- Risultato visibile (che cosa la gente ammira).
+- 6 compiti invisibili che lo sostengono.
+- Una giornata dura.
+- Una decisione difficile.
 - Tono.
 
-Escribe 800–1200 palabras:
-- Narrativa “detrás de cámaras”.
-- 6 microescenas (120–170 palabras cada una) mostrando el trabajo invisible.
-- Final: consejo práctico + invitación.
+Scrivi 800-1200 parole:
+- "dietro telecamere".
+- 6 microsceni (120-170 parole ciascuna) che mostrano il lavoro invisibile.
+- Finale: consigli pratici + invito.
 
-Incluye:
-- 10 frases tipo “nadie ve…” para hooks.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-048",
-    title: "Storytelling tipo ‘cuento con moraleja’: el precio de atajos",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Historia donde el protagonista toma un atajo y paga el precio; enseña ética y estrategia.",
-    prompt: `Dame:
-- Atajo tentador.
-- Por qué tentó al personaje.
-- Qué perdió (reputación, dinero, paz).
-- Momento de colapso.
-- Nueva regla.
-- Resultado.
+Include:
+- 10 frasi "nessuno vede" per ganci.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-048",
+  title: "Storytelling tipo 'Conto con morale': il prezzo delle scorciatoie",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Storia dove il protagonista prende una scorciatoia e paga il prezzo; insegna etica e strategia.",
+  prompt: `Dammi...
+- Una scorciatoia tesa.
+- Perche' ha tentato il personaggio.
+- No. Ciò che ha perso (reputazione, denaro, pace).
+- E' ora di crollare.
+- Nuova regola.
+- Uscite.
 
-Escribe 900–1400 palabras:
-- Mini cuento con escenas claras.
-- Moraleja en 1 frase al final.
-- Checklist de 7 reglas para evitar atajos dañinos.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-049",
-    title: "Storytelling para ‘presentación personal’: bio con historia (3 tonos)",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Crea una bio personal que se lee como historia, en 3 tonos distintos.",
-    prompt: `Dame:
-- Quién eres y qué haces.
-- Público.
-- Diferenciador.
-- Prueba.
-- 1 escena personal que te define.
-- Valores.
+Scrivi 900-1400 parole:
+- Mini conteggio con scene chiare.
+- Morale in 1 frase alla fine.
+- Lista di controllo di 7 regole per evitare scorciatoie nocive.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-049",
+  title: "Storytelling per 'presentazione personale': bio con storia (3 toni)",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Crea un bio personale che viene letto come storia, in 3 toni diversi.",
+  prompt: `Dammi...
+- Chi sei e cosa fai.
+- Pubblico.
+- Diverso.
+- Prova.
+- 1 scena personale che ti definisce.
+- Valori.
 
-Escribe 3 bios:
-A) Profesional (160–220 palabras)
-B) Cercana/humana (160–220 palabras)
-C) Disruptiva/directa (160–220 palabras)
+Scrive 3 bio:
+A) Professionista (160-220 parole)
+B) Cercana / umano (160-220 parole)
+C) Disruptivo / diretto (160-220 parole)
 
-Incluye:
-- 8 líneas “headline” alternativas para comenzar.`,
-    thumbnail: "",
-  },
-  {
-    id: "crea-stn-050",
-    title: "Storytelling de cierre: ‘si esto te resonó, este es tu siguiente paso’",
-    area: "Escritura Creativa",
-    category: "Storytelling Negocios",
-    summary:
-      "Texto de cierre para contenido largo: resume emoción, verdad y acción (CTA suave pero firme).",
-    prompt: `Dame:
-- Tema del contenido.
-- Público.
-- Dolor principal.
-- Nueva creencia.
-- Acción mínima.
-- Oferta/recurso (opcional).
+Include:
+- 8 linee alternative per iniziare.`,
+  thumbnail: ""
+},
+{
+  id: "crea-stn-050",
+  title: "Chiusura di Storytelling: Se questo si risolva, questo e' il tuo prossimo passo. '",
+  area: "Scrittura creativa",
+  category: "Storytelling Business",
+  summary:
+  "Testo di chiusura per contenuti lunghi: riassume emozione, verità e azione (CTA morbida ma solida).",
+  prompt: `Dammi...
+- Tema dei contenuti.
+- Pubblico.
+- Dolore principale.
+- Nuova credenza.
+- Azione minima.
+- Offerta / risorsa (opzionale).
 
-Escribe un cierre (450–700 palabras):
-- Recapitula con 3 escenas/imágenes mentales (no teoría).
-- Refuerza la nueva creencia con 3 frases cortas.
-- Entrega una acción mínima (paso 1).
-- CTA suave (si aplica), con “si/no” claro para evitar presión.
+Scrivere una chiusura (450-700 parole):
+- Recapitula con 3 scene / immagini mentali (non teoria).
+- No. Rafforza la nuova convinzione con 3 frasi brevi.
+- No. Fornisce un'azione minima (passo 1).
+- Soft CTA (se applicabile), con chiaro "sì / no" per evitare la pressione.
 
-Incluye:
-- 5 cierres alternativos de 2–3 líneas para usar en posts.`,
-    thumbnail: "",
-  },
-];
+Include:
+- 5 alternative 2-3 chiusure di linea per l'uso in post.`,
+  thumbnail: ""
+}];

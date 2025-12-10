@@ -2,324 +2,324 @@
 
 export const imagePromptsFotoAutomotriz = [
   // =========================
-  // CATEGORY: Auto + modelo (lifestyle)
+  // CATEGORY: Auto + modello (lifestyle)
   // =========================
   {
     id: "img-foto-auto-001",
-    title: "Modelo junto a deportivo rojo (golden hour, carretera, realista)",
-    area: "Fotografía Pro",
-    category: "Auto + modelo (lifestyle)",
+    title: "Modello/a accanto a sportiva rossa (golden hour, strada, realistico)",
+    area: "Fotografia Pro",
+    category: "Auto + modello (lifestyle)",
     summary:
-      "Foto lifestyle premium: modelo con deportivo en carretera al atardecer, look editorial realista.",
-    prompt: `Genera una fotografía REALISTA lifestyle de auto + modelo.
+      "Foto lifestyle premium: modello/a con sportiva su strada al tramonto, look editoriale realistico.",
+    prompt: `Genera una fotografia REALISTICA lifestyle di auto + modello/a.
 
-DATOS:
-- Auto: deportivo [color: rojo], limpio, sin logotipos de marca visibles
-- Modelo: [mujer/hombre/persona], [edad], pose segura y natural
-- Outfit: [elegante casual / vestido / chaqueta de cuero], acorde a vibe premium
-- Ubicación: carretera abierta, horizonte amplio, fondo ligeramente desenfocado
+DATI:
+- Auto: sportiva [colore: rosso], pulita, senza loghi di marca visibili
+- Modello/a: [donna/uomo/persona], [età], posa sicura e naturale
+- Outfit: [elegante casual / abito / giacca di pelle], in linea con una vibe premium
+- Location: strada aperta, orizzonte ampio, sfondo leggermente sfocato
 
-ILUMINACIÓN:
-- Golden hour (atardecer), luz cálida lateral
-- Reflejos realistas en la carrocería, sin brillos “quemados”
-- Piel natural, sombras suaves
+ILLUMINAZIONE:
+- Golden hour (tramonto), luce calda laterale
+- Riflessi realistici sulla carrozzeria, senza alte luci “bruciate”
+- Pelle naturale, ombre morbide
 
-CÁMARA:
+CAMERA:
 - 35mm o 50mm, f/2.2, ISO 100–200
-- Enfoque en modelo y parte frontal/lateral del auto
+- Fuoco su modello/a e sulla parte frontale/laterale dell’auto
 
-COMPOSICIÓN:
-- Plano 3/4 o completo, auto ocupa 40–60% del encuadre
-- Perspectiva ligeramente baja para sensación potente
+COMPOSIZIONE:
+- Inquadratura 3/4 o intera, l’auto occupa il 40–60% del frame
+- Prospettiva leggermente bassa per una sensazione di potenza
 
-RESTRICCIONES:
-- Sin texto, sin logos, sin placas legibles
-- Evitar deformaciones del auto (ruedas ovaladas, carrocería rara)`,
+RESTRIZIONI:
+- Niente testo, niente loghi, niente targhe leggibili
+- Evitare deformazioni dell’auto (ruote ovali, carrozzeria strana)`,
     thumbnail: "/images/foto-pro/auto1.webp",
   },
   {
     id: "img-foto-auto-002",
-    title: "Mujer con vestido rojo frente a auto (editorial lujo, fondo urbano)",
-    area: "Fotografía Pro",
-    category: "Auto + modelo (lifestyle)",
+    title: "Donna con abito rosso davanti all’auto (editoriale luxury, sfondo urbano)",
+    area: "Fotografia Pro",
+    category: "Auto + modello (lifestyle)",
     summary:
-      "Estética lujo editorial: vestido llamativo + auto, ciudad de fondo desenfocada.",
-    prompt: `Genera una foto REALISTA editorial de lujo con modelo + auto.
+      "Estetica luxury editoriale: abito d’impatto + auto, città sullo sfondo sfocata.",
+    prompt: `Genera una foto REALISTICA editoriale di lusso con modello/a + auto.
 
-DATOS:
-- Modelo: mujer/persona, [edad], vestido rojo elegante
-- Auto: deportivo o sedán premium [color: rojo o negro], sin logos
-- Escena: entorno urbano al atardecer, edificios y luces desenfocadas
-- Pose: modelo con actitud editorial, mirada fuerte, postura elegante
+DATI:
+- Modello/a: donna/persona, [età], abito rosso elegante
+- Auto: sportiva o berlina premium [colore: rosso o nero], senza loghi
+- Scena: ambiente urbano al tramonto, edifici e luci sfocati
+- Posa: atteggiamento editoriale, sguardo deciso, postura elegante
 
-ILUMINACIÓN:
-- Luz suave de atardecer + reflejos urbanos
-- Contraste medio, piel natural, tela con textura real
+ILLUMINAZIONE:
+- Luce morbida del tramonto + riflessi urbani
+- Contrasto medio, pelle naturale, tessuto con texture reale
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2, ISO 200
-- Bokeh urbano suave en el fondo
+- Bokeh urbano morbido sullo sfondo
 
-COMPOSICIÓN:
-- Plano 3/4, auto parcialmente visible (no cortar raro ruedas)
-- Mantener líneas del auto rectas (sin distorsión)
+COMPOSIZIONE:
+- Inquadratura 3/4, auto parzialmente visibile (non tagliare in modo strano le ruote)
+- Mantenere linee dell’auto dritte (senza distorsione)
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Sin placas legibles, sin marcas reconocibles`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Niente targhe leggibili, niente marchi riconoscibili`,
     thumbnail: "/images/foto-pro/auto2.webp",
   },
   {
     id: "img-foto-auto-003",
-    title: "Modelo apoyado en auto (vibe street premium, luz suave)",
-    area: "Fotografía Pro",
-    category: "Auto + modelo (lifestyle)",
+    title: "Modello/a appoggiato/a all’auto (vibe street premium, luce morbida)",
+    area: "Fotografia Pro",
+    category: "Auto + modello (lifestyle)",
     summary:
-      "Foto street premium: modelo apoyado en auto, estética natural tipo campaña.",
-    prompt: `Genera una foto REALISTA de campaña street premium con modelo + auto.
+      "Foto street premium: modello/a appoggiato/a all’auto, estetica naturale tipo campagna.",
+    prompt: `Genera una foto REALISTICA tipo campagna street premium con modello/a + auto.
 
-DATOS:
-- Modelo: [persona], [edad], expresión segura
-- Outfit: chaqueta de cuero o blazer, look urbano premium
-- Auto: color negro/gris, estilo premium, sin logos visibles
-- Escenario: calle limpia, fondo urbano desenfocado (bokeh)
+DATI:
+- Modello/a: [persona], [età], espressione sicura
+- Outfit: giacca di pelle o blazer, look urbano premium
+- Auto: colore nero/grigio, stile premium, senza loghi visibili
+- Scenario: strada pulita, sfondo urbano sfocato (bokeh)
 
-ILUMINACIÓN:
-- Luz suave (tarde/nublado), sombras delicadas
-- Reflejos realistas en el auto, sin brillos artificiales
+ILLUMINAZIONE:
+- Luce morbida (tardo pomeriggio/cielo coperto), ombre delicate
+- Riflessi realistici sull’auto, senza brillii artificiali
 
-CÁMARA:
+CAMERA:
 - 35mm, f/2.2, ISO 200
-- Enfoque en ojos + detalles del auto
+- Fuoco su occhi + dettagli dell’auto
 
-COMPOSICIÓN:
-- Plano completo o 3/4, líneas del auto bien proporcionales
-- Perspectiva natural, no exagerar gran angular
+COMPOSIZIONE:
+- Inquadratura intera o 3/4, linee dell’auto ben proporzionate
+- Prospettiva naturale, non esagerare con il grandangolo
 
-RESTRICCIONES:
-- Sin texto/logos/placas legibles
-- Evitar ruedas deformes o carrocería inconsistente`,
+RESTRIZIONI:
+- Niente testo/loghi/targhe leggibili
+- Evitare ruote deformate o carrozzeria incoerente`,
     thumbnail: "/images/foto-pro/auto3.webp",
   },
   {
     id: "img-foto-auto-004",
-    title: "Dentro del auto: retrato en asiento conductor (luz lateral, realista)",
-    area: "Fotografía Pro",
-    category: "Auto + modelo (lifestyle)",
+    title: "Dentro l’auto: ritratto sul sedile del conducente (luce laterale, realistico)",
+    area: "Fotografia Pro",
+    category: "Auto + modello (lifestyle)",
     summary:
-      "Retrato realista dentro del auto, luz lateral por ventana, look creator/CEO.",
-    prompt: `Genera un retrato REALISTA dentro de un auto (asiento del conductor).
+      "Ritratto realistico dentro l’auto, luce laterale dalla finestra, look creator/CEO.",
+    prompt: `Genera un ritratto REALISTICO dentro un’auto (sedile del conducente).
 
-DATOS:
-- Sujeto: [persona], [edad], look premium
-- Outfit: business casual (camisa, blazer o top elegante)
-- Interior: auto moderno (sin marcas visibles), limpio
-- Fondo exterior: desenfocado por ventanas
+DATI:
+- Soggetto: [persona], [età], look premium
+- Outfit: business casual (camicia, blazer o top elegante)
+- Interni: auto moderna (senza marchi visibili), pulita
+- Sfondo esterno: sfocato attraverso i finestrini
 
-ILUMINACIÓN:
-- Luz natural lateral entrando por ventana, suave
-- Piel natural, sombras suaves
+ILLUMINAZIONE:
+- Luce naturale laterale dalla finestra, morbida
+- Pelle naturale, ombre morbide
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2, ISO 400
-- Enfoque en ojos, desenfoque ligero del tablero
+- Fuoco sugli occhi, leggera sfocatura del cruscotto
 
-COMPOSICIÓN:
-- Plano medio-corto (hombros a cabeza), volante y asiento sutilmente visibles
+COMPOSIZIONE:
+- Mezzo primo piano (spalle-testa), volante e sedile leggermente visibili
 
-RESTRICCIONES:
-- Sin logos, sin texto, sin placas
-- Evitar distorsión facial y manos extra`,
+RESTRIZIONI:
+- Niente loghi, niente testo, niente targhe
+- Evitare distorsioni del viso e mani extra`,
     thumbnail: "/images/foto-pro/auto4.webp",
   },
   {
     id: "img-foto-auto-005",
-    title: "Lifestyle con auto y ciudad nocturna (neón sutil, look cinematográfico)",
-    area: "Fotografía Pro",
-    category: "Auto + modelo (lifestyle)",
+    title: "Lifestyle con auto e città notturna (neon leggero, look cinematografico)",
+    area: "Fotografia Pro",
+    category: "Auto + modello (lifestyle)",
     summary:
-      "Auto + modelo en noche urbana con luces y neón sutil, estética cinematográfica realista.",
-    prompt: `Genera una foto REALISTA de auto + modelo en ciudad nocturna.
+      "Auto + modello/a in notte urbana con luci e neon leggero, estetica cinematografica realistica.",
+    prompt: `Genera una foto REALISTICA di auto + modello/a in città di notte.
 
-DATOS:
-- Modelo: [persona], [edad], actitud editorial
-- Auto: premium oscuro, sin logos
-- Escenario: ciudad con neón sutil, reflejos en el suelo (como tras lluvia)
-- Outfit: oscuro/premium, chaqueta o vestido elegante
+DATI:
+- Modello/a: [persona], [età], atteggiamento editoriale
+- Auto: premium scura, senza loghi
+- Scenario: città con neon leggero, riflessi sull’asfalto (come dopo la pioggia)
+- Outfit: scuro/premium, giacca o abito elegante
 
-ILUMINACIÓN:
-- Luces urbanas como key light + relleno suave
-- Neón magenta/cian muy sutil (no piel fluorescente)
-- Reflejos realistas en carrocería
+ILLUMINAZIONE:
+- Luci urbane come key light + fill morbido
+- Neon magenta/ciano molto sottile (non pelle fluorescente)
+- Riflessi realistici sulla carrozzeria
 
-CÁMARA:
+CAMERA:
 - 35mm, f/1.8, ISO 800–1200
-- Bokeh de luces al fondo
+- Bokeh di luci sullo sfondo
 
-COMPOSICIÓN:
-- Plano 3/4, auto y modelo balanceados
+COMPOSIZIONE:
+- Inquadratura 3/4, auto e modello/a bilanciati
 
-RESTRICCIONES:
-- Sin texto/logos/placas legibles
-- Evitar deformación del auto y ruedas`,
+RESTRIZIONI:
+- Niente testo/loghi/targhe leggibili
+- Evitare deformazioni dell’auto e delle ruote`,
     thumbnail: "/images/foto-pro/auto5.webp",
   },
 
   // =========================
-  // CATEGORY: Auto (cinemático)
+  // CATEGORY: Auto (cinematografico)
   // =========================
   {
     id: "img-foto-auto-006",
-    title: "Auto hero shot frontal (cinemático, carretera, niebla ligera)",
-    area: "Fotografía Pro",
-    category: "Auto (cinemático)",
+    title: "Auto hero shot frontale (cinematografico, strada, leggera nebbia)",
+    area: "Fotografia Pro",
+    category: "Auto (cinematografico)",
     summary:
-      "Hero shot cinematográfico del auto en carretera con atmósfera (niebla ligera) y look premium.",
-    prompt: `Genera una fotografía REALISTA cinematográfica de un auto (sin modelo).
+      "Hero shot cinematografico dell’auto su strada con atmosfera (leggera nebbia) e look premium.",
+    prompt: `Genera una fotografia REALISTICA cinematografica di un’auto (senza modello/a).
 
-DATOS:
-- Auto: deportivo o sedán premium, color [negro/gris/rojo], sin logos visibles
-- Ubicación: carretera abierta, paisaje minimal
-- Atmósfera: niebla ligera sutil o bruma suave (opcional)
+DATI:
+- Auto: sportiva o berlina premium, colore [nero/grigio/rosso], senza loghi visibili
+- Location: strada aperta, paesaggio minimal
+- Atmosfera: leggera nebbia o foschia morbida (opzionale)
 
-ILUMINACIÓN:
-- Luz suave (amanecer/atardecer), sombras blandas
-- Reflejos realistas en carrocería, no exagerados
+ILLUMINAZIONE:
+- Luce morbida (alba/tramonto), ombre morbide
+- Riflessi realistici sulla carrozzeria, non esagerati
 
-CÁMARA:
+CAMERA:
 - Lente 35mm, f/2.8, ISO 100–200
-- Enfoque en frontal del auto, fondo ligeramente desenfocado
+- Fuoco sulla parte frontale dell’auto, sfondo leggermente sfocato
 
-COMPOSICIÓN:
-- Ángulo bajo, frontal 3/4
-- Auto centrado, líneas rectas, perspectiva realista
+COMPOSIZIONE:
+- Angolo basso, frontale 3/4
+- Auto centrata, linee dritte, prospettiva realistica
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Sin logos/placas legibles
-- Ruedas perfectamente circulares, proporciones reales`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Niente loghi/targhe leggibili
+- Ruote perfettamente circolari, proporzioni reali`,
     thumbnail: "/images/foto-pro/auto6.webp",
   },
   {
     id: "img-foto-auto-007",
-    title: "Auto 3/4 lateral (golden hour, polvo sutil, campaña)",
-    area: "Fotografía Pro",
-    category: "Auto (cinemático)",
+    title: "Auto 3/4 laterale (golden hour, polvere leggera, campagna)",
+    area: "Fotografia Pro",
+    category: "Auto (cinematografico)",
     summary:
-      "Toma de campaña: auto lateral 3/4 con luz dorada y sensación de movimiento (polvo sutil).",
-    prompt: `Genera una foto REALISTA tipo campaña automotriz (sin personas).
+      "Scatto da campagna: auto 3/4 laterale con luce dorata e sensazione di movimento (polvere leggera).",
+    prompt: `Genera una foto REALISTICA tipo campagna automotive (senza persone).
 
-DATOS:
-- Auto: premium [color], sin logos visibles
-- Escena: camino de tierra o carretera con polvo MUY sutil detrás (opcional)
-- Ambiente: golden hour, cielo cálido
+DATI:
+- Auto: premium [colore], senza loghi visibili
+- Scena: sterrato o strada con polvere MOLTO leggera dietro (opzionale)
+- Ambiente: golden hour, cielo caldo
 
-ILUMINACIÓN:
-- Luz dorada lateral (rim light suave en bordes)
-- Reflejos naturales, contraste medio
+ILLUMINAZIONE:
+- Luce dorata laterale (rim light morbida sui bordi)
+- Riflessi naturali, contrasto medio
 
-CÁMARA:
+CAMERA:
 - 70mm, f/3.2, ISO 100–200
-- Auto muy nítido, fondo ligeramente desenfocado
+- Auto molto nitida, sfondo leggermente sfocato
 
-COMPOSICIÓN:
-- Plano 3/4 lateral, auto ocupa 70% del encuadre
-- Líneas limpias, sensación premium
+COMPOSIZIONE:
+- Inquadratura 3/4 laterale, auto occupa il 70% del frame
+- Linee pulite, sensazione premium
 
-RESTRICCIONES:
-- Sin texto/logos/placas legibles
-- Evitar distorsión de carrocería y llantas`,
+RESTRIZIONI:
+- Niente testo/loghi/targhe leggibili
+- Evitare distorsioni di carrozzeria e cerchi`,
     thumbnail: "/images/foto-pro/auto7.webp",
   },
   {
     id: "img-foto-auto-008",
-    title: "Auto nocturno con lluvia (reflejos, city lights, realista)",
-    area: "Fotografía Pro",
-    category: "Auto (cinemático)",
+    title: "Auto notturna con pioggia (riflessi, city lights, realistico)",
+    area: "Fotografia Pro",
+    category: "Auto (cinematografico)",
     summary:
-      "Auto en ciudad nocturna con suelo mojado y reflejos fuertes, estilo cinematográfico realista.",
-    prompt: `Genera una foto REALISTA cinematográfica de un auto en ciudad nocturna.
+      "Auto in città di notte con asfalto bagnato e riflessi marcati, stile cinematografico realistico.",
+    prompt: `Genera una foto REALISTICA cinematografica di un’auto in città di notte.
 
-DATOS:
-- Auto: oscuro premium, sin logos
-- Escenario: calle mojada con reflejos, luces de ciudad desenfocadas
-- Lluvia: ligera (sutil, no exagerada)
+DATI:
+- Auto: premium scura, senza loghi
+- Scenario: strada bagnata con riflessi, luci della città sfocate
+- Pioggia: leggera (sottile, non esagerata)
 
-ILUMINACIÓN:
-- Faroles + luces urbanas reflejadas en la carrocería
-- Contraste medio-alto, pero con detalle en sombras
+ILLUMINAZIONE:
+- Lampioni + luci urbane riflesse sulla carrozzeria
+- Contrasto medio-alto, ma con dettaglio nelle ombre
 
-CÁMARA:
+CAMERA:
 - 35mm, f/2, ISO 1000
-- Bokeh de luces, enfoque en el auto
+- Bokeh di luci, fuoco sull’auto
 
-COMPOSICIÓN:
-- Frontal 3/4 o lateral, ángulo bajo
-- Fondo urbano profundo
+COMPOSIZIONE:
+- Frontale 3/4 o laterale, angolo basso
+- Sfondo urbano profondo
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Sin placas legibles, evitar ruedas deformes`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Niente targhe leggibili, evitare ruote deformi`,
     thumbnail: "/images/foto-pro/auto8.webp",
   },
   {
     id: "img-foto-auto-009",
-    title: "Auto en estudio (fondo gris, iluminación softbox, catálogo premium)",
-    area: "Fotografía Pro",
-    category: "Auto (cinemático)",
+    title: "Auto in studio (sfondo grigio, illuminazione softbox, catalogo premium)",
+    area: "Fotografia Pro",
+    category: "Auto (cinematografico)",
     summary:
-      "Foto de auto tipo estudio/garaje premium: fondo gris, softbox y detalle de pintura.",
-    prompt: `Genera una foto REALISTA de auto en setting tipo estudio premium.
+      "Foto auto stile studio/garage premium: sfondo grigio, softbox e dettaglio vernice.",
+    prompt: `Genera una foto REALISTICA di un’auto in un set tipo studio premium.
 
-DATOS:
-- Auto: [deportivo/sedán], color [gris/negro/rojo], sin logos visibles
-- Fondo: gris neutro, estilo estudio grande o garaje premium limpio
+DATI:
+- Auto: [sportiva/berlina], colore [grigio/nero/rosso], senza loghi visibili
+- Sfondo: grigio neutro, stile grande studio o garage premium pulito
 
-ILUMINACIÓN:
-- Softboxes grandes reflejados sutilmente en la carrocería
-- Sombras suaves, detalle nítido de pintura y líneas
+ILLUMINAZIONE:
+- Softbox grandi riflessi in modo sottile sulla carrozzeria
+- Ombre morbide, dettaglio nitido di vernice e linee
 
-CÁMARA:
+CAMERA:
 - 50mm, f/5.6, ISO 100
-- Nitidez alta para catálogo premium
+- Alta nitidezza per catalogo premium
 
-COMPOSICIÓN:
-- Lateral 3/4, auto centrado, espacio para banner
+COMPOSIZIONE:
+- Lato 3/4, auto centrata, spazio per banner
 
-RESTRICCIONES:
-- Sin texto/logos/placas legibles
-- Evitar reflejos extraños, ruedas ovaladas`,
+RESTRIZIONI:
+- Niente testo/loghi/targhe leggibili
+- Evitare riflessi strani, ruote ovali`,
     thumbnail: "/images/foto-pro/auto9.webp",
   },
   {
     id: "img-foto-auto-010",
-    title: "Detalle cinematográfico del auto (faros encendidos, bokeh urbano)",
-    area: "Fotografía Pro",
-    category: "Auto (cinemático)",
+    title: "Dettaglio cinematografico dell’auto (fari accesi, bokeh urbano)",
+    area: "Fotografia Pro",
+    category: "Auto (cinematografico)",
     summary:
-      "Close-up cinematográfico de faros y detalles del auto con bokeh urbano de fondo.",
-    prompt: `Genera una foto REALISTA close-up cinematográfica de un auto.
+      "Close-up cinematografico dei fari e dettagli dell’auto con bokeh urbano sullo sfondo.",
+    prompt: `Genera una foto REALISTICA close-up cinematografica di un’auto.
 
-DATOS:
-- Auto: premium, color [oscuro], sin logos
-- Detalle: enfoque en faro delantero y parte del capó
-- Fondo: ciudad nocturna con bokeh de luces
+DATI:
+- Auto: premium, colore [scuro], senza loghi
+- Dettaglio: fuoco sul faro anteriore e parte del cofano
+- Sfondo: città notturna con bokeh di luci
 
-ILUMINACIÓN:
-- Faros encendidos (realistas, no quemados)
-- Luz ambiente urbana suave
+ILLUMINAZIONE:
+- Fari accesi (realistici, non bruciati)
+- Luce ambientale urbana morbida
 
-CÁMARA:
+CAMERA:
 - 85mm, f/2, ISO 800
-- Enfoque nítido en el faro, bokeh fuerte atrás
+- Fuoco nitido sul faro, bokeh forte dietro
 
-COMPOSICIÓN:
-- Recorte limpio, detalle protagonista
-- Líneas del auto realistas (sin distorsión)
+COMPOSIZIONE:
+- Taglio pulito, dettaglio protagonista
+- Linee dell’auto realistiche (senza distorsione)
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar faros deformes o reflejos imposibles`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare fari deformi o riflessi impossibili`,
     thumbnail: "/images/foto-pro/auto10.webp",
   },
 
@@ -328,314 +328,314 @@ RESTRICCIONES:
   // =========================
   {
     id: "img-foto-auto-011",
-    title: "Mujer en moto negra en avenida otoñal (lifestyle premium)",
-    area: "Fotografía Pro",
+    title: "Donna su moto nera in viale autunnale (lifestyle premium)",
+    area: "Fotografia Pro",
     category: "Moto (street)",
     summary:
-      "Foto lifestyle: mujer en moto negra en avenida con árboles otoñales, estética editorial realista.",
-    prompt: `Genera una foto REALISTA lifestyle con moto en calle.
+      "Foto lifestyle: donna su moto nera in viale con alberi autunnali, estetica editoriale realistica.",
+    prompt: `Genera una foto REALISTICA lifestyle con moto in strada.
 
-DATOS:
-- Sujeto: mujer/persona, [edad], actitud segura
-- Moto: negra moderna, sin logos visibles
-- Outfit: chaqueta de cuero + jeans o look urbano premium
-- Ubicación: avenida con árboles otoñales, hojas en el suelo, profundidad de calle
+DATI:
+- Soggetto: donna/persona, [età], atteggiamento sicuro
+- Moto: moderna nera, senza loghi visibili
+- Outfit: giacca di pelle + jeans o look urbano premium
+- Location: viale con alberi autunnali, foglie a terra, profondità della strada
 
-ILUMINACIÓN:
-- Luz suave (tarde/nublado), tonos cálidos de otoño
-- Reflejos realistas en la moto, sombras suaves
+ILLUMINAZIONE:
+- Luce morbida (tardo pomeriggio/cielo coperto), toni caldi autunnali
+- Riflessi realistici sulla moto, ombre morbide
 
-CÁMARA:
+CAMERA:
 - 35mm o 50mm, f/2, ISO 200
-- Enfoque en sujeto, fondo desenfocado moderado
+- Fuoco sul soggetto, sfondo moderatamente sfocato
 
-COMPOSICIÓN:
-- Plano 3/4 o completo, moto visible sin deformación
-- Líneas rectas, perspectiva natural
+COMPOSIZIONE:
+- Inquadratura 3/4 o intera, moto visibile senza deformazioni
+- Linee dritte, prospettiva naturale
 
-RESTRICCIONES:
-- Sin texto/logos/placas
-- Evitar ruedas ovaladas y piezas inconsistentes`,
+RESTRIZIONI:
+- Niente testo/loghi/targhe
+- Evitare ruote ovali e componenti incoerenti`,
     thumbnail: "/images/foto-pro/auto11.webp",
   },
   {
     id: "img-foto-auto-012",
-    title: "Moto en ciudad nocturna (neón sutil, look cinematográfico)",
-    area: "Fotografía Pro",
+    title: "Moto in città notturna (neon leggero, look cinematografico)",
+    area: "Fotografia Pro",
     category: "Moto (street)",
     summary:
-      "Foto cinematográfica de moto en noche urbana con neón sutil y reflejos realistas.",
-    prompt: `Genera una foto REALISTA cinematográfica de moto en ciudad nocturna.
+      "Foto cinematografica di moto in notte urbana con neon leggero e riflessi realistici.",
+    prompt: `Genera una foto REALISTICA cinematografica di moto in città di notte.
 
-DATOS:
-- Moto: negra o gris, estilo moderno, sin logos
-- Sujeto: [persona] con casco (opcional), pose relajada
-- Escena: calle mojada con reflejos, neón sutil magenta/cian
+DATI:
+- Moto: nera o grigia, stile moderno, senza loghi
+- Soggetto: [persona] con casco (opzionale), posa rilassata
+- Scena: strada bagnata con riflessi, neon magenta/ciano leggero
 
-ILUMINACIÓN:
-- Luces urbanas + neón como iluminación ambiental
-- Mantener piel realista si se ve rostro
+ILLUMINAZIONE:
+- Luci urbane + neon come illuminazione ambientale
+- Mantenere la pelle realistica se si vede il volto
 
-CÁMARA:
+CAMERA:
 - 35mm, f/1.8, ISO 1200
-- Bokeh de luces, nitidez en moto
+- Bokeh di luci, nitidezza sulla moto
 
-COMPOSICIÓN:
-- Ángulo bajo, moto protagonista
-- Profundidad urbana, look de película
+COMPOSIZIONE:
+- Angolo basso, moto protagonista
+- Profondità urbana, look da film
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar piezas duplicadas o rueda deformada`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare componenti duplicati o ruote deformate`,
     thumbnail: "/images/foto-pro/auto12.webp",
   },
   {
     id: "img-foto-auto-013",
-    title: "Retrato con moto en carretera (golden hour, polvo sutil)",
-    area: "Fotografía Pro",
+    title: "Ritratto con moto su strada (golden hour, polvere leggera)",
+    area: "Fotografia Pro",
     category: "Moto (street)",
     summary:
-      "Modelo con moto en carretera abierta al atardecer, estética campaña outdoor.",
-    prompt: `Genera una foto REALISTA de campaña con moto en carretera.
+      "Modello/a con moto su strada aperta al tramonto, estetica campagna outdoor.",
+    prompt: `Genera una foto REALISTICA da campagna con moto su strada.
 
-DATOS:
-- Sujeto: [persona], [edad], pose editorial natural
-- Moto: estilo [naked/sport], sin logos
-- Ubicación: carretera abierta, paisaje minimal
-- Ambiente: golden hour, polvo leve (opcional)
+DATI:
+- Soggetto: [persona], [età], posa editoriale naturale
+- Moto: stile [naked/sport], senza loghi
+- Location: strada aperta, paesaggio minimal
+- Ambiente: golden hour, polvere leggera (opzionale)
 
-ILUMINACIÓN:
-- Luz dorada lateral, sombras suaves
-- Reflejos realistas en tanque y metal
+ILLUMINAZIONE:
+- Luce dorata laterale, ombre morbide
+- Riflessi realistici su serbatoio e metallo
 
-CÁMARA:
+CAMERA:
 - 50mm, f/2.2, ISO 100–200
-- Enfoque en sujeto y moto, fondo suave
+- Fuoco su soggetto e moto, sfondo morbido
 
-COMPOSICIÓN:
-- Plano completo o 3/4, perspectiva natural
+COMPOSIZIONE:
+- Inquadratura intera o 3/4, prospettiva naturale
 
-RESTRICCIONES:
-- Sin texto/placas
-- Evitar moto deformada, ruedas ovaladas`,
+RESTRIZIONI:
+- Niente testo/targhe
+- Evitare moto deformata, ruote ovali`,
     thumbnail: "/images/foto-pro/auto13.webp",
   },
   {
     id: "img-foto-auto-014",
-    title: "Moto estacionada (shot premium tipo catálogo, fondo limpio)",
-    area: "Fotografía Pro",
+    title: "Moto parcheggiata (shot premium tipo catalogo, sfondo pulito)",
+    area: "Fotografia Pro",
     category: "Moto (street)",
     summary:
-      "Foto de moto tipo catálogo premium con fondo limpio y detalle de materiales.",
-    prompt: `Genera una foto REALISTA tipo catálogo premium de moto (sin personas).
+      "Foto moto tipo catalogo premium con sfondo pulito e dettaglio materiali.",
+    prompt: `Genera una foto REALISTICA tipo catalogo premium di una moto (senza persone).
 
-DATOS:
-- Moto: negra/roja/gris, limpia, sin logos visibles
-- Fondo: pared neutra o garaje premium limpio
-- Superficie: suelo limpio, sombras suaves
+DATI:
+- Moto: nera/rossa/grigia, pulita, senza loghi visibili
+- Sfondo: parete neutra o garage premium pulito
+- Superficie: pavimento pulito, ombre morbide
 
-ILUMINACIÓN:
-- Softbox suave, reflejos controlados en metal/pintura
-- Detalle nítido sin exceso de contraste
+ILLUMINAZIONE:
+- Softbox morbido, riflessi controllati su metallo/vernice
+- Dettaglio nitido senza eccesso di contrasto
 
-CÁMARA:
+CAMERA:
 - 50mm, f/5.6, ISO 100
-- Enfoque en toda la moto
+- Fuoco su tutta la moto
 
-COMPOSICIÓN:
-- Perfil lateral completo, moto centrada
-- Líneas rectas, proporciones reales
+COMPOSIZIONE:
+- Profilo laterale completo, moto centrata
+- Linee dritte, proporzioni reali
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar duplicaciones, partes flotantes`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare duplicazioni, parti “flottanti”`,
     thumbnail: "/images/foto-pro/auto14.webp",
   },
   {
     id: "img-foto-auto-015",
-    title: "Moto con rider (casco, chaqueta, vibe street pro)",
-    area: "Fotografía Pro",
+    title: "Moto con rider (casco, giacca, vibe street pro)",
+    area: "Fotografia Pro",
     category: "Moto (street)",
     summary:
-      "Rider con casco y chaqueta, estética street pro realista para redes.",
-    prompt: `Genera una foto REALISTA street pro de rider con moto.
+      "Rider con casco e giacca, estetica street pro realistica per social.",
+    prompt: `Genera una foto REALISTICA street pro di rider con moto.
 
-DATOS:
-- Sujeto: [persona], [edad], casco puesto (visera oscura opcional)
-- Outfit: chaqueta de moto, guantes, look auténtico
-- Moto: moderna, sin logos
-- Escena: calle urbana, fondo con profundidad desenfocado
+DATI:
+- Soggetto: [persona], [età], casco indossato (visiera scura opzionale)
+- Outfit: giacca da moto, guanti, look autentico
+- Moto: moderna, senza loghi
+- Scena: strada urbana, sfondo con profondità sfocata
 
-ILUMINACIÓN:
-- Luz suave (tarde/nublado) o noche con faroles
-- Reflejos realistas en casco y moto
+ILLUMINAZIONE:
+- Luce morbida (tardo pomeriggio/cielo coperto) o notte con lampioni
+- Riflessi realistici su casco e moto
 
-CÁMARA:
+CAMERA:
 - 35mm, f/2, ISO 400
-- Enfoque en casco/rostro y parte frontal de moto
+- Fuoco su casco/volto e parte frontale della moto
 
-COMPOSICIÓN:
-- Plano 3/4, ángulo bajo para sensación poderosa
+COMPOSIZIONE:
+- Inquadratura 3/4, angolo basso per una sensazione potente
 
-RESTRICCIONES:
-- Sin texto/logos/placas
-- Evitar manos deformes, piezas duplicadas`,
+RESTRIZIONI:
+- Niente testo/loghi/targhe
+- Evitare mani deformi, componenti duplicati`,
     thumbnail: "/images/foto-pro/auto15.webp",
   },
 
   // =========================
-  // CATEGORY: Ruedas / detalles (macro)
+  // CATEGORY: Ruote / dettagli (macro)
   // =========================
   {
     id: "img-foto-auto-016",
-    title: "Macro de llanta y freno (detalle realista, luz suave)",
-    area: "Fotografía Pro",
-    category: "Ruedas / detalles (macro)",
+    title: "Macro di cerchio e freno (dettaglio realistico, luce morbida)",
+    area: "Fotografia Pro",
+    category: "Ruote / dettagli (macro)",
     summary:
-      "Close-up macro de llanta y freno con textura real y reflejos controlados.",
-    prompt: `Genera una foto REALISTA macro de detalle automotriz.
+      "Close-up macro di cerchio e freno con texture reale e riflessi controllati.",
+    prompt: `Genera una foto REALISTICA macro di un dettaglio automotive.
 
-DATOS:
-- Detalle: llanta premium + freno visible (caliper), textura real
-- Auto: sin marcas visibles (genérico)
-- Fondo: desenfocado, oscuro o neutro
+DATI:
+- Dettaglio: cerchio premium + freno visibile (pinza), texture reale
+- Auto: senza marchi visibili (generica)
+- Sfondo: sfocato, scuro o neutro
 
-ILUMINACIÓN:
-- Luz suave lateral para revelar textura del metal y goma
-- Reflejos controlados, sin brillos quemados
+ILLUMINAZIONE:
+- Luce laterale morbida per far emergere la texture di metallo e gomma
+- Riflessi controllati, senza alte luci bruciate
 
-CÁMARA:
+CAMERA:
 - Macro o 85mm, f/3.5, ISO 200
-- Enfoque exacto en la textura de la llanta y freno
+- Fuoco preciso sulla texture di cerchio e freno
 
-COMPOSICIÓN:
-- Encuadre cerrado, detalle protagonista
-- Estética premium, tipo publicidad
+COMPOSIZIONE:
+- Inquadratura stretta, dettaglio protagonista
+- Estetica premium, tipo pubblicità
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar patrones raros o metal “derretido”`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare pattern strani o metallo “fuso”`,
     thumbnail: "/images/foto-pro/auto16.webp",
   },
   {
     id: "img-foto-auto-017",
-    title: "Macro de volante y tablero (interior premium, bokeh suave)",
-    area: "Fotografía Pro",
-    category: "Ruedas / detalles (macro)",
+    title: "Macro di volante e cruscotto (interni premium, bokeh morbido)",
+    area: "Fotografia Pro",
+    category: "Ruote / dettagli (macro)",
     summary:
-      "Detalle del interior: volante y tablero con look premium, sin logos ni textos legibles.",
-    prompt: `Genera una foto REALISTA macro del interior de un auto premium.
+      "Dettaglio interni: volante e cruscotto con look premium, senza loghi né testi leggibili.",
+    prompt: `Genera una foto REALISTICA macro degli interni di un’auto premium.
 
-DATOS:
-- Detalle principal: volante + tablero + textura de cuero
-- Interior: moderno, limpio, sin logos visibles
-- Fondo: desenfocado, luces suaves
+DATI:
+- Dettaglio principale: volante + cruscotto + texture della pelle
+- Interni: moderni, puliti, senza loghi visibili
+- Sfondo: sfocato, luci morbide
 
-ILUMINACIÓN:
-- Luz suave lateral, reflejos sutiles en cuero y metal
-- Ambiente cálido premium
+ILLUMINAZIONE:
+- Luce laterale morbida, riflessi sottili su pelle e metallo
+- Atmosfera calda premium
 
-CÁMARA:
-- 50mm u 85mm, f/2.8, ISO 400
-- Enfoque en textura del cuero y costuras
+CAMERA:
+- 50mm o 85mm, f/2.8, ISO 400
+- Fuoco sulla texture della pelle e sulle cuciture
 
-COMPOSICIÓN:
-- Plano cerrado desde ángulo del conductor
-- Bokeh suave en el fondo
+COMPOSIZIONE:
+- Inquadratura stretta dall’angolo del conducente
+- Bokeh morbido sullo sfondo
 
-RESTRICCIONES:
-- Sin texto legible en pantallas
-- Sin logos/marcas`,
+RESTRIZIONI:
+- Niente testo leggibile sugli schermi
+- Niente loghi/marchi`,
     thumbnail: "/images/foto-pro/auto17.webp",
   },
   {
     id: "img-foto-auto-018",
-    title: "Macro exterior: faro delantero (gota de lluvia, realista)",
-    area: "Fotografía Pro",
-    category: "Ruedas / detalles (macro)",
+    title: "Macro esterno: faro anteriore (gocce di pioggia, realistico)",
+    area: "Fotografia Pro",
+    category: "Ruote / dettagli (macro)",
     summary:
-      "Close-up de faro con gotas sutiles, estilo nocturno premium y reflejos reales.",
-    prompt: `Genera una foto REALISTA macro del faro delantero de un auto.
+      "Close-up del faro con gocce leggere, stile notturno premium e riflessi reali.",
+    prompt: `Genera una foto REALISTICA macro del faro anteriore di un’auto.
 
-DATOS:
-- Detalle: faro delantero encendido, parte del capó visible
-- Ambiente: noche o atardecer oscuro
-- Gotas: lluvia sutil (opcional)
+DATI:
+- Dettaglio: faro anteriore acceso, parte del cofano visibile
+- Ambiente: notte o tramonto scuro
+- Gocce: pioggia leggera (opzionale)
 
-ILUMINACIÓN:
-- Faro como fuente de luz principal + luces urbanas suaves reflejadas
-- Reflejos realistas en vidrio y pintura
+ILLUMINAZIONE:
+- Faro come fonte principale + luci urbane morbide riflesse
+- Riflessi realistici su vetro e vernice
 
-CÁMARA:
+CAMERA:
 - 85mm, f/2.2, ISO 800
-- Enfoque en faro, bokeh de luces al fondo
+- Fuoco sul faro, bokeh di luci sullo sfondo
 
-COMPOSICIÓN:
-- Encuadre cerrado, líneas del auto rectas, sin distorsión
+COMPOSIZIONE:
+- Inquadratura stretta, linee dell’auto dritte, senza distorsione
 
-RESTRICCIONES:
-- Sin logos/placas
-- Evitar faros deformes o formas imposibles`,
+RESTRIZIONI:
+- Niente loghi/targhe
+- Evitare fari deformi o forme impossibili`,
     thumbnail: "/images/foto-pro/auto18.webp",
   },
   {
     id: "img-foto-auto-019",
-    title: "Macro de pintura y reflejo (carrocería premium, luz suave)",
-    area: "Fotografía Pro",
-    category: "Ruedas / detalles (macro)",
+    title: "Macro di vernice e riflesso (carrozzeria premium, luce morbida)",
+    area: "Fotografia Pro",
+    category: "Ruote / dettagli (macro)",
     summary:
-      "Detalle de pintura brillante con reflejos controlados para look premium tipo campaña.",
-    prompt: `Genera una foto REALISTA macro de la carrocería de un auto premium.
+      "Dettaglio vernice lucida con riflessi controllati per un look premium da campagna.",
+    prompt: `Genera una foto REALISTICA macro della carrozzeria di un’auto premium.
 
-DATOS:
-- Detalle: panel de carrocería (capó/puerta) con pintura brillante
-- Reflejo: líneas de luz suaves (softbox) reflejadas de forma realista
-- Color: [negro/gris/rojo], sin logos visibles
+DATI:
+- Dettaglio: pannello carrozzeria (cofano/porta) con vernice lucida
+- Riflesso: linee di luce morbide (softbox) riflesse in modo realistico
+- Colore: [nero/grigio/rosso], senza loghi visibili
 
-ILUMINACIÓN:
-- Softboxes grandes, reflejos suaves y controlados
-- Mostrar textura de pintura (muy sutil), sin ruido raro
+ILLUMINAZIONE:
+- Softbox grandi, riflessi morbidi e controllati
+- Mostrare texture della vernice (molto sottile), senza artefatti strani
 
-CÁMARA:
+CAMERA:
 - Macro o 85mm, f/3.2, ISO 100–200
-- Enfoque en reflejo y superficie
+- Fuoco su riflesso e superficie
 
-COMPOSICIÓN:
-- Encuadre abstracto premium, minimalista
+COMPOSIZIONE:
+- Inquadratura astratta premium, minimalista
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar reflejos “imposibles” o artefactos`,
+RESTRIZIONI:
+- Niente testo/loghi
+- Evitare riflessi “impossibili” o artefatti`,
     thumbnail: "/images/foto-pro/auto19.webp",
   },
   {
     id: "img-foto-auto-020",
-    title: "Detalle de escape y difusor (look agresivo, realista)",
-    area: "Fotografía Pro",
-    category: "Ruedas / detalles (macro)",
+    title: "Dettaglio scarico e diffusore (look aggressivo, realistico)",
+    area: "Fotografia Pro",
+    category: "Ruote / dettagli (macro)",
     summary:
-      "Close-up de zona trasera: escape/difusor con textura real, estética performance.",
-    prompt: `Genera una foto REALISTA macro de detalle performance en auto.
+      "Close-up della zona posteriore: scarico/diffusore con texture reale, estetica performance.",
+    prompt: `Genera una foto REALISTICA macro di un dettaglio performance su auto.
 
-DATOS:
-- Detalle: escape doble + difusor trasero (sin logos)
-- Ambiente: garaje premium o calle nocturna (fondo desenfocado)
-- Estética: agresiva pero elegante
+DATI:
+- Dettaglio: doppio scarico + diffusore posteriore (senza loghi)
+- Ambiente: garage premium o strada notturna (sfondo sfocato)
+- Estetica: aggressiva ma elegante
 
-ILUMINACIÓN:
-- Luz lateral suave para revelar textura metal/carbono
-- Contraste medio-alto con detalle en sombras
+ILLUMINAZIONE:
+- Luce laterale morbida per evidenziare texture metallo/carbonio
+- Contrasto medio-alto con dettaglio nelle ombre
 
-CÁMARA:
+CAMERA:
 - 85mm, f/2.8, ISO 400
-- Enfoque en metal y textura, bokeh suave atrás
+- Fuoco su metallo e texture, bokeh morbido dietro
 
-COMPOSICIÓN:
-- Encuadre cerrado, líneas rectas, proporciones reales
+COMPOSIZIONE:
+- Inquadratura stretta, linee dritte, proporzioni reali
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar piezas duplicadas o metal derretido`,
+RESTRIZIONI:
+- Niente testo/watermark
+- Evitare componenti duplicati o metallo “fuso”`,
     thumbnail: "/images/foto-pro/auto20.webp",
   },
 ];
