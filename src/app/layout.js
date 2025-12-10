@@ -22,9 +22,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Banco Secreto de Prompts — Plataforma del Curso",
+  title: "Banco Segreto di Prompt — Piattaforma del Corso",
   description:
-    "Acceso privado al curso Banco Secreto de Prompts: módulos en video, recursos descargables y todo el contenido de la TSL organizado en un solo lugar.",
+    "Accesso privato al corso Banco Segreto di Prompt: moduli video, risorse scaricabili e tutti i contenuti della TSL organizzati in un unico posto.",
   icons: {
     icon: "/favicon.ico",
   },
