@@ -4,6 +4,7 @@ import { videoPromptsReelsViralesNegocio } from "./virales-mixtos-veo3";
 import { videoPromptsDemosProductoBeforeAfter } from "./demos-producto-before-after";
 import { videoPromptsUGCTestimonios } from "./ugc-testimonios";
 import { videoPromptsAvatarHablante } from "./avatar-hablante";
+import { videoPromptsViraliAssurdiSora2 } from "./virales-absurdos";
 // import { videoPromptsUGCTestimonios } from "./ugc-testimonios";
 // import { videoPromptsStorytellingMarcaPersonal } from "./storytelling-marca-personal";
 import { videoPromptsTipsEducativos } from "./tips-educativos";
@@ -22,6 +23,7 @@ export const videoPrompts = [
   ...videoPromptsUGCTestimonios,            // 16
   ...videoPromptsVidaDiariaMix,
   ...videoPromptsAvatarHablante,
+  ...videoPromptsViraliAssurdiSora2,
 //   ...videoPromptsStorytellingMarcaPersonal, // 16
   ...videoPromptsTipsEducativos,//   ...videoPromptsAutoridadMiniMasterclass,  // 16
 //   ...videoPromptsAdsTopFunnel,              // 14
