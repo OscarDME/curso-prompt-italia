@@ -25,6 +25,8 @@ function normalizeKey(raw) {
     .toUpperCase();
 }
 
+const ONLY_VALID_KEY = "2025_X9F8Q2LZ7A_ACQUISTO";
+
 export default function LoginPage() {
   const [code, setCode] = useState("");
   const [showCode, setShowCode] = useState(false);
@@ -52,11 +54,10 @@ export default function LoginPage() {
       return;
     }
 
-    // Se il tuo formato ha sempre questo prefisso, aiuta a rilevare incolli incompleti
-    const expectedPrefix = "MI_CODIGO_DE_COMPRA_";
-    if (!n.startsWith(expectedPrefix)) {
+    // ✅ SOLO questa chiave è valida
+    if (n !== ONLY_VALID_KEY) {
       setFriendlyError(
-        "Questa CHIAVE non sembra completa. Copiala di nuovo da Hotmart e incollala così com’è (senza digitarla)."
+        "Questa CHIAVE non è valida. Copiala di nuovo e incollala esattamente così com’è (senza digitarla)."
       );
       return;
     }
@@ -67,7 +68,7 @@ export default function LoginPage() {
       const res = await fetch("/api/auth", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ code: n }), // invia SEMPRE normalizzato
+        body: JSON.stringify({ code: n }),
       });
 
       if (!res.ok) {
@@ -118,8 +119,7 @@ export default function LoginPage() {
 
             {/* Subtitle */}
             <p className="mx-auto mb-8 max-w-md text-base leading-relaxed text-slate-200 sm:text-lg">
-              🔐 Incolla la tua <strong>CHIAVE UNICA</strong> (copiala da Hotmart).
-              Non digitarla.
+              🔐 Incolla la tua <strong>CHIAVE UNICA</strong> (copiala da Hotmart). Non digitarla.
             </p>
 
             {/* Mini aviso */}
@@ -132,10 +132,7 @@ export default function LoginPage() {
             {/* Form */}
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="mx-auto max-w-md text-left">
-                <Label
-                  htmlFor="code"
-                  className="flex items-center gap-2 text-base text-slate-100"
-                >
+                <Label htmlFor="code" className="flex items-center gap-2 text-base text-slate-100">
                   <Lock className="h-5 w-5" />
                   CHIAVE UNICA di accesso
                 </Label>
@@ -157,10 +154,7 @@ export default function LoginPage() {
                       setCode(e.target.value);
                     }}
                     onPaste={() => {
-                      setTimeout(
-                        () => setHint('✅ Incollato. Ora tocca “ENTRA NEL CORSO”.'),
-                        0
-                      );
+                      setTimeout(() => setHint('✅ Incollato. Ora tocca “ENTRA NEL CORSO”.'), 0);
                     }}
                     className="h-14 rounded-xl border-white/20 bg-black/30 pr-12 text-lg text-slate-100 placeholder:text-slate-500 focus-visible:ring-[#36C5FF]"
                     placeholder="Incolla qui la tua CHIAVE..."
@@ -174,17 +168,12 @@ export default function LoginPage() {
                     aria-label={showCode ? "Nascondi chiave" : "Mostra chiave"}
                     title={showCode ? "Nascondi" : "Mostra"}
                   >
-                    {showCode ? (
-                      <EyeOff className="h-5 w-5" />
-                    ) : (
-                      <Eye className="h-5 w-5" />
-                    )}
+                    {showCode ? <EyeOff className="h-5 w-5" /> : <Eye className="h-5 w-5" />}
                   </button>
                 </div>
 
                 <div className="mt-2 text-xs text-slate-400">
-                  <span className="font-semibold text-slate-300">Tip mobile:</span>{" "}
-                  rimuoviamo automaticamente gli spazi.
+                  <span className="font-semibold text-slate-300">Tip mobile:</span> rimuoviamo automaticamente gli spazi.
                 </div>
 
                 {normalizedCode && (
@@ -217,8 +206,7 @@ export default function LoginPage() {
               </Button>
 
               <p className="mx-auto mt-2 max-w-md text-sm text-slate-400">
-                Se non trovi la tua CHIAVE, controlla Spam o Promozioni nell’email
-                in cui hai ricevuto l’accesso.
+                Se non trovi la tua CHIAVE, controlla Spam o Promozioni nell’email in cui hai ricevuto l’accesso.
               </p>
             </form>
           </CardContent>
@@ -227,3 +215,4 @@ export default function LoginPage() {
     </div>
   );
 }
+            
