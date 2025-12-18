@@ -31,7 +31,9 @@ export default function IngenieriaDePromptsPage() {
         setCompletedIds(new Set(parsed.completedIds));
       }
       if (typeof parsed?.activeIndex === "number") {
-        setActiveIndex(Math.min(Math.max(parsed.activeIndex, 0), lessons.length - 1));
+        setActiveIndex(
+          Math.min(Math.max(parsed.activeIndex, 0), lessons.length - 1)
+        );
       }
     } catch {
       // ignore
@@ -96,27 +98,27 @@ export default function IngenieriaDePromptsPage() {
   };
 
   return (
-    <div className="space-y-6 py-6">
+    <div className="space-y-6 py-6 overflow-x-hidden">
       {/* Header / Back */}
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <Button
           variant="ghost"
           size="sm"
           asChild
-          className="w-fit rounded-full border border-white/10 bg-white/5 text-xs text-slate-100 hover:bg-white/10"
+          className="w-fit max-w-full whitespace-normal rounded-full border border-white/10 bg-white/5 text-xs text-slate-100 hover:bg-white/10"
         >
           <Link href="/curso">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio del curso
+            Torna all’inizio del corso
           </Link>
         </Button>
 
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <Badge className="bg-black/60 text-[11px] uppercase tracking-wide text-teal-200">
-            {course.meta?.level || "Curso"}
+            {course.meta?.level || "Corso"}
           </Badge>
           <Badge className="bg-black/60 text-[11px] uppercase tracking-wide text-slate-200">
-            {course.meta?.estimatedTime || `${lessons.length} lecciones`}
+            {course.meta?.estimatedTime || `${lessons.length} lezioni`}
           </Badge>
         </div>
       </div>
@@ -136,12 +138,12 @@ export default function IngenieriaDePromptsPage() {
         )}
 
         <div className="mt-4 grid gap-3 md:grid-cols-3">
-          <div className="rounded-2xl border border-white/10 bg-black/30 p-4">
+          <div className="rounded-2xl border border-white/10 bg-black/30 p-4 min-w-0">
             <p className="text-[11px] uppercase tracking-wider text-slate-400">
-              Progreso
+              Progressi
             </p>
             <p className="mt-1 text-sm font-semibold text-slate-100">
-              {completedCount}/{lessons.length} completadas
+              {completedCount}/{lessons.length} completate
             </p>
             <div className="mt-3">
               <Progress value={progressValue} />
@@ -149,11 +151,11 @@ export default function IngenieriaDePromptsPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-white/10 bg-black/30 p-4">
+          <div className="rounded-2xl border border-white/10 bg-black/30 p-4 min-w-0">
             <p className="text-[11px] uppercase tracking-wider text-slate-400">
-              Lección actual
+              Lezione attuale
             </p>
-            <p className="mt-1 text-sm font-semibold text-slate-100">
+            <p className="mt-1 text-sm font-semibold text-slate-100 break-words">
               {activeIndex + 1}. {activeLesson?.title}
             </p>
             {activeLesson?.summary && (
@@ -163,9 +165,9 @@ export default function IngenieriaDePromptsPage() {
             )}
           </div>
 
-          <div className="rounded-2xl border border-white/10 bg-black/30 p-4">
+          <div className="rounded-2xl border border-white/10 bg-black/30 p-4 min-w-0">
             <p className="text-[11px] uppercase tracking-wider text-slate-400">
-              Acciones rápidas
+              Azioni rapide
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
               <Button
@@ -175,7 +177,7 @@ export default function IngenieriaDePromptsPage() {
                 className="rounded-full border-teal-400/60 bg-teal-400/10 text-xs text-teal-100 hover:bg-teal-400/20"
               >
                 <CheckCircle2 className="mr-2 h-4 w-4" />
-                {isActiveCompleted ? "Completada" : "Marcar completada"}
+                {isActiveCompleted ? "Completata" : "Segna come completata"}
               </Button>
 
               <Button
@@ -185,7 +187,7 @@ export default function IngenieriaDePromptsPage() {
                 className="rounded-full border border-white/10 bg-white/5 text-xs text-slate-100 hover:bg-white/10"
               >
                 <RotateCcw className="mr-2 h-4 w-4" />
-                Reiniciar
+                Reimposta
               </Button>
             </div>
           </div>
@@ -195,14 +197,14 @@ export default function IngenieriaDePromptsPage() {
       {/* Layout: Player + Sidebar */}
       <div className="grid gap-4 lg:grid-cols-[1.55fr_0.85fr]">
         {/* Player */}
-        <Card className="overflow-hidden border-white/10 bg-slate-950/70">
+        <Card className="overflow-hidden border-white/10 bg-slate-950/70 min-w-0">
           <CardHeader className="space-y-2 pb-3">
-            <div className="flex items-start justify-between gap-3">
-              <div>
+            <div className="flex items-start justify-between gap-3 min-w-0">
+              <div className="min-w-0">
                 <p className="text-[11px] uppercase tracking-wider text-teal-300">
-                  Lección {activeIndex + 1} de {lessons.length}
+                  Lezione {activeIndex + 1} di {lessons.length}
                 </p>
-                <h2 className="text-lg md:text-xl font-semibold text-slate-50">
+                <h2 className="text-lg md:text-xl font-semibold text-slate-50 break-words">
                   {activeLesson?.title}
                 </h2>
                 {activeLesson?.summary && (
@@ -212,9 +214,9 @@ export default function IngenieriaDePromptsPage() {
                 )}
               </div>
 
-              <Badge className="bg-black/60 text-[11px] uppercase tracking-wide text-slate-200">
+              <Badge className="bg-black/60 text-[11px] uppercase tracking-wide text-slate-200 whitespace-nowrap">
                 <Play className="mr-1 h-3 w-3" />
-                Videoaula
+                Video lezione
               </Badge>
             </div>
           </CardHeader>
@@ -228,14 +230,14 @@ export default function IngenieriaDePromptsPage() {
                   className="h-full w-full"
                   allow="autoplay; fullscreen"
                   allowFullScreen
-                  title={activeLesson?.title || "Videoaula"}
+                  title={activeLesson?.title || "Video lezione"}
                 />
               </div>
             </div>
 
             {/* Controls */}
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-              <div className="flex items-center gap-2">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between min-w-0">
+              <div className="flex flex-wrap items-center gap-2">
                 <Button
                   size="sm"
                   variant="ghost"
@@ -243,7 +245,7 @@ export default function IngenieriaDePromptsPage() {
                   disabled={activeIndex === 0}
                   className="rounded-full border border-white/10 bg-white/5 px-4 text-xs text-slate-100 disabled:opacity-40"
                 >
-                  Anterior
+                  Precedente
                 </Button>
 
                 <Button
@@ -253,7 +255,7 @@ export default function IngenieriaDePromptsPage() {
                   disabled={activeIndex === lessons.length - 1}
                   className="rounded-full border border-white/10 bg-white/5 px-4 text-xs text-slate-100 disabled:opacity-40"
                 >
-                  Siguiente
+                  Successiva
                 </Button>
               </div>
 
@@ -264,18 +266,18 @@ export default function IngenieriaDePromptsPage() {
                 className="rounded-full border-teal-400/60 bg-teal-400/10 px-4 text-xs text-teal-100 hover:bg-teal-400/20"
               >
                 <CheckCircle2 className="mr-2 h-4 w-4" />
-                {isActiveCompleted ? "Completada" : "Marcar completada"}
+                {isActiveCompleted ? "Completata" : "Segna come completata"}
               </Button>
             </div>
           </CardContent>
         </Card>
 
         {/* Sidebar: Lessons */}
-        <Card className="border-white/10 bg-slate-950/70">
+        <Card className="border-white/10 bg-slate-950/70 min-w-0">
           <CardHeader className="pb-3">
-            <h3 className="text-sm font-semibold text-slate-50">Lecciones</h3>
+            <h3 className="text-sm font-semibold text-slate-50">Lezioni</h3>
             <p className="text-xs text-slate-300">
-              Haz clic para saltar a cualquier video. Tu progreso se guarda.
+              Clicca per passare a qualsiasi video. I tuoi progressi vengono salvati.
             </p>
           </CardHeader>
 
@@ -290,14 +292,14 @@ export default function IngenieriaDePromptsPage() {
                   type="button"
                   onClick={() => setActiveIndex(idx)}
                   className={[
-                    "w-full rounded-2xl border p-3 text-left transition",
+                    "w-full rounded-2xl border p-3 text-left transition min-w-0",
                     isActive
                       ? "border-teal-400/60 bg-teal-400/10"
                       : "border-white/10 bg-black/20 hover:border-teal-400/40 hover:bg-slate-900/40",
                   ].join(" ")}
                 >
-                  <div className="flex items-start gap-3">
-                    <div className="mt-0.5">
+                  <div className="flex items-start gap-3 min-w-0">
+                    <div className="mt-0.5 flex-shrink-0">
                       {done ? (
                         <CheckCircle2 className="h-4 w-4 text-teal-300" />
                       ) : (
@@ -307,7 +309,7 @@ export default function IngenieriaDePromptsPage() {
 
                     <div className="min-w-0 flex-1">
                       <p className="text-[11px] uppercase tracking-wider text-slate-400">
-                        Lección {idx + 1}
+                        Lezione {idx + 1}
                       </p>
                       <p className="truncate text-sm font-semibold text-slate-100">
                         {l.title}
@@ -318,22 +320,31 @@ export default function IngenieriaDePromptsPage() {
                         </p>
                       )}
 
-                      <div className="mt-2 flex items-center gap-2">
+                      <div className="mt-2 flex flex-wrap items-center gap-2">
                         <Badge className="bg-black/60 text-[10px] uppercase tracking-wide text-teal-200">
                           Video
                         </Badge>
 
-                        <button
-                          type="button"
+                        {/* ✅ FIX: no button inside button */}
+                        <span
+                          role="button"
+                          tabIndex={0}
                           onClick={(e) => {
                             e.preventDefault();
                             e.stopPropagation();
                             toggleLessonCompleted(l.id);
                           }}
-                          className="text-[11px] font-semibold text-slate-200 underline decoration-white/20 underline-offset-4 hover:text-teal-200"
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter" || e.key === " ") {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              toggleLessonCompleted(l.id);
+                            }
+                          }}
+                          className="cursor-pointer text-[11px] font-semibold text-slate-200 underline decoration-white/20 underline-offset-4 hover:text-teal-200"
                         >
-                          {done ? "Marcar pendiente" : "Marcar completada"}
-                        </button>
+                          {done ? "Segna come da fare" : "Segna come completata"}
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -347,26 +358,21 @@ export default function IngenieriaDePromptsPage() {
       {/* Syllabus */}
       <section className="space-y-4">
         <h2 className="text-lg sm:text-xl font-semibold text-slate-50">
-          Temario del curso
+          Programma del corso
         </h2>
 
         <div className="grid gap-4 md:grid-cols-2">
           {course.syllabus.map((m) => (
-            <Card
-              key={m.id}
-              className="border-white/10 bg-slate-950/70"
-            >
+            <Card key={m.id} className="border-white/10 bg-slate-950/70 min-w-0">
               <CardHeader className="pb-2">
-                <h3 className="text-sm font-semibold text-slate-50">
-                  {m.title}
-                </h3>
+                <h3 className="text-sm font-semibold text-slate-50">{m.title}</h3>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-slate-200">
                   {m.bullets.map((b) => (
-                    <li key={b} className="flex gap-2">
+                    <li key={b} className="flex gap-2 min-w-0">
                       <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-teal-300/80" />
-                      <span className="text-sm text-slate-300">{b}</span>
+                      <span className="text-sm text-slate-300 break-words">{b}</span>
                     </li>
                   ))}
                 </ul>
