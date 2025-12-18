@@ -1,7 +1,7 @@
 // src/app/login/page.jsx
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Lock, ArrowRight, Eye, EyeOff } from "lucide-react";
@@ -11,35 +11,80 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
+// Normalizza TUTTO ciò che di solito rompe il copia/incolla su mobile
+function normalizeKey(raw) {
+  if (!raw) return "";
+
+  return String(raw)
+    .trim()
+    .replace(/\u200B|\u200C|\u200D|\uFEFF/g, "") // caratteri a larghezza zero
+    .replace(/\r?\n|\r/g, "") // a capo
+    .replace(/\s+/g, "") // spazi
+    .replace(/[“”]/g, '"')
+    .replace(/[‘’]/g, "'")
+    .toUpperCase();
+}
+
 export default function LoginPage() {
   const [code, setCode] = useState("");
   const [showCode, setShowCode] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [hint, setHint] = useState("");
   const router = useRouter();
+
+  const normalizedCode = useMemo(() => normalizeKey(code), [code]);
+
+  const setFriendlyError = (msg) => {
+    setError(msg);
+    setHint("");
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+    setHint("");
+
+    const n = normalizedCode;
+
+    if (!n) {
+      setFriendlyError("Incolla la tua CHIAVE completa per entrare.");
+      return;
+    }
+
+    // Se il tuo formato ha sempre questo prefisso, aiuta a rilevare incolli incompleti
+    const expectedPrefix = "MI_CODIGO_DE_COMPRA_";
+    if (!n.startsWith(expectedPrefix)) {
+      setFriendlyError(
+        "Questa CHIAVE non sembra completa. Copiala di nuovo da Hotmart e incollala così com’è (senza digitarla)."
+      );
+      return;
+    }
+
     setLoading(true);
 
     try {
       const res = await fetch("/api/auth", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ code }),
+        body: JSON.stringify({ code: n }), // invia SEMPRE normalizzato
       });
 
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        setError(data?.message || "Codice non valido.");
+        setFriendlyError(
+          data?.message ||
+            "La CHIAVE non è stata validata. Copia la CHIAVE COMPLETA e incollala di nuovo (senza spazi)."
+        );
         setLoading(false);
         return;
       }
 
       router.push("/curso");
-    } catch (err) {
-      setError("Si è verificato un errore. Riprova.");
+    } catch {
+      setFriendlyError(
+        "Si è verificato un errore di connessione. Riprova tra qualche secondo."
+      );
       setLoading(false);
     }
   };
@@ -72,21 +117,27 @@ export default function LoginPage() {
             </h1>
 
             {/* Subtitle */}
-            <p className="mx-auto mb-10 max-w-md text-base leading-relaxed text-slate-200 sm:text-lg">
-              Inserisci il codice di acquisto che hai ricevuto all’interno del
-              prodotto su Hotmart. Lo trovi nel corso che ti è arrivato via
-              email, nell’accesso.
+            <p className="mx-auto mb-8 max-w-md text-base leading-relaxed text-slate-200 sm:text-lg">
+              🔐 Incolla la tua <strong>CHIAVE UNICA</strong> (copiala da Hotmart).
+              Non digitarla.
             </p>
 
+            {/* Mini aviso */}
+            <div className="mx-auto mb-6 max-w-md rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-left text-sm text-slate-200">
+              ✅ <strong>Hai già accesso.</strong> Se non entra, quasi sempre è perché manca un carattere.
+              <br />
+              Ricopia la CHIAVE completa e incollala di nuovo.
+            </div>
+
             {/* Form */}
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-5">
               <div className="mx-auto max-w-md text-left">
                 <Label
                   htmlFor="code"
                   className="flex items-center gap-2 text-base text-slate-100"
                 >
                   <Lock className="h-5 w-5" />
-                  Codice di acquisto
+                  CHIAVE UNICA di accesso
                 </Label>
 
                 {/* Input + eye toggle */}
@@ -95,10 +146,24 @@ export default function LoginPage() {
                     id="code"
                     type={showCode ? "text" : "password"}
                     autoComplete="off"
+                    autoCorrect="off"
+                    autoCapitalize="characters"
+                    spellCheck={false}
+                    inputMode="text"
                     value={code}
-                    onChange={(e) => setCode(e.target.value)}
+                    onChange={(e) => {
+                      setError("");
+                      setHint("");
+                      setCode(e.target.value);
+                    }}
+                    onPaste={() => {
+                      setTimeout(
+                        () => setHint('✅ Incollato. Ora tocca “ENTRA NEL CORSO”.'),
+                        0
+                      );
+                    }}
                     className="h-14 rounded-xl border-white/20 bg-black/30 pr-12 text-lg text-slate-100 placeholder:text-slate-500 focus-visible:ring-[#36C5FF]"
-                    placeholder="Incolla qui il tuo codice..."
+                    placeholder="Incolla qui la tua CHIAVE..."
                     required
                   />
 
@@ -106,7 +171,7 @@ export default function LoginPage() {
                     type="button"
                     onClick={() => setShowCode((v) => !v)}
                     className="absolute right-3 top-1/2 -translate-y-1/2 rounded-md p-2 text-slate-300 transition hover:bg-white/5 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#36C5FF]"
-                    aria-label={showCode ? "Nascondi codice" : "Mostra codice"}
+                    aria-label={showCode ? "Nascondi chiave" : "Mostra chiave"}
                     title={showCode ? "Nascondi" : "Mostra"}
                   >
                     {showCode ? (
@@ -116,7 +181,25 @@ export default function LoginPage() {
                     )}
                   </button>
                 </div>
+
+                <div className="mt-2 text-xs text-slate-400">
+                  <span className="font-semibold text-slate-300">Tip mobile:</span>{" "}
+                  rimuoviamo automaticamente gli spazi.
+                </div>
+
+                {normalizedCode && (
+                  <div className="mt-2 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-200">
+                    <span className="text-slate-400">Rilevato:</span>{" "}
+                    <span className="font-mono break-all">{normalizedCode}</span>
+                  </div>
+                )}
               </div>
+
+              {hint && (
+                <p className="mx-auto max-w-md rounded-md border border-emerald-500/20 bg-emerald-950/30 px-3 py-2 text-sm text-emerald-300">
+                  {hint}
+                </p>
+              )}
 
               {error && (
                 <p className="mx-auto max-w-md rounded-md border border-red-500/20 bg-red-950/40 px-3 py-2 text-sm text-red-400">
@@ -126,17 +209,16 @@ export default function LoginPage() {
 
               <Button
                 type="submit"
-                disabled={loading || !code}
+                disabled={loading || !normalizedCode}
                 className="group mx-auto flex w-full max-w-md justify-center rounded-full bg-gradient-to-r from-[#00E7FF] via-[#36C5FF] to-[#A855FF] py-6 text-lg text-white shadow-[0_0_40px_rgba(88,28,135,0.5)] transition-all hover:brightness-110 disabled:opacity-60"
               >
                 {loading ? "Verifica in corso..." : "ENTRA NEL CORSO"}
                 <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
               </Button>
 
-              <p className="mx-auto mt-4 max-w-md text-sm text-slate-400">
-                Se non trovi il tuo codice, controlla la cartella Spam o
-                Promozioni dell’email con cui hai ricevuto l’accesso al tuo
-                corso su Hotmart.
+              <p className="mx-auto mt-2 max-w-md text-sm text-slate-400">
+                Se non trovi la tua CHIAVE, controlla Spam o Promozioni nell’email
+                in cui hai ricevuto l’accesso.
               </p>
             </form>
           </CardContent>
